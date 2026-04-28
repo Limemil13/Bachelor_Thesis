@@ -1,3 +1,5 @@
+## README will be changed, just random thougths are in there for now, will be cleaned up
+
 # Bachelor Thesis
 
 I will document my Thesis here
