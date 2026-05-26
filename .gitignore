@@ -1,0 +1,15 @@
+*.fna
+*.gff
+*.fastq
+*.fastq.gz
+*.sra
+*.zip
+
+work/
+.nextflow*
+pro_panel/
+pro_mode_data/
+
+transcriptome/
+data/
+*_quant/

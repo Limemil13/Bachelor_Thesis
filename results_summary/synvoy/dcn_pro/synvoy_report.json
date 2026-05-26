@@ -1,0 +1,414 @@
+{
+  "genome_qc": [
+    {
+      "genome": "chicken.fna",
+      "n50": 90861225,
+      "l50": 4,
+      "total_len": 1053332251,
+      "num_contigs": 214,
+      "status": "PASS",
+      "msg": "OK",
+      "thresholds": {
+        "min_n50": 5000,
+        "max_contigs": 500000
+      }
+    },
+    {
+      "genome": "mouse.fna",
+      "n50": 130530862,
+      "l50": 9,
+      "total_len": 2728222451,
+      "num_contigs": 61,
+      "status": "PASS",
+      "msg": "OK",
+      "thresholds": {
+        "min_n50": 5000,
+        "max_contigs": 500000
+      }
+    },
+    {
+      "genome": "zebrafish.fna",
+      "n50": 59305174,
+      "l50": 11,
+      "total_len": 1448808562,
+      "num_contigs": 26,
+      "status": "PASS",
+      "msg": "OK",
+      "thresholds": {
+        "min_n50": 5000,
+        "max_contigs": 500000
+      }
+    },
+    {
+      "genome": "cow.fna",
+      "n50": 103308737,
+      "l50": 12,
+      "total_len": 2770686120,
+      "num_contigs": 1958,
+      "status": "PASS",
+      "msg": "OK",
+      "thresholds": {
+        "min_n50": 5000,
+        "max_contigs": 500000
+      }
+    }
+  ],
+  "qc_summary": {
+    "total_genomes": 4,
+    "pass": 4,
+    "fail": 0,
+    "unknown": 0,
+    "failed_genomes": [],
+    "thresholds": {
+      "min_n50": 5000,
+      "max_contigs": 500000
+    },
+    "qc_fail_policy": "drop",
+    "failed_qc_genomes_with_downstream_results": []
+  },
+  "synteny_results": {
+    "genes_discovered": {
+      "chicken": 11,
+      "cow": 22,
+      "zebrafish": 21,
+      "mouse": 22
+    },
+    "synteny_hits_count": {}
+  },
+  "annotations": {
+    "per_genome": [
+      {
+        "genome": "chicken",
+        "total_annotations": 11,
+        "role_counts": {
+          "flanking": 11
+        },
+        "goi_annotations": 0,
+        "resolved_goi_annotations": 0,
+        "ambiguous_goi_annotations": 0,
+        "goi_confidence_counts": {
+          "LOW": 0,
+          "HIGH": 0
+        },
+        "goi_class_counts": {},
+        "evidence_type_counts": {
+          "flanking_hit_span": 1,
+          "flanking_miniprot": 2,
+          "rearranged_flanking": 5,
+          "rearranged_flanking_fallback": 3
+        },
+        "model_status_counts": {
+          "partial": 2,
+          "complete": 8,
+          "fragment": 1
+        }
+      },
+      {
+        "genome": "cow",
+        "total_annotations": 22,
+        "role_counts": {
+          "flanking": 21,
+          "goi": 1
+        },
+        "goi_annotations": 1,
+        "resolved_goi_annotations": 0,
+        "ambiguous_goi_annotations": 1,
+        "goi_confidence_counts": {
+          "LOW": 1,
+          "MEDIUM": 0,
+          "HIGH": 0
+        },
+        "goi_class_counts": {
+          "ambiguous_goi_family_member": 1
+        },
+        "evidence_type_counts": {
+          "flanking_hit_span": 2,
+          "fallback_hit_span": 1,
+          "rearranged_flanking": 18,
+          "rearranged_flanking_fallback": 1
+        },
+        "model_status_counts": {
+          "fragment": 3,
+          "partial": 5,
+          "complete": 14
+        }
+      },
+      {
+        "genome": "mouse",
+        "total_annotations": 22,
+        "role_counts": {
+          "goi": 2,
+          "flanking": 20
+        },
+        "goi_annotations": 2,
+        "resolved_goi_annotations": 0,
+        "ambiguous_goi_annotations": 2,
+        "goi_confidence_counts": {
+          "LOW": 2,
+          "HIGH": 0
+        },
+        "goi_class_counts": {
+          "ambiguous_goi_family_member": 2
+        },
+        "evidence_type_counts": {
+          "fallback_hit_span": 2,
+          "flanking_hit_span": 2,
+          "rearranged_flanking": 18
+        },
+        "model_status_counts": {
+          "partial": 9,
+          "fragment": 3,
+          "complete": 10
+        }
+      },
+      {
+        "genome": "zebrafish",
+        "total_annotations": 21,
+        "role_counts": {
+          "goi": 2,
+          "flanking": 19
+        },
+        "goi_annotations": 2,
+        "resolved_goi_annotations": 0,
+        "ambiguous_goi_annotations": 2,
+        "goi_confidence_counts": {
+          "LOW": 2,
+          "HIGH": 0,
+          "MEDIUM": 0
+        },
+        "goi_class_counts": {
+          "ambiguous_goi_family_member": 2
+        },
+        "evidence_type_counts": {
+          "fallback_hit_span": 2,
+          "flanking_miniprot": 2,
+          "rearranged_flanking": 16,
+          "rearranged_flanking_fallback": 1
+        },
+        "model_status_counts": {
+          "fragment": 4,
+          "partial": 3,
+          "complete": 14
+        }
+      }
+    ],
+    "total_annotations": 76,
+    "role_counts": {
+      "goi": 5,
+      "flanking": 71
+    },
+    "goi_confidence_counts": {
+      "LOW": 5
+    },
+    "goi_class_counts": {
+      "ambiguous_goi_family_member": 5
+    },
+    "goi_evidence_counts": {
+      "fallback_hit_span": 5
+    },
+    "evidence_type_counts": {
+      "fallback_hit_span": 5,
+      "flanking_miniprot": 4,
+      "rearranged_flanking": 57,
+      "rearranged_flanking_fallback": 5,
+      "flanking_hit_span": 5
+    },
+    "model_status_counts": {
+      "fragment": 11,
+      "partial": 19,
+      "complete": 46
+    },
+    "fallback_goi_annotations": 5,
+    "genomes_without_goi": [
+      "chicken"
+    ],
+    "genomes_with_only_ambiguous_goi": [
+      "cow",
+      "mouse",
+      "zebrafish"
+    ]
+  },
+  "regions": {
+    "per_genome": [
+      {
+        "genome": "chicken",
+        "total_regions": 4,
+        "confidence_counts": {
+          "LOW": 4
+        },
+        "selection_reason_counts": {
+          "score_floor": 3,
+          "unique_gene_floor": 1
+        },
+        "goi_anchor_regions": 3,
+        "best_score": 0.16044444444444445
+      },
+      {
+        "genome": "cow",
+        "total_regions": 6,
+        "confidence_counts": {
+          "LOW": 6
+        },
+        "selection_reason_counts": {
+          "score_floor": 6
+        },
+        "goi_anchor_regions": 6,
+        "best_score": 0.25452482405835175
+      },
+      {
+        "genome": "mouse",
+        "total_regions": 6,
+        "confidence_counts": {
+          "LOW": 6
+        },
+        "selection_reason_counts": {
+          "score_floor": 6
+        },
+        "goi_anchor_regions": 6,
+        "best_score": 0.24504281940372163
+      },
+      {
+        "genome": "zebrafish",
+        "total_regions": 6,
+        "confidence_counts": {
+          "MEDIUM": 1,
+          "LOW": 5
+        },
+        "selection_reason_counts": {
+          "score_floor": 6
+        },
+        "goi_anchor_regions": 6,
+        "best_score": 0.36944444444444446
+      }
+    ],
+    "total_regions": 22,
+    "confidence_counts": {
+      "LOW": 21,
+      "MEDIUM": 1
+    },
+    "selection_reason_counts": {
+      "score_floor": 21,
+      "unique_gene_floor": 1
+    },
+    "goi_anchor_regions": 21
+  },
+  "staging_diagnostics": {
+    "results_dir": "staged_results",
+    "results_dir_exists": true,
+    "dirs": {
+      "regions_fasta": {
+        "path": "staged_results/regions",
+        "exists": true,
+        "readable": true,
+        "entry_count": 12,
+        "pattern_match_count": 4,
+        "patterns": [
+          "*.faa",
+          "*.fna"
+        ],
+        "sample_entries": [
+          "chicken.fna.faa",
+          "chicken.fna.gff",
+          "chicken.fna.homology.tsv",
+          "cow.fna.faa",
+          "cow.fna.gff"
+        ],
+        "sample_matches": [
+          "chicken.fna.faa",
+          "cow.fna.faa",
+          "zebrafish.fna.faa",
+          "mouse.fna.faa"
+        ]
+      },
+      "regions_gff": {
+        "path": "staged_results/regions",
+        "exists": true,
+        "readable": true,
+        "entry_count": 12,
+        "pattern_match_count": 4,
+        "patterns": [
+          "*.gff",
+          "*.gff3"
+        ],
+        "sample_entries": [
+          "chicken.fna.faa",
+          "chicken.fna.gff",
+          "chicken.fna.homology.tsv",
+          "cow.fna.faa",
+          "cow.fna.gff"
+        ],
+        "sample_matches": [
+          "zebrafish.fna.gff",
+          "cow.fna.gff",
+          "mouse.fna.gff",
+          "chicken.fna.gff"
+        ]
+      },
+      "scores": {
+        "path": "staged_results/scores",
+        "exists": true,
+        "readable": true,
+        "entry_count": 4,
+        "pattern_match_count": 4,
+        "patterns": [
+          "*.scores.tsv"
+        ],
+        "sample_entries": [
+          "chicken.fna.scores.tsv",
+          "cow.fna.scores.tsv",
+          "mouse.fna.scores.tsv",
+          "zebrafish.fna.scores.tsv"
+        ],
+        "sample_matches": [
+          "cow.fna.scores.tsv",
+          "chicken.fna.scores.tsv",
+          "zebrafish.fna.scores.tsv",
+          "mouse.fna.scores.tsv"
+        ]
+      },
+      "hits": {
+        "path": "staged_results/hits",
+        "exists": true,
+        "readable": true,
+        "entry_count": 1,
+        "pattern_match_count": 0,
+        "patterns": [
+          "*.m8"
+        ],
+        "sample_entries": [
+          "hits"
+        ],
+        "sample_matches": []
+      }
+    },
+    "match_counts": {
+      "fasta_files": 4,
+      "gff_files": 4,
+      "score_files": 4,
+      "hit_files": 0
+    },
+    "total_matches": 12,
+    "empty": false
+  },
+  "summary": {
+    "total_new_genes": 76,
+    "genomes_with_hits": 0,
+    "total_hits": 0,
+    "genomes_with_annotations": 4,
+    "total_annotations": 76,
+    "total_goi_annotations": 5,
+    "ambiguous_goi_annotations": 5,
+    "fallback_goi_annotations": 5,
+    "low_confidence_regions": 21,
+    "goi_absent_genomes": [
+      "chicken"
+    ],
+    "goi_ambiguous_only_genomes": [
+      "cow",
+      "mouse",
+      "zebrafish"
+    ],
+    "failed_qc_genomes_with_downstream_results": [],
+    "staging_empty": false
+  }
+}
