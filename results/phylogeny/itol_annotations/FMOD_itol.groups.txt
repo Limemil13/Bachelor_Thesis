@@ -1,0 +1,23 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Evolutionary_group
+COLOR	#000000
+STRIP_WIDTH	25
+MARGIN	5
+SHOW_INTERNAL	0
+DATA
+human_FMOD_XP_047272260.1	#d73027	Placental mammal
+mouse_FMOD_NP_067330.1	#d73027	Placental mammal
+rattus_norvegicus_FMOD_NP_542429.1	#d73027	Placental mammal
+bos_taurus_FMOD_XP_059731202.1	#d73027	Placental mammal
+chicken_FMOD_NP_990298.2	#fee08b	Bird
+anolis_carolinensis_FMOD_XP_008107883.2	#91cf60	Reptile
+frog_FMOD_XP_017947022.1	#66c2a5	Amphibian
+zebrafish_FMOD_XP_073767056.1	#4575b4	Ray-finned fish
+lepisosteus_oculatus_FMOD_XP_006628521.2	#4575b4	Ray-finned fish
+lamprey_FMOD_XP_075930353.1	#a6d854	Jawless vertebrate
+latimeria_chalumnae_FMOD_XP_006002318.1	#3288bd	Lobe-finned fish
+scyliorhinus_canicula_FMOD_XP_038675394.1	#984ea3	Cartilaginous fish
+whale_shark_FMOD_XP_048468126.1	#984ea3	Cartilaginous fish
+canis_lupus_familiaris_FMOD_XP_038441871.1	#d73027	Placental mammal
+monodelphis_domestica_FMOD_XP_001364906.1	#fc8d59	Marsupial

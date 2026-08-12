@@ -1,0 +1,21 @@
+gene	category	role_in_thesis
+EPYC	SLRP	main growth-plate-associated candidate
+FMOD	SLRP	main growth-plate-associated candidate
+BGN	SLRP	main candidate; highly expressed broader ECM gene
+OGN	SLRP	main growth-plate-associated candidate; requires careful curation
+PRELP	SLRP	main growth-plate-associated candidate
+OMD	SLRP	strong RNA-seq candidate; optional deeper analysis
+DCN	SLRP	comparison/background ECM gene
+LUM	SLRP	comparison/background ECM gene
+ASPN	SLRP	comparison/background ECM gene
+COL2A1	cartilage_marker	growth plate/cartilage positive control
+ACAN	cartilage_marker	growth plate/cartilage positive control
+SOX9	cartilage_marker	chondrocyte marker
+COMP	cartilage_marker	cartilage ECM marker
+MATN1	cartilage_marker	cartilage ECM marker
+COL9A1	cartilage_marker	cartilage collagen marker
+COL11A1	cartilage_marker	cartilage collagen marker
+ALB	tissue_control	liver/negative control for growth plate
+MYH6	tissue_control	heart control
+MBP	tissue_control	brain control
+KRT14	tissue_control	skin control

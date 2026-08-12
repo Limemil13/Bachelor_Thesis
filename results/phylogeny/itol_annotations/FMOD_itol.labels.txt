@@ -1,0 +1,18 @@
+LABELS
+SEPARATOR TAB
+DATA
+human_FMOD_XP_047272260.1	Human
+mouse_FMOD_NP_067330.1	Mouse
+rattus_norvegicus_FMOD_NP_542429.1	Rat
+bos_taurus_FMOD_XP_059731202.1	Cow
+chicken_FMOD_NP_990298.2	Chicken
+anolis_carolinensis_FMOD_XP_008107883.2	Anole
+frog_FMOD_XP_017947022.1	Frog
+zebrafish_FMOD_XP_073767056.1	Zebrafish
+lepisosteus_oculatus_FMOD_XP_006628521.2	Spotted gar
+lamprey_FMOD_XP_075930353.1	Lamprey
+latimeria_chalumnae_FMOD_XP_006002318.1	Coelacanth
+scyliorhinus_canicula_FMOD_XP_038675394.1	Catshark
+whale_shark_FMOD_XP_048468126.1	Whale shark
+canis_lupus_familiaris_FMOD_XP_038441871.1	Dog
+monodelphis_domestica_FMOD_XP_001364906.1	Opossum

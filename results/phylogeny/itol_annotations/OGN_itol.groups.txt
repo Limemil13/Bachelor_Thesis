@@ -1,0 +1,23 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Evolutionary_group
+COLOR	#000000
+STRIP_WIDTH	25
+MARGIN	5
+SHOW_INTERNAL	0
+DATA
+human_OGN_NP_148935.1	#d73027	Placental mammal
+mouse_OGN_NP_032786.1	#d73027	Placental mammal
+monodelphis_domestica_OGN_XP_056660002.1	#fc8d59	Marsupial
+amphioxus_OGN_XP_066265713.1	#bdbdbd	Outgroup chordate
+chicken_OGN_NP_989540.1	#fee08b	Bird
+anolis_carolinensis_OGN_XP_008103381.1	#91cf60	Reptile
+latimeria_chalumnae_OGN_XP_005987116.1	#3288bd	Lobe-finned fish
+callorhinchus_milii_OGN_XP_007907071.1	#984ea3	Cartilaginous fish
+scyliorhinus_canicula_OGN_XP_038668531.1	#984ea3	Cartilaginous fish
+whale_shark_OGN_XP_020377273.1	#984ea3	Cartilaginous fish
+frog_OGN_XP_002934273.1	#66c2a5	Amphibian
+zebrafish_OGN_NP_001013588.1	#4575b4	Ray-finned fish
+lepisosteus_oculatus_OGN_XP_006631165.2	#4575b4	Ray-finned fish
+canis_lupus_familiaris_OGN_XP_038383338.1	#d73027	Placental mammal
+bos_taurus_OGN_NP_776371.1	#d73027	Placental mammal

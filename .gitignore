@@ -1,15 +1,47 @@
-*.fna
-*.gff
+# Raw sequencing data
 *.fastq
 *.fastq.gz
+*.fq
+*.fq.gz
 *.sra
-*.zip
 
+# Large genome / annotation / database files
+*.fna
+*.gff
+*.gtf
+*.hmm
+*.h3f
+*.h3i
+*.h3m
+*.h3p
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# Salmon / transcriptome
+transcriptome/
+*_quant/
+*_index/
+
+# Nextflow / SynVoy heavy folders
 work/
 .nextflow*
 pro_panel/
 pro_mode_data/
+synvoy_tool/
 
-transcriptome/
-data/
-*_quant/
+# Python / IDE / OS
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary reports
+repo_ba_current_state.txt
+project_file_inventory.txt
+synteny_file_inventory.txt

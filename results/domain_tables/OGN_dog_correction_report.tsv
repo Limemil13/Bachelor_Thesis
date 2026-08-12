@@ -1,0 +1,16 @@
+species	accession	original_length	corrected_length	correction
+human	NP_148935.1	298	298	none
+mouse	NP_032786.1	298	298	none
+canis_lupus_familiaris	XP_038383338.1	361	297	trimmed_first_64_aa
+bos_taurus	NP_776371.1	299	299	none
+monodelphis_domestica	XP_056660002.1	288	288	none
+chicken	NP_989540.1	294	294	none
+anolis_carolinensis	XP_008103381.1	302	302	none
+frog	XP_002934273.1	294	294	none
+zebrafish	NP_001013588.1	292	292	none
+lepisosteus_oculatus	XP_006631165.2	295	295	none
+latimeria_chalumnae	XP_005987116.1	304	304	none
+callorhinchus_milii	XP_007907071.1	298	298	none
+scyliorhinus_canicula	XP_038668531.1	303	303	none
+amphioxus	XP_066265713.1	381	381	none
+whale_shark	XP_020377273.1	309	309	none

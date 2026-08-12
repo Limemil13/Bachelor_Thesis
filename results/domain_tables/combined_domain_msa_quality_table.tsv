@@ -1,0 +1,78 @@
+Gene	Species	Protein accession	Protein length	Gap percentage	MSA quality	Number of LRR-related domains	Domain quality	Detected domain families
+BGN	human	XP_016885213.1	368	14.62	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+BGN	mouse	NP_031568.2	369	14.39	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+BGN	rattus_norvegicus	NP_058783.1	369	14.39	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+BGN	canis_lupus_familiaris	NP_001003229.1	369	14.39	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+BGN	bos_taurus	XP_005227715.1	369	14.39	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+BGN	monodelphis_domestica	XP_001363160.2	356	17.4	Good	10	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8,LRR_9
+BGN	chicken	XP_414298.2	371	13.92	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+BGN	anolis_carolinensis	XP_062827322.1	371	13.92	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+BGN	frog	NP_001072552.1	369	14.39	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+BGN	zebrafish	NP_001001825.2	374	13.23	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+BGN	lepisosteus_oculatus	XP_069037386.1	362	16.01	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+BGN	latimeria_chalumnae	XP_064415290.1	367	14.85	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+BGN	callorhinchus_milii	NP_001279248.1	354	17.87	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_5,LRR_8
+BGN	scyliorhinus_canicula	XP_038636760.1	350	18.79	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_5,LRR_8
+BGN	lamprey	XP_075929720.1	411	4.64	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+BGN	whale_shark	XP_048463588.1	350	18.79	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_5,LRR_8
+EPYC	human	NP_004941.2	322	16.58	Good	5	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+EPYC	mouse	NP_031910.1	322	16.58	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+EPYC	rattus_norvegicus	NP_001101558.1	359	6.99	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+EPYC	canis_lupus_familiaris	XP_038414560.1	320	17.1	Good	5	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+EPYC	bos_taurus	XP_010803061.1	321	16.84	Good	5	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+EPYC	monodelphis_domestica	XP_056654622.1	318	17.62	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+EPYC	chicken	XP_025003921.1	332	13.99	Good	4	Good SLRP-like domain architecture	LRRNT,LRR_5,LRR_8
+EPYC	anolis_carolinensis	XP_003221176.1	317	17.88	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+EPYC	frog	XP_031753666.1	318	17.62	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+EPYC	zebrafish	XP_021330689.1	321	16.84	Good	5	Good SLRP-like domain architecture	LRR_4,LRR_5,LRR_8,LRR_9
+EPYC	lepisosteus_oculatus	XP_006633678.1	325	15.8	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+EPYC	latimeria_chalumnae	XP_006009490.1	330	14.51	Good	3	Good SLRP-like domain architecture	LRRNT,LRR_8
+EPYC	callorhinchus_milii	XP_007893502.1	325	15.8	Good	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+EPYC	scyliorhinus_canicula	XP_038636412.1	326	15.54	Good	2	Good SLRP-like domain architecture	LRR_8
+EPYC	whale_shark	XP_048463897.1	292	24.35	Good	2	Good SLRP-like domain architecture	LRR_8
+FMOD	human	XP_047272260.1	376	13.96	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+FMOD	mouse	NP_067330.1	376	13.96	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+FMOD	rattus_norvegicus	NP_542429.1	376	13.96	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+FMOD	canis_lupus_familiaris	XP_038441871.1	376	13.96	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+FMOD	bos_taurus	XP_059731202.1	376	13.96	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+FMOD	monodelphis_domestica	XP_001364906.1	374	14.42	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+FMOD	chicken	NP_990298.2	380	13.04	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+FMOD	anolis_carolinensis	XP_008107883.2	422	3.43	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+FMOD	frog	XP_017947022.1	357	18.31	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+FMOD	zebrafish	XP_073767056.1	362	17.16	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+FMOD	lepisosteus_oculatus	XP_006628521.2	353	19.22	Good	10	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+FMOD	latimeria_chalumnae	XP_006002318.1	351	19.68	Good	10	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8
+FMOD	scyliorhinus_canicula	XP_038675394.1	355	18.76	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+FMOD	lamprey	XP_075930353.1	359	17.85	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+FMOD	whale_shark	XP_048468126.1	355	18.76	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+OGN	human	NP_148935.1	298	45.82	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	mouse	NP_032786.1	298	45.82	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	canis_lupus_familiaris	XP_038383338.1	361	34.36	Watch	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	bos_taurus	NP_776371.1	299	45.64	Needs inspection	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	monodelphis_domestica	XP_056660002.1	288	47.64	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	chicken	NP_989540.1	294	46.55	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	anolis_carolinensis	XP_008103381.1	302	45.09	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	frog	XP_002934273.1	294	46.55	Needs inspection	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	zebrafish	NP_001013588.1	292	46.91	Needs inspection	1	Needs inspection	LRR_8
+OGN	lepisosteus_oculatus	XP_006631165.2	295	46.36	Needs inspection	2	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	latimeria_chalumnae	XP_005987116.1	304	44.73	Needs inspection	2	Good SLRP-like domain architecture	LRR_8
+OGN	callorhinchus_milii	XP_007907071.1	298	45.82	Needs inspection	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	scyliorhinus_canicula	XP_038668531.1	303	44.91	Needs inspection	4	Good SLRP-like domain architecture	LRR_4,LRR_8
+OGN	amphioxus	XP_066265713.1	381	30.73	Watch	12	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_5,LRR_8,LRR_9
+OGN	whale_shark	XP_020377273.1	309	43.82	Needs inspection	3	Good SLRP-like domain architecture	LRR_4,LRR_8
+PRELP	human	NP_958505.1	382	12.18	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	mouse	XP_006529147.1	378	13.1	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+PRELP	rattus_norvegicus	XP_008767794.1	377	13.33	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	canis_lupus_familiaris	XP_038441873.1	379	12.87	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+PRELP	bos_taurus	XP_005216708.2	381	12.41	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	monodelphis_domestica	XP_056671733.1	384	11.72	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+PRELP	chicken	XP_046760117.1	396	8.97	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	anolis_carolinensis	XP_008107880.1	369	15.17	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	frog	NP_001096208.1	374	14.02	Good	9	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_5,LRR_8,LRR_9
+PRELP	zebrafish	XP_001923590.2	378	13.1	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+PRELP	lepisosteus_oculatus	XP_015198331.2	367	15.63	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8,LRR_9
+PRELP	latimeria_chalumnae	XP_006002320.1	374	14.02	Good	6	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	callorhinchus_milii	XP_042198145.1	378	13.1	Good	8	Good SLRP-like domain architecture	LRRNT,LRR_14,LRR_4,LRR_8
+PRELP	scyliorhinus_canicula	XP_038675391.1	393	9.66	Good	7	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8
+PRELP	lamprey	XP_032810295.2	367	15.63	Good	3	Good SLRP-like domain architecture	LRR_8
+PRELP	whale_shark	XP_048468210.1	393	9.66	Good	5	Good SLRP-like domain architecture	LRRNT,LRR_4,LRR_8

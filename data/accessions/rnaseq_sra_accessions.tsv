@@ -1,0 +1,8 @@
+sample_id	tissue	condition	sra_accession	notes
+WT1	growth_plate	primary_growth_plate_chondrocytes	SRR34978216	mouse growth plate replicate 1
+WT2	growth_plate	primary_growth_plate_chondrocytes	SRR34978215	mouse growth plate replicate 2
+WT3	growth_plate	primary_growth_plate_chondrocytes	SRR34978214	mouse growth plate replicate 3
+skin_1	skin	comparison_tissue	SRR23517591	mouse skin comparison tissue
+heart_1	heart	comparison_tissue	SRR23517610	mouse heart comparison tissue
+kidney_1	kidney	comparison_tissue	SRR23517597	mouse kidney comparison tissue
+brain_1	brain	comparison_tissue	SRR23517588	mouse brain comparison tissue

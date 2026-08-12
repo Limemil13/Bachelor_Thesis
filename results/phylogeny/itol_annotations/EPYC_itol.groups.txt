@@ -1,0 +1,23 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Evolutionary_group
+COLOR	#000000
+STRIP_WIDTH	25
+MARGIN	5
+SHOW_INTERNAL	0
+DATA
+human_EPYC_NP_004941.2	#d73027	Placental mammal
+mouse_EPYC_NP_031910.1	#d73027	Placental mammal
+rattus_norvegicus_EPYC_NP_001101558.1	#d73027	Placental mammal
+monodelphis_domestica_EPYC_XP_056654622.1	#fc8d59	Marsupial
+chicken_EPYC_XP_025003921.1	#fee08b	Bird
+anolis_carolinensis_EPYC_XP_003221176.1	#91cf60	Reptile
+frog_EPYC_XP_031753666.1	#66c2a5	Amphibian
+zebrafish_EPYC_XP_021330689.1	#4575b4	Ray-finned fish
+lepisosteus_oculatus_EPYC_XP_006633678.1	#4575b4	Ray-finned fish
+callorhinchus_milii_EPYC_XP_007893502.1	#984ea3	Cartilaginous fish
+scyliorhinus_canicula_EPYC_XP_038636412.1	#984ea3	Cartilaginous fish
+whale_shark_EPYC_XP_048463897.1	#984ea3	Cartilaginous fish
+latimeria_chalumnae_EPYC_XP_006009490.1	#3288bd	Lobe-finned fish
+canis_lupus_familiaris_EPYC_XP_038414560.1	#d73027	Placental mammal
+bos_taurus_EPYC_XP_010803061.1	#d73027	Placental mammal

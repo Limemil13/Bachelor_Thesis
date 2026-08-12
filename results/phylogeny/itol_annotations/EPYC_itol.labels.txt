@@ -1,0 +1,18 @@
+LABELS
+SEPARATOR TAB
+DATA
+human_EPYC_NP_004941.2	Human
+mouse_EPYC_NP_031910.1	Mouse
+rattus_norvegicus_EPYC_NP_001101558.1	Rat
+monodelphis_domestica_EPYC_XP_056654622.1	Opossum
+chicken_EPYC_XP_025003921.1	Chicken
+anolis_carolinensis_EPYC_XP_003221176.1	Anole
+frog_EPYC_XP_031753666.1	Frog
+zebrafish_EPYC_XP_021330689.1	Zebrafish
+lepisosteus_oculatus_EPYC_XP_006633678.1	Spotted gar
+callorhinchus_milii_EPYC_XP_007893502.1	Elephant shark
+scyliorhinus_canicula_EPYC_XP_038636412.1	Catshark
+whale_shark_EPYC_XP_048463897.1	Whale shark
+latimeria_chalumnae_EPYC_XP_006009490.1	Coelacanth
+canis_lupus_familiaris_EPYC_XP_038414560.1	Dog
+bos_taurus_EPYC_XP_010803061.1	Cow
