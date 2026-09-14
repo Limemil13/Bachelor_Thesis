@@ -1,0 +1,8 @@
+Gene	Protein count	Analyzed length minimum	Analyzed length median	Analyzed length maximum	Mean forward identity percent	Minimum forward identity percent	Mean forward query coverage percent	Minimum forward query coverage percent	Mean within-gene pairwise identity percent	SLRP-like domain count	SignalP-positive count	SignalP-tested count	SignalP-pending count	Corrected sequence count	Watch count	Needs-inspection count	Data summary
+BGN	13	161	369	411	80.69	52.37	91.23	39.0	72.14	13	12	13	0	0	1	2	13/13 SLRP-like domain support; 12/13 tested SignalP-positive; 0 SignalP pending; 2 require inspection/rerun
+DCN	15	212	357	379	77.59	63.79	96.67	59.0	71.64	15	14	15	0	0	1	1	15/15 SLRP-like domain support; 14/15 tested SignalP-positive; 0 SignalP pending; 1 require inspection/rerun
+EPYC	15	292	322	359	72.05	49.56	94.73	64.0	62.17	15	15	15	0	0	2	1	15/15 SLRP-like domain support; 15/15 tested SignalP-positive; 0 SignalP pending; 1 require inspection/rerun
+FMOD	14	351	375.0	422	73.15	50.27	99.79	98.0	64.96	14	14	14	0	0	1	0	14/14 SLRP-like domain support; 14/14 tested SignalP-positive; 0 SignalP pending; 0 require inspection/rerun
+OGN	14	288	298.0	309	69.82	49.83	93.93	72.0	58.04	13	13	14	0	1	3	2	13/14 SLRP-like domain support; 13/14 tested SignalP-positive; 0 SignalP pending; 2 require inspection/rerun
+PRELP	16	367	378.0	396	75.36	46.04	90.56	81.0	66.2	16	16	16	0	0	5	0	16/16 SLRP-like domain support; 16/16 tested SignalP-positive; 0 SignalP pending; 0 require inspection/rerun
+LUM	16	338	342.5	359	68.0	48.09	98.31	94.0	60.21	16	16	16	0	0	0	0	16/16 SLRP-like domain support; 16/16 tested SignalP-positive; 0 SignalP pending; 0 require inspection/rerun

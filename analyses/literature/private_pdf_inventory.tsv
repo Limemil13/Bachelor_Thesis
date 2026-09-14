@@ -1,0 +1,23 @@
+file	primary_gene_or_scope	main_title_or_description	doi	status	notes
+bgn_closest.pdf	BGN;FMOD	Small leucine rich proteoglycans, a novel link to osteoclastogenesis	10.1038/s41598-017-12651-6	used	Primary Bgn/Fmod double-knockout and osteoclastogenesis study.
+biologyofslrps.pdf	general	The Biology of Small Leucine-rich Proteoglycans in Bone Pathophysiology	10.1074/jbc.R112.379602	used	Bone-focused review; background support, not primary evidence for a single gene.
+Developmental Dynamics - 2000 - Johnson - Expression and localization of PG‐Lb epiphycan during mouse development.pdf	EPYC	Expression and localization of PG-Lb/epiphycan during mouse development	10.1002/(SICI)1097-0177(199912)216:4/5<499::AID-DVDY18>3.0.CO;2-S	used	Primary developmental localization study; published in 1999 despite local filename.
+fmod.pdf	FMOD	Murine fibromodulin: cDNA and genomic structure, and age-related expression and distribution in the knee joint		used	Primary knee epiphysis/growth-plate expression and gene-structure study; PMCID PMC1221771.
+fmod_related.pdf	BGN;FMOD	OPG-Fc treatment partially rescues low bone mass phenotype in mature Bgn/Fmod deficient mice but is deleterious to the young mouse skeleton	10.1016/j.jsb.2020.107627	used	Follow-up Bgn/Fmod double-knockout skeletal study.
+fromgenetics_to_signaltransduction.pdf	general	Biological functions of the small leucine-rich proteoglycans: from genetics to signal transduction	10.1074/jbc.R800020200	used	Mechanistic review for ECM and signaling background.
+J of Bone   Mineral Res - 2009 - Wilda - A Comparison of the Expression Pattern of Five Genes of the Family of Small.pdf	BGN;FMOD;LUM	A comparison of the expression pattern of five small leucine-rich proteoglycan genes during mouse development	10.1359/jbmr.2000.15.11.2187	used	Primary comparative developmental expression study; publication year 2000 despite local filename.
+J of Bone   Mineral Res - 2013 - Rucci - Proline arginine‐rich end leucine‐rich repeat protein N‐terminus is a novel.pdf	PRELP	PRELP N-terminus is an osteoclast antagonist that counteracts bone loss	10.1002/jbmr.1951	used	Primary peptide/bone-loss study.
+lum.pdf	LUM	Lumican inhibits collagen deposition in tissue engineered cartilage	10.1016/j.matbio.2008.04.002	used	Primary cartilage/collagen-fibril study.
+lum_articular_cartilage.pdf	FMOD;LUM	Catabolism of fibromodulin in developmental rudiment and pathologic articular cartilage	10.3390/ijms20030579	used	Primary localization and proteolysis study including growth plate, FMOD, and LUM.
+lum_osteoclastogenesis.pdf	LUM	Lumican inhibits osteoclastogenesis and bone resorption by suppressing Akt activity	10.3390/ijms22094717	used	Primary in-vitro osteoclast study.
+mainOGN_evolution.pdf	OGN	Vertebrate SLRP family evolution and the subfunctionalization of osteoglycin gene duplicates in teleost fish	10.1186/s12862-018-1310-2	used	Primary comparative/evolutionary study.
+modern_biology_behindLUM.pdf	LUM	Lumican, a multifunctional cell instructive biomarker proteoglycan	10.3390/ijms25052825	background	Broad recent review; only skeletal/ECM portions are relevant here.
+more_prelp.pdf	PRELP	The glycosaminoglycan-binding domain of PRELP acts as a cell type-specific NF-kappaB inhibitor that impairs osteoclastogenesis	10.1083/jcb.200906014	used	Primary mechanistic osteoclastogenesis study.
+murine_prelp.pdf	PRELP	Characterization and expression of murine PRELP	10.1016/S0945-053X(01)00165-2	used	Primary mouse gene-structure and cartilage-expression study.
+ogn_main.pdf	OGN	BMP-1/Tolloid-related metalloproteinases process osteoglycin and enhance collagen-fibrillogenesis regulation	10.1074/jbc.M406630200	used	Primary biochemical study.
+old_lumican.pdf	LUM	Lumican is a major proteoglycan component of the bone matrix	10.1016/S0945-053X(02)00027-6	used	Primary osteoblast/bone-matrix expression study.
+prelp.pdf	PRELP	The gene organization, chromosome location, and expression of a 55-kDa matrix protein (PRELP) of human articular cartilage	10.1006/geno.1996.0605	used	Primary human gene-organization and cartilage-expression study.
+prelp_osteoblastic.pdf	PRELP	PRELP promotes osteoblastic differentiation through the beta-catenin pathway	10.1016/j.bbrc.2016.01.106	used	Primary osteoblast differentiation study.
+slrps.pdf	general	Proteoglycan form and function: a comprehensive nomenclature of proteoglycans	10.1016/j.matbio.2015.02.003	used	General nomenclature and functional background review.
+teleostfish.pdf	OGN	Vertebrate SLRP family evolution and the subfunctionalization of osteoglycin gene duplicates in teleost fish	10.1186/s12862-018-1310-2	duplicate	Byte-equivalent article content to mainOGN_evolution.pdf; count once.
+

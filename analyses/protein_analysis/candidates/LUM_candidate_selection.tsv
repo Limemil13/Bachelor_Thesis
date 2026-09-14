@@ -1,0 +1,18 @@
+gene	species	raw_best_hit	raw_best_hit_length	reverse_best_hit	reciprocal_pass	included_in_canonical_panel	selected_accession	selected_length	selection_rationale	manual_review_flag
+LUM	human	NP_002336.1	338	NP_002336.1	yes	yes	NP_002336.1	338	reciprocal_best_hit_returns_human_LUM	
+LUM	mouse	NP_032550.2	338	NP_002336.1	yes	yes	NP_032550.2	338	reciprocal_best_hit_returns_human_LUM	
+LUM	rattus_norvegicus	NP_112312.1	338	NP_002336.1	yes	yes	NP_112312.1	338	reciprocal_best_hit_returns_human_LUM	
+LUM	canis_lupus_familiaris	XP_038414561.1	338	NP_002336.1	yes	yes	XP_038414561.1	338	reciprocal_best_hit_returns_human_LUM	
+LUM	bos_taurus	XP_059742069.1	381	NP_002336.1	yes	yes	NP_776359.1	342	curated_RefSeq_precursor_preferred_over_43aa_extended_X1_model	
+LUM	monodelphis_domestica	XP_001368917.2	341	NP_002336.1	yes	yes	XP_001368917.2	341	reciprocal_best_hit_returns_human_LUM	
+LUM	chicken	NP_001263286.1	343	NP_002336.1	yes	yes	NP_001263286.1	343	reciprocal_best_hit_returns_human_LUM	
+LUM	anolis_carolinensis	XP_003221093.1	349	NP_002336.1	yes	yes	XP_003221093.1	349	reciprocal_best_hit_returns_human_LUM	
+LUM	frog	NP_001011006.1	353	NP_002336.1	yes	yes	NP_001011006.1	353	reciprocal_best_hit_returns_human_LUM	
+LUM	zebrafish	NP_001002059.1	344	NP_002336.1	yes	yes	NP_001002059.1	344	reciprocal_best_hit_returns_human_LUM	
+LUM	lepisosteus_oculatus	XP_015208177.1	344	NP_002336.1	yes	yes	XP_015208177.1	344	reciprocal_best_hit_returns_human_LUM	
+LUM	latimeria_chalumnae	XP_006009488.1	345	NP_002336.1	yes	yes	XP_006009488.1	345	reciprocal_best_hit_returns_human_LUM	
+LUM	callorhinchus_milii	XP_007893500.1	340	NP_002336.1	yes	yes	XP_007893500.1	340	reciprocal_best_hit_returns_human_LUM	
+LUM	scyliorhinus_canicula	XP_038636708.1	339	NP_002336.1	yes	yes	XP_038636708.1	339	reciprocal_best_hit_returns_human_LUM	
+LUM	lamprey	XP_075930353.1	359	NP_002336.1	yes	yes	XP_075930353.1	359	reciprocal_best_hit_returns_human_LUM	shared_with_previous_FMOD_panel;deep_lineage_class_II_ambiguity
+LUM	amphioxus	XP_066272062.1	654	XP_005270514.1	no	no			top_hit_is_654aa_non_LUM_and_reverse_best_hit_is_XP_005270514.1	no_defensible_full_length_reciprocal_LUM_candidate
+LUM	whale_shark	XP_048464015.1	343	NP_002336.1	yes	yes	XP_048464015.1	343	reciprocal_best_hit_returns_human_LUM	

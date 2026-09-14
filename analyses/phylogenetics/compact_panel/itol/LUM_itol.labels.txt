@@ -1,0 +1,19 @@
+LABELS
+SEPARATOR TAB
+DATA
+human_LUM_NP_002336.1	Human
+mouse_LUM_NP_032550.2	Mouse
+rattus_norvegicus_LUM_NP_112312.1	Rat
+bos_taurus_LUM_NP_776359.1	Cow
+monodelphis_domestica_LUM_XP_001368917.2	Opossum
+chicken_LUM_NP_001263286.1	Chicken
+anolis_carolinensis_LUM_XP_003221093.1	Anole
+frog_LUM_NP_001011006.1	Frog
+zebrafish_LUM_NP_001002059.1	Zebrafish
+lepisosteus_oculatus_LUM_XP_015208177.1	Spotted gar
+callorhinchus_milii_LUM_XP_007893500.1	Elephant shark
+scyliorhinus_canicula_LUM_XP_038636708.1	Catshark
+whale_shark_LUM_XP_048464015.1	Whale shark
+lamprey_LUM_XP_075930353.1	Lamprey
+latimeria_chalumnae_LUM_XP_006009488.1	Coelacanth
+canis_lupus_familiaris_LUM_XP_038414561.1	Dog

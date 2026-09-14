@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-15	flanking	SYT2	gene-SYT2	202590596	202710454	-	630174	protein_coding	synaptotagmin 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-14	flanking	KDM5B	gene-KDM5B	202724495	202808421	-	532207	protein_coding	lysine demethylase 5B
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-13	flanking	LOC124904583	gene-LOC124904583	202810238	202825935	-	514693	protein_coding	uncharacterized LOC124904583
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-12	flanking	RABIF	gene-RABIF	202878282	202889149	-	451479	protein_coding	RAB interacting factor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-11	flanking	KLHL12	gene-KLHL12	202891120	202928599	-	412029	protein_coding	kelch like family member 12
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-10	flanking	ADIPOR1	gene-ADIPOR1	202940825	202958572	-	382056	protein_coding	adiponectin receptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-9	flanking	CYB5R1	gene-CYB5R1	202961873	202967257	-	373371	protein_coding	cytochrome b5 reductase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-8	flanking	TMEM183A	gene-TMEM183A	203007374	203024848	+	315780	protein_coding	transmembrane protein 183A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-7	flanking	PPFIA4	gene-PPFIA4	203026491	203078736	+	261892	protein_coding	PPFI scaffold protein A4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-6	flanking	MYOG	gene-MYOG	203083129	203086012	-	254616	protein_coding	myogenin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-5	flanking	ADORA1	gene-ADORA1	203127726	203167405	+	173223	protein_coding	adenosine A1 receptor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-4	flanking	MYBPH	gene-MYBPH	203167811	203179214	-	161414	protein_coding	myosin binding protein H
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-3	flanking	CHI3L1	gene-CHI3L1	203178931	203186704	-	153924	protein_coding	chitinase 3 like 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-2	flanking	CHIT1	gene-CHIT1	203216079	203230099	-	110529	protein_coding	chitinase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-1	flanking	BTG2	gene-BTG2	203305519	203309602	+	31026	protein_coding	BTG anti-proliferation factor 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	0	focal	FMOD	gene-FMOD	203340628	203351122	-	0	protein_coding	fibromodulin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	1	flanking	PRELP	gene-PRELP	203475806	203491352	+	124684	protein_coding	proline and arginine rich end leucine rich repeat protein
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	2	flanking	OPTC	gene-OPTC	203494153	203508949	+	143031	protein_coding	opticin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	3	flanking	ATP2B4	gene-ATP2B4	203626832	203744081	+	275710	protein_coding	ATPase plasma membrane Ca2+ transporting 4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	4	flanking	LAX1	gene-LAX1	203765183	203776372	+	414061	protein_coding	lymphocyte transmembrane adaptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	5	flanking	ZBED6	gene-ZBED6	203795623	203854124	+	444501	protein_coding	zinc finger BED-type containing 6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	6	flanking	ZC3H11A	gene-ZC3H11A	203795623	203854124	+	444501	protein_coding	zinc finger CCCH-type containing 11A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	7	flanking	LOC128031836	gene-LOC128031836	203802094	203802192	+	450972	protein_coding	uncharacterized LOC128031836
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	8	flanking	SNRPE	gene-SNRPE	203861599	203871152	+	510477	protein_coding	small nuclear ribonucleoprotein polypeptide E
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	9	flanking	SOX13	gene-SOX13	204073115	204127743	+	721993	protein_coding	SRY-box transcription factor 13
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	10	flanking	ETNK2	gene-ETNK2	204131062	204152044	-	779940	protein_coding	ethanolamine kinase 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	11	flanking	REN	gene-REN	204154819	204166337	-	803697	protein_coding	renin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	12	flanking	KISS1	gene-KISS1	204190341	204196491	-	839219	protein_coding	KiSS-1 metastasis suppressor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	13	flanking	GOLT1A	gene-GOLT1A	204198163	204213988	-	847041	protein_coding	golgi transport 1A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	14	flanking	PLEKHA6	gene-PLEKHA6	204218853	204378168	-	867731	protein_coding	pleckstrin homology domain containing A6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	15	flanking	PPP1R15B	gene-PPP1R15B	204395826	204411817	-	1044704	protein_coding	protein phosphatase 1 regulatory subunit 15B
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-15	flanking	gpkow	gene-gpkow	43455744	43482093	-	865091	protein_coding	G patch domain and KOW motifs
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-14	flanking	magixb	gene-magixb	43485650	43664810	+	682374	protein_coding	MAGI family member, X-linked b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-13	flanking	iqsec2b	gene-iqsec2b	43666581	43842636	+	504548	protein_coding	IQ motif and Sec7 domain ArfGEF 2b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-12	flanking	kdm5c	gene-kdm5c	43848155	43891236	+	455948	protein_coding	lysine demethylase 5C
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-11	flanking	renbp	gene-renbp	43895603	43908487	-	438697	protein_coding	renin binding protein
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-10	flanking	si:ch211-218o21.4	gene-si:ch211-218o21.4	43911566	43920433	-	426751	protein_coding	si:ch211-218o21.4
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-9	flanking	zgc:162200	gene-zgc:162200	43924339	43969735	-	377449	protein_coding	zgc:162200
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-8	flanking	ren	gene-ren	43976131	43997386	+	349798	protein_coding	renin
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-7	flanking	csf1b	gene-csf1b	44033129	44066980	+	280204	protein_coding	colony stimulating factor 1b (macrophage)
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-6	flanking	LOC141375882	gene-LOC141375882	44075593	44080285	-	266899	protein_coding	uncharacterized LOC141375882
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-5	flanking	rbm39b	gene-rbm39b	44096387	44114449	-	232735	protein_coding	RNA binding motif protein 39b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-4	flanking	rh50	gene-rh50	44124034	44128163	-	219021	protein_coding	Rh50-like protein
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-3	flanking	slc12a5b	gene-slc12a5b	44149091	44255672	-	91512	protein_coding	solute carrier family 12 member 5b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-2	flanking	eif2d	gene-eif2d	44312187	44326756	-	20428	protein_coding	eukaryotic translation initiation factor 2D
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	-1	flanking	mapkapk2b	gene-mapkapk2b	44329683	44346603	+	581	protein_coding	MAPK activated protein kinase 2b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	0	focal	fmodb	gene-fmodb	44347184	44361445	+	0	protein_coding	fibromodulin b
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	1	flanking	or90j1	gene-or90j1	44392472	44393392	+	31027	protein_coding	odorant receptor, family 90, subfamily J, member 1
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	2	flanking	adrb3a	gene-adrb3a	44564974	44603539	+	203529	protein_coding	adrenoceptor beta 3a
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	3	flanking	npm2a	gene-npm2a	44614009	44620023	+	252564	protein_coding	nucleophosmin/nucleoplasmin, 2a
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	4	flanking	got1l1	gene-got1l1	44620212	44637308	+	258767	protein_coding	glutamic-oxaloacetic transaminase 1 like 1
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	5	flanking	prlhr2a	gene-prlhr2a	44770992	44815188	+	409547	protein_coding	prolactin releasing hormone receptor 2a
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	6	flanking	rab11fip1a	gene-rab11fip1a	44868921	44913854	-	507476	protein_coding	RAB11 family interacting protein 1 (class I) a
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	7	flanking	adgra2	gene-adgra2	44918228	45050946	-	556783	protein_coding	adhesion G protein-coupled receptor A2
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	8	flanking	pdlim2	gene-pdlim2	45082221	45210346	-	720776	protein_coding	PDZ and LIM domain 2 (mystique)
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	9	flanking	LOC141375894	gene-LOC141375894	45179015	45189538	+	817570	protein_coding	uncharacterized LOC141375894
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	10	flanking	sorbs3	gene-sorbs3	45212005	45295795	-	850560	protein_coding	sorbin and SH3 domain containing 3
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	11	flanking	LOC101885672	gene-LOC101885672	45297681	45299844	-	936236	protein_coding	E3 ubiquitin-protein ligase NEURL3
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	12	flanking	nkx6.3	gene-nkx6.3	45308376	45311050	+	946931	protein_coding	NK6 homeobox 3
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	13	flanking	inpp5l	gene-inpp5l	45314411	45371273	-	952966	protein_coding	inositol polyphosphate-5-phosphatase L
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	14	flanking	LOC101885966	gene-LOC101885966	45379479	45385825	+	1018034	protein_coding	C2 calcium-dependent domain-containing protein 4C
+zebrafish_FMOD	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	fmodb@NC_133183.1	NC_133183.1	15	flanking	foxb2	gene-foxb2	45397902	45401204	-	1036457	protein_coding	forkhead box B2

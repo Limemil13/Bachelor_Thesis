@@ -1,0 +1,217 @@
+gene	species	rank_within_report	chromosome	start	end	identity_percent	confidence	original_goi_class	final_goi_class	owning_gene	inferred_paralog	model_status
+BGN	anole	1	NC_085842.1	182551953	182589982	81.9	HIGH	confident_goi	confident_goi	gene-BGN		complete
+BGN	anole	2	NC_085842.1	182419221	182422441	32.7	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	fragment
+BGN	coelacanth	1	NC_088143.1	171152041	171190248	75.3	HIGH	confident_goi	confident_goi	gene-BGN		complete
+BGN	cow	1	NC_037357.1	36736953	36741346	94.6	HIGH	confident_goi	confident_goi	gene-BGN		complete
+BGN	cow	2	NC_037357.1	35229933	35230232	30.3	MEDIUM	probable_goi	probable_goi	gene-BGN		fragment
+BGN	frog	1	NC_030684.2	23214379	23220172	81.7	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-BGN		rescue
+BGN	frog	2	NC_030684.2	23203570	23220172	77.2	HIGH	confident_goi	confident_goi	gene-BGN		complete
+BGN	frog	3	NC_030681.2	112118406	112124056	36.2	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+BGN	spotted_gar	1	NC_090697.1	66816667	66833912	71.8	HIGH	confident_goi	confident_goi	gene-BGN		complete
+BGN	spotted_gar	2	NC_090699.1	61443888	61451688	57.8	HIGH	synteny_hull_rescue	paralog_not_goi	gene-ASPN-2	gene-ASPN-2	rescue
+BGN	spotted_gar	3	NC_090697.1	66745432	66745770	31.0	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	fragment
+BGN	whale_shark	1	NC_063375.1	1544969	1547110	73.4	HIGH	confident_goi	confident_goi	gene-BGN		fragment
+DCN	anole	1	NC_085845.1	162672330	162705020	78.5	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	anole	2	NC_085841.1	63367276	63367320	50.0	MEDIUM	probable_goi	identity_coverage_decoupled	gene-DCN		fragment
+DCN	catshark	1	NC_052165.1	37350966	37399541	63.8	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	catshark	2	NC_052156.1	104669354	104688710	45.3	MEDIUM	probable_goi	paralog_not_goi	gene-BGN	gene-BGN	complete
+DCN	chicken	1	NC_052532.1	44074516	44108131	78.0	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	chicken	2	NC_052534.1	39786388	39786426	76.9	MEDIUM	probable_goi	identity_coverage_decoupled	gene-BGN	gene-BGN	fragment
+DCN	cow	1	NC_037332.1	21015210	21049383	90.0	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	cow	2	NC_037357.1	36736953	36741340	84.8	MEDIUM	probable_goi	paralog_not_goi	gene-BGN	gene-BGN	complete
+DCN	cow	3	NC_037332.1	20934325	20935083	37.1	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+DCN	cow	4	NC_037332.1	23344343	23366894	34.1	MEDIUM	probable_goi	paralog_not_goi	gene-SND1	gene-SND1	fragment
+DCN	dog	1	NC_049236.1	32139931	32178486	92.8	HIGH	confident_goi	confident_goi	gene-DCN		complete
+DCN	dog	2	NC_049260.1	122519870	122523840	54.5	MEDIUM	probable_goi	paralog_not_goi	gene-BGN	gene-BGN	complete
+DCN	elephant_shark	1	NW_024704746.1	33363408	33377382	63.8	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	elephant_shark	2	NW_024704753.1	376004	382695	53.6	HIGH	synteny_hull_rescue	paralog_not_goi	gene-ASPN	gene-ASPN	rescue
+DCN	frog	1	NC_030679.2	55482238	55504758	74.2	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	frog	2	NC_030679.2	55441506	55442273	64.1	MEDIUM	probable_goi	identity_coverage_decoupled	gene-PRELP	gene-PRELP	fragment
+DCN	frog	3	NC_030678.2	70461912	70462733	55.1	MEDIUM	probable_goi	identity_coverage_decoupled	gene-PRELP	gene-PRELP	fragment
+DCN	mouse	1	NC_000076.7	97319225	97353517	80.5	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	mouse	2	NC_000086.8	72534396	72538396	55.3	HIGH	synteny_hull_rescue	paralog_not_goi	gene-BGN	gene-BGN	rescue
+DCN	mouse	3	NC_000076.7	97444769	97445527	95.3	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+DCN	opossum	1	NC_077231.1	74310983	74362462	82.5	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+DCN	opossum	2	NC_077231.1	74204597	74205364	66.8	MEDIUM	probable_goi	identity_coverage_decoupled	gene-PRELP	gene-PRELP	fragment
+DCN	opossum	3	NC_077231.1	74259273	74260049	39.4	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	complete
+DCN	whale_shark	1	NC_063349.1	46159991	46207594	65.7	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-DCN		rescue
+EPYC	anole	1	NC_085845.1	162571277	162605626	73.1	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	anole	2	NC_085845.1	161564997	161565419	24.7	MEDIUM	probable_goi	probable_goi	gene-EPYC		partial
+EPYC	catshark	1	NC_052165.1	37057768	37076017	60.8	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	catshark	2	NC_052165.1	37266104	37266847	42.6	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	complete
+EPYC	catshark	3	NC_052165.1	37173182	37173892	39.3	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	complete
+EPYC	chicken	1	NC_052532.1	43980061	43999902	66.9	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	chicken	2	NC_052532.1	44049631	44050398	73.9	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	chicken	3	NC_052557.1	5178041	5178754	53.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	chicken	4	NC_052532.1	45139606	45139947	23.6	MEDIUM	probable_goi	paralog_not_goi	gene-OGN-2	gene-OGN-2	fragment
+EPYC	cow	1	NC_037332.1	20843562	20882627	93.2	HIGH	confident_goi	confident_goi	gene-EPYC		complete
+EPYC	cow	2	NC_037332.1	20975247	20975987	25.6	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+EPYC	dog	1	NC_049236.1	31976598	32011133	95.0	HIGH	confident_goi	confident_goi	gene-EPYC		complete
+EPYC	dog	2	NC_049259.1	816391	819440	54.1	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	partial
+EPYC	dog	3	NC_049236.1	34255285	34255569	28.1	MEDIUM	probable_goi	probable_goi	gene-EPYC		fragment
+EPYC	dog	4	NC_049236.1	32102648	32103424	27.0	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+EPYC	frog	1	NC_030679.2	55384569	55419951	66.0	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	frog	2	NC_030679.2	55441563	55506796	43.5	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	complete
+EPYC	opossum	1	NC_077231.1	74100313	74134824	85.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	opossum	2	NC_077231.1	74259342	74260157	56.1	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+EPYC	opossum	3	NC_077231.1	74204654	74205406	55.1	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	fragment
+EPYC	whale_shark	1	NC_063349.1	46451751	46460857	61.5	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	whale_shark	2	NC_063355.1	43705401	43705436	75.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	whale_shark	3	NC_063353.1	4121249	4121518	30.1	MEDIUM	probable_goi	probable_goi	gene-EPYC		fragment
+EPYC	whale_shark	4	NC_063353.1	3540898	3541170	27.5	MEDIUM	probable_goi	probable_goi	gene-EPYC		fragment
+FMOD	anole	1	NC_085844.1	196609086	196619959	68.4	HIGH	confident_goi	confident_goi	gene-FMOD		complete
+FMOD	anole	2	NC_085844.1	111016881	111016958	50.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+FMOD	chicken	1	NC_052557.1	5175925	5178979	68.3	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	chicken	2	NC_052557.1	5211823	5214111	50.2	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+FMOD	coelacanth	1	NC_088162.1	17000161	17002414	59.8	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	coelacanth	2	NC_088162.1	18996662	18996730	60.9	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	fragment
+FMOD	cow	1	NC_037343.1	1123625	1129400	92.3	HIGH	confident_goi	confident_goi	gene-FMOD		complete
+FMOD	cow	2	NC_037343.1	1246374	1250331	42.9	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+FMOD	dog	1	NC_049259.1	701058	706681	94.2	HIGH	confident_goi	confident_goi	gene-FMOD		complete
+FMOD	dog	2	NC_049259.1	803357	806849	42.9	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+FMOD	elephant_shark	1	NW_024704760.1	2093178	2096352	50.5	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	elephant_shark	2	NW_024704760.1	2139768	2140757	61.3	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+FMOD	elephant_shark	3	NW_024704791.1	229464	229532	54.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+FMOD	frog	1	NC_030678.2	70537915	70544907	60.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	frog	2	NC_030678.2	70537933	70602487	59.4	MEDIUM	probable_goi	probable_goi	gene-FMOD		partial
+FMOD	frog	3	NC_030678.2	70445294	70462910	56.4	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+FMOD	mouse	1	NC_000067.7	133967962	133974363	92.5	HIGH	confident_goi	confident_goi	gene-FMOD		complete
+FMOD	mouse	2	NC_000067.7	133840344	133842975	42.7	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+FMOD	opossum	1	NC_077228.1	106306662	106318737	90.2	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-FMOD		rescue
+FMOD	opossum	2	NC_077228.1	106488764	106497248	57.0	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+FMOD	spotted_gar	1	NC_090700.1	38925354	38951719	55.4	HIGH	confident_goi	confident_goi	gene-FMOD		partial
+FMOD	spotted_gar	2	NC_090700.1	38907785	38910308	54.5	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	spotted_gar	3	NC_090722.1	10631930	10633114	51.2	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+FMOD	spotted_gar	4	NC_090700.1	38396139	38396981	23.4	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	fragment
+FMOD	whale_shark	1	NC_063356.1	14325830	14339856	51.1	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+FMOD	whale_shark	2	NC_063356.1	9744691	9745020	25.9	MEDIUM	probable_goi	probable_goi	gene-FMOD		fragment
+LUM	anole	1	NC_085845.1	162650812	162655470	65.3	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	anole	2	NC_085845.1	162654580	162655470	68.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	anole	3	NC_085845.1	162624124	162624921	47.6	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	chicken	1	NC_052532.1	44042456	44050455	68.6	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	chicken	2	NC_052532.1	44049583	44050455	71.9	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	chicken	3	NC_052557.1	5177993	5178742	56.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	chicken	4	NC_052532.1	44029909	44030667	47.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	chicken	5	NC_052557.1	5211838	5212614	46.6	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	chicken	6	NC_052532.1	44759220	44759639	26.5	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	partial
+LUM	chicken	7	NC_052532.1	43216753	43217103	24.8	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	chicken	8	NC_052532.1	45120656	45120928	23.2	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	cow	1	NC_037332.1	20971992	20976020	88.3	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	cow	2	NC_037332.1	20975148	20976020	88.3	MEDIUM	probable_goi	probable_goi	gene-LUM		partial
+LUM	cow	3	NC_037332.1	20934325	20935086	48.7	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	dog	1	NC_049236.1	32099282	32103457	91.1	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	dog	2	NC_049236.1	32102597	32103457	92.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	dog	3	NC_049236.1	32061334	32062146	45.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	dog	4	NC_049236.1	34614615	34614941	28.2	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	dog	5	NC_049236.1	31983082	31984662	26.6	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	complete
+LUM	elephant_shark	1	NW_024704746.1	33331100	33333921	53.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	elephant_shark	2	NW_024704746.1	33333343	33334152	67.9	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	elephant_shark	3	NW_024704760.1	2095414	2096190	57.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	elephant_shark	4	NW_024704760.1	2139945	2140712	49.2	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	elephant_shark	5	NW_024704746.1	33309151	33309912	47.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	elephant_shark	6	NW_024704760.1	2126397	2127930	44.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+LUM	elephant_shark	7	NW_024704753.1	393053	393844	43.1	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	elephant_shark	8	NW_024704746.1	26285630	26285872	28.6	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	frog	1	NC_030679.2	55466017	55469611	61.5	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	frog	2	NC_030679.2	55468706	55469611	62.4	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+LUM	frog	3	NC_030679.2	55441512	55442324	47.1	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+LUM	frog	4	NC_030679.2	55989543	55990028	24.9	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	mouse	1	NC_000076.7	97404107	97407913	86.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	mouse	2	NC_000076.7	97404107	97404967	88.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	mouse	3	NC_000076.7	97444769	97445530	48.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			complete
+LUM	mouse	4	NC_000076.7	98001598	98002341	20.1	MEDIUM	probable_goi	probable_goi	gene-LUM		partial
+LUM	opossum	1	NC_077231.1	74250909	74260160	75.4	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-LUM		rescue
+LUM	opossum	2	NC_077231.1	74204600	74205469	33.7	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	complete
+LUM	opossum	3	NC_077231.1	77023961	77024335	25.5	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	whale_shark	1	NC_063349.1	46275285	46281256	52.6	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-LUM		rescue
+LUM	whale_shark	2	NC_063353.1	4188373	4188744	25.2	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	whale_shark	3	NC_063353.1	4249904	4250275	25.2	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	zebrafish	1	NC_133179.1	16939337	16940381	50.6	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+LUM	zebrafish	2	NC_133179.1	16939578	16940390	55.8	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+LUM	zebrafish	3	NC_133179.1	16926170	16926928	45.9	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+LUM	zebrafish	4	NC_133200.1	20301464	20302069	29.7	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+OGN	anole	1	NC_085842.1	76878069	76896400	60.4	HIGH	confident_goi	confident_goi	gene-OGN		complete
+OGN	anole	2	NC_085842.1	70572309	70572662	25.6	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	anole	3	NC_085842.1	70663964	70664428	23.4	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	anole	4	NC_085842.1	257867652	257868116	23.4	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	anole	5	NC_085842.1	257983619	257983921	22.8	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	catshark	1	NC_052156.1	24797412	24814670	62.2	HIGH	confident_goi	confident_goi	gene-OGN		partial
+OGN	catshark	2	NC_052156.1	24746414	24747007	33.0	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	partial
+OGN	catshark	3	NC_052156.1	38407405	38407884	25.9	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	catshark	4	NC_052156.1	36221084	36221572	25.0	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	chicken	1	NC_052543.1	3617799	3626072	64.5	HIGH	confident_goi	confident_goi	gene-OGN		complete
+OGN	chicken	2	NC_052543.1	7021627	7022010	71.2	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+OGN	chicken	3	NC_052543.1	7845285	7845728	28.0	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	chicken	4	NC_052541.1	2860833	2861675	26.8	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	chicken	5	NC_052572.1	44487689	44487982	26.8	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	chicken	6	NC_052559.1	2405667	2406311	26.2	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	chicken	7	NC_052543.1	2545354	2545905	25.8	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	chicken	8	NC_052543.1	2784549	2784785	23.8	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	coelacanth	1	NC_088152.1	16028935	16033272	72.2	HIGH	confident_goi	confident_goi	gene-OGN		partial
+OGN	coelacanth	2	NC_088152.1	21642189	21642629	51.8	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	coelacanth	3	NC_088152.1	22026993	22027409	20.9	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	cow	1	NC_037335.1	84020104	84033697	92.6	HIGH	confident_goi	confident_goi	gene-OGN		complete
+OGN	cow	2	NC_037343.1	1261885	1265773	45.2	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	partial
+OGN	cow	3	NC_037335.1	84319298	84319540	19.8	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	dog	1	NC_049222.1	99662500	99679475	90.6	HIGH	confident_goi	confident_goi	gene-OGN		complete
+OGN	dog	2	NC_049259.1	816370	819428	46.3	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	partial
+OGN	elephant_shark	1	NW_024704753.1	403587	405336	65.0	HIGH	confident_goi	confident_goi	gene-OGN		partial
+OGN	elephant_shark	2	NW_024704746.1	51920272	51920304	90.9	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	elephant_shark	3	NW_024704753.1	1787307	1787678	82.0	MEDIUM	probable_goi	paralog_not_goi	gene-EPYC	gene-EPYC	partial
+OGN	elephant_shark	4	NW_024704746.1	45553728	45554111	61.9	MEDIUM	tandem_goi_copy	tandem_goi_copy			partial
+OGN	elephant_shark	5	NW_024704770.1	2962509	2966229	39.3	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	complete
+OGN	elephant_shark	6	NW_024704762.1	7687678	7705945	38.9	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	elephant_shark	7	NW_024704753.1	300835	310832	38.7	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	elephant_shark	8	NW_024704773.1	2181707	2181958	24.5	MEDIUM	probable_goi	probable_goi	gene-OGN		fragment
+OGN	elephant_shark	9	NW_024704773.1	1957065	1957463	22.3	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	elephant_shark	10	NW_024704770.1	3061062	3061805	19.3	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	partial
+OGN	frog	1	NC_030680.2	124116538	124120117	71.3	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+OGN	frog	2	NC_030680.2	150925877	150926374	27.9	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	partial
+OGN	frog	3	NC_030680.2	126164654	126166744	20.7	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	complete
+OGN	mouse	1	NC_000079.7	49762660	49776459	85.2	HIGH	confident_goi	confident_goi	gene-OGN		complete
+OGN	mouse	2	NC_000079.7	51405702	51406055	27.3	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	opossum	1	NC_077233.1	1758000	1763589	68.1	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+OGN	opossum	2	NC_077233.1	1708710	1763586	60.2	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	opossum	3	NC_077233.1	246278353	246279192	59.5	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	spotted_gar	1	NC_090699.1	61487349	61490118	69.1	HIGH	confident_goi	confident_goi	gene-OGN		partial
+OGN	spotted_gar	2	NC_090699.1	63402401	63402778	68.6	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	spotted_gar	3	NC_090697.1	32957775	32958173	32.6	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	partial
+OGN	spotted_gar	4	NC_090699.1	63843047	63843514	30.4	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	spotted_gar	5	NC_090698.1	49556512	49556850	28.8	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	whale_shark	1	NC_063347.1	18378335	18395114	65.5	HIGH	confident_goi	confident_goi	gene-OGN		partial
+OGN	whale_shark	2	NC_063347.1	25900879	25901268	25.2	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	whale_shark	3	NC_063347.1	18467009	18467284	24.1	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+OGN	zebrafish	1	NC_133197.1	10103446	10104924	68.2	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+OGN	zebrafish	2	NC_133197.1	10031403	10031591	55.7	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	fragment
+OGN	zebrafish	3	NC_133197.1	10103452	10144836	55.2	MEDIUM	probable_goi	probable_goi	gene-OGN		partial
+PRELP	anole	1	NC_085844.1	196778264	196784986	69.9	HIGH	confident_goi	confident_goi	gene-PRELP		complete
+PRELP	anole	2	NC_085844.1	164365798	164365869	50.1	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	anole	3	NC_085844.1	196618964	196619883	45.2	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	complete
+PRELP	anole	4	NC_085844.1	213232626	213233018	26.9	MEDIUM	probable_goi	probable_goi	gene-PRELP		fragment
+PRELP	chicken	1	NC_052557.1	5211670	5214111	73.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+PRELP	chicken	2	NC_052557.1	5177981	5178751	87.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	chicken	3	NC_052557.1	5211670	5212623	75.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	coelacanth	1	NC_088162.1	17144872	17158207	67.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+PRELP	coelacanth	2	NC_088162.1	18266352	18266864	22.8	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	fragment
+PRELP	coelacanth	3	NC_088162.1	18142880	18143638	21.8	MEDIUM	probable_goi	probable_goi	gene-PRELP		partial
+PRELP	cow	1	NC_037343.1	1246248	1250331	90.9	HIGH	confident_goi	confident_goi	gene-PRELP		complete
+PRELP	cow	2	NC_037343.1	79727747	79728936	68.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	cow	3	NC_037343.1	1123625	1129280	41.4	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	complete
+PRELP	dog	1	NC_049259.1	803339	806852	92.2	HIGH	confident_goi	confident_goi	gene-PRELP		complete
+PRELP	dog	2	NC_049259.1	701058	706561	41.4	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	complete
+PRELP	elephant_shark	1	NW_024704760.1	2139753	2142534	60.0	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+PRELP	elephant_shark	2	NW_024704760.1	2139876	2140712	68.5	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	elephant_shark	3	NW_024704760.1	2095426	2096214	64.5	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+PRELP	elephant_shark	4	NW_024704760.1	11718612	11719052	26.1	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	fragment
+PRELP	frog	1	NC_030678.2	70457564	70462925	64.7	HIGH	synteny_hull_rescue	synteny_hull_rescue	gene-PRELP		rescue
+PRELP	frog	2	NC_030678.2	70538032	70538841	57.3	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	complete
+PRELP	mouse	1	NC_000067.7	133840344	133843143	89.3	HIGH	confident_goi	confident_goi	gene-PRELP		complete
+PRELP	mouse	2	NC_000067.7	133968082	133974363	40.5	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	complete
+PRELP	opossum	1	NC_077228.1	106488746	106497251	81.1	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+PRELP	opossum	2	NC_077228.1	106317634	106318623	73.5	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	fragment
+PRELP	opossum	3	NC_077228.1	106488746	106489711	61.7	MEDIUM	probable_goi	probable_goi	gene-PRELP		complete
+PRELP	spotted_gar	1	NC_090700.1	38950272	38951719	62.9	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue
+PRELP	spotted_gar	2	NC_090700.1	38909391	38910158	59.0	MEDIUM	probable_goi	paralog_not_goi	gene-FMOD	gene-FMOD	partial
+PRELP	spotted_gar	3	NC_090700.1	38396139	38397167	22.4	MEDIUM	probable_goi	probable_goi	gene-PRELP		complete
+PRELP	spotted_gar	4	NC_090700.1	34505760	34506170	22.1	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	fragment
+PRELP	whale_shark	1	NC_063356.1	14100620	14103322	58.7	HIGH	synteny_hull_rescue	synteny_hull_rescue			rescue

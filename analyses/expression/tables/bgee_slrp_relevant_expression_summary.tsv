@@ -1,0 +1,55 @@
+species	thesis_gene	bgee_gene_id	query_mode	direct_cartilage_or_growth_plate_call_count	bone_or_joint_call_count	skeletal_development_call_count	best_priority_category	best_priority_term	best_priority_stage	best_priority_expression_score	best_priority_quality	best_priority_data_types	interpretation
+chicken	ASPN	ENSGALG00000004722	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	ASPN	ENSGALG00000004722	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	BGN		anatomy_all_data	0	0	0							unresolved Bgee gene mapping; missing evidence, not biological absence
+chicken	BGN		stage_rnaseq	0	0	0							unresolved Bgee gene mapping; missing evidence, not biological absence
+chicken	DCN	ENSGALG00000011274	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	DCN	ENSGALG00000011274	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	EPYC	ENSGALG00000011269	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	EPYC	ENSGALG00000011269	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	FMOD	ENSGALG00000034067	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	FMOD	ENSGALG00000034067	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	LUM	ENSGALG00000011271	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	LUM	ENSGALG00000011271	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	OGN	ENSGALG00000026736	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	OGN	ENSGALG00000026736	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	OMD	ENSGALG00000026080	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	OMD	ENSGALG00000026080	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	PRELP	ENSGALG00000034456	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+chicken	PRELP	ENSGALG00000034456	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	ASPN	ENSMUSG00000021388	anatomy_all_data	4	13	1	direct_cartilage_or_growth_plate	humerus cartilage element		98.73	gold	Affymetrix;in situ hybridization	curated relevant expression support found
+mouse	ASPN	ENSMUSG00000021388	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	BGN	ENSMUSG00000031375	anatomy_all_data	1	6	1	direct_cartilage_or_growth_plate	humerus cartilage element		99.32	gold	Affymetrix	curated relevant expression support found
+mouse	BGN	ENSMUSG00000031375	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	DCN	ENSMUSG00000019929	anatomy_all_data	1	6	0	direct_cartilage_or_growth_plate	humerus cartilage element		98.52	gold	Affymetrix	curated relevant expression support found
+mouse	DCN	ENSMUSG00000019929	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	EPYC	ENSMUSG00000019936	anatomy_all_data	2	10	5	direct_cartilage_or_growth_plate	humerus cartilage element		99.65	gold	Affymetrix	curated relevant expression support found
+mouse	EPYC	ENSMUSG00000019936	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	FMOD	ENSMUSG00000041559	anatomy_all_data	1	21	2	direct_cartilage_or_growth_plate	humerus cartilage element		98.94	gold	Affymetrix	curated relevant expression support found
+mouse	FMOD	ENSMUSG00000041559	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	LUM	ENSMUSG00000036446	anatomy_all_data	1	7	1	direct_cartilage_or_growth_plate	humerus cartilage element		99.62	gold	Affymetrix	curated relevant expression support found
+mouse	LUM	ENSMUSG00000036446	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	OGN	ENSMUSG00000021390	anatomy_all_data	3	7	4	direct_cartilage_or_growth_plate	humerus cartilage element		96.84	gold	Affymetrix	curated relevant expression support found
+mouse	OGN	ENSMUSG00000021390	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	OMD	ENSMUSG00000048368	anatomy_all_data	1	6	0	direct_cartilage_or_growth_plate	humerus cartilage element		68.77	gold	Affymetrix	curated relevant expression support found
+mouse	OMD	ENSMUSG00000048368	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+mouse	PRELP	ENSMUSG00000041577	anatomy_all_data	3	6	0	direct_cartilage_or_growth_plate	humerus cartilage element		99.72	gold	Affymetrix	curated relevant expression support found
+mouse	PRELP	ENSMUSG00000041577	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+zebrafish	ASPN	ENSDARG00000002192	anatomy_all_data	1	1	0	direct_cartilage_or_growth_plate	chondrocranium		74.99	gold	in situ hybridization	curated relevant expression support found
+zebrafish	ASPN	ENSDARG00000002192	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	65.31	gold	RNA-Seq	curated relevant expression support found
+zebrafish	BGN	ENSDARG00000017884	anatomy_all_data	0	3	0	bone_or_joint	bone element		84.09	gold	in situ hybridization;RNA-Seq	curated relevant expression support found
+zebrafish	BGN	ENSDARG00000017884	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	84.10	gold	RNA-Seq	curated relevant expression support found
+zebrafish	DCN	ENSDARG00000012066	anatomy_all_data	5	1	1	direct_cartilage_or_growth_plate	cranial cartilage		74.98	gold	in situ hybridization	curated relevant expression support found
+zebrafish	DCN	ENSDARG00000012066	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	97.13	gold	RNA-Seq	curated relevant expression support found
+zebrafish	EPYC	ENSDARG00000056950	anatomy_all_data	3	1	1	direct_cartilage_or_growth_plate	cartilage element of chondrocranium		66.66	gold	in situ hybridization	curated relevant expression support found
+zebrafish	EPYC	ENSDARG00000056950	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	78.60	gold	RNA-Seq	curated relevant expression support found
+zebrafish	FMOD	ENSDARG00000010294	anatomy_all_data	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+zebrafish	FMOD	ENSDARG00000010294	stage_rnaseq	0	0	0							no relevant Bgee call; missing evidence, not biological absence
+zebrafish	LUM	ENSDARG00000045580	anatomy_all_data	0	1	0	bone_or_joint	bone element		95.09	gold	RNA-Seq	curated relevant expression support found
+zebrafish	LUM	ENSDARG00000045580	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	95.09	gold	RNA-Seq	curated relevant expression support found
+zebrafish	OGN	ENSDARG00000044132	anatomy_all_data	0	1	1	bone_or_joint	bone element		80.50	gold	RNA-Seq	curated relevant expression support found
+zebrafish	OGN	ENSDARG00000044132	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	80.50	gold	RNA-Seq	curated relevant expression support found
+zebrafish	OMD	ENSDARG00000093600	anatomy_all_data	0	1	0	bone_or_joint	bone element		22.81	silver	RNA-Seq	curated relevant expression support found
+zebrafish	OMD	ENSDARG00000093600	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	22.81	silver	RNA-Seq	curated relevant expression support found
+zebrafish	PRELP	ENSDARG00000070597	anatomy_all_data	0	1	0	bone_or_joint	bone element		85.63	gold	RNA-Seq	curated relevant expression support found
+zebrafish	PRELP	ENSDARG00000070597	stage_rnaseq	0	1	0	bone_or_joint	bone element	post-juvenile	85.63	gold	RNA-Seq	curated relevant expression support found

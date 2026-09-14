@@ -1,0 +1,8 @@
+gene	unique_hpo_terms	disease_ids	mendelian_disease_ids	interpretation
+BGN	77	OMIM:300106;OMIM:300989;ORPHA:622925;ORPHA:93349	OMIM:300106;OMIM:300989	direct human disease/phenotype support is present in HPO
+DCN	10	OMIM:610048;ORPHA:101068	OMIM:610048	direct human disease/phenotype support is present in HPO
+FMOD	0			no HPO gene–phenotype record in this release; this is absence of curated disease annotation, not evidence of no biological function
+PRELP	0			no HPO gene–phenotype record in this release; this is absence of curated disease annotation, not evidence of no biological function
+EPYC	0			no HPO gene–phenotype record in this release; this is absence of curated disease annotation, not evidence of no biological function
+LUM	0			no HPO gene–phenotype record in this release; this is absence of curated disease annotation, not evidence of no biological function
+OGN	0			no HPO gene–phenotype record in this release; this is absence of curated disease annotation, not evidence of no biological function

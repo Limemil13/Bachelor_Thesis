@@ -1,0 +1,16 @@
+## gff-version 3
+BGN_scyliorhinus_canicula_XP_038638277.1	SignalP-6.0	signal_peptide	1	21	0.9998447	.	.	.
+DCN_human_NP_001911.1	SignalP-6.0	signal_peptide	1	16	0.99983656	.	.	.
+DCN_mouse_NP_031859.1	SignalP-6.0	signal_peptide	1	16	0.9998714	.	.	.
+DCN_rattus_norvegicus_NP_077043.1	SignalP-6.0	signal_peptide	1	16	0.9998871	.	.	.
+DCN_bos_taurus_NP_776331.2	SignalP-6.0	signal_peptide	1	16	0.99981225	.	.	.
+DCN_canis_lupus_familiaris_NP_001003228.1	SignalP-6.0	signal_peptide	1	16	0.9998213	.	.	.
+DCN_chicken_NP_001025918.2	SignalP-6.0	signal_peptide	1	16	0.9998522	.	.	.
+DCN_anolis_carolinensis_XP_003221092.1	SignalP-6.0	signal_peptide	1	16	0.9998895	.	.	.
+DCN_frog_NP_001093704.1	SignalP-6.0	signal_peptide	1	16	0.99987507	.	.	.
+DCN_zebrafish_NP_571772.1	SignalP-6.0	signal_peptide	1	16	0.9998368	.	.	.
+DCN_lepisosteus_oculatus_XP_015208366.1	SignalP-6.0	signal_peptide	1	16	0.99984705	.	.	.
+DCN_latimeria_chalumnae_XP_006004204.1	SignalP-6.0	signal_peptide	1	16	0.99986225	.	.	.
+DCN_callorhinchus_milii_NP_001279248.1	SignalP-6.0	signal_peptide	1	16	0.9998557	.	.	.
+DCN_scyliorhinus_canicula_XP_038636759.1	SignalP-6.0	signal_peptide	1	45	0.9959445	.	.	.
+DCN_whale_shark_XP_048463588.1	SignalP-6.0	signal_peptide	1	16	0.9998732	.	.	.

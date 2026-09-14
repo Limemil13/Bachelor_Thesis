@@ -1,0 +1,21 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Evolutionary_group
+COLOR	#000000
+STRIP_WIDTH	25
+MARGIN	5
+SHOW_INTERNAL	0
+DATA
+human|BGN|XP_016885213.1	#d73027	Placental mammal
+mouse|BGN|NP_031568.2	#d73027	Placental mammal
+rattus_norvegicus|BGN|NP_058783.1	#d73027	Placental mammal
+canis_lupus_familiaris|BGN|NP_001003229.1	#d73027	Placental mammal
+bos_taurus|BGN|XP_005227715.1	#d73027	Placental mammal
+anolis_carolinensis|BGN|XP_062827322.1	#91cf60	Reptile
+frog|BGN|NP_001072552.1	#66c2a5	Amphibian
+zebrafish|BGN|NP_001001825.2	#4575b4	Ray-finned fish
+lamprey|BGN|XP_075929720.1	#a6d854	Jawless vertebrate
+whale_shark|BGN|XP_048475905.1	#984ea3	Cartilaginous fish
+lepisosteus_oculatus|BGN|XP_069037386.1	#4575b4	Ray-finned fish
+scyliorhinus_canicula|BGN|XP_038638277.1	#984ea3	Cartilaginous fish
+latimeria_chalumnae|BGN|XP_064415290.1	#3288bd	Lobe-finned fish

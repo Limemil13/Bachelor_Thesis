@@ -1,0 +1,106 @@
+gene	mp_id	mp_term	evidence_scope	phenotype_categories	genotype_count	record_count	pmids	publication_count
+BGN	MP:0000066	osteoporosis	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0000130	abnormal trabecular bone morphology	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0000131	abnormal long bone epiphysis morphology	single_gene	skeletal/cartilage/joint;reproductive/developmental	1	1	9731537	1
+BGN	MP:0000133	abnormal long bone metaphysis morphology	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0000135	decreased compact bone thickness	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0000559	abnormal femur morphology	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0001244	thin dermal layer	single_gene	skin/connective tissue	1	1	12102052	1
+BGN	MP:0001258	decreased body length	single_gene	growth/body size	1	1		0
+BGN	MP:0001262	decreased body weight	single_gene	growth/body size	2	2	19932218;9731537	2
+BGN	MP:0003109	short femur	single_gene	skeletal/cartilage/joint;growth/body size	1	1	9731537	1
+BGN	MP:0003560	osteoarthritis	single_gene	skeletal/cartilage/joint;immune/inflammatory	2	2	11978731;19932218	2
+BGN	MP:0004214	abnormal long bone diaphysis morphology	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0004989	decreased osteoblast cell number	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0008271	abnormal bone ossification	single_gene	skeletal/cartilage/joint	1	1	11978731	1
+BGN	MP:0008438	abnormal cutaneous collagen fibril morphology	single_gene	skin/connective tissue	1	1	12102052	1
+BGN	MP:0010124	decreased bone mineral content	single_gene	skeletal/cartilage/joint	1	1	9731537	1
+BGN	MP:0011642	abnormal bone collagen fibril morphology	single_gene	skeletal/cartilage/joint;skin/connective tissue	1	1	12102052	1
+BGN	MP:0011643	abnormal tendon collagen fibril morphology	single_gene	skeletal/cartilage/joint;skin/connective tissue	2	2	11978731;12102052	2
+BGN	MP:0020254	decreased collagen level	single_gene	skin/connective tissue	1	1	19932218	1
+DCN	MP:0000519	hydronephrosis	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0000619	salivary gland epithelial hyperplasia	single_gene	other	1	1	10077642	1
+DCN	MP:0001199	thin skin	single_gene	skin/connective tissue	1	1	9024701	1
+DCN	MP:0001244	thin dermal layer	single_gene	skin/connective tissue	2	2	12102052;9024701	2
+DCN	MP:0001800	abnormal humoral immune response	single_gene	immune/inflammatory	1	1	15331421	1
+DCN	MP:0001923	reduced female fertility	single_gene	reproductive/developmental	1	1	21502335	1
+DCN	MP:0002169	no abnormal phenotype detected	single_gene	other	1	1	26029887	1
+DCN	MP:0002411	decreased susceptibility to bacterial infection	single_gene	immune/inflammatory	2	2	11285303	1
+DCN	MP:0002704	tubular nephritis	single_gene	immune/inflammatory;renal/metabolic	1	1	11891213	1
+DCN	MP:0002705	dilated renal tubule	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0003089	decreased skin tensile strength	single_gene	skin/connective tissue	2	2	12102052;9024701	2
+DCN	MP:0003215	renal interstitial fibrosis	single_gene	skin/connective tissue;renal/metabolic	1	1	11891213	1
+DCN	MP:0003668	abnormal periodontal ligament morphology	single_gene	skeletal/cartilage/joint;growth/body size	1	1	11140699	1
+DCN	MP:0003669	periodontal ligament hypercellularity	single_gene	skeletal/cartilage/joint;growth/body size	1	1	11140699	1
+DCN	MP:0003795	abnormal bone structure	single_gene	skeletal/cartilage/joint	1	1	12102052	1
+DCN	MP:0004153	increased renal tubule apoptosis	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0004970	kidney atrophy	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0005421	loose skin	single_gene	skin/connective tissue	1	1	9024701	1
+DCN	MP:0005503	abnormal tendon morphology	single_gene	skeletal/cartilage/joint	2	2	12102052;9024701	2
+DCN	MP:0008438	abnormal cutaneous collagen fibril morphology	single_gene	skin/connective tissue	2	2	12102052;9024701	2
+DCN	MP:0009640	abnormal renal tubule epithelium morphology	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0010792	abnormal stomach mucosa morphology	single_gene	other	1	1	10077642	1
+DCN	MP:0011346	renal tubule atrophy	single_gene	renal/metabolic	1	1	11891213	1
+DCN	MP:0011501	increased glomerular capsule space	single_gene	renal/metabolic	1	1	15277214	1
+FMOD	MP:0001314	cornea opacity	single_gene	eye/cornea	1	1	12766039	1
+FMOD	MP:0002697	abnormal eye size	single_gene	eye/cornea	1	1	12766039	1
+FMOD	MP:0002698	abnormal sclera morphology	single_gene	eye/cornea	1	1	12766039	1
+FMOD	MP:0003098	decreased tendon stiffness	single_gene	skeletal/cartilage/joint	1	1	12089156	1
+FMOD	MP:0003102	sclera thinning	single_gene	eye/cornea	1	1	12766039	1
+FMOD	MP:0003560	osteoarthritis	single_gene	skeletal/cartilage/joint;immune/inflammatory	1	1	12089156	1
+FMOD	MP:0005503	abnormal tendon morphology	single_gene	skeletal/cartilage/joint	3	3	10092650;11076963	2
+FMOD	MP:0006433	abnormal articular cartilage morphology	single_gene	skeletal/cartilage/joint	1	1	12089156	1
+PRELP	MP:0000194	increased circulating calcium level	single_gene	other	1	1		0
+PRELP	MP:0001258	decreased body length	single_gene	growth/body size	1	1		0
+PRELP	MP:0002182	abnormal astrocyte morphology	single_gene	other	1	1	37936982	1
+PRELP	MP:0003719	abnormal pericyte morphology	single_gene	cardiovascular	1	1	37936982	1
+PRELP	MP:0004272	abnormal basement membrane morphology	single_gene	other	1	1	37936982	1
+PRELP	MP:0004950	abnormal brain vasculature morphology	single_gene	cardiovascular	1	1	37936982	1
+PRELP	MP:0005344	increased circulating bilirubin level	single_gene	other	1	1		0
+PRELP	MP:0006082	CNS inflammation	single_gene	immune/inflammatory	1	1	37936982	1
+PRELP	MP:0008918	microgliosis	single_gene	immune/inflammatory;reproductive/developmental	1	1	37936982	1
+PRELP	MP:0014696	decreased cell adhesion	single_gene	other	1	1	37936982	1
+PRELP	MP:0020448	increased microglial cell activation	single_gene	immune/inflammatory	1	1	37936982	1
+PRELP	MP:0031384	impaired blood-brain barrier function	single_gene	cardiovascular	1	1	37936982	1
+EPYC	MP:0003109	short femur	single_gene	skeletal/cartilage/joint;growth/body size	1	1	19932218	1
+EPYC	MP:0003560	osteoarthritis	single_gene	skeletal/cartilage/joint;immune/inflammatory	1	1	19932218	1
+EPYC	MP:0011967	increased or absent threshold for auditory brainstem response	single_gene	hearing/ear	1	1	28864419	1
+LUM	MP:0000222	decreased neutrophil cell number	single_gene	immune/inflammatory;reproductive/developmental	1	1	17911102	1
+LUM	MP:0001191	abnormal skin condition	single_gene	skin/connective tissue	1	1	10644720	1
+LUM	MP:0001212	skin lesions	single_gene	skin/connective tissue	1	1	9606218	1
+LUM	MP:0001243	abnormal dermal layer morphology	single_gene	skin/connective tissue	1	1	9606218	1
+LUM	MP:0001262	decreased body weight	single_gene	growth/body size	1	1	9606218	1
+LUM	MP:0001265	decreased body size	single_gene	growth/body size	1	1	9606218	1
+LUM	MP:0001312	abnormal cornea morphology	single_gene	eye/cornea	1	1	11431438|9606218	1
+LUM	MP:0001314	cornea opacity	single_gene	eye/cornea	3	3	10644720;11006226|9606218;17911102	3
+LUM	MP:0001510	abnormal coat appearance	single_gene	skin/connective tissue	1	1	10644720	1
+LUM	MP:0001648	abnormal apoptosis	single_gene	other	1	1	15051477	1
+LUM	MP:0001845	abnormal inflammatory response	single_gene	immune/inflammatory	1	1	17911102	1
+LUM	MP:0001922	reduced male fertility	single_gene	reproductive/developmental	1	1	10644720	1
+LUM	MP:0002111	abnormal tail morphology	single_gene	other	1	1		0
+LUM	MP:0002908	delayed wound healing	single_gene	skin/connective tissue	1	1	10644720	1
+LUM	MP:0002941	increased circulating alanine transaminase level	single_gene	other	1	1		0
+LUM	MP:0003089	decreased skin tensile strength	single_gene	skin/connective tissue	1	1	9606218	1
+LUM	MP:0003092	decreased cornea stroma thickness	single_gene	eye/cornea	1	1	11006226|12556382	1
+LUM	MP:0003094	abnormal cornea posterior stroma morphology	single_gene	eye/cornea	2	2	10644720;11006226	2
+LUM	MP:0003095	abnormal cornea stroma development	single_gene	eye/cornea;reproductive/developmental	1	1	12556382|9606218	1
+LUM	MP:0003096	increased corneal light-scattering	single_gene	eye/cornea	1	1	11006226|12556382	1
+LUM	MP:0003102	sclera thinning	single_gene	eye/cornea	1	1	12766039	1
+LUM	MP:0005300	abnormal cornea stroma morphology	single_gene	eye/cornea	1	1	11006226|9606218	1
+LUM	MP:0005343	increased circulating aspartate transaminase level	single_gene	other	1	1		0
+LUM	MP:0005421	loose skin	single_gene	skin/connective tissue	1	1	9606218	1
+LUM	MP:0005503	abnormal tendon morphology	single_gene	skeletal/cartilage/joint	1	1	11076963	1
+LUM	MP:0005543	decreased cornea thickness	single_gene	eye/cornea	1	1	17911102	1
+LUM	MP:0009275	bruising	single_gene	cardiovascular	1	1	9606218	1
+LUM	MP:0011100	preweaning lethality, complete penetrance	single_gene	other	1	1		0
+LUM	MP:0011703	increased fibroblast proliferation	single_gene	other	1	1	15051477	1
+LUM	MP:0013502	decreased fibroblast apoptosis	single_gene	other	1	1	15051477	1
+LUM	MP:0020861	abnormal cornea wound healing	single_gene	eye/cornea;skin/connective tissue	1	1	10644720	1
+OGN	MP:0000221	decreased leukocyte cell number	single_gene	immune/inflammatory;reproductive/developmental	1	1		0
+OGN	MP:0001312	abnormal cornea morphology	single_gene	eye/cornea	1	1	12432342	1
+OGN	MP:0001399	hyperactivity	single_gene	other	1	1		0
+OGN	MP:0003966	abnormal adrenocorticotropin level	single_gene	other	1	1	21664248	1
+OGN	MP:0005275	abnormal skin tensile strength	single_gene	skin/connective tissue	1	1	12432342	1
+OGN	MP:0008438	abnormal cutaneous collagen fibril morphology	single_gene	skin/connective tissue	1	1	12432342	1
+OGN	MP:0010506	prolonged RR interval	single_gene	cardiovascular	1	1		0
+OGN	MP:0013279	increased fasting circulating glucose level	single_gene	renal/metabolic	1	1		0

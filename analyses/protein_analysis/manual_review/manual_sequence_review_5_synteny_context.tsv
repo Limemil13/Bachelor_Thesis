@@ -1,0 +1,6 @@
+gene	species	canonical_protein_accession	genome_qc	retained_high_goi_candidates	retained_medium_goi_candidates	best_confidence	best_model_status	best_owning_gene	self_consistency_flags	evidence_grade	review_priority	review_reasons
+EPYC	whale_shark	XP_048463897.1	PASS	1	3	HIGH	rescue		0	B	P2	4 retained GOI candidates; best model status is rescue; best call is a synteny-hull rescue; protein QC Needs inspection; ProtSpace Needs inspection; deep-lineage annotation
+OGN	amphioxus	XP_066265713.1	PASS	0	0	NONE			22	D	P1	no post-ownership HIGH/MEDIUM GOI candidate
+OGN	opossum	XP_056660002.1	PASS	1	1	HIGH	rescue		5	B	P2	2 retained GOI candidates; best model status is rescue; best call is a synteny-hull rescue; 5 self-consistency flag(s) for species; protein QC Needs inspection
+OGN	spotted_gar	XP_006631165.2	PASS	1	1	HIGH	partial	gene-OGN	12	B	P2	2 retained GOI candidates; best model status is partial; 12 self-consistency flag(s) for species; protein QC Needs inspection; deep-lineage annotation
+OGN	zebrafish	NP_001013588.1	PASS	1	1	HIGH	rescue		5	B	P2	2 retained GOI candidates; best model status is rescue; best call is a synteny-hull rescue; 5 self-consistency flag(s) for species; protein QC Needs inspection; ProtSpace Needs inspection

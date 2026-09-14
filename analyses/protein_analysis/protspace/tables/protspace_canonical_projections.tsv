@@ -1,0 +1,322 @@
+projection_name	identifier	x	y	z	gene	analysis_group	embedding_qc_status
+ProtT5 — PCA 2	ACAN_001	1.6969981	0.9118001		ACAN	cartilage_non_SLRP_control	Control
+ProtT5 — PCA 2	BGN_001	-0.06523776	0.01055242		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_002	-0.06577931	0.0071299896		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_003	-0.069786645	0.012410786		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_004	-0.062462196	0.012652504		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_005	-0.058668308	0.008940401		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_006	-0.046177026	-0.07731086		BGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	BGN_007	-0.16916579	0.02518632		BGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	BGN_008	-0.05786211	-0.010797736		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_009	-0.07389933	0.047419615		BGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	BGN_010	-0.049133368	-0.013676079		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_011	-0.092666596	0.035063665		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_012	-0.09097779	0.030438548		BGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	BGN_015	0.087851614	-0.016065128		BGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	COL2A1_001	0.6290229	0.87808764		COL2A1	cartilage_non_SLRP_control	Control
+ProtT5 — PCA 2	COMP_001	0.36449876	0.26718032		COMP	cartilage_non_SLRP_control	Control
+ProtT5 — PCA 2	DCN_001	-0.08713166	0.06698047		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_002	-0.11556049	0.059060615		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_003	-0.12383034	0.0640628		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_004	-0.08675027	0.06375568		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_005	-0.08698598	0.054420624		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_006	-0.09811516	0.07007453		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_007	-0.10879036	0.08935199		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_008	-0.07658315	0.073628254		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_009	-0.038924705	0.0400773		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_010	-0.09721463	0.04372802		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_011	-0.12027634	0.06620741		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_012	-0.22059868	0.1576315		DCN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	DCN_013	-0.10318518	0.042263594		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	DCN_014	-0.031585846	-0.008659945		DCN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	DCN_015	-0.13381165	0.08396559		DCN	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_001	0.21103022	-0.33558273		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_002	0.19869775	-0.36825666		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_003	0.2960307	-0.39997768		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	EPYC_004	0.21274246	-0.33501503		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_005	0.21915779	-0.35257155		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_006	0.18279289	-0.34698907		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_007	0.25440258	-0.341355		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_008	0.1746245	-0.31776232		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_009	0.18889739	-0.2906977		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_010	0.23235092	-0.32923657		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_011	0.19329892	-0.2894837		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_012	0.2174165	-0.24481182		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	EPYC_013	0.19906235	-0.33062434		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_014	0.17673385	-0.32031327		EPYC	SLRP_candidate	Supported
+ProtT5 — PCA 2	EPYC_015	0.06199229	-0.25933403		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	FMOD_001	-0.05919393	0.090085305		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_002	-0.054642458	0.09142246		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_003	-0.053678162	0.0553885		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_004	-0.053735435	0.11111371		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_005	-0.052854247	0.10844522		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_006	-0.0567349	0.075634584		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_007	-0.06354191	0.020713206		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_008	0.087483004	-0.04168812		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	FMOD_009	-0.14892179	0.10118234		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_010	-0.134673	0.059355672		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_011	-0.15161018	0.10444044		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_012	-0.16197655	0.107804544		FMOD	SLRP_candidate	Supported
+ProtT5 — PCA 2	FMOD_013	-0.17819585	0.10046307		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	FMOD_015	-0.17315114	0.11320786		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	LUM_001	-0.2140544	0.13982493		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_002	-0.22034301	0.16875541		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_003	-0.21555908	0.17132846		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_004	-0.2150828	0.14817345		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_005	-0.20123418	0.14029303		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_006	-0.21550848	0.1362523		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_007	-0.19547664	0.16201937		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_008	-0.19090332	0.13477097		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_009	-0.16574378	0.106526434		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_010	-0.16894668	0.12169078		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_011	-0.20893158	0.16798921		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_012	-0.20800523	0.100952804		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_013	-0.19103229	0.12613516		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_014	-0.19508283	0.13534744		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	LUM_015	-0.091404825	0.10336163		LUM	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	LUM_016	-0.18910415	0.11925239		LUM	SLRP_candidate	Supported
+ProtT5 — PCA 2	MATN1_001	0.20958059	0.13228917		MATN1	cartilage_non_SLRP_control	Control
+ProtT5 — PCA 2	OGN_001	0.09226731	-0.28405455		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_002	0.09332469	-0.2940577		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_003	0.07300266	-0.2848097		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_004	0.08317568	-0.2817471		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_005	0.080689915	-0.19623017		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_006	0.110529125	-0.29212233		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_007	0.17548023	-0.27447152		OGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	OGN_008	0.063998684	-0.23312381		OGN	SLRP_candidate	Watch
+ProtT5 — PCA 2	OGN_009	0.108401746	-0.25131667		OGN	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	OGN_010	0.13524126	-0.2725208		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_011	0.11781008	-0.2866844		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_012	0.14374775	-0.30315274		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_013	0.12401258	-0.30383357		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	OGN_015	0.1528185	-0.30774876		OGN	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_001	-0.034120303	0.15456535		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_002	-0.06580314	0.14984113		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_003	-0.070871234	0.1499354		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_004	-0.057924323	0.17798717		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_005	-0.030510945	0.17825505		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_006	-0.063577525	0.15181229		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_007	0.009155228	0.09686684		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_008	-0.096729375	0.12534092		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_009	-0.077365406	0.13461395		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_010	-0.06409268	0.11132486		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_011	-0.1206341	0.113842644		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_012	-0.07242745	0.12107425		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_013	-0.06793711	0.1271633		PRELP	SLRP_candidate	Supported
+ProtT5 — PCA 2	PRELP_014	0.020484215	0.16093978		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	PRELP_015	-0.00081569573	0.12649773		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — PCA 2	PRELP_016	0.0044870186	0.13973191		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	ACAN_001	4.3052993	8.383209		ACAN	cartilage_non_SLRP_control	Control
+ProtT5 — UMAP 2	BGN_001	4.244222	12.374235		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_002	4.8002014	12.76611		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_003	4.7122483	12.446923		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_004	4.335335	12.603588		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_005	4.6624913	12.817638		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_006	4.5689607	12.493392		BGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	BGN_007	5.47854	12.0756445		BGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	BGN_008	4.526406	12.766803		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_009	5.6946354	11.082136		BGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	BGN_010	4.4564905	12.334749		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_011	4.4238343	12.67053		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_012	5.086321	12.440859		BGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	BGN_015	4.8816123	11.7675495		BGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	COL2A1_001	4.7258677	10.691913		COL2A1	cartilage_non_SLRP_control	Control
+ProtT5 — UMAP 2	COMP_001	4.250769	11.882884		COMP	cartilage_non_SLRP_control	Control
+ProtT5 — UMAP 2	DCN_001	5.003231	11.209682		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_002	4.9638476	11.229987		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_003	5.103166	11.000157		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_004	5.269915	10.9086		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_005	5.2196217	11.1035595		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_006	5.6333737	11.140662		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_007	5.815294	11.04878		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_008	5.8861427	11.262874		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_009	4.877649	11.522798		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_010	5.195835	11.524245		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_011	5.8158965	11.393817		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_012	5.5999875	11.621959		DCN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	DCN_013	5.3156304	11.513143		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	DCN_014	5.673855	11.308074		DCN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	DCN_015	6.0003047	11.293468		DCN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_001	15.822369	-3.2223096		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_002	16.045933	-2.8139408		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_003	15.64433	-3.2163444		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	EPYC_004	15.596926	-3.1375608		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_005	15.939722	-2.9808557		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_006	15.5344715	-3.2977464		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_007	15.644502	-3.2780683		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_008	16.247875	-2.805286		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_009	15.671637	-2.804693		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_010	15.851952	-2.8718603		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_011	15.408684	-2.6505253		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_012	15.51507	-2.612753		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	EPYC_013	15.399397	-2.8066208		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_014	15.723933	-2.497417		EPYC	SLRP_candidate	Supported
+ProtT5 — UMAP 2	EPYC_015	16.227047	-3.4325478		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	FMOD_001	5.398138	4.420735		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_002	5.1658053	4.318363		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_003	5.2836394	4.2202106		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_004	5.2461047	4.43326		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_005	5.221455	4.2202406		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_006	5.4613013	4.391967		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_007	4.973073	4.234111		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_008	5.0216436	4.558791		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	FMOD_009	4.7792525	3.8263025		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_010	4.423392	3.7357426		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_011	4.328822	4.1870017		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_012	4.127799	3.3124955		FMOD	SLRP_candidate	Supported
+ProtT5 — UMAP 2	FMOD_013	4.117021	3.3119583		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	FMOD_015	3.7946332	2.9396782		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	LUM_001	3.1256526	2.836853		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_002	3.27416	2.6491256		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_003	3.245067	2.6805744		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_004	3.0531254	3.0353699		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_005	3.1730525	3.0182774		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_006	3.2181294	2.4467852		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_007	3.6279712	2.89093		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_008	3.6285338	2.6976342		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_009	3.560551	3.0597935		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_010	3.3150454	3.2196164		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_011	3.3968604	2.8244922		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_012	3.5655377	2.4979925		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_013	2.7852721	2.8078852		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_014	2.951413	2.538755		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	LUM_015	3.6022134	3.7029498		LUM	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	LUM_016	2.992201	2.3423803		LUM	SLRP_candidate	Supported
+ProtT5 — UMAP 2	MATN1_001	4.7315497	11.936725		MATN1	cartilage_non_SLRP_control	Control
+ProtT5 — UMAP 2	OGN_001	16.317213	-3.6317568		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_002	16.718002	-3.630141		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_003	16.681309	-3.7549098		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_004	16.670107	-3.8125901		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_005	16.885775	-3.7554336		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_006	16.149534	-3.6924062		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_007	16.361004	-4.02963		OGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	OGN_008	16.820372	-3.8448765		OGN	SLRP_candidate	Watch
+ProtT5 — UMAP 2	OGN_009	16.242987	-3.3160152		OGN	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	OGN_010	16.03306	-3.8953552		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_011	16.627338	-3.2469356		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_012	16.59576	-3.176207		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_013	16.514566	-3.507213		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	OGN_015	16.777334	-3.0915833		OGN	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_001	4.4974236	7.318451		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_002	4.6832724	7.028398		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_003	4.6343617	7.4352503		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_004	4.4494977	7.5921664		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_005	4.413813	7.4829397		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_006	4.581337	7.3946633		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_007	3.9891462	7.0064387		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_008	3.9220734	7.1683936		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_009	3.8094072	6.8869534		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_010	3.9742053	7.2052064		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_011	4.0397534	7.1191244		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_012	3.8548462	6.993983		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_013	3.7964444	7.384058		PRELP	SLRP_candidate	Supported
+ProtT5 — UMAP 2	PRELP_014	3.6279905	7.2405915		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	PRELP_015	4.6160316	6.243528		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — UMAP 2	PRELP_016	3.4967084	7.3400126		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	ACAN_001	-0.099023834	2.4074159		ACAN	cartilage_non_SLRP_control	Control
+ProtT5 — t-SNE 2	BGN_001	2.7565904	-3.4644756		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_002	2.8139908	-3.4729717		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_003	2.8449924	-3.5170991		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_004	2.7792823	-3.4918954		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_005	3.023671	-3.4894814		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_006	3.4482176	-4.8473663		BGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	BGN_007	-0.49646395	-5.5184216		BGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	BGN_008	2.9480734	-3.8746903		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_009	1.7522081	-5.164986		BGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	BGN_010	2.6713338	-2.9432213		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_011	2.6485784	-3.9900699		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_012	2.4827578	-4.419773		BGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	BGN_015	2.0353339	-2.1871378		BGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	COL2A1_001	3.6622207	-1.221219		COL2A1	cartilage_non_SLRP_control	Control
+ProtT5 — t-SNE 2	COMP_001	3.437109	-1.6624887		COMP	cartilage_non_SLRP_control	Control
+ProtT5 — t-SNE 2	DCN_001	1.6980183	-4.382615		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_002	1.2658485	-3.7753296		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_003	1.250986	-3.6436415		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_004	1.6663339	-4.567039		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_005	1.7522054	-4.2500534		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_006	1.4711004	-4.256332		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_007	1.4361452	-4.7487826		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_008	1.0481575	-4.747997		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_009	1.7736026	-3.3638852		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_010	1.7647619	-3.7662802		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_011	1.0350804	-4.5617514		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_012	-0.092500396	-5.374604		DCN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	DCN_013	1.5745982	-3.7541418		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	DCN_014	0.36964446	-3.7257717		DCN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	DCN_015	0.9082059	-4.3148937		DCN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_001	11.071172	-6.5995226		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_002	11.115771	-6.7411923		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_003	12.082383	-5.7528353		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	EPYC_004	11.334018	-6.5947876		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_005	11.314557	-6.482833		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_006	11.170163	-6.8395953		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_007	11.547171	-6.0028777		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_008	10.628068	-7.082056		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_009	11.442952	-6.981353		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_010	11.17689	-7.5660543		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_011	11.946879	-7.334186		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_012	12.271776	-7.6046023		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	EPYC_013	11.7178	-7.5264606		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_014	11.600946	-7.6245713		EPYC	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	EPYC_015	9.988463	-7.3863254		EPYC	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	FMOD_001	-0.19260071	-0.23225813		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_002	-0.16024406	-0.2575791		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_003	-0.15156288	-0.32259315		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_004	-0.08181897	-0.19822687		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_005	-0.077822156	-0.26603687		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_006	-0.32432222	-0.22393587		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_007	-0.78687835	-0.13688305		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_008	-0.98062235	0.7001523		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	FMOD_009	-1.412502	-0.94621086		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_010	-1.2898809	-1.4596927		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_011	-0.61706525	-1.803651		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_012	-2.0168402	-1.5328736		FMOD	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	FMOD_013	-2.2328463	-1.5206578		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	FMOD_015	-2.44046	-1.4836193		FMOD	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	LUM_001	-4.0290046	-2.0780873		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_002	-4.277511	-1.8369124		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_003	-4.287647	-1.8595232		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_004	-4.1651573	-2.002255		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_005	-4.0641594	-1.8740038		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_006	-4.0088525	-2.1999996		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_007	-3.4863393	-2.2075112		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_008	-3.5171292	-2.212923		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_009	-3.14994	-1.9851605		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_010	-3.3106263	-1.0282315		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_011	-3.578635	-1.6488758		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_012	-3.16525	-1.8706168		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_013	-3.9818113	-1.0808328		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_014	-3.8200665	-1.0783439		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	LUM_015	-2.6095452	-0.3333152		LUM	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	LUM_016	-3.8916285	-1.0269343		LUM	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	MATN1_001	4.1097355	-3.1122272		MATN1	cartilage_non_SLRP_control	Control
+ProtT5 — t-SNE 2	OGN_001	9.449933	-6.3456635		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_002	9.211168	-6.2481456		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_003	9.12755	-6.1768003		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_004	9.355391	-6.3340573		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_005	8.627476	-5.6435776		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_006	9.983862	-5.929316		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_007	8.905625	-7.099917		OGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	OGN_008	8.856084	-5.700438		OGN	SLRP_candidate	Watch
+ProtT5 — t-SNE 2	OGN_009	10.550115	-5.03123		OGN	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	OGN_010	10.06963	-5.5456204		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_011	9.842147	-6.5344815		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_012	10.257599	-6.600751		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_013	10.324877	-6.2245135		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	OGN_015	10.383846	-6.141001		OGN	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_001	2.557989	1.4801736		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_002	2.5741193	1.3512657		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_003	2.5575662	1.4392058		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_004	2.5373378	1.5849395		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_005	2.5511804	1.3936986		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_006	2.5755754	1.5553735		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_007	2.3720925	3.0667114		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_008	2.1399512	2.874905		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_009	2.195088	2.8495386		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_010	2.0759053	2.3880768		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_011	2.145756	2.480124		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_012	2.2137597	2.9591472		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_013	1.7901875	3.0395014		PRELP	SLRP_candidate	Supported
+ProtT5 — t-SNE 2	PRELP_014	1.5660901	3.5532808		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	PRELP_015	1.9328885	-0.2860334		PRELP	SLRP_candidate	Needs inspection
+ProtT5 — t-SNE 2	PRELP_016	1.6831658	3.4797373		PRELP	SLRP_candidate	Supported

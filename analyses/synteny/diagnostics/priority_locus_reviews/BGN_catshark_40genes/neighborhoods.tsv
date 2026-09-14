@@ -1,0 +1,163 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-40	flanking	HSFX4	gene-HSFX4	149929573	149931287	+	3563693	protein_coding	heat shock transcription factor family, X-linked member 4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-39	flanking	MAMLD1	gene-MAMLD1	150361572	150514173	+	2980807	protein_coding	mastermind like domain containing 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-38	flanking	MTM1	gene-MTM1	150562653	150673143	+	2821837	protein_coding	myotubularin 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-37	flanking	MTMR1	gene-MTMR1	150692962	150765108	+	2729872	protein_coding	myotubularin related protein 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-36	flanking	CD99L2	gene-CD99L2	150766336	150898668	-	2596312	protein_coding	CD99 molecule like 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-35	flanking	HMGB3	gene-HMGB3	150980507	150990771	+	2504209	protein_coding	high mobility group box 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-34	flanking	GPR50	gene-GPR50	151176584	151182856	+	2312124	protein_coding	G protein-coupled receptor 50
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-33	flanking	VMA21	gene-VMA21	151396595	151409364	+	2085616	protein_coding	vacuolar ATPase assembly factor VMA21
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-32	flanking	PASD1	gene-PASD1	151563675	151676739	+	1818241	protein_coding	PAS domain containing repressor 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-31	flanking	PRRG3	gene-PRRG3	151694607	151705924	+	1789056	protein_coding	proline rich and Gla domain 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-30	flanking	FATE1	gene-FATE1	151716035	151723194	+	1771786	protein_coding	fetal and adult testis expressed 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-29	flanking	CNGA2	gene-CNGA2	151734746	151745564	+	1749416	protein_coding	cyclic nucleotide gated channel subunit alpha 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-28	flanking	MAGEA4	gene-MAGEA4	151912474	151925170	+	1569810	protein_coding	MAGE family member A4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-27	flanking	GABRE	gene-GABRE	151953124	151974676	-	1520304	protein_coding	gamma-aminobutyric acid type A receptor subunit epsilon
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-26	flanking	LOC100533997	gene-LOC100533997	152114049	152138577	-	1356403	protein_coding	MAGEA10-MAGEA5 readthrough
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-25	flanking	MAGEA10	gene-MAGEA10	152133310	152138577	-	1356403	protein_coding	MAGE family member A10
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-24	flanking	GABRA3	gene-GABRA3	152166234	152451315	-	1043665	protein_coding	gamma-aminobutyric acid type A receptor subunit alpha3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-23	flanking	GABRQ	gene-GABRQ	152637895	152658965	+	836015	protein_coding	gamma-aminobutyric acid type A receptor subunit theta
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-22	flanking	MAGEA3	gene-MAGEA3	152698794	152702347	+	792633	protein_coding	MAGE family member A3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-21	flanking	CSAG2	gene-CSAG2	152708261	152709391	-	785589	protein_coding	CSAG family member 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-20	flanking	MAGEA2B	gene-MAGEA2B	152714586	152718607	+	776373	protein_coding	MAGE family member A2B
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-19	flanking	CSAG1	gene-CSAG1	152727484	152733721	-	761259	protein_coding	chondrosarcoma associated gene 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-18	flanking	MAGEA12	gene-MAGEA12	152733757	152737669	+	757311	protein_coding	MAGE family member A12
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-17	flanking	MAGEA2	gene-MAGEA2	152749863	152753884	-	741096	protein_coding	MAGE family member A2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-16	flanking	CSAG3	gene-CSAG3	152753921	152760219	+	734761	protein_coding	CSAG family member 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-15	flanking	MAGEA6	gene-MAGEA6	152766136	152769689	-	725291	protein_coding	MAGE family member A6
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-14	flanking	CETN2	gene-CETN2	152826994	152830757	-	664223	protein_coding	centrin 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-13	flanking	NSDHL	gene-NSDHL	152831063	152869729	+	625251	protein_coding	NAD(P) dependent 3-beta-hydroxysteroid dehydrogenase NSDHL
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-12	flanking	ZNF185	gene-ZNF185	152898067	152973481	+	521499	protein_coding	zinc finger protein 185 with LIM domain
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-11	flanking	PNMA5	gene-PNMA5	152988824	152994116	-	500864	protein_coding	PNMA family member 5
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-10	flanking	PNMA3	gene-PNMA3	153056470	153060462	+	434518	protein_coding	PNMA family member 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-9	flanking	PNMA6A	gene-PNMA6A	153072454	153075019	+	419961	protein_coding	PNMA family member 6A
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-8	flanking	MAGEA1	gene-MAGEA1	153179284	153183880	+	311100	protein_coding	MAGE family member A1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-7	flanking	PWWP4	gene-PWWP4	153266147	153279145	+	215835	protein_coding	PWWP domain containing 4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-6	flanking	PNMA6F	gene-PNMA6F	153317680	153321767	-	173213	protein_coding	PNMA family member 6F
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-5	flanking	ZNF275	gene-ZNF275	153334153	153352926	+	142054	protein_coding	zinc finger protein 275
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-4	flanking	PNMA6E	gene-PNMA6E	153395639	153414004	-	80976	protein_coding	PNMA family member 6E
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-3	flanking	ZFP92	gene-ZFP92	153411472	153426481	+	68499	protein_coding	ZFP92 zinc finger protein
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-2	flanking	TREX2	gene-TREX2	153444473	153446056	-	48924	protein_coding	three prime repair exonuclease 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	-1	flanking	HAUS7	gene-HAUS7	153447668	153495465	-	0	protein_coding	HAUS augmin like complex subunit 7
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	0	focal	BGN	gene-BGN	153494980	153509546	+	0	protein_coding	biglycan
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	1	flanking	ATP2B3	gene-ATP2B3	153517642	153582929	+	8096	protein_coding	ATPase plasma membrane Ca2+ transporting 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	2	flanking	CCNQ	gene-CCNQ	153587925	153599139	-	78379	protein_coding	cyclin Q
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	3	flanking	DUSP9	gene-DUSP9	153642441	153651326	+	132895	protein_coding	dual specificity phosphatase 9
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	4	flanking	PNCK	gene-PNCK	153669733	153687771	-	160187	protein_coding	pregnancy up-regulated nonubiquitous CaM kinase
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	5	flanking	SLC6A8	gene-SLC6A8	153687926	153696593	+	178380	protein_coding	solute carrier family 6 member 8
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	6	flanking	BCAP31	gene-BCAP31	153700492	153724387	-	190946	protein_coding	B cell receptor associated protein 31
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	7	flanking	ABCD1	gene-ABCD1	153724856	153744755	+	215310	protein_coding	ATP binding cassette subfamily D member 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	8	flanking	PLXNB3	gene-PLXNB3	153764249	153779341	+	254703	protein_coding	plexin B3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	9	flanking	SRPK3	gene-SRPK3	153781041	153785730	+	271495	protein_coding	SRSF protein kinase 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	10	flanking	IDH3G	gene-IDH3G	153785768	153794375	-	276222	protein_coding	isocitrate dehydrogenase (NAD(+)) 3 non-catalytic subunit gamma
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	11	flanking	SSR4	gene-SSR4	153794159	153798499	+	284613	protein_coding	signal sequence receptor subunit 4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	12	flanking	PDZD4	gene-PDZD4	153802166	153830544	-	292620	protein_coding	PDZ domain containing 4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	13	flanking	L1CAM	gene-L1CAM	153861514	153886173	-	351968	protein_coding	L1 cell adhesion molecule
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	14	flanking	AVPR2	gene-AVPR2	153902625	153907166	+	393079	protein_coding	arginine vasopressin receptor 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	15	flanking	ARHGAP4	gene-ARHGAP4	153907378	153926264	-	397832	protein_coding	Rho GTPase activating protein 4
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	16	flanking	NAA10	gene-NAA10	153929225	153935037	-	419679	protein_coding	N-alpha-acetyltransferase 10, NatA catalytic subunit
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	17	flanking	RENBP	gene-RENBP	153935269	153944643	-	425723	protein_coding	renin binding protein
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	18	flanking	HCFC1	gene-HCFC1	153947557	153971818	-	438011	protein_coding	host cell factor C1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	19	flanking	TMEM187	gene-TMEM187	153972754	153983194	+	463208	protein_coding	transmembrane protein 187
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	20	flanking	IRAK1	gene-IRAK1	154010507	154019902	-	500961	protein_coding	interleukin 1 receptor associated kinase 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	21	flanking	MECP2	gene-MECP2	154021573	154097717	-	512027	protein_coding	methyl-CpG binding protein 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	22	flanking	OPN1LW	gene-OPN1LW	154144243	154159032	+	634697	protein_coding	opsin 1, long wave sensitive
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	23	flanking	OPN1MW	gene-OPN1MW	154182596	154196861	+	673050	protein_coding	opsin 1, medium wave sensitive
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	24	flanking	OPN1MW2	gene-OPN1MW2	154219756	154233286	+	710210	protein_coding	opsin 1, medium wave sensitive 2
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	25	flanking	OPN1MW3	gene-OPN1MW3	154257582	154271090	+	748036	protein_coding	opsin 1, medium wave sensitive 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	26	flanking	TEX28	gene-TEX28	154271265	154295211	-	761719	protein_coding	testis expressed 28
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	27	flanking	TKTL1	gene-TKTL1	154295795	154330350	+	786249	protein_coding	transketolase like 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	28	flanking	FLNA	gene-FLNA	154348531	154374634	-	838985	protein_coding	filamin A
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	29	flanking	EMD	gene-EMD	154379295	154381523	+	869749	protein_coding	emerin
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	30	flanking	RPL10	gene-RPL10	154398065	154402339	+	888519	protein_coding	ribosomal protein L10
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	31	flanking	DNASE1L1	gene-DNASE1L1	154401236	154412101	-	891690	protein_coding	deoxyribonuclease 1 like 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	32	flanking	TAFAZZIN	gene-TAFAZZIN	154411539	154421726	+	901993	protein_coding	tafazzin, phospholipid-lysophospholipid transacylase
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	33	flanking	ATP6AP1	gene-ATP6AP1	154428677	154436516	+	919131	protein_coding	ATPase H+ transporting accessory protein 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	34	flanking	GDI1	gene-GDI1	154437154	154443467	+	927608	protein_coding	GDP dissociation inhibitor 1
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	35	flanking	FAM50A	gene-FAM50A	154444141	154450654	+	934595	protein_coding	family with sequence similarity 50 member A
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	36	flanking	PLXNA3	gene-PLXNA3	154458281	154477779	+	948735	protein_coding	plexin A3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	37	flanking	LAGE3	gene-LAGE3	154477775	154479281	-	968229	protein_coding	L antigen family member 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	38	flanking	UBL4A	gene-UBL4A	154483717	154486615	-	974171	protein_coding	ubiquitin like 4A
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	39	flanking	SLC10A3	gene-SLC10A3	154487311	154490629	-	977765	protein_coding	solute carrier family 10 member 3
+human_BGN	NCBI_Assembly:GCF_000001405.40	human.gff	BGN@NC_000023.11	NC_000023.11	40	flanking	FAM3A	gene-FAM3A	154506171	154516232	-	996625	protein_coding	FAM3 metabolism regulating signaling molecule A
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-40	flanking	ebp	gene-ebp	1602490	1608148	-	2728884	protein_coding	EBP cholestenol delta-isomerase
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-39	flanking	LOC119955885	gene-LOC119955885	1646095	1672473	+	2664559	protein_coding	protein-serine O-palmitoleoyltransferase porcupine-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-38	flanking	LOC119955886	gene-LOC119955886	1691714	1717827	-	2619205	protein_coding	organic solute transporter subunit alpha
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-37	flanking	wdr13	gene-wdr13	1750445	1776545	+	2560487	protein_coding	WD repeat domain 13
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-36	flanking	ftsj1	gene-ftsj1	1778397	1811967	-	2525065	protein_coding	FtsJ RNA 2'-O-methyltransferase 1
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-35	flanking	LOC119955764	gene-LOC119955764	1843572	2026116	-	2310916	protein_coding	RLA class II histocompatibility antigen, DP alpha-1 chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-34	flanking	LOC119955760	gene-LOC119955760	1863128	1871508	+	2465524	protein_coding	class II histocompatibility antigen, B-L beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-33	flanking	LOC119955761	gene-LOC119955761	1979132	2002876	-	2334156	protein_coding	class II histocompatibility antigen, B-L beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-32	flanking	LOC119955759	gene-LOC119955759	2004963	2018323	+	2318709	protein_coding	H-2 class II histocompatibility antigen, E-S beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-31	flanking	LOC119955756	gene-LOC119955756	2027091	2242887	+	2094145	protein_coding	H-2 class II histocompatibility antigen, A-D beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-30	flanking	LOC119955758	gene-LOC119955758	2123895	2132861	-	2204171	protein_coding	H-2 class II histocompatibility antigen, E-S beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-29	flanking	LOC119955763	gene-LOC119955763	2134533	2141293	+	2195739	protein_coding	RLA class II histocompatibility antigen, DP alpha-1 chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-28	flanking	LOC119955762	gene-LOC119955762	2216555	2227130	-	2109902	protein_coding	RLA class II histocompatibility antigen, DP alpha-1 chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-27	flanking	LOC119955887	gene-LOC119955887	2274964	2280652	-	2056380	protein_coding	beta-2-microglobulin-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-26	flanking	LOC119955939	gene-LOC119955939	2303413	2331156	-	2005876	protein_coding	HLA class II histocompatibility antigen, DR beta 4 chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-25	flanking	LOC119955940	gene-LOC119955940	2331152	2344264	+	1992768	protein_coding	RLA class II histocompatibility antigen, DP alpha-1 chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-24	flanking	LOC119955888	gene-LOC119955888	2359747	2372355	+	1964677	protein_coding	DLA class II histocompatibility antigen, DR-1 beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-23	flanking	LOC119955890	gene-LOC119955890	2373146	2419023	-	1918009	protein_coding	H-2 class II histocompatibility antigen, A-K alpha chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-22	flanking	LOC119955697	gene-LOC119955697	2438422	2457688	+	1879344	protein_coding	SLA class II histocompatibility antigen, DQ haplotype C beta chain-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-21	flanking	tsr2	gene-tsr2	2543955	2562461	-	1774571	protein_coding	TSR2 ribosome maturation factor
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-20	flanking	LOC119955659	gene-LOC119955659	2576513	2678265	+	1658767	protein_coding	serine/threonine-protein kinase WNK3-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-19	flanking	fam120c	gene-fam120c	2710719	2768763	+	1568269	protein_coding	family with sequence similarity 120 member C
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-18	flanking	LOC119955891	gene-LOC119955891	2776684	2825903	+	1511129	protein_coding	histone lysine demethylase PHF8-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-17	flanking	LOC119955892	gene-LOC119955892	2877289	2880347	-	1456685	protein_coding	cilia- and flagella-associated protein 251-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-16	flanking	LOC119955661	gene-LOC119955661	2926011	2927933	-	1409099	protein_coding	uncharacterized LOC119955661
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-15	flanking	LOC119955893	gene-LOC119955893	2928335	2935928	-	1401104	protein_coding	trichohyalin-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-14	flanking	huwe1	gene-huwe1	2948566	3139651	+	1197381	protein_coding	HECT, UBA and WWE domain containing E3 ubiquitin protein ligase 1
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-13	flanking	LOC119955895	gene-LOC119955895	3379953	3385669	+	951363	protein_coding	CXXC-type zinc finger protein 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-12	flanking	LOC119955873	gene-LOC119955873	3459004	3473575	-	863457	protein_coding	CXXC-type zinc finger protein 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-11	flanking	LOC119955781	gene-LOC119955781	3476262	3550528	+	786504	protein_coding	histone deacetylase 6-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-10	flanking	LOC119955916	gene-LOC119955916	3551741	3572674	+	764358	protein_coding	transcription cofactor vestigial-like protein 4
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-9	flanking	LOC119955896	gene-LOC119955896	3664398	3708510	+	628522	protein_coding	synapsin-1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-8	flanking	ndnl2	gene-ndnl2	3715806	3757692	-	579340	protein_coding	necdin-like 2
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-7	flanking	itih6	gene-itih6	3777534	3834729	-	502303	protein_coding	inter-alpha-trypsin inhibitor heavy chain family member 6
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-6	flanking	gnl3l	gene-gnl3l	3841582	3858317	-	478715	protein_coding	G protein nucleolar 3 like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-5	flanking	LOC119955810	gene-LOC119955810	3864552	3869178	+	467854	protein_coding	prickle planar cell polarity protein 3-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-4	flanking	LOC119955831	gene-LOC119955831	3911620	3983746	+	353286	protein_coding	voltage-dependent L-type calcium channel subunit alpha-1D-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-3	flanking	LOC119955667	gene-LOC119955667	4011152	4020974	-	316058	protein_coding	voltage-dependent L-type calcium channel subunit alpha-1D-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-2	flanking	LOC119955898	gene-LOC119955898	4055342	4076925	-	260107	protein_coding	protein bicaudal D homolog 2-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	-1	flanking	LOC119955899	gene-LOC119955899	4148962	4156263	-	180769	protein_coding	transketolase-like protein 2
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	0	focal	LOC119955784	gene-LOC119955784	4337032	4377582	+	0	protein_coding	biglycan-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	1	flanking	LOC119955900	gene-LOC119955900	4381914	4486499	+	4332	protein_coding	plasma membrane calcium-transporting ATPase 3-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	2	flanking	LOC119955391	gene-LOC119955391	4489110	4512179	+	111528	protein_coding	C3a anaphylatoxin chemotactic receptor-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	3	flanking	LOC119955389	gene-LOC119955389	4524743	4535826	+	147161	protein_coding	C3a anaphylatoxin chemotactic receptor-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	4	flanking	LOC119955815	gene-LOC119955815	4557738	4558393	-	180156	protein_coding	syncollin-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	5	flanking	LOC119955942	gene-LOC119955942	4600090	4621250	+	222508	protein_coding	superoxide dismutase [Cu-Zn], chloroplastic-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	6	flanking	LOC119955632	gene-LOC119955632	4653902	4673555	+	276320	protein_coding	retinol dehydrogenase 11-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	7	flanking	LOC119955745	gene-LOC119955745	4783277	4830282	-	405695	protein_coding	calcium/calmodulin-dependent protein kinase type 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	8	flanking	LOC119955902	gene-LOC119955902	4866292	4902316	+	488710	protein_coding	creatine transporter
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	9	flanking	slc35a2	gene-slc35a2	5045198	5090452	-	667616	protein_coding	solute carrier family 35 member 2
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	10	flanking	LOC119955903	gene-LOC119955903	5114309	5174165	-	736727	protein_coding	OTU domain-containing protein 5-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	11	flanking	LOC119955904	gene-LOC119955904	5257090	5308878	-	879508	protein_coding	plexin A3-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	12	flanking	LOC119955811	gene-LOC119955811	5361667	5453129	+	984085	protein_coding	plexin A3-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	13	flanking	LOC119955905	gene-LOC119955905	5476661	5505585	+	1099079	protein_coding	rab GDP dissociation inhibitor alpha
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	14	flanking	LOC119955813	gene-LOC119955813	5513782	5540753	+	1136200	protein_coding	mitochondrial carnitine/acylcarnitine carrier protein-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	15	flanking	tafazzin	gene-tafazzin	5560884	5594340	+	1183302	protein_coding	tafazzin, phospholipid-lysophospholipid transacylase
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	16	flanking	LOC119955634	gene-LOC119955634	5594428	5598093	+	1216846	protein_coding	serine/arginine repetitive matrix protein 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	17	flanking	atp6ap1a	gene-atp6ap1a	5601851	5625064	+	1224269	protein_coding	ATPase H+ transporting accessory protein 1a
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	18	flanking	LOC119955933	gene-LOC119955933	5627588	5652686	+	1250006	protein_coding	deoxyribonuclease-1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	19	flanking	rpl10	gene-rpl10	5653730	5657992	-	1276148	protein_coding	ribosomal protein L10
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	20	flanking	LOC119955907	gene-LOC119955907	5691988	5755735	-	1314406	protein_coding	filamin-A
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	21	flanking	LOC119955851	gene-LOC119955851	5767412	5775087	-	1389830	protein_coding	caspase-14-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	22	flanking	cenpk	gene-cenpk	5861701	5879641	+	1484119	protein_coding	centromere protein K
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	23	flanking	LOC119955911	gene-LOC119955911	5898723	5900595	-	1521141	protein_coding	UDP-glucuronosyltransferase 2A1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	24	flanking	LOC119955622	gene-LOC119955622	6067807	6068347	-	1690225	protein_coding	barrier-to-autointegration factor-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	25	flanking	LOC119955620	gene-LOC119955620	6275179	6326581	+	1897597	protein_coding	IQ motif and SEC7 domain-containing protein 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	26	flanking	LOC119955621	gene-LOC119955621	6364117	6410830	+	1986535	protein_coding	lysine-specific demethylase 5C-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	27	flanking	LOC119955912	gene-LOC119955912	6414892	6466866	-	2037310	protein_coding	fibulin-1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	28	flanking	LOC119955913	gene-LOC119955913	6531048	6576784	-	2153466	protein_coding	structural maintenance of chromosomes protein 1A-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	29	flanking	LOC119955431	gene-LOC119955431	6576372	6594748	+	2198790	protein_coding	RIB43A-like with coiled-coils protein 1
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	30	flanking	hsd17b10	gene-hsd17b10	6595523	6610371	-	2217941	protein_coding	hydroxysteroid (17-beta) dehydrogenase 10
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	31	flanking	LOC119955593	gene-LOC119955593	6666759	6696222	-	2289177	protein_coding	protein Wnt-7a-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	32	flanking	LOC119955591	gene-LOC119955591	6750872	6809116	-	2373290	protein_coding	GATA-binding factor 2-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	33	flanking	cdk20	gene-cdk20	6830847	6859256	-	2453265	protein_coding	cyclin dependent kinase 20
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	34	flanking	LOC119955862	gene-LOC119955862	6863700	6887288	+	2486118	protein_coding	ras-related protein rab7-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	35	flanking	LOC119955914	gene-LOC119955914	6888792	6913418	-	2511210	protein_coding	host cell factor 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	36	flanking	mecp2	gene-mecp2	6996082	7152995	-	2618500	protein_coding	methyl CpG binding protein 2
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	37	flanking	nprl3	gene-nprl3	7237530	7244677	+	2859948	protein_coding	NPR3-like, GATOR1 complex subunit
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	38	flanking	LOC119955938	gene-LOC119955938	7275294	7301101	-	2897712	protein_coding	transmembrane and coiled-coil domains protein 1-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	39	flanking	LOC119955915	gene-LOC119955915	7347282	7432153	+	2969700	protein_coding	myoD family inhibitor domain-containing protein-like
+catshark_BGN	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119955784@NC_052166.1	NC_052166.1	40	flanking	LOC119955806	gene-LOC119955806	7536175	7641042	+	3158593	protein_coding	metabotropic glutamate receptor 6-like

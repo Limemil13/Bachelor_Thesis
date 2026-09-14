@@ -1,0 +1,16 @@
+LABELS
+SEPARATOR TAB
+DATA
+human|BGN|XP_016885213.1	Human
+mouse|BGN|NP_031568.2	Mouse
+rattus_norvegicus|BGN|NP_058783.1	Rat
+canis_lupus_familiaris|BGN|NP_001003229.1	Dog
+bos_taurus|BGN|XP_005227715.1	Cow
+anolis_carolinensis|BGN|XP_062827322.1	Anole
+frog|BGN|NP_001072552.1	Frog
+zebrafish|BGN|NP_001001825.2	Zebrafish
+lamprey|BGN|XP_075929720.1	Lamprey
+whale_shark|BGN|XP_048475905.1	Whale shark
+lepisosteus_oculatus|BGN|XP_069037386.1	Spotted gar
+scyliorhinus_canicula|BGN|XP_038638277.1	Catshark
+latimeria_chalumnae|BGN|XP_064415290.1	Coelacanth

@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-15	flanking	MGAT4C	gene-MGAT4C	85955667	86839000	-	4263629	protein_coding	MGAT4 family member C
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-14	flanking	C12orf50	gene-C12orf50	87980035	88030232	-	3072397	protein_coding	chromosome 12 open reading frame 50
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-13	flanking	RLIG1	gene-RLIG1	88035536	88050160	+	3052469	protein_coding	RNA 5'-phosphate and 3'-OH ligase 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-12	flanking	CEP290	gene-CEP290	88049016	88142088	-	2960541	protein_coding	centrosomal protein 290
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-11	flanking	TMTC3	gene-TMTC3	88142307	88199887	+	2902742	protein_coding	transmembrane O-mannosyltransferase targeting cadherins 3
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-10	flanking	KITLG	gene-KITLG	88492793	88580471	-	2522158	protein_coding	KIT ligand
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-9	flanking	DUSP6	gene-DUSP6	89347235	89352501	-	1750128	protein_coding	dual specificity phosphatase 6
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-8	flanking	POC1B-DUSP6	gene-POC1B-DUSP6	89348065	89526047	-	1576582	protein_coding	POC1B-DUSP6 readthrough
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-7	flanking	POC1B	gene-POC1B	89401467	89526047	-	1576582	protein_coding	POC1 centriolar protein B
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-6	flanking	GALNT4	gene-GALNT4	89519412	89524796	-	1577833	protein_coding	polypeptide N-acetylgalactosaminyltransferase 4
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-5	flanking	POC1B-GALNT4	gene-POC1B-GALNT4	89519412	89526262	-	1576367	protein_coding	POC1B-GALNT4 readthrough
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-4	flanking	ATP2B1	gene-ATP2B1	89588049	89709366	-	1393263	protein_coding	ATPase plasma membrane Ca2+ transporting 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-3	flanking	CCER1	gene-CCER1	90952215	90955176	-	147453	protein_coding	coiled-coil glutamate rich protein 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-2	flanking	EPYC	gene-EPYC	90963682	91004972	-	97657	protein_coding	epiphycan
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	-1	flanking	KERA	gene-KERA	91050491	91058024	-	44605	protein_coding	keratocan
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	0	focal	LUM	gene-LUM	91102629	91111494	-	0	protein_coding	lumican
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	1	flanking	DCN	gene-DCN	91140484	91182817	-	28990	protein_coding	decorin
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	2	flanking	BTG1	gene-BTG1	92140278	92145846	-	1028784	protein_coding	BTG anti-proliferation factor 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	3	flanking	PLEKHG7	gene-PLEKHG7	92702989	92772455	+	1591495	protein_coding	pleckstrin homology and RhoGEF domain containing G7
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	4	flanking	EEA1	gene-EEA1	92770637	92929295	-	1659143	protein_coding	early endosome antigen 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	5	flanking	NUDT4	gene-NUDT4	93377925	93408146	+	2266431	protein_coding	nudix hydrolase 4
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	6	flanking	UBE2N	gene-UBE2N	93405684	93441947	-	2294190	protein_coding	ubiquitin conjugating enzyme E2 N
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	7	flanking	MRPL42	gene-MRPL42	93467514	93516214	+	2356020	protein_coding	mitochondrial ribosomal protein L42
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	8	flanking	SOCS2	gene-SOCS2	93569969	93626236	+	2458475	protein_coding	suppressor of cytokine signaling 2
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	9	flanking	CRADD	gene-CRADD	93677375	93894840	+	2565881	protein_coding	CARD and death domain containing adaptor protein
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	10	flanking	PLXNC1	gene-PLXNC1	94148577	94307675	+	3037083	protein_coding	plexin C1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	11	flanking	CEP83	gene-CEP83	94265662	94460454	-	3154168	protein_coding	centrosomal protein 83
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	12	flanking	TMCC3	gene-TMCC3	94567122	94650557	-	3455628	protein_coding	transmembrane and coiled-coil domain family 3
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	13	flanking	NDUFA12	gene-NDUFA12	94971333	95003697	-	3859839	protein_coding	NADH:ubiquinone oxidoreductase subunit A12
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	14	flanking	NR2C1	gene-NR2C1	95020229	95073618	-	3908735	protein_coding	nuclear receptor subfamily 2 group C member 1
+human_LUM	NCBI_Assembly:GCF_000001405.40	human.gff	LUM@NC_000012.12	NC_000012.12	15	flanking	FGD6	gene-FGD6	95076749	95217467	-	3965255	protein_coding	FYVE, RhoGEF and PH domain containing 6
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-15	flanking	RASSF9	gene-RASSF9	110781556	110812200	-	3078758	protein_coding	Ras association domain family member 9
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-14	flanking	MGAT4C	gene-MGAT4C	110913108	110950197	-	2940761	protein_coding	mgat4 family member C
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-13	flanking	LOC135358315	gene-LOC135358315	111504572	111506193	+	2384765	protein_coding	jerky protein homolog-like
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-12	flanking	RLIG1	gene-RLIG1	111926118	111981945	+	1909013	protein_coding	RNA 5'-phosphate and 3'-OH ligase 1
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-11	flanking	CEP290	gene-CEP290	111960842	112086878	-	1804080	protein_coding	centrosomal protein 290
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-10	flanking	TMTC3	gene-TMTC3	112108434	112167105	+	1723853	protein_coding	transmembrane O-mannosyltransferase targeting cadherins 3
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-9	flanking	LOC102364515	gene-LOC102364515	112335019	112400205	-	1490753	protein_coding	uncharacterized LOC102364515
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-8	flanking	LOC135358163	gene-LOC135358163	112344007	112346369	-	1544589	protein_coding	E3 SUMO-protein ligase ZBED1-like
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-7	flanking	LOC135358269	gene-LOC135358269	112846797	112854884	-	1036074	protein_coding	uncharacterized LOC135358269
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-6	flanking	DUSP6	gene-DUSP6	112912437	112918011	-	972947	protein_coding	dual specificity phosphatase 6
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-5	flanking	POC1B	gene-POC1B	112942788	113014421	-	876537	protein_coding	POC1 centriolar protein B
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-4	flanking	LOC102353242	gene-LOC102353242	113027530	113251897	-	639061	protein_coding	plasma membrane calcium-transporting ATPase 1
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-3	flanking	WU:FB55G09	gene-WU:FB55G09	113767155	113768315	-	122643	protein_coding	uncharacterized WU:FB55G09
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-2	flanking	EPYC	gene-EPYC	113783413	113830371	-	60587	protein_coding	epiphycan
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	-1	flanking	KERA	gene-KERA	113845612	113861646	-	29312	protein_coding	keratocan
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	0	focal	LUM	gene-LUM	113890958	113908026	-	0	protein_coding	lumican
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	1	flanking	DCN	gene-DCN	114048728	114126931	-	140702	protein_coding	decorin
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	2	flanking	KCNQ1.2	gene-KCNQ1.2	114304763	114660701	+	396737	protein_coding	potassium voltage-gated channel, KQT-like subfamily, member 1.2
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	3	flanking	CDKN1BB	gene-CDKN1BB	114714905	114724629	-	806879	protein_coding	cyclin dependent kinase inhibitor 1Bb
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	4	flanking	LOC102355504	gene-LOC102355504	114766789	114802707	-	858763	protein_coding	ninjurin-2-like
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	5	flanking	WNK1B	gene-WNK1B	114850341	115080093	+	942315	protein_coding	WNK lysine deficient protein kinase 1b
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	6	flanking	RAD52	gene-RAD52	115084269	115113447	-	1176243	protein_coding	RAD52 homolog, DNA repair protein
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	7	flanking	ERC1B	gene-ERC1B	115114763	115586996	+	1206737	protein_coding	ELKS/RAB6-interacting/CAST family member 1b
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	8	flanking	LOC102352544	gene-LOC102352544	115665994	115668390	-	1757968	protein_coding	F-box/LRR-repeat protein 14
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	9	flanking	WNT5B	gene-WNT5B	115704472	115723614	+	1796446	protein_coding	wingless-type MMTV integration site family, member 5b
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	10	flanking	LOC102351818	gene-LOC102351818	115735740	115799508	-	1827714	protein_coding	adiponectin receptor protein 2
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	11	flanking	CACNA2D4A	gene-CACNA2D4A	115805285	116014429	-	1897259	protein_coding	calcium channel, voltage-dependent, alpha 2/delta subunit 4a
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	12	flanking	LRTM2A	gene-LRTM2A	115866588	115914822	+	1958562	protein_coding	leucine-rich repeats and transmembrane domains 2a
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	13	flanking	DCP1B	gene-DCP1B	116033775	116070146	-	2125749	protein_coding	decapping mRNA 1B
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	14	flanking	CACNA1C	gene-CACNA1C	116070626	116487757	+	2162600	protein_coding	calcium channel, voltage-dependent, L type, alpha 1C subunit
+coelacanth_LUM	NCBI_Assembly:GCF_037176945.1	coelacanth.gff	LUM@NC_088145.1	NC_088145.1	15	flanking	IL17RA1A	gene-IL17RA1A	116530030	116566627	+	2622004	protein_coding	interleukin 17 receptor A1a

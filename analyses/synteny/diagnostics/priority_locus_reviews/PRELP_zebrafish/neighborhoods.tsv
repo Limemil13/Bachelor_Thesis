@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-15	flanking	KDM5B	gene-KDM5B	202724495	202808421	-	667385	protein_coding	lysine demethylase 5B
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-14	flanking	LOC124904583	gene-LOC124904583	202810238	202825935	-	649871	protein_coding	uncharacterized LOC124904583
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-13	flanking	RABIF	gene-RABIF	202878282	202889149	-	586657	protein_coding	RAB interacting factor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-12	flanking	KLHL12	gene-KLHL12	202891120	202928599	-	547207	protein_coding	kelch like family member 12
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-11	flanking	ADIPOR1	gene-ADIPOR1	202940825	202958572	-	517234	protein_coding	adiponectin receptor 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-10	flanking	CYB5R1	gene-CYB5R1	202961873	202967257	-	508549	protein_coding	cytochrome b5 reductase 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-9	flanking	TMEM183A	gene-TMEM183A	203007374	203024848	+	450958	protein_coding	transmembrane protein 183A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-8	flanking	PPFIA4	gene-PPFIA4	203026491	203078736	+	397070	protein_coding	PPFI scaffold protein A4
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-7	flanking	MYOG	gene-MYOG	203083129	203086012	-	389794	protein_coding	myogenin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-6	flanking	ADORA1	gene-ADORA1	203127726	203167405	+	308401	protein_coding	adenosine A1 receptor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-5	flanking	MYBPH	gene-MYBPH	203167811	203179214	-	296592	protein_coding	myosin binding protein H
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-4	flanking	CHI3L1	gene-CHI3L1	203178931	203186704	-	289102	protein_coding	chitinase 3 like 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-3	flanking	CHIT1	gene-CHIT1	203216079	203230099	-	245707	protein_coding	chitinase 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-2	flanking	BTG2	gene-BTG2	203305519	203309602	+	166204	protein_coding	BTG anti-proliferation factor 2
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-1	flanking	FMOD	gene-FMOD	203340628	203351122	-	124684	protein_coding	fibromodulin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	0	focal	PRELP	gene-PRELP	203475806	203491352	+	0	protein_coding	proline and arginine rich end leucine rich repeat protein
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	1	flanking	OPTC	gene-OPTC	203494153	203508949	+	2801	protein_coding	opticin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	2	flanking	ATP2B4	gene-ATP2B4	203626832	203744081	+	135480	protein_coding	ATPase plasma membrane Ca2+ transporting 4
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	3	flanking	LAX1	gene-LAX1	203765183	203776372	+	273831	protein_coding	lymphocyte transmembrane adaptor 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	4	flanking	ZBED6	gene-ZBED6	203795623	203854124	+	304271	protein_coding	zinc finger BED-type containing 6
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	5	flanking	ZC3H11A	gene-ZC3H11A	203795623	203854124	+	304271	protein_coding	zinc finger CCCH-type containing 11A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	6	flanking	LOC128031836	gene-LOC128031836	203802094	203802192	+	310742	protein_coding	uncharacterized LOC128031836
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	7	flanking	SNRPE	gene-SNRPE	203861599	203871152	+	370247	protein_coding	small nuclear ribonucleoprotein polypeptide E
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	8	flanking	SOX13	gene-SOX13	204073115	204127743	+	581763	protein_coding	SRY-box transcription factor 13
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	9	flanking	ETNK2	gene-ETNK2	204131062	204152044	-	639710	protein_coding	ethanolamine kinase 2
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	10	flanking	REN	gene-REN	204154819	204166337	-	663467	protein_coding	renin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	11	flanking	KISS1	gene-KISS1	204190341	204196491	-	698989	protein_coding	KiSS-1 metastasis suppressor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	12	flanking	GOLT1A	gene-GOLT1A	204198163	204213988	-	706811	protein_coding	golgi transport 1A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	13	flanking	PLEKHA6	gene-PLEKHA6	204218853	204378168	-	727501	protein_coding	pleckstrin homology domain containing A6
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	14	flanking	PPP1R15B	gene-PPP1R15B	204395826	204411817	-	904474	protein_coding	protein phosphatase 1 regulatory subunit 15B
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	15	flanking	PIK3C2B	gene-PIK3C2B	204422633	204494805	-	931281	protein_coding	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-15	flanking	synpra	gene-synpra	21724543	21793232	-	1388155	protein_coding	synaptoporin a
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-14	flanking	LOC141376703	gene-LOC141376703	21793213	21998918	+	1182469	protein_coding	uncharacterized LOC141376703
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-13	flanking	nampt2	gene-nampt2	21827299	21874251	-	1307136	protein_coding	nicotinamide phosphoribosyltransferase 2
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-12	flanking	cadpsa	gene-cadpsa	21879274	22131685	+	1049702	protein_coding	Ca2+-dependent activator protein for secretion a
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-11	flanking	si:dkey-274m17.3	gene-si:dkey-274m17.3	22080352	22160585	-	1020802	protein_coding	si:dkey-274m17.3
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-10	flanking	fezf2	gene-fezf2	22145509	22148187	+	1033200	protein_coding	FEZ family zinc finger 2
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-9	flanking	ogfr2	gene-ogfr2	22180401	22184829	-	996558	protein_coding	opioid growth factor receptor 2
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-8	flanking	ogfr1	gene-ogfr1	22221862	22229579	-	951808	protein_coding	opioid growth factor receptor 1
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-7	flanking	LOC799881	gene-LOC799881	22229561	22233010	-	948377	protein_coding	uncharacterized LOC799881
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-6	flanking	cdh4	gene-cdh4	22515092	22988559	+	192828	protein_coding	cadherin 4, type 1, R-cadherin (retinal)
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-5	flanking	LOC137496691	gene-LOC137496691	22972765	22973741	+	207646	protein_coding	myb-related transcription factor, partner of profilin-like
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-4	flanking	taf4a	gene-taf4a	23049251	23092585	-	88802	protein_coding	TAF4A RNA polymerase II, TATA box binding protein (TBP)-associated factor
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-3	flanking	slc6a14	gene-slc6a14	23098251	23119388	-	61999	protein_coding	solute carrier family 6 member 14
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-2	flanking	fmoda	gene-fmoda	23130738	23136613	-	44774	protein_coding	fibromodulin a
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	-1	flanking	zgc:113307	gene-zgc:113307	23154151	23165308	+	16079	protein_coding	zgc:113307
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	0	focal	prelp	gene-prelp	23181387	23192171	+	0	protein_coding	proline/arginine-rich end leucine-rich repeat protein
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	1	flanking	il19l	gene-il19l	23201559	23205391	+	9388	protein_coding	interleukin 19 like
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	2	flanking	il10	gene-il10	23235392	23246717	+	43221	protein_coding	interleukin 10
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	3	flanking	mapkapk2a	gene-mapkapk2a	23261792	23323209	-	69621	protein_coding	MAPK activated protein kinase 2a
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	4	flanking	dyrk3	gene-dyrk3	23363541	23371750	-	171370	protein_coding	dual specificity tyrosine phosphorylation regulated kinase 3
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	5	flanking	rassf5	gene-rassf5	23384549	23458701	-	192378	protein_coding	Ras association domain family member 5
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	6	flanking	ikbke	gene-ikbke	23459598	23499154	-	267427	protein_coding	inhibitor of nuclear factor kappa B kinase subunit epsilon
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	7	flanking	srgap2	gene-srgap2	23501875	23683206	-	309704	protein_coding	SLIT-ROBO Rho GTPase activating protein 2
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	8	flanking	zgc:101564	gene-zgc:101564	23684366	23692403	+	492195	protein_coding	zgc:101564
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	9	flanking	foxp4	gene-foxp4	23713161	24201158	+	520990	protein_coding	forkhead box P4
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	10	flanking	mdfi	gene-mdfi	24216476	24272594	+	1024305	protein_coding	MyoD family inhibitor
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	11	flanking	tfeb	gene-tfeb	24395523	24470316	-	1203352	protein_coding	transcription factor EB
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	12	flanking	tmem183a	gene-tmem183a	24474158	24482329	-	1281987	protein_coding	transmembrane protein 183A
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	13	flanking	ppfia4	gene-ppfia4	24484755	24690487	+	1292584	protein_coding	PTPRF interacting protein alpha 4
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	14	flanking	LOC141376600	gene-LOC141376600	24519584	24545707	-	1327413	protein_coding	uncharacterized LOC141376600
+zebrafish_PRELP	NCBI_Assembly:GCF_049306965.1	zebrafish.gff	prelp@NC_133186.1	NC_133186.1	15	flanking	LOC110439107	gene-LOC110439107	24538017	24544905	+	1345846	protein_coding	sterile alpha motif domain-containing protein 3-like

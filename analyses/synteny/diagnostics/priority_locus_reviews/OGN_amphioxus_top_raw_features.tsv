@@ -1,0 +1,6 @@
+seqid	source	feature	start	end	strand	symbol	id	parent	description	product	protein_id
+NC_049995.1	RefSeq	region	1	19122194	+	17	NC_049995.1:1..19122194				
+NC_049995.1	Gnomon	gene	11575541	11589548	-	LOC118405058	gene-LOC118405058				
+NC_049995.1	Gnomon	mRNA	11575541	11589548	-	LOC118405058	rna-XM_035804461.1	gene-LOC118405058		endoribonuclease LACTB2-like	
+NC_049995.1	Gnomon	exon	11578833	11579057	-	LOC118405058	exon-XM_035804461.1-6	rna-XM_035804461.1		endoribonuclease LACTB2-like	
+NC_049995.1	Gnomon	CDS	11578833	11579057	-	LOC118405058	cds-XP_035660354.1	rna-XM_035804461.1		endoribonuclease LACTB2-like	XP_035660354.1

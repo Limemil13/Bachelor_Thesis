@@ -1,0 +1,32 @@
+seqid	source	feature	start	end	strand	symbol	id	parent	description	product	protein_id	role
+NW_024704760.1	Gnomon	gene	1839640	1845142	+	LOC103182453	gene-LOC103182453					upstream
+NW_024704760.1	Gnomon	gene	1845483	1849651	+	LOC103182455	gene-LOC103182455					upstream
+NW_024704760.1	Gnomon	gene	1850074	1862072	-	LOC103182544	gene-LOC103182544					upstream
+NW_024704760.1	Gnomon	gene	1863477	1868200	-	LOC121850437	gene-LOC121850437					upstream
+NW_024704760.1	Gnomon	gene	1878274	1889050	+	LOC103182547	gene-LOC103182547					upstream
+NW_024704760.1	Gnomon	gene	1890587	1898163	+	LOC121850441	gene-LOC121850441					upstream
+NW_024704760.1	Gnomon	gene	1900656	1911778	+	LOC103182457	gene-LOC103182457					upstream
+NW_024704760.1	Gnomon	gene	1916899	1921772	+	LOC103182458	gene-LOC103182458					upstream
+NW_024704760.1	Gnomon	gene	1923006	1925105	+	LOC121850440	gene-LOC121850440					upstream
+NW_024704760.1	Gnomon	gene	1925462	1927732	+	LOC121848073	gene-LOC121848073					upstream
+NW_024704760.1	Gnomon	gene	1932976	1963467	-	LOC103182459	gene-LOC103182459					upstream
+NW_024704760.1	BestRefSeq	gene	1966030	1973257	-	LOC103182460	gene-LOC103182460		glutathione S-transferase Mu 1-like			upstream
+NW_024704760.1	Gnomon	gene	1979449	2011497	-	LOC103182462	gene-LOC103182462					upstream
+NW_024704760.1	Gnomon	gene	2019979	2023569	-	LOC103182463	gene-LOC103182463					upstream
+NW_024704760.1	Gnomon	gene	2050523	2055219	+	LOC103174132	gene-LOC103174132					upstream
+NW_024704760.1	Gnomon	gene	2093069	2111518	-	LOC103182549	gene-LOC103182549					overlap
+NW_024704760.1	Gnomon	gene	2114380	2128977	+	zgc:113307	gene-zgc:113307					downstream
+NW_024704760.1	Gnomon	gene	2133532	2142624	+	LOC103182464	gene-LOC103182464					downstream
+NW_024704760.1	Gnomon	gene	2302327	2357120	+	LOC103182465	gene-LOC103182465					downstream
+NW_024704760.1	BestRefSeq	gene	2367090	2378043	-	mdm4	gene-mdm4		MDM4, p53 regulator			downstream
+NW_024704760.1	BestRefSeq%2CGnomon	gene	2379099	2386803	-	taf8	gene-taf8		TAF8 RNA polymerase II, TATA box binding protein (TBP)-associated factor			downstream
+NW_024704760.1	Gnomon	gene	2387935	2462875	+	LOC103182468	gene-LOC103182468					downstream
+NW_024704760.1	Gnomon	gene	2451599	2453319	-	LOC121850442	gene-LOC121850442					downstream
+NW_024704760.1	Gnomon	gene	2468610	2474735	-	LOC103182470	gene-LOC103182470					downstream
+NW_024704760.1	Gnomon	gene	2475713	2482665	-	bysl	gene-bysl					downstream
+NW_024704760.1	Gnomon	gene	2484150	2490214	+	med20	gene-med20					downstream
+NW_024704760.1	Gnomon	gene	2492571	2525567	+	usp49	gene-usp49					downstream
+NW_024704760.1	Gnomon	gene	2530032	2532949	-	tomm6	gene-tomm6					downstream
+NW_024704760.1	Gnomon	gene	2544097	2554494	+	LOC103182474	gene-LOC103182474					downstream
+NW_024704760.1	Gnomon	gene	2556336	2587370	-	LOC103182475	gene-LOC103182475					downstream
+NW_024704760.1	Gnomon	gene	2621402	2626331	+	LOC103182476	gene-LOC103182476					downstream

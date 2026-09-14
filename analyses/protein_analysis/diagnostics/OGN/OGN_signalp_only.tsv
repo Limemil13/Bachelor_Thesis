@@ -1,0 +1,16 @@
+gene	species	accession	signalp_id	signal_peptide	signalp_prediction	other_score	sp_score	cleavage_site	cleavage_probability	signalp_quality	strict_check	watch	notes
+OGN	human	NP_148935.1	OGN_human_NP_148935.1	yes	SP	0.000178	0.999831	19-20	0.9902	strong_signal_peptide	no	no	
+OGN	mouse	NP_032786.1	OGN_mouse_NP_032786.1	yes	SP	0.000161	0.999864	19-20	0.9860	strong_signal_peptide	no	no	
+OGN	canis_lupus_familiaris	XP_038383338.1	OGN_canis_lupus_familiaris_XP_038383338.1	no	OTHER	0.999994	0.000000			no_signal_peptide	yes	yes	No SignalP Sec/SPI signal peptide predicted
+OGN	bos_taurus	NP_776371.1	OGN_bos_taurus_NP_776371.1	yes	SP	0.000196	0.999820	19-20	0.9904	strong_signal_peptide	no	no	
+OGN	monodelphis_domestica	XP_056660002.1	OGN_monodelphis_domestica_XP_056660002.1	yes	SP	0.000107	0.999854	19-20	0.8251	watch_cleavage_probability	no	yes	Slightly lower cleavage-site probability
+OGN	chicken	NP_989540.1	OGN_chicken_NP_989540.1	yes	SP	0.000157	0.999846	19-20	0.9893	strong_signal_peptide	no	no	
+OGN	anolis_carolinensis	XP_008103381.1	OGN_anolis_carolinensis_XP_008103381.1	yes	SP	0.000494	0.999491	20-21	0.9861	strong_signal_peptide	no	no	
+OGN	frog	XP_002934273.1	OGN_frog_XP_002934273.1	yes	SP	0.000186	0.999835	19-20	0.9833	strong_signal_peptide	no	no	
+OGN	zebrafish	NP_001013588.1	OGN_zebrafish_NP_001013588.1	yes	SP	0.000136	0.999858	23-24	0.8190	watch_cleavage_probability	no	yes	Slightly lower cleavage-site probability
+OGN	lepisosteus_oculatus	XP_006631165.2	OGN_lepisosteus_oculatus_XP_006631165.2	no	OTHER	0.832600	0.167415			no_signal_peptide	yes	yes	No SignalP Sec/SPI signal peptide predicted
+OGN	latimeria_chalumnae	XP_005987116.1	OGN_latimeria_chalumnae_XP_005987116.1	yes	SP	0.000178	0.999812	17-18	0.9848	strong_signal_peptide	no	no	
+OGN	callorhinchus_milii	XP_007907071.1	OGN_callorhinchus_milii_XP_007907071.1	yes	SP	0.000174	0.999816	19-20	0.9847	strong_signal_peptide	no	no	
+OGN	scyliorhinus_canicula	XP_038668531.1	OGN_scyliorhinus_canicula_XP_038668531.1	yes	SP	0.000189	0.999827	19-20	0.9845	strong_signal_peptide	no	no	
+OGN	amphioxus	XP_066265713.1	OGN_amphioxus_XP_066265713.1	yes	SP	0.000199	0.999801	27-28	0.9803	strong_signal_peptide	no	no	
+OGN	whale_shark	XP_020377273.1	OGN_whale_shark_XP_020377273.1	yes	SP	0.000171	0.999820	19-20	0.9880	strong_signal_peptide	no	no	

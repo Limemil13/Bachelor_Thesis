@@ -1,0 +1,2 @@
+gene	species	accession	action	ncbi_gene_locus	ncbi_product	reciprocal_human_hit	reference_tree_result	reference_tree_support	synvoy_result	interpretation
+BGN	chicken	XP_414298.2	excluded_from_canonical_BGN_protein_panel	BGN (GeneID 415954; MODEL)	asporin	ASPN NP_060150.4	sister_to_human_ASPN	99.3_SH-aLRT/100_UFBoot	no_retained_HIGH_or_MEDIUM_chicken_BGN_candidate	Retain as annotation-conflict provenance; do not claim it as a chicken BGN protein ortholog without independent locus/synteny resolution.

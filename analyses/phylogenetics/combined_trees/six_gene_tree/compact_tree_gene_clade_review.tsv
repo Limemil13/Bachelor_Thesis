@@ -1,0 +1,8 @@
+gene	tip_count	unrooted_monophyletic	supporting_split_side	supporting_split_support	supporting_split_label	largest_pure_gene_split_tip_count	tips_outside_largest_pure_gene_split	mrca_descendant_tip_count	mrca_descendant_genes	mrca_support	mrca_label	sister_clade_genes	median_within_gene_patristic_distance	maximum_within_gene_patristic_distance
+BGN	13	no				6	BGN|frog|NP_001072552.1,BGN|lamprey|XP_075929720.1,BGN|latimeria_chalumnae|XP_064415290.1,BGN|lepisosteus_oculatus|XP_069037386.1,BGN|scyliorhinus_canicula|XP_038638277.1,BGN|whale_shark|XP_048475905.1,BGN|zebrafish|NP_001001825.2	103	BGN,DCN,EPYC,FMOD,LUM,OGN,PRELP				0.447516	0.880329
+DCN	15	yes	descendant		100/99	15		15	DCN		100/99	BGN	0.474739	0.888696
+EPYC	15	yes	descendant		96.6/89	15		15	EPYC		96.6/89	OGN	0.661751	1.086596
+FMOD	14	yes	descendant		94/100	14		14	FMOD		94/100	LUM	0.579963	1.052461
+OGN	14	yes	descendant		94.9/99	14		14	OGN		94.9/99	EPYC	0.571012	1.047888
+PRELP	16	yes	descendant		94.3/99	16		16	PRELP		94.3/99	FMOD,LUM	0.623291	1.619623
+LUM	16	no				15	LUM|lamprey|XP_075930353.1	30	FMOD,LUM		67/94	PRELP	0.755801	1.385856

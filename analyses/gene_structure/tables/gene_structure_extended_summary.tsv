@@ -1,0 +1,9 @@
+gene	species_count	cds_exon_count	cds_exon_count_range	protein_length_min_aa	protein_length_max_aa	protein_length_cv_percent	gene_span_min_bp	gene_span_max_bp	gene_span_fold_range	median_cds_intron_min_bp	median_cds_intron_max_bp	median_coding_exon_length_cv	structural_outlier_count
+BGN	5	7	7-7	369	372	0.26	12336	24870	2.02	452	1495	0.0	0
+DCN	5	7	7-7	355	374	1.81	38037	42334	1.11	3204	5682	0.0	0
+EPYC	5	6	6-6	317	323	0.7	14169	42026	2.97	904	5107	0.0	0
+FMOD	5	2	2-2	363	381	1.65	6704	14262	2.13	1912	5271	0.01	0
+LUM	5	2	2-2	339	345	0.74	2881	11946	4.15	82	6968	0.004	0
+OGN	5	6	6-6	293	300	0.91	5873	21432	3.65	180	3029	0.014	0
+OMD	5	2	2-2	402	424	1.96	6722	15037	2.24	786	2562	0.044	0
+PRELP	5	2	2-2	375	383	0.74	10785	21996	2.04	79	2938	0.028	0

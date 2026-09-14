@@ -1,0 +1,614 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: analyses/phylogenetics/combined_trees/six_gene_tree/SLRP_selected_working_genes_aligned_trimmed.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 124471
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 103 sequences with 172 amino-acid sites
+Number of constant sites: 10 (= 5.81395% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10 (= 5.81395% of all sites)
+Number of parsimony informative sites: 158
+Number of distinct site patterns: 171
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+I+G4          -13297.695   27005.390 -  0.00724  111465.390 -   1e-173   27650.627 +    0.993
+LG+R5            -13287.295   26996.589 +     0.59  116460.590 -        0   27660.711 -  0.00642
+LG+R6            -13285.679   26997.358 +    0.402  118161.358 -        0   27667.774 - 0.000188
+LG+R4            -13296.247   27010.494 - 0.000564  114790.494 -        0   27668.321 - 0.000143
+LG+G4            -13310.351   27028.702 - 6.28e-08  110668.702 +        1   27670.791 - 4.15e-05
+LG+R3            -13329.967   27073.933 - 9.46e-18  113185.933 -        0   27725.464 - 5.57e-17
+JTT+I+G4         -13378.912   27167.824 - 3.87e-38  111627.824 - 5.36e-209   27813.060 - 5.31e-36
+JTTDCMut+I+G4    -13380.484   27170.968 - 8.04e-39  111630.968 - 1.11e-209   27816.204 -  1.1e-36
+LG+R2            -13380.942   27171.884 - 5.09e-39  111631.884 - 7.04e-210   27817.120 - 6.97e-37
+LG+F+I+G4        -13356.505   27161.010 - 1.17e-36  127961.010 -        0   27866.049 - 1.65e-47
+WAG+I+G4         -13452.261   27314.522 - 5.41e-70  111774.522 - 7.49e-241   27959.759 - 7.41e-68
+rtREV+I+G4       -13462.455   27334.910 - 2.02e-74  111794.910 - 2.8e-245   27980.146 - 2.77e-72
+rtREV+F+I+G4     -13438.763   27325.527 -  2.2e-72  128125.527 -        0   28030.566 - 3.12e-83
+VT+I+G4          -13496.317   27402.634 - 3.98e-89  111862.634 - 5.51e-260   28047.871 - 5.45e-87
+JTT+F+I+G4       -13447.815   27343.631 - 2.58e-76  128143.631 -        0   28048.670 - 3.66e-87
+JTTDCMut+F+I+G4  -13453.970   27355.940 - 5.48e-79  128155.940 -        0   28060.979 - 7.77e-90
+Dayhoff+I+G4     -13528.432   27466.863 - 4.49e-103  111926.863 - 6.22e-274   28112.100 - 6.16e-101
+DCMut+I+G4       -13530.525   27471.049 - 5.54e-104  111931.049 - 7.67e-275   28116.286 - 7.59e-102
+mtInv+F+I+G4     -13499.510   27447.019 - 9.15e-99  128247.019 -        0   28152.058 - 1.3e-109
+cpREV+I+G4       -13553.655   27517.310 - 4.99e-114  111977.310 - 6.91e-285   28162.547 - 6.84e-112
+FLU+I+G4         -13558.731   27527.462 - 3.12e-116  111987.462 - 4.31e-287   28172.699 - 4.27e-114
+mtZOA+F+I+G4     -13539.520   27527.040 - 3.85e-116  128327.040 -        0   28232.079 - 5.45e-127
+WAG+F+I+G4       -13548.735   27545.470 - 3.83e-120  128345.470 -        0   28250.509 - 5.42e-131
+mtMet+F+I+G4     -13556.944   27561.889 - 1.04e-123  128361.889 -        0   28266.927 - 1.48e-134
+VT+F+I+G4        -13586.426   27620.852 - 1.64e-136  128420.852 -        0   28325.890 - 2.32e-147
+HIVb+I+G4        -13636.399   27682.798 - 5.79e-150  112142.798 - 8.02e-321   28328.034 - 7.94e-148
+Dayhoff+F+I+G4   -13595.729   27639.457 - 1.49e-140  128439.457 -        0   28344.496 - 2.11e-151
+DCMut+F+I+G4     -13597.835   27643.669 - 1.82e-141  128443.669 -        0   28348.708 - 2.57e-152
+Blosum62+I+G4    -13647.816   27705.633 - 6.37e-155  112165.633 -        0   28350.869 - 8.74e-153
+FLU+F+I+G4       -13607.853   27663.705 - 8.1e-146  128463.705 -        0   28368.744 - 1.15e-156
+PMB+I+G4         -13674.113   27758.227 - 2.42e-166  112218.227 -        0   28403.463 - 3.32e-164
+mtZOA+I+G4       -13682.731   27775.462 - 4.38e-170  112235.462 -        0   28420.698 -   6e-168
+LG+I             -13746.047   27900.095 - 3.78e-197  111540.095 - 6.02e-190   28542.184 - 2.5e-194
+Blosum62+F+I+G4  -13700.588   27849.176 - 4.31e-186  128649.176 -        0   28554.215 - 6.1e-197
+HIVb+F+I+G4      -13720.711   27889.421 - 7.85e-195  128689.421 -        0   28594.460 - 1.11e-205
+cpREV+F+I+G4     -13756.577   27961.154 - 2.08e-210  128761.154 -        0   28666.192 - 2.95e-221
+mtART+F+I+G4     -13758.259   27964.518 - 3.87e-211  128764.518 -        0   28669.556 - 5.49e-222
+mtVer+F+I+G4     -13763.894   27975.788 - 1.38e-213  128775.788 -        0   28680.827 - 1.96e-224
+PMB+F+I+G4       -13764.105   27976.211 - 1.12e-213  128776.211 -        0   28681.250 - 1.59e-224
+mtMet+I+G4       -13832.461   28074.922 - 4.11e-235  112534.922 -        0   28720.159 - 5.64e-233
+LG               -13850.279   28106.559 - 5.55e-242  110930.559 - 1.38e-57   28745.500 - 1.77e-238
+mtVer+I+G4       -13895.135   28200.269 - 2.48e-262  112660.269 -        0   28845.506 - 3.41e-260
+mtREV+F+I+G4     -13846.673   28141.346 - 1.55e-249  128941.346 -        0   28846.385 - 2.2e-260
+mtREV+I+G4       -13929.313   28268.627 - 3.56e-277  112728.627 -        0   28913.863 - 4.88e-275
+mtInv+I+G4       -13931.090   28272.179 - 6.03e-278  112732.179 -        0   28917.416 - 8.27e-276
+mtMAM+F+I+G4     -13907.890   28263.781 - 4.02e-276  129063.781 -        0   28968.819 - 5.69e-287
+mtART+I+G4       -14031.566   28473.131 - 1.39e-321  112933.131 -        0   29118.368 - 1.91e-319
+mtMAM+I+G4       -14079.522   28569.044 -        0  113029.044 -        0   29214.280 -        0
+HIVw+F+I+G4      -14084.533   28617.066 -        0  129417.066 -        0   29322.105 -        0
+HIVw+I+G4        -14133.827   28677.654 -        0  113137.654 -        0   29322.890 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0435
+Gamma shape alpha: 1.5583
+
+ Category  Relative_rate  Proportion
+  0         0              0.0435
+  1         0.2449         0.2391
+  2         0.6252         0.2391
+  3         1.1016         0.2391
+  4         2.2104         0.2391
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -13287.2389 (s.e. 615.3364)
+Unconstrained log-likelihood (without tree): -883.9828
+Number of free parameters (#branches + #model parameters): 205
+Akaike information criterion (AIC) score: 26984.4778
+Corrected Akaike information criterion (AICc) score: 111444.4778
+Bayesian information criterion (BIC) score: 27629.7141
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 205
+Sample size (n, alignment length): 172
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 22.4695
+Sum of internal branch lengths: 10.5397 (46.9067% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0058) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'BGN|human|XP_016885213.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--BGN|human|XP_016885213.1
+|
+|  +**BGN|mouse|NP_031568.2
++--| (86.5/100)
+|  +**BGN|rattus_norvegicus|NP_058783.1
+|
+|     +--BGN|canis_lupus_familiaris|NP_001003229.1
+|  +--| (77.7/98)
+|  |  |  +--BGN|anolis_carolinensis|XP_062827322.1
+|  |  +--| (84.9/96)
+|  |     |        +--BGN|frog|NP_001072552.1
+|  |     |     +--| (72.6/71)
+|  |     |     |  +---BGN|scyliorhinus_canicula|XP_038638277.1
+|  |     |  +--| (59.2/54)
+|  |     |  |  |  +--BGN|latimeria_chalumnae|XP_064415290.1
+|  |     |  |  +--| (60.4/64)
+|  |     |  |     |                            +--DCN|human|NP_001911.1
+|  |     |  |     |                         +**| (0/18)
+|  |     |  |     |                         |  |     +--DCN|mouse|NP_031859.1
+|  |     |  |     |                         |  |  +--| (99.1/100)
+|  |     |  |     |                         |  |  |  +--DCN|rattus_norvegicus|NP_077043.1
+|  |     |  |     |                         |  +--| (72.2/32)
+|  |     |  |     |                         |     +--DCN|monodelphis_domestica|XP_001363160.3
+|  |     |  |     |                      +--| (61.6/26)
+|  |     |  |     |                      |  +--DCN|canis_lupus_familiaris|NP_001003228.1
+|  |     |  |     |                   +--| (99.2/100)
+|  |     |  |     |                   |  +--DCN|bos_taurus|NP_776331.2
+|  |     |  |     |                +--| (90.4/99)
+|  |     |  |     |                |  +--DCN|chicken|NP_001025918.2
+|  |     |  |     |             +--| (44.5/89)
+|  |     |  |     |             |  +--DCN|anolis_carolinensis|XP_003221092.1
+|  |     |  |     |          +--| (88.6/100)
+|  |     |  |     |          |  +--DCN|frog|NP_001093704.1
+|  |     |  |     |       +--| (41.3/59)
+|  |     |  |     |       |  +--DCN|latimeria_chalumnae|XP_006004204.1
+|  |     |  |     |    +--| (95.4/97)
+|  |     |  |     |    |  |  +--DCN|zebrafish|NP_571772.1
+|  |     |  |     |    |  +--| (93.6/100)
+|  |     |  |     |    |     +--DCN|lepisosteus_oculatus|XP_015208366.1
+|  |     |  |     +----| (100/99)
+|  |     |  |          |     +--DCN|callorhinchus_milii|NP_001279248.1
+|  |     |  |          |  +--| (5.2/65)
+|  |     |  |          |  |  +--DCN|scyliorhinus_canicula|XP_038636759.1
+|  |     |  |          +--| (94.7/99)
+|  |     |  |             +--DCN|whale_shark|XP_048463588.1
+|  |     +--| (99.6/99)
+|  |        |     +--BGN|zebrafish|NP_001001825.2
+|  |        |  +--| (88.5/74)
+|  |        |  |  |  +----BGN|lamprey|XP_075929720.1
+|  |        |  |  +--| (90.9/75)
+|  |        |  |     |  +--BGN|whale_shark|XP_048475905.1
+|  |        |  |     +--| (69.6/80)
+|  |        |  |        |                                                      +**EPYC|human|NP_004941.2
+|  |        |  |        |                                                   +--| (89.4/92)
+|  |        |  |        |                                                   |  |        +--EPYC|mouse|NP_031910.1
+|  |        |  |        |                                                   |  |     +--| (99.8/100)
+|  |        |  |        |                                                   |  |     |  +--EPYC|rattus_norvegicus|NP_001101558.1
+|  |        |  |        |                                                   |  |  +--| (85/84)
+|  |        |  |        |                                                   |  |  |  +--EPYC|canis_lupus_familiaris|XP_038414560.1
+|  |        |  |        |                                                   |  +**| (67.2/76)
+|  |        |  |        |                                                   |     +--EPYC|bos_taurus|XP_010803061.1
+|  |        |  |        |                                                +--| (94.5/100)
+|  |        |  |        |                                                |  +--EPYC|monodelphis_domestica|XP_056654622.1
+|  |        |  |        |                                             +--| (60.1/94)
+|  |        |  |        |                                             |  +--EPYC|chicken|XP_025003921.1
+|  |        |  |        |                                          +--| (81.4/99)
+|  |        |  |        |                                          |  +--EPYC|anolis_carolinensis|XP_003221176.1
+|  |        |  |        |                                       +--| (99.5/99)
+|  |        |  |        |                                       |  +---EPYC|frog|XP_031753666.1
+|  |        |  |        |                                    +--| (21.9/81)
+|  |        |  |        |                                    |  |  +----EPYC|zebrafish|XP_021330689.1
+|  |        |  |        |                                    |  +--| (45.3/96)
+|  |        |  |        |                                    |     +--EPYC|lepisosteus_oculatus|XP_006633678.1
+|  |        |  |        |                                 +--| (84.5/86)
+|  |        |  |        |                                 |  +---EPYC|latimeria_chalumnae|XP_006009490.1
+|  |        |  |        |                          +------| (96.6/89)
+|  |        |  |        |                          |      |  +--EPYC|callorhinchus_milii|XP_007893502.1
+|  |        |  |        |                          |      +--| (97.5/100)
+|  |        |  |        |                          |         |  +--EPYC|scyliorhinus_canicula|XP_038636412.1
+|  |        |  |        |                          |         +--| (97.8/100)
+|  |        |  |        |                          |            +--EPYC|whale_shark|XP_048463897.1
+|  |        |  |        |       +------------------| (100/100)
+|  |        |  |        |       |                  |                              +--OGN|human|NP_148935.1
+|  |        |  |        |       |                  |                           +--| (76.8/100)
+|  |        |  |        |       |                  |                           |  +--OGN|bos_taurus|NP_776371.1
+|  |        |  |        |       |                  |                        +--| (85.3/100)
+|  |        |  |        |       |                  |                        |  +--OGN|canis_lupus_familiaris|XP_038383338.1
+|  |        |  |        |       |                  |                     +--| (98.8/100)
+|  |        |  |        |       |                  |                     |  +--OGN|mouse|NP_032786.1
+|  |        |  |        |       |                  |                  +--| (97.4/100)
+|  |        |  |        |       |                  |                  |  +--OGN|monodelphis_domestica|XP_056660002.1
+|  |        |  |        |       |                  |               +--| (76.3/46)
+|  |        |  |        |       |                  |               |  +---OGN|latimeria_chalumnae|XP_005987116.1
+|  |        |  |        |       |                  |            +--| (76.2/89)
+|  |        |  |        |       |                  |            |  |     +--OGN|chicken|NP_989540.1
+|  |        |  |        |       |                  |            |  |  +--| (87.1/92)
+|  |        |  |        |       |                  |            |  |  |  +--OGN|anolis_carolinensis|XP_008103381.1
+|  |        |  |        |       |                  |            |  +--| (78.2/44)
+|  |        |  |        |       |                  |            |     |    +---OGN|callorhinchus_milii|XP_007907071.1
+|  |        |  |        |       |                  |            |     +----| (100/99)
+|  |        |  |        |       |                  |            |          |  +--OGN|scyliorhinus_canicula|XP_038668531.1
+|  |        |  |        |       |                  |            |          +--| (97.7/100)
+|  |        |  |        |       |                  |            |             +--OGN|whale_shark|XP_020377273.1
+|  |        |  |        |       |                  |         +--| (88.1/91)
+|  |        |  |        |       |                  |         |  +---OGN|frog|XP_002934273.1
+|  |        |  |        |       |                  |      +--| (19.4/76)
+|  |        |  |        |       |                  |      |  +--OGN|lepisosteus_oculatus|XP_006631165.2
+|  |        |  |        |       |                  +------| (94.9/99)
+|  |        |  |        |       |                         +---OGN|zebrafish|NP_001013588.1
+|  |        |  |        +-------| (94.1/99)
+|  |        |  |                |                                  +--FMOD|human|XP_047272260.1
+|  |        |  |                |                               +--| (77.1/90)
+|  |        |  |                |                               |  |     +**FMOD|mouse|NP_067330.1
+|  |        |  |                |                               |  |  +**| (74.8/98)
+|  |        |  |                |                               |  |  |  +--FMOD|rattus_norvegicus|NP_542429.1
+|  |        |  |                |                               |  +--| (87/94)
+|  |        |  |                |                               |     +--FMOD|monodelphis_domestica|XP_001364906.1
+|  |        |  |                |                            +--| (89.8/97)
+|  |        |  |                |                            |  +--FMOD|canis_lupus_familiaris|XP_038441871.1
+|  |        |  |                |                         +--| (93.4/99)
+|  |        |  |                |                         |  +--FMOD|bos_taurus|XP_059731202.1
+|  |        |  |                |                      +--| (98.4/100)
+|  |        |  |                |                      |  |  +--FMOD|chicken|NP_990298.2
+|  |        |  |                |                      |  +--| (99.4/100)
+|  |        |  |                |                      |     +--FMOD|anolis_carolinensis|XP_008107883.2
+|  |        |  |                |                   +--| (90.5/60)
+|  |        |  |                |                   |  |  +----FMOD|frog|XP_017947022.1
+|  |        |  |                |                   |  +--| (53.7/51)
+|  |        |  |                |                   |     |  +-------FMOD|zebrafish|XP_073767056.1
+|  |        |  |                |                   |     +--| (33.1/67)
+|  |        |  |                |                   |        +---FMOD|lepisosteus_oculatus|XP_006628521.2
+|  |        |  |                |                +--| (84.8/86)
+|  |        |  |                |                |  +--FMOD|latimeria_chalumnae|XP_006002318.1
+|  |        |  |                |             +--| (94/100)
+|  |        |  |                |             |  |   +--FMOD|scyliorhinus_canicula|XP_038675394.1
+|  |        |  |                |             |  +---| (99.6/100)
+|  |        |  |                |             |      +--FMOD|whale_shark|XP_048468126.1
+|  |        |  |                |          +--| (28.4/76)
+|  |        |  |                |          |  |                          +--LUM|human|NP_002336.1
+|  |        |  |                |          |  |                       +--| (92.7/99)
+|  |        |  |                |          |  |                       |  +--LUM|canis_lupus_familiaris|XP_038414561.1
+|  |        |  |                |          |  |                    +--| (98.7/100)
+|  |        |  |                |          |  |                    |  |     +**LUM|mouse|NP_032550.2
+|  |        |  |                |          |  |                    |  |  +--| (99.9/100)
+|  |        |  |                |          |  |                    |  |  |  +--LUM|rattus_norvegicus|NP_112312.1
+|  |        |  |                |          |  |                    |  +--| (64.1/95)
+|  |        |  |                |          |  |                    |     +--LUM|bos_taurus|NP_776359.1
+|  |        |  |                |          |  |                 +--| (98.6/100)
+|  |        |  |                |          |  |                 |  +--LUM|monodelphis_domestica|XP_001368917.2
+|  |        |  |                |          |  |              +--| (95.5/97)
+|  |        |  |                |          |  |              |  |  +--LUM|chicken|NP_001263286.1
+|  |        |  |                |          |  |              |  +--| (73.2/96)
+|  |        |  |                |          |  |              |     +--LUM|anolis_carolinensis|XP_003221093.1
+|  |        |  |                |          |  |           +--| (99.5/100)
+|  |        |  |                |          |  |           |  +---LUM|frog|NP_001011006.1
+|  |        |  |                |          |  |        +--| (92.7/96)
+|  |        |  |                |          |  |        |  +--LUM|latimeria_chalumnae|XP_006009488.1
+|  |        |  |                |          |  |     +--| (38.1/80)
+|  |        |  |                |          |  |     |  +--LUM|lepisosteus_oculatus|XP_015208177.1
+|  |        |  |                |          |  |  +--| (87/94)
+|  |        |  |                |          |  |  |  |  +--LUM|callorhinchus_milii|XP_007893500.1
+|  |        |  |                |          |  |  |  +--| (95.6/99)
+|  |        |  |                |          |  |  |     |  +--LUM|scyliorhinus_canicula|XP_038636708.1
+|  |        |  |                |          |  |  |     +--| (99.6/100)
+|  |        |  |                |          |  |  |        +--LUM|whale_shark|XP_048464015.1
+|  |        |  |                |          |  +--| (94.1/99)
+|  |        |  |                |          |     +-------LUM|zebrafish|NP_001002059.1
+|  |        |  |                |       +--| (67/94)
+|  |        |  |                |       |  +----LUM|lamprey|XP_075930353.1
+|  |        |  |                +-------| (97.3/100)
+|  |        |  |                        |                               +--PRELP|human|NP_958505.1
+|  |        |  |                        |                            +--| (60.2/78)
+|  |        |  |                        |                            |  |  +--PRELP|mouse|XP_006529147.1
+|  |        |  |                        |                            |  +--| (91.9/100)
+|  |        |  |                        |                            |     +--PRELP|rattus_norvegicus|XP_008767794.1
+|  |        |  |                        |                         +--| (76.6/79)
+|  |        |  |                        |                         |  +--PRELP|canis_lupus_familiaris|XP_038441873.1
+|  |        |  |                        |                      +--| (92.8/98)
+|  |        |  |                        |                      |  +--PRELP|bos_taurus|XP_005216708.2
+|  |        |  |                        |                   +--| (99.3/100)
+|  |        |  |                        |                   |  +--PRELP|monodelphis_domestica|XP_056671733.1
+|  |        |  |                        |                +--| (67.5/81)
+|  |        |  |                        |                |  +---PRELP|anolis_carolinensis|XP_008107880.1
+|  |        |  |                        |             +--| (92.6/97)
+|  |        |  |                        |             |  |  +--PRELP|chicken|XP_046760117.1
+|  |        |  |                        |             |  +--| (56/70)
+|  |        |  |                        |             |     |  +---PRELP|frog|NP_001096208.1
+|  |        |  |                        |             |     +--| (88.5/90)
+|  |        |  |                        |             |        +--PRELP|latimeria_chalumnae|XP_006002320.1
+|  |        |  |                        |          +--| (84.3/96)
+|  |        |  |                        |          |  |  +--PRELP|zebrafish|XP_001923590.2
+|  |        |  |                        |          |  +--| (97.1/100)
+|  |        |  |                        |          |     +--PRELP|lepisosteus_oculatus|XP_015198331.2
+|  |        |  |                        |    +-----| (98.5/99)
+|  |        |  |                        |    |     |  +--PRELP|callorhinchus_milii|XP_042198145.1
+|  |        |  |                        |    |     +--| (88.9/98)
+|  |        |  |                        |    |        |  +--PRELP|scyliorhinus_canicula|XP_038675391.1
+|  |        |  |                        |    |        +--| (95.4/99)
+|  |        |  |                        |    |           +--PRELP|whale_shark|XP_048468210.1
+|  |        |  |                        +----| (94.3/99)
+|  |        |  |                             +------------PRELP|lamprey|XP_032810295.2
+|  |        +--| (88.1/73)
+|  |           +--BGN|lepisosteus_oculatus|XP_069037386.1
++**| (42.1/97)
+   +--BGN|bos_taurus|XP_005227715.1
+
+Tree in newick format:
+
+(BGN|human|XP_016885213.1:0.0230021054,(BGN|mouse|NP_031568.2:0.0000010087,BGN|rattus_norvegicus|NP_058783.1:0.0000010087)86.5/100:0.0173977311,((BGN|canis_lupus_familiaris|NP_001003229.1:0.0160806873,(BGN|anolis_carolinensis|XP_062827322.1:0.1030617122,(((BGN|frog|NP_001072552.1:0.1606347857,BGN|scyliorhinus_canicula|XP_038638277.1:0.2287224848)72.6/71:0.0241194152,(BGN|latimeria_chalumnae|XP_064415290.1:0.0910873645,(((((((((DCN|human|NP_001911.1:0.0335500321,((DCN|mouse|NP_031859.1:0.0192741237,DCN|rattus_norvegicus|NP_077043.1:0.0756072469)99.1/100:0.1226283776,DCN|monodelphis_domestica|XP_001363160.3:0.1317244777)72.2/32:0.0149507777)0/18:0.0000029972,DCN|canis_lupus_familiaris|NP_001003228.1:0.0261060456)61.6/26:0.0222352603,DCN|bos_taurus|NP_776331.2:0.0344632733)99.2/100:0.0899813438,DCN|chicken|NP_001025918.2:0.0214243972)90.4/99:0.0524557231,DCN|anolis_carolinensis|XP_003221092.1:0.0625595046)44.5/89:0.0483394650,DCN|frog|NP_001093704.1:0.1492427658)88.6/100:0.0582001190,DCN|latimeria_chalumnae|XP_006004204.1:0.1508179244)41.3/59:0.0432910734,(DCN|zebrafish|NP_571772.1:0.1908764469,DCN|lepisosteus_oculatus|XP_015208366.1:0.0923919862)93.6/100:0.0676653061)95.4/97:0.1082593009,((DCN|callorhinchus_milii|NP_001279248.1:0.1390493107,DCN|scyliorhinus_canicula|XP_038636759.1:0.1199401995)5.2/65:0.0267882770,DCN|whale_shark|XP_048463588.1:0.0558624883)94.7/99:0.0869068447)100/99:0.2913597819)60.4/64:0.0400355479)59.2/54:0.0359111908,((BGN|zebrafish|NP_001001825.2:0.1799948869,(BGN|lamprey|XP_075929720.1:0.3037890374,(BGN|whale_shark|XP_048475905.1:0.1916983901,((((((((((EPYC|human|NP_004941.2:0.0000021213,(((EPYC|mouse|NP_031910.1:0.0154205073,EPYC|rattus_norvegicus|NP_001101558.1:0.0329313302)99.8/100:0.0707939525,EPYC|canis_lupus_familiaris|XP_038414560.1:0.0063222424)85/84:0.0140205774,EPYC|bos_taurus|XP_010803061.1:0.0304286774)67.2/76:0.0042135987)89.4/92:0.0441385372,EPYC|monodelphis_domestica|XP_056654622.1:0.0319957257)94.5/100:0.0698643255,EPYC|chicken|XP_025003921.1:0.1172463496)60.1/94:0.0539235380,EPYC|anolis_carolinensis|XP_003221176.1:0.1462767681)81.4/99:0.0645702766,EPYC|frog|XP_031753666.1:0.2667971664)99.5/99:0.1870062241,(EPYC|zebrafish|XP_021330689.1:0.2867660795,EPYC|lepisosteus_oculatus|XP_006633678.1:0.0711664959)45.3/96:0.0454506273)21.9/81:0.0737135779,EPYC|latimeria_chalumnae|XP_006009490.1:0.2563101970)84.5/86:0.0898139339,(EPYC|callorhinchus_milii|XP_007893502.1:0.1576070534,(EPYC|scyliorhinus_canicula|XP_038636412.1:0.0486364473,EPYC|whale_shark|XP_048463897.1:0.0859728999)97.8/100:0.1370264505)97.5/100:0.1586067245)96.6/89:0.4016318937,(((((((((OGN|human|NP_148935.1:0.0336118506,OGN|bos_taurus|NP_776371.1:0.0197764558)76.8/100:0.0084050901,OGN|canis_lupus_familiaris|XP_038383338.1:0.0248592225)85.3/100:0.0261012166,OGN|mouse|NP_032786.1:0.0529411052)98.8/100:0.1063230252,OGN|monodelphis_domestica|XP_056660002.1:0.1066459086)97.4/100:0.0866239692,OGN|latimeria_chalumnae|XP_005987116.1:0.2475998980)76.3/46:0.0207159265,((OGN|chicken|NP_989540.1:0.1314541709,OGN|anolis_carolinensis|XP_008103381.1:0.1957515326)87.1/92:0.0590339352,(OGN|callorhinchus_milii|XP_007907071.1:0.2156281582,(OGN|scyliorhinus_canicula|XP_038668531.1:0.1118443587,OGN|whale_shark|XP_020377273.1:0.0078549402)97.7/100:0.1433642682)100/99:0.3068413713)78.2/44:0.0479108009)76.2/89:0.0358020387,OGN|frog|XP_002934273.1:0.2472580223)88.1/91:0.0953541135,OGN|lepisosteus_oculatus|XP_006631165.2:0.1568405348)19.4/76:0.0493089466,OGN|zebrafish|NP_001013588.1:0.2574621644)94.9/99:0.3903915655)100/100:1.0181369700,((((((((((FMOD|human|XP_047272260.1:0.0196876965,((FMOD|mouse|NP_067330.1:0.0019157913,FMOD|rattus_norvegicus|NP_542429.1:0.0178081775)74.8/98:0.0055430420,FMOD|monodelphis_domestica|XP_001364906.1:0.0733636666)87/94:0.0132438190)77.1/90:0.0059529408,FMOD|canis_lupus_familiaris|XP_038441871.1:0.0133219769)89.8/97:0.0288626165,FMOD|bos_taurus|XP_059731202.1:0.0098697662)93.4/99:0.0712148573,(FMOD|chicken|NP_990298.2:0.1095238826,FMOD|anolis_carolinensis|XP_008107883.2:0.0820674232)99.4/100:0.1319683657)98.4/100:0.1152824362,(FMOD|frog|XP_017947022.1:0.3101513301,(FMOD|zebrafish|XP_073767056.1:0.4541424152,FMOD|lepisosteus_oculatus|XP_006628521.2:0.2528804410)33.1/67:0.0938486424)53.7/51:0.0277963148)90.5/60:0.0651519061,FMOD|latimeria_chalumnae|XP_006002318.1:0.1185420993)84.8/86:0.0884980742,(FMOD|scyliorhinus_canicula|XP_038675394.1:0.0953389516,FMOD|whale_shark|XP_048468126.1:0.0710940675)99.6/100:0.2276842527)94/100:0.1264458659,(((((((((LUM|human|NP_002336.1:0.0450137728,LUM|canis_lupus_familiaris|XP_038414561.1:0.0184712536)92.7/99:0.0318222999,((LUM|mouse|NP_032550.2:0.0037027090,LUM|rattus_norvegicus|NP_112312.1:0.0278916678)99.9/100:0.0648192340,LUM|bos_taurus|NP_776359.1:0.0061089681)64.1/95:0.0075733125)98.7/100:0.0954903702,LUM|monodelphis_domestica|XP_001368917.2:0.0891821332)98.6/100:0.1255591627,(LUM|chicken|NP_001263286.1:0.0609770194,LUM|anolis_carolinensis|XP_003221093.1:0.1225775096)73.2/96:0.0377196442)95.5/97:0.0892497204,LUM|frog|NP_001011006.1:0.2167399379)99.5/100:0.1906313483,LUM|latimeria_chalumnae|XP_006009488.1:0.1581518663)92.7/96:0.0767571973,LUM|lepisosteus_oculatus|XP_015208177.1:0.1456124226)38.1/80:0.0549704842,(LUM|callorhinchus_milii|XP_007893500.1:0.1097731981,(LUM|scyliorhinus_canicula|XP_038636708.1:0.1242745518,LUM|whale_shark|XP_048464015.1:0.1730318492)99.6/100:0.2006054021)95.6/99:0.1033629402)87/94:0.1047138519,LUM|zebrafish|NP_001002059.1:0.4697340624)94.1/99:0.1413869672)28.4/76:0.1038485575,LUM|lamprey|XP_075930353.1:0.3029640716)67/94:0.1329222772,(((((((((PRELP|human|NP_958505.1:0.0281163881,(PRELP|mouse|XP_006529147.1:0.0251819408,PRELP|rattus_norvegicus|XP_008767794.1:0.0348156787)91.9/100:0.0358181171)60.2/78:0.0115710061,PRELP|canis_lupus_familiaris|XP_038441873.1:0.0229411244)76.6/79:0.0126264439,PRELP|bos_taurus|XP_005216708.2:0.0419887336)92.8/98:0.0615036335,PRELP|monodelphis_domestica|XP_056671733.1:0.0687499279)99.3/100:0.1433900722,PRELP|anolis_carolinensis|XP_008107880.1:0.2266090680)67.5/81:0.0307544508,(PRELP|chicken|XP_046760117.1:0.0267163526,(PRELP|frog|NP_001096208.1:0.2371034392,PRELP|latimeria_chalumnae|XP_006002320.1:0.1723863935)88.5/90:0.0648852697)56/70:0.0176373874)92.6/97:0.0825720208,(PRELP|zebrafish|XP_001923590.2:0.1880286334,PRELP|lepisosteus_oculatus|XP_015198331.2:0.1089998012)97.1/100:0.1183470833)84.3/96:0.1360753955,(PRELP|callorhinchus_milii|XP_042198145.1:0.1161486463,(PRELP|scyliorhinus_canicula|XP_038675391.1:0.0498583738,PRELP|whale_shark|XP_048468210.1:0.0242671501)95.4/99:0.0946002662)88.9/98:0.1347480174)98.5/99:0.3336726130,PRELP|lamprey|XP_032810295.2:0.7368238796)94.3/99:0.2841407464)97.3/100:0.4663433100)94.1/99:0.4409759589)69.6/80:0.1648670046)90.9/75:0.1200893985)88.5/74:0.0606769785,BGN|lepisosteus_oculatus|XP_069037386.1:0.1224926483)88.1/73:0.0542436743)99.6/99:0.1177058694)84.9/96:0.0310598919)77.7/98:0.0105382535,BGN|bos_taurus|XP_005227715.1:0.0128864371)42.1/97:0.0057076805);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -13287.542660
+Robinson-Foulds distance between ML tree and consensus tree: 6
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--BGN|human|XP_016885213.1
+|
+|  +--BGN|mouse|NP_031568.2
++--| (100)
+|  +--BGN|rattus_norvegicus|NP_058783.1
+|
+|     +--BGN|canis_lupus_familiaris|NP_001003229.1
+|  +--| (98)
+|  |  |  +--BGN|anolis_carolinensis|XP_062827322.1
+|  |  +--| (96)
+|  |     |        +--BGN|frog|NP_001072552.1
+|  |     |     +--| (71)
+|  |     |     |  +---BGN|scyliorhinus_canicula|XP_038638277.1
+|  |     |  +--| (54)
+|  |     |  |  |  +--BGN|latimeria_chalumnae|XP_064415290.1
+|  |     |  |  +--| (64)
+|  |     |  |     |                            +--DCN|human|NP_001911.1
+|  |     |  |     |                         +--| (57)
+|  |     |  |     |                         |  |     +--DCN|mouse|NP_031859.1
+|  |     |  |     |                         |  |  +--| (100)
+|  |     |  |     |                         |  |  |  +--DCN|rattus_norvegicus|NP_077043.1
+|  |     |  |     |                         |  +--| (53)
+|  |     |  |     |                         |     +--DCN|canis_lupus_familiaris|NP_001003228.1
+|  |     |  |     |                      +--| (67)
+|  |     |  |     |                      |  +--DCN|bos_taurus|NP_776331.2
+|  |     |  |     |                   +--| (100)
+|  |     |  |     |                   |  +--DCN|monodelphis_domestica|XP_001363160.3
+|  |     |  |     |                +--| (99)
+|  |     |  |     |                |  +--DCN|chicken|NP_001025918.2
+|  |     |  |     |             +--| (89)
+|  |     |  |     |             |  +--DCN|anolis_carolinensis|XP_003221092.1
+|  |     |  |     |          +--| (100)
+|  |     |  |     |          |  +--DCN|frog|NP_001093704.1
+|  |     |  |     |       +--| (59)
+|  |     |  |     |       |  +--DCN|latimeria_chalumnae|XP_006004204.1
+|  |     |  |     |    +--| (97)
+|  |     |  |     |    |  |  +--DCN|zebrafish|NP_571772.1
+|  |     |  |     |    |  +--| (100)
+|  |     |  |     |    |     +--DCN|lepisosteus_oculatus|XP_015208366.1
+|  |     |  |     +----| (99)
+|  |     |  |          |     +--DCN|callorhinchus_milii|NP_001279248.1
+|  |     |  |          |  +--| (65)
+|  |     |  |          |  |  +--DCN|scyliorhinus_canicula|XP_038636759.1
+|  |     |  |          +--| (99)
+|  |     |  |             +--DCN|whale_shark|XP_048463588.1
+|  |     +--| (99)
+|  |        |     +--BGN|zebrafish|NP_001001825.2
+|  |        |  +--| (74)
+|  |        |  |  |  +----BGN|lamprey|XP_075929720.1
+|  |        |  |  +--| (75)
+|  |        |  |     |  +--BGN|whale_shark|XP_048475905.1
+|  |        |  |     +--| (80)
+|  |        |  |        |                                                      +--EPYC|human|NP_004941.2
+|  |        |  |        |                                                   +--| (92)
+|  |        |  |        |                                                   |  |        +--EPYC|mouse|NP_031910.1
+|  |        |  |        |                                                   |  |     +--| (100)
+|  |        |  |        |                                                   |  |     |  +--EPYC|rattus_norvegicus|NP_001101558.1
+|  |        |  |        |                                                   |  |  +--| (84)
+|  |        |  |        |                                                   |  |  |  +--EPYC|canis_lupus_familiaris|XP_038414560.1
+|  |        |  |        |                                                   |  +--| (76)
+|  |        |  |        |                                                   |     +--EPYC|bos_taurus|XP_010803061.1
+|  |        |  |        |                                                +--| (100)
+|  |        |  |        |                                                |  +--EPYC|monodelphis_domestica|XP_056654622.1
+|  |        |  |        |                                             +--| (94)
+|  |        |  |        |                                             |  +--EPYC|chicken|XP_025003921.1
+|  |        |  |        |                                          +--| (99)
+|  |        |  |        |                                          |  +--EPYC|anolis_carolinensis|XP_003221176.1
+|  |        |  |        |                                       +--| (99)
+|  |        |  |        |                                       |  +---EPYC|frog|XP_031753666.1
+|  |        |  |        |                                    +--| (81)
+|  |        |  |        |                                    |  |  +----EPYC|zebrafish|XP_021330689.1
+|  |        |  |        |                                    |  +--| (96)
+|  |        |  |        |                                    |     +--EPYC|lepisosteus_oculatus|XP_006633678.1
+|  |        |  |        |                                 +--| (86)
+|  |        |  |        |                                 |  +---EPYC|latimeria_chalumnae|XP_006009490.1
+|  |        |  |        |                          +------| (89)
+|  |        |  |        |                          |      |  +--EPYC|callorhinchus_milii|XP_007893502.1
+|  |        |  |        |                          |      +--| (100)
+|  |        |  |        |                          |         |  +--EPYC|scyliorhinus_canicula|XP_038636412.1
+|  |        |  |        |                          |         +--| (100)
+|  |        |  |        |                          |            +--EPYC|whale_shark|XP_048463897.1
+|  |        |  |        |       +------------------| (100)
+|  |        |  |        |       |                  |                              +--OGN|human|NP_148935.1
+|  |        |  |        |       |                  |                           +--| (100)
+|  |        |  |        |       |                  |                           |  +--OGN|bos_taurus|NP_776371.1
+|  |        |  |        |       |                  |                        +--| (100)
+|  |        |  |        |       |                  |                        |  +--OGN|canis_lupus_familiaris|XP_038383338.1
+|  |        |  |        |       |                  |                     +--| (100)
+|  |        |  |        |       |                  |                     |  +--OGN|mouse|NP_032786.1
+|  |        |  |        |       |                  |                  +--| (100)
+|  |        |  |        |       |                  |                  |  +--OGN|monodelphis_domestica|XP_056660002.1
+|  |        |  |        |       |                  |               +--| (46)
+|  |        |  |        |       |                  |               |  +---OGN|latimeria_chalumnae|XP_005987116.1
+|  |        |  |        |       |                  |            +--| (89)
+|  |        |  |        |       |                  |            |  |     +--OGN|chicken|NP_989540.1
+|  |        |  |        |       |                  |            |  |  +--| (92)
+|  |        |  |        |       |                  |            |  |  |  +--OGN|anolis_carolinensis|XP_008103381.1
+|  |        |  |        |       |                  |            |  +--| (44)
+|  |        |  |        |       |                  |            |     |    +---OGN|callorhinchus_milii|XP_007907071.1
+|  |        |  |        |       |                  |            |     +----| (99)
+|  |        |  |        |       |                  |            |          |  +--OGN|scyliorhinus_canicula|XP_038668531.1
+|  |        |  |        |       |                  |            |          +--| (100)
+|  |        |  |        |       |                  |            |             +--OGN|whale_shark|XP_020377273.1
+|  |        |  |        |       |                  |         +--| (91)
+|  |        |  |        |       |                  |         |  +---OGN|frog|XP_002934273.1
+|  |        |  |        |       |                  |      +--| (76)
+|  |        |  |        |       |                  |      |  +--OGN|lepisosteus_oculatus|XP_006631165.2
+|  |        |  |        |       |                  +------| (99)
+|  |        |  |        |       |                         +---OGN|zebrafish|NP_001013588.1
+|  |        |  |        +-------| (99)
+|  |        |  |                |                                  +--FMOD|human|XP_047272260.1
+|  |        |  |                |                               +--| (90)
+|  |        |  |                |                               |  |     +--FMOD|mouse|NP_067330.1
+|  |        |  |                |                               |  |  +--| (98)
+|  |        |  |                |                               |  |  |  +--FMOD|rattus_norvegicus|NP_542429.1
+|  |        |  |                |                               |  +--| (94)
+|  |        |  |                |                               |     +--FMOD|monodelphis_domestica|XP_001364906.1
+|  |        |  |                |                            +--| (97)
+|  |        |  |                |                            |  +--FMOD|canis_lupus_familiaris|XP_038441871.1
+|  |        |  |                |                         +--| (99)
+|  |        |  |                |                         |  +--FMOD|bos_taurus|XP_059731202.1
+|  |        |  |                |                      +--| (100)
+|  |        |  |                |                      |  |  +--FMOD|chicken|NP_990298.2
+|  |        |  |                |                      |  +--| (100)
+|  |        |  |                |                      |     +--FMOD|anolis_carolinensis|XP_008107883.2
+|  |        |  |                |                   +--| (60)
+|  |        |  |                |                   |  |  +----FMOD|frog|XP_017947022.1
+|  |        |  |                |                   |  +--| (51)
+|  |        |  |                |                   |     |  +-------FMOD|zebrafish|XP_073767056.1
+|  |        |  |                |                   |     +--| (67)
+|  |        |  |                |                   |        +---FMOD|lepisosteus_oculatus|XP_006628521.2
+|  |        |  |                |                +--| (86)
+|  |        |  |                |                |  +--FMOD|latimeria_chalumnae|XP_006002318.1
+|  |        |  |                |             +--| (100)
+|  |        |  |                |             |  |   +--FMOD|scyliorhinus_canicula|XP_038675394.1
+|  |        |  |                |             |  +---| (100)
+|  |        |  |                |             |      +--FMOD|whale_shark|XP_048468126.1
+|  |        |  |                |          +--| (76)
+|  |        |  |                |          |  |                          +--LUM|human|NP_002336.1
+|  |        |  |                |          |  |                       +--| (99)
+|  |        |  |                |          |  |                       |  +--LUM|canis_lupus_familiaris|XP_038414561.1
+|  |        |  |                |          |  |                    +--| (100)
+|  |        |  |                |          |  |                    |  |     +--LUM|mouse|NP_032550.2
+|  |        |  |                |          |  |                    |  |  +--| (100)
+|  |        |  |                |          |  |                    |  |  |  +--LUM|rattus_norvegicus|NP_112312.1
+|  |        |  |                |          |  |                    |  +--| (95)
+|  |        |  |                |          |  |                    |     +--LUM|bos_taurus|NP_776359.1
+|  |        |  |                |          |  |                 +--| (100)
+|  |        |  |                |          |  |                 |  +--LUM|monodelphis_domestica|XP_001368917.2
+|  |        |  |                |          |  |              +--| (97)
+|  |        |  |                |          |  |              |  |  +--LUM|chicken|NP_001263286.1
+|  |        |  |                |          |  |              |  +--| (96)
+|  |        |  |                |          |  |              |     +--LUM|anolis_carolinensis|XP_003221093.1
+|  |        |  |                |          |  |           +--| (100)
+|  |        |  |                |          |  |           |  +---LUM|frog|NP_001011006.1
+|  |        |  |                |          |  |        +--| (96)
+|  |        |  |                |          |  |        |  +--LUM|latimeria_chalumnae|XP_006009488.1
+|  |        |  |                |          |  |     +--| (80)
+|  |        |  |                |          |  |     |  +--LUM|lepisosteus_oculatus|XP_015208177.1
+|  |        |  |                |          |  |  +--| (94)
+|  |        |  |                |          |  |  |  |  +--LUM|callorhinchus_milii|XP_007893500.1
+|  |        |  |                |          |  |  |  +--| (99)
+|  |        |  |                |          |  |  |     |  +--LUM|scyliorhinus_canicula|XP_038636708.1
+|  |        |  |                |          |  |  |     +--| (100)
+|  |        |  |                |          |  |  |        +--LUM|whale_shark|XP_048464015.1
+|  |        |  |                |          |  +--| (99)
+|  |        |  |                |          |     +-------LUM|zebrafish|NP_001002059.1
+|  |        |  |                |       +--| (94)
+|  |        |  |                |       |  +----LUM|lamprey|XP_075930353.1
+|  |        |  |                +-------| (100)
+|  |        |  |                        |                               +--PRELP|human|NP_958505.1
+|  |        |  |                        |                            +--| (78)
+|  |        |  |                        |                            |  |  +--PRELP|mouse|XP_006529147.1
+|  |        |  |                        |                            |  +--| (100)
+|  |        |  |                        |                            |     +--PRELP|rattus_norvegicus|XP_008767794.1
+|  |        |  |                        |                         +--| (79)
+|  |        |  |                        |                         |  +--PRELP|canis_lupus_familiaris|XP_038441873.1
+|  |        |  |                        |                      +--| (98)
+|  |        |  |                        |                      |  +--PRELP|bos_taurus|XP_005216708.2
+|  |        |  |                        |                   +--| (100)
+|  |        |  |                        |                   |  +--PRELP|monodelphis_domestica|XP_056671733.1
+|  |        |  |                        |                +--| (81)
+|  |        |  |                        |                |  +---PRELP|anolis_carolinensis|XP_008107880.1
+|  |        |  |                        |             +--| (97)
+|  |        |  |                        |             |  |  +--PRELP|chicken|XP_046760117.1
+|  |        |  |                        |             |  +--| (70)
+|  |        |  |                        |             |     |  +---PRELP|frog|NP_001096208.1
+|  |        |  |                        |             |     +--| (90)
+|  |        |  |                        |             |        +--PRELP|latimeria_chalumnae|XP_006002320.1
+|  |        |  |                        |          +--| (96)
+|  |        |  |                        |          |  |  +--PRELP|zebrafish|XP_001923590.2
+|  |        |  |                        |          |  +--| (100)
+|  |        |  |                        |          |     +--PRELP|lepisosteus_oculatus|XP_015198331.2
+|  |        |  |                        |    +-----| (99)
+|  |        |  |                        |    |     |  +--PRELP|callorhinchus_milii|XP_042198145.1
+|  |        |  |                        |    |     +--| (98)
+|  |        |  |                        |    |        |  +--PRELP|scyliorhinus_canicula|XP_038675391.1
+|  |        |  |                        |    |        +--| (99)
+|  |        |  |                        |    |           +--PRELP|whale_shark|XP_048468210.1
+|  |        |  |                        +----| (99)
+|  |        |  |                             +------------PRELP|lamprey|XP_032810295.2
+|  |        +--| (73)
+|  |           +--BGN|lepisosteus_oculatus|XP_069037386.1
++--| (97)
+   +--BGN|bos_taurus|XP_005227715.1
+
+
+Consensus tree in newick format: 
+
+(BGN|human|XP_016885213.1:0.0230002775,(BGN|mouse|NP_031568.2:0.0000024264,BGN|rattus_norvegicus|NP_058783.1:0.0000024264)100:0.0173956296,((BGN|canis_lupus_familiaris|NP_001003229.1:0.0160751816,(BGN|anolis_carolinensis|XP_062827322.1:0.1030267653,(((BGN|frog|NP_001072552.1:0.1605629149,BGN|scyliorhinus_canicula|XP_038638277.1:0.2287631389)71:0.0240864769,(BGN|latimeria_chalumnae|XP_064415290.1:0.0909294690,(((((((((DCN|human|NP_001911.1:0.0349735769,((DCN|mouse|NP_031859.1:0.0190328367,DCN|rattus_norvegicus|NP_077043.1:0.0758210361)100:0.1381360848,DCN|canis_lupus_familiaris|NP_001003228.1:0.0258511747)53:0.0000020810)57:0.0180850709,DCN|bos_taurus|NP_776331.2:0.0358592276)67:0.0219594949,DCN|monodelphis_domestica|XP_001363160.3:0.1282939968)100:0.0696361270,DCN|chicken|NP_001025918.2:0.0329517902)99:0.0413414794,DCN|anolis_carolinensis|XP_003221092.1:0.0629175465)89:0.0487116670,DCN|frog|NP_001093704.1:0.1491073603)100:0.0584336360,DCN|latimeria_chalumnae|XP_006004204.1:0.1505314634)59:0.0434369981,(DCN|zebrafish|NP_571772.1:0.1906192457,DCN|lepisosteus_oculatus|XP_015208366.1:0.0927212609)100:0.0677513947)97:0.1074526602,((DCN|callorhinchus_milii|NP_001279248.1:0.1391211596,DCN|scyliorhinus_canicula|XP_038636759.1:0.1199143997)65:0.0268628296,DCN|whale_shark|XP_048463588.1:0.0557905342)99:0.0868389970)99:0.2912224240)64:0.0400922062)54:0.0359771619,((BGN|zebrafish|NP_001001825.2:0.1800409024,(BGN|lamprey|XP_075929720.1:0.3036738616,(BGN|whale_shark|XP_048475905.1:0.1917376474,((((((((((EPYC|human|NP_004941.2:0.0000024264,(((EPYC|mouse|NP_031910.1:0.0154212923,EPYC|rattus_norvegicus|NP_001101558.1:0.0329334672)100:0.0707987757,EPYC|canis_lupus_familiaris|XP_038414560.1:0.0063225253)84:0.0140215681,EPYC|bos_taurus|XP_010803061.1:0.0304310199)76:0.0042132615)92:0.0441417333,EPYC|monodelphis_domestica|XP_056654622.1:0.0319969100)100:0.0698691532,EPYC|chicken|XP_025003921.1:0.1172521101)94:0.0539264061,EPYC|anolis_carolinensis|XP_003221176.1:0.1462859489)99:0.0645701941,EPYC|frog|XP_031753666.1:0.2668211246)99:0.1870200361,(EPYC|zebrafish|XP_021330689.1:0.2867881677,EPYC|lepisosteus_oculatus|XP_006633678.1:0.0711687895)96:0.0454618997)81:0.0736534681,EPYC|latimeria_chalumnae|XP_006009490.1:0.2563934179)86:0.0898659654,(EPYC|callorhinchus_milii|XP_007893502.1:0.1575854607,(EPYC|scyliorhinus_canicula|XP_038636412.1:0.0486383780,EPYC|whale_shark|XP_048463897.1:0.0859775886)100:0.1370490772)100:0.1586137589)89:0.4016710410,(((((((((OGN|human|NP_148935.1:0.0336104423,OGN|bos_taurus|NP_776371.1:0.0197755448)100:0.0084047935,OGN|canis_lupus_familiaris|XP_038383338.1:0.0248579015)100:0.0260993064,OGN|mouse|NP_032786.1:0.0529381347)100:0.1063210997,OGN|monodelphis_domestica|XP_056660002.1:0.1066404269)100:0.0866349467,OGN|latimeria_chalumnae|XP_005987116.1:0.2476055568)46:0.0207100367,((OGN|chicken|NP_989540.1:0.1314741416,OGN|anolis_carolinensis|XP_008103381.1:0.1957777098)92:0.0591359087,(OGN|callorhinchus_milii|XP_007907071.1:0.2157154868,(OGN|scyliorhinus_canicula|XP_038668531.1:0.1118858235,OGN|whale_shark|XP_020377273.1:0.0078091333)100:0.1433847412)99:0.3069136636)44:0.0477489537)89:0.0358486070,OGN|frog|XP_002934273.1:0.2472574429)91:0.0953739619,OGN|lepisosteus_oculatus|XP_006631165.2:0.1568233917)76:0.0492403549,OGN|zebrafish|NP_001013588.1:0.2574671953)99:0.3903487794)100:1.0184217674,((((((((((FMOD|human|XP_047272260.1:0.0196873121,((FMOD|mouse|NP_067330.1:0.0019142726,FMOD|rattus_norvegicus|NP_542429.1:0.0178087584)98:0.0055433024,FMOD|monodelphis_domestica|XP_001364906.1:0.0733618147)94:0.0132441834)90:0.0059525143,FMOD|canis_lupus_familiaris|XP_038441871.1:0.0133217112)97:0.0288631896,FMOD|bos_taurus|XP_059731202.1:0.0098675329)99:0.0712171686,(FMOD|chicken|NP_990298.2:0.1095153239,FMOD|anolis_carolinensis|XP_008107883.2:0.0820715338)100:0.1319495365)100:0.1152745885,(FMOD|frog|XP_017947022.1:0.3102044521,(FMOD|zebrafish|XP_073767056.1:0.4542095051,FMOD|lepisosteus_oculatus|XP_006628521.2:0.2529073212)67:0.0938003802)51:0.0277815157)60:0.0651155492,FMOD|latimeria_chalumnae|XP_006002318.1:0.1185583596)86:0.0884913297,(FMOD|scyliorhinus_canicula|XP_038675394.1:0.0953233537,FMOD|whale_shark|XP_048468126.1:0.0710944344)100:0.2276667601)100:0.1264868578,(((((((((LUM|human|NP_002336.1:0.0450165398,LUM|canis_lupus_familiaris|XP_038414561.1:0.0184721788)99:0.0318240195,((LUM|mouse|NP_032550.2:0.0037135586,LUM|rattus_norvegicus|NP_112312.1:0.0278840800)100:0.0648229728,LUM|bos_taurus|NP_776359.1:0.0061093593)95:0.0075733355)100:0.0954848427,LUM|monodelphis_domestica|XP_001368917.2:0.0891855795)100:0.1255842433,(LUM|chicken|NP_001263286.1:0.0609634790,LUM|anolis_carolinensis|XP_003221093.1:0.1225971208)96:0.0377125177)97:0.0892882503,LUM|frog|NP_001011006.1:0.2167616553)100:0.1906476463,LUM|latimeria_chalumnae|XP_006009488.1:0.1581181315)96:0.0767961622,LUM|lepisosteus_oculatus|XP_015208177.1:0.1455385279)80:0.0550552186,(LUM|callorhinchus_milii|XP_007893500.1:0.1097754612,(LUM|scyliorhinus_canicula|XP_038636708.1:0.1243152054,LUM|whale_shark|XP_048464015.1:0.1729943889)100:0.2006184700)99:0.1033388865)94:0.1046842754,LUM|zebrafish|NP_001002059.1:0.4698611177)99:0.1412726309)76:0.1038102771,LUM|lamprey|XP_075930353.1:0.3029902271)94:0.1325401639,(((((((((PRELP|human|NP_958505.1:0.0281118929,(PRELP|mouse|XP_006529147.1:0.0251774990,PRELP|rattus_norvegicus|XP_008767794.1:0.0348121160)100:0.0358117718)78:0.0115697353,PRELP|canis_lupus_familiaris|XP_038441873.1:0.0229384753)79:0.0126281214,PRELP|bos_taurus|XP_005216708.2:0.0419806557)98:0.0614934502,PRELP|monodelphis_domestica|XP_056671733.1:0.0687420723)100:0.1433694856,PRELP|anolis_carolinensis|XP_008107880.1:0.2265912582)81:0.0307556129,(PRELP|chicken|XP_046760117.1:0.0267192287,(PRELP|frog|NP_001096208.1:0.2370403192,PRELP|latimeria_chalumnae|XP_006002320.1:0.1723846524)90:0.0648844275)70:0.0176253737)97:0.0825200719,(PRELP|zebrafish|XP_001923590.2:0.1879890107,PRELP|lepisosteus_oculatus|XP_015198331.2:0.1090116747)100:0.1183559365)96:0.1365031613,(PRELP|callorhinchus_milii|XP_042198145.1:0.1161920599,(PRELP|scyliorhinus_canicula|XP_038675391.1:0.0498639302,PRELP|whale_shark|XP_048468210.1:0.0242625745)99:0.0945636911)98:0.1342994551)99:0.3337005214,PRELP|lamprey|XP_032810295.2:0.7373755869)99:0.2843484326)100:0.4666617216)99:0.4411159160)80:0.1646485113)75:0.1201771119)74:0.0605541193,BGN|lepisosteus_oculatus|XP_069037386.1:0.1225008898)73:0.0542621646)99:0.1176708464)96:0.0310609904)98:0.0105389476,BGN|bos_taurus|XP_005227715.1:0.0128842291)97:0.0057047853);
+
+TIME STAMP
+----------
+
+Date and time: Thu Sep  3 10:05:02 2026
+Total CPU time used: 297.744457 seconds (0h:4m:57s)
+Total wall-clock time used: 78.49931981 seconds (0h:1m:18s)
+

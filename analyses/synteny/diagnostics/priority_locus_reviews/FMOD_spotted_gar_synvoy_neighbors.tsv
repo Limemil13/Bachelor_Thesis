@@ -1,0 +1,33 @@
+seqid	source	feature	start	end	strand	symbol	id	parent	description	product	protein_id	role
+NC_090700.1	Gnomon	gene	38545325	38547757	-	LOC138216028	gene-LOC138216028		uncharacterized LOC138216028			upstream
+NC_090700.1	Gnomon	gene	38560399	38562682	-	LOC107076819	gene-LOC107076819		uncharacterized LOC107076819			upstream
+NC_090700.1	Gnomon	gene	38571864	38705822	-	optc	gene-optc		opticin			upstream
+NC_090700.1	Gnomon	gene	38583519	38595838	+	ren	gene-ren		renin			upstream
+NC_090700.1	Gnomon	gene	38660354	38685350	+	csf1a	gene-csf1a		colony stimulating factor 1a (macrophage)			upstream
+NC_090700.1	Gnomon	gene	38706708	38714927	-	LOC102690728	gene-LOC102690728		polymeric immunoglobulin receptor			upstream
+NC_090700.1	Gnomon	gene	38715351	38721943	-	kiss1	gene-kiss1		KiSS-1 metastasis suppressor			upstream
+NC_090700.1	Gnomon	gene	38721954	38725237	-	golt1a	gene-golt1a		golgi transport 1A			upstream
+NC_090700.1	Gnomon	gene	38725742	38820741	-	plekha6	gene-plekha6		pleckstrin homology domain containing, family A member 6			upstream
+NC_090700.1	Gnomon	gene	38826082	38830903	-	ppp1r15b	gene-ppp1r15b		protein phosphatase 1, regulatory subunit 15B			upstream
+NC_090700.1	Gnomon	gene	38830697	38834244	+	LOC107076853	gene-LOC107076853		uncharacterized LOC107076853			upstream
+NC_090700.1	Gnomon	gene	38834293	38881642	-	pik3c2b	gene-pik3c2b		phosphatidylinositol-4-phosphate 3-kinase, catalytic subunit type 2 beta			upstream
+NC_090700.1	Gnomon	gene	38875143	38900234	+	LOC102691530	gene-LOC102691530		acidic mammalian chitinase-like			upstream
+NC_090700.1	Gnomon	gene	38902329	38910941	+	LOC138239212	gene-LOC138239212		uncharacterized LOC138239212			upstream
+NC_090700.1	Gnomon	gene	38907779	38911298	-	fmoda	gene-fmoda		fibromodulin a			upstream
+NC_090700.1	Gnomon	gene	38923779	38931353	+	LOC102691729	gene-LOC102691729		lumican			overlap
+NC_090700.1	Gnomon	gene	38943900	38955017	+	prelp	gene-prelp		proline/arginine-rich end leucine-rich repeat protein			overlap
+NC_090700.1	Gnomon	gene	38954529	38961068	+	LOC107076826	gene-LOC107076826		protein CD300H-like			downstream
+NC_090700.1	Gnomon	gene	38964411	39005538	+	tfeb	gene-tfeb		transcription factor EB			downstream
+NC_090700.1	Gnomon	gene	39047749	39075440	+	LOC138239213	gene-LOC138239213		uncharacterized LOC138239213			downstream
+NC_090700.1	Gnomon	gene	39071899	39105042	-	mdfi	gene-mdfi		MyoD family inhibitor			downstream
+NC_090700.1	Gnomon	gene	39114513	39396225	-	foxp4	gene-foxp4		forkhead box P4			downstream
+NC_090700.1	Gnomon	gene	39415362	39421759	-	LOC102689046	gene-LOC102689046		protein FAM72A			downstream
+NC_090700.1	Gnomon	gene	39422176	39520592	+	srgap2	gene-srgap2		SLIT-ROBO Rho GTPase activating protein 2			downstream
+NC_090700.1	Gnomon	gene	39522535	39543227	+	ikbke	gene-ikbke		inhibitor of nuclear factor kappa B kinase subunit epsilon			downstream
+NC_090700.1	Gnomon	gene	39544990	39594982	+	rassf5	gene-rassf5		Ras association domain family member 5			downstream
+NC_090700.1	Gnomon	gene	39595786	39608024	-	eif2d	gene-eif2d		eukaryotic translation initiation factor 2D			downstream
+NC_090700.1	Gnomon	gene	39608941	39622627	+	dyrk3	gene-dyrk3		dual specificity tyrosine phosphorylation regulated kinase 3			downstream
+NC_090700.1	Gnomon	gene	39643897	39695991	+	LOC102692535	gene-LOC102692535		MAPK activated protein kinase 2			downstream
+NC_090700.1	Gnomon	gene	39715196	39720037	-	il10	gene-il10		interleukin 10			downstream
+NC_090700.1	Gnomon	gene	39720069	39726127	+	LOC107076843	gene-LOC107076843		uncharacterized LOC107076843			downstream
+NC_090700.1	Gnomon	gene	39739498	39742107	+	LOC107076847	gene-LOC107076847		uncharacterized LOC107076847			downstream

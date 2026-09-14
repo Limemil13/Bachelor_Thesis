@@ -1,0 +1,19 @@
+LABELS
+SEPARATOR TAB
+DATA
+human_PRELP_NP_958505.1	Human
+mouse_PRELP_XP_006529147.1	Mouse
+rattus_norvegicus_PRELP_XP_008767794.1	Rat
+canis_lupus_familiaris_PRELP_XP_038441873.1	Dog
+monodelphis_domestica_PRELP_XP_056671733.1	Opossum
+chicken_PRELP_XP_046760117.1	Chicken
+anolis_carolinensis_PRELP_XP_008107880.1	Anole
+frog_PRELP_NP_001096208.1	Frog
+zebrafish_PRELP_XP_001923590.2	Zebrafish
+lepisosteus_oculatus_PRELP_XP_015198331.2	Spotted gar
+callorhinchus_milii_PRELP_XP_042198145.1	Elephant shark
+scyliorhinus_canicula_PRELP_XP_038675391.1	Catshark
+whale_shark_PRELP_XP_048468210.1	Whale shark
+lamprey_PRELP_XP_032810295.2	Lamprey
+latimeria_chalumnae_PRELP_XP_006002320.1	Coelacanth
+bos_taurus_PRELP_XP_005216708.2	Cow

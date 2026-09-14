@@ -1,0 +1,90 @@
+ncbi_gene_id	gene_symbol	hpo_id	hpo_name	frequency	disease_id
+633	BGN	HP:0001156	Brachydactyly	3/7	OMIM:300989
+633	BGN	HP:0001156	Brachydactyly	9/9	OMIM:300106
+633	BGN	HP:0001166	Arachnodactyly	4/10	OMIM:300989
+633	BGN	HP:0001249	Intellectual disability	0/8	OMIM:300106
+633	BGN	HP:0001230	Broad metacarpals	-	OMIM:300106
+633	BGN	HP:0006059	Cone-shaped metacarpal epiphyses	-	OMIM:300106
+633	BGN	HP:0006009	Broad phalanx	-	OMIM:300106
+633	BGN	HP:0001216	Delayed ossification of carpal bones	-	OMIM:300106
+633	BGN	HP:0002515	Waddling gait	9/9	OMIM:300106
+633	BGN	HP:0001377	Limited elbow extension	-	OMIM:300106
+633	BGN	HP:0001373	Joint dislocation	3/7	OMIM:300989
+633	BGN	HP:0001382	Joint hypermobility	8/10	OMIM:300989
+633	BGN	HP:0001382	Joint hypermobility	5/9	OMIM:300106
+633	BGN	HP:0003988	Long ulna	-	OMIM:300106
+633	BGN	HP:0002673	Coxa valga	-	OMIM:300106
+633	BGN	HP:0002651	Spondyloepimetaphyseal dysplasia	-	OMIM:300106
+633	BGN	HP:0002647	Aortic dissection	3/14	OMIM:300989
+633	BGN	HP:0002616	Aortic root aneurysm	13/15	OMIM:300989
+633	BGN	HP:0000193	Bifid uvula	1/7	OMIM:300989
+633	BGN	HP:0001419	X-linked recessive inheritance	-	OMIM:300106
+633	BGN	HP:0001417	X-linked inheritance	-	OMIM:300989
+633	BGN	HP:0002007	Frontal bossing	5/7	OMIM:300989
+633	BGN	HP:0003311	Hypoplasia of the odontoid process	-	OMIM:300106
+633	BGN	HP:0009486	Radial deviation of the hand	-	OMIM:300106
+633	BGN	HP:0002119	Ventriculomegaly	3/3	OMIM:300989
+633	BGN	HP:0010646	Cervical spine instability	-	OMIM:300989
+633	BGN	HP:0011940	Anterior wedging of T12	-	OMIM:300106
+633	BGN	HP:0003521	Disproportionate short-trunk short stature	-	OMIM:300106
+633	BGN	HP:0001058	Poor wound healing	1/5	OMIM:300989
+633	BGN	HP:0001065	Striae distensae	4/9	OMIM:300989
+633	BGN	HP:0004981	Prominent styloid process of ulna	-	OMIM:300106
+633	BGN	HP:0009836	Broad distal phalanx of finger	3/6	OMIM:300989
+633	BGN	HP:0009803	Short phalanx of finger	-	OMIM:300106
+633	BGN	HP:0004970	Ascending tubular aorta aneurysm	2/5	OMIM:300989
+633	BGN	HP:0004937	Pulmonary artery aneurysm	1/15	OMIM:300989
+633	BGN	HP:0004944	Dilatation of the cerebral artery	1/15	OMIM:300989
+633	BGN	HP:0004279	Short palm	-	OMIM:300106
+633	BGN	HP:0010049	Short metacarpal	-	OMIM:300106
+633	BGN	HP:0001999	Abnormal facial shape	0/9	OMIM:300106
+633	BGN	HP:0004322	Short stature	5/11	OMIM:300989
+633	BGN	HP:0005622	Broad long bones	-	OMIM:300106
+633	BGN	HP:0003085	Long fibula	-	OMIM:300106
+633	BGN	HP:0004379	Abnormality of alkaline phosphatase level	0/17	OMIM:300106
+633	BGN	HP:0003026	Short long bone	-	OMIM:300106
+633	BGN	HP:0003025	Metaphyseal irregularity	-	OMIM:300106
+633	BGN	HP:0000766	Abnormal sternum morphology	4/10	OMIM:300989
+633	BGN	HP:0000768	Pectus carinatum	-	OMIM:300106
+633	BGN	HP:0011463	Childhood onset	9/9	OMIM:300106
+633	BGN	HP:0000926	Platyspondyly	3/3	OMIM:300106
+633	BGN	HP:0000922	Posterior rib cupping	-	OMIM:300106
+633	BGN	HP:0003180	Flat acetabular roof	-	OMIM:300106
+633	BGN	HP:0004482	Relative macrocephaly	3/3	OMIM:300989
+633	BGN	HP:0010230	Cone-shaped epiphyses of the phalanges of the hand	-	OMIM:300106
+633	BGN	HP:0000894	Short clavicles	-	OMIM:300106
+633	BGN	HP:0004573	Anterior wedging of T11	-	OMIM:300106
+633	BGN	HP:0034392	Joint contracture	4/7	OMIM:300989
+633	BGN	HP:0003275	Narrow pelvis bone	-	OMIM:300106
+633	BGN	HP:0000998	Hypertrichosis	2/3	OMIM:300989
+633	BGN	HP:0000978	Bruising susceptibility	1/5	OMIM:300989
+633	BGN	HP:0000272	Malar flattening	7/8	OMIM:300989
+633	BGN	HP:0000268	Dolichocephaly	4/7	OMIM:300989
+633	BGN	HP:0002808	Kyphosis	-	OMIM:300106
+633	BGN	HP:0005066	Cone-shaped epiphyses fused within their metaphyses	-	OMIM:300106
+633	BGN	HP:0006371	Broad long bone diaphyses	-	OMIM:300106
+633	BGN	HP:0000218	High palate	2/5	OMIM:300989
+633	BGN	HP:0000212	Gingival overgrowth	2/3	OMIM:300989
+633	BGN	HP:0002869	Flared iliac wing	-	OMIM:300106
+633	BGN	HP:0001537	Umbilical hernia	1/6	OMIM:300989
+633	BGN	HP:0012385	Camptodactyly	-	OMIM:300989
+633	BGN	HP:0002938	Lumbar hyperlordosis	7/8	OMIM:300106
+633	BGN	HP:0000316	Hypertelorism	8/11	OMIM:300989
+633	BGN	HP:0000327	Hypoplasia of the maxilla	-	OMIM:300106
+633	BGN	HP:0002970	Genu varum	9/9	OMIM:300106
+633	BGN	HP:0001634	Mitral valve prolapse	1/15	OMIM:300989
+633	BGN	HP:0004000	Cone-shaped distal radial epiphysis	-	OMIM:300106
+633	BGN	HP:0000494	Downslanted palpebral fissures	6/7	OMIM:300989
+633	BGN	HP:0001773	Short foot	-	OMIM:300106
+633	BGN	HP:0001763	Pes planus	5/9	OMIM:300989
+633	BGN	HP:0000520	Proptosis	5/8	OMIM:300989
+1634	DCN	HP:0001131	Corneal dystrophy	11/11	OMIM:610048
+1634	DCN	HP:0000006	Autosomal dominant inheritance	-	OMIM:610048
+1634	DCN	HP:0200020	Corneal erosion	0/11	OMIM:610048
+1634	DCN	HP:0003623	Neonatal onset	11/11	OMIM:610048
+1634	DCN	HP:0000613	Photophobia	0/11	OMIM:610048
+1634	DCN	HP:0011487	Increased corneal thickness	-	OMIM:610048
+1634	DCN	HP:0007709	Band-shaped corneal dystrophy	1/4	OMIM:610048
+1634	DCN	HP:0000486	Strabismus	4/11	OMIM:610048
+1634	DCN	HP:0000529	Progressive visual loss	-	OMIM:610048
+1634	DCN	HP:0000501	Glaucoma	3/11	OMIM:610048

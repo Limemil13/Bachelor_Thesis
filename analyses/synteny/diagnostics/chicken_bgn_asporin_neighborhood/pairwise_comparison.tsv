@@ -1,0 +1,11 @@
+locus_a	focal_a	locus_b	focal_b	flanking_genes_a	flanking_genes_b	shared_flanking_genes	shared_symbols	jaccard	best_order_orientation	shared_genes_in_order	order_fraction
+chicken_BGN	BGN	chicken_DCN	DCN	20	20	0		0.000	not assessable	0	0.000
+chicken_BGN	BGN	anole_BGN	bgn	20	20	0		0.000	not assessable	0	0.000
+chicken_BGN	BGN	human_BGN	BGN	20	20	0		0.000	not assessable	0	0.000
+chicken_BGN	BGN	human_ASPN	ASPN	20	20	6	CENPP,ECM2,IPPK,NOL8,OGN,OMD	0.176	same	5	0.833
+chicken_DCN	DCN	anole_BGN	bgn	20	20	0		0.000	not assessable	0	0.000
+chicken_DCN	DCN	human_BGN	BGN	20	20	0		0.000	not assessable	0	0.000
+chicken_DCN	DCN	human_ASPN	ASPN	20	20	0		0.000	not assessable	0	0.000
+anole_BGN	bgn	human_BGN	BGN	20	20	10	ABCD1,ATP2B3,BCAP31,CCNQ,DUSP9,HAUS7,PLXNB3,PNCK,SLC6A8,SRPK3	0.333	same	10	1.000
+anole_BGN	bgn	human_ASPN	ASPN	20	20	0		0.000	not assessable	0	0.000
+human_BGN	BGN	human_ASPN	ASPN	20	20	0		0.000	not assessable	0	0.000

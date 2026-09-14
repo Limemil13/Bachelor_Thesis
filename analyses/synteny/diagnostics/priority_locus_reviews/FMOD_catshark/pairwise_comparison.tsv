@@ -1,0 +1,2 @@
+locus_a	focal_a	locus_b	focal_b	flanking_genes_a	flanking_genes_b	shared_flanking_genes	shared_symbols	jaccard	best_order_orientation	shared_genes_in_order	order_fraction
+human_FMOD	FMOD	catshark_FMOD	LOC119978081	30	30	1	PRELP	0.017	same	1	1.000

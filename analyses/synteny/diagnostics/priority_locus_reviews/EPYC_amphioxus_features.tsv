@@ -1,0 +1,9 @@
+seqid	source	feature	start	end	strand	symbol	id	parent	description	product	protein_id
+NC_049983.1	RefSeq	region	1	29550017	+	5	NC_049983.1:1..29550017				
+NC_049983.1	Gnomon	gene	12336058	12341517	-	LOC118415137	gene-LOC118415137				
+NC_049983.1	Gnomon	mRNA	12336058	12341517	-	LOC118415137	rna-XM_035819505.1	gene-LOC118415137		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like, transcript variant X1	
+NC_049983.1	Gnomon	exon	12339551	12341233	-	LOC118415137	exon-XM_035819505.1-2	rna-XM_035819505.1		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like, transcript variant X1	
+NC_049983.1	Gnomon	CDS	12339551	12341140	-	LOC118415137	cds-XP_035675398.1	rna-XM_035819505.1		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like isoform X1	XP_035675398.1
+NC_049983.1	Gnomon	mRNA	12336058	12341485	-	LOC118415137	rna-XM_035819506.1	gene-LOC118415137		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like, transcript variant X2	
+NC_049983.1	Gnomon	exon	12339551	12341485	-	LOC118415137	exon-XM_035819506.1-1	rna-XM_035819506.1		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like, transcript variant X2	
+NC_049983.1	Gnomon	CDS	12339551	12341140	-	LOC118415137	cds-XP_035675399.1	rna-XM_035819506.1		run domain Beclin-1-interacting and cysteine-rich domain-containing protein-like isoform X2	XP_035675399.1

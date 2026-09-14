@@ -1,0 +1,269 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: runs/alignments/PRELP_aligned.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 304754
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 sequences with 435 amino-acid sites
+Number of constant sites: 153 (= 35.1724% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 153 (= 35.1724% of all sites)
+Number of parsimony informative sites: 194
+Number of distinct site patterns: 326
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+G4            -5927.978   11915.957 +    0.173   11920.560 +    0.196   12038.217 +    0.561
+JTT+I+G4          -5925.631   11913.261 +    0.666   11918.184 +    0.643   12039.597 +    0.281
+JTTDCMut+G4       -5929.672   11919.344 -   0.0318   11923.948 -    0.036   12041.604 +    0.103
+JTTDCMut+I+G4     -5927.265   11916.531 +     0.13   11921.454 +    0.125   12042.866 +   0.0549
+LG+G4             -5971.890   12003.780 - 1.47e-20   12008.384 - 1.66e-20   12126.040 - 4.77e-20
+LG+I+G4           -5970.332   12002.664 - 2.57e-20   12007.587 - 2.48e-20   12129.000 - 1.09e-20
+LG+R3             -5968.848   12003.695 - 1.53e-20   12009.291 - 1.06e-20   12138.182 -  1.1e-22
+HIVb+G4           -5978.809   12017.619 - 1.45e-23   12022.223 - 1.65e-23   12139.879 - 4.71e-23
+HIVb+I+G4         -5976.773   12015.545 -  4.1e-23   12020.468 - 3.96e-23   12141.881 - 1.73e-23
+LG+R4             -5968.070   12006.140 - 4.52e-21   12012.456 - 2.17e-21   12148.777 - 5.51e-25
+FLU+G4            -5985.796   12031.593 - 1.34e-26   12036.197 - 1.52e-26   12153.853 - 4.35e-26
+FLU+I+G4          -5984.779   12031.557 - 1.37e-26   12036.480 - 1.32e-26   12157.893 - 5.77e-27
+JTT+F+G4          -5934.045   11966.090 - 2.25e-12   11978.818 - 4.38e-14   12165.782 - 1.12e-28
+JTTDCMut+F+G4     -5935.435   11968.870 - 5.59e-13   11981.598 - 1.09e-14   12168.562 - 2.78e-29
+JTT+F+I+G4        -5932.627   11965.254 - 3.41e-12   11978.535 - 5.05e-14   12169.021 - 2.21e-29
+JTTDCMut+F+I+G4   -5934.016   11968.032 - 8.51e-13   11981.313 - 1.26e-14   12171.799 - 5.52e-30
+LG+R2             -5992.828   12047.656 - 4.36e-30   12052.579 - 4.21e-30   12173.992 - 1.84e-30
+Dayhoff+I+G4      -5997.512   12057.024 - 4.03e-32   12061.947 - 3.89e-32   12183.360 -  1.7e-32
+Dayhoff+G4        -6000.723   12061.446 - 4.42e-33   12066.050 -    5e-33   12183.706 - 1.43e-32
+DCMut+I+G4        -5998.249   12058.499 - 1.93e-32   12063.422 - 1.86e-32   12184.834 - 8.15e-33
+DCMut+G4          -6001.450   12062.900 - 2.13e-33   12067.504 - 2.42e-33   12185.161 - 6.92e-33
+WAG+I+G4          -5999.734   12061.467 - 4.37e-33   12066.391 - 4.22e-33   12187.803 - 1.85e-33
+WAG+G4            -6002.818   12065.637 - 5.44e-34   12070.241 - 6.16e-34   12187.897 - 1.76e-33
+VT+G4             -6004.280   12068.559 - 1.26e-34   12073.163 - 1.43e-34   12190.820 - 4.09e-34
+VT+I+G4           -6002.175   12066.350 -  3.8e-34   12071.273 - 3.67e-34   12192.686 - 1.61e-34
+LG+F+G4           -5954.621   12007.242 -  2.6e-21   12019.969 - 5.08e-23   12206.934 -  1.3e-37
+cpREV+I+G4        -6009.424   12080.849 -  2.7e-37   12085.772 - 2.61e-37   12207.184 - 1.14e-37
+cpREV+G4          -6012.779   12085.558 - 2.57e-38   12090.162 - 2.91e-38   12207.818 - 8.32e-38
+rtREV+G4          -6013.488   12086.976 - 1.26e-38   12091.580 - 1.43e-38   12209.236 -  4.1e-38
+LG+F+I+G4         -5954.034   12008.068 - 1.72e-21   12021.349 - 2.55e-23   12211.835 - 1.12e-38
+rtREV+I+G4        -6012.056   12086.112 - 1.95e-38   12091.035 - 1.88e-38   12212.447 - 8.23e-39
+FLU+F+G4          -5977.470   12052.941 - 3.11e-31   12065.668 - 6.06e-33   12252.633 - 1.55e-47
+FLU+F+I+G4        -5976.920   12053.839 - 1.98e-31   12067.121 - 2.93e-33   12257.607 - 1.28e-48
+HIVb+F+G4         -5981.063   12060.125 - 8.55e-33   12072.853 - 1.67e-34   12259.817 - 4.25e-49
+HIVb+F+I+G4       -5979.060   12058.120 - 2.33e-32   12071.401 - 3.45e-34   12261.887 - 1.51e-49
+rtREV+F+G4        -5983.418   12064.836 - 8.11e-34   12077.563 - 1.58e-35   12264.528 - 4.04e-50
+rtREV+F+I+G4      -5982.981   12065.962 - 4.62e-34   12079.244 - 6.83e-36   12269.730 -    3e-51
+WAG+F+G4          -5988.619   12075.237 - 4.47e-36   12087.965 - 8.72e-38   12274.929 - 2.23e-52
+Dayhoff+F+G4      -5989.376   12076.753 -  2.1e-36   12089.480 - 4.09e-38   12276.444 - 1.04e-52
+WAG+F+I+G4        -5987.074   12074.148 - 7.71e-36   12087.429 - 1.14e-37   12277.915 -    5e-53
+DCMut+F+G4        -5990.143   12078.287 - 9.73e-37   12091.014 -  1.9e-38   12277.979 - 4.84e-53
+Dayhoff+F+I+G4    -5987.863   12075.726 -  3.5e-36   12089.007 - 5.18e-38   12279.493 - 2.27e-53
+DCMut+F+I+G4      -5988.640   12077.280 - 1.61e-36   12090.561 - 2.38e-38   12281.047 - 1.04e-53
+mtInv+F+G4        -5994.499   12086.998 - 1.25e-38   12099.725 - 2.44e-40   12286.690 - 6.22e-55
+mtInv+F+I+G4      -5994.043   12088.086 - 7.25e-39   12101.367 - 1.07e-40   12291.853 -  4.7e-56
+VT+F+G4           -6008.557   12115.115 -  9.8e-45   12127.842 - 1.91e-46   12314.807 - 4.88e-61
+mtMet+F+G4        -6008.875   12115.750 - 7.13e-45   12128.477 - 1.39e-46   12315.441 - 3.55e-61
+VT+F+I+G4         -6007.368   12114.736 - 1.18e-44   12128.017 - 1.75e-46   12318.503 - 7.68e-62
+mtMet+F+I+G4      -6008.444   12116.888 - 4.04e-45   12130.169 - 5.97e-47   12320.655 - 2.62e-62
+mtZOA+F+G4        -6017.268   12132.536 - 1.61e-48   12145.264 - 3.15e-50   12332.228 - 8.04e-65
+mtZOA+F+I+G4      -6016.914   12133.828 - 8.47e-49   12147.109 - 1.25e-50   12337.595 - 5.49e-66
+LG+I              -6082.074   12224.149 - 2.06e-68   12228.753 - 2.34e-68   12346.409 - 6.69e-68
+PMB+G4            -6087.827   12235.654 - 6.55e-71   12240.258 - 7.42e-71   12357.915 - 2.12e-70
+PMB+I+G4          -6085.659   12233.318 - 2.11e-70   12238.241 - 2.04e-70   12359.653 - 8.91e-71
+Blosum62+G4       -6088.708   12237.416 - 2.72e-71   12242.020 - 3.08e-71   12359.676 - 8.81e-71
+cpREV+F+G4        -6031.777   12161.553 - 8.08e-55   12174.280 - 1.58e-56   12361.245 - 4.02e-71
+cpREV+F+I+G4      -6028.980   12157.961 - 4.87e-54   12171.242 -  7.2e-56   12361.728 - 3.16e-71
+Blosum62+I+G4     -6087.112   12236.224 - 4.93e-71   12241.148 - 4.76e-71   12362.560 - 2.08e-71
+Blosum62+F+G4     -6062.128   12222.257 - 5.32e-68   12234.984 - 1.04e-69   12421.949 - 2.65e-84
+mtVer+F+G4        -6063.085   12224.169 - 2.04e-68   12236.896 - 3.99e-70   12423.861 - 1.02e-84
+Blosum62+F+I+G4   -6061.210   12222.420 -  4.9e-68   12235.702 - 7.24e-70   12426.188 - 3.18e-85
+mtVer+F+I+G4      -6062.582   12225.164 - 1.24e-68   12238.446 - 1.84e-70   12428.932 - 8.06e-86
+PMB+F+G4          -6083.700   12265.400 - 2.28e-77   12278.128 - 4.44e-79   12465.092 - 1.13e-93
+mtREV+F+G4        -6083.896   12265.792 - 1.87e-77   12278.519 - 3.65e-79   12465.484 - 9.31e-94
+PMB+F+I+G4        -6082.146   12264.291 - 3.96e-77   12277.572 - 5.86e-79   12468.058 - 2.57e-94
+HIVw+G4           -6143.573   12347.145 - 4.04e-95   12351.749 - 4.58e-95   12469.406 - 1.31e-94
+mtREV+F+I+G4      -6083.159   12266.317 - 1.44e-77   12279.598 - 2.13e-79   12470.085 - 9.33e-95
+HIVw+I+G4         -6141.416   12344.833 - 1.28e-94   12349.756 - 1.24e-94   12471.169 - 5.43e-95
+mtART+F+G4        -6089.423   12276.846 - 7.44e-80   12289.574 - 1.45e-81   12476.538 -  3.7e-96
+mtART+F+I+G4      -6089.115   12278.230 - 3.73e-80   12291.511 - 5.51e-82   12481.997 - 2.42e-97
+HIVw+F+G4         -6111.317   12320.635 - 2.31e-89   12333.362 -  4.5e-91   12520.327 - 1.15e-105
+HIVw+F+I+G4       -6108.366   12316.731 - 1.62e-88   12330.013 -  2.4e-90   12520.499 - 1.05e-105
+mtMAM+F+G4        -6116.619   12331.237 - 1.15e-91   12343.964 - 2.24e-93   12530.929 - 5.72e-108
+mtMAM+F+I+G4      -6115.912   12331.824 - 8.58e-92   12345.105 - 1.27e-93   12535.591 - 5.56e-109
+mtZOA+G4          -6185.911   12431.821 - 1.66e-113   12436.425 - 1.88e-113   12554.082 - 5.37e-113
+mtZOA+I+G4        -6185.944   12433.887 - 5.9e-114   12438.811 - 5.69e-114   12560.223 - 2.49e-114
+mtMet+G4          -6227.655   12515.310 - 1.23e-131   12519.914 - 1.39e-131   12637.571 - 3.99e-131
+mtMet+I+G4        -6227.333   12516.665 - 6.25e-132   12521.588 - 6.03e-132   12643.001 - 2.64e-132
+LG                -6235.458   12528.916 - 1.37e-134   12533.212 - 1.8e-134   12647.101 - 3.4e-133
+mtVer+G4          -6235.555   12531.110 - 4.56e-135   12535.714 - 5.17e-135   12653.371 - 1.48e-134
+mtVer+I+G4        -6235.789   12533.578 - 1.33e-135   12538.501 - 1.28e-135   12659.913 - 5.61e-136
+mtREV+G4          -6241.332   12542.663 - 1.41e-137   12547.267 - 1.6e-137   12664.924 - 4.58e-137
+mtREV+I+G4        -6240.106   12542.211 - 1.77e-137   12547.134 - 1.71e-137   12668.547 - 7.49e-138
+mtMAM+G4          -6297.774   12655.548 - 4.34e-162   12660.152 - 4.92e-162   12777.809 - 1.41e-161
+mtInv+G4          -6298.635   12657.271 - 1.83e-162   12661.875 - 2.08e-162   12779.531 - 5.95e-162
+mtInv+I+G4        -6298.144   12658.289 - 1.1e-162   12663.212 - 1.06e-162   12784.624 - 4.66e-163
+mtMAM+I+G4        -6298.271   12658.541 - 9.72e-163   12663.464 - 9.39e-163   12784.877 - 4.11e-163
+mtART+G4          -6318.889   12697.777 - 2.94e-171   12702.381 - 3.33e-171   12820.038 - 9.52e-171
+mtART+I+G4        -6318.312   12698.624 - 1.92e-171   12703.548 - 1.86e-171   12824.960 - 8.12e-172
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.6731
+
+ Category  Relative_rate  Proportion
+  1         0.0685         0.2500
+  2         0.3506         0.2500
+  3         0.9145         0.2500
+  4         2.6665         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5924.4831 (s.e. 214.5147)
+Unconstrained log-likelihood (without tree): -2351.4964
+Number of free parameters (#branches + #model parameters): 30
+Akaike information criterion (AIC) score: 11908.9662
+Corrected Akaike information criterion (AICc) score: 11913.5702
+Bayesian information criterion (BIC) score: 12031.2266
+
+Total tree length (sum of branch lengths): 4.8150
+Sum of internal branch lengths: 1.1492 (23.8664% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'human|PRELP|NP_958505.1' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--human|PRELP|NP_958505.1
+|
+|  +--mouse|PRELP|XP_006529147.1
++--| (99.9/100)
+|  +--rattus_norvegicus|PRELP|XP_008767794.1
+|
+|     +--canis_lupus_familiaris|PRELP|XP_038441873.1
+|  +--| (53.7/46)
+|  |  |  +--monodelphis_domestica|PRELP|XP_056671733.1
+|  |  +--| (98.4/94)
+|  |     |       +--chicken|PRELP|XP_046760117.1
+|  |     |    +--| (67/75)
+|  |     |    |  +------anolis_carolinensis|PRELP|XP_008107880.1
+|  |     +----| (100/100)
+|  |          |  +------frog|PRELP|NP_001096208.1
+|  |          +--| (88.4/88)
+|  |             |            +--------zebrafish|PRELP|XP_001923590.2
+|  |             |        +---| (99.6/92)
+|  |             |        |   +--lepisosteus_oculatus|PRELP|XP_015198331.2
+|  |             |     +--| (46.7/50)
+|  |             |     |  |      +-----callorhinchus_milii|PRELP|XP_042198145.1
+|  |             |     |  +------| (100/96)
+|  |             |     |         |  +--scyliorhinus_canicula|PRELP|XP_038675391.1
+|  |             |     |         +--| (99.2/100)
+|  |             |     |            +--whale_shark|PRELP|XP_048468210.1
+|  |             |  +--| (81.1/75)
+|  |             |  |  +-----------------------------------------------lamprey|PRELP|XP_032810295.2
+|  |             +--| (92.1/85)
+|  |                +-----latimeria_chalumnae|PRELP|XP_006002320.1
++--| (68.5/62)
+   +--bos_taurus|PRELP|XP_005216708.2
+
+Tree in newick format:
+
+(human|PRELP|NP_958505.1:0.0267117027,(mouse|PRELP|XP_006529147.1:0.0236822822,rattus_norvegicus|PRELP|XP_008767794.1:0.0226331711)99.9/100:0.0602956281,((canis_lupus_familiaris|PRELP|XP_038441873.1:0.0319214397,(monodelphis_domestica|PRELP|XP_056671733.1:0.1035489722,((chicken|PRELP|XP_046760117.1:0.0656386166,anolis_carolinensis|PRELP|XP_008107880.1:0.2715066513)67/75:0.0302523452,(frog|PRELP|NP_001096208.1:0.2745364446,((((zebrafish|PRELP|XP_001923590.2:0.3329335859,lepisosteus_oculatus|PRELP|XP_015198331.2:0.1195539050)99.6/92:0.1822889966,(callorhinchus_milii|PRELP|XP_042198145.1:0.2203400416,(scyliorhinus_canicula|PRELP|XP_038675391.1:0.0630748970,whale_shark|PRELP|XP_048468210.1:0.0590635950)99.2/100:0.1286791974)100/96:0.2722656042)46.7/50:0.0392898187,lamprey|PRELP|XP_032810295.2:1.7650469371)81.1/75:0.0363367259,latimeria_chalumnae|PRELP|XP_006002320.1:0.2276622614)92.1/85:0.0726777834)88.4/88:0.0361784271)100/100:0.2022796186)98.4/94:0.0677928732)53.7/46:0.0058029357,bos_taurus|PRELP|XP_005216708.2:0.0580153192)68.5/62:0.0150396542);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -5924.483207
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--human|PRELP|NP_958505.1
+|
+|  +--mouse|PRELP|XP_006529147.1
++--| (100)
+|  +--rattus_norvegicus|PRELP|XP_008767794.1
+|
+|     +--canis_lupus_familiaris|PRELP|XP_038441873.1
+|  +--| (46)
+|  |  |  +--monodelphis_domestica|PRELP|XP_056671733.1
+|  |  +--| (94)
+|  |     |       +--chicken|PRELP|XP_046760117.1
+|  |     |    +--| (75)
+|  |     |    |  +------anolis_carolinensis|PRELP|XP_008107880.1
+|  |     +----| (100)
+|  |          |  +------frog|PRELP|NP_001096208.1
+|  |          +--| (88)
+|  |             |            +--------zebrafish|PRELP|XP_001923590.2
+|  |             |        +---| (92)
+|  |             |        |   +--lepisosteus_oculatus|PRELP|XP_015198331.2
+|  |             |     +--| (50)
+|  |             |     |  |      +-----callorhinchus_milii|PRELP|XP_042198145.1
+|  |             |     |  +------| (96)
+|  |             |     |         |  +--scyliorhinus_canicula|PRELP|XP_038675391.1
+|  |             |     |         +--| (100)
+|  |             |     |            +--whale_shark|PRELP|XP_048468210.1
+|  |             |  +--| (75)
+|  |             |  |  +-----------------------------------------------lamprey|PRELP|XP_032810295.2
+|  |             +--| (85)
+|  |                +-----latimeria_chalumnae|PRELP|XP_006002320.1
++--| (62)
+   +--bos_taurus|PRELP|XP_005216708.2
+
+
+Consensus tree in newick format: 
+
+(human|PRELP|NP_958505.1:0.0267176554,(mouse|PRELP|XP_006529147.1:0.0236879451,rattus_norvegicus|PRELP|XP_008767794.1:0.0226391493)100:0.0603125796,((canis_lupus_familiaris|PRELP|XP_038441873.1:0.0319290805,(monodelphis_domestica|PRELP|XP_056671733.1:0.1035722617,((chicken|PRELP|XP_046760117.1:0.0656471181,anolis_carolinensis|PRELP|XP_008107880.1:0.2716121013)75:0.0302591296,(frog|PRELP|NP_001096208.1:0.2746417706,((((zebrafish|PRELP|XP_001923590.2:0.3330917204,lepisosteus_oculatus|PRELP|XP_015198331.2:0.1196037156)92:0.1824828284,(callorhinchus_milii|PRELP|XP_042198145.1:0.2204810673,(scyliorhinus_canicula|PRELP|XP_038675391.1:0.0630865343,whale_shark|PRELP|XP_048468210.1:0.0591069800)100:0.1286932327)96:0.2725169028)50:0.0389835745,lamprey|PRELP|XP_032810295.2:1.7659241190)75:0.0365128601,latimeria_chalumnae|PRELP|XP_006002320.1:0.2277613088)85:0.0727059874)88:0.0361908526)100:0.2023467516)94:0.0678149705)46:0.0058033300,bos_taurus|PRELP|XP_005216708.2:0.0580317453)62:0.0150432879);
+
+TIME STAMP
+----------
+
+Date and time: Tue Jun  9 23:20:06 2026
+Total CPU time used: 51.771849 seconds (0h:0m:51s)
+Total wall-clock time used: 9.013588136 seconds (0h:0m:9s)
+

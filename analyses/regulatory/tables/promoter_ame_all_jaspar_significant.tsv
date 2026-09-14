@@ -1,0 +1,13 @@
+rank	motif_DB	motif_ID	motif_alt_ID	consensus	p-value	adj_p-value	E-value	tests	FASTA_max	pos	neg	PWM_min	TP	%TP	FP	%FP	significance
+1	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2522.1	ZNF683	CTTTCACTTTCTCY	3.72e-14	3.87e-11	3.95e-8	1042	35	35	1015	11	14	40.00	18	1.77	E-value < 0.05
+2	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1623.2	Stat2	GAAACAGAAA	2.55e-13	2.68e-10	2.73e-7	1049	35	35	1015	28	12	34.29	11	1.08	E-value < 0.05
+3	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2554.1	ZNF471	TYTCCATCTCTTTT	3.20e-10	3.23e-7	3.29e-4	1010	35	35	1015	7	18	51.43	88	8.67	E-value < 0.05
+4	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1125.2	ZNF384	AAAAAAAA	1.36e-9	1.31e-6	1.34e-3	963	35	35	1015	30	15	42.86	59	5.81	E-value < 0.05
+5	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2531.1	ZNF775	TTCTCACTTCTCCCT	3.93e-9	4.04e-6	4.12e-3	1028	35	35	1015	13	17	48.57	90	8.87	E-value < 0.05
+6	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2489.1	ZFP28	RTTTTCTATTTCTTCTTG	8.01e-9	4.77e-6	4.86e-3	595	35	35	1015	3	16	45.71	81	7.98	E-value < 0.05
+7	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0050.4	Irf1	TGAAACTGAAA	6.32e-9	6.62e-6	6.75e-3	1048	35	35	1015	23	9	25.71	13	1.28	E-value < 0.05
+8	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2593.1	ZNF362	AAAAAAAAAA	1.10e-8	9.96e-6	1.02e-2	906	35	35	1015	15	16	45.71	83	8.18	E-value < 0.05
+9	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1508.2	IKZF1	AACAGGAA	2.25e-8	2.36e-5	2.40e-2	1050	35	35	1015	35	11	31.43	31	3.05	E-value < 0.05
+10	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA2688.1	ZNF347	CCWTCCCCTTTCCAKY	3.46e-8	2.81e-5	2.87e-2	812	35	35	1015	5	21	60.00	174	17.14	E-value < 0.05
+11	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA1723.2	PRDM9	RGDGGGVAGGGRGGVRRMAR	4.89e-8	3.41e-5	3.47e-2	697	35	35	1015	8	17	48.57	108	10.64	E-value < 0.05
+12	${PROJECT_ROOT}/analyses/regulatory/databases/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt	MA0041.3	FOXD3	WAWGHAAATAAACA	3.32e-8	3.46e-5	3.52e-2	1042	35	35	1015	27	17	48.57	105	10.34	E-value < 0.05

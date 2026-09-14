@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-15	flanking	SYT2	gene-SYT2	202590596	202710454	-	630174	protein_coding	synaptotagmin 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-14	flanking	KDM5B	gene-KDM5B	202724495	202808421	-	532207	protein_coding	lysine demethylase 5B
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-13	flanking	LOC124904583	gene-LOC124904583	202810238	202825935	-	514693	protein_coding	uncharacterized LOC124904583
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-12	flanking	RABIF	gene-RABIF	202878282	202889149	-	451479	protein_coding	RAB interacting factor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-11	flanking	KLHL12	gene-KLHL12	202891120	202928599	-	412029	protein_coding	kelch like family member 12
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-10	flanking	ADIPOR1	gene-ADIPOR1	202940825	202958572	-	382056	protein_coding	adiponectin receptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-9	flanking	CYB5R1	gene-CYB5R1	202961873	202967257	-	373371	protein_coding	cytochrome b5 reductase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-8	flanking	TMEM183A	gene-TMEM183A	203007374	203024848	+	315780	protein_coding	transmembrane protein 183A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-7	flanking	PPFIA4	gene-PPFIA4	203026491	203078736	+	261892	protein_coding	PPFI scaffold protein A4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-6	flanking	MYOG	gene-MYOG	203083129	203086012	-	254616	protein_coding	myogenin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-5	flanking	ADORA1	gene-ADORA1	203127726	203167405	+	173223	protein_coding	adenosine A1 receptor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-4	flanking	MYBPH	gene-MYBPH	203167811	203179214	-	161414	protein_coding	myosin binding protein H
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-3	flanking	CHI3L1	gene-CHI3L1	203178931	203186704	-	153924	protein_coding	chitinase 3 like 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-2	flanking	CHIT1	gene-CHIT1	203216079	203230099	-	110529	protein_coding	chitinase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-1	flanking	BTG2	gene-BTG2	203305519	203309602	+	31026	protein_coding	BTG anti-proliferation factor 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	0	focal	FMOD	gene-FMOD	203340628	203351122	-	0	protein_coding	fibromodulin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	1	flanking	PRELP	gene-PRELP	203475806	203491352	+	124684	protein_coding	proline and arginine rich end leucine rich repeat protein
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	2	flanking	OPTC	gene-OPTC	203494153	203508949	+	143031	protein_coding	opticin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	3	flanking	ATP2B4	gene-ATP2B4	203626832	203744081	+	275710	protein_coding	ATPase plasma membrane Ca2+ transporting 4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	4	flanking	LAX1	gene-LAX1	203765183	203776372	+	414061	protein_coding	lymphocyte transmembrane adaptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	5	flanking	ZBED6	gene-ZBED6	203795623	203854124	+	444501	protein_coding	zinc finger BED-type containing 6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	6	flanking	ZC3H11A	gene-ZC3H11A	203795623	203854124	+	444501	protein_coding	zinc finger CCCH-type containing 11A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	7	flanking	LOC128031836	gene-LOC128031836	203802094	203802192	+	450972	protein_coding	uncharacterized LOC128031836
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	8	flanking	SNRPE	gene-SNRPE	203861599	203871152	+	510477	protein_coding	small nuclear ribonucleoprotein polypeptide E
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	9	flanking	SOX13	gene-SOX13	204073115	204127743	+	721993	protein_coding	SRY-box transcription factor 13
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	10	flanking	ETNK2	gene-ETNK2	204131062	204152044	-	779940	protein_coding	ethanolamine kinase 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	11	flanking	REN	gene-REN	204154819	204166337	-	803697	protein_coding	renin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	12	flanking	KISS1	gene-KISS1	204190341	204196491	-	839219	protein_coding	KiSS-1 metastasis suppressor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	13	flanking	GOLT1A	gene-GOLT1A	204198163	204213988	-	847041	protein_coding	golgi transport 1A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	14	flanking	PLEKHA6	gene-PLEKHA6	204218853	204378168	-	867731	protein_coding	pleckstrin homology domain containing A6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	15	flanking	PPP1R15B	gene-PPP1R15B	204395826	204411817	-	1044704	protein_coding	protein phosphatase 1 regulatory subunit 15B
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-15	flanking	LOC119978394	gene-LOC119978394	140046546	140062819	+	2652360	protein_coding	gastricsin-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-14	flanking	LOC119978810	gene-LOC119978810	140069582	140088456	-	2626723	protein_coding	gastricsin-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-13	flanking	LOC119978012	gene-LOC119978012	140112486	140199440	-	2515739	protein_coding	fibroblast growth factor receptor substrate 2-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-12	flanking	LOC119978392	gene-LOC119978392	140320962	140459555	+	2255624	protein_coding	prickle-like protein 1
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-11	flanking	LOC119978498	gene-LOC119978498	140462419	140535329	-	2179850	protein_coding	uncharacterized LOC119978498
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-10	flanking	tomm6	gene-tomm6	140563572	140572292	+	2142887	protein_coding	translocase of outer mitochondrial membrane 6 homolog (yeast)
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-9	flanking	LOC119978430	gene-LOC119978430	140588118	140637071	-	2078108	protein_coding	ubiquitin carboxyl-terminal hydrolase 49-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-8	flanking	med20	gene-med20	140695398	140711891	-	2003288	protein_coding	mediator complex subunit 20
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-7	flanking	bysl	gene-bysl	140716001	140730328	+	1984851	protein_coding	bystin-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-6	flanking	ccnd3	gene-ccnd3	140759380	140796823	-	1918356	protein_coding	cyclin D3
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-5	flanking	taf8	gene-taf8	141195780	141214938	+	1500241	protein_coding	TAF8 RNA polymerase II, TATA box binding protein (TBP)-associated factor
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-4	flanking	mdm4	gene-mdm4	141219261	141258742	+	1456437	protein_coding	MDM4 regulator of p53
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-3	flanking	LOC119978753	gene-LOC119978753	141301393	141579078	-	1136101	protein_coding	plasma membrane calcium-transporting ATPase 1-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-2	flanking	prelp	gene-prelp	142404483	142432733	-	282446	protein_coding	proline/arginine-rich end leucine-rich repeat protein
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	-1	flanking	LOC119978082	gene-LOC119978082	142416100	142676943	+	38236	protein_coding	decorin-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	0	focal	LOC119978081	gene-LOC119978081	142715179	142734639	+	0	protein_coding	fibromodulin-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	1	flanking	LOC119978188	gene-LOC119978188	142972220	142974651	-	237581	protein_coding	protein BTG2-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	2	flanking	LOC119978455	gene-LOC119978455	143111950	143124777	-	377311	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	3	flanking	LOC119978456	gene-LOC119978456	143143289	143166263	+	408650	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	4	flanking	LOC119978803	gene-LOC119978803	143266954	143316716	+	532315	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	5	flanking	LOC119978189	gene-LOC119978189	143363056	143424326	+	628417	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	6	flanking	LOC119978191	gene-LOC119978191	143505309	143561827	+	770670	protein_coding	chitinase-3-like protein 1
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	7	flanking	LOC119978192	gene-LOC119978192	143592199	143650910	-	857560	protein_coding	chitotriosidase-1-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	8	flanking	LOC119978217	gene-LOC119978217	143697520	143751711	-	962881	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	9	flanking	LOC119978216	gene-LOC119978216	143835205	143906161	-	1100566	protein_coding	chitinase-3-like protein 2
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	10	flanking	LOC119978215	gene-LOC119978215	143911013	143934953	-	1176374	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	11	flanking	LOC119978666	gene-LOC119978666	144052364	144105753	+	1317725	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	12	flanking	LOC119978675	gene-LOC119978675	144106348	144124117	-	1371709	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	13	flanking	LOC119978676	gene-LOC119978676	144137459	144161426	-	1402820	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	14	flanking	LOC119978674	gene-LOC119978674	144166257	144202798	-	1431618	protein_coding	acidic mammalian chitinase-like
+catshark_FMOD	NCBI_Assembly:GCF_902713615.2	catshark.gff	LOC119978081@NC_052160.1	NC_052160.1	15	flanking	LOC119978670	gene-LOC119978670	144209605	144240218	-	1474966	protein_coding	acidic mammalian chitinase-like

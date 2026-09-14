@@ -1,0 +1,295 @@
+gene	species	protein_accession	protein_length_aa	domain_name	domain_accession	description	i_evalue	domain_score	ali_from_aa	ali_to_aa	env_from_aa	env_to_aa	is_lrr_related	coding_exons_spanned	coding_exon_span_count
+BGN	human	NP_001702.1	368	LRR_8	PF13855.13	Leucine rich repeat	1e-13	51.4	93	150	90	150	yes	3,4	2
+BGN	human	NP_001702.1	368	LRR_8	PF13855.13	Leucine rich repeat	1.6e-07	31.6	160	216	159	220	yes	4,5	2
+BGN	human	NP_001702.1	368	LRR_8	PF13855.13	Leucine rich repeat	4.3e-09	36.6	230	289	229	289	yes	6,7	2
+BGN	human	NP_001702.1	368	LRR_8	PF13855.13	Leucine rich repeat	0.00012	22.4	277	321	277	324	yes	7,8	2
+BGN	human	NP_001702.1	368	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	7e-05	23.5	277	315	277	319	yes	7,8	2
+BGN	human	NP_001702.1	368	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.8e-11	43.3	62	88	62	89	yes	2,3	2
+BGN	human	NP_001702.1	368	LRR_9	PF14580.13	Leucine-rich repeat	0.001	19.3	95	153	90	165	yes	3,4	2
+DCN	human	NP_001911.1	359	LRR_8	PF13855.13	Leucine rich repeat	3.4e-15	56.1	84	141	81	141	yes	3,4	2
+DCN	human	NP_001911.1	359	LRR_8	PF13855.13	Leucine rich repeat	9.1e-08	32.3	151	212	150	212	yes	4,5	2
+DCN	human	NP_001911.1	359	LRR_8	PF13855.13	Leucine rich repeat	5.8e-13	49.0	221	281	221	281	yes	6,7	2
+DCN	human	NP_001911.1	359	LRR_8	PF13855.13	Leucine rich repeat	8.4e-05	22.9	269	312	269	314	yes	7,8	2
+DCN	human	NP_001911.1	359	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00019	22.1	86	121	84	122	yes	3,4	2
+DCN	human	NP_001911.1	359	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.9e-05	25.3	105	145	105	147	yes	3,4	2
+DCN	human	NP_001911.1	359	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	9.3e-05	23.1	221	260	221	267	yes	6,7	2
+DCN	human	NP_001911.1	359	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.5e-05	24.5	246	284	245	290	yes	6,7	2
+DCN	human	NP_001911.1	359	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00093	20.0	269	304	269	311	yes	7,8	2
+DCN	human	NP_001911.1	359	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.1e-10	40.6	54	80	53	80	yes	2,3	2
+DCN	human	NP_001911.1	359	LRR_9	PF14580.13	Leucine-rich repeat	0.00019	21.6	86	157	81	180	yes	3,4	2
+DCN	human	NP_001911.1	359	LRR_14	PF23598.2	Leucine-rich repeat region	2.3e-07	30.5	86	282	84	307	yes	3,4,5,6,7	5
+EPYC	human	NP_004941.2	322	LRR_8	PF13855.13	Leucine rich repeat	1.5e-12	47.7	152	203	151	203	yes	4,5	2
+EPYC	human	NP_004941.2	322	LRR_8	PF13855.13	Leucine rich repeat	2e-05	24.9	212	252	211	254	yes	5,6	2
+EPYC	human	NP_004941.2	322	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.3e-06	27.4	169	210	168	211	yes	5	1
+EPYC	human	NP_004941.2	322	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	8.5e-05	23.0	153	247	148	254	yes	4,5,6	3
+EPYC	human	NP_004941.2	322	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.8e-06	27.4	120	142	117	142	yes	4	1
+FMOD	human	NP_002014.2	376	LRR_8	PF13855.13	Leucine rich repeat	4.3e-10	39.8	107	167	105	169	yes	2	1
+FMOD	human	NP_002014.2	376	LRR_8	PF13855.13	Leucine rich repeat	8.5e-13	48.5	176	235	176	235	yes	2	1
+FMOD	human	NP_002014.2	376	LRR_8	PF13855.13	Leucine rich repeat	0.00017	21.9	245	281	244	287	yes	2	1
+FMOD	human	NP_002014.2	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4e-06	27.5	177	214	176	218	yes	2	1
+FMOD	human	NP_002014.2	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	9.5e-05	23.1	294	329	293	333	yes	2,3	2
+FMOD	human	NP_002014.2	376	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	8.7e-09	35.4	75	104	75	105	yes	2	1
+FMOD	human	NP_002014.2	376	LRR_14	PF23598.2	Leucine-rich repeat region	0.0006	19.3	178	243	176	256	yes	2	1
+LUM	human	NP_002336.1	338	LRR_8	PF13855.13	Leucine rich repeat	2e-11	44.1	66	128	66	128	yes	2	1
+LUM	human	NP_002336.1	338	LRR_8	PF13855.13	Leucine rich repeat	3.3e-07	30.5	137	171	136	171	yes	2	1
+LUM	human	NP_002336.1	338	LRR_8	PF13855.13	Leucine rich repeat	5.9e-10	39.4	207	266	205	266	yes	2	1
+LUM	human	NP_002336.1	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.9e-05	25.3	137	172	137	177	yes	2	1
+LUM	human	NP_002336.1	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.6e-06	27.6	160	199	159	204	yes	2	1
+LUM	human	NP_002336.1	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00023	21.9	206	242	205	248	yes	2	1
+LUM	human	NP_002336.1	338	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	3e-08	33.7	36	66	36	66	yes	2	1
+LUM	human	NP_002336.1	338	LRR_14	PF23598.2	Leucine-rich repeat region	0.001	18.5	161	313	146	333	yes	2,3	2
+OGN	human	NP_054776.1	298	LRR_8	PF13855.13	Leucine rich repeat	1.3e-09	38.3	127	179	122	179	yes	4,5	2
+OGN	human	NP_054776.1	298	LRR_8	PF13855.13	Leucine rich repeat	0.00065	20.0	187	225	186	225	yes	5,6	2
+OGN	human	NP_054776.1	298	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00024	21.9	123	160	123	161	yes	4,5	2
+OGN	human	NP_054776.1	298	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.2e-05	24.2	143	186	143	187	yes	4,5	2
+OMD	human	NP_005005.1	421	LRR_8	PF13855.13	Leucine rich repeat	5.9e-12	45.8	93	153	92	153	yes	2	1
+OMD	human	NP_005005.1	421	LRR_8	PF13855.13	Leucine rich repeat	5.1e-06	26.7	162	198	157	198	yes	2	1
+OMD	human	NP_005005.1	421	LRR_8	PF13855.13	Leucine rich repeat	2.9e-11	43.5	234	292	233	292	yes	2	1
+OMD	human	NP_005005.1	421	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.6e-05	25.6	115	155	115	160	yes	2	1
+OMD	human	NP_005005.1	421	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.2e-06	29.2	237	272	233	275	yes	2	1
+OMD	human	NP_005005.1	421	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	7.4e-05	23.5	257	294	257	297	yes	2	1
+OMD	human	NP_005005.1	421	LRR_14	PF23598.2	Leucine-rich repeat region	5.2e-05	22.7	235	302	230	342	yes	2	1
+OMD	human	NP_005005.1	421	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.2e-05	25.4	62	90	61	90	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_8	PF13855.13	Leucine rich repeat	6.8e-14	52.0	102	162	102	162	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_8	PF13855.13	Leucine rich repeat	2.8e-13	50.0	171	231	171	233	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_8	PF13855.13	Leucine rich repeat	8.7e-07	29.2	245	303	242	303	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.7e-05	24.1	127	165	126	170	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.3e-05	24.2	172	209	171	209	yes	2	1
+PRELP	human	NP_002716.1	382	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.8e-05	25.4	292	327	291	334	yes	2,3	2
+PRELP	human	NP_002716.1	382	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.6e-05	24.3	72	101	72	101	yes	2	1
+BGN	mouse	NP_031568.2	369	LRR_8	PF13855.13	Leucine rich repeat	1e-13	51.4	94	151	91	151	yes	3,4	2
+BGN	mouse	NP_031568.2	369	LRR_8	PF13855.13	Leucine rich repeat	1.6e-07	31.6	161	217	160	221	yes	4,5	2
+BGN	mouse	NP_031568.2	369	LRR_8	PF13855.13	Leucine rich repeat	4.2e-09	36.6	231	290	230	290	yes	6,7	2
+BGN	mouse	NP_031568.2	369	LRR_8	PF13855.13	Leucine rich repeat	6.4e-05	23.2	278	321	278	324	yes	7,8	2
+BGN	mouse	NP_031568.2	369	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.1e-05	24.3	278	316	278	320	yes	7,8	2
+BGN	mouse	NP_031568.2	369	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.8e-11	43.3	63	89	63	90	yes	2,3	2
+BGN	mouse	NP_031568.2	369	LRR_9	PF14580.13	Leucine-rich repeat	0.001	19.3	96	154	91	166	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRR_8	PF13855.13	Leucine rich repeat	2.9e-16	59.5	79	136	76	136	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRR_8	PF13855.13	Leucine rich repeat	2.6e-10	40.5	145	207	145	210	yes	4,5	2
+DCN	mouse	NP_001177380.1	354	LRR_8	PF13855.13	Leucine rich repeat	9.6e-13	48.3	217	276	216	276	yes	6,7	2
+DCN	mouse	NP_001177380.1	354	LRR_8	PF13855.13	Leucine rich repeat	9.4e-05	22.7	264	308	264	310	yes	7,8	2
+DCN	mouse	NP_001177380.1	354	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4e-06	27.5	81	117	79	122	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2e-06	28.5	102	140	100	144	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00094	20.0	125	160	124	169	yes	4	1
+DCN	mouse	NP_001177380.1	354	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00042	21.1	216	252	216	257	yes	6,7	2
+DCN	mouse	NP_001177380.1	354	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00048	20.9	241	276	240	285	yes	6,7	2
+DCN	mouse	NP_001177380.1	354	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00015	22.2	86	143	78	166	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.8e-11	43.3	48	75	48	75	yes	2,3	2
+DCN	mouse	NP_001177380.1	354	LRR_9	PF14580.13	Leucine-rich repeat	0.0001	22.5	81	158	76	166	yes	3,4	2
+DCN	mouse	NP_001177380.1	354	LRR_14	PF23598.2	Leucine-rich repeat region	1.8e-05	24.3	81	276	79	312	yes	3,4,5,6,7	5
+EPYC	mouse	NP_001366385.1	322	LRR_8	PF13855.13	Leucine rich repeat	7e-12	45.5	152	203	150	203	yes	4,5	2
+EPYC	mouse	NP_001366385.1	322	LRR_8	PF13855.13	Leucine rich repeat	0.00015	22.0	212	252	211	254	yes	5,6	2
+EPYC	mouse	NP_001366385.1	322	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2e-06	28.4	169	211	168	211	yes	5	1
+EPYC	mouse	NP_001366385.1	322	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.0002	22.1	191	223	191	226	yes	5	1
+EPYC	mouse	NP_001366385.1	322	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	2.3e-05	24.9	153	247	147	254	yes	4,5,6	3
+EPYC	mouse	NP_001366385.1	322	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.8e-06	27.4	120	142	117	142	yes	4	1
+FMOD	mouse	NP_067330.1	376	LRR_8	PF13855.13	Leucine rich repeat	1.1e-08	35.2	107	167	105	169	yes	2	1
+FMOD	mouse	NP_067330.1	376	LRR_8	PF13855.13	Leucine rich repeat	8.5e-13	48.5	176	235	176	235	yes	2	1
+FMOD	mouse	NP_067330.1	376	LRR_8	PF13855.13	Leucine rich repeat	6.2e-08	32.9	245	305	244	305	yes	2	1
+FMOD	mouse	NP_067330.1	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.9e-06	27.9	177	214	176	218	yes	2	1
+FMOD	mouse	NP_067330.1	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	9.1e-05	23.2	294	329	293	334	yes	2,3	2
+FMOD	mouse	NP_067330.1	376	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	8.7e-09	35.4	75	104	75	105	yes	2	1
+FMOD	mouse	NP_067330.1	376	LRR_14	PF23598.2	Leucine-rich repeat region	0.00075	18.9	177	243	156	261	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_8	PF13855.13	Leucine rich repeat	1e-07	32.2	66	102	65	102	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_8	PF13855.13	Leucine rich repeat	2.4e-07	31.0	137	171	136	171	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_8	PF13855.13	Leucine rich repeat	1.9e-09	37.7	206	266	205	266	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.3e-05	25.8	137	172	137	178	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.6e-06	27.3	160	199	159	204	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.8e-05	24.8	205	242	205	252	yes	2	1
+LUM	mouse	NP_032550.2	338	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.2e-08	34.9	36	66	36	66	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_14	PF23598.2	Leucine-rich repeat region	1.1e-05	25.0	68	221	66	222	yes	2	1
+LUM	mouse	NP_032550.2	338	LRR_14	PF23598.2	Leucine-rich repeat region	0.0002	20.9	160	313	146	333	yes	2,3	2
+OGN	mouse	NP_032786.1	298	LRR_8	PF13855.13	Leucine rich repeat	1.4e-10	41.4	127	179	122	179	yes	4,5	2
+OGN	mouse	NP_032786.1	298	LRR_8	PF13855.13	Leucine rich repeat	0.00018	21.8	187	225	186	225	yes	5,6	2
+OGN	mouse	NP_032786.1	298	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	8.7e-05	23.2	123	160	123	167	yes	4,5	2
+OGN	mouse	NP_032786.1	298	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00019	22.2	143	185	143	187	yes	4,5	2
+OMD	mouse	NP_001347637.1	423	LRR_8	PF13855.13	Leucine rich repeat	6.9e-12	45.5	93	153	92	153	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_8	PF13855.13	Leucine rich repeat	5e-06	26.8	162	198	156	198	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_8	PF13855.13	Leucine rich repeat	7.4e-11	42.2	234	292	233	292	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	5e-06	27.2	115	155	115	160	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.2e-05	25.2	237	272	233	275	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00066	20.4	257	294	257	298	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRR_14	PF23598.2	Leucine-rich repeat region	2.7e-05	23.7	234	303	220	337	yes	2	1
+OMD	mouse	NP_001347637.1	423	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2e-08	34.2	61	90	61	90	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_8	PF13855.13	Leucine rich repeat	1.3e-12	47.9	98	158	98	158	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_8	PF13855.13	Leucine rich repeat	1.1e-11	44.9	167	227	167	229	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_8	PF13855.13	Leucine rich repeat	0.00031	21.0	241	275	238	284	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.0003	21.5	123	161	122	166	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00025	21.8	168	205	167	205	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	5.4e-05	23.9	288	323	287	327	yes	2,3	2
+PRELP	mouse	NP_473418.3	378	LRR_14	PF23598.2	Leucine-rich repeat region	3.5e-05	23.3	96	224	82	232	yes	2	1
+PRELP	mouse	NP_473418.3	378	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	4e-05	23.7	68	97	68	97	yes	2	1
+BGN	cow	NP_847888.2	369	LRR_8	PF13855.13	Leucine rich repeat	1e-13	51.4	94	151	91	151	yes	3,4	2
+BGN	cow	NP_847888.2	369	LRR_8	PF13855.13	Leucine rich repeat	1.6e-07	31.6	161	217	160	221	yes	4,5	2
+BGN	cow	NP_847888.2	369	LRR_8	PF13855.13	Leucine rich repeat	4e-09	36.7	231	290	230	290	yes	6,7	2
+BGN	cow	NP_847888.2	369	LRR_8	PF13855.13	Leucine rich repeat	4.2e-08	33.4	255	313	254	313	yes	6,7,8	3
+BGN	cow	NP_847888.2	369	LRR_8	PF13855.13	Leucine rich repeat	0.00025	21.3	278	320	278	323	yes	7,8	2
+BGN	cow	NP_847888.2	369	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.4e-05	24.2	278	316	278	320	yes	7,8	2
+BGN	cow	NP_847888.2	369	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.6e-11	44.1	63	89	63	90	yes	2,3	2
+BGN	cow	NP_847888.2	369	LRR_9	PF14580.13	Leucine-rich repeat	0.00099	19.3	96	154	91	166	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRR_8	PF13855.13	Leucine rich repeat	7.6e-16	58.2	87	142	84	142	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRR_8	PF13855.13	Leucine rich repeat	9.6e-09	35.5	152	213	151	213	yes	4,5	2
+DCN	cow	NP_776331.2	360	LRR_8	PF13855.13	Leucine rich repeat	3.8e-13	49.6	222	282	222	282	yes	6,7	2
+DCN	cow	NP_776331.2	360	LRR_8	PF13855.13	Leucine rich repeat	0.00031	21.0	270	313	270	315	yes	7,8	2
+DCN	cow	NP_776331.2	360	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.7e-05	24.8	87	123	86	123	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	6.1e-06	26.9	106	146	106	148	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.8e-05	24.8	222	261	222	268	yes	6,7	2
+DCN	cow	NP_776331.2	360	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	6.8e-05	23.6	270	308	270	313	yes	7,8	2
+DCN	cow	NP_776331.2	360	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	6.6e-05	23.4	92	174	86	185	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRR_9	PF14580.13	Leucine-rich repeat	2.2e-05	24.7	87	166	82	183	yes	3,4	2
+DCN	cow	NP_776331.2	360	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	3e-10	40.0	55	81	54	81	yes	2,3	2
+DCN	cow	NP_776331.2	360	LRR_14	PF23598.2	Leucine-rich repeat region	2.4e-05	23.9	103	251	90	263	yes	3,4,5,6,7	5
+EPYC	cow	NP_776732.1	321	LRR_8	PF13855.13	Leucine rich repeat	5.9e-12	45.8	151	202	150	202	yes	4,5	2
+EPYC	cow	NP_776732.1	321	LRR_8	PF13855.13	Leucine rich repeat	1.9e-05	24.9	211	251	210	253	yes	5,6	2
+EPYC	cow	NP_776732.1	321	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.2e-06	27.8	168	209	167	210	yes	5	1
+EPYC	cow	NP_776732.1	321	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.7e-06	27.4	119	141	116	141	yes	4	1
+EPYC	cow	NP_776732.1	321	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00032	21.2	152	246	148	253	yes	4,5,6	3
+FMOD	cow	NP_776483.2	376	LRR_8	PF13855.13	Leucine rich repeat	1e-09	38.6	107	167	105	167	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_8	PF13855.13	Leucine rich repeat	1.3e-12	47.9	176	235	176	235	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_8	PF13855.13	Leucine rich repeat	4.7e-06	26.8	245	281	244	287	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_8	PF13855.13	Leucine rich repeat	0.001	19.3	286	325	283	325	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.5e-06	27.7	177	214	176	218	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00012	22.8	294	329	293	332	yes	2,3	2
+FMOD	cow	NP_776483.2	376	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	8.7e-09	35.4	75	104	75	105	yes	2	1
+FMOD	cow	NP_776483.2	376	LRR_14	PF23598.2	Leucine-rich repeat region	0.00059	19.3	177	243	175	260	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_8	PF13855.13	Leucine rich repeat	2.5e-11	43.7	70	132	70	132	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_8	PF13855.13	Leucine rich repeat	3.7e-06	27.2	141	175	140	175	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_8	PF13855.13	Leucine rich repeat	9.9e-08	32.2	211	245	209	249	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00016	22.4	142	176	141	182	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.7e-06	27.6	164	203	163	209	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	6.8e-05	23.6	188	225	188	226	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00017	22.3	210	246	209	252	yes	2	1
+LUM	cow	NP_776359.1	342	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	3.1e-08	33.6	40	70	40	70	yes	2	1
+LUM	cow	NP_776359.1	342	LRR_14	PF23598.2	Leucine-rich repeat region	0.00023	20.6	150	320	141	336	yes	2,3	2
+OGN	cow	NP_776371.1	299	LRR_8	PF13855.13	Leucine rich repeat	1.2e-09	38.4	128	180	123	180	yes	4,5	2
+OGN	cow	NP_776371.1	299	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00025	21.8	124	161	124	161	yes	4,5	2
+OGN	cow	NP_776371.1	299	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00012	22.8	144	187	144	188	yes	4,5	2
+OMD	cow	NP_776372.1	422	LRR_8	PF13855.13	Leucine rich repeat	4.6e-12	46.1	92	153	91	153	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_8	PF13855.13	Leucine rich repeat	1.7e-05	25.1	156	198	152	198	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_8	PF13855.13	Leucine rich repeat	7.6e-11	42.2	213	269	212	269	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_8	PF13855.13	Leucine rich repeat	1.2e-09	38.4	234	292	233	292	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_8	PF13855.13	Leucine rich repeat	2.8e-07	30.8	257	312	257	312	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.3e-06	27.4	115	157	115	160	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00044	21.0	162	200	162	205	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.3e-05	24.6	237	272	233	276	yes	2	1
+OMD	cow	NP_776372.1	422	LRR_14	PF23598.2	Leucine-rich repeat region	1.4e-05	24.7	235	296	232	343	yes	2	1
+OMD	cow	NP_776372.1	422	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.2e-06	28.6	61	90	61	90	yes	2	1
+PRELP	cow	NP_776859.1	381	LRR_8	PF13855.13	Leucine rich repeat	4.6e-14	52.5	102	161	101	161	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_8	PF13855.13	Leucine rich repeat	1.6e-13	50.7	170	232	170	232	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_8	PF13855.13	Leucine rich repeat	0.00015	22.1	212	238	209	240	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_8	PF13855.13	Leucine rich repeat	1.2e-05	25.5	244	278	241	287	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	5.3e-05	23.9	126	164	125	169	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.6e-05	25.6	171	208	170	208	yes	1	1
+PRELP	cow	NP_776859.1	381	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.2e-06	27.4	291	326	290	332	yes	1,2	2
+PRELP	cow	NP_776859.1	381	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.6e-05	24.3	71	100	71	100	yes	1	1
+BGN	chicken	XP_414298.2	371	LRR_8	PF13855.13	Leucine rich repeat	9.6e-13	48.3	96	153	93	153	yes	3,4	2
+BGN	chicken	XP_414298.2	371	LRR_8	PF13855.13	Leucine rich repeat	6.7e-07	29.6	163	211	162	229	yes	4,5	2
+BGN	chicken	XP_414298.2	371	LRR_8	PF13855.13	Leucine rich repeat	1.1e-11	44.9	233	292	232	292	yes	6,7	2
+BGN	chicken	XP_414298.2	371	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	5.7e-05	23.8	141	177	141	179	yes	4	1
+BGN	chicken	XP_414298.2	371	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	7.1e-05	23.5	233	272	232	277	yes	6,7	2
+BGN	chicken	XP_414298.2	371	LRR_9	PF14580.13	Leucine-rich repeat	7.3e-05	23.0	97	174	93	194	yes	3,4	2
+BGN	chicken	XP_414298.2	371	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.5e-07	31.5	66	92	65	92	yes	2,3	2
+DCN	chicken	NP_001025918.2	357	LRR_8	PF13855.13	Leucine rich repeat	9.6e-15	54.7	82	139	79	139	yes	3,4	2
+DCN	chicken	NP_001025918.2	357	LRR_8	PF13855.13	Leucine rich repeat	2.6e-07	30.9	149	210	148	216	yes	4,5	2
+DCN	chicken	NP_001025918.2	357	LRR_8	PF13855.13	Leucine rich repeat	8.6e-12	45.2	219	279	219	279	yes	6,7	2
+DCN	chicken	NP_001025918.2	357	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.6e-05	25.6	84	120	82	122	yes	3,4	2
+DCN	chicken	NP_001025918.2	357	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.1e-06	27.4	103	142	103	145	yes	3,4	2
+DCN	chicken	NP_001025918.2	357	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	6.5e-06	26.8	219	259	219	265	yes	6,7	2
+DCN	chicken	NP_001025918.2	357	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.7e-05	24.8	243	279	243	288	yes	6,7	2
+DCN	chicken	NP_001025918.2	357	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00034	21.4	267	305	267	310	yes	7,8	2
+DCN	chicken	NP_001025918.2	357	LRR_9	PF14580.13	Leucine-rich repeat	0.00015	21.9	84	158	79	187	yes	3,4	2
+DCN	chicken	NP_001025918.2	357	LRR_9	PF14580.13	Leucine-rich repeat	2.4e-05	24.6	223	333	220	343	yes	6,7,8	3
+DCN	chicken	NP_001025918.2	357	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00011	22.6	89	170	81	174	yes	3,4	2
+DCN	chicken	NP_001025918.2	357	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	4.7e-10	39.4	52	78	51	78	yes	2,3	2
+EPYC	chicken	NP_001004382.1	316	LRR_8	PF13855.13	Leucine rich repeat	4.1e-11	43.1	146	197	141	197	yes	4,5	2
+EPYC	chicken	NP_001004382.1	316	LRR_8	PF13855.13	Leucine rich repeat	1.3e-05	25.4	206	246	205	248	yes	5,6	2
+EPYC	chicken	NP_001004382.1	316	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	5.2e-06	26.5	114	136	111	136	yes	4	1
+EPYC	chicken	NP_001004382.1	316	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00032	21.2	147	241	141	246	yes	4,5,6	3
+FMOD	chicken	NP_990298.2	380	LRR_8	PF13855.13	Leucine rich repeat	4.7e-10	39.7	111	171	109	171	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_8	PF13855.13	Leucine rich repeat	2.1e-08	34.4	181	216	179	216	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_8	PF13855.13	Leucine rich repeat	5.6e-07	29.8	250	309	248	309	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3e-06	27.9	133	176	133	180	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	8.2e-07	29.7	181	216	180	228	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00098	19.9	301	333	297	337	yes	2,3	2
+FMOD	chicken	NP_990298.2	380	LRR_9	PF14580.13	Leucine-rich repeat	0.00042	20.5	97	174	90	178	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	9.6e-07	28.9	79	108	79	108	yes	2	1
+FMOD	chicken	NP_990298.2	380	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	7.5e-05	23.2	110	213	102	221	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_8	PF13855.13	Leucine rich repeat	2.2e-07	31.1	69	105	68	105	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_8	PF13855.13	Leucine rich repeat	3.1e-08	33.9	141	176	139	176	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_8	PF13855.13	Leucine rich repeat	0.001	19.3	183	206	178	216	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_8	PF13855.13	Leucine rich repeat	6.3e-10	39.3	213	271	210	271	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00027	21.7	95	139	93	140	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.6e-06	27.6	141	178	140	186	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.8e-05	24.1	165	208	164	210	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.0001	23.0	211	248	210	253	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.2e-06	29.2	235	276	234	279	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.1e-08	34.1	40	68	39	69	yes	2	1
+LUM	chicken	NP_001263286.1	343	LRR_14	PF23598.2	Leucine-rich repeat region	0.00012	21.6	160	282	145	331	yes	2	1
+OGN	chicken	NP_989540.1	294	LRR_8	PF13855.13	Leucine rich repeat	2.5e-07	30.9	120	175	116	175	yes	4,5	2
+OGN	chicken	NP_989540.1	294	LRR_8	PF13855.13	Leucine rich repeat	0.00075	19.8	184	224	183	228	yes	5,6	2
+OGN	chicken	NP_989540.1	294	LRR_8	PF13855.13	Leucine rich repeat	0.001	19.4	231	258	226	260	yes	6,7	2
+OGN	chicken	NP_989540.1	294	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.0003	21.5	183	224	183	229	yes	5,6	2
+OMD	chicken	XP_004944561.2	419	LRR_8	PF13855.13	Leucine rich repeat	1.3e-12	47.8	91	152	90	152	yes	2	1
+OMD	chicken	XP_004944561.2	419	LRR_8	PF13855.13	Leucine rich repeat	0.00029	21.1	161	195	155	197	yes	2	1
+OMD	chicken	XP_004944561.2	419	LRR_8	PF13855.13	Leucine rich repeat	9.5e-06	25.9	232	268	229	268	yes	2	1
+OMD	chicken	XP_004944561.2	419	LRR_8	PF13855.13	Leucine rich repeat	2.9e-09	37.1	261	312	260	312	yes	2	1
+OMD	chicken	XP_004944561.2	419	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.0004	21.1	162	199	161	204	yes	2	1
+OMD	chicken	XP_004944561.2	419	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	4.5e-07	29.9	61	89	60	89	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_8	PF13855.13	Leucine rich repeat	2.5e-11	43.7	94	153	93	153	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_8	PF13855.13	Leucine rich repeat	6.3e-12	45.7	162	222	162	224	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_8	PF13855.13	Leucine rich repeat	8.5e-06	26.0	236	294	233	294	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00088	20.0	118	157	117	161	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.7e-06	28.0	162	200	162	204	yes	2	1
+PRELP	chicken	XP_418054.2	374	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.5e-05	25.7	282	318	282	321	yes	2,3	2
+PRELP	chicken	XP_418054.2	374	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	1.3e-05	25.2	63	92	63	92	yes	2	1
+BGN	zebrafish	NP_001002227.1	369	LRR_8	PF13855.13	Leucine rich repeat	1.5e-15	57.3	96	151	95	151	yes	3,4	2
+BGN	zebrafish	NP_001002227.1	369	LRR_8	PF13855.13	Leucine rich repeat	3.8e-08	33.6	161	217	160	221	yes	4,5	2
+BGN	zebrafish	NP_001002227.1	369	LRR_8	PF13855.13	Leucine rich repeat	4.4e-10	39.8	231	290	230	290	yes	6,7	2
+BGN	zebrafish	NP_001002227.1	369	LRR_8	PF13855.13	Leucine rich repeat	1.6e-05	25.1	279	321	279	324	yes	7,8	2
+BGN	zebrafish	NP_001002227.1	369	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00014	22.6	231	267	230	271	yes	6,7	2
+BGN	zebrafish	NP_001002227.1	369	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	9.6e-06	26.3	278	316	278	321	yes	7,8	2
+BGN	zebrafish	NP_001002227.1	369	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.1e-09	37.4	64	90	63	90	yes	2,3	2
+DCN	zebrafish	NP_571772.1	373	LRR_8	PF13855.13	Leucine rich repeat	1.8e-12	47.4	97	153	95	153	yes	3,4	2
+DCN	zebrafish	NP_571772.1	373	LRR_8	PF13855.13	Leucine rich repeat	1e-08	35.4	163	224	162	230	yes	4,5	2
+DCN	zebrafish	NP_571772.1	373	LRR_8	PF13855.13	Leucine rich repeat	1.6e-13	50.8	234	293	233	293	yes	6,7	2
+DCN	zebrafish	NP_571772.1	373	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00026	21.7	98	131	96	135	yes	3,4	2
+DCN	zebrafish	NP_571772.1	373	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.7e-05	24.4	118	156	117	161	yes	3,4	2
+DCN	zebrafish	NP_571772.1	373	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	4.9e-06	27.1	103	185	94	190	yes	3,4	2
+DCN	zebrafish	NP_571772.1	373	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	2.2e-07	30.9	66	92	66	92	yes	2,3	2
+DCN	zebrafish	NP_571772.1	373	LRR_14	PF23598.2	Leucine-rich repeat region	0.00065	19.1	133	323	132	325	yes	4,5,6,7,8	5
+EPYC	zebrafish	NP_001335412.1	321	LRR_8	PF13855.13	Leucine rich repeat	3e-12	46.7	151	202	150	206	yes	4,5	2
+EPYC	zebrafish	NP_001335412.1	321	LRR_8	PF13855.13	Leucine rich repeat	3.7e-06	27.2	210	251	210	253	yes	5,6	2
+EPYC	zebrafish	NP_001335412.1	321	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	7.9e-05	23.4	167	209	166	210	yes	5	1
+EPYC	zebrafish	NP_001335412.1	321	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00015	22.3	152	206	144	252	yes	4,5	2
+EPYC	zebrafish	NP_001335412.1	321	LRR_9	PF14580.13	Leucine-rich repeat	0.00049	20.3	160	214	142	231	yes	4,5	2
+FMOD	zebrafish	XP_005167298.1	362	LRR_8	PF13855.13	Leucine rich repeat	7.8e-05	22.9	90	127	78	127	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_8	PF13855.13	Leucine rich repeat	1.1e-10	41.7	92	153	91	153	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_8	PF13855.13	Leucine rich repeat	0.0005	20.4	131	157	128	161	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_8	PF13855.13	Leucine rich repeat	7.2e-12	45.5	163	221	162	221	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_8	PF13855.13	Leucine rich repeat	0.00046	20.5	230	266	226	268	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	1.6e-05	25.6	163	201	162	207	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00051	20.8	280	315	279	318	yes	3,4	2
+FMOD	zebrafish	XP_005167298.1	362	LRR_9	PF14580.13	Leucine-rich repeat	8.5e-06	26.0	81	155	77	160	yes	3	1
+FMOD	zebrafish	XP_005167298.1	362	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	3.7e-06	27.0	61	90	61	91	yes	3	1
+LUM	zebrafish	NP_001002059.1	344	LRR_8	PF13855.13	Leucine rich repeat	2.8e-10	40.4	72	132	70	132	yes	2	1
+LUM	zebrafish	NP_001002059.1	344	LRR_8	PF13855.13	Leucine rich repeat	0.00012	22.3	141	177	136	177	yes	2	1
+LUM	zebrafish	NP_001002059.1	344	LRR_8	PF13855.13	Leucine rich repeat	0.00051	20.3	184	223	179	223	yes	2	1
+LUM	zebrafish	NP_001002059.1	344	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00078	20.2	166	205	165	209	yes	2	1
+LUM	zebrafish	NP_001002059.1	344	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00055	20.7	212	247	211	252	yes	2	1
+LUM	zebrafish	NP_001002059.1	344	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	4.8e-06	26.6	41	69	40	69	yes	2	1
+OGN	zebrafish	NP_001013588.1	292	LRR_8	PF13855.13	Leucine rich repeat	5.6e-07	29.8	119	174	115	174	yes	3,4	2
+OMD	zebrafish	XP_017208890.1	401	LRR_8	PF13855.13	Leucine rich repeat	7.3e-12	45.5	93	155	93	158	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_8	PF13855.13	Leucine rich repeat	2.8e-08	34.0	165	226	164	226	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_8	PF13855.13	Leucine rich repeat	1.2e-08	35.1	237	294	235	294	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_8	PF13855.13	Leucine rich repeat	4.7e-05	23.6	260	314	260	314	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	0.00011	23.0	117	163	117	164	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	3.5e-06	27.7	165	204	164	207	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRR_5	PF13306.13	BspA type Leucine rich repeat region (6 copies)	0.00083	19.9	236	307	232	320	yes	2	1
+OMD	zebrafish	XP_017208890.1	401	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	3.2e-05	24.0	63	92	63	92	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_8	PF13855.13	Leucine rich repeat	1.4e-14	54.2	107	164	105	164	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_8	PF13855.13	Leucine rich repeat	5.1e-11	42.8	174	233	173	235	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_8	PF13855.13	Leucine rich repeat	1.6e-06	28.4	248	305	244	305	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	2.6e-05	24.9	128	169	128	173	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_4	PF12799.14	Leucine Rich repeats (2 copies)	4.9e-05	24.0	175	212	174	214	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRR_14	PF23598.2	Leucine-rich repeat region	1.9e-05	24.2	115	248	104	259	yes	2	1
+PRELP	zebrafish	XP_001923590.2	378	LRRNT	PF01462.24	Leucine rich repeat N-terminal domain	0.00022	21.4	74	103	74	103	yes	2	1

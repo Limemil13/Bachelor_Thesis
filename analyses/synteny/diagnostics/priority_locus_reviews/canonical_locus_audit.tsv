@@ -1,0 +1,99 @@
+gene	species	review_priority	input_status	canonical_protein_accession	canonical_seqid	canonical_start	canonical_end	canonical_gene_symbol	canonical_product	synvoy_confidence	synvoy_seqid	synvoy_start	synvoy_end	coordinate_relation	distance_bp	detailed_review_status	rapid_conclusion
+BGN	amphioxus	P1	PASS							NONE				canonical accession not found in target GFF		ambiguous	no canonical protein accession available
+BGN	catshark	P1	PASS	XP_038638277.1	NC_052166.1	4337032	4377582	LOC119955784	biglycan-like	NONE				no retained SynVoy coordinate		tentative	resolved by detailed review: tentative
+BGN	chicken	P1	PASS							NONE				canonical accession not found in target GFF		rejected	no canonical protein accession available
+BGN	elephant_shark	P1	PASS							NONE				canonical accession not found in target GFF		ambiguous	no canonical protein accession available
+BGN	opossum	P1	FAIL							NONE				canonical accession not found in target GFF		ambiguous	invalid input pair; rerun required
+DCN	amphioxus	P1	PASS							NONE				canonical accession not found in target GFF		ambiguous	no canonical protein accession available
+DCN	coelacanth	P1	PASS	XP_006004204.1	NC_088145.1	114048728	114126931	DCN	decorin	MEDIUM	NC_088145.1	114049722	114102359	same locus	0	tentative	confirmed same canonical locus
+DCN	spotted_gar	P1	PASS	XP_015208366.1	NC_090702.1	16396890	16423580	dcn	decorin	NONE				no retained SynVoy coordinate		tentative	resolved by detailed review: tentative
+DCN	zebrafish	P1	PASS	NP_571772.1	NC_133179.1	16955805	16993841	dcn	decorin precursor	NONE				no retained SynVoy coordinate		tentative	resolved by detailed review: tentative
+EPYC	amphioxus	P1	PASS							MEDIUM	NC_049983.1	12339566	12340792	canonical accession not found in target GFF		rejected	no canonical protein accession available
+EPYC	coelacanth	P1	PASS	XP_006009490.1	NC_088145.1	113783413	113830371	EPYC	epiphycan	MEDIUM	NC_088145.1	113783923	113792675	same locus	0	accepted	confirmed same canonical locus
+EPYC	elephant_shark	P1	PASS	XP_007893502.1	NW_024704746.1	33285071	33298586	LOC103179840	epiphycan	MEDIUM	NW_024704760.1	2095489	2096193	different sequence		accepted	resolved by detailed review: accepted
+EPYC	spotted_gar	P1	PASS	XP_006633678.1	NC_090702.1	16496431	16523089	epyc	epiphycan	NONE				no retained SynVoy coordinate		accepted	resolved by detailed review: accepted
+EPYC	zebrafish	P1	PASS	XP_021330689.1	NC_133179.1	16906814	16920982	epyc	epiphycan isoform X2	MEDIUM	NC_133200.1	20614002	20614649	different sequence		tentative	resolved by detailed review: tentative
+FMOD	amphioxus	P1	PASS							MEDIUM	NC_049986.1	10317928	10317972	canonical accession not found in target GFF		rejected	no canonical protein accession available
+FMOD	catshark	P1	PASS	XP_038675394.1	NC_052160.1	142715179	142734639	LOC119978081	fibromodulin-like isoform X2	MEDIUM	NC_052156.1	108595627	108595680	different sequence		tentative	resolved by detailed review: tentative
+FMOD	zebrafish	P1	PASS	XP_073767056.1	NC_133183.1	44347184	44361445	fmodb	fibromodulin	NONE				no retained SynVoy coordinate		tentative	resolved by detailed review: tentative
+LUM	amphioxus	P1	PASS							MEDIUM	NC_049983.1	12602582	12603646	canonical accession not found in target GFF		ambiguous	no canonical protein accession available
+LUM	catshark	P1	PASS	XP_038636708.1	NC_052165.1	37258201	37272456	lum	lumican	MEDIUM	NC_052156.1	105386109	105386660	different sequence		accepted	resolved by detailed review: accepted
+LUM	coelacanth	P1	PASS	XP_006009488.1	NC_088145.1	113890958	113908026	LUM	lumican	MEDIUM	NC_088145.1	113634160	113634471	different locus on same sequence	256487	accepted	resolved by detailed review: accepted
+LUM	spotted_gar	P1	PASS	XP_015208177.1	NC_090702.1	16450380	16457870	lum	lumican	MEDIUM	NC_090702.1	17048413	17048754	different locus on same sequence	590543	accepted	resolved by detailed review: accepted
+OGN	amphioxus	P1	PASS							NONE				canonical accession not found in target GFF		rejected	no canonical protein accession available
+PRELP	amphioxus	P1	PASS							NONE				canonical accession not found in target GFF		ambiguous	no canonical protein accession available
+PRELP	catshark	P1	PASS	XP_038675391.1	NC_052160.1	142404483	142432733	prelp	prolargin	MEDIUM	NC_052160.1	136025837	136038669	different locus on same sequence	6365814	tentative	resolved by detailed review: tentative
+PRELP	zebrafish	P1	PASS	XP_001923590.2	NC_133186.1	23181387	23192171	prelp	prolargin	NONE				no retained SynVoy coordinate		accepted	resolved by detailed review: accepted
+BGN	anole	P2	PASS	XP_062827322.1	NC_085842.1	182501673	182595980	LOC103277754	biglycan	HIGH	NC_085842.1	182551953	182589982	same locus	0		confirmed same canonical locus
+BGN	coelacanth	P2	PASS	XP_064415290.1	NC_088143.1	171148112	171245792	BGNB	biglycan b	HIGH	NC_088143.1	171152041	171190248	same locus	0		confirmed same canonical locus
+BGN	cow	P2	PASS	XP_005227715.1	NC_037357.1	36728478	36742281	BGN	biglycan isoform X1	HIGH	NC_037357.1	36736953	36741346	same locus	0		confirmed same canonical locus
+BGN	frog	P2	PASS	NP_001072552.1	NC_030684.2	23170619	23220318	bgn	biglycan precursor	HIGH	NC_030684.2	23214379	23220172	same locus	0		confirmed same canonical locus
+BGN	spotted_gar	P2	PASS	XP_069037386.1	NC_090697.1	66785699	66836732	bgnb	biglycan isoform X2	HIGH	NC_090697.1	66816667	66833912	same locus	0		confirmed same canonical locus
+BGN	whale_shark	P2	PASS	XP_048475905.1	NC_063375.1	1544854	1548021	LOC125487751	biglycan-like	HIGH	NC_063375.1	1544969	1547110	same locus	0		confirmed same canonical locus
+DCN	anole	P2	PASS	XP_003221092.1	NC_085845.1	162671167	162712646	dcn	decorin	HIGH	NC_085845.1	162672330	162705020	same locus	0		confirmed same canonical locus
+DCN	catshark	P2	PASS	XP_038636759.1	NC_052165.1	37350368	37419866	dcn	decorin isoform X1	HIGH	NC_052165.1	37350966	37399541	same locus	0		confirmed same canonical locus
+DCN	chicken	P2	PASS	NP_001025918.2	NC_052532.1	44073171	44112514	DCN	decorin precursor	HIGH	NC_052532.1	44074516	44108131	same locus	0		confirmed same canonical locus
+DCN	cow	P2	PASS	NP_776331.2	NC_037332.1	21014373	21053400	DCN	decorin precursor	HIGH	NC_037332.1	21015210	21049383	same locus	0		confirmed same canonical locus
+DCN	dog	P2	PASS	NP_001003228.1	NC_049236.1	32139738	32182940	DCN	decorin precursor	HIGH	NC_049236.1	32139931	32178486	same locus	0		confirmed same canonical locus
+DCN	elephant_shark	P2	PASS	NP_001279248.1	NW_024704746.1	33362608	33383802	dcn	decorin precursor	HIGH	NW_024704746.1	33363408	33377382	same locus	0		confirmed same canonical locus
+DCN	frog	P2	PASS	NP_001093704.1	NC_030679.2	55480689	55511098	dcn	decorin precursor	HIGH	NC_030679.2	55482238	55504758	same locus	0		confirmed same canonical locus
+DCN	mouse	P2	PASS	NP_031859.1	NC_000076.7	97315362	97354025	Dcn	decorin preproprotein	HIGH	NC_000076.7	97319225	97353517	same locus	0		confirmed same canonical locus
+DCN	opossum	P2	FAIL	XP_001363160.3	NC_077234.2	74310301	74373443	DCN	decorin	HIGH	NC_077231.1	74310983	74362462	different sequence			invalid input pair; rerun required
+DCN	whale_shark	P2	PASS	XP_048463588.1	NC_063349.1	46142457	46208215	dcn	decorin	HIGH	NC_063349.1	46159991	46207594	same locus	0		confirmed same canonical locus
+EPYC	anole	P2	PASS	XP_003221176.1	NC_085845.1	162570074	162608988	epyc	epiphycan	HIGH	NC_085845.1	162571277	162605626	same locus	0		confirmed same canonical locus
+EPYC	catshark	P2	PASS	XP_038636412.1	NC_052165.1	37057072	37109831	LOC119954875	epiphycan	HIGH	NC_052165.1	37057768	37076017	same locus	0		confirmed same canonical locus
+EPYC	chicken	P2	PASS	XP_025003921.1	NC_052532.1	43979377	44001958	EPYC	epiphycan isoform X1	HIGH	NC_052532.1	43980061	43999902	same locus	0		confirmed same canonical locus
+EPYC	cow	P2	PASS	XP_010803061.1	NC_037332.1	20843166	20885191	EPYC	epiphycan isoform X1	HIGH	NC_037332.1	20843562	20882627	same locus	0		confirmed same canonical locus
+EPYC	dog	P2	PASS	XP_038414560.1	NC_049236.1	31976132	32014138	EPYC	epiphycan	HIGH	NC_049236.1	31976598	32011133	same locus	0		confirmed same canonical locus
+EPYC	frog	P2	PASS	XP_031753666.1	NC_030679.2	55383901	55421558	epyc	epiphycan isoform X1	HIGH	NC_030679.2	55384569	55419951	same locus	0		confirmed same canonical locus
+EPYC	opossum	P2	FAIL	XP_056654622.1	NC_077234.2	74099852	74138968	EPYC	epiphycan isoform X1	HIGH	NC_077231.1	74100313	74134824	different sequence			invalid input pair; rerun required
+EPYC	whale_shark	P2	PASS	XP_048463897.1	NC_063349.1	46451691	46488539	LOC109935784	epiphycan	HIGH	NC_063349.1	46451751	46460857	same locus	0		confirmed same canonical locus
+FMOD	anole	P2	PASS	XP_008107883.2	NC_085844.1	196607113	196735119	fmod	fibromodulin isoform X1	HIGH	NC_085844.1	196609086	196619959	same locus	0		confirmed same canonical locus
+FMOD	chicken	P2	PASS	NP_990298.2	NC_052557.1	5174637	5181340	FMOD	fibromodulin precursor	HIGH	NC_052557.1	5175925	5178979	same locus	0		confirmed same canonical locus
+FMOD	coelacanth	P2	PASS	XP_006002318.1	NC_088162.1	17000151	17008821	FMODA	fibromodulin a	HIGH	NC_088162.1	17000161	17002414	same locus	0		confirmed same canonical locus
+FMOD	cow	P2	PASS	XP_059731202.1	NC_037343.1	1122157	1132183	FMOD	fibromodulin isoform X1	HIGH	NC_037343.1	1123625	1129400	same locus	0		confirmed same canonical locus
+FMOD	dog	P2	PASS	XP_038441871.1	NC_049259.1	699365	709547	FMOD	fibromodulin	HIGH	NC_049259.1	701058	706681	same locus	0		confirmed same canonical locus
+FMOD	elephant_shark	P2	PASS							HIGH	NW_024704760.1	2093178	2096352	canonical accession not found in target GFF			no canonical protein accession available
+FMOD	frog	P2	PASS	XP_017947022.1	NC_030678.2	70536833	70545591	fmod	fibromodulin	HIGH	NC_030678.2	70537915	70544907	same locus	0		confirmed same canonical locus
+FMOD	mouse	P2	PASS	NP_067330.1	NC_000067.7	133964992	133976018	Fmod	fibromodulin precursor	HIGH	NC_000067.7	133967962	133974363	same locus	0		confirmed same canonical locus
+FMOD	opossum	P2	FAIL	XP_001364906.1	NC_077228.1	106304327	106322955	FMOD	fibromodulin	HIGH	NC_077228.1	106306662	106318737	same locus	0		invalid input pair; rerun required
+FMOD	spotted_gar	P2	PASS	XP_006628521.2	NC_090700.1	38907779	38911298	fmoda	fibromodulin a	HIGH	NC_090700.1	38925354	38951719	different locus on same sequence	14056		coordinate conflict; escalate to detailed review
+FMOD	whale_shark	P2	PASS	XP_048468126.1	NC_063356.1	14290082	14339946	LOC109938097	fibromodulin	HIGH	NC_063356.1	14325830	14339856	same locus	0		confirmed same canonical locus
+LUM	anole	P2	PASS	XP_003221093.1	NC_085845.1	162650073	162661189	lum	lumican isoform X2	HIGH	NC_085845.1	162650812	162655470	same locus	0		confirmed same canonical locus
+LUM	chicken	P2	PASS	NP_001263286.1	NC_052532.1	44041583	44053528	LUM	lumican precursor	HIGH	NC_052532.1	44042456	44050455	same locus	0		confirmed same canonical locus
+LUM	cow	P2	PASS	NP_776359.1	NC_037332.1	20971292	20981075	LUM	lumican precursor	HIGH	NC_037332.1	20971992	20976020	same locus	0		confirmed same canonical locus
+LUM	dog	P2	PASS	XP_038414561.1	NC_049236.1	32098606	32106158	LUM	lumican	HIGH	NC_049236.1	32099282	32103457	same locus	0		confirmed same canonical locus
+LUM	elephant_shark	P2	PASS	XP_007893500.1	NW_024704746.1	33330048	33339282	lum	lumican	HIGH	NW_024704746.1	33331100	33333921	same locus	0		confirmed same canonical locus
+LUM	frog	P2	PASS	NP_001011006.1	NC_030679.2	55465084	55474877	lum	lumican precursor	HIGH	NC_030679.2	55466017	55469611	same locus	0		confirmed same canonical locus
+LUM	mouse	P2	PASS	NP_032550.2	NC_000076.7	97401363	97408565	Lum	lumican precursor	HIGH	NC_000076.7	97404107	97407913	same locus	0		confirmed same canonical locus
+LUM	opossum	P2	FAIL	XP_001368917.2	NC_077234.2	74250187	74264906	LUM	lumican	HIGH	NC_077231.1	74250909	74260160	different sequence			invalid input pair; rerun required
+LUM	whale_shark	P2	PASS	XP_048464015.1	NC_063349.1	46268108	46282890	LOC109920535	lumican	HIGH	NC_063349.1	46275285	46281256	same locus	0		confirmed same canonical locus
+LUM	zebrafish	P2	PASS	NP_001002059.1	NC_133179.1	16938429	16941309	lum	lumican precursor	HIGH	NC_133179.1	16939337	16940381	same locus	0		confirmed same canonical locus
+OGN	anole	P2	PASS	XP_008103381.1	NC_085842.1	76876648	76897396	ogn	mimecan	HIGH	NC_085842.1	76878069	76896400	same locus	0		confirmed same canonical locus
+OGN	catshark	P2	PASS	XP_038668531.1	NC_052156.1	24786686	24815125	ogna	osteoglycin, paralog a	HIGH	NC_052156.1	24797412	24814670	same locus	0		confirmed same canonical locus
+OGN	chicken	P2	PASS	NP_989540.1	NC_052543.1	3616876	3628603	OGN	mimecan precursor	HIGH	NC_052543.1	3617799	3626072	same locus	0		confirmed same canonical locus
+OGN	coelacanth	P2	PASS	XP_005987116.1	NC_088152.1	16019633	16038935	OGNA	osteoglycin, paralog a	HIGH	NC_088152.1	16028935	16033272	same locus	0		confirmed same canonical locus
+OGN	cow	P2	PASS	NP_776371.1	NC_037335.1	84019267	84034853	OGN	mimecan precursor	HIGH	NC_037335.1	84020104	84033697	same locus	0		confirmed same canonical locus
+OGN	dog	P2	PASS	XP_038383338.1	NC_049222.1	99661321	99681130	OGN	mimecan	HIGH	NC_049222.1	99662500	99679475	same locus	0		confirmed same canonical locus
+OGN	elephant_shark	P2	PASS	XP_007907071.1	NW_024704753.1	400941	405879	ogna	osteoglycin, paralog a	HIGH	NW_024704753.1	403587	405336	same locus	0		confirmed same canonical locus
+OGN	frog	P2	PASS	XP_002934273.1	NC_030680.2	124109380	124121402	ogn	mimecan	HIGH	NC_030680.2	124116538	124120117	same locus	0		confirmed same canonical locus
+OGN	mouse	P2	PASS	NP_032786.1	NC_000079.7	49761491	49777977	Ogn	mimecan precursor	HIGH	NC_000079.7	49762660	49776459	same locus	0		confirmed same canonical locus
+OGN	opossum	P2	FAIL	XP_056660002.1	NC_077232.2	292003154	292009754	OGN	mimecan	HIGH	NC_077233.1	1758000	1763589	different sequence			invalid input pair; rerun required
+OGN	spotted_gar	P2	PASS	XP_006631165.2	NC_090699.1	61481801	61491048	ogna	osteoglycin, paralog a	HIGH	NC_090699.1	61487349	61490118	same locus	0		confirmed same canonical locus
+OGN	whale_shark	P2	PASS	XP_020377273.1	NC_063347.1	18371802	18397517	ogna	osteoglycin, paralog a	HIGH	NC_063347.1	18378335	18395114	same locus	0		confirmed same canonical locus
+OGN	zebrafish	P2	PASS	NP_001013588.1	NC_133197.1	10102902	10108774	ogna	osteoglycin, paralog a precursor	HIGH	NC_133197.1	10103446	10104924	same locus	0		confirmed same canonical locus
+PRELP	anole	P2	PASS	XP_008107880.1	NC_085844.1	196755721	196790111	prelp	prolargin	HIGH	NC_085844.1	196778264	196784986	same locus	0		confirmed same canonical locus
+PRELP	chicken	P2	PASS	XP_046760117.1	NC_052557.1	5193998	5215993	PRELP	prolargin isoform X1	HIGH	NC_052557.1	5211670	5214111	same locus	0		confirmed same canonical locus
+PRELP	coelacanth	P2	PASS	XP_006002320.1	NC_088162.1	17126260	17164123	PRELP	prolargin	HIGH	NC_088162.1	17144872	17158207	same locus	0		confirmed same canonical locus
+PRELP	cow	P2	PASS	XP_005216708.2	NC_037343.1	1238715	1252743	PRELP	prolargin isoform X1	HIGH	NC_037343.1	1246248	1250331	same locus	0		confirmed same canonical locus
+PRELP	dog	P2	PASS	XP_038441873.1	NC_049259.1	795591	809246	PRELP	prolargin	HIGH	NC_049259.1	803339	806852	same locus	0		confirmed same canonical locus
+PRELP	elephant_shark	P2	PASS	XP_042198145.1	NW_024704760.1	2133532	2142624	LOC103182464	prolargin	HIGH	NW_024704760.1	2139753	2142534	same locus	0		confirmed same canonical locus
+PRELP	frog	P2	PASS	NP_001096208.1	NC_030678.2	70454763	70482057	prelp	prolargin precursor	HIGH	NC_030678.2	70457564	70462925	same locus	0		confirmed same canonical locus
+PRELP	mouse	P2	PASS	XP_006529147.1	NC_000067.7	133838042	133857820	Prelp	prolargin isoform X1	HIGH	NC_000067.7	133840344	133843143	same locus	0		confirmed same canonical locus
+PRELP	opossum	P2	FAIL	XP_056671733.1						HIGH	NC_077228.1	106488746	106497251	canonical accession not found in target GFF			invalid input pair; rerun required
+PRELP	spotted_gar	P2	PASS	XP_015198331.2	NC_090700.1	38943900	38955017	prelp	prolargin	HIGH	NC_090700.1	38950272	38951719	same locus	0		confirmed same canonical locus
+PRELP	whale_shark	P2	PASS	XP_048468210.1	NC_063356.1	14099769	14121712	LOC109913717	prolargin	HIGH	NC_063356.1	14100620	14103322	same locus	0		confirmed same canonical locus
+BGN	dog	P3	PASS	NP_001003229.1	NC_049260.1	122510823	122524101	BGN	biglycan precursor	HIGH	NC_049260.1	122519870	122523846	same locus	0		confirmed same canonical locus
+BGN	mouse	P3	PASS	NP_031568.2	NC_000086.8	72527207	72539542	Bgn	biglycan isoform 2 preproprotein	HIGH	NC_000086.8	72534396	72538402	same locus	0		confirmed same canonical locus
+BGN	zebrafish	P3	PASS	NP_001001825.2	NC_133198.1	22918548	22955853	bgnb	biglycan b precursor	HIGH	NC_133198.1	22920030	22935219	same locus	0		confirmed same canonical locus
+EPYC	mouse	P3	PASS	NP_031910.1	NC_000076.7	97479930	97517770	Epyc	epiphycan precursor	HIGH	NC_000076.7	97485562	97517132	same locus	0		confirmed same canonical locus

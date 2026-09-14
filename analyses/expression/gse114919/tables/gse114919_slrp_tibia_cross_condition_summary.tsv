@@ -1,0 +1,19 @@
+species	gene	tibia_conditions	conditions_detected_in_all_replicates	mean_within_condition_rank	best_within_condition_rank	worst_within_condition_rank	mean_of_condition_means_descriptive_only	interpretation_scale
+mouse	ASPN	4	4	8.75	8	9	5.561116	within-species ranks; do not compare absolute values between species
+mouse	BGN	4	4	2.0	1	3	14.839672	within-species ranks; do not compare absolute values between species
+mouse	DCN	4	4	5.5	5	6	10.123048	within-species ranks; do not compare absolute values between species
+mouse	EPYC	4	4	5.0	4	6	10.868144	within-species ranks; do not compare absolute values between species
+mouse	FMOD	4	4	2.0	2	2	14.043817	within-species ranks; do not compare absolute values between species
+mouse	LUM	4	4	4.5	4	5	11.187456	within-species ranks; do not compare absolute values between species
+mouse	OGN	4	4	7.5	7	8	7.397731	within-species ranks; do not compare absolute values between species
+mouse	OMD	4	4	7.75	7	9	7.246973	within-species ranks; do not compare absolute values between species
+mouse	PRELP	4	4	2.0	1	3	13.847596	within-species ranks; do not compare absolute values between species
+rat	ASPN	4	0	8.0	8	8	0.0	within-species ranks; do not compare absolute values between species
+rat	BGN	4	4	1.5	1	2	17.002191	within-species ranks; do not compare absolute values between species
+rat	DCN	4	4	5.75	5	6	8.020146	within-species ranks; do not compare absolute values between species
+rat	EPYC	4	4	4.75	4	6	10.599439	within-species ranks; do not compare absolute values between species
+rat	FMOD	4	4	1.5	1	2	17.227346	within-species ranks; do not compare absolute values between species
+rat	LUM	4	4	4.5	4	5	11.254953	within-species ranks; do not compare absolute values between species
+rat	OGN	4	0	7.0	7	7	1.09259	within-species ranks; do not compare absolute values between species
+rat	OMD	4	0	9.0	9	9	0.0	within-species ranks; do not compare absolute values between species
+rat	PRELP	4	4	3.0	3	3	14.462716	within-species ranks; do not compare absolute values between species

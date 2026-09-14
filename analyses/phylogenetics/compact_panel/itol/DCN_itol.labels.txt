@@ -1,0 +1,18 @@
+LABELS
+SEPARATOR TAB
+DATA
+human|DCN|NP_001911.1	Human
+mouse|DCN|NP_031859.1	Mouse
+rattus_norvegicus|DCN|NP_077043.1	Rat
+chicken|DCN|NP_001025918.2	Chicken
+anolis_carolinensis|DCN|XP_003221092.1	Anole
+frog|DCN|NP_001093704.1	Frog
+zebrafish|DCN|NP_571772.1	Zebrafish
+lepisosteus_oculatus|DCN|XP_015208366.1	Spotted gar
+callorhinchus_milii|DCN|NP_001279248.1	Elephant shark
+scyliorhinus_canicula|DCN|XP_038636759.1	Catshark
+whale_shark|DCN|XP_048463588.1	Whale shark
+latimeria_chalumnae|DCN|XP_006004204.1	Coelacanth
+monodelphis_domestica|DCN|XP_001363160.3	Opossum
+bos_taurus|DCN|NP_776331.2	Cow
+canis_lupus_familiaris|DCN|NP_001003228.1	Dog

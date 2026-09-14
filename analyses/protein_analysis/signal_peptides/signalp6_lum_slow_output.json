@@ -1,0 +1,272 @@
+{
+  "INFO": {
+    "failedjobs": 0,
+    "size": 16
+  },
+  "CSV_FILE": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/prediction_results.txt",
+  "MATURE_FILE": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/processed_entries.fasta",
+  "GFF_FILE": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output.gff3",
+  "ZIP_FILE": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_all_results.zip",
+  "SEQUENCES": {
+    "LUM_human_NP_002336.1": {
+      "Name": "LUM_human_NP_002336.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_human_NP_002336_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_human_NP_002336_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_human_NP_002336_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982950"
+    },
+    "LUM_mouse_NP_032550.2": {
+      "Name": "LUM_mouse_NP_032550.2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_mouse_NP_032550_2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_mouse_NP_032550_2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_mouse_NP_032550_2_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.983404"
+    },
+    "LUM_rattus_norvegicus_NP_112312.1": {
+      "Name": "LUM_rattus_norvegicus_NP_112312.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_rattus_norvegicus_NP_112312_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_rattus_norvegicus_NP_112312_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_rattus_norvegicus_NP_112312_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.983661"
+    },
+    "LUM_canis_lupus_familiaris_XP_038414561.1": {
+      "Name": "LUM_canis_lupus_familiaris_XP_038414561.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_canis_lupus_familiaris_XP_038414561_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_canis_lupus_familiaris_XP_038414561_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_canis_lupus_familiaris_XP_038414561_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982088"
+    },
+    "LUM_bos_taurus_NP_776359.1": {
+      "Name": "LUM_bos_taurus_NP_776359.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_bos_taurus_NP_776359_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_bos_taurus_NP_776359_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_bos_taurus_NP_776359_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.983358"
+    },
+    "LUM_monodelphis_domestica_XP_001368917.2": {
+      "Name": "LUM_monodelphis_domestica_XP_001368917.2",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_monodelphis_domestica_XP_001368917_2_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_monodelphis_domestica_XP_001368917_2_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_monodelphis_domestica_XP_001368917_2_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.983305"
+    },
+    "LUM_chicken_NP_001263286.1": {
+      "Name": "LUM_chicken_NP_001263286.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_chicken_NP_001263286_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_chicken_NP_001263286_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_chicken_NP_001263286_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.979519"
+    },
+    "LUM_anolis_carolinensis_XP_003221093.1": {
+      "Name": "LUM_anolis_carolinensis_XP_003221093.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_anolis_carolinensis_XP_003221093_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_anolis_carolinensis_XP_003221093_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_anolis_carolinensis_XP_003221093_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982311"
+    },
+    "LUM_frog_NP_001011006.1": {
+      "Name": "LUM_frog_NP_001011006.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_frog_NP_001011006_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_frog_NP_001011006_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_frog_NP_001011006_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.980642"
+    },
+    "LUM_zebrafish_NP_001002059.1": {
+      "Name": "LUM_zebrafish_NP_001002059.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_zebrafish_NP_001002059_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_zebrafish_NP_001002059_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_zebrafish_NP_001002059_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982586"
+    },
+    "LUM_lepisosteus_oculatus_XP_015208177.1": {
+      "Name": "LUM_lepisosteus_oculatus_XP_015208177.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lepisosteus_oculatus_XP_015208177_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lepisosteus_oculatus_XP_015208177_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lepisosteus_oculatus_XP_015208177_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982622"
+    },
+    "LUM_latimeria_chalumnae_XP_006009488.1": {
+      "Name": "LUM_latimeria_chalumnae_XP_006009488.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_latimeria_chalumnae_XP_006009488_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_latimeria_chalumnae_XP_006009488_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_latimeria_chalumnae_XP_006009488_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.974640"
+    },
+    "LUM_callorhinchus_milii_XP_007893500.1": {
+      "Name": "LUM_callorhinchus_milii_XP_007893500.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_callorhinchus_milii_XP_007893500_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_callorhinchus_milii_XP_007893500_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_callorhinchus_milii_XP_007893500_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.982754"
+    },
+    "LUM_scyliorhinus_canicula_XP_038636708.1": {
+      "Name": "LUM_scyliorhinus_canicula_XP_038636708.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_scyliorhinus_canicula_XP_038636708_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_scyliorhinus_canicula_XP_038636708_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_scyliorhinus_canicula_XP_038636708_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.984953"
+    },
+    "LUM_lamprey_XP_075930353.1": {
+      "Name": "LUM_lamprey_XP_075930353.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lamprey_XP_075930353_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lamprey_XP_075930353_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_lamprey_XP_075930353_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0001,
+        0.9999
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 26 and 27. Probability 0.979586"
+    },
+    "LUM_whale_shark_XP_048464015.1": {
+      "Name": "LUM_whale_shark_XP_048464015.1",
+      "Plot_eps": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_whale_shark_XP_048464015_1_plot.eps",
+      "Plot_png": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_whale_shark_XP_048464015_1_plot.png",
+      "Plot_txt": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/output_LUM_whale_shark_XP_048464015_1_plot.txt",
+      "Prediction": "Signal Peptide (Sec/SPI)",
+      "Likelihood": [
+        0.0002,
+        0.9998
+      ],
+      "Protein_types": [
+        "Other",
+        "Signal Peptide (Sec/SPI)"
+      ],
+      "CS_pos": "Cleavage site between pos. 18 and 19. Probability 0.984201"
+    }
+  },
+  "FORMAT": "all",
+  "ORG": "eukarya",
+  "MODE": "slow-sequential",
+  "REGION_GFF_FILE": "/services/SignalP-6.0/tmp/6A8AEF7700077B786803DE7F/region_output.gff3"
+}

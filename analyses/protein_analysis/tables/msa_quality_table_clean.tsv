@@ -1,0 +1,78 @@
+Gene	Species	Protein accession	Alignment file	Protein length	Alignment length	Gap percentage	MSA quality	Raw MSA status
+BGN	human	XP_016885213.1	BGN_aligned.faa	368	431	14.62	Good	ok
+BGN	mouse	NP_031568.2	BGN_aligned.faa	369	431	14.39	Good	ok
+BGN	rattus_norvegicus	NP_058783.1	BGN_aligned.faa	369	431	14.39	Good	ok
+BGN	canis_lupus_familiaris	NP_001003229.1	BGN_aligned.faa	369	431	14.39	Good	ok
+BGN	bos_taurus	XP_005227715.1	BGN_aligned.faa	369	431	14.39	Good	ok
+BGN	monodelphis_domestica	XP_001363160.2	BGN_aligned.faa	356	431	17.4	Good	ok
+BGN	chicken	XP_414298.2	BGN_aligned.faa	371	431	13.92	Good	ok
+BGN	anolis_carolinensis	XP_062827322.1	BGN_aligned.faa	371	431	13.92	Good	ok
+BGN	frog	NP_001072552.1	BGN_aligned.faa	369	431	14.39	Good	ok
+BGN	zebrafish	NP_001001825.2	BGN_aligned.faa	374	431	13.23	Good	ok
+BGN	lepisosteus_oculatus	XP_069037386.1	BGN_aligned.faa	362	431	16.01	Good	ok
+BGN	latimeria_chalumnae	XP_064415290.1	BGN_aligned.faa	367	431	14.85	Good	ok
+BGN	callorhinchus_milii	NP_001279248.1	BGN_aligned.faa	354	431	17.87	Good	ok
+BGN	scyliorhinus_canicula	XP_038636760.1	BGN_aligned.faa	350	431	18.79	Good	ok
+BGN	lamprey	XP_075929720.1	BGN_aligned.faa	411	431	4.64	Good	ok
+BGN	whale_shark	XP_048463588.1	BGN_aligned.faa	350	431	18.79	Good	ok
+EPYC	human	NP_004941.2	EPYC_aligned.faa	322	386	16.58	Good	ok
+EPYC	mouse	NP_031910.1	EPYC_aligned.faa	322	386	16.58	Good	ok
+EPYC	rattus_norvegicus	NP_001101558.1	EPYC_aligned.faa	359	386	6.99	Good	ok
+EPYC	canis_lupus_familiaris	XP_038414560.1	EPYC_aligned.faa	320	386	17.1	Good	ok
+EPYC	bos_taurus	XP_010803061.1	EPYC_aligned.faa	321	386	16.84	Good	ok
+EPYC	monodelphis_domestica	XP_056654622.1	EPYC_aligned.faa	318	386	17.62	Good	ok
+EPYC	chicken	XP_025003921.1	EPYC_aligned.faa	332	386	13.99	Good	ok
+EPYC	anolis_carolinensis	XP_003221176.1	EPYC_aligned.faa	317	386	17.88	Good	ok
+EPYC	frog	XP_031753666.1	EPYC_aligned.faa	318	386	17.62	Good	ok
+EPYC	zebrafish	XP_021330689.1	EPYC_aligned.faa	321	386	16.84	Good	ok
+EPYC	lepisosteus_oculatus	XP_006633678.1	EPYC_aligned.faa	325	386	15.8	Good	ok
+EPYC	latimeria_chalumnae	XP_006009490.1	EPYC_aligned.faa	330	386	14.51	Good	ok
+EPYC	callorhinchus_milii	XP_007893502.1	EPYC_aligned.faa	325	386	15.8	Good	ok
+EPYC	scyliorhinus_canicula	XP_038636412.1	EPYC_aligned.faa	326	386	15.54	Good	ok
+EPYC	whale_shark	XP_048463897.1	EPYC_aligned.faa	292	386	24.35	Good	ok
+FMOD	human	XP_047272260.1	FMOD_aligned.faa	376	437	13.96	Good	ok
+FMOD	mouse	NP_067330.1	FMOD_aligned.faa	376	437	13.96	Good	ok
+FMOD	rattus_norvegicus	NP_542429.1	FMOD_aligned.faa	376	437	13.96	Good	ok
+FMOD	canis_lupus_familiaris	XP_038441871.1	FMOD_aligned.faa	376	437	13.96	Good	ok
+FMOD	bos_taurus	XP_059731202.1	FMOD_aligned.faa	376	437	13.96	Good	ok
+FMOD	monodelphis_domestica	XP_001364906.1	FMOD_aligned.faa	374	437	14.42	Good	ok
+FMOD	chicken	NP_990298.2	FMOD_aligned.faa	380	437	13.04	Good	ok
+FMOD	anolis_carolinensis	XP_008107883.2	FMOD_aligned.faa	422	437	3.43	Good	ok
+FMOD	frog	XP_017947022.1	FMOD_aligned.faa	357	437	18.31	Good	ok
+FMOD	zebrafish	XP_073767056.1	FMOD_aligned.faa	362	437	17.16	Good	ok
+FMOD	lepisosteus_oculatus	XP_006628521.2	FMOD_aligned.faa	353	437	19.22	Good	ok
+FMOD	latimeria_chalumnae	XP_006002318.1	FMOD_aligned.faa	351	437	19.68	Good	ok
+FMOD	scyliorhinus_canicula	XP_038675394.1	FMOD_aligned.faa	355	437	18.76	Good	ok
+FMOD	lamprey	XP_075930353.1	FMOD_aligned.faa	359	437	17.85	Good	ok
+FMOD	whale_shark	XP_048468126.1	FMOD_aligned.faa	355	437	18.76	Good	ok
+OGN	human	NP_148935.1	OGN_aligned.faa	298	550	45.82	Needs inspection	check_high_gap
+OGN	mouse	NP_032786.1	OGN_aligned.faa	298	550	45.82	Needs inspection	check_high_gap
+OGN	canis_lupus_familiaris	XP_038383338.1	OGN_aligned.faa	361	550	34.36	Watch	watch
+OGN	bos_taurus	NP_776371.1	OGN_aligned.faa	299	550	45.64	Needs inspection	check_high_gap
+OGN	monodelphis_domestica	XP_056660002.1	OGN_aligned.faa	288	550	47.64	Needs inspection	check_high_gap
+OGN	chicken	NP_989540.1	OGN_aligned.faa	294	550	46.55	Needs inspection	check_high_gap
+OGN	anolis_carolinensis	XP_008103381.1	OGN_aligned.faa	302	550	45.09	Needs inspection	check_high_gap
+OGN	frog	XP_002934273.1	OGN_aligned.faa	294	550	46.55	Needs inspection	check_high_gap
+OGN	zebrafish	NP_001013588.1	OGN_aligned.faa	292	550	46.91	Needs inspection	check_high_gap
+OGN	lepisosteus_oculatus	XP_006631165.2	OGN_aligned.faa	295	550	46.36	Needs inspection	check_high_gap
+OGN	latimeria_chalumnae	XP_005987116.1	OGN_aligned.faa	304	550	44.73	Needs inspection	check_high_gap
+OGN	callorhinchus_milii	XP_007907071.1	OGN_aligned.faa	298	550	45.82	Needs inspection	check_high_gap
+OGN	scyliorhinus_canicula	XP_038668531.1	OGN_aligned.faa	303	550	44.91	Needs inspection	check_high_gap
+OGN	amphioxus	XP_066265713.1	OGN_aligned.faa	381	550	30.73	Watch	watch
+OGN	whale_shark	XP_020377273.1	OGN_aligned.faa	309	550	43.82	Needs inspection	check_high_gap
+PRELP	human	NP_958505.1	PRELP_aligned.faa	382	435	12.18	Good	ok
+PRELP	mouse	XP_006529147.1	PRELP_aligned.faa	378	435	13.1	Good	ok
+PRELP	rattus_norvegicus	XP_008767794.1	PRELP_aligned.faa	377	435	13.33	Good	ok
+PRELP	canis_lupus_familiaris	XP_038441873.1	PRELP_aligned.faa	379	435	12.87	Good	ok
+PRELP	bos_taurus	XP_005216708.2	PRELP_aligned.faa	381	435	12.41	Good	ok
+PRELP	monodelphis_domestica	XP_056671733.1	PRELP_aligned.faa	384	435	11.72	Good	ok
+PRELP	chicken	XP_046760117.1	PRELP_aligned.faa	396	435	8.97	Good	ok
+PRELP	anolis_carolinensis	XP_008107880.1	PRELP_aligned.faa	369	435	15.17	Good	ok
+PRELP	frog	NP_001096208.1	PRELP_aligned.faa	374	435	14.02	Good	ok
+PRELP	zebrafish	XP_001923590.2	PRELP_aligned.faa	378	435	13.1	Good	ok
+PRELP	lepisosteus_oculatus	XP_015198331.2	PRELP_aligned.faa	367	435	15.63	Good	ok
+PRELP	latimeria_chalumnae	XP_006002320.1	PRELP_aligned.faa	374	435	14.02	Good	ok
+PRELP	callorhinchus_milii	XP_042198145.1	PRELP_aligned.faa	378	435	13.1	Good	ok
+PRELP	scyliorhinus_canicula	XP_038675391.1	PRELP_aligned.faa	393	435	9.66	Good	ok
+PRELP	lamprey	XP_032810295.2	PRELP_aligned.faa	367	435	15.63	Good	ok
+PRELP	whale_shark	XP_048468210.1	PRELP_aligned.faa	393	435	9.66	Good	ok

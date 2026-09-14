@@ -1,0 +1,20 @@
+gene	class	accession	length	selection_reason	old_header	new_header
+ASPN	Class_I	NP_060150.4	379	preferred_accession	NP_060150.4 ASPN [organism=Homo sapiens] [GeneID=54829] [isoform=1 preproprotein]	ASPN|Class_I|NP_060150.4
+BGN	Class_I	NP_001702.1	368	preferred_accession	NP_001702.1 BGN [organism=Homo sapiens] [GeneID=633]	BGN|Class_I|NP_001702.1
+DCN	Class_I	NP_001911.1	359	preferred_accession	NP_001911.1 DCN [organism=Homo sapiens] [GeneID=1634] [isoform=a preproprotein]	DCN|Class_I|NP_001911.1
+ECM2	Class_I	NP_001384.1	699	longest_NP	NP_001384.1 ECM2 [organism=Homo sapiens] [GeneID=1842] [isoform=1 precursor]	ECM2|Class_I|NP_001384.1
+FMOD	Class_II	NP_002014.2	376	preferred_accession	NP_002014.2 FMOD [organism=Homo sapiens] [GeneID=2331]	FMOD|Class_II|NP_002014.2
+LUM	Class_II	NP_002336.1	338	longest_NP	NP_002336.1 LUM [organism=Homo sapiens] [GeneID=4060]	LUM|Class_II|NP_002336.1
+KERA	Class_II	NP_008966.1	352	longest_NP	NP_008966.1 KERA [organism=Homo sapiens] [GeneID=11081]	KERA|Class_II|NP_008966.1
+OMD	Class_II	NP_005005.1	421	preferred_accession	NP_005005.1 OMD [organism=Homo sapiens] [GeneID=4958]	OMD|Class_II|NP_005005.1
+PRELP	Class_II	NP_002716.1	382	preferred_accession	NP_002716.1 PRELP [organism=Homo sapiens] [GeneID=5549]	PRELP|Class_II|NP_002716.1
+OGN	Class_III	NP_148935.1	298	preferred_accession	NP_148935.1 OGN [organism=Homo sapiens] [GeneID=4969] [isoform=2 precursor]	OGN|Class_III|NP_148935.1
+EPYC	Class_III	NP_004941.2	322	preferred_accession	NP_004941.2 EPYC [organism=Homo sapiens] [GeneID=1833]	EPYC|Class_III|NP_004941.2
+OPTC	Class_III	NP_055174.1	332	longest_NP	NP_055174.1 OPTC [organism=Homo sapiens] [GeneID=26254]	OPTC|Class_III|NP_055174.1
+CHAD	Class_IV	NP_001258.2	359	longest_NP	NP_001258.2 CHAD [organism=Homo sapiens] [GeneID=1101]	CHAD|Class_IV|NP_001258.2
+CHADL	Class_IV	NP_612490.1	762	longest_NP	NP_612490.1 CHADL [organism=Homo sapiens] [GeneID=150356]	CHADL|Class_IV|NP_612490.1
+NYX	Class_IV	NP_001365406.2	476	longest_NP	NP_001365406.2 NYX [organism=Homo sapiens] [GeneID=60506]	NYX|Class_IV|NP_001365406.2
+TSKU	Class_IV	NP_001305406.1	367	longest_NP	NP_001305406.1 TSKU [organism=Homo sapiens] [GeneID=25987] [isoform=a precursor]	TSKU|Class_IV|NP_001305406.1
+PODN	Class_V	NP_001186009.2	613	longest_NP	NP_001186009.2 PODN [organism=Homo sapiens] [GeneID=127435]	PODN|Class_V|NP_001186009.2
+PODNL1	Class_V	NP_001357024.2	574	longest_NP	NP_001357024.2 PODNL1 [organism=Homo sapiens] [GeneID=79883] [isoform=4 precursor]	PODNL1|Class_V|NP_001357024.2
+LINGO1	Outgroup	NP_116197.4	620	longest_NP	NP_116197.4 LINGO1 [organism=Homo sapiens] [GeneID=84894] [isoform=a precursor]	LINGO1|Outgroup|NP_116197.4

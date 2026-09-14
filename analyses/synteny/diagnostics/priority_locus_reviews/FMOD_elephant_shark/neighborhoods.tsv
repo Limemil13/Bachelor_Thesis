@@ -1,0 +1,123 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-30	flanking	PHLDA3	gene-PHLDA3	201464278	201469188	-	1871440	protein_coding	pleckstrin homology like domain family A member 3
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-29	flanking	CSRP1	gene-CSRP1	201483530	201507123	-	1833505	protein_coding	cysteine and glycine rich protein 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-28	flanking	NAV1	gene-NAV1	201539127	201826969	+	1513659	protein_coding	neuron navigator 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-27	flanking	IPO9	gene-IPO9	201829157	201884291	+	1456337	protein_coding	importin 9
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-26	flanking	SHISA4	gene-SHISA4	201888677	201892587	+	1448041	protein_coding	shisa family member 4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-25	flanking	LMOD1	gene-LMOD1	201896456	201946548	-	1394080	protein_coding	leiomodin 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-24	flanking	TIMM17A	gene-TIMM17A	201955503	201970664	+	1369964	protein_coding	translocase of inner mitochondrial membrane 17A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-23	flanking	RNPEP	gene-RNPEP	201982648	202006143	+	1334485	protein_coding	arginyl aminopeptidase
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-22	flanking	ELF3	gene-ELF3	202010587	202017183	+	1323445	protein_coding	E74 like ETS transcription factor 3
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-21	flanking	GPR37L1	gene-GPR37L1	202122917	202133592	+	1207036	protein_coding	G protein-coupled receptor 37 like 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-20	flanking	ARL8A	gene-ARL8A	202133404	202144737	-	1195891	protein_coding	ARF like GTPase 8A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-19	flanking	PTPN7	gene-PTPN7	202147013	202161588	-	1179040	protein_coding	protein tyrosine phosphatase non-receptor type 7
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-18	flanking	LGR6	gene-LGR6	202193799	202319761	+	1020867	protein_coding	leucine rich repeat containing G protein-coupled receptor 6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-17	flanking	UBE2T	gene-UBE2T	202331657	202341936	-	998692	protein_coding	ubiquitin conjugating enzyme E2 T
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-16	flanking	PPP1R12B	gene-PPP1R12B	202348699	202592702	+	747926	protein_coding	protein phosphatase 1 regulatory subunit 12B
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-15	flanking	SYT2	gene-SYT2	202590596	202710454	-	630174	protein_coding	synaptotagmin 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-14	flanking	KDM5B	gene-KDM5B	202724495	202808421	-	532207	protein_coding	lysine demethylase 5B
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-13	flanking	LOC124904583	gene-LOC124904583	202810238	202825935	-	514693	protein_coding	uncharacterized LOC124904583
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-12	flanking	RABIF	gene-RABIF	202878282	202889149	-	451479	protein_coding	RAB interacting factor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-11	flanking	KLHL12	gene-KLHL12	202891120	202928599	-	412029	protein_coding	kelch like family member 12
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-10	flanking	ADIPOR1	gene-ADIPOR1	202940825	202958572	-	382056	protein_coding	adiponectin receptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-9	flanking	CYB5R1	gene-CYB5R1	202961873	202967257	-	373371	protein_coding	cytochrome b5 reductase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-8	flanking	TMEM183A	gene-TMEM183A	203007374	203024848	+	315780	protein_coding	transmembrane protein 183A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-7	flanking	PPFIA4	gene-PPFIA4	203026491	203078736	+	261892	protein_coding	PPFI scaffold protein A4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-6	flanking	MYOG	gene-MYOG	203083129	203086012	-	254616	protein_coding	myogenin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-5	flanking	ADORA1	gene-ADORA1	203127726	203167405	+	173223	protein_coding	adenosine A1 receptor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-4	flanking	MYBPH	gene-MYBPH	203167811	203179214	-	161414	protein_coding	myosin binding protein H
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-3	flanking	CHI3L1	gene-CHI3L1	203178931	203186704	-	153924	protein_coding	chitinase 3 like 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-2	flanking	CHIT1	gene-CHIT1	203216079	203230099	-	110529	protein_coding	chitinase 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	-1	flanking	BTG2	gene-BTG2	203305519	203309602	+	31026	protein_coding	BTG anti-proliferation factor 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	0	focal	FMOD	gene-FMOD	203340628	203351122	-	0	protein_coding	fibromodulin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	1	flanking	PRELP	gene-PRELP	203475806	203491352	+	124684	protein_coding	proline and arginine rich end leucine rich repeat protein
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	2	flanking	OPTC	gene-OPTC	203494153	203508949	+	143031	protein_coding	opticin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	3	flanking	ATP2B4	gene-ATP2B4	203626832	203744081	+	275710	protein_coding	ATPase plasma membrane Ca2+ transporting 4
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	4	flanking	LAX1	gene-LAX1	203765183	203776372	+	414061	protein_coding	lymphocyte transmembrane adaptor 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	5	flanking	ZBED6	gene-ZBED6	203795623	203854124	+	444501	protein_coding	zinc finger BED-type containing 6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	6	flanking	ZC3H11A	gene-ZC3H11A	203795623	203854124	+	444501	protein_coding	zinc finger CCCH-type containing 11A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	7	flanking	LOC128031836	gene-LOC128031836	203802094	203802192	+	450972	protein_coding	uncharacterized LOC128031836
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	8	flanking	SNRPE	gene-SNRPE	203861599	203871152	+	510477	protein_coding	small nuclear ribonucleoprotein polypeptide E
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	9	flanking	SOX13	gene-SOX13	204073115	204127743	+	721993	protein_coding	SRY-box transcription factor 13
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	10	flanking	ETNK2	gene-ETNK2	204131062	204152044	-	779940	protein_coding	ethanolamine kinase 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	11	flanking	REN	gene-REN	204154819	204166337	-	803697	protein_coding	renin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	12	flanking	KISS1	gene-KISS1	204190341	204196491	-	839219	protein_coding	KiSS-1 metastasis suppressor
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	13	flanking	GOLT1A	gene-GOLT1A	204198163	204213988	-	847041	protein_coding	golgi transport 1A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	14	flanking	PLEKHA6	gene-PLEKHA6	204218853	204378168	-	867731	protein_coding	pleckstrin homology domain containing A6
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	15	flanking	PPP1R15B	gene-PPP1R15B	204395826	204411817	-	1044704	protein_coding	protein phosphatase 1 regulatory subunit 15B
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	16	flanking	PIK3C2B	gene-PIK3C2B	204422633	204494805	-	1071511	protein_coding	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	17	flanking	LOC124904584	gene-LOC124904584	204491751	204495732	+	1140629	protein_coding	translation initiation factor IF-2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	18	flanking	MDM4	gene-MDM4	204516406	204558120	+	1165284	protein_coding	MDM4 regulator of p53
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	19	flanking	LRRN2	gene-LRRN2	204617170	204685738	-	1266048	protein_coding	leucine rich repeat neuronal 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	20	flanking	NFASC	gene-NFASC	204828652	205022822	+	1477530	protein_coding	neurofascin
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	21	flanking	CNTN2	gene-CNTN2	205042949	205078289	+	1691827	protein_coding	contactin 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	22	flanking	TMEM81	gene-TMEM81	205083129	205084460	-	1732007	protein_coding	transmembrane protein 81
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	23	flanking	RBBP5	gene-RBBP5	205086142	205121978	-	1735020	protein_coding	RB binding protein 5, histone lysine methyltransferase complex subunit
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	24	flanking	DSTYK	gene-DSTYK	205142505	205211702	-	1791383	protein_coding	dual serine/threonine and tyrosine protein kinase
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	25	flanking	TMCC2	gene-TMCC2	205227946	205273343	+	1876824	protein_coding	transmembrane and coiled-coil domain family 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	26	flanking	NUAK2	gene-NUAK2	205302063	205321745	-	1950941	protein_coding	NUAK family kinase 2
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	27	flanking	KLHDC8A	gene-KLHDC8A	205336061	205357039	-	1984939	protein_coding	kelch domain containing 8A
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	28	flanking	LEMD1	gene-LEMD1	205381378	205449966	-	2030256	protein_coding	LEM domain containing 1
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	29	flanking	BLACAT1	gene-BLACAT1	205434886	205456045	-	2083764	protein_coding	BLACAT1 overlapping LEMD1 locus
+human_FMOD	NCBI_Assembly:GCF_000001405.40	human.gff	FMOD@NC_000001.11	NC_000001.11	30	flanking	CDK18	gene-CDK18	205504669	205532790	+	2153547	protein_coding	cyclin dependent kinase 18
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-30	flanking	LOC103182441	gene-LOC103182441	1484143	1493504	+	599565	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-29	flanking	LOC103182442	gene-LOC103182442	1498549	1504809	-	588260	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-28	flanking	LOC103182538	gene-LOC103182538	1507316	1523289	-	569780	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-27	flanking	pik3c2b	gene-pik3c2b	1531166	1561912	+	531157	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-26	flanking	LOC103182443	gene-LOC103182443	1565624	1574067	+	519002	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-25	flanking	plekha6	gene-plekha6	1578208	1638012	+	455057	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-24	flanking	LOC103182444	gene-LOC103182444	1640646	1645874	+	447195	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-23	flanking	LOC103182446	gene-LOC103182446	1655008	1660317	+	432752	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-22	flanking	LOC103182541	gene-LOC103182541	1661588	1664397	-	428672	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-21	flanking	LOC103182447	gene-LOC103182447	1678200	1710806	-	382263	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-20	flanking	snrpe	gene-snrpe	1729604	1732419	-	360650	protein_coding	small nuclear ribonucleoprotein polypeptide E
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-19	flanking	zc3h11a	gene-zc3h11a	1732930	1750345	-	342724	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-18	flanking	LOC103182450	gene-LOC103182450	1761805	1788348	-	304721	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-17	flanking	LOC103182543	gene-LOC103182543	1795057	1801736	+	291333	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-16	flanking	LOC103182451	gene-LOC103182451	1804873	1819984	+	273085	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-15	flanking	LOC103182452	gene-LOC103182452	1820434	1837099	-	255970	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-14	flanking	LOC103182453	gene-LOC103182453	1839640	1845142	+	247927	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-13	flanking	LOC103182455	gene-LOC103182455	1845483	1849651	+	243418	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-12	flanking	LOC103182544	gene-LOC103182544	1850074	1862072	-	230997	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-11	flanking	LOC121850437	gene-LOC121850437	1863477	1868200	-	224869	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-10	flanking	LOC103182547	gene-LOC103182547	1878274	1889050	+	204019	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-9	flanking	LOC121850441	gene-LOC121850441	1890587	1898163	+	194906	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-8	flanking	LOC103182457	gene-LOC103182457	1900656	1911778	+	181291	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-7	flanking	LOC103182458	gene-LOC103182458	1916899	1921772	+	171297	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-6	flanking	LOC121850440	gene-LOC121850440	1923006	1925105	+	167964	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-5	flanking	LOC103182459	gene-LOC103182459	1932976	1963467	-	129602	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-4	flanking	LOC103182460	gene-LOC103182460	1966030	1973257	-	119812	protein_coding	glutathione S-transferase Mu 1-like
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-3	flanking	LOC103182462	gene-LOC103182462	1979449	2011497	-	81572	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-2	flanking	LOC103182463	gene-LOC103182463	2019979	2023569	-	69500	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	-1	flanking	LOC103174132	gene-LOC103174132	2050523	2055219	+	37850	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	0	focal	LOC103182549	gene-LOC103182549	2093069	2111518	-	0	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	1	flanking	zgc:113307	gene-zgc:113307	2114380	2128977	+	2862	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	2	flanking	LOC103182464	gene-LOC103182464	2133532	2142624	+	22014	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	3	flanking	LOC103182465	gene-LOC103182465	2302327	2357120	+	190809	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	4	flanking	mdm4	gene-mdm4	2367090	2378043	-	255572	protein_coding	MDM4, p53 regulator
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	5	flanking	taf8	gene-taf8	2379099	2386803	-	267581	protein_coding	TAF8 RNA polymerase II, TATA box binding protein (TBP)-associated factor
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	6	flanking	LOC103182468	gene-LOC103182468	2387935	2462875	+	276417	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	7	flanking	bysl	gene-bysl	2475713	2482665	-	364195	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	8	flanking	med20	gene-med20	2484150	2490214	+	372632	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	9	flanking	usp49	gene-usp49	2492571	2525567	+	381053	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	10	flanking	tomm6	gene-tomm6	2530032	2532949	-	418514	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	11	flanking	LOC103182474	gene-LOC103182474	2544097	2554494	+	432579	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	12	flanking	LOC103182475	gene-LOC103182475	2556336	2587370	-	444818	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	13	flanking	LOC103182476	gene-LOC103182476	2621402	2626331	+	509884	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	14	flanking	LOC103182554	gene-LOC103182554	2633716	2641315	+	522198	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	15	flanking	LOC103182477	gene-LOC103182477	2653666	2685236	+	542148	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	16	flanking	LOC103182555	gene-LOC103182555	2694474	2696830	+	582956	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	17	flanking	LOC103182478	gene-LOC103182478	2700490	2710774	+	588972	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	18	flanking	LOC103182479	gene-LOC103182479	2715793	2729111	+	604275	protein_coding	probable carboxypeptidase PM20D1
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	19	flanking	LOC103191181	gene-LOC103191181	2738411	2759335	+	626893	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	20	flanking	LOC103182480	gene-LOC103182480	2761276	2772865	+	649758	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	21	flanking	LOC121848026	gene-LOC121848026	2777912	2790669	+	666394	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	22	flanking	nucks1a	gene-nucks1a	2809098	2825423	+	697580	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	23	flanking	slc45a3	gene-slc45a3	2865369	2869963	+	753851	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	24	flanking	LOC103182483	gene-LOC103182483	2874907	2882115	+	763389	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	25	flanking	LOC103182484	gene-LOC103182484	2888759	2896869	+	777241	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	26	flanking	LOC103182487	gene-LOC103182487	2899855	2906068	+	788337	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	27	flanking	LOC103182486	gene-LOC103182486	2907141	2915781	-	795623	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	28	flanking	LOC103182488	gene-LOC103182488	2917413	2921586	-	805895	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	29	flanking	LOC103182556	gene-LOC103182556	2922326	2941531	-	810808	protein_coding	
+elephant_shark_FMOD	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103182549@NW_024704760.1	NW_024704760.1	30	flanking	psma5	gene-psma5	2943950	2949946	-	832432	protein_coding	proteasome 20S subunit alpha 5

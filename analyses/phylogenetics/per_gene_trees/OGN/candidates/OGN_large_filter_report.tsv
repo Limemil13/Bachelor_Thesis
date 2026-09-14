@@ -1,0 +1,1150 @@
+gene	accession	species	length	status	reason	old_header	new_header
+OGN	XP_066051950.1	GeneID=136296614	292	kept	representative	XP_066051950.1 OGN [organism=Chamaea fasciata] [GeneID=136296614]	GeneID_136296614|OGN|XP_066051950.1
+OGN	XP_043421717.1	GeneID=122474715	298	kept	representative	XP_043421717.1 OGN [organism=Prionailurus bengalensis] [GeneID=122474715]	GeneID_122474715|OGN|XP_043421717.1
+OGN	XP_029989373.1	GeneID=115418949	280	kept	representative	XP_029989373.1 ogna [organism=Sphaeramia orbicularis] [GeneID=115418949]	GeneID_115418949|OGN|XP_029989373.1
+OGN	XP_053172524.1	GeneID=128356107	283	kept	representative	XP_053172524.1 ogna [organism=Scomber japonicus] [GeneID=128356107]	GeneID_128356107|OGN|XP_053172524.1
+OGN	XP_056292470.1	GeneID=130207791	281	kept	representative	XP_056292470.1 ogna [organism=Pseudoliparis swirei] [GeneID=130207791]	GeneID_130207791|OGN|XP_056292470.1
+OGN	XP_058551964.1	isoform=X1	308	excluded	extra_isoform_same_species	XP_058551964.1 OGN [organism=Neofelis nebulosa] [GeneID=131492224] [isoform=X1]	isoform_X1|OGN|XP_058551964.1
+OGN	XP_058551965.1	isoform=X2	361	excluded	extra_isoform_same_species	XP_058551965.1 OGN [organism=Neofelis nebulosa] [GeneID=131492224] [isoform=X2]	isoform_X2|OGN|XP_058551965.1
+OGN	XP_002934273.1	GeneID=100487346	294	kept	representative	XP_002934273.1 ogn [organism=Xenopus tropicalis] [GeneID=100487346]	GeneID_100487346|OGN|XP_002934273.1
+OGN	XP_001918010.2	isoform=X1	298	excluded	extra_isoform_same_species	XP_001918010.2 OGN [organism=Equus caballus] [GeneID=100054772] [isoform=X1]	isoform_X1|OGN|XP_001918010.2
+OGN	XP_023483407.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_023483407.1 OGN [organism=Equus caballus] [GeneID=100054772] [isoform=X2]	isoform_X2|OGN|XP_023483407.1
+OGN	XP_010171004.2	GeneID=104528642	267	kept	representative	XP_010171004.2 OGN [organism=Antrostomus carolinensis] [GeneID=104528642]	GeneID_104528642|OGN|XP_010171004.2
+OGN	XP_011852247.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_011852247.1 OGN [organism=Mandrillus leucophaeus] [GeneID=105551569] [isoform=X1]	isoform_X1|OGN|XP_011852247.1
+OGN	XP_011852248.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_011852248.1 OGN [organism=Mandrillus leucophaeus] [GeneID=105551569] [isoform=X2]	isoform_X2|OGN|XP_011852248.1
+OGN	XP_011852249.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_011852249.1 OGN [organism=Mandrillus leucophaeus] [GeneID=105551569] [isoform=X2]	isoform_X2|OGN|XP_011852249.1
+OGN	XP_055165610.1	GeneID=129499766	297	kept	representative	XP_055165610.1 OGN [organism=Nyctereutes procyonoides] [GeneID=129499766]	GeneID_129499766|OGN|XP_055165610.1
+OGN	XP_033994573.1	GeneID=117489430	283	kept	representative	XP_033994573.1 ogna [organism=Trematomus bernacchii] [GeneID=117489430]	GeneID_117489430|OGN|XP_033994573.1
+OGN	XP_035518281.1	GeneID=118328599	283	kept	representative	XP_035518281.1 ogna [organism=Morone saxatilis] [GeneID=118328599]	GeneID_118328599|OGN|XP_035518281.1
+OGN	XP_066113551.1	GeneID=136324501	298	kept	representative	XP_066113551.1 OGN [organism=Saccopteryx bilineata] [GeneID=136324501]	GeneID_136324501|OGN|XP_066113551.1
+OGN	XP_072522171.1	GeneID=140543053	296	kept	representative	XP_072522171.1 ogna [organism=Salminus brasiliensis] [GeneID=140543053]	GeneID_140543053|OGN|XP_072522171.1
+OGN	XP_075825831.1	GeneID=142848115	298	kept	representative	XP_075825831.1 Ogn [organism=Microtus pennsylvanicus] [GeneID=142848115]	GeneID_142848115|OGN|XP_075825831.1
+OGN	XP_075825832.1	GeneID=142848115	298	excluded	extra_isoform_same_species	XP_075825832.1 Ogn [organism=Microtus pennsylvanicus] [GeneID=142848115]	GeneID_142848115|OGN|XP_075825832.1
+OGN	XP_082344113.1	isoform=1	293	kept	representative	XP_082344113.1 OGN [organism=Vanellus vanellus] [GeneID=309675653] [isoform=1]	isoform_1|OGN|XP_082344113.1
+OGN	XP_082344114.1	isoform=2	292	kept	representative	XP_082344114.1 OGN [organism=Vanellus vanellus] [GeneID=309675653] [isoform=2]	isoform_2|OGN|XP_082344114.1
+OGN	XP_029455250.1	GeneID=115090381	291	kept	representative	XP_029455250.1 OGN [organism=Rhinatrema bivittatum] [GeneID=115090381]	GeneID_115090381|OGN|XP_029455250.1
+OGN	XP_073448775.1	isoform=X1	296	excluded	extra_isoform_same_species	XP_073448775.1 OGN [organism=Aquarana catesbeiana] [GeneID=141103274] [isoform=X1]	isoform_X1|OGN|XP_073448775.1
+OGN	XP_073448776.1	isoform=X2	264	excluded	extra_isoform_same_species	XP_073448776.1 OGN [organism=Aquarana catesbeiana] [GeneID=141103274] [isoform=X2]	isoform_X2|OGN|XP_073448776.1
+OGN	XP_083827478.1	GeneID=310985726	283	kept	representative	XP_083827478.1 ogna [organism=Trachurus trachurus] [GeneID=310985726]	GeneID_310985726|OGN|XP_083827478.1
+OGN	XP_009919477.1	GeneID=104319456	293	kept	representative	XP_009919477.1 OGN [organism=Haliaeetus albicilla] [GeneID=104319456]	GeneID_104319456|OGN|XP_009919477.1
+OGN	XP_063204185.1	GeneID=134521540	293	kept	representative	XP_063204185.1 OGN [organism=Chroicocephalus ridibundus] [GeneID=134521540]	GeneID_134521540|OGN|XP_063204185.1
+OGN	XP_037348107.1	GeneID=119230742	298	kept	representative	XP_037348107.1 OGN [organism=Talpa occidentalis] [GeneID=119230742]	GeneID_119230742|OGN|XP_037348107.1
+OGN	XP_053809329.1	GeneID=128793903	293	kept	representative	XP_053809329.1 OGN [organism=Vidua chalybeata] [GeneID=128793903]	GeneID_128793903|OGN|XP_053809329.1
+OGN	XP_008061052.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_008061052.1 OGN [organism=Carlito syrichta] [GeneID=103265149] [isoform=X1]	isoform_X1|OGN|XP_008061052.1
+OGN	XP_008061057.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_008061057.1 OGN [organism=Carlito syrichta] [GeneID=103265149] [isoform=X2]	isoform_X2|OGN|XP_008061057.1
+OGN	XP_021570434.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_021570434.1 OGN [organism=Carlito syrichta] [GeneID=103265149] [isoform=X2]	isoform_X2|OGN|XP_021570434.1
+OGN	XP_077767238.1	GeneID=144321850	361	kept	representative	XP_077767238.1 OGN [organism=Canis aureus] [GeneID=144321850]	GeneID_144321850|OGN|XP_077767238.1
+OGN	XP_010197915.1	GeneID=104555976	292	kept	representative	XP_010197915.1 OGN [organism=Colius striatus] [GeneID=104555976]	GeneID_104555976|OGN|XP_010197915.1
+OGN	XP_084023090.1	GeneID=311133480	298	kept	representative	XP_084023090.1 ogna [organism=Coregonus lavaretus] [GeneID=311133480]	GeneID_311133480|OGN|XP_084023090.1
+OGN	XP_067254903.1	GeneID=137029239	292	kept	representative	XP_067254903.1 ogna [organism=Chanodichthys erythropterus] [GeneID=137029239]	GeneID_137029239|OGN|XP_067254903.1
+OGN	XP_067254904.1	GeneID=137029239	292	excluded	extra_isoform_same_species	XP_067254904.1 ogna [organism=Chanodichthys erythropterus] [GeneID=137029239]	GeneID_137029239|OGN|XP_067254904.1
+OGN	XP_071984370.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_071984370.1 OGN [organism=Engystomops pustulosus] [GeneID=140104642] [isoform=X1]	isoform_X1|OGN|XP_071984370.1
+OGN	XP_071984371.1	isoform=X2	292	excluded	extra_isoform_same_species	XP_071984371.1 OGN [organism=Engystomops pustulosus] [GeneID=140104642] [isoform=X2]	isoform_X2|OGN|XP_071984371.1
+OGN	XP_081658823.1	GeneID=102743627	298	kept	representative	XP_081658823.1 OGN [organism=Leptonychotes weddellii] [GeneID=102743627]	GeneID_102743627|OGN|XP_081658823.1
+OGN	XP_027556664.1	GeneID=113976071	293	kept	representative	XP_027556664.1 OGN [organism=Neopelma chrysocephalum] [GeneID=113976071]	GeneID_113976071|OGN|XP_027556664.1
+OGN	XP_020486414.1	GeneID=109981798	283	kept	representative	XP_020486414.1 ogna [organism=Labrus bergylta] [GeneID=109981798]	GeneID_109981798|OGN|XP_020486414.1
+OGN	XP_014268721.1	GeneID=105940842	283	kept	representative	XP_014268721.1 ogna [organism=Maylandia zebra] [GeneID=105940842]	GeneID_105940842|OGN|XP_014268721.1
+OGN	XP_082390897.1	GeneID=309707438	283	kept	representative	XP_082390897.1 ogna [organism=Aulonocara stuartgranti] [GeneID=309707438]	GeneID_309707438|OGN|XP_082390897.1
+OGN	XP_029287308.1	GeneID=115008122	282	kept	representative	XP_029287308.1 ogna [organism=Cottoperca gobio] [GeneID=115008122]	GeneID_115008122|OGN|XP_029287308.1
+OGN	XP_029287309.1	GeneID=115008122	282	excluded	extra_isoform_same_species	XP_029287309.1 ogna [organism=Cottoperca gobio] [GeneID=115008122]	GeneID_115008122|OGN|XP_029287309.1
+OGN	XP_021071694.2	GeneID=110334167	297	kept	representative	XP_021071694.2 Ogn [organism=Mus pahari] [GeneID=110334167]	GeneID_110334167|OGN|XP_021071694.2
+OGN	XP_081791040.1	isoform=1	298	excluded	extra_isoform_same_species	XP_081791040.1 OGN [organism=Natrix helvetica] [GeneID=309382935] [isoform=1]	isoform_1|OGN|XP_081791040.1
+OGN	XP_081791041.1	isoform=1	298	excluded	extra_isoform_same_species	XP_081791041.1 OGN [organism=Natrix helvetica] [GeneID=309382935] [isoform=1]	isoform_1|OGN|XP_081791041.1
+OGN	XP_081791042.1	isoform=1	298	excluded	extra_isoform_same_species	XP_081791042.1 OGN [organism=Natrix helvetica] [GeneID=309382935] [isoform=1]	isoform_1|OGN|XP_081791042.1
+OGN	XP_029851808.1	GeneID=115333253	293	kept	representative	XP_029851808.1 OGN [organism=Aquila chrysaetos chrysaetos] [GeneID=115333253]	GeneID_115333253|OGN|XP_029851808.1
+OGN	XP_041874051.1	GeneID=121659710	293	kept	representative	XP_041874051.1 OGN [organism=Corvus kubaryi] [GeneID=121659710]	GeneID_121659710|OGN|XP_041874051.1
+OGN	XP_027470179.1	GeneID=113933974	298	kept	representative	XP_027470179.1 OGN [organism=Zalophus californianus] [GeneID=113933974]	GeneID_113933974|OGN|XP_027470179.1
+OGN	XP_084560306.1	GeneID=146273283	223	kept	representative	XP_084560306.1 ogna [organism=Hypomesus nipponensis] [GeneID=146273283]	GeneID_146273283|OGN|XP_084560306.1
+OGN	XP_085857932.1	GeneID=147111175	307	kept	representative	XP_085857932.1 ogna [organism=Somniosus microcephalus] [GeneID=147111175]	GeneID_147111175|OGN|XP_085857932.1
+OGN	XP_069721614.1	GeneID=138725023	297	kept	representative	XP_069721614.1 OGN [organism=Phaenicophaeus curvirostris] [GeneID=138725023]	GeneID_138725023|OGN|XP_069721614.1
+OGN	XP_034020732.1	GeneID=117505242	288	kept	representative	XP_034020732.1 ogna [organism=Thalassophryne amazonica] [GeneID=117505242]	GeneID_117505242|OGN|XP_034020732.1
+OGN	XP_079412163.1	GeneID=306962761	275	kept	representative	XP_079412163.1 ogna [organism=Gobius niger] [GeneID=306962761]	GeneID_306962761|OGN|XP_079412163.1
+OGN	XP_012581676.1	GeneID=101623421	305	kept	representative	XP_012581676.1 OGN [organism=Condylura cristata] [GeneID=101623421]	GeneID_101623421|OGN|XP_012581676.1
+OGN	XP_006102264.1	GeneID=102436301	290	kept	representative	XP_006102264.1 OGN [organism=Myotis lucifugus] [GeneID=102436301]	GeneID_102436301|OGN|XP_006102264.1
+OGN	XP_034170328.1	GeneID=113537969	283	kept	representative	XP_034170328.1 ogna [organism=Pangasianodon hypophthalmus] [GeneID=113537969]	GeneID_113537969|OGN|XP_034170328.1
+OGN	XP_049439601.1	GeneID=125893102	283	kept	representative	XP_049439601.1 ogna [organism=Epinephelus fuscoguttatus] [GeneID=125893102]	GeneID_125893102|OGN|XP_049439601.1
+OGN	XP_007669099.1	GeneID=100082041	300	kept	representative	XP_007669099.1 OGN [organism=Ornithorhynchus anatinus] [GeneID=100082041]	GeneID_100082041|OGN|XP_007669099.1
+OGN	XP_017305659.1	GeneID=108254830	281	kept	representative	XP_017305659.1 ogna [organism=Ictalurus punctatus] [GeneID=108254830]	GeneID_108254830|OGN|XP_017305659.1
+OGN	XP_009634944.1	GeneID=104124324	293	kept	representative	XP_009634944.1 OGN [organism=Egretta garzetta] [GeneID=104124324]	GeneID_104124324|OGN|XP_009634944.1
+OGN	XP_029775305.1	GeneID=115275727	300	kept	representative	XP_029775305.1 OGN [organism=Suricata suricatta] [GeneID=115275727]	GeneID_115275727|OGN|XP_029775305.1
+OGN	XP_046882329.1	GeneID=124471770	300	kept	representative	XP_046882329.1 ogna [organism=Hypomesus transpacificus] [GeneID=124471770]	GeneID_124471770|OGN|XP_046882329.1
+OGN	XP_078105312.1	GeneID=144517222	281	kept	representative	XP_078105312.1 ogna [organism=Sander vitreus] [GeneID=144517222]	GeneID_144517222|OGN|XP_078105312.1
+OGN	XP_032406542.1	GeneID=116711240	281	kept	representative	XP_032406542.1 ogna [organism=Xiphophorus hellerii] [GeneID=116711240]	GeneID_116711240|OGN|XP_032406542.1
+OGN	XP_028618980.1	GeneID=114617567	298	kept	representative	XP_028618980.1 Ogn [organism=Grammomys surdaster] [GeneID=114617567]	GeneID_114617567|OGN|XP_028618980.1
+OGN	XP_028618981.1	GeneID=114617567	298	excluded	extra_isoform_same_species	XP_028618981.1 Ogn [organism=Grammomys surdaster] [GeneID=114617567]	GeneID_114617567|OGN|XP_028618981.1
+OGN	XP_084755181.1	GeneID=311630189	290	kept	representative	XP_084755181.1 OGN [organism=Pipistrellus hanaki] [GeneID=311630189]	GeneID_311630189|OGN|XP_084755181.1
+OGN	XP_020820032.1	GeneID=110192919	285	kept	representative	XP_020820032.1 OGN [organism=Phascolarctos cinereus] [GeneID=110192919]	GeneID_110192919|OGN|XP_020820032.1
+OGN	XP_009978596.1	GeneID=104374227	293	kept	representative	XP_009978596.1 OGN [organism=Tauraco erythrolophus] [GeneID=104374227]	GeneID_104374227|OGN|XP_009978596.1
+OGN	XP_024588743.1	GeneID=112391601	299	kept	representative	XP_024588743.1 OGN [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112391601]	GeneID_112391601|OGN|XP_024588743.1
+OGN	XP_024588744.1	GeneID=112391601	299	excluded	extra_isoform_same_species	XP_024588744.1 OGN [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112391601]	GeneID_112391601|OGN|XP_024588744.1
+OGN	XP_080565346.1	GeneID=308272421	350	kept	representative	XP_080565346.1 OGN [organism=Muscardinus avellanarius] [GeneID=308272421]	GeneID_308272421|OGN|XP_080565346.1
+OGN	XP_043078793.1	GeneID=122327465	289	kept	representative	XP_043078793.1 ogna [organism=Puntigrus tetrazona] [GeneID=122327465]	GeneID_122327465|OGN|XP_043078793.1
+OGN	XP_066183005.1	GeneID=136366076	292	kept	representative	XP_066183005.1 OGN [organism=Sylvia atricapilla] [GeneID=136366076]	GeneID_136366076|OGN|XP_066183005.1
+OGN	XP_084172621.1	GeneID=311230273	276	kept	representative	XP_084172621.1 ogna [organism=Notolepis coatsorum] [GeneID=311230273]	GeneID_311230273|OGN|XP_084172621.1
+OGN	XP_040262976.1	GeneID=120978731	293	kept	representative	XP_040262976.1 OGN [organism=Bufo bufo] [GeneID=120978731]	GeneID_120978731|OGN|XP_040262976.1
+OGN	XP_040262977.1	GeneID=120978731	293	excluded	extra_isoform_same_species	XP_040262977.1 OGN [organism=Bufo bufo] [GeneID=120978731]	GeneID_120978731|OGN|XP_040262977.1
+OGN	XP_027858681.1	GeneID=114135522	281	kept	representative	XP_027858681.1 ogna [organism=Xiphophorus couchianus] [GeneID=114135522]	GeneID_114135522|OGN|XP_027858681.1
+OGN	XP_019360666.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_019360666.1 OGN [organism=Gavialis gangeticus] [GeneID=109289170] [isoform=X1]	isoform_X1|OGN|XP_019360666.1
+OGN	XP_019360667.1	isoform=X2	293	kept	representative	XP_019360667.1 OGN [organism=Gavialis gangeticus] [GeneID=109289170] [isoform=X2]	isoform_X2|OGN|XP_019360667.1
+OGN	XP_039590174.1	GeneID=120514108	293	kept	representative	XP_039590174.1 OGN [organism=Passer montanus] [GeneID=120514108]	GeneID_120514108|OGN|XP_039590174.1
+OGN	XP_062064474.1	GeneID=133771996	298	kept	representative	XP_062064474.1 OGN [organism=Lepus europaeus] [GeneID=133771996]	GeneID_133771996|OGN|XP_062064474.1
+OGN	XP_032116381.1	GeneID=116538221	298	kept	representative	XP_032116381.1 OGN [organism=Sapajus apella] [GeneID=116538221]	GeneID_116538221|OGN|XP_032116381.1
+OGN	XP_064012456.1	GeneID=135182365	293	kept	representative	XP_064012456.1 OGN [organism=Pogoniulus pusillus] [GeneID=135182365]	GeneID_135182365|OGN|XP_064012456.1
+OGN	XP_015984335.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_015984335.1 OGN [organism=Rousettus aegyptiacus] [GeneID=107502052] [isoform=X1]	isoform_X1|OGN|XP_015984335.1
+OGN	XP_015984336.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_015984336.1 OGN [organism=Rousettus aegyptiacus] [GeneID=107502052] [isoform=X1]	isoform_X1|OGN|XP_015984336.1
+OGN	XP_036074208.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_036074208.1 OGN [organism=Rousettus aegyptiacus] [GeneID=107502052] [isoform=X2]	isoform_X2|OGN|XP_036074208.1
+OGN	XP_029006308.1	GeneID=114855336	281	kept	representative	XP_029006308.1 ogna [organism=Betta splendens] [GeneID=114855336]	GeneID_114855336|OGN|XP_029006308.1
+OGN	XP_086006181.1	GeneID=147232901	283	kept	representative	XP_086006181.1 ogna [organism=Fistularia commersonii] [GeneID=147232901]	GeneID_147232901|OGN|XP_086006181.1
+OGN	XP_018541929.2	GeneID=108889784	285	kept	representative	XP_018541929.2 ogna [organism=Lates calcarifer] [GeneID=108889784]	GeneID_108889784|OGN|XP_018541929.2
+OGN	XP_084387625.1	GeneID=311442355	293	kept	representative	XP_084387625.1 OGN [organism=Aythya ferina] [GeneID=311442355]	GeneID_311442355|OGN|XP_084387625.1
+OGN	XP_084785240.1	GeneID=146387475	283	kept	representative	XP_084785240.1 ogna [organism=Perissodus microlepis] [GeneID=146387475]	GeneID_146387475|OGN|XP_084785240.1
+OGN	XP_057887932.1	GeneID=131088130	291	kept	representative	XP_057887932.1 OGN [organism=Melospiza georgiana] [GeneID=131088130]	GeneID_131088130|OGN|XP_057887932.1
+OGN	XP_028263092.1	GeneID=114436816	283	kept	representative	XP_028263092.1 ogna [organism=Parambassis ranga] [GeneID=114436816]	GeneID_114436816|OGN|XP_028263092.1
+OGN	XP_084093574.1	GeneID=311173463	356	kept	representative	XP_084093574.1 OGN [organism=Talpa europaea] [GeneID=311173463]	GeneID_311173463|OGN|XP_084093574.1
+OGN	XP_032893168.1	isoform=X1	315	excluded	extra_isoform_same_species	XP_032893168.1 ogna [organism=Amblyraja radiata] [GeneID=116983483] [isoform=X1]	isoform_X1|OGN|XP_032893168.1
+OGN	XP_032893169.1	isoform=X2	314	excluded	extra_isoform_same_species	XP_032893169.1 ogna [organism=Amblyraja radiata] [GeneID=116983483] [isoform=X2]	isoform_X2|OGN|XP_032893169.1
+OGN	XP_084695970.1	GeneID=146354809	308	kept	representative	XP_084695970.1 OGN [organism=Heloderma suspectum] [GeneID=146354809]	GeneID_146354809|OGN|XP_084695970.1
+OGN	XP_084695971.1	GeneID=146354809	308	excluded	extra_isoform_same_species	XP_084695971.1 OGN [organism=Heloderma suspectum] [GeneID=146354809]	GeneID_146354809|OGN|XP_084695971.1
+OGN	XP_065802942.1	GeneID=136176532	299	kept	representative	XP_065802942.1 OGN [organism=Muntiacus reevesi] [GeneID=136176532]	GeneID_136176532|OGN|XP_065802942.1
+OGN	XP_065802943.1	GeneID=136176532	299	excluded	extra_isoform_same_species	XP_065802943.1 OGN [organism=Muntiacus reevesi] [GeneID=136176532]	GeneID_136176532|OGN|XP_065802943.1
+OGN	XP_012602595.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_012602595.1 OGN [organism=Microcebus murinus] [GeneID=105861569] [isoform=X2]	isoform_X2|OGN|XP_012602595.1
+OGN	XP_075864616.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_075864616.1 OGN [organism=Microcebus murinus] [GeneID=105861569] [isoform=X1]	isoform_X1|OGN|XP_075864616.1
+OGN	XP_068108091.1	GeneID=137531949	296	kept	representative	XP_068108091.1 OGN [organism=Hyperolius riggenbachi] [GeneID=137531949]	GeneID_137531949|OGN|XP_068108091.1
+OGN	XP_078059468.1	GeneID=144485019	309	kept	representative	XP_078059468.1 ogna [organism=Mustelus asterias] [GeneID=144485019]	GeneID_144485019|OGN|XP_078059468.1
+OGN	XP_075370079.1	GeneID=142415528	293	kept	representative	XP_075370079.1 OGN [organism=Mycteria americana] [GeneID=142415528]	GeneID_142415528|OGN|XP_075370079.1
+OGN	XP_077679218.1	GeneID=144268343	297	kept	representative	XP_077679218.1 OGN [organism=Eretmochelys imbricata] [GeneID=144268343]	GeneID_144268343|OGN|XP_077679218.1
+OGN	XP_079197639.1	GeneID=306822453	282	kept	representative	XP_079197639.1 ogna [organism=Symphodus melops] [GeneID=306822453]	GeneID_306822453|OGN|XP_079197639.1
+OGN	XP_085263294.1	GeneID=146670326	283	kept	representative	XP_085263294.1 ogna [organism=Rhamphochromis longiceps] [GeneID=146670326]	GeneID_146670326|OGN|XP_085263294.1
+OGN	XP_075015429.1	GeneID=142086355	291	kept	representative	XP_075015429.1 OGN [organism=Calonectris borealis] [GeneID=142086355]	GeneID_142086355|OGN|XP_075015429.1
+OGN	XP_075429924.1	GeneID=142467870	296	kept	representative	XP_075429924.1 OGN [organism=Ascaphus truei] [GeneID=142467870]	GeneID_142467870|OGN|XP_075429924.1
+OGN	XP_009327543.1	GeneID=103921325	293	kept	representative	XP_009327543.1 OGN [organism=Pygoscelis adeliae] [GeneID=103921325]	GeneID_103921325|OGN|XP_009327543.1
+OGN	XP_034442417.1	GeneID=117762075	283	kept	representative	XP_034442417.1 ogna [organism=Hippoglossus hippoglossus] [GeneID=117762075]	GeneID_117762075|OGN|XP_034442417.1
+OGN	XP_010178190.1	GeneID=104537100	292	kept	representative	XP_010178190.1 OGN [organism=Mesitornis unicolor] [GeneID=104537100]	GeneID_104537100|OGN|XP_010178190.1
+OGN	XP_067908428.1	GeneID=137380399	311	kept	representative	XP_067908428.1 ogna [organism=Heterodontus francisci] [GeneID=137380399]	GeneID_137380399|OGN|XP_067908428.1
+OGN	XP_014725230.1	GeneID=106849261	293	kept	representative	XP_014725230.1 OGN [organism=Sturnus vulgaris] [GeneID=106849261]	GeneID_106849261|OGN|XP_014725230.1
+OGN	XP_039654224.1	GeneID=120557725	284	kept	representative	XP_039654224.1 ogna [organism=Perca fluviatilis] [GeneID=120557725]	GeneID_120557725|OGN|XP_039654224.1
+OGN	XP_041747762.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_041747762.1 ogna [organism=Coregonus clupeaformis] [GeneID=121577875] [isoform=X1]	isoform_X1|OGN|XP_041747762.1
+OGN	XP_041747763.1	isoform=X2	267	excluded	extra_isoform_same_species	XP_041747763.1 ogna [organism=Coregonus clupeaformis] [GeneID=121577875] [isoform=X2]	isoform_X2|OGN|XP_041747763.1
+OGN	XP_077429886.1	GeneID=144056738	288	kept	representative	XP_077429886.1 ogna [organism=Vanacampus margaritifer] [GeneID=144056738]	GeneID_144056738|OGN|XP_077429886.1
+OGN	XP_043879911.1	GeneID=122768177	285	kept	representative	XP_043879911.1 ogna [organism=Solea senegalensis] [GeneID=122768177]	GeneID_122768177|OGN|XP_043879911.1
+OGN	XP_033092671.1	GeneID=117098338	298	kept	representative	XP_033092671.1 OGN [organism=Trachypithecus francoisi] [GeneID=117098338]	GeneID_117098338|OGN|XP_033092671.1
+OGN	XP_078965576.1	GeneID=306643366	381	kept	representative	XP_078965576.1 OGN [organism=Sciurus vulgaris] [GeneID=306643366]	GeneID_306643366|OGN|XP_078965576.1
+OGN	XP_028431433.1	GeneID=114554057	284	kept	representative	XP_028431433.1 ogna [organism=Perca flavescens] [GeneID=114554057]	GeneID_114554057|OGN|XP_028431433.1
+OGN	XP_053509122.1	GeneID=128625088	281	kept	representative	XP_053509122.1 ogna [organism=Ictalurus furcatus] [GeneID=128625088]	GeneID_128625088|OGN|XP_053509122.1
+OGN	XP_023271874.1	GeneID=111662298	283	kept	representative	XP_023271874.1 ogna [organism=Seriola lalandi dorsalis] [GeneID=111662298]	GeneID_111662298|OGN|XP_023271874.1
+OGN	XP_003468318.2	isoform=X1	352	excluded	extra_isoform_same_species	XP_003468318.2 Ogn [organism=Cavia porcellus] [GeneID=100716067] [isoform=X1]	isoform_X1|OGN|XP_003468318.2
+OGN	XP_013006121.1	isoform=X3	297	kept	representative	XP_013006121.1 Ogn [organism=Cavia porcellus] [GeneID=100716067] [isoform=X3]	isoform_X3|OGN|XP_013006121.1
+OGN	XP_013006122.1	isoform=X3	297	excluded	extra_isoform_same_species	XP_013006122.1 Ogn [organism=Cavia porcellus] [GeneID=100716067] [isoform=X3]	isoform_X3|OGN|XP_013006122.1
+OGN	XP_063083411.1	isoform=X2	299	excluded	extra_isoform_same_species	XP_063083411.1 Ogn [organism=Cavia porcellus] [GeneID=100716067] [isoform=X2]	isoform_X2|OGN|XP_063083411.1
+OGN	XP_063083412.1	isoform=X3	297	excluded	extra_isoform_same_species	XP_063083412.1 Ogn [organism=Cavia porcellus] [GeneID=100716067] [isoform=X3]	isoform_X3|OGN|XP_063083412.1
+OGN	XP_049588495.1	GeneID=125976709	273	kept	representative	XP_049588495.1 ogna [organism=Syngnathus scovelli] [GeneID=125976709]	GeneID_125976709|OGN|XP_049588495.1
+OGN	XP_080747222.1	GeneID=308402341	283	kept	representative	XP_080747222.1 ogna [organism=Rhamphochromis sp. 'chilingali'] [GeneID=308402341]	GeneID_308402341|OGN|XP_080747222.1
+OGN	XP_036276011.1	GeneID=118708698	290	kept	representative	XP_036276011.1 OGN [organism=Pipistrellus kuhlii] [GeneID=118708698]	GeneID_118708698|OGN|XP_036276011.1
+OGN	XP_083516842.1	GeneID=310798232	283	kept	representative	XP_083516842.1 ogna [organism=Poromitra crassiceps] [GeneID=310798232]	GeneID_310798232|OGN|XP_083516842.1
+OGN	XP_084316933.1	GeneID=311327716	297	kept	representative	XP_084316933.1 ogna [organism=Borostomias antarcticus] [GeneID=311327716]	GeneID_311327716|OGN|XP_084316933.1
+OGN	XP_070750850.1	GeneID=139276739	309	kept	representative	XP_070750850.1 ogna [organism=Pristiophorus japonicus] [GeneID=139276739]	GeneID_139276739|OGN|XP_070750850.1
+OGN	XP_055435036.1	GeneID=129650501	299	kept	representative	XP_055435036.1 OGN [organism=Bubalus kerabau] [GeneID=129650501]	GeneID_129650501|OGN|XP_055435036.1
+OGN	XP_007097395.1	GeneID=102949780	298	kept	representative	XP_007097395.1 OGN [organism=Panthera tigris] [GeneID=102949780]	GeneID_102949780|OGN|XP_007097395.1
+OGN	XP_022420320.1	GeneID=111169940	299	kept	representative	XP_022420320.1 OGN [organism=Delphinapterus leucas] [GeneID=111169940]	GeneID_111169940|OGN|XP_022420320.1
+OGN	XP_022420321.1	GeneID=111169940	299	excluded	extra_isoform_same_species	XP_022420321.1 OGN [organism=Delphinapterus leucas] [GeneID=111169940]	GeneID_111169940|OGN|XP_022420321.1
+OGN	XP_083972123.1	GeneID=311084137	281	kept	representative	XP_083972123.1 ogna [organism=Abramis brama] [GeneID=311084137]	GeneID_311084137|OGN|XP_083972123.1
+OGN	NP_054776.1	isoform=2 precursor	298	kept	representative	NP_054776.1 OGN [organism=Homo sapiens] [GeneID=4969] [isoform=2 precursor]	isoform_2_precursor|OGN|NP_054776.1
+OGN	NP_077727.3	isoform=1	356	excluded	extra_isoform_same_species	NP_077727.3 OGN [organism=Homo sapiens] [GeneID=4969] [isoform=1]	isoform_1|OGN|NP_077727.3
+OGN	NP_148935.1	isoform=2 precursor	298	excluded	extra_isoform_same_species	NP_148935.1 OGN [organism=Homo sapiens] [GeneID=4969] [isoform=2 precursor]	isoform_2_precursor|OGN|NP_148935.1
+OGN	XP_071756876.1	GeneID=139912853	290	kept	representative	XP_071756876.1 ogna [organism=Centroberyx gerrardi] [GeneID=139912853]	GeneID_139912853|OGN|XP_071756876.1
+OGN	XP_029946835.1	GeneID=115388042	283	kept	representative	XP_029946835.1 ogna [organism=Salarias fasciatus] [GeneID=115388042]	GeneID_115388042|OGN|XP_029946835.1
+OGN	XP_054071828.1	GeneID=128915489	293	kept	representative	XP_054071828.1 OGN [organism=Rissa tridactyla] [GeneID=128915489]	GeneID_128915489|OGN|XP_054071828.1
+OGN	XP_062264360.1	GeneID=133971135	283	kept	representative	XP_062264360.1 ogna [organism=Platichthys flesus] [GeneID=133971135]	GeneID_133971135|OGN|XP_062264360.1
+OGN	XP_021035476.1	isoform=X1	322	excluded	extra_isoform_same_species	XP_021035476.1 Ogn [organism=Mus caroli] [GeneID=110307601] [isoform=X1]	isoform_X1|OGN|XP_021035476.1
+OGN	XP_029324047.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_029324047.1 Ogn [organism=Mus caroli] [GeneID=110307601] [isoform=X2]	isoform_X2|OGN|XP_029324047.1
+OGN	XP_030586286.1	GeneID=115780960	282	kept	representative	XP_030586286.1 ogna [organism=Archocentrus centrarchus] [GeneID=115780960]	GeneID_115780960|OGN|XP_030586286.1
+OGN	XP_065264803.1	GeneID=135881957	298	kept	representative	XP_065264803.1 OGN [organism=Emys orbicularis] [GeneID=135881957]	GeneID_135881957|OGN|XP_065264803.1
+OGN	XP_008289485.1	GeneID=103364217	282	kept	representative	XP_008289485.1 ogna [organism=Stegastes partitus] [GeneID=103364217]	GeneID_103364217|OGN|XP_008289485.1
+OGN	XP_005522268.1	GeneID=102102811	293	kept	representative	XP_005522268.1 OGN [organism=Pseudopodoces humilis] [GeneID=102102811]	GeneID_102102811|OGN|XP_005522268.1
+OGN	XP_008921821.1	GeneID=103757428	293	kept	representative	XP_008921821.1 OGN [organism=Manacus vitellinus] [GeneID=103757428]	GeneID_103757428|OGN|XP_008921821.1
+OGN	XP_082550459.1	GeneID=309845887	298	kept	representative	XP_082550459.1 OGN [organism=Mustela nivalis] [GeneID=309845887]	GeneID_309845887|OGN|XP_082550459.1
+OGN	XP_030357792.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_030357792.1 OGN [organism=Strigops habroptila] [GeneID=115614705] [isoform=X1]	isoform_X1|OGN|XP_030357792.1
+OGN	XP_030357793.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_030357793.1 OGN [organism=Strigops habroptila] [GeneID=115614705] [isoform=X1]	isoform_X1|OGN|XP_030357793.1
+OGN	XP_030357794.1	isoform=X2	247	excluded	extra_isoform_same_species	XP_030357794.1 OGN [organism=Strigops habroptila] [GeneID=115614705] [isoform=X2]	isoform_X2|OGN|XP_030357794.1
+OGN	XP_004620166.1	GeneID=101556668	298	kept	representative	XP_004620166.1 OGN [organism=Sorex araneus] [GeneID=101556668]	GeneID_101556668|OGN|XP_004620166.1
+OGN	XP_084398882.1	GeneID=311486764	282	kept	representative	XP_084398882.1 ogna [organism=Chelon labrosus] [GeneID=311486764]	GeneID_311486764|OGN|XP_084398882.1
+OGN	XP_062441217.1	GeneID=134145598	293	kept	representative	XP_062441217.1 OGN [organism=Rhea pennata] [GeneID=134145598]	GeneID_134145598|OGN|XP_062441217.1
+OGN	XP_050813850.1	GeneID=127053336	298	kept	representative	XP_050813850.1 OGN [organism=Gopherus flavomarginatus] [GeneID=127053336]	GeneID_127053336|OGN|XP_050813850.1
+OGN	XP_050813851.1	GeneID=127053336	298	excluded	extra_isoform_same_species	XP_050813851.1 OGN [organism=Gopherus flavomarginatus] [GeneID=127053336]	GeneID_127053336|OGN|XP_050813851.1
+OGN	XP_083012263.1	isoform=X1	338	excluded	extra_isoform_same_species	XP_083012263.1 OGN [organism=Crinia signifera] [GeneID=146025930] [isoform=X1]	isoform_X1|OGN|XP_083012263.1
+OGN	XP_083012264.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_083012264.1 OGN [organism=Crinia signifera] [GeneID=146025930] [isoform=X2]	isoform_X2|OGN|XP_083012264.1
+OGN	XP_083012265.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_083012265.1 OGN [organism=Crinia signifera] [GeneID=146025930] [isoform=X2]	isoform_X2|OGN|XP_083012265.1
+OGN	XP_025787333.1	GeneID=112868577	298	kept	representative	XP_025787333.1 OGN [organism=Puma concolor] [GeneID=112868577]	GeneID_112868577|OGN|XP_025787333.1
+OGN	XP_041945215.1	GeneID=121707053	296	kept	representative	XP_041945215.1 ogna [organism=Alosa sapidissima] [GeneID=121707053]	GeneID_121707053|OGN|XP_041945215.1
+OGN	XP_061076629.1	GeneID=133110488	287	kept	representative	XP_061076629.1 ogna [organism=Conger conger] [GeneID=133110488]	GeneID_133110488|OGN|XP_061076629.1
+OGN	XP_071458875.1	GeneID=114104743	296	kept	representative	XP_071458875.1 Ogn [organism=Marmota flaviventris] [GeneID=114104743]	GeneID_114104743|OGN|XP_071458875.1
+OGN	XP_072455320.1	GeneID=140497823	280	kept	representative	XP_072455320.1 OGN [organism=Notamacropus eugenii] [GeneID=140497823]	GeneID_140497823|OGN|XP_072455320.1
+OGN	XP_004598875.2	GeneID=101534761	298	kept	representative	XP_004598875.2 OGN [organism=Ochotona princeps] [GeneID=101534761]	GeneID_101534761|OGN|XP_004598875.2
+OGN	XP_058528938.1	GeneID=101534761	298	excluded	extra_isoform_same_species	XP_058528938.1 OGN [organism=Ochotona princeps] [GeneID=101534761]	GeneID_101534761|OGN|XP_058528938.1
+OGN	XP_027668756.1	GeneID=102054175	293	kept	representative	XP_027668756.1 OGN [organism=Falco cherrug] [GeneID=102054175]	GeneID_102054175|OGN|XP_027668756.1
+OGN	XP_086326435.1	GeneID=104339965	293	kept	representative	XP_086326435.1 OGN [organism=Leptosomus discolor] [GeneID=104339965]	GeneID_104339965|OGN|XP_086326435.1
+OGN	XP_074814315.1	GeneID=141990693	297	kept	representative	XP_074814315.1 OGN [organism=Natator depressus] [GeneID=141990693]	GeneID_141990693|OGN|XP_074814315.1
+OGN	XP_032492068.1	GeneID=116756012	299	kept	representative	XP_032492068.1 OGN [organism=Phocoena sinus] [GeneID=116756012]	GeneID_116756012|OGN|XP_032492068.1
+OGN	XP_032492069.1	GeneID=116756012	299	excluded	extra_isoform_same_species	XP_032492069.1 OGN [organism=Phocoena sinus] [GeneID=116756012]	GeneID_116756012|OGN|XP_032492069.1
+OGN	XP_038596082.1	GeneID=119919599	300	kept	representative	XP_038596082.1 OGN [organism=Tachyglossus aculeatus] [GeneID=119919599]	GeneID_119919599|OGN|XP_038596082.1
+OGN	XP_051483241.1	GeneID=127388147	298	kept	representative	XP_051483241.1 OGN [organism=Apus apus] [GeneID=127388147]	GeneID_127388147|OGN|XP_051483241.1
+OGN	XP_079396388.1	GeneID=306950109	293	kept	representative	XP_079396388.1 OGN [organism=Tetrao urogallus] [GeneID=306950109]	GeneID_306950109|OGN|XP_079396388.1
+OGN	XP_038551628.1	GeneID=119885598	285	kept	representative	XP_038551628.1 ogna [organism=Micropterus salmoides] [GeneID=119885598]	GeneID_119885598|OGN|XP_038551628.1
+OGN	XP_061056601.1	GeneID=133098004	299	kept	representative	XP_061056601.1 OGN [organism=Eubalaena glacialis] [GeneID=133098004]	GeneID_133098004|OGN|XP_061056601.1
+OGN	XP_072698700.1	GeneID=140641978	361	kept	representative	XP_072698700.1 OGN [organism=Canis lupus baileyi] [GeneID=140641978]	GeneID_140641978|OGN|XP_072698700.1
+OGN	XP_059118954.1	GeneID=131910983	298	kept	representative	XP_059118954.1 Ogn [organism=Peromyscus eremicus] [GeneID=131910983]	GeneID_131910983|OGN|XP_059118954.1
+OGN	XP_080037923.1	GeneID=145336949	309	kept	representative	XP_080037923.1 ogna [organism=Carcharhinus amblyrhynchos] [GeneID=145336949]	GeneID_145336949|OGN|XP_080037923.1
+OGN	XP_044121979.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_044121979.1 OGN [organism=Neogale vison] [GeneID=122917774] [isoform=X1]	isoform_X1|OGN|XP_044121979.1
+OGN	XP_044121980.1	isoform=X2	244	excluded	extra_isoform_same_species	XP_044121980.1 OGN [organism=Neogale vison] [GeneID=122917774] [isoform=X2]	isoform_X2|OGN|XP_044121980.1
+OGN	XP_080675984.1	isoform=1	298	excluded	extra_isoform_same_species	XP_080675984.1 OGN [organism=Martes martes] [GeneID=308353136] [isoform=1]	isoform_1|OGN|XP_080675984.1
+OGN	XP_080675985.1	isoform=2	215	excluded	extra_isoform_same_species	XP_080675985.1 OGN [organism=Martes martes] [GeneID=308353136] [isoform=2]	isoform_2|OGN|XP_080675985.1
+OGN	XP_012507284.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_012507284.1 OGN [organism=Propithecus coquereli] [GeneID=105816421] [isoform=X1]	isoform_X1|OGN|XP_012507284.1
+OGN	XP_012507285.1	isoform=X2	383	excluded	relative_length	XP_012507285.1 OGN [organism=Propithecus coquereli] [GeneID=105816421] [isoform=X2]	isoform_X2|OGN|XP_012507285.1
+OGN	XP_012507286.1	isoform=X3	298	excluded	extra_isoform_same_species	XP_012507286.1 OGN [organism=Propithecus coquereli] [GeneID=105816421] [isoform=X3]	isoform_X3|OGN|XP_012507286.1
+OGN	XP_013927126.1	GeneID=106553202	296	kept	representative	XP_013927126.1 OGN [organism=Thamnophis sirtalis] [GeneID=106553202]	GeneID_106553202|OGN|XP_013927126.1
+OGN	XP_013927127.1	GeneID=106553202	296	excluded	extra_isoform_same_species	XP_013927127.1 OGN [organism=Thamnophis sirtalis] [GeneID=106553202]	GeneID_106553202|OGN|XP_013927127.1
+OGN	XP_030812765.1	GeneID=115908371	291	kept	representative	XP_030812765.1 OGN [organism=Camarhynchus parvulus] [GeneID=115908371]	GeneID_115908371|OGN|XP_030812765.1
+OGN	XP_083459680.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083459680.1 OGN [organism=Podarcis filfolensis] [GeneID=310757820] [isoform=1]	isoform_1|OGN|XP_083459680.1
+OGN	XP_083459681.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083459681.1 OGN [organism=Podarcis filfolensis] [GeneID=310757820] [isoform=1]	isoform_1|OGN|XP_083459681.1
+OGN	XP_063147929.1	GeneID=134489269	297	kept	representative	XP_063147929.1 OGN [organism=Candoia aspera] [GeneID=134489269]	GeneID_134489269|OGN|XP_063147929.1
+OGN	XP_076012988.1	GeneID=143005457	292	kept	representative	XP_076012988.1 ogna [organism=Genypterus blacodes] [GeneID=143005457]	GeneID_143005457|OGN|XP_076012988.1
+OGN	XP_040611889.1	GeneID=101833723	296	kept	representative	XP_040611889.1 Ogn [organism=Mesocricetus auratus] [GeneID=101833723]	GeneID_101833723|OGN|XP_040611889.1
+OGN	XP_041812149.1	GeneID=121620239	283	kept	representative	XP_041812149.1 ogna [organism=Chelmon rostratus] [GeneID=121620239]	GeneID_121620239|OGN|XP_041812149.1
+OGN	XP_013800732.1	GeneID=106486656	293	kept	representative	XP_013800732.1 OGN [organism=Apteryx mantelli] [GeneID=106486656]	GeneID_106486656|OGN|XP_013800732.1
+OGN	XP_079856698.1	GeneID=307230294	286	kept	representative	XP_079856698.1 ogna [organism=Zeus faber] [GeneID=307230294]	GeneID_307230294|OGN|XP_079856698.1
+OGN	XP_085942272.1	GeneID=147167755	284	kept	representative	XP_085942272.1 ogna [organism=Leptonotus elevatus] [GeneID=147167755]	GeneID_147167755|OGN|XP_085942272.1
+OGN	XP_074952665.1	GeneID=142058778	293	kept	representative	XP_074952665.1 OGN [organism=Phalacrocorax aristotelis] [GeneID=142058778]	GeneID_142058778|OGN|XP_074952665.1
+OGN	XP_074952666.1	GeneID=142058778	293	excluded	extra_isoform_same_species	XP_074952666.1 OGN [organism=Phalacrocorax aristotelis] [GeneID=142058778]	GeneID_142058778|OGN|XP_074952666.1
+OGN	XP_077582645.1	GeneID=144203175	277	kept	representative	XP_077582645.1 ogna [organism=Stigmatopora nigra] [GeneID=144203175]	GeneID_144203175|OGN|XP_077582645.1
+OGN	XP_007577609.1	isoform=X2	280	excluded	extra_isoform_same_species	XP_007577609.1 ogna [organism=Poecilia formosa] [GeneID=103155741] [isoform=X2]	isoform_X2|OGN|XP_007577609.1
+OGN	XP_016519275.1	isoform=X1	281	excluded	extra_isoform_same_species	XP_016519275.1 ogna [organism=Poecilia formosa] [GeneID=103155741] [isoform=X1]	isoform_X1|OGN|XP_016519275.1
+OGN	XP_023791345.1	GeneID=111935216	293	kept	representative	XP_023791345.1 OGN [organism=Cyanistes caeruleus] [GeneID=111935216]	GeneID_111935216|OGN|XP_023791345.1
+OGN	XP_023791346.1	GeneID=111935216	293	excluded	extra_isoform_same_species	XP_023791346.1 OGN [organism=Cyanistes caeruleus] [GeneID=111935216]	GeneID_111935216|OGN|XP_023791346.1
+OGN	XP_030276565.1	GeneID=115583636	283	kept	representative	XP_030276565.1 ogna [organism=Sparus aurata] [GeneID=115583636]	GeneID_115583636|OGN|XP_030276565.1
+OGN	XP_033938177.1	GeneID=117446227	283	kept	representative	XP_033938177.1 ogna [organism=Pseudochaenichthys georgianus] [GeneID=117446227]	GeneID_117446227|OGN|XP_033938177.1
+OGN	XP_021550120.1	GeneID=110584410	298	kept	representative	XP_021550120.1 OGN [organism=Neomonachus schauinslandi] [GeneID=110584410]	GeneID_110584410|OGN|XP_021550120.1
+OGN	XP_036386274.1	GeneID=118778729	292	kept	representative	XP_036386274.1 ogna [organism=Megalops cyprinoides] [GeneID=118778729]	GeneID_118778729|OGN|XP_036386274.1
+OGN	XP_052500626.1	GeneID=128052194	357	kept	representative	XP_052500626.1 OGN [organism=Budorcas taxicolor] [GeneID=128052194]	GeneID_128052194|OGN|XP_052500626.1
+OGN	XP_006127625.2	GeneID=102449136	296	kept	representative	XP_006127625.2 OGN [organism=Pelodiscus sinensis] [GeneID=102449136]	GeneID_102449136|OGN|XP_006127625.2
+OGN	XP_083811095.1	GeneID=310974994	293	kept	representative	XP_083811095.1 OGN [organism=Clangula hyemalis] [GeneID=310974994]	GeneID_310974994|OGN|XP_083811095.1
+OGN	XP_026023014.1	GeneID=113022140	283	kept	representative	XP_026023014.1 ogna [organism=Astatotilapia calliptera] [GeneID=113022140]	GeneID_113022140|OGN|XP_026023014.1
+OGN	XP_026954138.1	GeneID=113615669	299	kept	representative	XP_026954138.1 OGN [organism=Aethalodelphis obliquidens] [GeneID=113615669]	GeneID_113615669|OGN|XP_026954138.1
+OGN	XP_026954139.1	GeneID=113615669	299	excluded	extra_isoform_same_species	XP_026954139.1 OGN [organism=Aethalodelphis obliquidens] [GeneID=113615669]	GeneID_113615669|OGN|XP_026954139.1
+OGN	XP_029057553.1	GeneID=114883749	299	kept	representative	XP_029057553.1 OGN [organism=Monodon monoceros] [GeneID=114883749]	GeneID_114883749|OGN|XP_029057553.1
+OGN	XP_082257076.1	GeneID=309632908	382	kept	representative	XP_082257076.1 OGN [organism=Balaenoptera borealis] [GeneID=309632908]	GeneID_309632908|OGN|XP_082257076.1
+OGN	XP_014720312.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_014720312.1 OGN [organism=Equus asinus] [GeneID=106846189] [isoform=X1]	isoform_X1|OGN|XP_014720312.1
+OGN	XP_044612733.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_044612733.1 OGN [organism=Equus asinus] [GeneID=106846189] [isoform=X2]	isoform_X2|OGN|XP_044612733.1
+OGN	XP_056707093.1	GeneID=130478868	296	kept	representative	XP_056707093.1 OGN [organism=Euleptes europaea] [GeneID=130478868]	GeneID_130478868|OGN|XP_056707093.1
+OGN	XP_003260541.1	GeneID=100600905	298	kept	representative	XP_003260541.1 OGN [organism=Nomascus leucogenys] [GeneID=100600905]	GeneID_100600905|OGN|XP_003260541.1
+OGN	XP_030660171.1	GeneID=100600905	298	excluded	extra_isoform_same_species	XP_030660171.1 OGN [organism=Nomascus leucogenys] [GeneID=100600905]	GeneID_100600905|OGN|XP_030660171.1
+OGN	XP_024125713.1	GeneID=112144993	280	kept	representative	XP_024125713.1 ogna [organism=Oryzias melastigma] [GeneID=112144993]	GeneID_112144993|OGN|XP_024125713.1
+OGN	XP_044512692.1	GeneID=123230627	288	kept	representative	XP_044512692.1 OGN [organism=Gracilinanus agilis] [GeneID=123230627]	GeneID_123230627|OGN|XP_044512692.1
+OGN	XP_053298759.1	GeneID=128458125	283	kept	representative	XP_053298759.1 ogna [organism=Pleuronectes platessa] [GeneID=128458125]	GeneID_128458125|OGN|XP_053298759.1
+OGN	XP_006161521.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_006161521.1 OGN [organism=Tupaia belangeri chinensis] [GeneID=102493616] [isoform=X1]	isoform_X1|OGN|XP_006161521.1
+OGN	XP_027621328.1	isoform=X2	351	excluded	extra_isoform_same_species	XP_027621328.1 OGN [organism=Tupaia belangeri chinensis] [GeneID=102493616] [isoform=X2]	isoform_X2|OGN|XP_027621328.1
+OGN	XP_048171305.1	GeneID=125331406	293	kept	representative	XP_048171305.1 OGN [organism=Corvus hawaiiensis] [GeneID=125331406]	GeneID_125331406|OGN|XP_048171305.1
+OGN	XP_050617516.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_050617516.1 OGN [organism=Macaca thibetana thibetana] [GeneID=126937808] [isoform=X1]	isoform_X1|OGN|XP_050617516.1
+OGN	XP_050617517.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_050617517.1 OGN [organism=Macaca thibetana thibetana] [GeneID=126937808] [isoform=X2]	isoform_X2|OGN|XP_050617517.1
+OGN	XP_041047326.1	GeneID=121279877	311	kept	representative	XP_041047326.1 ogna [organism=Carcharodon carcharias] [GeneID=121279877]	GeneID_121279877|OGN|XP_041047326.1
+OGN	XP_006783027.1	GeneID=102796314	283	kept	representative	XP_006783027.1 ogna [organism=Neolamprologus brichardi] [GeneID=102796314]	GeneID_102796314|OGN|XP_006783027.1
+OGN	XP_020662287.1	GeneID=110085976	307	kept	representative	XP_020662287.1 OGN [organism=Pogona vitticeps] [GeneID=110085976]	GeneID_110085976|OGN|XP_020662287.1
+OGN	XP_078241575.1	GeneID=110085976	307	excluded	extra_isoform_same_species	XP_078241575.1 OGN [organism=Pogona vitticeps] [GeneID=110085976]	GeneID_110085976|OGN|XP_078241575.1
+OGN	XP_060621896.2	GeneID=132769211	302	kept	representative	XP_060621896.2 OGN [organism=Anolis sagrei] [GeneID=132769211]	GeneID_132769211|OGN|XP_060621896.2
+OGN	XP_060621897.2	GeneID=132769211	302	excluded	extra_isoform_same_species	XP_060621897.2 OGN [organism=Anolis sagrei] [GeneID=132769211]	GeneID_132769211|OGN|XP_060621897.2
+OGN	XP_060621898.2	GeneID=132769211	302	excluded	extra_isoform_same_species	XP_060621898.2 OGN [organism=Anolis sagrei] [GeneID=132769211]	GeneID_132769211|OGN|XP_060621898.2
+OGN	XP_046236738.1	GeneID=124054589	283	kept	representative	XP_046236738.1 ogna [organism=Scatophagus argus] [GeneID=124054589]	GeneID_124054589|OGN|XP_046236738.1
+OGN	XP_005881721.1	GeneID=102248701	290	kept	representative	XP_005881721.1 OGN [organism=Myotis brandtii] [GeneID=102248701]	GeneID_102248701|OGN|XP_005881721.1
+OGN	XP_062486663.1	GeneID=134169821	299	kept	representative	XP_062486663.1 OGN [organism=Pezoporus occidentalis] [GeneID=134169821]	GeneID_134169821|OGN|XP_062486663.1
+OGN	XP_062486664.1	GeneID=134169821	299	excluded	extra_isoform_same_species	XP_062486664.1 OGN [organism=Pezoporus occidentalis] [GeneID=134169821]	GeneID_134169821|OGN|XP_062486664.1
+OGN	XP_078270151.1	GeneID=144601718	306	kept	representative	XP_078270151.1 ogna [organism=Rhinoraja longicauda] [GeneID=144601718]	GeneID_144601718|OGN|XP_078270151.1
+OGN	XP_017675376.1	GeneID=108499729	293	kept	representative	XP_017675376.1 OGN [organism=Lepidothrix coronata] [GeneID=108499729]	GeneID_108499729|OGN|XP_017675376.1
+OGN	XP_030150228.1	GeneID=115500054	298	kept	representative	XP_030150228.1 OGN [organism=Lynx canadensis] [GeneID=115500054]	GeneID_115500054|OGN|XP_030150228.1
+OGN	XP_065099723.1	GeneID=135721428	287	kept	representative	XP_065099723.1 ogna [organism=Paramisgurnus dabryanus] [GeneID=135721428]	GeneID_135721428|OGN|XP_065099723.1
+OGN	XP_056128756.1	GeneID=130106604	289	kept	representative	XP_056128756.1 ogna [organism=Lampris incognitus] [GeneID=130106604]	GeneID_130106604|OGN|XP_056128756.1
+OGN	XP_006261180.1	isoform=X2	293	excluded	extra_isoform_same_species	XP_006261180.1 OGN [organism=Alligator mississippiensis] [GeneID=102558923] [isoform=X2]	isoform_X2|OGN|XP_006261180.1
+OGN	XP_059572037.1	isoform=X1	295	excluded	extra_isoform_same_species	XP_059572037.1 OGN [organism=Alligator mississippiensis] [GeneID=102558923] [isoform=X1]	isoform_X1|OGN|XP_059572037.1
+OGN	XP_004313641.1	GeneID=101332013	299	kept	representative	XP_004313641.1 OGN [organism=Tursiops truncatus] [GeneID=101332013]	GeneID_101332013|OGN|XP_004313641.1
+OGN	XP_019796033.1	GeneID=101332013	299	excluded	extra_isoform_same_species	XP_019796033.1 OGN [organism=Tursiops truncatus] [GeneID=101332013]	GeneID_101332013|OGN|XP_019796033.1
+OGN	XP_067601045.1	GeneID=137228050	299	kept	representative	XP_067601045.1 OGN [organism=Pseudorca crassidens] [GeneID=137228050]	GeneID_137228050|OGN|XP_067601045.1
+OGN	XP_067601046.1	GeneID=137228050	299	excluded	extra_isoform_same_species	XP_067601046.1 OGN [organism=Pseudorca crassidens] [GeneID=137228050]	GeneID_137228050|OGN|XP_067601046.1
+OGN	XP_009935750.2	GeneID=104332061	293	kept	representative	XP_009935750.2 OGN [organism=Opisthocomus hoazin] [GeneID=104332061]	GeneID_104332061|OGN|XP_009935750.2
+OGN	XP_059268016.1	GeneID=132024879	298	kept	representative	XP_059268016.1 OGN [organism=Mustela nigripes] [GeneID=132024879]	GeneID_132024879|OGN|XP_059268016.1
+OGN	XP_083748534.1	GeneID=310929600	285	kept	representative	XP_083748534.1 ogna [organism=Microchirus variegatus] [GeneID=310929600]	GeneID_310929600|OGN|XP_083748534.1
+OGN	XP_048877958.1	isoform=X1	276	excluded	extra_isoform_same_species	XP_048877958.1 ogna [organism=Brienomyrus brachyistius] [GeneID=125747154] [isoform=X1]	isoform_X1|OGN|XP_048877958.1
+OGN	XP_048877959.1	isoform=X2	275	excluded	extra_isoform_same_species	XP_048877959.1 ogna [organism=Brienomyrus brachyistius] [GeneID=125747154] [isoform=X2]	isoform_X2|OGN|XP_048877959.1
+OGN	XP_050950150.1	GeneID=127153218	289	kept	representative	XP_050950150.1 ogna [organism=Labeo rohita] [GeneID=127153218]	GeneID_127153218|OGN|XP_050950150.1
+OGN	XP_060691480.1	GeneID=132822298	311	kept	representative	XP_060691480.1 ogna [organism=Hemiscyllium ocellatum] [GeneID=132822298]	GeneID_132822298|OGN|XP_060691480.1
+OGN	XP_081704699.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081704699.1 OGN [organism=Podarcis erhardii] [GeneID=309334336] [isoform=1]	isoform_1|OGN|XP_081704699.1
+OGN	XP_081704700.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081704700.1 OGN [organism=Podarcis erhardii] [GeneID=309334336] [isoform=1]	isoform_1|OGN|XP_081704700.1
+OGN	XP_068057648.1	GeneID=137480487	293	kept	representative	XP_068057648.1 OGN [organism=Anomalospiza imberbis] [GeneID=137480487]	GeneID_137480487|OGN|XP_068057648.1
+OGN	XP_010085860.1	GeneID=104472026	293	kept	representative	XP_010085860.1 OGN [organism=Pterocles gutturalis] [GeneID=104472026]	GeneID_104472026|OGN|XP_010085860.1
+OGN	XP_058027315.1	GeneID=131192306	298	kept	representative	XP_058027315.1 OGN [organism=Ahaetulla prasina] [GeneID=131192306]	GeneID_131192306|OGN|XP_058027315.1
+OGN	XP_058027316.1	GeneID=131192306	298	excluded	extra_isoform_same_species	XP_058027316.1 OGN [organism=Ahaetulla prasina] [GeneID=131192306]	GeneID_131192306|OGN|XP_058027316.1
+OGN	XP_071380733.1	GeneID=139648493	289	kept	representative	XP_071380733.1 ogna [organism=Centroberyx affinis] [GeneID=139648493]	GeneID_139648493|OGN|XP_071380733.1
+OGN	XP_037239135.1	GeneID=119146105	293	kept	representative	XP_037239135.1 OGN [organism=Falco rusticolus] [GeneID=119146105]	GeneID_119146105|OGN|XP_037239135.1
+OGN	XP_082673135.1	GeneID=309904993	293	kept	representative	XP_082673135.1 OGN [organism=Cygnus columbianus] [GeneID=309904993]	GeneID_309904993|OGN|XP_082673135.1
+OGN	XP_085014949.1	GeneID=146518114	283	kept	representative	XP_085014949.1 ogna [organism=Neolamprologus multifasciatus] [GeneID=146518114]	GeneID_146518114|OGN|XP_085014949.1
+OGN	XP_005025680.1	GeneID=101796514	293	kept	representative	XP_005025680.1 OGN [organism=Anas platyrhynchos] [GeneID=101796514]	GeneID_101796514|OGN|XP_005025680.1
+OGN	XP_040449460.1	GeneID=121087965	293	kept	representative	XP_040449460.1 OGN [organism=Falco naumanni] [GeneID=121087965]	GeneID_121087965|OGN|XP_040449460.1
+OGN	XP_027691700.1	GeneID=114023295	285	kept	representative	XP_027691700.1 OGN [organism=Vombatus ursinus] [GeneID=114023295]	GeneID_114023295|OGN|XP_027691700.1
+OGN	XP_053577164.1	GeneID=128666531	295	kept	representative	XP_053577164.1 OGN [organism=Bombina bombina] [GeneID=128666531]	GeneID_128666531|OGN|XP_053577164.1
+OGN	XP_006757465.1	GeneID=102760618	290	kept	representative	XP_006757465.1 OGN [organism=Myotis davidii] [GeneID=102760618]	GeneID_102760618|OGN|XP_006757465.1
+OGN	XP_009478049.1	GeneID=104028679	293	kept	representative	XP_009478049.1 OGN [organism=Pelecanus crispus] [GeneID=104028679]	GeneID_104028679|OGN|XP_009478049.1
+OGN	XP_064823493.1	isoform=X1	314	excluded	extra_isoform_same_species	XP_064823493.1 ogna [organism=Oncorhynchus masou masou] [GeneID=135541291] [isoform=X1]	isoform_X1|OGN|XP_064823493.1
+OGN	XP_064823494.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_064823494.1 ogna [organism=Oncorhynchus masou masou] [GeneID=135541291] [isoform=X2]	isoform_X2|OGN|XP_064823494.1
+OGN	XP_060925601.1	GeneID=132999841	283	kept	representative	XP_060925601.1 ogna [organism=Limanda limanda] [GeneID=132999841]	GeneID_132999841|OGN|XP_060925601.1
+OGN	XP_079282266.1	isoform=1	288	excluded	extra_isoform_same_species	XP_079282266.1 LOC306875512 [organism=Barbus barbus] [GeneID=306875512] [isoform=1]	isoform_1|OGN|XP_079282266.1
+OGN	XP_079282267.1	isoform=2	281	excluded	extra_isoform_same_species	XP_079282267.1 LOC306875512 [organism=Barbus barbus] [GeneID=306875512] [isoform=2]	isoform_2|OGN|XP_079282267.1
+OGN	XP_034058231.1	GeneID=117537191	283	kept	representative	XP_034058231.1 ogna [organism=Gymnodraco acuticeps] [GeneID=117537191]	GeneID_117537191|OGN|XP_034058231.1
+OGN	XP_059336436.1	GeneID=132078359	291	kept	representative	XP_059336436.1 OGN [organism=Ammospiza nelsoni] [GeneID=132078359]	GeneID_132078359|OGN|XP_059336436.1
+OGN	XP_072277275.1	GeneID=140337420	297	kept	representative	XP_072277275.1 OGN [organism=Pyxicephalus adspersus] [GeneID=140337420]	GeneID_140337420|OGN|XP_072277275.1
+OGN	XP_048813979.1	GeneID=125698993	293	kept	representative	XP_048813979.1 OGN [organism=Lagopus muta] [GeneID=125698993]	GeneID_125698993|OGN|XP_048813979.1
+OGN	XP_048813980.1	GeneID=125698993	293	excluded	extra_isoform_same_species	XP_048813980.1 OGN [organism=Lagopus muta] [GeneID=125698993]	GeneID_125698993|OGN|XP_048813980.1
+OGN	XP_060766609.1	GeneID=132874444	284	kept	representative	XP_060766609.1 ogna [organism=Neoarius graeffei] [GeneID=132874444]	GeneID_132874444|OGN|XP_060766609.1
+OGN	XP_062271788.1	GeneID=133977601	283	kept	representative	XP_062271788.1 ogna [organism=Scomber scombrus] [GeneID=133977601]	GeneID_133977601|OGN|XP_062271788.1
+OGN	XP_081990549.1	GeneID=309473571	293	kept	representative	XP_081990549.1 OGN [organism=Larus argentatus] [GeneID=309473571]	GeneID_309473571|OGN|XP_081990549.1
+OGN	XP_041638596.1	GeneID=121506791	283	kept	representative	XP_041638596.1 ogna [organism=Cheilinus undulatus] [GeneID=121506791]	GeneID_121506791|OGN|XP_041638596.1
+OGN	XP_045324825.1	GeneID=123593252	298	kept	representative	XP_045324825.1 OGN [organism=Leopardus geoffroyi] [GeneID=123593252]	GeneID_123593252|OGN|XP_045324825.1
+OGN	XP_059958385.1	GeneID=132492681	299	kept	representative	XP_059958385.1 OGN [organism=Mesoplodon densirostris] [GeneID=132492681]	GeneID_132492681|OGN|XP_059958385.1
+OGN	XP_023655487.1	isoform=X1	276	excluded	extra_isoform_same_species	XP_023655487.1 ogna [organism=Paramormyrops kingsleyae] [GeneID=111837541] [isoform=X1]	isoform_X1|OGN|XP_023655487.1
+OGN	XP_072571673.1	isoform=X2	275	excluded	extra_isoform_same_species	XP_072571673.1 ogna [organism=Paramormyrops kingsleyae] [GeneID=111837541] [isoform=X2]	isoform_X2|OGN|XP_072571673.1
+OGN	XP_034366679.1	GeneID=117714135	298	kept	representative	XP_034366679.1 Ogn [organism=Arvicanthis niloticus] [GeneID=117714135]	GeneID_117714135|OGN|XP_034366679.1
+OGN	XP_071193130.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_071193130.1 ogna [organism=Salvelinus alpinus] [GeneID=139536475] [isoform=X1]	isoform_X1|OGN|XP_071193130.1
+OGN	XP_071193131.1	isoform=X2	264	excluded	extra_isoform_same_species	XP_071193131.1 ogna [organism=Salvelinus alpinus] [GeneID=139536475] [isoform=X2]	isoform_X2|OGN|XP_071193131.1
+OGN	XP_038668531.1	GeneID=119973939	303	kept	representative	XP_038668531.1 ogna [organism=Scyliorhinus canicula] [GeneID=119973939]	GeneID_119973939|OGN|XP_038668531.1
+OGN	XP_005807625.1	GeneID=102232901	281	kept	representative	XP_005807625.1 ogna [organism=Xiphophorus maculatus] [GeneID=102232901]	GeneID_102232901|OGN|XP_005807625.1
+OGN	XP_061543730.1	GeneID=133408643	288	kept	representative	XP_061543730.1 ogna [organism=Phycodurus eques] [GeneID=133408643]	GeneID_133408643|OGN|XP_061543730.1
+OGN	XP_009818290.1	GeneID=104263334	293	kept	representative	XP_009818290.1 OGN [organism=Gavia stellata] [GeneID=104263334]	GeneID_104263334|OGN|XP_009818290.1
+OGN	XP_059679091.1	GeneID=104263334	293	excluded	extra_isoform_same_species	XP_059679091.1 OGN [organism=Gavia stellata] [GeneID=104263334]	GeneID_104263334|OGN|XP_059679091.1
+OGN	XP_085158606.1	GeneID=146597253	293	kept	representative	XP_085158606.1 OGN [organism=Rhea americana] [GeneID=146597253]	GeneID_146597253|OGN|XP_085158606.1
+OGN	XP_036752787.1	GeneID=118918258	298	kept	representative	XP_036752787.1 OGN [organism=Manis pentadactyla] [GeneID=118918258]	GeneID_118918258|OGN|XP_036752787.1
+OGN	XP_086056293.1	GeneID=147268522	282	kept	representative	XP_086056293.1 ogna [organism=Aulostomus chinensis] [GeneID=147268522]	GeneID_147268522|OGN|XP_086056293.1
+OGN	XP_013056827.1	GeneID=106049190	293	kept	representative	XP_013056827.1 OGN [organism=Anser cygnoides] [GeneID=106049190]	GeneID_106049190|OGN|XP_013056827.1
+OGN	XP_058928409.1	GeneID=131761559	299	kept	representative	XP_058928409.1 OGN [organism=Kogia breviceps] [GeneID=131761559]	GeneID_131761559|OGN|XP_058928409.1
+OGN	XP_066897235.1	GeneID=131761559	299	excluded	extra_isoform_same_species	XP_066897235.1 OGN [organism=Kogia breviceps] [GeneID=131761559]	GeneID_131761559|OGN|XP_066897235.1
+OGN	XP_065543141.1	GeneID=136018118	299	kept	representative	XP_065543141.1 OGN [organism=Lathamus discolor] [GeneID=136018118]	GeneID_136018118|OGN|XP_065543141.1
+OGN	XP_065543142.1	GeneID=136018118	299	excluded	extra_isoform_same_species	XP_065543142.1 OGN [organism=Lathamus discolor] [GeneID=136018118]	GeneID_136018118|OGN|XP_065543142.1
+OGN	XP_079173298.1	GeneID=306807521	291	kept	representative	XP_079173298.1 OGN [organism=Erithacus rubecula] [GeneID=306807521]	GeneID_306807521|OGN|XP_079173298.1
+OGN	XP_031977181.1	GeneID=116449610	293	kept	representative	XP_031977181.1 OGN [organism=Corvus moneduloides] [GeneID=116449610]	GeneID_116449610|OGN|XP_031977181.1
+OGN	XP_036043888.1	GeneID=118584053	371	kept	representative	XP_036043888.1 Ogn [organism=Onychomys torridus] [GeneID=118584053]	GeneID_118584053|OGN|XP_036043888.1
+OGN	XP_025215774.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_025215774.1 OGN [organism=Theropithecus gelada] [GeneID=112608213] [isoform=X1]	isoform_X1|OGN|XP_025215774.1
+OGN	XP_025215777.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_025215777.1 OGN [organism=Theropithecus gelada] [GeneID=112608213] [isoform=X2]	isoform_X2|OGN|XP_025215777.1
+OGN	XP_038188961.1	GeneID=119816414	298	kept	representative	XP_038188961.1 Ogn [organism=Arvicola amphibius] [GeneID=119816414]	GeneID_119816414|OGN|XP_038188961.1
+OGN	XP_038188963.1	GeneID=119816414	298	excluded	extra_isoform_same_species	XP_038188963.1 Ogn [organism=Arvicola amphibius] [GeneID=119816414]	GeneID_119816414|OGN|XP_038188963.1
+OGN	XP_032927087.1	GeneID=117002280	293	kept	representative	XP_032927087.1 OGN [organism=Catharus ustulatus] [GeneID=117002280]	GeneID_117002280|OGN|XP_032927087.1
+OGN	XP_085780374.1	GeneID=147049620	277	kept	representative	XP_085780374.1 ogna [organism=Syngnathus leptorhynchus] [GeneID=147049620]	GeneID_147049620|OGN|XP_085780374.1
+OGN	XP_045878209.1	GeneID=123952777	356	kept	representative	XP_045878209.1 OGN [organism=Meles meles] [GeneID=123952777]	GeneID_123952777|OGN|XP_045878209.1
+OGN	XP_079365431.1	GeneID=306928975	269	kept	representative	XP_079365431.1 ogna [organism=Electrona antarctica] [GeneID=306928975]	GeneID_306928975|OGN|XP_079365431.1
+OGN	XP_019486060.1	GeneID=109375240	298	kept	representative	XP_019486060.1 OGN [organism=Hipposideros armiger] [GeneID=109375240]	GeneID_109375240|OGN|XP_019486060.1
+OGN	XP_020377273.1	GeneID=109921652	309	kept	representative	XP_020377273.1 ogna [organism=Rhincodon typus] [GeneID=109921652]	GeneID_109921652|OGN|XP_020377273.1
+OGN	XP_055983764.1	GeneID=130035864	298	kept	representative	XP_055983764.1 OGN [organism=Sorex fumeus] [GeneID=130035864]	GeneID_130035864|OGN|XP_055983764.1
+OGN	XP_048288959.2	GeneID=125399565	298	kept	representative	XP_048288959.2 Ogn [organism=Myodes glareolus] [GeneID=125399565]	GeneID_125399565|OGN|XP_048288959.2
+OGN	XP_084650824.1	isoform=1	371	excluded	extra_isoform_same_species	XP_084650824.1 OGN [organism=Acomys minous] [GeneID=311604668] [isoform=1]	isoform_1|OGN|XP_084650824.1
+OGN	XP_084650825.1	isoform=2	298	excluded	extra_isoform_same_species	XP_084650825.1 OGN [organism=Acomys minous] [GeneID=311604668] [isoform=2]	isoform_2|OGN|XP_084650825.1
+OGN	XP_001145422.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_001145422.1 OGN [organism=Pan troglodytes] [GeneID=739901] [isoform=X1]	isoform_X1|OGN|XP_001145422.1
+OGN	XP_063644590.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_063644590.1 OGN [organism=Pan troglodytes] [GeneID=739901] [isoform=X2]	isoform_X2|OGN|XP_063644590.1
+OGN	XP_080351313.1	GeneID=308129305	283	kept	representative	XP_080351313.1 ogna [organism=Blennius ocellaris] [GeneID=308129305]	GeneID_308129305|OGN|XP_080351313.1
+OGN	XP_080649563.1	GeneID=308336159	269	kept	representative	XP_080649563.1 ogna [organism=Protomyctophum bolini] [GeneID=308336159]	GeneID_308336159|OGN|XP_080649563.1
+OGN	XP_006025939.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_006025939.1 OGN [organism=Alligator sinensis] [GeneID=102368043] [isoform=X1]	isoform_X1|OGN|XP_006025939.1
+OGN	XP_006025940.1	isoform=X2	293	excluded	extra_isoform_same_species	XP_006025940.1 OGN [organism=Alligator sinensis] [GeneID=102368043] [isoform=X2]	isoform_X2|OGN|XP_006025940.1
+OGN	XP_010290000.1	GeneID=104615462	293	kept	representative	XP_010290000.1 OGN [organism=Phaethon lepturus] [GeneID=104615462]	GeneID_104615462|OGN|XP_010290000.1
+OGN	XP_051874866.1	GeneID=127572059	309	kept	representative	XP_051874866.1 ogna [organism=Pristis pectinata] [GeneID=127572059]	GeneID_127572059|OGN|XP_051874866.1
+OGN	XP_058615608.1	GeneID=131529755	288	kept	representative	XP_058615608.1 ogna [organism=Onychostoma macrolepis] [GeneID=131529755]	GeneID_131529755|OGN|XP_058615608.1
+OGN	XP_063267928.1	GeneID=134558217	292	kept	representative	XP_063267928.1 OGN [organism=Prinia subflava] [GeneID=134558217]	GeneID_134558217|OGN|XP_063267928.1
+OGN	XP_037634408.1	GeneID=119493303	283	kept	representative	XP_037634408.1 ogna [organism=Sebastes umbrosus] [GeneID=119493303]	GeneID_119493303|OGN|XP_037634408.1
+OGN	XP_061202980.1	GeneID=133208821	299	kept	representative	XP_061202980.1 OGN [organism=Neopsephotus bourkii] [GeneID=133208821]	GeneID_133208821|OGN|XP_061202980.1
+OGN	XP_062315149.1	GeneID=134018856	298	kept	representative	XP_062315149.1 ogna [organism=Osmerus eperlanus] [GeneID=134018856]	GeneID_134018856|OGN|XP_062315149.1
+OGN	XP_076865407.1	GeneID=143517129	289	kept	representative	XP_076865407.1 ogna [organism=Brachyhypopomus gauderio] [GeneID=143517129]	GeneID_143517129|OGN|XP_076865407.1
+OGN	XP_081380520.1	GeneID=145519386	299	kept	representative	XP_081380520.1 OGN [organism=Giraffa tippelskirchi] [GeneID=145519386]	GeneID_145519386|OGN|XP_081380520.1
+OGN	XP_081380521.1	GeneID=145519386	299	excluded	extra_isoform_same_species	XP_081380521.1 OGN [organism=Giraffa tippelskirchi] [GeneID=145519386]	GeneID_145519386|OGN|XP_081380521.1
+OGN	XP_081380522.1	GeneID=145519386	299	excluded	extra_isoform_same_species	XP_081380522.1 OGN [organism=Giraffa tippelskirchi] [GeneID=145519386]	GeneID_145519386|OGN|XP_081380522.1
+OGN	XP_003795094.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_003795094.1 OGN [organism=Otolemur garnettii] [GeneID=100963756] [isoform=X2]	isoform_X2|OGN|XP_003795094.1
+OGN	XP_003795095.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_003795095.1 OGN [organism=Otolemur garnettii] [GeneID=100963756] [isoform=X1]	isoform_X1|OGN|XP_003795095.1
+OGN	XP_023372007.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_023372007.1 OGN [organism=Otolemur garnettii] [GeneID=100963756] [isoform=X2]	isoform_X2|OGN|XP_023372007.1
+OGN	XP_004647608.1	GeneID=101576892	298	kept	representative	XP_004647608.1 Ogn [organism=Octodon degus] [GeneID=101576892]	GeneID_101576892|OGN|XP_004647608.1
+OGN	XP_033781955.1	GeneID=117351165	291	kept	representative	XP_033781955.1 OGN [organism=Geotrypetes seraphini] [GeneID=117351165]	GeneID_117351165|OGN|XP_033781955.1
+OGN	XP_021513900.1	GeneID=110561708	297	kept	representative	XP_021513900.1 Ogn [organism=Meriones unguiculatus] [GeneID=110561708]	GeneID_110561708|OGN|XP_021513900.1
+OGN	XP_060228256.1	GeneID=110561708	297	excluded	extra_isoform_same_species	XP_060228256.1 Ogn [organism=Meriones unguiculatus] [GeneID=110561708]	GeneID_110561708|OGN|XP_060228256.1
+OGN	XP_084929156.1	GeneID=146431869	293	kept	representative	XP_084929156.1 OGN [organism=Lichenostomus cassidix] [GeneID=146431869]	GeneID_146431869|OGN|XP_084929156.1
+OGN	XP_003938253.2	GeneID=101043906	356	kept	representative	XP_003938253.2 OGN [organism=Saimiri boliviensis] [GeneID=101043906]	GeneID_101043906|OGN|XP_003938253.2
+OGN	XP_064579985.1	GeneID=135453166	291	kept	representative	XP_064579985.1 OGN [organism=Zonotrichia leucophrys gambelii] [GeneID=135453166]	GeneID_135453166|OGN|XP_064579985.1
+OGN	XP_032164310.1	GeneID=116570827	298	kept	representative	XP_032164310.1 OGN [organism=Mustela erminea] [GeneID=116570827]	GeneID_116570827|OGN|XP_032164310.1
+OGN	XP_007529235.1	isoform=X2	297	excluded	extra_isoform_same_species	XP_007529235.1 OGN [organism=Erinaceus europaeus] [GeneID=103118940] [isoform=X2]	isoform_X2|OGN|XP_007529235.1
+OGN	XP_016046333.1	isoform=X2	297	excluded	extra_isoform_same_species	XP_016046333.1 OGN [organism=Erinaceus europaeus] [GeneID=103118940] [isoform=X2]	isoform_X2|OGN|XP_016046333.1
+OGN	XP_060056578.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_060056578.1 OGN [organism=Erinaceus europaeus] [GeneID=103118940] [isoform=X1]	isoform_X1|OGN|XP_060056578.1
+OGN	XP_060056579.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_060056579.1 OGN [organism=Erinaceus europaeus] [GeneID=103118940] [isoform=X1]	isoform_X1|OGN|XP_060056579.1
+OGN	XP_060056580.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_060056580.1 OGN [organism=Erinaceus europaeus] [GeneID=103118940] [isoform=X1]	isoform_X1|OGN|XP_060056580.1
+OGN	XP_030703097.1	GeneID=115847435	299	kept	representative	XP_030703097.1 OGN [organism=Globicephala melas] [GeneID=115847435]	GeneID_115847435|OGN|XP_030703097.1
+OGN	XP_069330116.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_069330116.1 OGN [organism=Eulemur rufifrons] [GeneID=138387122] [isoform=X1]	isoform_X1|OGN|XP_069330116.1
+OGN	XP_069330117.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_069330117.1 OGN [organism=Eulemur rufifrons] [GeneID=138387122] [isoform=X2]	isoform_X2|OGN|XP_069330117.1
+OGN	XP_032996653.1	GeneID=117041715	306	kept	representative	XP_032996653.1 OGN [organism=Lacerta agilis] [GeneID=117041715]	GeneID_117041715|OGN|XP_032996653.1
+OGN	XP_032996654.1	GeneID=117041715	306	excluded	extra_isoform_same_species	XP_032996654.1 OGN [organism=Lacerta agilis] [GeneID=117041715]	GeneID_117041715|OGN|XP_032996654.1
+OGN	XP_033829571.1	GeneID=117377297	312	kept	representative	XP_033829571.1 ogna [organism=Periophthalmus magnuspinnatus] [GeneID=117377297]	GeneID_117377297|OGN|XP_033829571.1
+OGN	XP_049895124.1	GeneID=126386675	283	kept	representative	XP_049895124.1 ogna [organism=Epinephelus moara] [GeneID=126386675]	GeneID_126386675|OGN|XP_049895124.1
+OGN	XP_060897248.1	GeneID=132976960	283	kept	representative	XP_060897248.1 ogna [organism=Labrus mixtus] [GeneID=132976960]	GeneID_132976960|OGN|XP_060897248.1
+OGN	XP_004384277.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_004384277.1 OGN [organism=Trichechus manatus latirostris] [GeneID=101356491] [isoform=X1]	isoform_X1|OGN|XP_004384277.1
+OGN	XP_012413271.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_012413271.1 OGN [organism=Trichechus manatus latirostris] [GeneID=101356491] [isoform=X2]	isoform_X2|OGN|XP_012413271.1
+OGN	XP_035245248.1	GeneID=118211844	298	kept	representative	XP_035245248.1 ogna [organism=Anguilla anguilla] [GeneID=118211844]	GeneID_118211844|OGN|XP_035245248.1
+OGN	XP_005582312.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_005582312.1 OGN [organism=Macaca fascicularis] [GeneID=102127435] [isoform=X1]	isoform_X1|OGN|XP_005582312.1
+OGN	XP_045228918.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_045228918.1 OGN [organism=Macaca fascicularis] [GeneID=102127435] [isoform=X2]	isoform_X2|OGN|XP_045228918.1
+OGN	XP_079539077.1	GeneID=307040275	283	kept	representative	XP_079539077.1 ogna [organism=Notothenia rossii] [GeneID=307040275]	GeneID_307040275|OGN|XP_079539077.1
+OGN	XP_037534952.1	GeneID=119412047	281	kept	representative	XP_037534952.1 ogna [organism=Nematolebias whitei] [GeneID=119412047]	GeneID_119412047|OGN|XP_037534952.1
+OGN	XP_084203844.1	GeneID=311253677	283	kept	representative	XP_084203844.1 ogna [organism=Pagrus pagrus] [GeneID=311253677]	GeneID_311253677|OGN|XP_084203844.1
+OGN	XP_074533224.1	GeneID=141796153	283	kept	representative	XP_074533224.1 ogna [organism=Halichoeres trimaculatus] [GeneID=141796153]	GeneID_141796153|OGN|XP_074533224.1
+OGN	XP_039932027.1	GeneID=120758161	293	kept	representative	XP_039932027.1 OGN [organism=Hirundo rustica] [GeneID=120758161]	GeneID_120758161|OGN|XP_039932027.1
+OGN	XP_049492463.1	GeneID=125926735	298	kept	representative	XP_049492463.1 OGN [organism=Panthera uncia] [GeneID=125926735]	GeneID_125926735|OGN|XP_049492463.1
+OGN	XP_049492548.1	GeneID=125926735	298	excluded	extra_isoform_same_species	XP_049492548.1 OGN [organism=Panthera uncia] [GeneID=125926735]	GeneID_125926735|OGN|XP_049492548.1
+OGN	XP_049626078.1	GeneID=126003768	356	kept	representative	XP_049626078.1 OGN [organism=Suncus etruscus] [GeneID=126003768]	GeneID_126003768|OGN|XP_049626078.1
+OGN	XP_054136687.1	GeneID=128939626	291	kept	representative	XP_054136687.1 OGN [organism=Melozone crissalis] [GeneID=128939626]	GeneID_128939626|OGN|XP_054136687.1
+OGN	XP_040060676.2	GeneID=120835645	283	kept	representative	XP_040060676.2 ogna [organism=Gasterosteus aculeatus] [GeneID=120835645]	GeneID_120835645|OGN|XP_040060676.2
+OGN	XP_086611890.1	GeneID=104484476	298	kept	representative	XP_086611890.1 OGN [organism=Chlamydotis macqueenii] [GeneID=104484476]	GeneID_104484476|OGN|XP_086611890.1
+OGN	XP_068171094.1	GeneID=137595129	286	kept	representative	XP_068171094.1 ogna [organism=Antennarius striatus] [GeneID=137595129]	GeneID_137595129|OGN|XP_068171094.1
+OGN	XP_079783692.1	isoform=1	299	excluded	extra_isoform_same_species	XP_079783692.1 OGN [organism=Stenella coeruleoalba] [GeneID=307189475] [isoform=1]	isoform_1|OGN|XP_079783692.1
+OGN	XP_079783693.1	isoform=1	299	excluded	extra_isoform_same_species	XP_079783693.1 OGN [organism=Stenella coeruleoalba] [GeneID=307189475] [isoform=1]	isoform_1|OGN|XP_079783693.1
+OGN	XP_081119693.1	GeneID=308631979	296	kept	representative	XP_081119693.1 OGN [organism=Spermophilus citellus] [GeneID=308631979]	GeneID_308631979|OGN|XP_081119693.1
+OGN	XP_004717793.1	GeneID=101648750	296	kept	representative	XP_004717793.1 OGN [organism=Echinops telfairi] [GeneID=101648750]	GeneID_101648750|OGN|XP_004717793.1
+OGN	XP_045154582.1	GeneID=101648750	296	excluded	extra_isoform_same_species	XP_045154582.1 OGN [organism=Echinops telfairi] [GeneID=101648750]	GeneID_101648750|OGN|XP_045154582.1
+OGN	XP_046313702.1	GeneID=124101643	296	kept	representative	XP_046313702.1 Ogn [organism=Marmota monax] [GeneID=124101643]	GeneID_124101643|OGN|XP_046313702.1
+OGN	XP_064161982.1	GeneID=135238192	298	kept	representative	XP_064161982.1 ogna [organism=Anguilla rostrata] [GeneID=135238192]	GeneID_135238192|OGN|XP_064161982.1
+OGN	XP_079056690.1	GeneID=306724231	293	kept	representative	XP_079056690.1 OGN [organism=Caprimulgus europaeus] [GeneID=306724231]	GeneID_306724231|OGN|XP_079056690.1
+OGN	XP_051550178.1	GeneID=127438558	291	kept	representative	XP_051550178.1 ogna [organism=Myxocyprinus asiaticus] [GeneID=127438558]	GeneID_127438558|OGN|XP_051550178.1
+OGN	XP_051550179.1	GeneID=127438558	291	excluded	extra_isoform_same_species	XP_051550179.1 ogna [organism=Myxocyprinus asiaticus] [GeneID=127438558]	GeneID_127438558|OGN|XP_051550179.1
+OGN	XP_048714326.1	GeneID=125640154	297	kept	representative	XP_048714326.1 OGN [organism=Caretta caretta] [GeneID=125640154]	GeneID_125640154|OGN|XP_048714326.1
+OGN	XP_055073897.2	GeneID=129453604	286	kept	representative	XP_055073897.2 ogna [organism=Misgurnus anguillicaudatus] [GeneID=129453604]	GeneID_129453604|OGN|XP_055073897.2
+OGN	XP_079449445.1	GeneID=306988380	281	kept	representative	XP_079449445.1 ogna [organism=Phoxinus phoxinus] [GeneID=306988380]	GeneID_306988380|OGN|XP_079449445.1
+OGN	XP_052583262.1	GeneID=128103177	298	kept	representative	XP_052583262.1 Ogn [organism=Peromyscus californicus insignis] [GeneID=128103177]	GeneID_128103177|OGN|XP_052583262.1
+OGN	XP_052583263.1	GeneID=128103177	298	excluded	extra_isoform_same_species	XP_052583263.1 Ogn [organism=Peromyscus californicus insignis] [GeneID=128103177]	GeneID_128103177|OGN|XP_052583263.1
+OGN	XP_077458311.1	isoform=X1	277	excluded	extra_isoform_same_species	XP_077458311.1 ogna [organism=Stigmatopora argus] [GeneID=144075303] [isoform=X1]	isoform_X1|OGN|XP_077458311.1
+OGN	XP_077458313.1	isoform=X2	276	excluded	extra_isoform_same_species	XP_077458313.1 ogna [organism=Stigmatopora argus] [GeneID=144075303] [isoform=X2]	isoform_X2|OGN|XP_077458313.1
+OGN	XP_047202526.1	GeneID=124856269	280	kept	representative	XP_047202526.1 ogna [organism=Girardinichthys multiradiatus] [GeneID=124856269]	GeneID_124856269|OGN|XP_047202526.1
+OGN	XP_083918119.1	GeneID=311048723	269	kept	representative	XP_083918119.1 ogna [organism=Gymnoscopelus microlampas] [GeneID=311048723]	GeneID_311048723|OGN|XP_083918119.1
+OGN	XP_069431786.1	GeneID=138433311	299	kept	representative	XP_069431786.1 OGN [organism=Ovis canadensis] [GeneID=138433311]	GeneID_138433311|OGN|XP_069431786.1
+OGN	XP_080481545.1	GeneID=308224984	293	kept	representative	XP_080481545.1 OGN [organism=Psittacula echo] [GeneID=308224984]	GeneID_308224984|OGN|XP_080481545.1
+OGN	NP_001125484.1	GeneID=100172393	298	kept	representative	NP_001125484.1 OGN [organism=Pongo abelii] [GeneID=100172393]	GeneID_100172393|OGN|NP_001125484.1
+OGN	XP_009242897.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_009242897.1 OGN [organism=Pongo abelii] [GeneID=100172393] [isoform=X1]	isoform_X1|OGN|XP_009242897.1
+OGN	XP_025916949.1	GeneID=112963789	293	kept	representative	XP_025916949.1 OGN [organism=Apteryx rowi] [GeneID=112963789]	GeneID_112963789|OGN|XP_025916949.1
+OGN	XP_074007912.1	GeneID=141467332	293	kept	representative	XP_074007912.1 OGN [organism=Numenius arquata] [GeneID=141467332]	GeneID_141467332|OGN|XP_074007912.1
+OGN	XP_080782491.1	GeneID=308428091	387	excluded	relative_length	XP_080782491.1 OGN [organism=Micromys minutus] [GeneID=308428091]	GeneID_308428091|OGN|XP_080782491.1
+OGN	XP_026374916.1	isoform=X1	361	excluded	extra_isoform_same_species	XP_026374916.1 OGN [organism=Ursus arctos] [GeneID=113270094] [isoform=X1]	isoform_X1|OGN|XP_026374916.1
+OGN	XP_044247213.1	isoform=X2	305	excluded	extra_isoform_same_species	XP_044247213.1 OGN [organism=Ursus arctos] [GeneID=113270094] [isoform=X2]	isoform_X2|OGN|XP_044247213.1
+OGN	XP_032020418.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_032020418.1 OGN [organism=Hylobates moloch] [GeneID=116475242] [isoform=X1]	isoform_X1|OGN|XP_032020418.1
+OGN	XP_058300738.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_058300738.1 OGN [organism=Hylobates moloch] [GeneID=116475242] [isoform=X2]	isoform_X2|OGN|XP_058300738.1
+OGN	XP_023119315.1	GeneID=111564131	282	kept	representative	XP_023119315.1 ogna [organism=Amphiprion ocellaris] [GeneID=111564131]	GeneID_111564131|OGN|XP_023119315.1
+OGN	XP_010873260.1	GeneID=105013427	297	kept	representative	XP_010873260.1 ogna [organism=Esox lucius] [GeneID=105013427]	GeneID_105013427|OGN|XP_010873260.1
+OGN	XP_072137096.1	GeneID=140211281	380	kept	representative	XP_072137096.1 ogna [organism=Mobula birostris] [GeneID=140211281]	GeneID_140211281|OGN|XP_072137096.1
+OGN	XP_010567543.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_010567543.1 OGN [organism=Haliaeetus leucocephalus] [GeneID=104832860] [isoform=X1]	isoform_X1|OGN|XP_010567543.1
+OGN	XP_010567544.1	isoform=X2	297	excluded	extra_isoform_same_species	XP_010567544.1 OGN [organism=Haliaeetus leucocephalus] [GeneID=104832860] [isoform=X2]	isoform_X2|OGN|XP_010567544.1
+OGN	XP_003421140.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_003421140.1 OGN [organism=Loxodonta africana] [GeneID=100657299] [isoform=X1]	isoform_X1|OGN|XP_003421140.1
+OGN	XP_023395996.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_023395996.1 OGN [organism=Loxodonta africana] [GeneID=100657299] [isoform=X2]	isoform_X2|OGN|XP_023395996.1
+OGN	XP_083210013.1	GeneID=310635200	298	kept	representative	XP_083210013.1 OGN [organism=Vipera ursinii] [GeneID=310635200]	GeneID_310635200|OGN|XP_083210013.1
+OGN	XP_049682791.1	GeneID=126049813	293	kept	representative	XP_049682791.1 OGN [organism=Astur gentilis] [GeneID=126049813]	GeneID_126049813|OGN|XP_049682791.1
+OGN	XP_021783396.1	GeneID=101002663	298	kept	representative	XP_021783396.1 OGN [organism=Papio anubis] [GeneID=101002663]	GeneID_101002663|OGN|XP_021783396.1
+OGN	XP_036840188.1	GeneID=110528669	298	kept	representative	XP_036840188.1 ogna [organism=Oncorhynchus mykiss] [GeneID=110528669]	GeneID_110528669|OGN|XP_036840188.1
+OGN	XP_038266633.1	isoform=X2	297	excluded	extra_isoform_same_species	XP_038266633.1 OGN [organism=Dermochelys coriacea] [GeneID=119859061] [isoform=X2]	isoform_X2|OGN|XP_038266633.1
+OGN	XP_043374778.1	isoform=X1	297	excluded	extra_isoform_same_species	XP_043374778.1 OGN [organism=Dermochelys coriacea] [GeneID=119859061] [isoform=X1]	isoform_X1|OGN|XP_043374778.1
+OGN	XP_052535207.1	GeneID=128078734	291	kept	representative	XP_052535207.1 OGN [organism=Tympanuchus pallidicinctus] [GeneID=128078734]	GeneID_128078734|OGN|XP_052535207.1
+OGN	XP_053889749.1	GeneID=128840152	298	kept	representative	XP_053889749.1 OGN [organism=Malaclemys terrapin pileata] [GeneID=128840152]	GeneID_128840152|OGN|XP_053889749.1
+OGN	XP_079121476.1	GeneID=306775111	283	kept	representative	XP_079121476.1 ogna [organism=Melanostigma gelatinosum] [GeneID=306775111]	GeneID_306775111|OGN|XP_079121476.1
+OGN	XP_009863365.1	GeneID=104270641	293	kept	representative	XP_009863365.1 OGN [organism=Apaloderma vittatum] [GeneID=104270641]	GeneID_104270641|OGN|XP_009863365.1
+OGN	XP_044028909.1	GeneID=122865041	283	kept	representative	XP_044028909.1 ogna [organism=Siniperca chuatsi] [GeneID=122865041]	GeneID_122865041|OGN|XP_044028909.1
+OGN	XP_011782912.1	GeneID=105501528	302	kept	representative	XP_011782912.1 OGN [organism=Colobus angolensis palliatus] [GeneID=105501528]	GeneID_105501528|OGN|XP_011782912.1
+OGN	XP_022368343.1	GeneID=111153552	298	kept	representative	XP_022368343.1 LOC111153552 [organism=Enhydra lutris kenyoni] [GeneID=111153552]	GeneID_111153552|OGN|XP_022368343.1
+OGN	XP_085130877.1	GeneID=146574805	283	kept	representative	XP_085130877.1 ogna [organism=Mchenga conophoros] [GeneID=146574805]	GeneID_146574805|OGN|XP_085130877.1
+OGN	XP_065701554.1	GeneID=136105719	293	kept	representative	XP_065701554.1 OGN [organism=Patagioenas fasciata] [GeneID=136105719]	GeneID_136105719|OGN|XP_065701554.1
+OGN	XP_019392599.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_019392599.1 OGN [organism=Crocodylus porosus] [GeneID=109311419] [isoform=X1]	isoform_X1|OGN|XP_019392599.1
+OGN	XP_019392600.1	isoform=X2	293	excluded	extra_isoform_same_species	XP_019392600.1 OGN [organism=Crocodylus porosus] [GeneID=109311419] [isoform=X2]	isoform_X2|OGN|XP_019392600.1
+OGN	XP_055283443.1	GeneID=129557002	299	kept	representative	XP_055283443.1 OGN [organism=Moschus berezovskii] [GeneID=129557002]	GeneID_129557002|OGN|XP_055283443.1
+OGN	XP_055283444.1	GeneID=129557002	299	excluded	extra_isoform_same_species	XP_055283444.1 OGN [organism=Moschus berezovskii] [GeneID=129557002]	GeneID_129557002|OGN|XP_055283444.1
+OGN	XP_055283445.1	GeneID=129557002	299	excluded	extra_isoform_same_species	XP_055283445.1 OGN [organism=Moschus berezovskii] [GeneID=129557002]	GeneID_129557002|OGN|XP_055283445.1
+OGN	XP_044157690.1	GeneID=122943758	293	kept	representative	XP_044157690.1 OGN [organism=Bufo gargarizans] [GeneID=122943758]	GeneID_122943758|OGN|XP_044157690.1
+OGN	XP_044157692.1	GeneID=122943758	293	excluded	extra_isoform_same_species	XP_044157692.1 OGN [organism=Bufo gargarizans] [GeneID=122943758]	GeneID_122943758|OGN|XP_044157692.1
+OGN	XP_068409398.1	GeneID=137770549	299	kept	representative	XP_068409398.1 OGN [organism=Eschrichtius robustus] [GeneID=137770549]	GeneID_137770549|OGN|XP_068409398.1
+OGN	XP_047557034.1	GeneID=125084006	298	kept	representative	XP_047557034.1 OGN [organism=Lutra lutra] [GeneID=125084006]	GeneID_125084006|OGN|XP_047557034.1
+OGN	XP_084149060.1	GeneID=311213112	293	kept	representative	XP_084149060.1 OGN [organism=Netta rufina] [GeneID=311213112]	GeneID_311213112|OGN|XP_084149060.1
+OGN	XP_077082163.1	GeneID=143735793	281	kept	representative	XP_077082163.1 ogna [organism=Siphateles boraxobius] [GeneID=143735793]	GeneID_143735793|OGN|XP_077082163.1
+OGN	XP_034962090.1	GeneID=118080653	307	kept	representative	XP_034962090.1 OGN [organism=Zootoca vivipara] [GeneID=118080653]	GeneID_118080653|OGN|XP_034962090.1
+OGN	XP_034962091.1	GeneID=118080653	307	excluded	extra_isoform_same_species	XP_034962091.1 OGN [organism=Zootoca vivipara] [GeneID=118080653]	GeneID_118080653|OGN|XP_034962091.1
+OGN	XP_060127476.1	GeneID=118080653	307	excluded	extra_isoform_same_species	XP_060127476.1 OGN [organism=Zootoca vivipara] [GeneID=118080653]	GeneID_118080653|OGN|XP_060127476.1
+OGN	XP_054243380.1	GeneID=128971756	291	kept	representative	XP_054243380.1 OGN [organism=Indicator indicator] [GeneID=128971756]	GeneID_128971756|OGN|XP_054243380.1
+OGN	XP_019569387.1	GeneID=109435765	303	kept	representative	XP_019569387.1 OGN [organism=Rhinolophus sinicus] [GeneID=109435765]	GeneID_109435765|OGN|XP_019569387.1
+OGN	XP_074735773.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_074735773.1 OGN [organism=Strix uralensis] [GeneID=141947935] [isoform=X1]	isoform_X1|OGN|XP_074735773.1
+OGN	XP_074735774.1	isoform=X2	292	excluded	extra_isoform_same_species	XP_074735774.1 OGN [organism=Strix uralensis] [GeneID=141947935] [isoform=X2]	isoform_X2|OGN|XP_074735774.1
+OGN	XP_042542511.1	GeneID=122113556	298	kept	representative	XP_042542511.1 Ogn [organism=Dipodomys spectabilis] [GeneID=122113556]	GeneID_122113556|OGN|XP_042542511.1
+OGN	XP_006209278.2	GeneID=102542980	297	kept	representative	XP_006209278.2 OGN [organism=Vicugna pacos] [GeneID=102542980]	GeneID_102542980|OGN|XP_006209278.2
+OGN	XP_006209279.2	GeneID=102542980	297	excluded	extra_isoform_same_species	XP_006209279.2 OGN [organism=Vicugna pacos] [GeneID=102542980]	GeneID_102542980|OGN|XP_006209279.2
+OGN	XP_066414440.1	GeneID=136561840	293	kept	representative	XP_066414440.1 OGN [organism=Molothrus aeneus] [GeneID=136561840]	GeneID_136561840|OGN|XP_066414440.1
+OGN	XP_080280272.1	GeneID=308082408	269	kept	representative	XP_080280272.1 ogna [organism=Gymnoscopelus braueri] [GeneID=308082408]	GeneID_308082408|OGN|XP_080280272.1
+OGN	XP_032370522.1	GeneID=116688525	284	kept	representative	XP_032370522.1 ogna [organism=Etheostoma spectabile] [GeneID=116688525]	GeneID_116688525|OGN|XP_032370522.1
+OGN	XP_040014653.1	GeneID=120807068	283	kept	representative	XP_040014653.1 ogna [organism=Xiphias gladius] [GeneID=120807068]	GeneID_120807068|OGN|XP_040014653.1
+OGN	NP_001310151.1	GeneID=107319663	293	kept	representative	NP_001310151.1 OGN [organism=Coturnix japonica] [GeneID=107319663]	GeneID_107319663|OGN|NP_001310151.1
+OGN	XP_032641773.1	GeneID=116827960	298	kept	representative	XP_032641773.1 OGN [organism=Chelonoidis abingdonii] [GeneID=116827960]	GeneID_116827960|OGN|XP_032641773.1
+OGN	XP_032641774.1	GeneID=116827960	298	excluded	extra_isoform_same_species	XP_032641774.1 OGN [organism=Chelonoidis abingdonii] [GeneID=116827960]	GeneID_116827960|OGN|XP_032641774.1
+OGN	XP_060714635.1	GeneID=132838370	284	kept	representative	XP_060714635.1 ogna [organism=Tachysurus vachellii] [GeneID=132838370]	GeneID_132838370|OGN|XP_060714635.1
+OGN	XP_079604285.1	GeneID=307084041	286	kept	representative	XP_079604285.1 ogna [organism=Pollachius pollachius] [GeneID=307084041]	GeneID_307084041|OGN|XP_079604285.1
+OGN	XP_085313436.1	GeneID=146710067	283	kept	representative	XP_085313436.1 ogna [organism=Copadichromis virginalis] [GeneID=146710067]	GeneID_146710067|OGN|XP_085313436.1
+OGN	XP_009975121.2	GeneID=104369324	294	kept	representative	XP_009975121.2 OGN [organism=Tyto alba] [GeneID=104369324]	GeneID_104369324|OGN|XP_009975121.2
+OGN	XP_028574683.2	GeneID=114591618	307	kept	representative	XP_028574683.2 OGN [organism=Podarcis muralis] [GeneID=114591618]	GeneID_114591618|OGN|XP_028574683.2
+OGN	XP_083878380.1	GeneID=311021600	283	kept	representative	XP_083878380.1 ogna [organism=Eutrigla gurnardus] [GeneID=311021600]	GeneID_311021600|OGN|XP_083878380.1
+OGN	XP_012378317.1	GeneID=101435954	298	kept	representative	XP_012378317.1 OGN [organism=Dasypus novemcinctus] [GeneID=101435954]	GeneID_101435954|OGN|XP_012378317.1
+OGN	XP_066553957.1	GeneID=136733599	301	kept	representative	XP_066553957.1 ogna [organism=Amia ocellicauda] [GeneID=136733599]	GeneID_136733599|OGN|XP_066553957.1
+OGN	XP_079823464.1	isoform=1	307	excluded	extra_isoform_same_species	XP_079823464.1 OGN [organism=Podarcis cretensis] [GeneID=307211077] [isoform=1]	isoform_1|OGN|XP_079823464.1
+OGN	XP_079823465.1	isoform=1	307	excluded	extra_isoform_same_species	XP_079823465.1 OGN [organism=Podarcis cretensis] [GeneID=307211077] [isoform=1]	isoform_1|OGN|XP_079823465.1
+OGN	XP_010210583.1	GeneID=104565587	292	kept	representative	XP_010210583.1 OGN [organism=Tinamus guttatus] [GeneID=104565587]	GeneID_104565587|OGN|XP_010210583.1
+OGN	XP_023958753.2	GeneID=101954026	298	kept	representative	XP_023958753.2 OGN [organism=Chrysemys picta bellii] [GeneID=101954026]	GeneID_101954026|OGN|XP_023958753.2
+OGN	XP_068884263.1	GeneID=138117650	293	kept	representative	XP_068884263.1 OGN [organism=Aphelocoma coerulescens] [GeneID=138117650]	GeneID_138117650|OGN|XP_068884263.1
+OGN	XP_062956938.1	GeneID=134380741	298	kept	representative	XP_062956938.1 OGN [organism=Cynocephalus volans] [GeneID=134380741]	GeneID_134380741|OGN|XP_062956938.1
+OGN	XP_019289837.1	GeneID=109257887	298	kept	representative	XP_019289837.1 OGN [organism=Panthera pardus] [GeneID=109257887]	GeneID_109257887|OGN|XP_019289837.1
+OGN	XP_024436537.1	GeneID=112323115	297	kept	representative	XP_024436537.1 OGN [organism=Desmodus rotundus] [GeneID=112323115]	GeneID_112323115|OGN|XP_024436537.1
+OGN	XP_010608878.2	GeneID=104852789	353	kept	representative	XP_010608878.2 Ogn [organism=Fukomys damarensis] [GeneID=104852789]	GeneID_104852789|OGN|XP_010608878.2
+OGN	XP_027948873.1	GeneID=114200769	298	kept	representative	XP_027948873.1 OGN [organism=Eumetopias jubatus] [GeneID=114200769]	GeneID_114200769|OGN|XP_027948873.1
+OGN	XP_028680020.2	GeneID=114668431	289	kept	representative	XP_028680020.2 ogna [organism=Erpetoichthys calabaricus] [GeneID=114668431]	GeneID_114668431|OGN|XP_028680020.2
+OGN	XP_061019622.1	GeneID=133071189	299	kept	representative	XP_061019622.1 OGN [organism=Dama dama] [GeneID=133071189]	GeneID_133071189|OGN|XP_061019622.1
+OGN	XP_061019623.1	GeneID=133071189	299	excluded	extra_isoform_same_species	XP_061019623.1 OGN [organism=Dama dama] [GeneID=133071189]	GeneID_133071189|OGN|XP_061019623.1
+OGN	NP_001272542.1	GeneID=100860756	299	kept	representative	NP_001272542.1 OGN [organism=Capra hircus] [GeneID=100860756]	GeneID_100860756|OGN|NP_001272542.1
+OGN	XP_013821522.2	isoform=X1	299	excluded	extra_isoform_same_species	XP_013821522.2 OGN [organism=Capra hircus] [GeneID=100860756] [isoform=X1]	isoform_X1|OGN|XP_013821522.2
+OGN	XP_017907251.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_017907251.1 OGN [organism=Capra hircus] [GeneID=100860756] [isoform=X1]	isoform_X1|OGN|XP_017907251.1
+OGN	XP_005987115.1	GeneID=102354551	304	kept	representative	XP_005987115.1 OGNA [organism=Latimeria chalumnae] [GeneID=102354551]	GeneID_102354551|OGN|XP_005987115.1
+OGN	XP_005987116.1	GeneID=102354551	304	excluded	extra_isoform_same_species	XP_005987116.1 OGNA [organism=Latimeria chalumnae] [GeneID=102354551]	GeneID_102354551|OGN|XP_005987116.1
+OGN	XP_080850358.1	isoform=1	307	excluded	extra_isoform_same_species	XP_080850358.1 OGN [organism=Podarcis pityusensis] [GeneID=308470782] [isoform=1]	isoform_1|OGN|XP_080850358.1
+OGN	XP_080850359.1	isoform=1	307	excluded	extra_isoform_same_species	XP_080850359.1 OGN [organism=Podarcis pityusensis] [GeneID=308470782] [isoform=1]	isoform_1|OGN|XP_080850359.1
+OGN	XP_062842831.1	GeneID=134301859	271	kept	representative	XP_062842831.1 ogna [organism=Trichomycterus rosablanca] [GeneID=134301859]	GeneID_134301859|OGN|XP_062842831.1
+OGN	XP_068276009.1	GeneID=137674505	293	kept	representative	XP_068276009.1 OGN [organism=Nyctibius grandis] [GeneID=137674505]	GeneID_137674505|OGN|XP_068276009.1
+OGN	XP_032775503.1	GeneID=116915223	298	kept	representative	XP_032775503.1 Ogn [organism=Rattus rattus] [GeneID=116915223]	GeneID_116915223|OGN|XP_032775503.1
+OGN	XP_044880883.1	GeneID=123374724	296	kept	representative	XP_044880883.1 OGN [organism=Mauremys mutica] [GeneID=123374724]	GeneID_123374724|OGN|XP_044880883.1
+OGN	XP_083285360.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083285360.1 OGN [organism=Podarcis tiliguerta] [GeneID=310672277] [isoform=1]	isoform_1|OGN|XP_083285360.1
+OGN	XP_083285361.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083285361.1 OGN [organism=Podarcis tiliguerta] [GeneID=310672277] [isoform=1]	isoform_1|OGN|XP_083285361.1
+OGN	XP_070700613.1	GeneID=139213846	283	kept	representative	XP_070700613.1 ogna [organism=Pempheris klunzingeri] [GeneID=139213846]	GeneID_139213846|OGN|XP_070700613.1
+OGN	XP_076202151.1	GeneID=143164010	293	kept	representative	XP_076202151.1 OGN [organism=Aptenodytes patagonicus] [GeneID=143164010]	GeneID_143164010|OGN|XP_076202151.1
+OGN	XP_010743857.1	GeneID=104930691	282	kept	representative	XP_010743857.1 ogna [organism=Larimichthys crocea] [GeneID=104930691]	GeneID_104930691|OGN|XP_010743857.1
+OGN	XP_054358616.1	GeneID=129044626	298	kept	representative	XP_054358616.1 OGN [organism=Pongo pygmaeus] [GeneID=129044626]	GeneID_129044626|OGN|XP_054358616.1
+OGN	XP_063071144.1	GeneID=134462175	290	kept	representative	XP_063071144.1 ogna [organism=Engraulis encrasicolus] [GeneID=134462175]	GeneID_134462175|OGN|XP_063071144.1
+OGN	XP_035007389.1	GeneID=118104546	283	kept	representative	XP_035007389.1 ogna [organism=Hippoglossus stenolepis] [GeneID=118104546]	GeneID_118104546|OGN|XP_035007389.1
+OGN	XP_078399497.1	GeneID=144681614	311	kept	representative	XP_078399497.1 ogna [organism=Cetorhinus maximus] [GeneID=144681614]	GeneID_144681614|OGN|XP_078399497.1
+OGN	XP_030426935.1	GeneID=115655527	298	kept	representative	XP_030426935.1 OGN [organism=Gopherus evgoodei] [GeneID=115655527]	GeneID_115655527|OGN|XP_030426935.1
+OGN	XP_030426936.1	GeneID=115655527	298	excluded	extra_isoform_same_species	XP_030426936.1 OGN [organism=Gopherus evgoodei] [GeneID=115655527]	GeneID_115655527|OGN|XP_030426936.1
+OGN	XP_005485606.2	GeneID=102062062	291	kept	representative	XP_005485606.2 OGN [organism=Zonotrichia albicollis] [GeneID=102062062]	GeneID_102062062|OGN|XP_005485606.2
+OGN	XP_012327619.1	GeneID=105730777	298	kept	representative	XP_012327619.1 OGN [organism=Aotus nancymaae] [GeneID=105730777]	GeneID_105730777|OGN|XP_012327619.1
+OGN	XP_080959338.1	GeneID=308527816	290	kept	representative	XP_080959338.1 OGN [organism=Myotis nattereri] [GeneID=308527816]	GeneID_308527816|OGN|XP_080959338.1
+OGN	XP_012705490.2	GeneID=105915806	280	kept	representative	XP_012705490.2 ogna [organism=Fundulus heteroclitus] [GeneID=105915806]	GeneID_105915806|OGN|XP_012705490.2
+OGN	XP_059780390.1	GeneID=132366944	299	kept	representative	XP_059780390.1 OGN [organism=Balaenoptera ricei] [GeneID=132366944]	GeneID_132366944|OGN|XP_059780390.1
+OGN	XP_073325155.1	GeneID=140998698	283	kept	representative	XP_073325155.1 ogna [organism=Pagrus major] [GeneID=140998698]	GeneID_140998698|OGN|XP_073325155.1
+OGN	XP_006900783.1	GeneID=102867939	297	kept	representative	XP_006900783.1 OGN [organism=Elephantulus edwardii] [GeneID=102867939]	GeneID_102867939|OGN|XP_006900783.1
+OGN	XP_010020497.1	GeneID=104411706	299	kept	representative	XP_010020497.1 OGN [organism=Nestor notabilis] [GeneID=104411706]	GeneID_104411706|OGN|XP_010020497.1
+OGN	XP_040215523.1	GeneID=120945434	297	kept	representative	XP_040215523.1 OGN [organism=Rana temporaria] [GeneID=120945434]	GeneID_120945434|OGN|XP_040215523.1
+OGN	XP_083725646.1	GeneID=310913804	292	kept	representative	XP_083725646.1 OGN [organism=Zosterops lateralis] [GeneID=310913804]	GeneID_310913804|OGN|XP_083725646.1
+OGN	XP_007229668.1	GeneID=103023385	291	kept	representative	XP_007229668.1 ogna [organism=Astyanax mexicanus] [GeneID=103023385]	GeneID_103023385|OGN|XP_007229668.1
+OGN	XP_049327939.1	GeneID=103023385	291	excluded	extra_isoform_same_species	XP_049327939.1 ogna [organism=Astyanax mexicanus] [GeneID=103023385]	GeneID_103023385|OGN|XP_049327939.1
+OGN	XP_004652358.1	GeneID=101609245	340	kept	representative	XP_004652358.1 Ogn [organism=Jaculus jaculus] [GeneID=101609245]	GeneID_101609245|OGN|XP_004652358.1
+OGN	XP_026580392.1	GeneID=113453093	298	kept	representative	XP_026580392.1 OGN [organism=Pseudonaja textilis] [GeneID=113453093]	GeneID_113453093|OGN|XP_026580392.1
+OGN	XP_026580399.1	GeneID=113453093	298	excluded	extra_isoform_same_species	XP_026580399.1 OGN [organism=Pseudonaja textilis] [GeneID=113453093]	GeneID_113453093|OGN|XP_026580399.1
+OGN	XP_079562102.1	GeneID=307054342	299	kept	representative	XP_079562102.1 OGN [organism=Hyperoodon ampullatus] [GeneID=307054342]	GeneID_307054342|OGN|XP_079562102.1
+OGN	XP_009474989.1	GeneID=104022943	293	kept	representative	XP_009474989.1 OGN [organism=Nipponia nippon] [GeneID=104022943]	GeneID_104022943|OGN|XP_009474989.1
+OGN	XP_056886311.1	GeneID=130524316	280	kept	representative	XP_056886311.1 ogna [organism=Takifugu flavidus] [GeneID=130524316]	GeneID_130524316|OGN|XP_056886311.1
+OGN	XP_082068118.1	isoform=1	307	excluded	extra_isoform_same_species	XP_082068118.1 OGN [organism=Podarcis vaucheri] [GeneID=309526056] [isoform=1]	isoform_1|OGN|XP_082068118.1
+OGN	XP_082068119.1	isoform=1	307	excluded	extra_isoform_same_species	XP_082068119.1 OGN [organism=Podarcis vaucheri] [GeneID=309526056] [isoform=1]	isoform_1|OGN|XP_082068119.1
+OGN	XP_031152671.1	GeneID=116047813	284	kept	representative	XP_031152671.1 ogna [organism=Sander lucioperca] [GeneID=116047813]	GeneID_116047813|OGN|XP_031152671.1
+OGN	XP_084595850.1	GeneID=146332141	283	kept	representative	XP_084595850.1 ogna [organism=Lutjanus erythropterus] [GeneID=146332141]	GeneID_146332141|OGN|XP_084595850.1
+OGN	XP_027592073.1	GeneID=113995785	293	kept	representative	XP_027592073.1 OGN [organism=Pipra filicauda] [GeneID=113995785]	GeneID_113995785|OGN|XP_027592073.1
+OGN	XP_054693699.1	GeneID=129211157	296	kept	representative	XP_054693699.1 OGN [organism=Grus americana] [GeneID=129211157]	GeneID_129211157|OGN|XP_054693699.1
+OGN	XP_045932510.1	GeneID=123987556	285	kept	representative	XP_045932510.1 ogna [organism=Micropterus dolomieu] [GeneID=123987556]	GeneID_123987556|OGN|XP_045932510.1
+OGN	XP_067096080.1	GeneID=136945879	300	kept	representative	XP_067096080.1 ogna [organism=Osmerus mordax] [GeneID=136945879]	GeneID_136945879|OGN|XP_067096080.1
+OGN	XP_005355223.1	GeneID=101980633	298	kept	representative	XP_005355223.1 Ogn [organism=Microtus ochrogaster] [GeneID=101980633]	GeneID_101980633|OGN|XP_005355223.1
+OGN	XP_013204599.1	GeneID=101980633	298	excluded	extra_isoform_same_species	XP_013204599.1 Ogn [organism=Microtus ochrogaster] [GeneID=101980633]	GeneID_101980633|OGN|XP_013204599.1
+OGN	XP_026638959.1	GeneID=101980633	298	excluded	extra_isoform_same_species	XP_026638959.1 Ogn [organism=Microtus ochrogaster] [GeneID=101980633]	GeneID_101980633|OGN|XP_026638959.1
+OGN	XP_011900406.1	GeneID=105578790	298	kept	representative	XP_011900406.1 OGN [organism=Cercocebus atys] [GeneID=105578790]	GeneID_105578790|OGN|XP_011900406.1
+OGN	XP_063020513.1	GeneID=134422414	291	kept	representative	XP_063020513.1 OGN [organism=Melospiza melodia melodia] [GeneID=134422414]	GeneID_134422414|OGN|XP_063020513.1
+OGN	XP_068452045.1	GeneID=137798914	284	kept	representative	XP_068452045.1 ogna [organism=Clinocottus analis] [GeneID=137798914]	GeneID_137798914|OGN|XP_068452045.1
+OGN	XP_040425126.1	GeneID=121075680	283	kept	representative	XP_040425126.1 OGN [organism=Cygnus olor] [GeneID=121075680]	GeneID_121075680|OGN|XP_040425126.1
+OGN	XP_081994168.1	GeneID=309475314	281	kept	representative	XP_081994168.1 ogna [organism=Leuciscus leuciscus] [GeneID=309475314]	GeneID_309475314|OGN|XP_081994168.1
+OGN	XP_062977263.1	isoform=X1	304	excluded	extra_isoform_same_species	XP_062977263.1 OGN [organism=Elgaria multicarinata webbii] [GeneID=134395155] [isoform=X1]	isoform_X1|OGN|XP_062977263.1
+OGN	XP_062977264.1	isoform=X1	304	excluded	extra_isoform_same_species	XP_062977264.1 OGN [organism=Elgaria multicarinata webbii] [GeneID=134395155] [isoform=X1]	isoform_X1|OGN|XP_062977264.1
+OGN	XP_062977265.1	isoform=X2	258	excluded	extra_isoform_same_species	XP_062977265.1 OGN [organism=Elgaria multicarinata webbii] [GeneID=134395155] [isoform=X2]	isoform_X2|OGN|XP_062977265.1
+OGN	XP_009995214.1	GeneID=104388093	298	kept	representative	XP_009995214.1 OGN [organism=Chaetura pelagica] [GeneID=104388093]	GeneID_104388093|OGN|XP_009995214.1
+OGN	XP_074908867.1	GeneID=142042637	293	kept	representative	XP_074908867.1 OGN [organism=Buteo buteo] [GeneID=142042637]	GeneID_142042637|OGN|XP_074908867.1
+OGN	NP_001099573.1	GeneID=291015	298	kept	representative	NP_001099573.1 Ogn [organism=Rattus norvegicus] [GeneID=291015]	GeneID_291015|OGN|NP_001099573.1
+OGN	XP_008769712.1	isoform=X1	404	excluded	relative_length	XP_008769712.1 Ogn [organism=Rattus norvegicus] [GeneID=291015] [isoform=X1]	isoform_X1|OGN|XP_008769712.1
+OGN	XP_063132219.1	isoform=X1	404	excluded	relative_length	XP_063132219.1 Ogn [organism=Rattus norvegicus] [GeneID=291015] [isoform=X1]	isoform_X1|OGN|XP_063132219.1
+OGN	XP_018407801.1	GeneID=108783682	295	kept	representative	XP_018407801.1 OGN [organism=Nanorana parkeri] [GeneID=108783682]	GeneID_108783682|OGN|XP_018407801.1
+OGN	XP_039547002.1	GeneID=120492811	275	kept	representative	XP_039547002.1 ogna [organism=Pimephales promelas] [GeneID=120492811]	GeneID_120492811|OGN|XP_039547002.1
+OGN	XP_046955346.1	GeneID=124526403	328	kept	representative	XP_046955346.1 OGN [organism=Lynx rufus] [GeneID=124526403]	GeneID_124526403|OGN|XP_046955346.1
+OGN	XP_083628147.1	GeneID=310863575	269	kept	representative	XP_083628147.1 ogna [organism=Protomyctophum parallelum] [GeneID=310863575]	GeneID_310863575|OGN|XP_083628147.1
+OGN	XP_007182440.1	GeneID=103004148	299	kept	representative	XP_007182440.1 OGN [organism=Balaenoptera acutorostrata] [GeneID=103004148]	GeneID_103004148|OGN|XP_007182440.1
+OGN	XP_031716708.1	GeneID=116390771	283	kept	representative	XP_031716708.1 ogna [organism=Anarrhichthys ocellatus] [GeneID=116390771]	GeneID_116390771|OGN|XP_031716708.1
+OGN	XP_061282195.1	GeneID=133253041	299	kept	representative	XP_061282195.1 OGN [organism=Bos javanicus] [GeneID=133253041]	GeneID_133253041|OGN|XP_061282195.1
+OGN	XP_061282196.1	GeneID=133253041	299	excluded	extra_isoform_same_species	XP_061282196.1 OGN [organism=Bos javanicus] [GeneID=133253041]	GeneID_133253041|OGN|XP_061282196.1
+OGN	XP_042180858.1	GeneID=112255096	298	kept	representative	XP_042180858.1 ogna [organism=Oncorhynchus tshawytscha] [GeneID=112255096]	GeneID_112255096|OGN|XP_042180858.1
+OGN	XP_014023864.2	GeneID=106583805	297	kept	representative	XP_014023864.2 ogna [organism=Salmo salar] [GeneID=106583805]	GeneID_106583805|OGN|XP_014023864.2
+OGN	XP_039860720.1	GeneID=120717002	187	excluded	relative_length	XP_039860720.1 ogna [organism=Simochromis diagramma] [GeneID=120717002]	GeneID_120717002|OGN|XP_039860720.1
+OGN	XP_058997082.1	GeneID=131812068	298	kept	representative	XP_058997082.1 OGN [organism=Mustela lutreola] [GeneID=131812068]	GeneID_131812068|OGN|XP_058997082.1
+OGN	XP_076599637.1	GeneID=143328402	283	kept	representative	XP_076599637.1 ogna [organism=Chaetodon auriga] [GeneID=143328402]	GeneID_143328402|OGN|XP_076599637.1
+OGN	XP_081033260.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081033260.1 OGN [organism=Podarcis bocagei] [GeneID=308577009] [isoform=1]	isoform_1|OGN|XP_081033260.1
+OGN	XP_081033261.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081033261.1 OGN [organism=Podarcis bocagei] [GeneID=308577009] [isoform=1]	isoform_1|OGN|XP_081033261.1
+OGN	XP_039736309.1	isoform=X1	146	excluded	absolute_length	XP_039736309.1 OGN [organism=Pteropus medius] [GeneID=120616782] [isoform=X1]	isoform_X1|OGN|XP_039736309.1
+OGN	XP_039736310.1	isoform=X2	90	excluded	absolute_length	XP_039736310.1 OGN [organism=Pteropus medius] [GeneID=120616782] [isoform=X2]	isoform_X2|OGN|XP_039736310.1
+OGN	XP_006992340.1	GeneID=102920055	298	kept	representative	XP_006992340.1 Ogn [organism=Peromyscus maniculatus bairdii] [GeneID=102920055]	GeneID_102920055|OGN|XP_006992340.1
+OGN	XP_042134394.1	GeneID=102920055	298	excluded	extra_isoform_same_species	XP_042134394.1 Ogn [organism=Peromyscus maniculatus bairdii] [GeneID=102920055]	GeneID_102920055|OGN|XP_042134394.1
+OGN	XP_076429427.1	GeneID=102920055	298	excluded	extra_isoform_same_species	XP_076429427.1 Ogn [organism=Peromyscus maniculatus bairdii] [GeneID=102920055]	GeneID_102920055|OGN|XP_076429427.1
+OGN	XP_063766742.1	GeneID=134882753	283	kept	representative	XP_063766742.1 ogna [organism=Eleginops maclovinus] [GeneID=134882753]	GeneID_134882753|OGN|XP_063766742.1
+OGN	XP_028301993.1	GeneID=114462997	283	kept	representative	XP_028301993.1 ogna [organism=Gouania willdenowi] [GeneID=114462997]	GeneID_114462997|OGN|XP_028301993.1
+OGN	XP_004766201.1	GeneID=101687653	298	kept	representative	XP_004766201.1 OGN [organism=Mustela putorius furo] [GeneID=101687653]	GeneID_101687653|OGN|XP_004766201.1
+OGN	XP_082624069.1	GeneID=309881694	293	kept	representative	XP_082624069.1 OGN [organism=Aythya marila] [GeneID=309881694]	GeneID_309881694|OGN|XP_082624069.1
+OGN	XP_057181572.1	GeneID=130548667	279	kept	representative	XP_057181572.1 ogna [organism=Triplophysa rosa] [GeneID=130548667]	GeneID_130548667|OGN|XP_057181572.1
+OGN	XP_080524947.1	isoform=1	290	excluded	extra_isoform_same_species	XP_080524947.1 OGN [organism=Plecotus auritus] [GeneID=308248656] [isoform=1]	isoform_1|OGN|XP_080524947.1
+OGN	XP_080524948.1	isoform=2	258	excluded	extra_isoform_same_species	XP_080524948.1 OGN [organism=Plecotus auritus] [GeneID=308248656] [isoform=2]	isoform_2|OGN|XP_080524948.1
+OGN	XP_080524949.1	isoform=3	237	kept	representative	XP_080524949.1 OGN [organism=Plecotus auritus] [GeneID=308248656] [isoform=3]	isoform_3|OGN|XP_080524949.1
+OGN	XP_008591952.1	GeneID=103609404	298	kept	representative	XP_008591952.1 OGN [organism=Galeopterus variegatus] [GeneID=103609404]	GeneID_103609404|OGN|XP_008591952.1
+OGN	XP_036893050.1	GeneID=118980518	297	kept	representative	XP_036893050.1 OGN [organism=Sturnira hondurensis] [GeneID=118980518]	GeneID_118980518|OGN|XP_036893050.1
+OGN	XP_058700617.1	GeneID=131581962	293	kept	representative	XP_058700617.1 OGN [organism=Poecile atricapillus] [GeneID=131581962]	GeneID_131581962|OGN|XP_058700617.1
+OGN	XP_058700618.1	GeneID=131581962	293	excluded	extra_isoform_same_species	XP_058700618.1 OGN [organism=Poecile atricapillus] [GeneID=131581962]	GeneID_131581962|OGN|XP_058700618.1
+OGN	XP_058700619.1	GeneID=131581962	293	excluded	extra_isoform_same_species	XP_058700619.1 OGN [organism=Poecile atricapillus] [GeneID=131581962]	GeneID_131581962|OGN|XP_058700619.1
+OGN	XP_037652887.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_037652887.1 OGN [organism=Choloepus didactylus] [GeneID=119504635] [isoform=X1]	isoform_X1|OGN|XP_037652887.1
+OGN	XP_037652888.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_037652888.1 OGN [organism=Choloepus didactylus] [GeneID=119504635] [isoform=X1]	isoform_X1|OGN|XP_037652888.1
+OGN	XP_037652890.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_037652890.1 OGN [organism=Choloepus didactylus] [GeneID=119504635] [isoform=X2]	isoform_X2|OGN|XP_037652890.1
+OGN	XP_073908458.1	GeneID=109685462	298	kept	representative	XP_073908458.1 LOC109685462 [organism=Castor canadensis] [GeneID=109685462]	GeneID_109685462|OGN|XP_073908458.1
+OGN	XP_006631165.2	GeneID=102689260	295	kept	representative	XP_006631165.2 ogna [organism=Lepisosteus oculatus] [GeneID=102689260]	GeneID_102689260|OGN|XP_006631165.2
+OGN	XP_072237521.1	GeneID=140302892	283	kept	representative	XP_072237521.1 ogna [organism=Leuresthes tenuis] [GeneID=140302892]	GeneID_140302892|OGN|XP_072237521.1
+OGN	XP_043835422.1	GeneID=122737068	285	kept	representative	XP_043835422.1 OGN [organism=Dromiciops gliroides] [GeneID=122737068]	GeneID_122737068|OGN|XP_043835422.1
+OGN	XP_061584764.1	GeneID=133449610	437	excluded	relative_length	XP_061584764.1 ogna [organism=Cololabis saira] [GeneID=133449610]	GeneID_133449610|OGN|XP_061584764.1
+OGN	XP_067424264.1	GeneID=137166427	300	kept	representative	XP_067424264.1 OGN [organism=Emydura macquarii macquarii] [GeneID=137166427]	GeneID_137166427|OGN|XP_067424264.1
+OGN	XP_068014139.1	GeneID=137450978	291	kept	representative	XP_068014139.1 OGN [organism=Melanerpes formicivorus] [GeneID=137450978]	GeneID_137450978|OGN|XP_068014139.1
+OGN	XP_029358510.1	GeneID=115043885	283	kept	representative	XP_029358510.1 ogna [organism=Echeneis naucrates] [GeneID=115043885]	GeneID_115043885|OGN|XP_029358510.1
+OGN	XP_047686831.1	GeneID=125150682	308	kept	representative	XP_047686831.1 OGN [organism=Prionailurus viverrinus] [GeneID=125150682]	GeneID_125150682|OGN|XP_047686831.1
+OGN	XP_081860772.1	GeneID=309408734	293	kept	representative	XP_081860772.1 OGN [organism=Phaethon aethereus] [GeneID=309408734]	GeneID_309408734|OGN|XP_081860772.1
+OGN	XP_082492194.1	GeneID=309812348	382	kept	representative	XP_082492194.1 OGN [organism=Mesoplodon mirus] [GeneID=309812348]	GeneID_309812348|OGN|XP_082492194.1
+OGN	XP_081173545.1	GeneID=308662030	298	kept	representative	XP_081173545.1 OGN [organism=Vipera berus] [GeneID=308662030]	GeneID_308662030|OGN|XP_081173545.1
+OGN	XP_054472796.1	GeneID=129105668	283	kept	representative	XP_054472796.1 ogna [organism=Anoplopoma fimbria] [GeneID=129105668]	GeneID_129105668|OGN|XP_054472796.1
+OGN	XP_060466288.1	GeneID=132663755	298	kept	representative	XP_060466288.1 OGN [organism=Panthera onca] [GeneID=132663755]	GeneID_132663755|OGN|XP_060466288.1
+OGN	XP_070256953.1	GeneID=138998838	290	kept	representative	XP_070256953.1 OGN [organism=Myotis yumanensis] [GeneID=138998838]	GeneID_138998838|OGN|XP_070256953.1
+OGN	XP_080402091.1	GeneID=308171094	251	kept	representative	XP_080402091.1 ogna [organism=Nansenia antarctica] [GeneID=308171094]	GeneID_308171094|OGN|XP_080402091.1
+OGN	XP_015283092.1	GeneID=107124206	306	kept	representative	XP_015283092.1 OGN [organism=Gekko japonicus] [GeneID=107124206]	GeneID_107124206|OGN|XP_015283092.1
+OGN	XP_053844985.1	GeneID=128813696	293	kept	representative	XP_053844985.1 OGN [organism=Vidua macroura] [GeneID=128813696]	GeneID_128813696|OGN|XP_053844985.1
+OGN	XP_085633053.1	GeneID=146987659	283	kept	representative	XP_085633053.1 ogna [organism=Trachurus japonicus] [GeneID=146987659]	GeneID_146987659|OGN|XP_085633053.1
+OGN	XP_009089233.1	GeneID=103816946	293	kept	representative	XP_009089233.1 OGN [organism=Serinus canaria] [GeneID=103816946]	GeneID_103816946|OGN|XP_009089233.1
+OGN	XP_076693483.1	GeneID=143383006	296	kept	representative	XP_076693483.1 Ogn [organism=Callospermophilus lateralis] [GeneID=143383006]	GeneID_143383006|OGN|XP_076693483.1
+OGN	XP_076693485.1	GeneID=143383006	296	excluded	extra_isoform_same_species	XP_076693485.1 Ogn [organism=Callospermophilus lateralis] [GeneID=143383006]	GeneID_143383006|OGN|XP_076693485.1
+OGN	XP_047635254.1	GeneID=125126946	298	kept	representative	XP_047635254.1 OGN [organism=Phacochoerus africanus] [GeneID=125126946]	GeneID_125126946|OGN|XP_047635254.1
+OGN	XP_047635255.1	GeneID=125126946	298	excluded	extra_isoform_same_species	XP_047635255.1 OGN [organism=Phacochoerus africanus] [GeneID=125126946]	GeneID_125126946|OGN|XP_047635255.1
+OGN	XP_085974960.1	GeneID=147201743	286	kept	representative	XP_085974960.1 ogna [organism=Hippocampus guttulatus] [GeneID=147201743]	GeneID_147201743|OGN|XP_085974960.1
+OGN	XP_067270865.1	GeneID=137039451	292	kept	representative	XP_067270865.1 ogna [organism=Pseudorasbora parva] [GeneID=137039451]	GeneID_137039451|OGN|XP_067270865.1
+OGN	XP_048200740.1	GeneID=125350295	298	kept	representative	XP_048200740.1 Ogn [organism=Perognathus longimembris pacificus] [GeneID=125350295]	GeneID_125350295|OGN|XP_048200740.1
+OGN	XP_084320448.1	GeneID=311338969	286	kept	representative	XP_084320448.1 ogna [organism=Micromesistius poutassou] [GeneID=311338969]	GeneID_311338969|OGN|XP_084320448.1
+OGN	NP_001248169.1	GeneID=706168	298	kept	representative	NP_001248169.1 OGN [organism=Macaca mulatta] [GeneID=706168]	GeneID_706168|OGN|NP_001248169.1
+OGN	XP_014972731.3	isoform=X1	298	excluded	extra_isoform_same_species	XP_014972731.3 OGN [organism=Macaca mulatta] [GeneID=706168] [isoform=X1]	isoform_X1|OGN|XP_014972731.3
+OGN	XP_077821324.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_077821324.1 OGN [organism=Macaca mulatta] [GeneID=706168] [isoform=X2]	isoform_X2|OGN|XP_077821324.1
+OGN	XP_068830249.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_068830249.1 OGN [organism=Capricornis sumatraensis] [GeneID=138081085] [isoform=X1]	isoform_X1|OGN|XP_068830249.1
+OGN	XP_068830250.1	isoform=X2	281	excluded	extra_isoform_same_species	XP_068830250.1 OGN [organism=Capricornis sumatraensis] [GeneID=138081085] [isoform=X2]	isoform_X2|OGN|XP_068830250.1
+OGN	XP_028719664.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_028719664.1 Ogn [organism=Peromyscus leucopus] [GeneID=114689502] [isoform=X1]	isoform_X1|OGN|XP_028719664.1
+OGN	XP_037061635.1	isoform=X2	297	excluded	extra_isoform_same_species	XP_037061635.1 Ogn [organism=Peromyscus leucopus] [GeneID=114689502] [isoform=X2]	isoform_X2|OGN|XP_037061635.1
+OGN	XP_079098529.1	GeneID=306757373	283	kept	representative	XP_079098529.1 ogna [organism=Telmatherina bonti] [GeneID=306757373]	GeneID_306757373|OGN|XP_079098529.1
+OGN	XP_079327774.1	GeneID=306902804	279	kept	representative	XP_079327774.1 ogna [organism=Barbatula barbatula] [GeneID=306902804]	GeneID_306902804|OGN|XP_079327774.1
+OGN	XP_038004613.1	GeneID=119705868	293	kept	representative	XP_038004613.1 OGN [organism=Motacilla alba alba] [GeneID=119705868]	GeneID_119705868|OGN|XP_038004613.1
+OGN	XP_047438992.1	GeneID=125006726	282	kept	representative	XP_047438992.1 ogna [organism=Mugil cephalus] [GeneID=125006726]	GeneID_125006726|OGN|XP_047438992.1
+OGN	XP_051932328.1	GeneID=127607739	286	kept	representative	XP_051932328.1 ogna [organism=Hippocampus zosterae] [GeneID=127607739]	GeneID_127607739|OGN|XP_051932328.1
+OGN	XP_010834283.1	GeneID=104985696	299	kept	representative	XP_010834283.1 OGN [organism=Bison bison bison] [GeneID=104985696]	GeneID_104985696|OGN|XP_010834283.1
+OGN	XP_010834284.1	GeneID=104985696	299	excluded	extra_isoform_same_species	XP_010834284.1 OGN [organism=Bison bison bison] [GeneID=104985696]	GeneID_104985696|OGN|XP_010834284.1
+OGN	XP_010834285.1	GeneID=104985696	299	excluded	extra_isoform_same_species	XP_010834285.1 OGN [organism=Bison bison bison] [GeneID=104985696]	GeneID_104985696|OGN|XP_010834285.1
+OGN	XP_015258074.1	GeneID=107103067	303	kept	representative	XP_015258074.1 ogna [organism=Cyprinodon variegatus] [GeneID=107103067]	GeneID_107103067|OGN|XP_015258074.1
+OGN	XP_031214128.1	GeneID=116081674	298	kept	representative	XP_031214128.1 Ogn [organism=Mastomys coucha] [GeneID=116081674]	GeneID_116081674|OGN|XP_031214128.1
+OGN	XP_008407100.1	isoform=X1	281	excluded	extra_isoform_same_species	XP_008407100.1 ogna [organism=Poecilia reticulata] [GeneID=103464645] [isoform=X1]	isoform_X1|OGN|XP_008407100.1
+OGN	XP_008407101.1	isoform=X2	280	excluded	extra_isoform_same_species	XP_008407101.1 ogna [organism=Poecilia reticulata] [GeneID=103464645] [isoform=X2]	isoform_X2|OGN|XP_008407101.1
+OGN	XP_036134369.1	GeneID=118641343	298	kept	representative	XP_036134369.1 OGN [organism=Molossus molossus] [GeneID=118641343]	GeneID_118641343|OGN|XP_036134369.1
+OGN	XP_036246641.1	GeneID=118691532	293	kept	representative	XP_036246641.1 OGN [organism=Molothrus ater] [GeneID=118691532]	GeneID_118691532|OGN|XP_036246641.1
+OGN	XP_038839847.1	GeneID=120037976	298	kept	representative	XP_038839847.1 ogna [organism=Salvelinus namaycush] [GeneID=120037976]	GeneID_120037976|OGN|XP_038839847.1
+OGN	XP_081916097.1	GeneID=309443220	293	kept	representative	XP_081916097.1 OGN [organism=Streptopelia decaocto] [GeneID=309443220]	GeneID_309443220|OGN|XP_081916097.1
+OGN	XP_004284167.1	GeneID=101287445	299	kept	representative	XP_004284167.1 OGN [organism=Orcinus orca] [GeneID=101287445]	GeneID_101287445|OGN|XP_004284167.1
+OGN	XP_033269512.1	GeneID=101287445	299	excluded	extra_isoform_same_species	XP_033269512.1 OGN [organism=Orcinus orca] [GeneID=101287445]	GeneID_101287445|OGN|XP_033269512.1
+OGN	XP_049567481.1	GeneID=101287445	299	excluded	extra_isoform_same_species	XP_049567481.1 OGN [organism=Orcinus orca] [GeneID=101287445]	GeneID_101287445|OGN|XP_049567481.1
+OGN	XP_007111354.1	GeneID=102984485	299	kept	representative	XP_007111354.1 OGN [organism=Physeter macrocephalus] [GeneID=102984485]	GeneID_102984485|OGN|XP_007111354.1
+OGN	XP_082144777.1	GeneID=309577002	293	kept	representative	XP_082144777.1 OGN [organism=Coloeus monedula] [GeneID=309577002]	GeneID_309577002|OGN|XP_082144777.1
+OGN	XP_081006977.1	isoform=1	298	excluded	extra_isoform_same_species	XP_081006977.1 OGN [organism=Miniopterus schreibersii] [GeneID=308563631] [isoform=1]	isoform_1|OGN|XP_081006977.1
+OGN	XP_081006978.1	isoform=1	298	excluded	extra_isoform_same_species	XP_081006978.1 OGN [organism=Miniopterus schreibersii] [GeneID=308563631] [isoform=1]	isoform_1|OGN|XP_081006978.1
+OGN	XP_041315693.1	GeneID=121349404	293	kept	representative	XP_041315693.1 OGN [organism=Pyrgilauda ruficollis] [GeneID=121349404]	GeneID_121349404|OGN|XP_041315693.1
+OGN	XP_076125212.1	GeneID=143104794	296	kept	representative	XP_076125212.1 ogna [organism=Alosa pseudoharengus] [GeneID=143104794]	GeneID_143104794|OGN|XP_076125212.1
+OGN	XP_071405823.1	GeneID=139669281	293	kept	representative	XP_071405823.1 OGN [organism=Pithys albifrons albifrons] [GeneID=139669281]	GeneID_139669281|OGN|XP_071405823.1
+OGN	XP_071405824.1	GeneID=139669281	293	excluded	extra_isoform_same_species	XP_071405824.1 OGN [organism=Pithys albifrons albifrons] [GeneID=139669281]	GeneID_139669281|OGN|XP_071405824.1
+OGN	XP_071405826.1	GeneID=139669281	293	excluded	extra_isoform_same_species	XP_071405826.1 OGN [organism=Pithys albifrons albifrons] [GeneID=139669281]	GeneID_139669281|OGN|XP_071405826.1
+OGN	XP_008634270.1	GeneID=103617711	293	kept	representative	XP_008634270.1 OGN [organism=Corvus brachyrhynchos] [GeneID=103617711]	GeneID_103617711|OGN|XP_008634270.1
+OGN	XP_073405685.1	GeneID=141052352	295	kept	representative	XP_073405685.1 OGN [organism=Dendrobates tinctorius] [GeneID=141052352]	GeneID_141052352|OGN|XP_073405685.1
+OGN	XP_039072399.1	GeneID=120219628	298	kept	representative	XP_039072399.1 OGN [organism=Hyaena hyaena] [GeneID=120219628]	GeneID_120219628|OGN|XP_039072399.1
+OGN	XP_051271570.1	GeneID=127372158	283	kept	representative	XP_051271570.1 ogna [organism=Dicentrarchus labrax] [GeneID=127372158]	GeneID_127372158|OGN|XP_051271570.1
+OGN	XP_055451182.1	GeneID=129667525	384	excluded	relative_length	XP_055451182.1 Ogn [organism=Psammomys obesus] [GeneID=129667525]	GeneID_129667525|OGN|XP_055451182.1
+OGN	XP_035298859.1	GeneID=100755182	296	kept	representative	XP_035298859.1 Ogn [organism=Cricetulus griseus] [GeneID=100755182]	GeneID_100755182|OGN|XP_035298859.1
+OGN	XP_035313604.1	GeneID=100755182	296	excluded	extra_isoform_same_species	XP_035313604.1 Ogn [organism=Cricetulus griseus] [GeneID=100755182]	GeneID_100755182|OGN|XP_035313604.1
+OGN	NP_001075585.1	GeneID=100008835	298	kept	representative	NP_001075585.1 OGN [organism=Oryctolagus cuniculus] [GeneID=100008835]	GeneID_100008835|OGN|NP_001075585.1
+OGN	XP_074770687.1	GeneID=141964319	293	kept	representative	XP_074770687.1 OGN [organism=Athene noctua] [GeneID=141964319]	GeneID_141964319|OGN|XP_074770687.1
+OGN	XP_036167116.1	GeneID=118657346	290	kept	representative	XP_036167116.1 OGN [organism=Myotis myotis] [GeneID=118657346]	GeneID_118657346|OGN|XP_036167116.1
+OGN	XP_007967938.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_007967938.1 OGN [organism=Chlorocebus sabaeus] [GeneID=103219756] [isoform=X1]	isoform_X1|OGN|XP_007967938.1
+OGN	XP_072877547.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_072877547.1 OGN [organism=Chlorocebus sabaeus] [GeneID=103219756] [isoform=X2]	isoform_X2|OGN|XP_072877547.1
+OGN	XP_081241264.1	GeneID=308702352	281	kept	representative	XP_081241264.1 ogna [organism=Scardinius erythrophthalmus] [GeneID=308702352]	GeneID_308702352|OGN|XP_081241264.1
+OGN	XP_021384875.1	GeneID=110469944	293	kept	representative	XP_021384875.1 OGN [organism=Lonchura striata] [GeneID=110469944]	GeneID_110469944|OGN|XP_021384875.1
+OGN	XP_046194614.1	GeneID=124024924	286	kept	representative	XP_046194614.1 ogna [organism=Oncorhynchus gorbuscha] [GeneID=124024924]	GeneID_124024924|OGN|XP_046194614.1
+OGN	XP_082325960.1	GeneID=309664427	382	kept	representative	XP_082325960.1 OGN [organism=Balaenoptera physalus] [GeneID=309664427]	GeneID_309664427|OGN|XP_082325960.1
+OGN	XP_005052963.1	GeneID=101813973	293	kept	representative	XP_005052963.1 OGN [organism=Ficedula albicollis] [GeneID=101813973]	GeneID_101813973|OGN|XP_005052963.1
+OGN	XP_012881820.1	GeneID=105993185	269	kept	representative	XP_012881820.1 Ogn [organism=Dipodomys ordii] [GeneID=105993185]	GeneID_105993185|OGN|XP_012881820.1
+OGN	XP_040101791.1	GeneID=120867406	299	kept	representative	XP_040101791.1 OGN [organism=Oryx dammah] [GeneID=120867406]	GeneID_120867406|OGN|XP_040101791.1
+OGN	XP_040101801.1	GeneID=120867406	299	excluded	extra_isoform_same_species	XP_040101801.1 OGN [organism=Oryx dammah] [GeneID=120867406]	GeneID_120867406|OGN|XP_040101801.1
+OGN	XP_005141619.2	GeneID=101871380	293	kept	representative	XP_005141619.2 OGN [organism=Melopsittacus undulatus] [GeneID=101871380]	GeneID_101871380|OGN|XP_005141619.2
+OGN	XP_072928780.1	isoform=X1	381	excluded	extra_isoform_same_species	XP_072928780.1 ogna [organism=Hemitrygon akajei] [GeneID=140742012] [isoform=X1]	isoform_X1|OGN|XP_072928780.1
+OGN	XP_072928781.1	isoform=X2	328	excluded	extra_isoform_same_species	XP_072928781.1 ogna [organism=Hemitrygon akajei] [GeneID=140742012] [isoform=X2]	isoform_X2|OGN|XP_072928781.1
+OGN	XP_010152895.1	isoform=X1	295	excluded	extra_isoform_same_species	XP_010152895.1 OGN [organism=Eurypyga helias] [GeneID=104503662] [isoform=X1]	isoform_X1|OGN|XP_010152895.1
+OGN	XP_010152896.1	isoform=X2	293	excluded	extra_isoform_same_species	XP_010152896.1 OGN [organism=Eurypyga helias] [GeneID=104503662] [isoform=X2]	isoform_X2|OGN|XP_010152896.1
+OGN	XP_039204163.1	GeneID=120310142	297	kept	representative	XP_039204163.1 OGN [organism=Crotalus tigris] [GeneID=120310142]	GeneID_120310142|OGN|XP_039204163.1
+OGN	XP_073208467.1	GeneID=140914471	297	kept	representative	XP_073208467.1 OGN [organism=Lepidochelys kempii] [GeneID=140914471]	GeneID_140914471|OGN|XP_073208467.1
+OGN	XP_080206519.1	GeneID=308043969	293	kept	representative	XP_080206519.1 OGN [organism=Nesoenas mayeri] [GeneID=308043969]	GeneID_308043969|OGN|XP_080206519.1
+OGN	XP_028853214.1	GeneID=114800244	292	kept	representative	XP_028853214.1 ogna [organism=Denticeps clupeoides] [GeneID=114800244]	GeneID_114800244|OGN|XP_028853214.1
+OGN	XP_045700884.1	GeneID=123822773	297	kept	representative	XP_045700884.1 OGN [organism=Phyllostomus hastatus] [GeneID=123822773]	GeneID_123822773|OGN|XP_045700884.1
+OGN	XP_047382065.1	isoform=X1	297	excluded	extra_isoform_same_species	XP_047382065.1 Ogn [organism=Sciurus carolinensis] [GeneID=124965271] [isoform=X1]	isoform_X1|OGN|XP_047382065.1
+OGN	XP_047382066.1	isoform=X2	355	excluded	extra_isoform_same_species	XP_047382066.1 Ogn [organism=Sciurus carolinensis] [GeneID=124965271] [isoform=X2]	isoform_X2|OGN|XP_047382066.1
+OGN	XP_082512069.1	isoform=1	299	excluded	extra_isoform_same_species	XP_082512069.1 OGN [organism=Grampus griseus] [GeneID=309823564] [isoform=1]	isoform_1|OGN|XP_082512069.1
+OGN	XP_082512070.1	isoform=1	299	excluded	extra_isoform_same_species	XP_082512070.1 OGN [organism=Grampus griseus] [GeneID=309823564] [isoform=1]	isoform_1|OGN|XP_082512070.1
+OGN	XP_037107770.1	GeneID=119123078	277	kept	representative	XP_037107770.1 ogna [organism=Syngnathus acus] [GeneID=119123078]	GeneID_119123078|OGN|XP_037107770.1
+OGN	XP_056461159.1	GeneID=130401439	286	kept	representative	XP_056461159.1 ogna [organism=Gadus chalcogrammus] [GeneID=130401439]	GeneID_130401439|OGN|XP_056461159.1
+OGN	XP_083652714.1	GeneID=310880549	293	kept	representative	XP_083652714.1 OGN [organism=Anser anser] [GeneID=310880549]	GeneID_310880549|OGN|XP_083652714.1
+OGN	XP_035954042.1	GeneID=118539502	298	kept	representative	XP_035954042.1 OGN [organism=Halichoerus grypus] [GeneID=118539502]	GeneID_118539502|OGN|XP_035954042.1
+OGN	XP_063282551.1	GeneID=134568138	290	kept	representative	XP_063282551.1 OGN [organism=Pelobates fuscus] [GeneID=134568138]	GeneID_134568138|OGN|XP_063282551.1
+OGN	XP_019952206.1	GeneID=109635476	283	kept	representative	XP_019952206.1 ogna [organism=Paralichthys olivaceus] [GeneID=109635476]	GeneID_109635476|OGN|XP_019952206.1
+OGN	XP_057701932.1	GeneID=130921723	277	kept	representative	XP_057701932.1 ogna [organism=Corythoichthys intestinalis] [GeneID=130921723]	GeneID_130921723|OGN|XP_057701932.1
+OGN	XP_042262300.1	GeneID=121894053	296	kept	representative	XP_042262300.1 ogna [organism=Thunnus maccoyii] [GeneID=121894053]	GeneID_121894053|OGN|XP_042262300.1
+OGN	XP_064524251.1	GeneID=135420555	293	kept	representative	XP_064524251.1 OGN [organism=Pseudopipra pipra] [GeneID=135420555]	GeneID_135420555|OGN|XP_064524251.1
+OGN	XP_042305582.1	GeneID=121921491	308	kept	representative	XP_042305582.1 OGN [organism=Sceloporus undulatus] [GeneID=121921491]	GeneID_121921491|OGN|XP_042305582.1
+OGN	XP_080583444.1	GeneID=308286320	277	kept	representative	XP_080583444.1 ogna [organism=Nannobrachium achirus] [GeneID=308286320]	GeneID_308286320|OGN|XP_080583444.1
+OGN	XP_014829633.1	isoform=X1	281	excluded	extra_isoform_same_species	XP_014829633.1 ogna [organism=Poecilia mexicana] [GeneID=106908155] [isoform=X1]	isoform_X1|OGN|XP_014829633.1
+OGN	XP_014829634.1	isoform=X2	280	excluded	extra_isoform_same_species	XP_014829634.1 ogna [organism=Poecilia mexicana] [GeneID=106908155] [isoform=X2]	isoform_X2|OGN|XP_014829634.1
+OGN	XP_003210067.1	GeneID=100550863	293	kept	representative	XP_003210067.1 OGN [organism=Meleagris gallopavo] [GeneID=100550863]	GeneID_100550863|OGN|XP_003210067.1
+OGN	XP_004393632.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_004393632.1 OGN [organism=Odobenus rosmarus divergens] [GeneID=101379850] [isoform=X1]	isoform_X1|OGN|XP_004393632.1
+OGN	XP_004393633.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_004393633.1 OGN [organism=Odobenus rosmarus divergens] [GeneID=101379850] [isoform=X1]	isoform_X1|OGN|XP_004393633.1
+OGN	XP_012422209.1	isoform=X2	335	excluded	extra_isoform_same_species	XP_012422209.1 OGN [organism=Odobenus rosmarus divergens] [GeneID=101379850] [isoform=X2]	isoform_X2|OGN|XP_012422209.1
+OGN	XP_005422457.1	GeneID=102043068	291	kept	representative	XP_005422457.1 OGN [organism=Geospiza fortis] [GeneID=102043068]	GeneID_102043068|OGN|XP_005422457.1
+OGN	NP_989540.1	GeneID=374039	294	kept	representative	NP_989540.1 OGN [organism=Gallus gallus] [GeneID=374039]	GeneID_374039|OGN|NP_989540.1
+OGN	XP_006876832.1	GeneID=102813019	293	kept	representative	XP_006876832.1 OGN [organism=Chrysochloris asiatica] [GeneID=102813019]	GeneID_102813019|OGN|XP_006876832.1
+OGN	XP_053233612.1	isoform=X1	307	excluded	extra_isoform_same_species	XP_053233612.1 OGN [organism=Podarcis raffonei] [GeneID=128408237] [isoform=X1]	isoform_X1|OGN|XP_053233612.1
+OGN	XP_053233613.1	isoform=X1	307	excluded	extra_isoform_same_species	XP_053233613.1 OGN [organism=Podarcis raffonei] [GeneID=128408237] [isoform=X1]	isoform_X1|OGN|XP_053233613.1
+OGN	XP_053233614.1	isoform=X2	254	excluded	extra_isoform_same_species	XP_053233614.1 OGN [organism=Podarcis raffonei] [GeneID=128408237] [isoform=X2]	isoform_X2|OGN|XP_053233614.1
+OGN	XP_050000423.1	GeneID=126503027	298	kept	representative	XP_050000423.1 Ogn [organism=Alexandromys fortis] [GeneID=126503027]	GeneID_126503027|OGN|XP_050000423.1
+OGN	XP_050000424.1	GeneID=126503027	298	excluded	extra_isoform_same_species	XP_050000424.1 Ogn [organism=Alexandromys fortis] [GeneID=126503027]	GeneID_126503027|OGN|XP_050000424.1
+OGN	XP_019716039.1	GeneID=109510285	286	kept	representative	XP_019716039.1 ogna [organism=Hippocampus comes] [GeneID=109510285]	GeneID_109510285|OGN|XP_019716039.1
+OGN	XP_082178811.1	GeneID=309595563	293	kept	representative	XP_082178811.1 OGN [organism=Platalea leucorodia] [GeneID=309595563]	GeneID_309595563|OGN|XP_082178811.1
+OGN	XP_030229875.1	GeneID=115556741	286	kept	representative	XP_030229875.1 ogna [organism=Gadus morhua] [GeneID=115556741]	GeneID_115556741|OGN|XP_030229875.1
+OGN	XP_075177901.1	GeneID=142249850	295	kept	representative	XP_075177901.1 OGN [organism=Anomaloglossus baeobatrachus] [GeneID=142249850]	GeneID_142249850|OGN|XP_075177901.1
+OGN	XP_075318058.1	GeneID=142377636	283	kept	representative	XP_075318058.1 ogna [organism=Odontesthes bonariensis] [GeneID=142377636]	GeneID_142377636|OGN|XP_075318058.1
+OGN	XP_026202895.1	GeneID=113153468	283	kept	representative	XP_026202895.1 ogna [organism=Anabas testudineus] [GeneID=113153468]	GeneID_113153468|OGN|XP_026202895.1
+OGN	XP_072732094.1	GeneID=140658058	293	kept	representative	XP_072732094.1 OGN [organism=Ciconia boyciana] [GeneID=140658058]	GeneID_140658058|OGN|XP_072732094.1
+OGN	XP_072732095.1	GeneID=140658058	293	excluded	extra_isoform_same_species	XP_072732095.1 OGN [organism=Ciconia boyciana] [GeneID=140658058]	GeneID_140658058|OGN|XP_072732095.1
+OGN	XP_057910622.2	GeneID=131106007	280	kept	representative	XP_057910622.2 ogna [organism=Doryrhamphus excisus] [GeneID=131106007]	GeneID_131106007|OGN|XP_057910622.2
+OGN	XP_032555452.1	GeneID=116792545	298	kept	representative	XP_032555452.1 OGN [organism=Chiroxiphia lanceolata] [GeneID=116792545]	GeneID_116792545|OGN|XP_032555452.1
+OGN	XP_043309694.1	GeneID=122432040	298	kept	representative	XP_043309694.1 OGN [organism=Cervus canadensis] [GeneID=122432040]	GeneID_122432040|OGN|XP_043309694.1
+OGN	XP_051833599.1	isoform=X1	285	excluded	extra_isoform_same_species	XP_051833599.1 OGN [organism=Antechinus flavipes] [GeneID=127549521] [isoform=X1]	isoform_X1|OGN|XP_051833599.1
+OGN	XP_051833607.1	isoform=X2	284	excluded	extra_isoform_same_species	XP_051833607.1 OGN [organism=Antechinus flavipes] [GeneID=127549521] [isoform=X2]	isoform_X2|OGN|XP_051833607.1
+OGN	XP_077181851.1	GeneID=143832015	295	kept	representative	XP_077181851.1 OGN [organism=Paroedura picta] [GeneID=143832015]	GeneID_143832015|OGN|XP_077181851.1
+OGN	XP_077181853.1	GeneID=143832015	295	excluded	extra_isoform_same_species	XP_077181853.1 OGN [organism=Paroedura picta] [GeneID=143832015]	GeneID_143832015|OGN|XP_077181853.1
+OGN	XP_069534310.1	GeneID=138605774	286	kept	representative	XP_069534310.1 ogna [organism=Semicossyphus pulcher] [GeneID=138605774]	GeneID_138605774|OGN|XP_069534310.1
+OGN	XP_042567660.1	GeneID=109046491	289	kept	representative	XP_042567660.1 ogna [organism=Cyprinus carpio] [GeneID=109046491]	GeneID_109046491|OGN|XP_042567660.1
+OGN	XP_054496222.2	isoform=X1	293	excluded	extra_isoform_same_species	XP_054496222.2 OGN [organism=Agelaius phoeniceus] [GeneID=129125009] [isoform=X1]	isoform_X1|OGN|XP_054496222.2
+OGN	XP_077040385.1	isoform=X2	255	excluded	extra_isoform_same_species	XP_077040385.1 OGN [organism=Agelaius phoeniceus] [GeneID=129125009] [isoform=X2]	isoform_X2|OGN|XP_077040385.1
+OGN	XP_069006412.1	GeneID=138198721	280	kept	representative	XP_069006412.1 ogna [organism=Embiotoca jacksoni] [GeneID=138198721]	GeneID_138198721|OGN|XP_069006412.1
+OGN	XP_074494758.1	GeneID=141769517	283	kept	representative	XP_074494758.1 ogna [organism=Sebastes fasciatus] [GeneID=141769517]	GeneID_141769517|OGN|XP_074494758.1
+OGN	XP_056258371.1	GeneID=130185758	283	kept	representative	XP_056258371.1 ogna [organism=Seriola aureovittata] [GeneID=130185758]	GeneID_130185758|OGN|XP_056258371.1
+OGN	XP_086149241.1	GeneID=147331077	283	kept	representative	XP_086149241.1 ogna [organism=Aulonocara sp. 'chitande type north' Nkhata Bay] [GeneID=147331077]	GeneID_147331077|OGN|XP_086149241.1
+OGN	XP_025840185.1	GeneID=112908810	297	kept	representative	XP_025840185.1 OGN [organism=Vulpes vulpes] [GeneID=112908810]	GeneID_112908810|OGN|XP_025840185.1
+OGN	XP_069889377.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_069889377.1 Ogn [organism=Dipodomys merriami] [GeneID=138834681] [isoform=X1]	isoform_X1|OGN|XP_069889377.1
+OGN	XP_069889378.1	isoform=X2	354	excluded	extra_isoform_same_species	XP_069889378.1 Ogn [organism=Dipodomys merriami] [GeneID=138834681] [isoform=X2]	isoform_X2|OGN|XP_069889378.1
+OGN	XP_075951788.1	GeneID=142954578	283	kept	representative	XP_075951788.1 ogna [organism=Anarhichas minor] [GeneID=142954578]	GeneID_142954578|OGN|XP_075951788.1
+OGN	XP_029908130.1	GeneID=115359689	289	kept	representative	XP_029908130.1 ogna [organism=Myripristis murdjan] [GeneID=115359689]	GeneID_115359689|OGN|XP_029908130.1
+OGN	XP_031587361.1	GeneID=116313724	283	kept	representative	XP_031587361.1 ogna [organism=Oreochromis aureus] [GeneID=116313724]	GeneID_116313724|OGN|XP_031587361.1
+OGN	XP_041282027.1	GeneID=121347437	293	kept	representative	XP_041282027.1 OGN [organism=Onychostruthus taczanowskii] [GeneID=121347437]	GeneID_121347437|OGN|XP_041282027.1
+OGN	XP_068550178.1	GeneID=137862247	293	kept	representative	XP_068550178.1 OGN [organism=Anas acuta] [GeneID=137862247]	GeneID_137862247|OGN|XP_068550178.1
+OGN	NP_001302657.1	GeneID=106509723	298	kept	representative	NP_001302657.1 OGN [organism=Sus scrofa] [GeneID=106509723]	GeneID_106509723|OGN|NP_001302657.1
+OGN	XP_013851234.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_013851234.1 OGN [organism=Sus scrofa] [GeneID=106509723] [isoform=X1]	isoform_X1|OGN|XP_013851234.1
+OGN	XP_014187723.1	GeneID=102300978	283	kept	representative	XP_014187723.1 ogna [organism=Haplochromis burtoni] [GeneID=102300978]	GeneID_102300978|OGN|XP_014187723.1
+OGN	XP_043563825.1	GeneID=122558929	311	kept	representative	XP_043563825.1 ogna [organism=Chiloscyllium plagiosum] [GeneID=122558929]	GeneID_122558929|OGN|XP_043563825.1
+OGN	XP_025971764.2	GeneID=112992746	293	kept	representative	XP_025971764.2 OGN [organism=Dromaius novaehollandiae] [GeneID=112992746]	GeneID_112992746|OGN|XP_025971764.2
+OGN	XP_044899427.1	GeneID=102899607	298	kept	representative	XP_044899427.1 OGN [organism=Felis catus] [GeneID=102899607]	GeneID_102899607|OGN|XP_044899427.1
+OGN	XP_043933342.1	GeneID=122806736	292	kept	representative	XP_043933342.1 OGN [organism=Protopterus annectens] [GeneID=122806736]	GeneID_122806736|OGN|XP_043933342.1
+OGN	XP_025279468.1	GeneID=112644911	361	kept	representative	XP_025279468.1 OGN [organism=Canis lupus dingo] [GeneID=112644911]	GeneID_112644911|OGN|XP_025279468.1
+OGN	XP_046731740.1	GeneID=124402639	240	kept	representative	XP_046731740.1 ogna [organism=Silurus meridionalis] [GeneID=124402639]	GeneID_124402639|OGN|XP_046731740.1
+OGN	XP_035193282.1	GeneID=118173125	292	kept	representative	XP_035193282.1 OGN [organism=Oxyura jamaicensis] [GeneID=118173125]	GeneID_118173125|OGN|XP_035193282.1
+OGN	XP_005901895.1	GeneID=102278456	299	kept	representative	XP_005901895.1 OGN [organism=Bos mutus] [GeneID=102278456]	GeneID_102278456|OGN|XP_005901895.1
+OGN	XP_069567384.1	GeneID=138628306	283	kept	representative	XP_069567384.1 ogna [organism=Brachyistius frenatus] [GeneID=138628306]	GeneID_138628306|OGN|XP_069567384.1
+OGN	XP_072438228.1	GeneID=140483704	311	kept	representative	XP_072438228.1 ogna [organism=Chiloscyllium punctatum] [GeneID=140483704]	GeneID_140483704|OGN|XP_072438228.1
+OGN	XP_009272889.1	GeneID=103895103	293	kept	representative	XP_009272889.1 OGN [organism=Aptenodytes forsteri] [GeneID=103895103]	GeneID_103895103|OGN|XP_009272889.1
+OGN	XP_034885159.1	GeneID=118026400	298	kept	representative	XP_034885159.1 OGN [organism=Mirounga leonina] [GeneID=118026400]	GeneID_118026400|OGN|XP_034885159.1
+OGN	XP_059800882.1	GeneID=132378165	381	kept	representative	XP_059800882.1 ogna [organism=Hypanus sabinus] [GeneID=132378165]	GeneID_132378165|OGN|XP_059800882.1
+OGN	XP_081885936.1	GeneID=309426323	293	kept	representative	XP_081885936.1 OGN [organism=Branta canadensis] [GeneID=309426323]	GeneID_309426323|OGN|XP_081885936.1
+OGN	XP_085895983.1	isoform=X1	284	excluded	extra_isoform_same_species	XP_085895983.1 ogna [organism=Filicampus tigris] [GeneID=147142741] [isoform=X1]	isoform_X1|OGN|XP_085895983.1
+OGN	XP_085895984.1	isoform=X2	247	excluded	extra_isoform_same_species	XP_085895984.1 ogna [organism=Filicampus tigris] [GeneID=147142741] [isoform=X2]	isoform_X2|OGN|XP_085895984.1
+OGN	XP_045628538.1	GeneID=123776538	361	kept	representative	XP_045628538.1 OGN [organism=Ursus americanus] [GeneID=123776538]	GeneID_123776538|OGN|XP_045628538.1
+OGN	XP_071017890.1	GeneID=139413927	298	kept	representative	XP_071017890.1 ogna [organism=Oncorhynchus clarkii lewisi] [GeneID=139413927]	GeneID_139413927|OGN|XP_071017890.1
+OGN	XP_010143617.1	GeneID=104501497	291	kept	representative	XP_010143617.1 OGN [organism=Buceros rhinoceros silvestris] [GeneID=104501497]	GeneID_104501497|OGN|XP_010143617.1
+OGN	XP_075881262.1	GeneID=142887474	284	kept	representative	XP_075881262.1 ogna [organism=Nelusetta ayraudi] [GeneID=142887474]	GeneID_142887474|OGN|XP_075881262.1
+OGN	XP_015813777.3	GeneID=107384821	281	kept	representative	XP_015813777.3 ogna [organism=Nothobranchius furzeri] [GeneID=107384821]	GeneID_107384821|OGN|XP_015813777.3
+OGN	XP_021104147.1	GeneID=101696505	356	kept	representative	XP_021104147.1 Ogn [organism=Heterocephalus glaber] [GeneID=101696505]	GeneID_101696505|OGN|XP_021104147.1
+OGN	XP_074140686.1	isoform=X1	286	excluded	extra_isoform_same_species	XP_074140686.1 OGN [organism=Sminthopsis crassicaudata] [GeneID=141552128] [isoform=X1]	isoform_X1|OGN|XP_074140686.1
+OGN	XP_074140689.1	isoform=X2	285	excluded	extra_isoform_same_species	XP_074140689.1 OGN [organism=Sminthopsis crassicaudata] [GeneID=141552128] [isoform=X2]	isoform_X2|OGN|XP_074140689.1
+OGN	XP_042736026.1	GeneID=122184843	293	kept	representative	XP_042736026.1 OGN [organism=Lagopus leucura] [GeneID=122184843]	GeneID_122184843|OGN|XP_042736026.1
+OGN	XP_053157054.1	GeneID=128347047	305	kept	representative	XP_053157054.1 OGN [organism=Hemicordylus capensis] [GeneID=128347047]	GeneID_128347047|OGN|XP_053157054.1
+OGN	XP_053157055.1	GeneID=128347047	305	excluded	extra_isoform_same_species	XP_053157055.1 OGN [organism=Hemicordylus capensis] [GeneID=128347047]	GeneID_128347047|OGN|XP_053157055.1
+OGN	XP_084271730.1	GeneID=311294635	281	kept	representative	XP_084271730.1 ogna [organism=Rutilus rutilus] [GeneID=311294635]	GeneID_311294635|OGN|XP_084271730.1
+OGN	XP_012428226.1	GeneID=100229795	293	kept	representative	XP_012428226.1 OGN [organism=Taeniopygia guttata] [GeneID=100229795]	GeneID_100229795|OGN|XP_012428226.1
+OGN	XP_007907071.1	GeneID=103188775	298	kept	representative	XP_007907071.1 ogna [organism=Callorhinchus milii] [GeneID=103188775]	GeneID_103188775|OGN|XP_007907071.1
+OGN	XP_021579137.1	isoform=X1	296	excluded	extra_isoform_same_species	XP_021579137.1 Ogn [organism=Ictidomys tridecemlineatus] [GeneID=101973209] [isoform=X1]	isoform_X1|OGN|XP_021579137.1
+OGN	XP_077886721.1	isoform=X2	249	excluded	extra_isoform_same_species	XP_077886721.1 Ogn [organism=Ictidomys tridecemlineatus] [GeneID=101973209] [isoform=X2]	isoform_X2|OGN|XP_077886721.1
+OGN	XP_077886722.1	isoform=X3	243	excluded	extra_isoform_same_species	XP_077886722.1 Ogn [organism=Ictidomys tridecemlineatus] [GeneID=101973209] [isoform=X3]	isoform_X3|OGN|XP_077886722.1
+OGN	XP_064310290.1	GeneID=104040269	293	kept	representative	XP_064310290.1 OGN [organism=Phalacrocorax carbo] [GeneID=104040269]	GeneID_104040269|OGN|XP_064310290.1
+OGN	XP_064310292.1	GeneID=104040269	293	excluded	extra_isoform_same_species	XP_064310292.1 OGN [organism=Phalacrocorax carbo] [GeneID=104040269]	GeneID_104040269|OGN|XP_064310292.1
+OGN	XP_071350970.1	GeneID=139630967	283	kept	representative	XP_071350970.1 ogna [organism=Trachinotus anak] [GeneID=139630967]	GeneID_139630967|OGN|XP_071350970.1
+OGN	XP_077132111.1	GeneID=143787341	295	kept	representative	XP_077132111.1 OGN [organism=Ranitomeya variabilis] [GeneID=143787341]	GeneID_143787341|OGN|XP_077132111.1
+OGN	XP_077132112.1	GeneID=143787341	295	excluded	extra_isoform_same_species	XP_077132112.1 OGN [organism=Ranitomeya variabilis] [GeneID=143787341]	GeneID_143787341|OGN|XP_077132112.1
+OGN	XP_080921755.1	isoform=1	299	excluded	extra_isoform_same_species	XP_080921755.1 OGN [organism=Rhinolophus hipposideros] [GeneID=308504612] [isoform=1]	isoform_1|OGN|XP_080921755.1
+OGN	XP_080921756.1	isoform=2	259	excluded	extra_isoform_same_species	XP_080921756.1 OGN [organism=Rhinolophus hipposideros] [GeneID=308504612] [isoform=2]	isoform_2|OGN|XP_080921756.1
+OGN	XP_006922856.2	GeneID=102878601	356	kept	representative	XP_006922856.2 OGN [organism=Pteropus alecto] [GeneID=102878601]	GeneID_102878601|OGN|XP_006922856.2
+OGN	XP_067854721.1	isoform=X1	309	excluded	extra_isoform_same_species	XP_067854721.1 ogna [organism=Heptranchias perlo] [GeneID=137334114] [isoform=X1]	isoform_X1|OGN|XP_067854721.1
+OGN	XP_067854722.1	isoform=X2	266	excluded	extra_isoform_same_species	XP_067854722.1 ogna [organism=Heptranchias perlo] [GeneID=137334114] [isoform=X2]	isoform_X2|OGN|XP_067854722.1
+OGN	XP_075143478.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_075143478.1 OGN [organism=Leptodactylus fuscus] [GeneID=142218576] [isoform=X1]	isoform_X1|OGN|XP_075143478.1
+OGN	XP_075143479.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_075143479.1 OGN [organism=Leptodactylus fuscus] [GeneID=142218576] [isoform=X1]	isoform_X1|OGN|XP_075143479.1
+OGN	XP_075143480.1	isoform=X2	292	excluded	extra_isoform_same_species	XP_075143480.1 OGN [organism=Leptodactylus fuscus] [GeneID=142218576] [isoform=X2]	isoform_X2|OGN|XP_075143480.1
+OGN	XP_008689088.1	GeneID=103663165	361	kept	representative	XP_008689088.1 OGN [organism=Ursus maritimus] [GeneID=103663165]	GeneID_103663165|OGN|XP_008689088.1
+OGN	XP_031681677.1	GeneID=109885050	298	kept	representative	XP_031681677.1 ogna [organism=Oncorhynchus kisutch] [GeneID=109885050]	GeneID_109885050|OGN|XP_031681677.1
+OGN	XP_053518779.1	GeneID=119058133	297	kept	representative	XP_053518779.1 OGN [organism=Artibeus jamaicensis] [GeneID=119058133]	GeneID_119058133|OGN|XP_053518779.1
+OGN	XP_049752082.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_049752082.1 OGN [organism=Elephas maximus indicus] [GeneID=126082945] [isoform=X1]	isoform_X1|OGN|XP_049752082.1
+OGN	XP_049752083.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_049752083.1 OGN [organism=Elephas maximus indicus] [GeneID=126082945] [isoform=X2]	isoform_X2|OGN|XP_049752083.1
+OGN	XP_052013227.1	GeneID=127664963	298	kept	representative	XP_052013227.1 Ogn [organism=Apodemus sylvaticus] [GeneID=127664963]	GeneID_127664963|OGN|XP_052013227.1
+OGN	XP_052013228.1	GeneID=127664963	298	excluded	extra_isoform_same_species	XP_052013228.1 Ogn [organism=Apodemus sylvaticus] [GeneID=127664963]	GeneID_127664963|OGN|XP_052013228.1
+OGN	XP_055504251.1	isoform=X1	315	excluded	extra_isoform_same_species	XP_055504251.1 ogna [organism=Leucoraja erinaceus] [GeneID=129704877] [isoform=X1]	isoform_X1|OGN|XP_055504251.1
+OGN	XP_055504252.1	isoform=X2	314	excluded	extra_isoform_same_species	XP_055504252.1 ogna [organism=Leucoraja erinaceus] [GeneID=129704877] [isoform=X2]	isoform_X2|OGN|XP_055504252.1
+OGN	XP_038127952.1	GeneID=119774495	278	kept	representative	XP_038127952.1 ogna [organism=Cyprinodon tularosa] [GeneID=119774495]	GeneID_119774495|OGN|XP_038127952.1
+OGN	XP_071296104.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_071296104.1 OGN [organism=Agelaius tricolor] [GeneID=139596034] [isoform=X1]	isoform_X1|OGN|XP_071296104.1
+OGN	XP_071296105.1	isoform=X2	255	excluded	extra_isoform_same_species	XP_071296105.1 OGN [organism=Agelaius tricolor] [GeneID=139596034] [isoform=X2]	isoform_X2|OGN|XP_071296105.1
+OGN	XP_059512271.1	isoform=X1	290	excluded	extra_isoform_same_species	XP_059512271.1 OGN [organism=Myotis daubentonii] [GeneID=132211777] [isoform=X1]	isoform_X1|OGN|XP_059512271.1
+OGN	XP_059512272.1	isoform=X2	258	excluded	extra_isoform_same_species	XP_059512272.1 OGN [organism=Myotis daubentonii] [GeneID=132211777] [isoform=X2]	isoform_X2|OGN|XP_059512272.1
+OGN	XP_059871033.1	GeneID=132427504	299	kept	representative	XP_059871033.1 OGN [organism=Delphinus delphis] [GeneID=132427504]	GeneID_132427504|OGN|XP_059871033.1
+OGN	XP_059871034.1	GeneID=132427504	299	excluded	extra_isoform_same_species	XP_059871034.1 OGN [organism=Delphinus delphis] [GeneID=132427504]	GeneID_132427504|OGN|XP_059871034.1
+OGN	XP_056380025.1	GeneID=130275732	291	kept	representative	XP_056380025.1 OGN [organism=Hyla sarda] [GeneID=130275732]	GeneID_130275732|OGN|XP_056380025.1
+OGN	XP_004442783.1	GeneID=101396259	298	kept	representative	XP_004442783.1 LOC101396259 [organism=Ceratotherium simum simum] [GeneID=101396259]	GeneID_101396259|OGN|XP_004442783.1
+OGN	XP_015496031.1	GeneID=107210146	293	kept	representative	XP_015496031.1 OGN [organism=Parus major] [GeneID=107210146]	GeneID_107210146|OGN|XP_015496031.1
+OGN	XP_058668758.1	GeneID=131562961	291	kept	representative	XP_058668758.1 OGN [organism=Ammospiza caudacuta] [GeneID=131562961]	GeneID_131562961|OGN|XP_058668758.1
+OGN	XP_061730763.1	GeneID=133535194	284	kept	representative	XP_061730763.1 ogna [organism=Nerophis ophidion] [GeneID=133535194]	GeneID_133535194|OGN|XP_061730763.1
+OGN	XP_004086171.1	GeneID=101156231	280	kept	representative	XP_004086171.1 ogna [organism=Oryzias latipes] [GeneID=101156231]	GeneID_101156231|OGN|XP_004086171.1
+OGN	XP_082698735.1	GeneID=309963999	299	kept	representative	XP_082698735.1 OGN [organism=Leucopleurus acutus] [GeneID=309963999]	GeneID_309963999|OGN|XP_082698735.1
+OGN	XP_066224463.1	GeneID=136394745	298	kept	representative	XP_066224463.1 OGN [organism=Saccopteryx leptura] [GeneID=136394745]	GeneID_136394745|OGN|XP_066224463.1
+OGN	XP_073500433.1	GeneID=141157283	295	kept	representative	XP_073500433.1 OGN [organism=Phyllobates terribilis] [GeneID=141157283]	GeneID_141157283|OGN|XP_073500433.1
+OGN	XP_079074780.1	GeneID=306736962	282	kept	representative	XP_079074780.1 ogna [organism=Taurulus bubalis] [GeneID=306736962]	GeneID_306736962|OGN|XP_079074780.1
+OGN	XP_034389813.1	GeneID=117731515	283	kept	representative	XP_034389813.1 ogna [organism=Cyclopterus lumpus] [GeneID=117731515]	GeneID_117731515|OGN|XP_034389813.1
+OGN	XP_039336789.1	GeneID=120368617	298	kept	representative	XP_039336789.1 OGN [organism=Mauremys reevesii] [GeneID=120368617]	GeneID_120368617|OGN|XP_039336789.1
+OGN	XP_039336790.1	GeneID=120368617	298	excluded	extra_isoform_same_species	XP_039336790.1 OGN [organism=Mauremys reevesii] [GeneID=120368617]	GeneID_120368617|OGN|XP_039336790.1
+OGN	XP_039336791.1	GeneID=120368617	298	excluded	extra_isoform_same_species	XP_039336791.1 OGN [organism=Mauremys reevesii] [GeneID=120368617]	GeneID_120368617|OGN|XP_039336791.1
+OGN	XP_051977548.1	GeneID=127639534	291	kept	representative	XP_051977548.1 ogna [organism=Xyrauchen texanus] [GeneID=127639534]	GeneID_127639534|OGN|XP_051977548.1
+OGN	XP_051977549.1	GeneID=127639534	291	excluded	extra_isoform_same_species	XP_051977549.1 ogna [organism=Xyrauchen texanus] [GeneID=127639534]	GeneID_127639534|OGN|XP_051977549.1
+OGN	XP_038322617.1	GeneID=610704	361	kept	representative	XP_038322617.1 OGN [organism=Canis lupus familiaris] [GeneID=610704]	GeneID_610704|OGN|XP_038322617.1
+OGN	XP_038383338.1	GeneID=610704	361	excluded	extra_isoform_same_species	XP_038383338.1 OGN [organism=Canis lupus familiaris] [GeneID=610704]	GeneID_610704|OGN|XP_038383338.1
+OGN	XP_038447637.1	GeneID=610704	361	excluded	extra_isoform_same_species	XP_038447637.1 OGN [organism=Canis lupus familiaris] [GeneID=610704]	GeneID_610704|OGN|XP_038447637.1
+OGN	XP_038511431.1	GeneID=610704	361	excluded	extra_isoform_same_species	XP_038511431.1 OGN [organism=Canis lupus familiaris] [GeneID=610704]	GeneID_610704|OGN|XP_038511431.1
+OGN	XP_853340.2	GeneID=610704	361	excluded	extra_isoform_same_species	XP_853340.2 OGN [organism=Canis lupus familiaris] [GeneID=610704]	GeneID_610704|OGN|XP_853340.2
+OGN	XP_062923645.1	GeneID=134356626	380	kept	representative	XP_062923645.1 ogna [organism=Mobula hypostoma] [GeneID=134356626]	GeneID_134356626|OGN|XP_062923645.1
+OGN	XP_042768198.1	GeneID=122204687	298	kept	representative	XP_042768198.1 OGN [organism=Panthera leo] [GeneID=122204687]	GeneID_122204687|OGN|XP_042768198.1
+OGN	XP_010308272.1	GeneID=104641345	301	kept	representative	XP_010308272.1 OGN [organism=Balearica regulorum gibbericeps] [GeneID=104641345]	GeneID_104641345|OGN|XP_010308272.1
+OGN	XP_017374469.1	GeneID=108296498	298	kept	representative	XP_017374469.1 OGN [organism=Cebus imitator] [GeneID=108296498]	GeneID_108296498|OGN|XP_017374469.1
+OGN	XP_018600137.1	GeneID=108929819	285	kept	representative	XP_018600137.1 ogna [organism=Scleropages formosus] [GeneID=108929819]	GeneID_108929819|OGN|XP_018600137.1
+OGN	XP_056098459.1	GeneID=130077290	281	kept	representative	XP_056098459.1 ogna [organism=Rhinichthys klamathensis goyatoka] [GeneID=130077290]	GeneID_130077290|OGN|XP_056098459.1
+OGN	XP_082122606.1	GeneID=309562338	297	kept	representative	XP_082122606.1 OGN [organism=Pelophylax lessonae] [GeneID=309562338]	GeneID_309562338|OGN|XP_082122606.1
+OGN	XP_075039113.1	GeneID=142099509	291	kept	representative	XP_075039113.1 OGN [organism=Mixophyes fleayi] [GeneID=142099509]	GeneID_142099509|OGN|XP_075039113.1
+OGN	XP_066452521.1	GeneID=136621156	294	kept	representative	XP_066452521.1 OGN [organism=Eleutherodactylus coqui] [GeneID=136621156]	GeneID_136621156|OGN|XP_066452521.1
+OGN	XP_075405981.1	GeneID=142448225	296	kept	representative	XP_075405981.1 OGN [organism=Tenrec ecaudatus] [GeneID=142448225]	GeneID_142448225|OGN|XP_075405981.1
+OGN	XP_007055647.1	GeneID=102944274	297	kept	representative	XP_007055647.1 OGN [organism=Chelonia mydas] [GeneID=102944274]	GeneID_102944274|OGN|XP_007055647.1
+OGN	XP_019822136.2	GeneID=109563256	299	kept	representative	XP_019822136.2 OGN [organism=Bos indicus] [GeneID=109563256]	GeneID_109563256|OGN|XP_019822136.2
+OGN	XP_070650405.1	GeneID=109563256	299	excluded	extra_isoform_same_species	XP_070650405.1 OGN [organism=Bos indicus] [GeneID=109563256]	GeneID_109563256|OGN|XP_070650405.1
+OGN	XP_037346258.1	GeneID=119229708	283	kept	representative	XP_037346258.1 ogna [organism=Pungitius pungitius] [GeneID=119229708]	GeneID_119229708|OGN|XP_037346258.1
+OGN	XP_042365674.1	GeneID=121960135	283	kept	representative	XP_042365674.1 ogna [organism=Plectropomus leopardus] [GeneID=121960135]	GeneID_121960135|OGN|XP_042365674.1
+OGN	XP_083795114.1	GeneID=310965413	283	kept	representative	XP_083795114.1 ogna [organism=Echiichthys vipera] [GeneID=310965413]	GeneID_310965413|OGN|XP_083795114.1
+OGN	XP_017499502.1	GeneID=108386239	298	kept	representative	XP_017499502.1 OGN [organism=Manis javanica] [GeneID=108386239]	GeneID_108386239|OGN|XP_017499502.1
+OGN	XP_060095871.1	GeneID=132572626	305	kept	representative	XP_060095871.1 OGN [organism=Heteronotia binoei] [GeneID=132572626]	GeneID_132572626|OGN|XP_060095871.1
+OGN	XP_063796781.1	GeneID=134958247	295	kept	representative	XP_063796781.1 OGN [organism=Pseudophryne corroboree] [GeneID=134958247]	GeneID_134958247|OGN|XP_063796781.1
+OGN	XP_065498521.1	GeneID=135992945	293	kept	representative	XP_065498521.1 OGN [organism=Caloenas nicobarica] [GeneID=135992945]	GeneID_135992945|OGN|XP_065498521.1
+OGN	XP_081094145.1	GeneID=308619359	382	kept	representative	XP_081094145.1 OGN [organism=Mesoplodon bidens] [GeneID=308619359]	GeneID_308619359|OGN|XP_081094145.1
+OGN	XP_031807418.1	isoform=X1	285	excluded	extra_isoform_same_species	XP_031807418.1 OGN [organism=Sarcophilus harrisii] [GeneID=100933811] [isoform=X1]	isoform_X1|OGN|XP_031807418.1
+OGN	XP_031807422.1	isoform=X1	285	excluded	extra_isoform_same_species	XP_031807422.1 OGN [organism=Sarcophilus harrisii] [GeneID=100933811] [isoform=X1]	isoform_X1|OGN|XP_031807422.1
+OGN	XP_031807425.1	isoform=X2	284	excluded	extra_isoform_same_species	XP_031807425.1 OGN [organism=Sarcophilus harrisii] [GeneID=100933811] [isoform=X2]	isoform_X2|OGN|XP_031807425.1
+OGN	XP_051649159.1	GeneID=127473514	293	kept	representative	XP_051649159.1 OGN [organism=Manacus candei] [GeneID=127473514]	GeneID_127473514|OGN|XP_051649159.1
+OGN	XP_045738034.1	GeneID=123849472	298	kept	representative	XP_045738034.1 OGN [organism=Mirounga angustirostris] [GeneID=123849472]	GeneID_123849472|OGN|XP_045738034.1
+OGN	XP_079746558.1	GeneID=307169686	281	kept	representative	XP_079746558.1 ogna [organism=Squalius cephalus] [GeneID=307169686]	GeneID_307169686|OGN|XP_079746558.1
+OGN	XP_008942566.1	GeneID=103776791	294	kept	representative	XP_008942566.1 OGN [organism=Merops nubicus] [GeneID=103776791]	GeneID_103776791|OGN|XP_008942566.1
+OGN	XP_017260277.2	GeneID=108229129	283	kept	representative	XP_017260277.2 ogna [organism=Kryptolebias marmoratus] [GeneID=108229129]	GeneID_108229129|OGN|XP_017260277.2
+OGN	XP_028387784.1	GeneID=114512849	297	kept	representative	XP_028387784.1 OGN [organism=Phyllostomus discolor] [GeneID=114512849]	GeneID_114512849|OGN|XP_028387784.1
+OGN	XP_053723347.1	GeneID=128760219	280	kept	representative	XP_053723347.1 ogna [organism=Synchiropus splendidus] [GeneID=128760219]	GeneID_128760219|OGN|XP_053723347.1
+OGN	XP_061641680.1	isoform=X1	288	excluded	extra_isoform_same_species	XP_061641680.1 ogna [organism=Phyllopteryx taeniolatus] [GeneID=133483872] [isoform=X1]	isoform_X1|OGN|XP_061641680.1
+OGN	XP_061641681.1	isoform=X2	233	excluded	extra_isoform_same_species	XP_061641681.1 ogna [organism=Phyllopteryx taeniolatus] [GeneID=133483872] [isoform=X2]	isoform_X2|OGN|XP_061641681.1
+OGN	XP_032049753.1	GeneID=116492884	293	kept	representative	XP_032049753.1 OGN [organism=Aythya fuligula] [GeneID=116492884]	GeneID_116492884|OGN|XP_032049753.1
+OGN	XP_026262728.1	GeneID=113195419	296	kept	representative	XP_026262728.1 Ogn [organism=Urocitellus parryii] [GeneID=113195419]	GeneID_113195419|OGN|XP_026262728.1
+OGN	XP_085210637.1	GeneID=146632594	283	kept	representative	XP_085210637.1 ogna [organism=Diplotaxodon limnothrissa] [GeneID=146632594]	GeneID_146632594|OGN|XP_085210637.1
+OGN	XP_002927736.2	GeneID=100471891	361	kept	representative	XP_002927736.2 OGN [organism=Ailuropoda melanoleuca] [GeneID=100471891]	GeneID_100471891|OGN|XP_002927736.2
+OGN	XP_039626795.1	GeneID=120540256	289	kept	representative	XP_039626795.1 ogna [organism=Polypterus senegalus] [GeneID=120540256]	GeneID_120540256|OGN|XP_039626795.1
+OGN	XP_061474051.1	isoform=X1	383	excluded	relative_length	XP_061474051.1 OGN [organism=Rhineura floridana] [GeneID=133380569] [isoform=X1]	isoform_X1|OGN|XP_061474051.1
+OGN	XP_061474052.1	isoform=X2	306	excluded	extra_isoform_same_species	XP_061474052.1 OGN [organism=Rhineura floridana] [GeneID=133380569] [isoform=X2]	isoform_X2|OGN|XP_061474052.1
+OGN	XP_083390699.1	GeneID=310722199	281	kept	representative	XP_083390699.1 ogna [organism=Silurus aristotelis] [GeneID=310722199]	GeneID_310722199|OGN|XP_083390699.1
+OGN	XP_008318921.1	GeneID=103386440	285	kept	representative	XP_008318921.1 ogna [organism=Cynoglossus semilaevis] [GeneID=103386440]	GeneID_103386440|OGN|XP_008318921.1
+OGN	XP_040889601.1	GeneID=121179068	283	kept	representative	XP_040889601.1 ogna [organism=Toxotes jaculatrix] [GeneID=121179068]	GeneID_121179068|OGN|XP_040889601.1
+OGN	NP_001013588.1	GeneID=541445	292	kept	representative	NP_001013588.1 ogna [organism=Danio rerio] [GeneID=541445]	GeneID_541445|OGN|NP_001013588.1
+OGN	XP_076994936.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_076994936.1 OGN [organism=Tamandua tetradactyla] [GeneID=143665432] [isoform=X1]	isoform_X1|OGN|XP_076994936.1
+OGN	XP_076994947.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_076994947.1 OGN [organism=Tamandua tetradactyla] [GeneID=143665432] [isoform=X1]	isoform_X1|OGN|XP_076994947.1
+OGN	XP_076994955.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_076994955.1 OGN [organism=Tamandua tetradactyla] [GeneID=143665432] [isoform=X2]	isoform_X2|OGN|XP_076994955.1
+OGN	XP_054832121.1	GeneID=129327466	305	kept	representative	XP_054832121.1 OGN [organism=Eublepharis macularius] [GeneID=129327466]	GeneID_129327466|OGN|XP_054832121.1
+OGN	XP_067442538.1	GeneID=137181076	283	kept	representative	XP_067442538.1 ogna [organism=Thunnus thynnus] [GeneID=137181076]	GeneID_137181076|OGN|XP_067442538.1
+OGN	XP_050168606.1	GeneID=126638632	293	kept	representative	XP_050168606.1 OGN [organism=Myiozetetes cayanensis] [GeneID=126638632]	GeneID_126638632|OGN|XP_050168606.1
+OGN	XP_053340475.1	GeneID=128511579	278	kept	representative	XP_053340475.1 ogna [organism=Clarias gariepinus] [GeneID=128511579]	GeneID_128511579|OGN|XP_053340475.1
+OGN	XP_053325596.1	GeneID=128500457	289	kept	representative	XP_053325596.1 OGN [organism=Spea bombifrons] [GeneID=128500457]	GeneID_128500457|OGN|XP_053325596.1
+OGN	XP_056303230.1	GeneID=130215448	292	kept	representative	XP_056303230.1 ogna [organism=Danio aesculapii] [GeneID=130215448]	GeneID_130215448|OGN|XP_056303230.1
+OGN	XP_057259168.1	GeneID=130595984	299	kept	representative	XP_057259168.1 OGN [organism=Pezoporus wallicus] [GeneID=130595984]	GeneID_130595984|OGN|XP_057259168.1
+OGN	XP_010973132.1	GeneID=105084665	297	kept	representative	XP_010973132.1 OGN [organism=Camelus dromedarius] [GeneID=105084665]	GeneID_105084665|OGN|XP_010973132.1
+OGN	XP_010973133.1	GeneID=105084665	297	excluded	extra_isoform_same_species	XP_010973133.1 OGN [organism=Camelus dromedarius] [GeneID=105084665]	GeneID_105084665|OGN|XP_010973133.1
+OGN	XP_066472089.1	GeneID=136640713	302	kept	representative	XP_066472089.1 OGN [organism=Tiliqua scincoides] [GeneID=136640713]	GeneID_136640713|OGN|XP_066472089.1
+OGN	XP_066472090.1	GeneID=136640713	302	excluded	extra_isoform_same_species	XP_066472090.1 OGN [organism=Tiliqua scincoides] [GeneID=136640713]	GeneID_136640713|OGN|XP_066472090.1
+OGN	XP_074055407.1	GeneID=141496689	285	kept	representative	XP_074055407.1 OGN [organism=Macrotis lagotis] [GeneID=141496689]	GeneID_141496689|OGN|XP_074055407.1
+OGN	XP_079882431.1	GeneID=307249537	283	kept	representative	XP_079882431.1 ogna [organism=Ammodytes marinus] [GeneID=307249537]	GeneID_307249537|OGN|XP_079882431.1
+OGN	XP_065734784.1	GeneID=136124199	299	kept	representative	XP_065734784.1 OGN [organism=Phocoena phocoena] [GeneID=136124199]	GeneID_136124199|OGN|XP_065734784.1
+OGN	XP_078517519.1	GeneID=144782178	291	kept	representative	XP_078517519.1 OGN [organism=Lissotriton helveticus] [GeneID=144782178]	GeneID_144782178|OGN|XP_078517519.1
+OGN	XP_078517520.1	GeneID=144782178	291	excluded	extra_isoform_same_species	XP_078517520.1 OGN [organism=Lissotriton helveticus] [GeneID=144782178]	GeneID_144782178|OGN|XP_078517520.1
+OGN	XP_078517521.1	GeneID=144782178	291	excluded	extra_isoform_same_species	XP_078517521.1 OGN [organism=Lissotriton helveticus] [GeneID=144782178]	GeneID_144782178|OGN|XP_078517521.1
+OGN	XP_048403281.1	GeneID=125460185	309	kept	representative	XP_048403281.1 ogna [organism=Stegostoma tigrinum] [GeneID=125460185]	GeneID_125460185|OGN|XP_048403281.1
+OGN	XP_061894317.1	GeneID=133643656	283	kept	representative	XP_061894317.1 ogna [organism=Entelurus aequoreus] [GeneID=133643656]	GeneID_133643656|OGN|XP_061894317.1
+OGN	XP_084070499.1	GeneID=311158773	293	kept	representative	XP_084070499.1 OGN [organism=Fringilla coelebs] [GeneID=311158773]	GeneID_311158773|OGN|XP_084070499.1
+OGN	XP_006190069.1	GeneID=102506578	297	kept	representative	XP_006190069.1 OGN [organism=Camelus ferus] [GeneID=102506578]	GeneID_102506578|OGN|XP_006190069.1
+OGN	XP_006190070.1	GeneID=102506578	297	excluded	extra_isoform_same_species	XP_006190070.1 OGN [organism=Camelus ferus] [GeneID=102506578]	GeneID_102506578|OGN|XP_006190070.1
+OGN	XP_063329736.1	GeneID=134627512	283	kept	representative	XP_063329736.1 ogna [organism=Pelmatolapia mariae] [GeneID=134627512]	GeneID_134627512|OGN|XP_063329736.1
+OGN	XP_009067903.1	GeneID=103797438	293	kept	representative	XP_009067903.1 OGN [organism=Acanthisitta chloris] [GeneID=103797438]	GeneID_103797438|OGN|XP_009067903.1
+OGN	XP_026536326.1	GeneID=113420570	298	kept	representative	XP_026536326.1 OGN [organism=Notechis scutatus] [GeneID=113420570]	GeneID_113420570|OGN|XP_026536326.1
+OGN	XP_026536327.1	GeneID=113420570	298	excluded	extra_isoform_same_species	XP_026536327.1 OGN [organism=Notechis scutatus] [GeneID=113420570]	GeneID_113420570|OGN|XP_026536327.1
+OGN	XP_051027059.1	GeneID=127211278	386	excluded	relative_length	XP_051027059.1 Ogn [organism=Acomys russatus] [GeneID=127211278]	GeneID_127211278|OGN|XP_051027059.1
+OGN	XP_012675401.2	GeneID=105893521	288	kept	representative	XP_012675401.2 ogna [organism=Clupea harengus] [GeneID=105893521]	GeneID_105893521|OGN|XP_012675401.2
+OGN	XP_060011465.1	GeneID=132523805	299	kept	representative	XP_060011465.1 OGN [organism=Lagenorhynchus albirostris] [GeneID=132523805]	GeneID_132523805|OGN|XP_060011465.1
+OGN	XP_064860651.1	GeneID=115122857	292	kept	representative	XP_064860651.1 ogna [organism=Oncorhynchus nerka] [GeneID=115122857]	GeneID_115122857|OGN|XP_064860651.1
+OGN	XP_054443991.1	GeneID=129082338	297	kept	representative	XP_054443991.1 OGN [organism=Pteronotus mesoamericanus] [GeneID=129082338]	GeneID_129082338|OGN|XP_054443991.1
+OGN	XP_011377249.1	GeneID=105304681	356	kept	representative	XP_011377249.1 OGN [organism=Pteropus vampyrus] [GeneID=105304681]	GeneID_105304681|OGN|XP_011377249.1
+OGN	XP_056614073.1	GeneID=130429502	279	kept	representative	XP_056614073.1 ogna [organism=Triplophysa dalaica] [GeneID=130429502]	GeneID_130429502|OGN|XP_056614073.1
+OGN	XP_033481701.1	GeneID=117256407	283	kept	representative	XP_033481701.1 ogna [organism=Epinephelus lanceolatus] [GeneID=117256407]	GeneID_117256407|OGN|XP_033481701.1
+OGN	XP_075688433.1	isoform=X1	294	kept	representative	XP_075688433.1 OGN [organism=Rhinoderma darwinii] [GeneID=142657288] [isoform=X1]	isoform_X1|OGN|XP_075688433.1
+OGN	XP_075688434.1	isoform=X2	244	excluded	extra_isoform_same_species	XP_075688434.1 OGN [organism=Rhinoderma darwinii] [GeneID=142657288] [isoform=X2]	isoform_X2|OGN|XP_075688434.1
+OGN	XP_059712166.1	GeneID=132332165	293	kept	representative	XP_059712166.1 OGN [organism=Haemorhous mexicanus] [GeneID=132332165]	GeneID_132332165|OGN|XP_059712166.1
+OGN	XP_003807891.2	isoform=X1	298	excluded	extra_isoform_same_species	XP_003807891.2 OGN [organism=Pan paniscus] [GeneID=100978729] [isoform=X1]	isoform_X1|OGN|XP_003807891.2
+OGN	XP_063450400.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_063450400.1 OGN [organism=Pan paniscus] [GeneID=100978729] [isoform=X2]	isoform_X2|OGN|XP_063450400.1
+OGN	XP_035486977.1	GeneID=118309219	279	kept	representative	XP_035486977.1 ogna [organism=Scophthalmus maximus] [GeneID=118309219]	GeneID_118309219|OGN|XP_035486977.1
+OGN	XP_041837237.1	GeneID=121637260	283	kept	representative	XP_041837237.1 ogna [organism=Melanotaenia boesemani] [GeneID=121637260]	GeneID_121637260|OGN|XP_041837237.1
+OGN	XP_027648193.1	GeneID=101915428	293	kept	representative	XP_027648193.1 OGN [organism=Falco peregrinus] [GeneID=101915428]	GeneID_101915428|OGN|XP_027648193.1
+OGN	XP_069593005.1	GeneID=138647697	295	kept	representative	XP_069593005.1 OGN [organism=Ranitomeya imitator] [GeneID=138647697]	GeneID_138647697|OGN|XP_069593005.1
+OGN	XP_077308603.1	GeneID=143927947	297	kept	representative	XP_077308603.1 OGN [organism=Lithobates pipiens] [GeneID=143927947]	GeneID_143927947|OGN|XP_077308603.1
+OGN	XP_058229803.1	GeneID=131342683	283	kept	representative	XP_058229803.1 ogna [organism=Hemibagrus wyckioides] [GeneID=131342683]	GeneID_131342683|OGN|XP_058229803.1
+OGN	XP_061687462.1	GeneID=133506993	288	kept	representative	XP_061687462.1 ogna [organism=Syngnathoides biaculeatus] [GeneID=133506993]	GeneID_133506993|OGN|XP_061687462.1
+OGN	XP_026871057.2	GeneID=113580591	289	kept	representative	XP_026871057.2 ogna [organism=Electrophorus electricus] [GeneID=113580591]	GeneID_113580591|OGN|XP_026871057.2
+OGN	XP_061785742.1	GeneID=133576484	284	kept	representative	XP_061785742.1 ogna [organism=Nerophis lumbriciformis] [GeneID=133576484]	GeneID_133576484|OGN|XP_061785742.1
+OGN	XP_073700453.1	GeneID=141338737	289	kept	representative	XP_073700453.1 ogna [organism=Garra rufa] [GeneID=141338737]	GeneID_141338737|OGN|XP_073700453.1
+OGN	XP_016064464.1	GeneID=107534029	298	kept	representative	XP_016064464.1 OGN [organism=Miniopterus natalensis] [GeneID=107534029]	GeneID_107534029|OGN|XP_016064464.1
+OGN	XP_007428717.1	GeneID=103058144	298	kept	representative	XP_007428717.1 OGN [organism=Python bivittatus] [GeneID=103058144]	GeneID_103058144|OGN|XP_007428717.1
+OGN	XP_034294560.1	GeneID=117678008	298	kept	representative	XP_034294560.1 OGN [organism=Pantherophis guttatus] [GeneID=117678008]	GeneID_117678008|OGN|XP_034294560.1
+OGN	XP_034294569.1	GeneID=117678008	298	excluded	extra_isoform_same_species	XP_034294569.1 OGN [organism=Pantherophis guttatus] [GeneID=117678008]	GeneID_117678008|OGN|XP_034294569.1
+OGN	XP_036593523.1	GeneID=118830726	285	kept	representative	XP_036593523.1 OGN [organism=Trichosurus vulpecula] [GeneID=118830726]	GeneID_118830726|OGN|XP_036593523.1
+OGN	XP_057643168.1	GeneID=130885600	298	kept	representative	XP_057643168.1 Ogn [organism=Chionomys nivalis] [GeneID=130885600]	GeneID_130885600|OGN|XP_057643168.1
+OGN	XP_057643169.1	GeneID=130885600	298	excluded	extra_isoform_same_species	XP_057643169.1 Ogn [organism=Chionomys nivalis] [GeneID=130885600]	GeneID_130885600|OGN|XP_057643169.1
+OGN	XP_054640308.1	GeneID=129186257	284	kept	representative	XP_054640308.1 ogna [organism=Dunckerocampus dactyliophorus] [GeneID=129186257]	GeneID_129186257|OGN|XP_054640308.1
+OGN	XP_034631602.1	GeneID=117880043	298	kept	representative	XP_034631602.1 OGN [organism=Trachemys scripta elegans] [GeneID=117880043]	GeneID_117880043|OGN|XP_034631602.1
+OGN	XP_069823298.1	GeneID=138788851	290	kept	representative	XP_069823298.1 OGN [organism=Dendropsophus ebraccatus] [GeneID=138788851]	GeneID_138788851|OGN|XP_069823298.1
+OGN	XP_080241493.1	GeneID=308062999	293	kept	representative	XP_080241493.1 OGN [organism=Falco punctatus] [GeneID=308062999]	GeneID_308062999|OGN|XP_080241493.1
+OGN	XP_080702159.1	GeneID=308371187	289	kept	representative	XP_080702159.1 ogna [organism=Sprattus sprattus] [GeneID=308371187]	GeneID_308371187|OGN|XP_080702159.1
+OGN	XP_048343989.1	GeneID=125428254	305	kept	representative	XP_048343989.1 OGN [organism=Sphaerodactylus townsendi] [GeneID=125428254]	GeneID_125428254|OGN|XP_048343989.1
+OGN	XP_044205843.1	GeneID=122981250	283	kept	representative	XP_044205843.1 ogna [organism=Thunnus albacares] [GeneID=122981250]	GeneID_122981250|OGN|XP_044205843.1
+OGN	XP_079664223.1	isoform=1	292	excluded	extra_isoform_same_species	XP_079664223.1 ogna [organism=Gobio gobio] [GeneID=307120880] [isoform=1]	isoform_1|OGN|XP_079664223.1
+OGN	XP_079664224.1	isoform=1	292	excluded	extra_isoform_same_species	XP_079664224.1 ogna [organism=Gobio gobio] [GeneID=307120880] [isoform=1]	isoform_1|OGN|XP_079664224.1
+OGN	XP_020466854.1	GeneID=109966391	280	kept	representative	XP_020466854.1 ogna [organism=Monopterus albus] [GeneID=109966391]	GeneID_109966391|OGN|XP_020466854.1
+OGN	XP_040305547.1	GeneID=121013790	298	kept	representative	XP_040305547.1 OGN [organism=Herpailurus yagouaroundi] [GeneID=121013790]	GeneID_121013790|OGN|XP_040305547.1
+OGN	XP_027742256.1	GeneID=114058773	293	kept	representative	XP_027742256.1 OGN [organism=Empidonax traillii] [GeneID=114058773]	GeneID_114058773|OGN|XP_027742256.1
+OGN	XP_036957848.1	GeneID=119021585	283	kept	representative	XP_036957848.1 ogna [organism=Acanthopagrus latus] [GeneID=119021585]	GeneID_119021585|OGN|XP_036957848.1
+OGN	XP_008497159.1	GeneID=103533113	293	kept	representative	XP_008497159.1 OGN [organism=Calypte anna] [GeneID=103533113]	GeneID_103533113|OGN|XP_008497159.1
+OGN	XP_070759287.1	GeneID=139283208	283	kept	representative	XP_070759287.1 ogna [organism=Enoplosus armatus] [GeneID=139283208]	GeneID_139283208|OGN|XP_070759287.1
+OGN	XP_009702501.1	GeneID=104164758	293	kept	representative	XP_009702501.1 OGN [organism=Cariama cristata] [GeneID=104164758]	GeneID_104164758|OGN|XP_009702501.1
+OGN	XP_026713541.1	GeneID=113484989	293	kept	representative	XP_026713541.1 OGN [organism=Athene cunicularia] [GeneID=113484989]	GeneID_113484989|OGN|XP_026713541.1
+OGN	XP_009686394.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_009686394.1 OGN [organism=Struthio camelus] [GeneID=104152675] [isoform=X1]	isoform_X1|OGN|XP_009686394.1
+OGN	XP_009686395.1	isoform=X2	292	excluded	extra_isoform_same_species	XP_009686395.1 OGN [organism=Struthio camelus] [GeneID=104152675] [isoform=X2]	isoform_X2|OGN|XP_009686395.1
+OGN	XP_077385983.1	GeneID=144023910	280	kept	representative	XP_077385983.1 ogna [organism=Festucalex cinctus] [GeneID=144023910]	GeneID_144023910|OGN|XP_077385983.1
+OGN	XP_027496395.1	GeneID=113945891	293	kept	representative	XP_027496395.1 OGN [organism=Corapipo altera] [GeneID=113945891]	GeneID_113945891|OGN|XP_027496395.1
+OGN	XP_032722357.1	GeneID=116872944	298	kept	representative	XP_032722357.1 OGN [organism=Lontra canadensis] [GeneID=116872944]	GeneID_116872944|OGN|XP_032722357.1
+OGN	XP_031465167.1	GeneID=116239244	293	kept	representative	XP_031465167.1 OGN [organism=Phasianus colchicus] [GeneID=116239244]	GeneID_116239244|OGN|XP_031465167.1
+OGN	XP_079041437.1	GeneID=306715081	283	kept	representative	XP_079041437.1 ogna [organism=Pholis gunnellus] [GeneID=306715081]	GeneID_306715081|OGN|XP_079041437.1
+OGN	XP_081288611.1	GeneID=308724798	296	kept	representative	XP_081288611.1 OGN [organism=Grus grus] [GeneID=308724798]	GeneID_308724798|OGN|XP_081288611.1
+OGN	XP_045419117.1	GeneID=123646336	298	kept	representative	XP_045419117.1 OGN [organism=Lemur catta] [GeneID=123646336]	GeneID_123646336|OGN|XP_045419117.1
+OGN	XP_010388200.1	GeneID=104683193	293	kept	representative	XP_010388200.1 OGN [organism=Corvus cornix cornix] [GeneID=104683193]	GeneID_104683193|OGN|XP_010388200.1
+OGN	XP_006063166.1	GeneID=102397872	299	kept	representative	XP_006063166.1 OGN [organism=Bubalus bubalis] [GeneID=102397872]	GeneID_102397872|OGN|XP_006063166.1
+OGN	XP_070591883.1	GeneID=139158471	298	kept	representative	XP_070591883.1 OGN [organism=Erythrolamprus reginae] [GeneID=139158471]	GeneID_139158471|OGN|XP_070591883.1
+OGN	XP_074692689.1	isoform=X1	293	excluded	extra_isoform_same_species	XP_074692689.1 OGN [organism=Strix aluco] [GeneID=141928419] [isoform=X1]	isoform_X1|OGN|XP_074692689.1
+OGN	XP_074692690.1	isoform=X2	292	excluded	extra_isoform_same_species	XP_074692690.1 OGN [organism=Strix aluco] [GeneID=141928419] [isoform=X2]	isoform_X2|OGN|XP_074692690.1
+OGN	XP_029548658.1	GeneID=115149956	296	kept	representative	XP_029548658.1 ogna [organism=Salmo trutta] [GeneID=115149956]	GeneID_115149956|OGN|XP_029548658.1
+OGN	XP_009577450.1	GeneID=104077787	291	kept	representative	XP_009577450.1 OGN [organism=Fulmarus glacialis] [GeneID=104077787]	GeneID_104077787|OGN|XP_009577450.1
+OGN	XP_010373410.1	GeneID=104671591	298	kept	representative	XP_010373410.1 OGN [organism=Rhinopithecus roxellana] [GeneID=104671591]	GeneID_104671591|OGN|XP_010373410.1
+OGN	XP_013870763.1	GeneID=106522334	278	kept	representative	XP_013870763.1 ogna [organism=Austrofundulus limnaeus] [GeneID=106522334]	GeneID_106522334|OGN|XP_013870763.1
+OGN	XP_007468230.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_007468230.1 OGN [organism=Lipotes vexillifer] [GeneID=103081376] [isoform=X1]	isoform_X1|OGN|XP_007468230.1
+OGN	XP_007468231.1	isoform=X2	299	excluded	extra_isoform_same_species	XP_007468231.1 OGN [organism=Lipotes vexillifer] [GeneID=103081376] [isoform=X2]	isoform_X2|OGN|XP_007468231.1
+OGN	XP_054022771.1	GeneID=104306641	291	kept	representative	XP_054022771.1 OGN [organism=Dryobates pubescens] [GeneID=104306641]	GeneID_104306641|OGN|XP_054022771.1
+OGN	XP_014808997.1	GeneID=106894687	293	kept	representative	XP_014808997.1 OGN [organism=Calidris pugnax] [GeneID=106894687]	GeneID_106894687|OGN|XP_014808997.1
+OGN	XP_008103380.1	GeneID=103277939	302	kept	representative	XP_008103380.1 ogn [organism=Anolis carolinensis] [GeneID=103277939]	GeneID_103277939|OGN|XP_008103380.1
+OGN	XP_008103381.1	GeneID=103277939	302	excluded	extra_isoform_same_species	XP_008103381.1 ogn [organism=Anolis carolinensis] [GeneID=103277939]	GeneID_103277939|OGN|XP_008103381.1
+OGN	XP_080092932.1	GeneID=145375141	315	kept	representative	XP_080092932.1 ogna [organism=Raja brachyura] [GeneID=145375141]	GeneID_145375141|OGN|XP_080092932.1
+OGN	XP_011769514.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_011769514.1 OGN [organism=Macaca nemestrina] [GeneID=105498855] [isoform=X1]	isoform_X1|OGN|XP_011769514.1
+OGN	XP_070933654.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_070933654.1 OGN [organism=Macaca nemestrina] [GeneID=105498855] [isoform=X2]	isoform_X2|OGN|XP_070933654.1
+OGN	XP_042638492.1	GeneID=103207406	357	kept	representative	XP_042638492.1 OGN [organism=Orycteropus afer afer] [GeneID=103207406]	GeneID_103207406|OGN|XP_042638492.1
+OGN	XP_008851107.1	GeneID=103749962	298	kept	representative	XP_008851107.1 Ogn [organism=Nannospalax galili] [GeneID=103749962]	GeneID_103749962|OGN|XP_008851107.1
+OGN	XP_067359623.1	GeneID=137127086	283	kept	representative	XP_067359623.1 ogna [organism=Channa argus] [GeneID=137127086]	GeneID_137127086|OGN|XP_067359623.1
+OGN	XP_068598806.1	GeneID=137898663	286	kept	representative	XP_068598806.1 ogna [organism=Brachionichthys hirsutus] [GeneID=137898663]	GeneID_137898663|OGN|XP_068598806.1
+OGN	XP_035414336.1	GeneID=118253736	293	kept	representative	XP_035414336.1 OGN [organism=Cygnus atratus] [GeneID=118253736]	GeneID_118253736|OGN|XP_035414336.1
+OGN	XP_032064990.1	GeneID=116503012	296	kept	representative	XP_032064990.1 OGN [organism=Thamnophis elegans] [GeneID=116503012]	GeneID_116503012|OGN|XP_032064990.1
+OGN	XP_043783817.1	GeneID=122710225	298	kept	representative	XP_043783817.1 OGN [organism=Cervus elaphus] [GeneID=122710225]	GeneID_122710225|OGN|XP_043783817.1
+OGN	NP_776371.1	GeneID=280884	299	kept	representative	NP_776371.1 OGN [organism=Bos taurus] [GeneID=280884]	GeneID_280884|OGN|NP_776371.1
+OGN	XP_058487419.1	GeneID=131460711	285	kept	representative	XP_058487419.1 ogna [organism=Solea solea] [GeneID=131460711]	GeneID_131460711|OGN|XP_058487419.1
+OGN	XP_008532630.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_008532630.1 OGN [organism=Equus przewalskii] [GeneID=103560337] [isoform=X1]	isoform_X1|OGN|XP_008532630.1
+OGN	XP_070446672.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_070446672.1 OGN [organism=Equus przewalskii] [GeneID=103560337] [isoform=X2]	isoform_X2|OGN|XP_070446672.1
+OGN	XP_057578488.1	GeneID=130845381	299	kept	representative	XP_057578488.1 OGN [organism=Hippopotamus amphibius kiboko] [GeneID=130845381]	GeneID_130845381|OGN|XP_057578488.1
+OGN	XP_057578489.1	GeneID=130845381	299	excluded	extra_isoform_same_species	XP_057578489.1 OGN [organism=Hippopotamus amphibius kiboko] [GeneID=130845381]	GeneID_130845381|OGN|XP_057578489.1
+OGN	XP_074861918.1	GeneID=142019236	299	kept	representative	XP_074861918.1 OGN [organism=Carettochelys insculpta] [GeneID=142019236]	GeneID_142019236|OGN|XP_074861918.1
+OGN	XP_024051428.1	GeneID=112103750	298	kept	representative	XP_024051428.1 OGN [organism=Terrapene triunguis] [GeneID=112103750]	GeneID_112103750|OGN|XP_024051428.1
+OGN	XP_051050265.1	GeneID=127229253	297	kept	representative	XP_051050265.1 Ogn [organism=Phodopus roborovskii] [GeneID=127229253]	GeneID_127229253|OGN|XP_051050265.1
+OGN	XP_054906148.1	GeneID=129372716	280	kept	representative	XP_054906148.1 ogna [organism=Poeciliopsis prolifica] [GeneID=129372716]	GeneID_129372716|OGN|XP_054906148.1
+OGN	XP_005508934.2	GeneID=102088451	293	kept	representative	XP_005508934.2 OGN [organism=Columba livia] [GeneID=102088451]	GeneID_102088451|OGN|XP_005508934.2
+OGN	XP_008155091.1	GeneID=103300009	290	kept	representative	XP_008155091.1 OGN [organism=Eptesicus fuscus] [GeneID=103300009]	GeneID_103300009|OGN|XP_008155091.1
+OGN	XP_009556834.2	GeneID=104057204	297	kept	representative	XP_009556834.2 OGN [organism=Cuculus canorus] [GeneID=104057204]	GeneID_104057204|OGN|XP_009556834.2
+OGN	XP_048110195.1	GeneID=125301610	296	kept	representative	XP_048110195.1 ogna [organism=Alosa alosa] [GeneID=125301610]	GeneID_125301610|OGN|XP_048110195.1
+OGN	XP_034724874.1	GeneID=117943077	282	kept	representative	XP_034724874.1 ogna [organism=Etheostoma cragini] [GeneID=117943077]	GeneID_117943077|OGN|XP_034724874.1
+OGN	XP_077630091.1	GeneID=144239790	298	kept	representative	XP_077630091.1 OGN [organism=Crocuta crocuta] [GeneID=144239790]	GeneID_144239790|OGN|XP_077630091.1
+OGN	XP_014936248.1	GeneID=106982586	298	kept	representative	XP_014936248.1 OGN [organism=Acinonyx jubatus] [GeneID=106982586]	GeneID_106982586|OGN|XP_014936248.1
+OGN	XP_056660002.1	GeneID=100619456	288	kept	representative	XP_056660002.1 OGN [organism=Monodelphis domestica] [GeneID=100619456]	GeneID_100619456|OGN|XP_056660002.1
+OGN	XP_083582993.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083582993.1 OGN [organism=Podarcis gaigeae] [GeneID=310838916] [isoform=1]	isoform_1|OGN|XP_083582993.1
+OGN	XP_083582994.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083582994.1 OGN [organism=Podarcis gaigeae] [GeneID=310838916] [isoform=1]	isoform_1|OGN|XP_083582994.1
+OGN	XP_022597843.1	GeneID=111219445	283	kept	representative	XP_022597843.1 ogna [organism=Seriola dumerili] [GeneID=111219445]	GeneID_111219445|OGN|XP_022597843.1
+OGN	XP_055127927.1	isoform=X1	356	excluded	extra_isoform_same_species	XP_055127927.1 OGN [organism=Symphalangus syndactylus] [GeneID=129479205] [isoform=X1]	isoform_X1|OGN|XP_055127927.1
+OGN	XP_055127928.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_055127928.1 OGN [organism=Symphalangus syndactylus] [GeneID=129479205] [isoform=X2]	isoform_X2|OGN|XP_055127928.1
+OGN	XP_070815201.1	GeneID=139328998	281	kept	representative	XP_070815201.1 ogna [organism=Chaetodon trifascialis] [GeneID=139328998]	GeneID_139328998|OGN|XP_070815201.1
+OGN	XP_040818715.1	GeneID=121144529	297	kept	representative	XP_040818715.1 OGN [organism=Ochotona curzoniae] [GeneID=121144529]	GeneID_121144529|OGN|XP_040818715.1
+OGN	XP_010965783.1	GeneID=105078835	297	kept	representative	XP_010965783.1 OGN [organism=Camelus bactrianus] [GeneID=105078835]	GeneID_105078835|OGN|XP_010965783.1
+OGN	XP_010965784.1	GeneID=105078835	297	excluded	extra_isoform_same_species	XP_010965784.1 OGN [organism=Camelus bactrianus] [GeneID=105078835]	GeneID_105078835|OGN|XP_010965784.1
+OGN	XP_036415482.1	GeneID=118799622	295	kept	representative	XP_036415482.1 ogna [organism=Colossoma macropomum] [GeneID=118799622]	GeneID_118799622|OGN|XP_036415482.1
+OGN	XP_086795065.1	GeneID=147692742	290	kept	representative	XP_086795065.1 OGN [organism=Lissotriton vulgaris] [GeneID=147692742]	GeneID_147692742|OGN|XP_086795065.1
+OGN	XP_086795066.1	GeneID=147692742	290	excluded	extra_isoform_same_species	XP_086795066.1 OGN [organism=Lissotriton vulgaris] [GeneID=147692742]	GeneID_147692742|OGN|XP_086795066.1
+OGN	XP_070793114.1	GeneID=139312317	298	kept	representative	XP_070793114.1 OGN [organism=Pituophis catenifer annectens] [GeneID=139312317]	GeneID_139312317|OGN|XP_070793114.1
+OGN	XP_017560291.1	GeneID=108431560	295	kept	representative	XP_017560291.1 ogna [organism=Pygocentrus nattereri] [GeneID=108431560]	GeneID_108431560|OGN|XP_017560291.1
+OGN	XP_056191713.1	GeneID=130147893	293	kept	representative	XP_056191713.1 OGN [organism=Falco biarmicus] [GeneID=130147893]	GeneID_130147893|OGN|XP_056191713.1
+OGN	XP_064288346.1	GeneID=135307804	293	kept	representative	XP_064288346.1 OGN [organism=Passer domesticus] [GeneID=135307804]	GeneID_135307804|OGN|XP_064288346.1
+OGN	XP_025901800.1	GeneID=112953028	292	kept	representative	XP_025901800.1 OGN [organism=Nothoprocta perdicaria] [GeneID=112953028]	GeneID_112953028|OGN|XP_025901800.1
+OGN	XP_032253676.1	GeneID=116627849	298	kept	representative	XP_032253676.1 OGN [organism=Phoca vitulina] [GeneID=116627849]	GeneID_116627849|OGN|XP_032253676.1
+OGN	XP_051763929.1	GeneID=127520121	292	kept	representative	XP_051763929.1 ogna [organism=Ctenopharyngodon idella] [GeneID=127520121]	GeneID_127520121|OGN|XP_051763929.1
+OGN	XP_020738806.1	GeneID=110130871	299	kept	representative	XP_020738806.1 OGN [organism=Odocoileus virginianus] [GeneID=110130871]	GeneID_110130871|OGN|XP_020738806.1
+OGN	XP_066528661.1	GeneID=136697445	294	kept	representative	XP_066528661.1 ogna [organism=Hoplias malabaricus] [GeneID=136697445]	GeneID_136697445|OGN|XP_066528661.1
+OGN	XP_069793363.1	GeneID=138763318	310	kept	representative	XP_069793363.1 ogna [organism=Narcine bancroftii] [GeneID=138763318]	GeneID_138763318|OGN|XP_069793363.1
+OGN	XP_072203869.1	GeneID=140257968	293	kept	representative	XP_072203869.1 OGN [organism=Excalfactoria chinensis] [GeneID=140257968]	GeneID_140257968|OGN|XP_072203869.1
+OGN	XP_080462813.1	GeneID=308200629	293	kept	representative	XP_080462813.1 OGN [organism=Anser brachyrhynchus] [GeneID=308200629]	GeneID_308200629|OGN|XP_080462813.1
+OGN	XP_069499973.1	GeneID=138566499	287	kept	representative	XP_069499973.1 OGN [organism=Ambystoma mexicanum] [GeneID=138566499]	GeneID_138566499|OGN|XP_069499973.1
+OGN	XP_009879557.1	GeneID=104283104	293	kept	representative	XP_009879557.1 OGN [organism=Charadrius vociferus] [GeneID=104283104]	GeneID_104283104|OGN|XP_009879557.1
+OGN	XP_050760427.1	GeneID=127021423	293	kept	representative	XP_050760427.1 OGN [organism=Gymnogyps californianus] [GeneID=127021423]	GeneID_127021423|OGN|XP_050760427.1
+OGN	XP_017709191.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_017709191.1 OGN [organism=Rhinopithecus bieti] [GeneID=108516302] [isoform=X1]	isoform_X1|OGN|XP_017709191.1
+OGN	XP_017709192.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_017709192.1 OGN [organism=Rhinopithecus bieti] [GeneID=108516302] [isoform=X2]	isoform_X2|OGN|XP_017709192.1
+OGN	XP_026162394.1	GeneID=113130201	283	kept	representative	XP_026162394.1 ogna [organism=Mastacembelus armatus] [GeneID=113130201]	GeneID_113130201|OGN|XP_026162394.1
+OGN	XP_036711637.1	GeneID=118897017	299	kept	representative	XP_036711637.1 OGN [organism=Balaenoptera musculus] [GeneID=118897017]	GeneID_118897017|OGN|XP_036711637.1
+OGN	XP_055725921.1	GeneID=129815810	298	kept	representative	XP_055725921.1 ogna [organism=Salvelinus fontinalis] [GeneID=129815810]	GeneID_129815810|OGN|XP_055725921.1
+OGN	XP_071611617.1	GeneID=139801397	293	kept	representative	XP_071611617.1 OGN [organism=Heliangelus exortis] [GeneID=139801397]	GeneID_139801397|OGN|XP_071611617.1
+OGN	XP_074459394.1	GeneID=141749577	293	kept	representative	XP_074459394.1 OGN [organism=Larus michahellis] [GeneID=141749577]	GeneID_141749577|OGN|XP_074459394.1
+OGN	XP_034559449.1	GeneID=117827061	283	kept	representative	XP_034559449.1 ogna [organism=Notolabrus celidotus] [GeneID=117827061]	GeneID_117827061|OGN|XP_034559449.1
+OGN	XP_058422096.1	GeneID=131420232	298	kept	representative	XP_058422096.1 OGN [organism=Diceros bicornis minor] [GeneID=131420232]	GeneID_131420232|OGN|XP_058422096.1
+OGN	XP_058422097.1	GeneID=131420232	298	excluded	extra_isoform_same_species	XP_058422097.1 OGN [organism=Diceros bicornis minor] [GeneID=131420232]	GeneID_131420232|OGN|XP_058422097.1
+OGN	XP_085481010.1	GeneID=146797723	290	kept	representative	XP_085481010.1 OGN [organism=Triturus cristatus] [GeneID=146797723]	GeneID_146797723|OGN|XP_085481010.1
+OGN	XP_002742764.2	GeneID=100410386	298	kept	representative	XP_002742764.2 OGN [organism=Callithrix jacchus] [GeneID=100410386]	GeneID_100410386|OGN|XP_002742764.2
+OGN	XP_068578242.1	GeneID=137880653	283	kept	representative	XP_068578242.1 ogna [organism=Cebidichthys violaceus] [GeneID=137880653]	GeneID_137880653|OGN|XP_068578242.1
+OGN	XP_079647492.1	GeneID=307111453	290	kept	representative	XP_079647492.1 OGN [organism=Cnephaeus nilssonii] [GeneID=307111453]	GeneID_307111453|OGN|XP_079647492.1
+OGN	XP_080812081.1	GeneID=308447820	293	kept	representative	XP_080812081.1 OGN [organism=Bucephala clangula] [GeneID=308447820]	GeneID_308447820|OGN|XP_080812081.1
+OGN	XP_083345166.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083345166.1 OGN [organism=Podarcis liolepis] [GeneID=310700103] [isoform=1]	isoform_1|OGN|XP_083345166.1
+OGN	XP_083345167.1	isoform=1	307	excluded	extra_isoform_same_species	XP_083345167.1 OGN [organism=Podarcis liolepis] [GeneID=310700103] [isoform=1]	isoform_1|OGN|XP_083345167.1
+OGN	XP_059185881.1	GeneID=131968852	283	kept	representative	XP_059185881.1 ogna [organism=Centropristis striata] [GeneID=131968852]	GeneID_131968852|OGN|XP_059185881.1
+OGN	XP_030062983.1	GeneID=115472737	288	kept	representative	XP_030062983.1 OGN [organism=Microcaecilia unicolor] [GeneID=115472737]	GeneID_115472737|OGN|XP_030062983.1
+OGN	XP_025747541.1	GeneID=112838924	298	kept	representative	XP_025747541.1 OGN [organism=Callorhinus ursinus] [GeneID=112838924]	GeneID_112838924|OGN|XP_025747541.1
+OGN	XP_042679108.1	GeneID=122162665	291	kept	representative	XP_042679108.1 OGN [organism=Centrocercus urophasianus] [GeneID=122162665]	GeneID_122162665|OGN|XP_042679108.1
+OGN	XP_030632255.1	GeneID=115813782	290	kept	representative	XP_030632255.1 ogna [organism=Chanos chanos] [GeneID=115813782]	GeneID_115813782|OGN|XP_030632255.1
+OGN	XP_044307483.1	GeneID=123034298	309	kept	representative	XP_044307483.1 OGN [organism=Varanus komodoensis] [GeneID=123034298]	GeneID_123034298|OGN|XP_044307483.1
+OGN	XP_056357378.1	GeneID=130258223	293	kept	representative	XP_056357378.1 OGN [organism=Oenanthe melanoleuca] [GeneID=130258223]	GeneID_130258223|OGN|XP_056357378.1
+OGN	XP_004048316.1	isoform=X2	356	excluded	extra_isoform_same_species	XP_004048316.1 OGN [organism=Gorilla gorilla gorilla] [GeneID=101147623] [isoform=X2]	isoform_X2|OGN|XP_004048316.1
+OGN	XP_063552629.1	isoform=X1	298	excluded	extra_isoform_same_species	XP_063552629.1 OGN [organism=Gorilla gorilla gorilla] [GeneID=101147623] [isoform=X1]	isoform_X1|OGN|XP_063552629.1
+OGN	XP_027406110.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_027406110.1 OGN [organism=Bos indicus x Bos taurus] [GeneID=113897544] [isoform=X1]	isoform_X1|OGN|XP_027406110.1
+OGN	XP_027406111.1	isoform=X1	299	excluded	extra_isoform_same_species	XP_027406111.1 OGN [organism=Bos indicus x Bos taurus] [GeneID=113897544] [isoform=X1]	isoform_X1|OGN|XP_027406111.1
+OGN	XP_027406112.1	isoform=X2	246	excluded	extra_isoform_same_species	XP_027406112.1 OGN [organism=Bos indicus x Bos taurus] [GeneID=113897544] [isoform=X2]	isoform_X2|OGN|XP_027406112.1
+OGN	NP_032786.1	GeneID=18295	298	kept	representative	NP_032786.1 Ogn [organism=Mus musculus] [GeneID=18295]	GeneID_18295|OGN|NP_032786.1
+OGN	XP_041602323.1	GeneID=121485692	297	kept	representative	XP_041602323.1 OGN [organism=Vulpes lagopus] [GeneID=121485692]	GeneID_121485692|OGN|XP_041602323.1
+OGN	XP_081757371.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081757371.1 OGN [organism=Podarcis melisellensis] [GeneID=309364292] [isoform=1]	isoform_1|OGN|XP_081757371.1
+OGN	XP_081757372.1	isoform=1	307	excluded	extra_isoform_same_species	XP_081757372.1 OGN [organism=Podarcis melisellensis] [GeneID=309364292] [isoform=1]	isoform_1|OGN|XP_081757372.1
+OGN	XP_042098949.1	GeneID=101108451	299	kept	representative	XP_042098949.1 OGN [organism=Ovis aries] [GeneID=101108451]	GeneID_101108451|OGN|XP_042098949.1
+OGN	XP_042098950.1	GeneID=101108451	299	excluded	extra_isoform_same_species	XP_042098950.1 OGN [organism=Ovis aries] [GeneID=101108451]	GeneID_101108451|OGN|XP_042098950.1
+OGN	XP_060265026.1	GeneID=101108451	299	excluded	extra_isoform_same_species	XP_060265026.1 OGN [organism=Ovis aries] [GeneID=101108451]	GeneID_101108451|OGN|XP_060265026.1
+OGN	XP_021265171.1	GeneID=110404796	292	kept	representative	XP_021265171.1 OGN [organism=Numida meleagris] [GeneID=110404796]	GeneID_110404796|OGN|XP_021265171.1
+OGN	XP_021265172.1	GeneID=110404796	292	excluded	extra_isoform_same_species	XP_021265172.1 OGN [organism=Numida meleagris] [GeneID=110404796]	GeneID_110404796|OGN|XP_021265172.1
+OGN	XP_052634990.1	GeneID=128137823	293	kept	representative	XP_052634990.1 OGN [organism=Harpia harpyja] [GeneID=128137823]	GeneID_128137823|OGN|XP_052634990.1
+OGN	XP_053433714.1	isoform=X1	316	excluded	extra_isoform_same_species	XP_053433714.1 OGN [organism=Nycticebus coucang] [GeneID=128575918] [isoform=X1]	isoform_X1|OGN|XP_053433714.1
+OGN	XP_053433722.1	isoform=X2	298	excluded	extra_isoform_same_species	XP_053433722.1 OGN [organism=Nycticebus coucang] [GeneID=128575918] [isoform=X2]	isoform_X2|OGN|XP_053433722.1
+OGN	XP_061148034.1	GeneID=133162679	277	kept	representative	XP_061148034.1 ogna [organism=Syngnathus typhle] [GeneID=133162679]	GeneID_133162679|OGN|XP_061148034.1
+OGN	XP_084125856.1	GeneID=311196212	293	kept	representative	XP_084125856.1 OGN [organism=Gallinula chloropus] [GeneID=311196212]	GeneID_311196212|OGN|XP_084125856.1
+OGN	XP_084491314.1	GeneID=311524259	297	kept	representative	XP_084491314.1 OGN [organism=Lepidochelys olivacea] [GeneID=311524259]	GeneID_311524259|OGN|XP_084491314.1
+OGN	XP_061312183.1	GeneID=133270702	299	kept	representative	XP_061312183.1 OGN [organism=Pezoporus flaviventris] [GeneID=133270702]	GeneID_133270702|OGN|XP_061312183.1
+OGN	XP_062356753.1	GeneID=134048787	293	kept	representative	XP_062356753.1 OGN [organism=Cinclus cinclus] [GeneID=134048787]	GeneID_134048787|OGN|XP_062356753.1
+OGN	XP_032978550.1	isoform=X1	302	excluded	extra_isoform_same_species	XP_032978550.1 OGN [organism=Rhinolophus ferrumequinum] [GeneID=117031848] [isoform=X1]	isoform_X1|OGN|XP_032978550.1
+OGN	XP_032978551.1	isoform=X2	256	excluded	extra_isoform_same_species	XP_032978551.1 OGN [organism=Rhinolophus ferrumequinum] [GeneID=117031848] [isoform=X2]	isoform_X2|OGN|XP_032978551.1
+OGN	XP_086171740.1	GeneID=147367580	299	kept	representative	XP_086171740.1 OGN [organism=Bos grunniens] [GeneID=147367580]	GeneID_147367580|OGN|XP_086171740.1
+OGN	XP_065605392.1	GeneID=136056917	293	kept	representative	XP_065605392.1 OGN [organism=Cyrtonyx montezumae] [GeneID=136056917]	GeneID_136056917|OGN|XP_065605392.1
+OGN	XP_065605393.1	GeneID=136056917	293	excluded	extra_isoform_same_species	XP_065605393.1 OGN [organism=Cyrtonyx montezumae] [GeneID=136056917]	GeneID_136056917|OGN|XP_065605393.1
+OGN	XP_072328748.1	GeneID=140388463	303	kept	representative	XP_072328748.1 ogna [organism=Scyliorhinus torazame] [GeneID=140388463]	GeneID_140388463|OGN|XP_072328748.1
+OGN	XP_013128326.1	GeneID=100706929	283	kept	representative	XP_013128326.1 ogna [organism=Oreochromis niloticus] [GeneID=100706929]	GeneID_100706929|OGN|XP_013128326.1
+OGN	XP_059924757.1	GeneID=132470325	286	kept	representative	XP_059924757.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924757.1
+OGN	XP_059924758.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924758.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924758.1
+OGN	XP_059924759.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924759.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924759.1
+OGN	XP_059924761.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924761.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924761.1
+OGN	XP_059924762.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924762.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924762.1
+OGN	XP_059924763.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924763.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924763.1
+OGN	XP_059924764.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924764.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924764.1
+OGN	XP_059924765.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924765.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924765.1
+OGN	XP_059924766.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924766.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924766.1
+OGN	XP_059924767.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924767.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924767.1
+OGN	XP_059924768.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924768.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924768.1
+OGN	XP_059924769.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924769.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924769.1
+OGN	XP_059924770.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924770.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924770.1
+OGN	XP_059924772.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924772.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924772.1
+OGN	XP_059924773.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924773.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924773.1
+OGN	XP_059924774.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924774.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924774.1
+OGN	XP_059924775.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924775.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924775.1
+OGN	XP_059924776.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924776.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924776.1
+OGN	XP_059924777.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924777.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924777.1
+OGN	XP_059924778.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924778.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924778.1
+OGN	XP_059924779.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924779.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924779.1
+OGN	XP_059924780.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924780.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924780.1
+OGN	XP_059924781.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924781.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924781.1
+OGN	XP_059924782.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924782.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924782.1
+OGN	XP_059924783.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924783.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924783.1
+OGN	XP_059924784.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924784.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924784.1
+OGN	XP_059924785.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924785.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924785.1
+OGN	XP_059924786.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924786.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924786.1
+OGN	XP_059924788.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924788.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924788.1
+OGN	XP_059924789.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924789.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924789.1
+OGN	XP_059924790.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924790.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924790.1
+OGN	XP_059924791.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924791.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924791.1
+OGN	XP_059924792.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924792.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924792.1
+OGN	XP_059924793.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924793.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924793.1
+OGN	XP_059924794.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924794.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924794.1
+OGN	XP_059924795.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924795.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924795.1
+OGN	XP_059924796.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924796.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924796.1
+OGN	XP_059924797.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924797.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924797.1
+OGN	XP_059924800.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924800.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924800.1
+OGN	XP_059924801.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924801.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924801.1
+OGN	XP_059924802.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924802.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924802.1
+OGN	XP_059924803.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924803.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924803.1
+OGN	XP_059924804.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924804.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924804.1
+OGN	XP_059924805.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924805.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924805.1
+OGN	XP_059924806.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924806.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924806.1
+OGN	XP_059924807.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924807.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924807.1
+OGN	XP_059924808.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924808.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924808.1
+OGN	XP_059924809.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924809.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924809.1
+OGN	XP_059924811.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924811.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924811.1
+OGN	XP_059924812.1	GeneID=132470325	286	excluded	extra_isoform_same_species	XP_059924812.1 ogna [organism=Gadus macrocephalus] [GeneID=132470325]	GeneID_132470325|OGN|XP_059924812.1
+OGN	XP_026996604.2	GeneID=113639111	280	kept	representative	XP_026996604.2 ogna [organism=Tachysurus fulvidraco] [GeneID=113639111]	GeneID_113639111|OGN|XP_026996604.2
+OGN	XP_068940544.1	GeneID=138158287	285	kept	representative	XP_068940544.1 OGN [organism=Petaurus breviceps papuanus] [GeneID=138158287]	GeneID_138158287|OGN|XP_068940544.1
+OGN	XP_055015572.1	GeneID=110153775	384	excluded	relative_length	XP_055015572.1 ogna [organism=Boleophthalmus pectinirostris] [GeneID=110153775]	GeneID_110153775|OGN|XP_055015572.1
+OGN	XP_057224061.1	GeneID=130574706	293	kept	representative	XP_057224061.1 OGN [organism=Malurus melanocephalus] [GeneID=130574706]	GeneID_130574706|OGN|XP_057224061.1
+OGN	XP_005408960.1	GeneID=102026343	297	kept	representative	XP_005408960.1 Ogn [organism=Chinchilla lanigera] [GeneID=102026343]	GeneID_102026343|OGN|XP_005408960.1
+OGN	XP_062401106.1	GeneID=134092321	296	kept	representative	XP_062401106.1 ogna [organism=Sardina pilchardus] [GeneID=134092321]	GeneID_134092321|OGN|XP_062401106.1
+OGN	XP_015361758.1	GeneID=107159668	296	kept	representative	XP_015361758.1 Ogn [organism=Marmota marmota marmota] [GeneID=107159668]	GeneID_107159668|OGN|XP_015361758.1

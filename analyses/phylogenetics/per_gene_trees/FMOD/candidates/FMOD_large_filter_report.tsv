@@ -1,0 +1,661 @@
+gene	accession	species	length	status	reason	old_header	new_header
+FMOD	XP_027727139.1	GeneID=114049890	374	kept	representative	XP_027727139.1 FMOD [organism=Vombatus ursinus] [GeneID=114049890]	GeneID_114049890|FMOD|XP_027727139.1
+FMOD	XP_027727140.1	GeneID=114049890	374	excluded	extra_isoform_same_species	XP_027727140.1 FMOD [organism=Vombatus ursinus] [GeneID=114049890]	GeneID_114049890|FMOD|XP_027727140.1
+FMOD	XP_036200059.1	GeneID=118673420	377	kept	representative	XP_036200059.1 FMOD [organism=Myotis myotis] [GeneID=118673420]	GeneID_118673420|FMOD|XP_036200059.1
+FMOD	XP_059529400.1	GeneID=132220390	377	kept	representative	XP_059529400.1 FMOD [organism=Myotis daubentonii] [GeneID=132220390]	GeneID_132220390|FMOD|XP_059529400.1
+FMOD	XP_059984976.1	GeneID=132508656	377	kept	representative	XP_059984976.1 FMOD [organism=Lagenorhynchus albirostris] [GeneID=132508656]	GeneID_132508656|FMOD|XP_059984976.1
+FMOD	XP_032144701.1	GeneID=116558737	376	kept	representative	XP_032144701.1 FMOD [organism=Sapajus apella] [GeneID=116558737]	GeneID_116558737|FMOD|XP_032144701.1
+FMOD	XP_514114.1	GeneID=457644	376	kept	representative	XP_514114.1 FMOD [organism=Pan troglodytes] [GeneID=457644]	GeneID_457644|FMOD|XP_514114.1
+FMOD	XP_006025088.1	GeneID=102382970	381	kept	representative	XP_006025088.1 FMOD [organism=Alligator sinensis] [GeneID=102382970]	GeneID_102382970|FMOD|XP_006025088.1
+FMOD	XP_025061623.1	GeneID=102382970	381	excluded	extra_isoform_same_species	XP_025061623.1 FMOD [organism=Alligator sinensis] [GeneID=102382970]	GeneID_102382970|FMOD|XP_025061623.1
+FMOD	XP_006133172.2	GeneID=102448207	379	kept	representative	XP_006133172.2 FMOD [organism=Pelodiscus sinensis] [GeneID=102448207]	GeneID_102448207|FMOD|XP_006133172.2
+FMOD	XP_019402170.1	GeneID=109317764	377	kept	representative	XP_019402170.1 FMOD [organism=Crocodylus porosus] [GeneID=109317764]	GeneID_109317764|FMOD|XP_019402170.1
+FMOD	XP_019402171.1	GeneID=109317764	377	excluded	extra_isoform_same_species	XP_019402171.1 FMOD [organism=Crocodylus porosus] [GeneID=109317764]	GeneID_109317764|FMOD|XP_019402171.1
+FMOD	XP_039389613.1	GeneID=120403027	374	kept	representative	XP_039389613.1 FMOD [organism=Mauremys reevesii] [GeneID=120403027]	GeneID_120403027|FMOD|XP_039389613.1
+FMOD	XP_080977338.1	GeneID=308548992	376	kept	representative	XP_080977338.1 FMOD [organism=Miniopterus schreibersii] [GeneID=308548992]	GeneID_308548992|FMOD|XP_080977338.1
+FMOD	XP_045154117.1	GeneID=101640026	338	kept	representative	XP_045154117.1 FMOD [organism=Echinops telfairi] [GeneID=101640026]	GeneID_101640026|FMOD|XP_045154117.1
+FMOD	XP_079616709.1	GeneID=307092973	377	kept	representative	XP_079616709.1 FMOD [organism=Cnephaeus nilssonii] [GeneID=307092973]	GeneID_307092973|FMOD|XP_079616709.1
+FMOD	XP_066192010.1	GeneID=136371669	383	kept	representative	XP_066192010.1 FMOD [organism=Sylvia atricapilla] [GeneID=136371669]	GeneID_136371669|FMOD|XP_066192010.1
+FMOD	XP_061015818.1	GeneID=133068919	376	kept	representative	XP_061015818.1 FMOD [organism=Dama dama] [GeneID=133068919]	GeneID_133068919|FMOD|XP_061015818.1
+FMOD	XP_042740037.1	GeneID=122186998	380	kept	representative	XP_042740037.1 FMOD [organism=Lagopus leucura] [GeneID=122186998]	GeneID_122186998|FMOD|XP_042740037.1
+FMOD	XP_041278669.1	GeneID=121345637	382	kept	representative	XP_041278669.1 FMOD [organism=Onychostruthus taczanowskii] [GeneID=121345637]	GeneID_121345637|FMOD|XP_041278669.1
+FMOD	XP_041278670.1	GeneID=121345637	382	excluded	extra_isoform_same_species	XP_041278670.1 FMOD [organism=Onychostruthus taczanowskii] [GeneID=121345637]	GeneID_121345637|FMOD|XP_041278670.1
+FMOD	XP_050620095.1	GeneID=126939152	376	kept	representative	XP_050620095.1 FMOD [organism=Macaca thibetana thibetana] [GeneID=126939152]	GeneID_126939152|FMOD|XP_050620095.1
+FMOD	XP_050620105.1	GeneID=126939152	376	excluded	extra_isoform_same_species	XP_050620105.1 FMOD [organism=Macaca thibetana thibetana] [GeneID=126939152]	GeneID_126939152|FMOD|XP_050620105.1
+FMOD	XP_028924127.1	GeneID=100089842	372	kept	representative	XP_028924127.1 FMOD [organism=Ornithorhynchus anatinus] [GeneID=100089842]	GeneID_100089842|FMOD|XP_028924127.1
+FMOD	XP_006261285.1	GeneID=102566121	381	kept	representative	XP_006261285.1 FMOD [organism=Alligator mississippiensis] [GeneID=102566121]	GeneID_102566121|FMOD|XP_006261285.1
+FMOD	XP_019347063.1	GeneID=102566121	381	excluded	extra_isoform_same_species	XP_019347063.1 FMOD [organism=Alligator mississippiensis] [GeneID=102566121]	GeneID_102566121|FMOD|XP_019347063.1
+FMOD	XP_019347064.1	GeneID=102566121	381	excluded	extra_isoform_same_species	XP_019347064.1 FMOD [organism=Alligator mississippiensis] [GeneID=102566121]	GeneID_102566121|FMOD|XP_019347064.1
+FMOD	XP_059573046.1	GeneID=102566121	381	excluded	extra_isoform_same_species	XP_059573046.1 FMOD [organism=Alligator mississippiensis] [GeneID=102566121]	GeneID_102566121|FMOD|XP_059573046.1
+FMOD	XP_019575314.1	GeneID=109439446	376	kept	representative	XP_019575314.1 FMOD [organism=Rhinolophus sinicus] [GeneID=109439446]	GeneID_109439446|FMOD|XP_019575314.1
+FMOD	XP_005529354.1	GeneID=102099713	382	kept	representative	XP_005529354.1 FMOD [organism=Pseudopodoces humilis] [GeneID=102099713]	GeneID_102099713|FMOD|XP_005529354.1
+FMOD	XP_080214382.1	GeneID=308048929	380	kept	representative	XP_080214382.1 FMOD [organism=Nesoenas mayeri] [GeneID=308048929]	GeneID_308048929|FMOD|XP_080214382.1
+FMOD	XP_039941519.1	GeneID=120762806	382	kept	representative	XP_039941519.1 FMOD [organism=Hirundo rustica] [GeneID=120762806]	GeneID_120762806|FMOD|XP_039941519.1
+FMOD	XP_039941520.1	GeneID=120762806	382	excluded	extra_isoform_same_species	XP_039941520.1 FMOD [organism=Hirundo rustica] [GeneID=120762806]	GeneID_120762806|FMOD|XP_039941520.1
+FMOD	XP_075120443.1	GeneID=142194905	357	kept	representative	XP_075120443.1 FMOD [organism=Leptodactylus fuscus] [GeneID=142194905]	GeneID_142194905|FMOD|XP_075120443.1
+FMOD	XP_015740868.1	GeneID=107324925	380	kept	representative	XP_015740868.1 FMOD [organism=Coturnix japonica] [GeneID=107324925]	GeneID_107324925|FMOD|XP_015740868.1
+FMOD	XP_081770705.1	isoform=1	388	excluded	extra_isoform_same_species	XP_081770705.1 FMOD [organism=Podarcis melisellensis] [GeneID=309371692] [isoform=1]	isoform_1|FMOD|XP_081770705.1
+FMOD	XP_081770706.1	isoform=2	379	kept	representative	XP_081770706.1 FMOD [organism=Podarcis melisellensis] [GeneID=309371692] [isoform=2]	isoform_2|FMOD|XP_081770706.1
+FMOD	XP_082253033.1	GeneID=309631004	376	kept	representative	XP_082253033.1 FMOD [organism=Balaenoptera borealis] [GeneID=309631004]	GeneID_309631004|FMOD|XP_082253033.1
+FMOD	XP_006159236.1	GeneID=102477806	376	kept	representative	XP_006159236.1 FMOD [organism=Tupaia belangeri chinensis] [GeneID=102477806]	GeneID_102477806|FMOD|XP_006159236.1
+FMOD	XP_038605180.1	GeneID=119930681	372	kept	representative	XP_038605180.1 FMOD [organism=Tachyglossus aculeatus] [GeneID=119930681]	GeneID_119930681|FMOD|XP_038605180.1
+FMOD	XP_035202920.1	GeneID=118178454	410	kept	representative	XP_035202920.1 FMOD [organism=Oxyura jamaicensis] [GeneID=118178454]	GeneID_118178454|FMOD|XP_035202920.1
+FMOD	XP_005061647.1	GeneID=101820971	382	kept	representative	XP_005061647.1 FMOD [organism=Ficedula albicollis] [GeneID=101820971]	GeneID_101820971|FMOD|XP_005061647.1
+FMOD	XP_035935457.1	GeneID=118527657	376	kept	representative	XP_035935457.1 FMOD [organism=Halichoerus grypus] [GeneID=118527657]	GeneID_118527657|FMOD|XP_035935457.1
+FMOD	XP_038236045.1	GeneID=119846444	379	kept	representative	XP_038236045.1 FMOD [organism=Dermochelys coriacea] [GeneID=119846444]	GeneID_119846444|FMOD|XP_038236045.1
+FMOD	XP_068930715.1	GeneID=138151120	374	kept	representative	XP_068930715.1 FMOD [organism=Petaurus breviceps papuanus] [GeneID=138151120]	GeneID_138151120|FMOD|XP_068930715.1
+FMOD	XP_068930716.1	GeneID=138151120	374	excluded	extra_isoform_same_species	XP_068930716.1 FMOD [organism=Petaurus breviceps papuanus] [GeneID=138151120]	GeneID_138151120|FMOD|XP_068930716.1
+FMOD	XP_012403248.1	GeneID=100922131	374	kept	representative	XP_012403248.1 FMOD [organism=Sarcophilus harrisii] [GeneID=100922131]	GeneID_100922131|FMOD|XP_012403248.1
+FMOD	XP_031793031.1	GeneID=100922131	374	excluded	extra_isoform_same_species	XP_031793031.1 FMOD [organism=Sarcophilus harrisii] [GeneID=100922131]	GeneID_100922131|FMOD|XP_031793031.1
+FMOD	XP_025277000.1	GeneID=112643268	376	kept	representative	XP_025277000.1 FMOD [organism=Canis lupus dingo] [GeneID=112643268]	GeneID_112643268|FMOD|XP_025277000.1
+FMOD	XP_082634868.1	GeneID=309887201	380	kept	representative	XP_082634868.1 FMOD [organism=Aythya marila] [GeneID=309887201]	GeneID_309887201|FMOD|XP_082634868.1
+FMOD	XP_020858894.1	GeneID=110219675	374	kept	representative	XP_020858894.1 FMOD [organism=Phascolarctos cinereus] [GeneID=110219675]	GeneID_110219675|FMOD|XP_020858894.1
+FMOD	XP_058675421.1	GeneID=131567720	382	kept	representative	XP_058675421.1 FMOD [organism=Ammospiza caudacuta] [GeneID=131567720]	GeneID_131567720|FMOD|XP_058675421.1
+FMOD	XP_059136584.1	GeneID=131925303	376	kept	representative	XP_059136584.1 Fmod [organism=Peromyscus eremicus] [GeneID=131925303]	GeneID_131925303|FMOD|XP_059136584.1
+FMOD	XP_075631751.1	GeneID=104640450	380	kept	representative	XP_075631751.1 FMOD [organism=Balearica regulorum gibbericeps] [GeneID=104640450]	GeneID_104640450|FMOD|XP_075631751.1
+FMOD	XP_027419974.1	GeneID=113906276	376	kept	representative	XP_027419974.1 FMOD [organism=Bos indicus x Bos taurus] [GeneID=113906276]	GeneID_113906276|FMOD|XP_027419974.1
+FMOD	XP_050003722.1	GeneID=126505060	377	kept	representative	XP_050003722.1 Fmod [organism=Alexandromys fortis] [GeneID=126505060]	GeneID_126505060|FMOD|XP_050003722.1
+FMOD	XP_072504250.1	GeneID=140529462	374	kept	representative	XP_072504250.1 FMOD [organism=Notamacropus eugenii] [GeneID=140529462]	GeneID_140529462|FMOD|XP_072504250.1
+FMOD	XP_063811352.1	GeneID=135045311	361	kept	representative	XP_063811352.1 FMOD [organism=Pseudophryne corroboree] [GeneID=135045311]	GeneID_135045311|FMOD|XP_063811352.1
+FMOD	XP_046319543.1	GeneID=124106049	378	kept	representative	XP_046319543.1 Fmod [organism=Marmota monax] [GeneID=124106049]	GeneID_124106049|FMOD|XP_046319543.1
+FMOD	XP_051677100.1	GeneID=100008664	376	kept	representative	XP_051677100.1 FMOD [organism=Oryctolagus cuniculus] [GeneID=100008664]	GeneID_100008664|FMOD|XP_051677100.1
+FMOD	XP_069911218.1	GeneID=100008664	376	excluded	extra_isoform_same_species	XP_069911218.1 FMOD [organism=Oryctolagus cuniculus] [GeneID=100008664]	GeneID_100008664|FMOD|XP_069911218.1
+FMOD	XP_006887949.1	GeneID=102858069	376	kept	representative	XP_006887949.1 FMOD [organism=Elephantulus edwardii] [GeneID=102858069]	GeneID_102858069|FMOD|XP_006887949.1
+FMOD	XP_048682903.1	GeneID=125625194	379	kept	representative	XP_048682903.1 FMOD [organism=Caretta caretta] [GeneID=125625194]	GeneID_125625194|FMOD|XP_048682903.1
+FMOD	XP_049626621.1	GeneID=126004200	375	kept	representative	XP_049626621.1 FMOD [organism=Suncus etruscus] [GeneID=126004200]	GeneID_126004200|FMOD|XP_049626621.1
+FMOD	XP_068842309.1	GeneID=138090554	376	kept	representative	XP_068842309.1 FMOD [organism=Capricornis sumatraensis] [GeneID=138090554]	GeneID_138090554|FMOD|XP_068842309.1
+FMOD	XP_074121198.1	GeneID=141541036	374	kept	representative	XP_074121198.1 FMOD [organism=Sminthopsis crassicaudata] [GeneID=141541036]	GeneID_141541036|FMOD|XP_074121198.1
+FMOD	XP_074121199.1	GeneID=141541036	374	excluded	extra_isoform_same_species	XP_074121199.1 FMOD [organism=Sminthopsis crassicaudata] [GeneID=141541036]	GeneID_141541036|FMOD|XP_074121199.1
+FMOD	XP_080425035.1	GeneID=308183177	380	kept	representative	XP_080425035.1 FMOD [organism=Anser brachyrhynchus] [GeneID=308183177]	GeneID_308183177|FMOD|XP_080425035.1
+FMOD	XP_038205476.1	GeneID=119827716	376	kept	representative	XP_038205476.1 Fmod [organism=Arvicola amphibius] [GeneID=119827716]	GeneID_119827716|FMOD|XP_038205476.1
+FMOD	XP_005348426.1	GeneID=102001806	377	kept	representative	XP_005348426.1 Fmod [organism=Microtus ochrogaster] [GeneID=102001806]	GeneID_102001806|FMOD|XP_005348426.1
+FMOD	XP_069315466.1	GeneID=138375623	376	kept	representative	XP_069315466.1 FMOD [organism=Eulemur rufifrons] [GeneID=138375623]	GeneID_138375623|FMOD|XP_069315466.1
+FMOD	XP_037352916.1	GeneID=119234220	376	kept	representative	XP_037352916.1 FMOD [organism=Talpa occidentalis] [GeneID=119234220]	GeneID_119234220|FMOD|XP_037352916.1
+FMOD	XP_037352917.1	GeneID=119234220	376	excluded	extra_isoform_same_species	XP_037352917.1 FMOD [organism=Talpa occidentalis] [GeneID=119234220]	GeneID_119234220|FMOD|XP_037352917.1
+FMOD	XP_007065191.1	GeneID=102938773	379	kept	representative	XP_007065191.1 FMOD [organism=Chelonia mydas] [GeneID=102938773]	GeneID_102938773|FMOD|XP_007065191.1
+FMOD	XP_066218121.1	GeneID=136390900	376	kept	representative	XP_066218121.1 FMOD [organism=Saccopteryx leptura] [GeneID=136390900]	GeneID_136390900|FMOD|XP_066218121.1
+FMOD	XP_003220368.1	isoform=X2	379	excluded	extra_isoform_same_species	XP_003220368.1 fmod [organism=Anolis carolinensis] [GeneID=100565108] [isoform=X2]	isoform_X2|FMOD|XP_003220368.1
+FMOD	XP_008107883.2	isoform=X1	422	excluded	extra_isoform_same_species	XP_008107883.2 fmod [organism=Anolis carolinensis] [GeneID=100565108] [isoform=X1]	isoform_X1|FMOD|XP_008107883.2
+FMOD	XP_062834576.1	isoform=X2	379	excluded	extra_isoform_same_species	XP_062834576.1 fmod [organism=Anolis carolinensis] [GeneID=100565108] [isoform=X2]	isoform_X2|FMOD|XP_062834576.1
+FMOD	XP_028386569.1	GeneID=114511926	376	kept	representative	XP_028386569.1 FMOD [organism=Phyllostomus discolor] [GeneID=114511926]	GeneID_114511926|FMOD|XP_028386569.1
+FMOD	XP_028386570.1	GeneID=114511926	376	excluded	extra_isoform_same_species	XP_028386570.1 FMOD [organism=Phyllostomus discolor] [GeneID=114511926]	GeneID_114511926|FMOD|XP_028386570.1
+FMOD	XP_031992682.1	GeneID=116457534	377	kept	representative	XP_031992682.1 FMOD [organism=Hylobates moloch] [GeneID=116457534]	GeneID_116457534|FMOD|XP_031992682.1
+FMOD	XP_052055780.1	GeneID=127696993	376	kept	representative	XP_052055780.1 Fmod [organism=Apodemus sylvaticus] [GeneID=127696993]	GeneID_127696993|FMOD|XP_052055780.1
+FMOD	XP_010009560.1	GeneID=104403196	380	kept	representative	XP_010009560.1 FMOD [organism=Nestor notabilis] [GeneID=104403196]	GeneID_104403196|FMOD|XP_010009560.1
+FMOD	XP_005690428.1	GeneID=102183621	376	kept	representative	XP_005690428.1 FMOD [organism=Capra hircus] [GeneID=102183621]	GeneID_102183621|FMOD|XP_005690428.1
+FMOD	XP_008828578.1	GeneID=103731862	376	kept	representative	XP_008828578.1 Fmod [organism=Nannospalax galili] [GeneID=103731862]	GeneID_103731862|FMOD|XP_008828578.1
+FMOD	XP_082083302.1	isoform=1	388	excluded	extra_isoform_same_species	XP_082083302.1 FMOD [organism=Podarcis vaucheri] [GeneID=309534789] [isoform=1]	isoform_1|FMOD|XP_082083302.1
+FMOD	XP_082083303.1	isoform=2	379	excluded	extra_isoform_same_species	XP_082083303.1 FMOD [organism=Podarcis vaucheri] [GeneID=309534789] [isoform=2]	isoform_2|FMOD|XP_082083303.1
+FMOD	XP_017380844.1	GeneID=108302009	376	kept	representative	XP_017380844.1 FMOD [organism=Cebus imitator] [GeneID=108302009]	GeneID_108302009|FMOD|XP_017380844.1
+FMOD	XP_072700903.1	GeneID=140643256	380	kept	representative	XP_072700903.1 FMOD [organism=Ciconia boyciana] [GeneID=140643256]	GeneID_140643256|FMOD|XP_072700903.1
+FMOD	XP_005330376.1	GeneID=101964675	378	kept	representative	XP_005330376.1 Fmod [organism=Ictidomys tridecemlineatus] [GeneID=101964675]	GeneID_101964675|FMOD|XP_005330376.1
+FMOD	XP_032174400.1	GeneID=116576348	376	kept	representative	XP_032174400.1 FMOD [organism=Mustela erminea] [GeneID=116576348]	GeneID_116576348|FMOD|XP_032174400.1
+FMOD	XP_040317964.1	GeneID=121021578	376	kept	representative	XP_040317964.1 FMOD [organism=Herpailurus yagouaroundi] [GeneID=121021578]	GeneID_121021578|FMOD|XP_040317964.1
+FMOD	XP_031461829.1	GeneID=116237046	380	kept	representative	XP_031461829.1 FMOD [organism=Phasianus colchicus] [GeneID=116237046]	GeneID_116237046|FMOD|XP_031461829.1
+FMOD	XP_059947080.1	GeneID=132484497	376	kept	representative	XP_059947080.1 FMOD [organism=Mesoplodon densirostris] [GeneID=132484497]	GeneID_132484497|FMOD|XP_059947080.1
+FMOD	XP_068851961.1	GeneID=138098933	382	kept	representative	XP_068851961.1 FMOD [organism=Aphelocoma coerulescens] [GeneID=138098933]	GeneID_138098933|FMOD|XP_068851961.1
+FMOD	XP_081925389.1	GeneID=309448062	380	kept	representative	XP_081925389.1 FMOD [organism=Streptopelia decaocto] [GeneID=309448062]	GeneID_309448062|FMOD|XP_081925389.1
+FMOD	XP_033008611.1	GeneID=117048652	382	kept	representative	XP_033008611.1 FMOD [organism=Lacerta agilis] [GeneID=117048652]	GeneID_117048652|FMOD|XP_033008611.1
+FMOD	XP_033008612.1	GeneID=117048652	382	excluded	extra_isoform_same_species	XP_033008612.1 FMOD [organism=Lacerta agilis] [GeneID=117048652]	GeneID_117048652|FMOD|XP_033008612.1
+FMOD	XP_037680936.1	GeneID=119526117	376	kept	representative	XP_037680936.1 FMOD [organism=Choloepus didactylus] [GeneID=119526117]	GeneID_119526117|FMOD|XP_037680936.1
+FMOD	XP_037680937.1	GeneID=119526117	376	excluded	extra_isoform_same_species	XP_037680937.1 FMOD [organism=Choloepus didactylus] [GeneID=119526117]	GeneID_119526117|FMOD|XP_037680937.1
+FMOD	XP_062067257.1	GeneID=133773697	376	kept	representative	XP_062067257.1 FMOD [organism=Lepus europaeus] [GeneID=133773697]	GeneID_133773697|FMOD|XP_062067257.1
+FMOD	XP_027831982.2	GeneID=101111037	376	kept	representative	XP_027831982.2 FMOD [organism=Ovis aries] [GeneID=101111037]	GeneID_101111037|FMOD|XP_027831982.2
+FMOD	XP_007522176.1	GeneID=103112645	376	kept	representative	XP_007522176.1 FMOD [organism=Erinaceus europaeus] [GeneID=103112645]	GeneID_103112645|FMOD|XP_007522176.1
+FMOD	NP_001431520.1	GeneID=100526237	376	kept	representative	NP_001431520.1 FMOD [organism=Sus scrofa] [GeneID=100526237]	GeneID_100526237|FMOD|NP_001431520.1
+FMOD	XP_083214063.1	GeneID=310637486	378	kept	representative	XP_083214063.1 FMOD [organism=Vipera ursinii] [GeneID=310637486]	GeneID_310637486|FMOD|XP_083214063.1
+FMOD	XP_069094539.1	GeneID=138299839	372	kept	representative	XP_069094539.1 FMOD [organism=Pleurodeles waltl] [GeneID=138299839]	GeneID_138299839|FMOD|XP_069094539.1
+FMOD	XP_069094540.1	GeneID=138299839	372	excluded	extra_isoform_same_species	XP_069094540.1 FMOD [organism=Pleurodeles waltl] [GeneID=138299839]	GeneID_138299839|FMOD|XP_069094540.1
+FMOD	XP_036128877.1	GeneID=118637492	376	kept	representative	XP_036128877.1 FMOD [organism=Molossus molossus] [GeneID=118637492]	GeneID_118637492|FMOD|XP_036128877.1
+FMOD	XP_007449054.1	GeneID=103086597	376	kept	representative	XP_007449054.1 FMOD [organism=Lipotes vexillifer] [GeneID=103086597]	GeneID_103086597|FMOD|XP_007449054.1
+FMOD	XP_049688134.1	GeneID=126052080	380	kept	representative	XP_049688134.1 FMOD [organism=Astur gentilis] [GeneID=126052080]	GeneID_126052080|FMOD|XP_049688134.1
+FMOD	XP_002925483.1	GeneID=100483030	376	kept	representative	XP_002925483.1 FMOD [organism=Ailuropoda melanoleuca] [GeneID=100483030]	GeneID_100483030|FMOD|XP_002925483.1
+FMOD	XP_008497640.1	GeneID=103533550	380	kept	representative	XP_008497640.1 FMOD [organism=Calypte anna] [GeneID=103533550]	GeneID_103533550|FMOD|XP_008497640.1
+FMOD	XP_008537554.1	GeneID=103563863	376	kept	representative	XP_008537554.1 FMOD [organism=Equus przewalskii] [GeneID=103563863]	GeneID_103563863|FMOD|XP_008537554.1
+FMOD	XP_070464888.1	GeneID=103563863	376	excluded	extra_isoform_same_species	XP_070464888.1 FMOD [organism=Equus przewalskii] [GeneID=103563863]	GeneID_103563863|FMOD|XP_070464888.1
+FMOD	XP_032566519.1	GeneID=116798308	382	kept	representative	XP_032566519.1 FMOD [organism=Chiroxiphia lanceolata] [GeneID=116798308]	GeneID_116798308|FMOD|XP_032566519.1
+FMOD	XP_062997949.1	GeneID=134409241	379	kept	representative	XP_062997949.1 FMOD [organism=Elgaria multicarinata webbii] [GeneID=134409241]	GeneID_134409241|FMOD|XP_062997949.1
+FMOD	XP_032485922.1	isoform=X1	389	excluded	extra_isoform_same_species	XP_032485922.1 FMOD [organism=Phocoena sinus] [GeneID=116752881] [isoform=X1]	isoform_X1|FMOD|XP_032485922.1
+FMOD	XP_032485931.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_032485931.1 FMOD [organism=Phocoena sinus] [GeneID=116752881] [isoform=X2]	isoform_X2|FMOD|XP_032485931.1
+FMOD	XP_021053813.1	GeneID=110321721	376	kept	representative	XP_021053813.1 Fmod [organism=Mus pahari] [GeneID=110321721]	GeneID_110321721|FMOD|XP_021053813.1
+FMOD	XP_077190711.1	GeneID=143835990	375	kept	representative	XP_077190711.1 FMOD [organism=Paroedura picta] [GeneID=143835990]	GeneID_143835990|FMOD|XP_077190711.1
+FMOD	XP_030147967.4	GeneID=100229381	382	kept	representative	XP_030147967.4 FMOD [organism=Taeniopygia guttata] [GeneID=100229381]	GeneID_100229381|FMOD|XP_030147967.4
+FMOD	XP_009271085.1	GeneID=103893616	380	kept	representative	XP_009271085.1 FMOD [organism=Aptenodytes forsteri] [GeneID=103893616]	GeneID_103893616|FMOD|XP_009271085.1
+FMOD	XP_009325655.1	GeneID=103919810	380	kept	representative	XP_009325655.1 FMOD [organism=Pygoscelis adeliae] [GeneID=103919810]	GeneID_103919810|FMOD|XP_009325655.1
+FMOD	XP_057895783.1	GeneID=131092862	382	kept	representative	XP_057895783.1 FMOD [organism=Melospiza georgiana] [GeneID=131092862]	GeneID_131092862|FMOD|XP_057895783.1
+FMOD	XP_065505512.1	GeneID=135997046	380	kept	representative	XP_065505512.1 FMOD [organism=Caloenas nicobarica] [GeneID=135997046]	GeneID_135997046|FMOD|XP_065505512.1
+FMOD	XP_054313053.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_054313053.1 FMOD [organism=Pongo pygmaeus] [GeneID=129017042] [isoform=X2]	isoform_X2|FMOD|XP_054313053.1
+FMOD	XP_063503040.1	isoform=X1	392	excluded	extra_isoform_same_species	XP_063503040.1 FMOD [organism=Pongo pygmaeus] [GeneID=129017042] [isoform=X1]	isoform_X1|FMOD|XP_063503040.1
+FMOD	XP_083668798.1	GeneID=310887122	380	kept	representative	XP_083668798.1 FMOD [organism=Anser anser] [GeneID=310887122]	GeneID_310887122|FMOD|XP_083668798.1
+FMOD	XP_004578801.1	GeneID=101520635	379	kept	representative	XP_004578801.1 FMOD [organism=Ochotona princeps] [GeneID=101520635]	GeneID_101520635|FMOD|XP_004578801.1
+FMOD	XP_079064982.1	GeneID=306729518	380	kept	representative	XP_079064982.1 FMOD [organism=Caprimulgus europaeus] [GeneID=306729518]	GeneID_306729518|FMOD|XP_079064982.1
+FMOD	XP_051664924.1	GeneID=127480633	382	kept	representative	XP_051664924.1 FMOD [organism=Manacus candei] [GeneID=127480633]	GeneID_127480633|FMOD|XP_051664924.1
+FMOD	XP_084467616.1	GeneID=311511130	379	kept	representative	XP_084467616.1 FMOD [organism=Lepidochelys olivacea] [GeneID=311511130]	GeneID_311511130|FMOD|XP_084467616.1
+FMOD	XP_028590011.2	GeneID=114599276	379	kept	representative	XP_028590011.2 FMOD [organism=Podarcis muralis] [GeneID=114599276]	GeneID_114599276|FMOD|XP_028590011.2
+FMOD	XP_022364496.1	GeneID=111151056	376	kept	representative	XP_022364496.1 LOC111151056 [organism=Enhydra lutris kenyoni] [GeneID=111151056]	GeneID_111151056|FMOD|XP_022364496.1
+FMOD	XP_007987074.1	GeneID=103230280	376	kept	representative	XP_007987074.1 FMOD [organism=Chlorocebus sabaeus] [GeneID=103230280]	GeneID_103230280|FMOD|XP_007987074.1
+FMOD	XP_007987075.1	GeneID=103230280	376	excluded	extra_isoform_same_species	XP_007987075.1 FMOD [organism=Chlorocebus sabaeus] [GeneID=103230280]	GeneID_103230280|FMOD|XP_007987075.1
+FMOD	XP_030821771.1	GeneID=115913720	382	kept	representative	XP_030821771.1 FMOD [organism=Camarhynchus parvulus] [GeneID=115913720]	GeneID_115913720|FMOD|XP_030821771.1
+FMOD	XP_037266734.1	GeneID=119158651	380	kept	representative	XP_037266734.1 FMOD [organism=Falco rusticolus] [GeneID=119158651]	GeneID_119158651|FMOD|XP_037266734.1
+FMOD	XP_061327844.1	GeneID=133278756	380	kept	representative	XP_061327844.1 FMOD [organism=Pezoporus flaviventris] [GeneID=133278756]	GeneID_133278756|FMOD|XP_061327844.1
+FMOD	XP_064328073.1	GeneID=104041605	380	kept	representative	XP_064328073.1 FMOD [organism=Phalacrocorax carbo] [GeneID=104041605]	GeneID_104041605|FMOD|XP_064328073.1
+FMOD	XP_073522672.1	GeneID=141221758	357	kept	representative	XP_073522672.1 FMOD [organism=Phyllobates terribilis] [GeneID=141221758]	GeneID_141221758|FMOD|XP_073522672.1
+FMOD	XP_077013572.1	GeneID=143680890	376	kept	representative	XP_077013572.1 FMOD [organism=Tamandua tetradactyla] [GeneID=143680890]	GeneID_143680890|FMOD|XP_077013572.1
+FMOD	XP_023042689.1	GeneID=111522741	376	kept	representative	XP_023042689.1 FMOD [organism=Piliocolobus tephrosceles] [GeneID=111522741]	GeneID_111522741|FMOD|XP_023042689.1
+FMOD	XP_007116773.1	GeneID=102973758	376	kept	representative	XP_007116773.1 FMOD [organism=Physeter macrocephalus] [GeneID=102973758]	GeneID_102973758|FMOD|XP_007116773.1
+FMOD	XP_033773307.1	GeneID=117347071	353	kept	representative	XP_033773307.1 FMOD [organism=Geotrypetes seraphini] [GeneID=117347071]	GeneID_117347071|FMOD|XP_033773307.1
+FMOD	XP_062971430.1	GeneID=134391332	376	kept	representative	XP_062971430.1 FMOD [organism=Cynocephalus volans] [GeneID=134391332]	GeneID_134391332|FMOD|XP_062971430.1
+FMOD	XP_021394467.2	GeneID=110474981	382	kept	representative	XP_021394467.2 FMOD [organism=Lonchura striata] [GeneID=110474981]	GeneID_110474981|FMOD|XP_021394467.2
+FMOD	XP_085417463.1	GeneID=110474981	382	excluded	extra_isoform_same_species	XP_085417463.1 FMOD [organism=Lonchura striata] [GeneID=110474981]	GeneID_110474981|FMOD|XP_085417463.1
+FMOD	XP_085417464.1	GeneID=110474981	382	excluded	extra_isoform_same_species	XP_085417464.1 FMOD [organism=Lonchura striata] [GeneID=110474981]	GeneID_110474981|FMOD|XP_085417464.1
+FMOD	XP_009931490.1	GeneID=104328200	380	kept	representative	XP_009931490.1 FMOD [organism=Opisthocomus hoazin] [GeneID=104328200]	GeneID_104328200|FMOD|XP_009931490.1
+FMOD	NP_067330.1	GeneID=14264	376	kept	representative	NP_067330.1 Fmod [organism=Mus musculus] [GeneID=14264]	GeneID_14264|FMOD|NP_067330.1
+FMOD	XP_045643565.1	GeneID=123785715	376	kept	representative	XP_045643565.1 FMOD [organism=Ursus americanus] [GeneID=123785715]	GeneID_123785715|FMOD|XP_045643565.1
+FMOD	XP_006834176.1	GeneID=102820055	374	kept	representative	XP_006834176.1 FMOD [organism=Chrysochloris asiatica] [GeneID=102820055]	GeneID_102820055|FMOD|XP_006834176.1
+FMOD	XP_004862243.1	GeneID=101701919	378	kept	representative	XP_004862243.1 Fmod [organism=Heterocephalus glaber] [GeneID=101701919]	GeneID_101701919|FMOD|XP_004862243.1
+FMOD	XP_005073426.1	GeneID=101844658	376	kept	representative	XP_005073426.1 Fmod [organism=Mesocricetus auratus] [GeneID=101844658]	GeneID_101844658|FMOD|XP_005073426.1
+FMOD	XP_040593477.1	GeneID=101844658	376	excluded	extra_isoform_same_species	XP_040593477.1 Fmod [organism=Mesocricetus auratus] [GeneID=101844658]	GeneID_101844658|FMOD|XP_040593477.1
+FMOD	XP_002809627.3	GeneID=100439039	376	kept	representative	XP_002809627.3 FMOD [organism=Pongo abelii] [GeneID=100439039]	GeneID_100439039|FMOD|XP_002809627.3
+FMOD	XP_021542266.1	GeneID=110577309	376	kept	representative	XP_021542266.1 FMOD [organism=Neomonachus schauinslandi] [GeneID=110577309]	GeneID_110577309|FMOD|XP_021542266.1
+FMOD	XP_026571408.1	GeneID=113446129	378	kept	representative	XP_026571408.1 FMOD [organism=Pseudonaja textilis] [GeneID=113446129]	GeneID_113446129|FMOD|XP_026571408.1
+FMOD	XP_026571409.1	GeneID=113446129	378	excluded	extra_isoform_same_species	XP_026571409.1 FMOD [organism=Pseudonaja textilis] [GeneID=113446129]	GeneID_113446129|FMOD|XP_026571409.1
+FMOD	XP_053169529.1	isoform=X1	412	excluded	extra_isoform_same_species	XP_053169529.1 FMOD [organism=Hemicordylus capensis] [GeneID=128352968] [isoform=X1]	isoform_X1|FMOD|XP_053169529.1
+FMOD	XP_053169530.1	isoform=X1	412	excluded	extra_isoform_same_species	XP_053169530.1 FMOD [organism=Hemicordylus capensis] [GeneID=128352968] [isoform=X1]	isoform_X1|FMOD|XP_053169530.1
+FMOD	XP_053169531.1	isoform=X2	377	kept	representative	XP_053169531.1 FMOD [organism=Hemicordylus capensis] [GeneID=128352968] [isoform=X2]	isoform_X2|FMOD|XP_053169531.1
+FMOD	XP_053169533.1	isoform=X2	377	excluded	extra_isoform_same_species	XP_053169533.1 FMOD [organism=Hemicordylus capensis] [GeneID=128352968] [isoform=X2]	isoform_X2|FMOD|XP_053169533.1
+FMOD	XP_075844129.1	GeneID=142858571	377	kept	representative	XP_075844129.1 Fmod [organism=Microtus pennsylvanicus] [GeneID=142858571]	GeneID_142858571|FMOD|XP_075844129.1
+FMOD	XP_080774440.1	GeneID=308421835	376	kept	representative	XP_080774440.1 FMOD [organism=Micromys minutus] [GeneID=308421835]	GeneID_308421835|FMOD|XP_080774440.1
+FMOD	XP_071884568.1	GeneID=101789778	380	kept	representative	XP_071884568.1 FMOD [organism=Anas platyrhynchos] [GeneID=101789778]	GeneID_101789778|FMOD|XP_071884568.1
+FMOD	XP_059852379.1	GeneID=132414091	377	kept	representative	XP_059852379.1 FMOD [organism=Delphinus delphis] [GeneID=132414091]	GeneID_132414091|FMOD|XP_059852379.1
+FMOD	XP_068397636.1	GeneID=137762954	376	kept	representative	XP_068397636.1 FMOD [organism=Eschrichtius robustus] [GeneID=137762954]	GeneID_137762954|FMOD|XP_068397636.1
+FMOD	XP_069732268.1	GeneID=138730709	381	kept	representative	XP_069732268.1 FMOD [organism=Phaenicophaeus curvirostris] [GeneID=138730709]	GeneID_138730709|FMOD|XP_069732268.1
+FMOD	XP_006922944.1	GeneID=102879448	376	kept	representative	XP_006922944.1 FMOD [organism=Pteropus alecto] [GeneID=102879448]	GeneID_102879448|FMOD|XP_006922944.1
+FMOD	XP_039083341.1	GeneID=120228823	376	kept	representative	XP_039083341.1 FMOD [organism=Hyaena hyaena] [GeneID=120228823]	GeneID_120228823|FMOD|XP_039083341.1
+FMOD	XP_052592954.1	GeneID=128109704	376	kept	representative	XP_052592954.1 Fmod [organism=Peromyscus californicus insignis] [GeneID=128109704]	GeneID_128109704|FMOD|XP_052592954.1
+FMOD	XP_005447118.1	GeneID=102045725	380	kept	representative	XP_005447118.1 FMOD [organism=Falco cherrug] [GeneID=102045725]	GeneID_102045725|FMOD|XP_005447118.1
+FMOD	XP_019832205.1	GeneID=109570586	376	kept	representative	XP_019832205.1 FMOD [organism=Bos indicus] [GeneID=109570586]	GeneID_109570586|FMOD|XP_019832205.1
+FMOD	XP_012872983.1	GeneID=105986546	379	kept	representative	XP_012872983.1 Fmod [organism=Dipodomys ordii] [GeneID=105986546]	GeneID_105986546|FMOD|XP_012872983.1
+FMOD	XP_027515417.1	GeneID=113954807	382	kept	representative	XP_027515417.1 FMOD [organism=Corapipo altera] [GeneID=113954807]	GeneID_113954807|FMOD|XP_027515417.1
+FMOD	XP_029084505.1	GeneID=114898713	376	kept	representative	XP_029084505.1 FMOD [organism=Monodon monoceros] [GeneID=114898713]	GeneID_114898713|FMOD|XP_029084505.1
+FMOD	XP_060500142.1	GeneID=132686406	376	kept	representative	XP_060500142.1 FMOD [organism=Panthera onca] [GeneID=132686406]	GeneID_132686406|FMOD|XP_060500142.1
+FMOD	XP_062461428.1	GeneID=134156976	380	kept	representative	XP_062461428.1 FMOD [organism=Pezoporus occidentalis] [GeneID=134156976]	GeneID_134156976|FMOD|XP_062461428.1
+FMOD	XP_062461429.1	GeneID=134156976	380	excluded	extra_isoform_same_species	XP_062461429.1 FMOD [organism=Pezoporus occidentalis] [GeneID=134156976]	GeneID_134156976|FMOD|XP_062461429.1
+FMOD	XP_082152140.1	GeneID=309581416	382	kept	representative	XP_082152140.1 FMOD [organism=Coloeus monedula] [GeneID=309581416]	GeneID_309581416|FMOD|XP_082152140.1
+FMOD	XP_044142708.1	GeneID=122932399	361	kept	representative	XP_044142708.1 FMOD [organism=Bufo gargarizans] [GeneID=122932399]	GeneID_122932399|FMOD|XP_044142708.1
+FMOD	XP_044142709.1	GeneID=122932399	361	excluded	extra_isoform_same_species	XP_044142709.1 FMOD [organism=Bufo gargarizans] [GeneID=122932399]	GeneID_122932399|FMOD|XP_044142709.1
+FMOD	XP_044142710.1	GeneID=122932399	361	excluded	extra_isoform_same_species	XP_044142710.1 FMOD [organism=Bufo gargarizans] [GeneID=122932399]	GeneID_122932399|FMOD|XP_044142710.1
+FMOD	XP_033925742.1	GeneID=101878097	380	kept	representative	XP_033925742.1 FMOD [organism=Melopsittacus undulatus] [GeneID=101878097]	GeneID_101878097|FMOD|XP_033925742.1
+FMOD	XP_077743390.1	GeneID=144307431	376	kept	representative	XP_077743390.1 FMOD [organism=Canis aureus] [GeneID=144307431]	GeneID_144307431|FMOD|XP_077743390.1
+FMOD	XP_034979824.1	GeneID=118089348	379	kept	representative	XP_034979824.1 FMOD [organism=Zootoca vivipara] [GeneID=118089348]	GeneID_118089348|FMOD|XP_034979824.1
+FMOD	XP_074749691.1	GeneID=141954258	380	kept	representative	XP_074749691.1 FMOD [organism=Strix uralensis] [GeneID=141954258]	GeneID_141954258|FMOD|XP_074749691.1
+FMOD	XP_007434952.1	GeneID=103063040	329	kept	representative	XP_007434952.1 FMOD [organism=Python bivittatus] [GeneID=103063040]	GeneID_103063040|FMOD|XP_007434952.1
+FMOD	XP_082469041.1	GeneID=309799591	376	kept	representative	XP_082469041.1 FMOD [organism=Mesoplodon mirus] [GeneID=309799591]	GeneID_309799591|FMOD|XP_082469041.1
+FMOD	XP_021489418.1	GeneID=110546728	376	kept	representative	XP_021489418.1 Fmod [organism=Meriones unguiculatus] [GeneID=110546728]	GeneID_110546728|FMOD|XP_021489418.1
+FMOD	XP_034866166.1	GeneID=118014176	376	kept	representative	XP_034866166.1 FMOD [organism=Mirounga leonina] [GeneID=118014176]	GeneID_118014176|FMOD|XP_034866166.1
+FMOD	XP_079778172.1	GeneID=307186657	377	kept	representative	XP_079778172.1 FMOD [organism=Stenella coeruleoalba] [GeneID=307186657]	GeneID_307186657|FMOD|XP_079778172.1
+FMOD	XP_004459105.1	GeneID=101423870	376	kept	representative	XP_004459105.1 FMOD [organism=Dasypus novemcinctus] [GeneID=101423870]	GeneID_101423870|FMOD|XP_004459105.1
+FMOD	XP_014685698.1	GeneID=106824096	376	kept	representative	XP_014685698.1 FMOD [organism=Equus asinus] [GeneID=106824096]	GeneID_106824096|FMOD|XP_014685698.1
+FMOD	XP_044614329.1	GeneID=106824096	376	excluded	extra_isoform_same_species	XP_044614329.1 FMOD [organism=Equus asinus] [GeneID=106824096]	GeneID_106824096|FMOD|XP_044614329.1
+FMOD	XP_015106837.1	GeneID=102537961	376	kept	representative	XP_015106837.1 FMOD [organism=Vicugna pacos] [GeneID=102537961]	GeneID_102537961|FMOD|XP_015106837.1
+FMOD	XP_025847256.1	GeneID=112914413	376	kept	representative	XP_025847256.1 FMOD [organism=Vulpes vulpes] [GeneID=112914413]	GeneID_112914413|FMOD|XP_025847256.1
+FMOD	XP_073175657.2	GeneID=140901183	379	kept	representative	XP_073175657.2 FMOD [organism=Lepidochelys kempii] [GeneID=140901183]	GeneID_140901183|FMOD|XP_073175657.2
+FMOD	XP_075385192.1	GeneID=142423938	378	kept	representative	XP_075385192.1 FMOD [organism=Tenrec ecaudatus] [GeneID=142423938]	GeneID_142423938|FMOD|XP_075385192.1
+FMOD	XP_011371349.1	GeneID=105300693	376	kept	representative	XP_011371349.1 FMOD [organism=Pteropus vampyrus] [GeneID=105300693]	GeneID_105300693|FMOD|XP_011371349.1
+FMOD	XP_036923043.1	GeneID=119001695	376	kept	representative	XP_036923043.1 FMOD [organism=Sturnira hondurensis] [GeneID=119001695]	GeneID_119001695|FMOD|XP_036923043.1
+FMOD	XP_083601015.1	isoform=1	388	excluded	extra_isoform_same_species	XP_083601015.1 FMOD [organism=Podarcis gaigeae] [GeneID=310847301] [isoform=1]	isoform_1|FMOD|XP_083601015.1
+FMOD	XP_083601016.1	isoform=2	379	excluded	extra_isoform_same_species	XP_083601016.1 FMOD [organism=Podarcis gaigeae] [GeneID=310847301] [isoform=2]	isoform_2|FMOD|XP_083601016.1
+FMOD	XP_007939352.1	GeneID=103197265	376	kept	representative	XP_007939352.1 FMOD [organism=Orycteropus afer afer] [GeneID=103197265]	GeneID_103197265|FMOD|XP_007939352.1
+FMOD	XP_010583033.1	GeneID=104842407	380	kept	representative	XP_010583033.1 FMOD [organism=Haliaeetus leucocephalus] [GeneID=104842407]	GeneID_104842407|FMOD|XP_010583033.1
+FMOD	XP_036726502.1	GeneID=118904453	376	kept	representative	XP_036726502.1 FMOD [organism=Balaenoptera musculus] [GeneID=118904453]	GeneID_118904453|FMOD|XP_036726502.1
+FMOD	XP_029856996.1	GeneID=115335443	380	kept	representative	XP_029856996.1 FMOD [organism=Aquila chrysaetos chrysaetos] [GeneID=115335443]	GeneID_115335443|FMOD|XP_029856996.1
+FMOD	XP_049490364.1	GeneID=125925430	376	kept	representative	XP_049490364.1 FMOD [organism=Panthera uncia] [GeneID=125925430]	GeneID_125925430|FMOD|XP_049490364.1
+FMOD	XP_063153631.1	GeneID=134493199	379	kept	representative	XP_063153631.1 FMOD [organism=Candoia aspera] [GeneID=134493199]	GeneID_134493199|FMOD|XP_063153631.1
+FMOD	XP_069800506.1	GeneID=138767129	362	kept	representative	XP_069800506.1 FMOD [organism=Dendropsophus ebraccatus] [GeneID=138767129]	GeneID_138767129|FMOD|XP_069800506.1
+FMOD	XP_010006610.1	GeneID=104398248	380	kept	representative	XP_010006610.1 FMOD [organism=Chaetura pelagica] [GeneID=104398248]	GeneID_104398248|FMOD|XP_010006610.1
+FMOD	XP_045732949.1	GeneID=123845999	376	kept	representative	XP_045732949.1 FMOD [organism=Mirounga angustirostris] [GeneID=123845999]	GeneID_123845999|FMOD|XP_045732949.1
+FMOD	XP_045839653.1	GeneID=123928488	376	kept	representative	XP_045839653.1 FMOD [organism=Meles meles] [GeneID=123928488]	GeneID_123928488|FMOD|XP_045839653.1
+FMOD	XP_053560671.1	GeneID=128651710	372	kept	representative	XP_053560671.1 FMOD [organism=Bombina bombina] [GeneID=128651710]	GeneID_128651710|FMOD|XP_053560671.1
+FMOD	XP_005308329.1	isoform=X2	379	excluded	extra_isoform_same_species	XP_005308329.1 FMOD [organism=Chrysemys picta bellii] [GeneID=101938608] [isoform=X2]	isoform_X2|FMOD|XP_005308329.1
+FMOD	XP_042704988.1	isoform=X1	382	excluded	extra_isoform_same_species	XP_042704988.1 FMOD [organism=Chrysemys picta bellii] [GeneID=101938608] [isoform=X1]	isoform_X1|FMOD|XP_042704988.1
+FMOD	XP_043932878.1	GeneID=122806475	349	kept	representative	XP_043932878.1 FMOD [organism=Protopterus annectens] [GeneID=122806475]	GeneID_122806475|FMOD|XP_043932878.1
+FMOD	XP_064491808.1	GeneID=135402501	382	kept	representative	XP_064491808.1 FMOD [organism=Pseudopipra pipra] [GeneID=135402501]	GeneID_135402501|FMOD|XP_064491808.1
+FMOD	XP_006772064.1	isoform=X2	377	excluded	extra_isoform_same_species	XP_006772064.1 FMOD [organism=Myotis davidii] [GeneID=102765717] [isoform=X2]	isoform_X2|FMOD|XP_006772064.1
+FMOD	XP_006772065.2	isoform=X1	478	excluded	extra_isoform_same_species	XP_006772065.2 FMOD [organism=Myotis davidii] [GeneID=102765717] [isoform=X1]	isoform_X1|FMOD|XP_006772065.2
+FMOD	XP_012314846.1	GeneID=105722155	376	kept	representative	XP_012314846.1 FMOD [organism=Aotus nancymaae] [GeneID=105722155]	GeneID_105722155|FMOD|XP_012314846.1
+FMOD	XP_009886536.1	GeneID=104289308	380	kept	representative	XP_009886536.1 FMOD [organism=Charadrius vociferus] [GeneID=104289308]	GeneID_104289308|FMOD|XP_009886536.1
+FMOD	XP_025908944.1	GeneID=112959189	380	kept	representative	XP_025908944.1 FMOD [organism=Nothoprocta perdicaria] [GeneID=112959189]	GeneID_112959189|FMOD|XP_025908944.1
+FMOD	XP_026532656.1	GeneID=113418138	378	kept	representative	XP_026532656.1 FMOD [organism=Notechis scutatus] [GeneID=113418138]	GeneID_113418138|FMOD|XP_026532656.1
+FMOD	XP_026532657.1	GeneID=113418138	378	excluded	extra_isoform_same_species	XP_026532657.1 FMOD [organism=Notechis scutatus] [GeneID=113418138]	GeneID_113418138|FMOD|XP_026532657.1
+FMOD	XP_044528030.1	GeneID=123243924	374	kept	representative	XP_044528030.1 FMOD [organism=Gracilinanus agilis] [GeneID=123243924]	GeneID_123243924|FMOD|XP_044528030.1
+FMOD	XP_055276087.1	GeneID=129551788	376	kept	representative	XP_055276087.1 FMOD [organism=Moschus berezovskii] [GeneID=129551788]	GeneID_129551788|FMOD|XP_055276087.1
+FMOD	XP_055966788.1	GeneID=130020155	371	kept	representative	XP_055966788.1 FMOD [organism=Sorex fumeus] [GeneID=130020155]	GeneID_130020155|FMOD|XP_055966788.1
+FMOD	XP_058396287.1	GeneID=131405001	376	kept	representative	XP_058396287.1 FMOD [organism=Diceros bicornis minor] [GeneID=131405001]	GeneID_131405001|FMOD|XP_058396287.1
+FMOD	XP_058396288.1	GeneID=131405001	376	excluded	extra_isoform_same_species	XP_058396288.1 FMOD [organism=Diceros bicornis minor] [GeneID=131405001]	GeneID_131405001|FMOD|XP_058396288.1
+FMOD	XP_063212909.1	GeneID=134525714	380	kept	representative	XP_063212909.1 FMOD [organism=Chroicocephalus ridibundus] [GeneID=134525714]	GeneID_134525714|FMOD|XP_063212909.1
+FMOD	NP_001075246.1	GeneID=100009678	376	kept	representative	NP_001075246.1 FMOD [organism=Equus caballus] [GeneID=100009678]	GeneID_100009678|FMOD|NP_001075246.1
+FMOD	XP_070122256.1	isoform=X1	376	kept	representative	XP_070122256.1 FMOD [organism=Equus caballus] [GeneID=100009678] [isoform=X1]	isoform_X1|FMOD|XP_070122256.1
+FMOD	XP_084649623.1	GeneID=311604027	378	kept	representative	XP_084649623.1 FMOD [organism=Acomys minous] [GeneID=311604027]	GeneID_311604027|FMOD|XP_084649623.1
+FMOD	XP_009463882.1	GeneID=104013143	380	kept	representative	XP_009463882.1 FMOD [organism=Nipponia nippon] [GeneID=104013143]	GeneID_104013143|FMOD|XP_009463882.1
+FMOD	XP_066060126.1	GeneID=136301161	383	kept	representative	XP_066060126.1 FMOD [organism=Chamaea fasciata] [GeneID=136301161]	GeneID_136301161|FMOD|XP_066060126.1
+FMOD	XP_005428946.1	GeneID=102033351	382	kept	representative	XP_005428946.1 FMOD [organism=Geospiza fortis] [GeneID=102033351]	GeneID_102033351|FMOD|XP_005428946.1
+FMOD	XP_059002779.1	GeneID=131815140	376	kept	representative	XP_059002779.1 FMOD [organism=Mustela lutreola] [GeneID=131815140]	GeneID_131815140|FMOD|XP_059002779.1
+FMOD	XP_072671204.1	GeneID=140627058	376	kept	representative	XP_072671204.1 FMOD [organism=Canis lupus baileyi] [GeneID=140627058]	GeneID_140627058|FMOD|XP_072671204.1
+FMOD	XP_015262797.1	GeneID=107107081	331	kept	representative	XP_015262797.1 FMOD [organism=Gekko japonicus] [GeneID=107107081]	GeneID_107107081|FMOD|XP_015262797.1
+FMOD	XP_021233173.1	GeneID=110388336	380	kept	representative	XP_021233173.1 FMOD [organism=Numida meleagris] [GeneID=110388336]	GeneID_110388336|FMOD|XP_021233173.1
+FMOD	XP_062365711.1	GeneID=134054186	382	kept	representative	XP_062365711.1 FMOD [organism=Cinclus cinclus] [GeneID=134054186]	GeneID_134054186|FMOD|XP_062365711.1
+FMOD	XP_070795854.1	GeneID=139314197	378	kept	representative	XP_070795854.1 FMOD [organism=Pituophis catenifer annectens] [GeneID=139314197]	GeneID_139314197|FMOD|XP_070795854.1
+FMOD	XP_081891336.1	GeneID=309429671	380	kept	representative	XP_081891336.1 FMOD [organism=Branta canadensis] [GeneID=309429671]	GeneID_309429671|FMOD|XP_081891336.1
+FMOD	XP_032947819.1	GeneID=117014254	376	kept	representative	XP_032947819.1 FMOD [organism=Rhinolophus ferrumequinum] [GeneID=117014254]	GeneID_117014254|FMOD|XP_032947819.1
+FMOD	XP_011745007.1	GeneID=105484768	376	kept	representative	XP_011745007.1 FMOD [organism=Macaca nemestrina] [GeneID=105484768]	GeneID_105484768|FMOD|XP_011745007.1
+FMOD	XP_068516063.1	GeneID=137844034	380	kept	representative	XP_068516063.1 FMOD [organism=Anas acuta] [GeneID=137844034]	GeneID_137844034|FMOD|XP_068516063.1
+FMOD	XP_065743561.1	GeneID=136130860	376	kept	representative	XP_065743561.1 FMOD [organism=Phocoena phocoena] [GeneID=136130860]	GeneID_136130860|FMOD|XP_065743561.1
+FMOD	XP_024427140.1	GeneID=112314818	376	kept	representative	XP_024427140.1 FMOD [organism=Desmodus rotundus] [GeneID=112314818]	GeneID_112314818|FMOD|XP_024427140.1
+FMOD	XP_036254399.1	GeneID=118696364	382	kept	representative	XP_036254399.1 FMOD [organism=Molothrus ater] [GeneID=118696364]	GeneID_118696364|FMOD|XP_036254399.1
+FMOD	XP_054037272.1	GeneID=128900305	380	kept	representative	XP_054037272.1 FMOD [organism=Rissa tridactyla] [GeneID=128900305]	GeneID_128900305|FMOD|XP_054037272.1
+FMOD	XP_008642951.1	GeneID=103625316	378	kept	representative	XP_008642951.1 FMOD [organism=Corvus brachyrhynchos] [GeneID=103625316]	GeneID_103625316|FMOD|XP_008642951.1
+FMOD	XP_010170224.1	GeneID=104528034	380	kept	representative	XP_010170224.1 FMOD [organism=Antrostomus carolinensis] [GeneID=104528034]	GeneID_104528034|FMOD|XP_010170224.1
+FMOD	XP_018884545.1	GeneID=101144896	376	kept	representative	XP_018884545.1 FMOD [organism=Gorilla gorilla gorilla] [GeneID=101144896]	GeneID_101144896|FMOD|XP_018884545.1
+FMOD	XP_030872074.1	GeneID=101144896	376	excluded	extra_isoform_same_species	XP_030872074.1 FMOD [organism=Gorilla gorilla gorilla] [GeneID=101144896]	GeneID_101144896|FMOD|XP_030872074.1
+FMOD	XP_013913648.1	GeneID=106542444	378	kept	representative	XP_013913648.1 FMOD [organism=Thamnophis sirtalis] [GeneID=106542444]	GeneID_106542444|FMOD|XP_013913648.1
+FMOD	XP_009083012.1	GeneID=103811771	357	kept	representative	XP_009083012.1 FMOD [organism=Acanthisitta chloris] [GeneID=103811771]	GeneID_103811771|FMOD|XP_009083012.1
+FMOD	XP_025776957.1	GeneID=112857841	376	kept	representative	XP_025776957.1 FMOD [organism=Puma concolor] [GeneID=112857841]	GeneID_112857841|FMOD|XP_025776957.1
+FMOD	XP_059344082.1	GeneID=132083427	382	kept	representative	XP_059344082.1 FMOD [organism=Ammospiza nelsoni] [GeneID=132083427]	GeneID_132083427|FMOD|XP_059344082.1
+FMOD	XP_060087387.1	GeneID=132566397	375	kept	representative	XP_060087387.1 FMOD [organism=Heteronotia binoei] [GeneID=132566397]	GeneID_132566397|FMOD|XP_060087387.1
+FMOD	XP_064589312.1	GeneID=135458225	388	kept	representative	XP_064589312.1 FMOD [organism=Zonotrichia leucophrys gambelii] [GeneID=135458225]	GeneID_135458225|FMOD|XP_064589312.1
+FMOD	XP_064589313.1	GeneID=135458225	388	excluded	extra_isoform_same_species	XP_064589313.1 FMOD [organism=Zonotrichia leucophrys gambelii] [GeneID=135458225]	GeneID_135458225|FMOD|XP_064589313.1
+FMOD	XP_077695604.1	GeneID=144278244	379	kept	representative	XP_077695604.1 FMOD [organism=Eretmochelys imbricata] [GeneID=144278244]	GeneID_144278244|FMOD|XP_077695604.1
+FMOD	XP_086621738.1	GeneID=104483961	380	kept	representative	XP_086621738.1 FMOD [organism=Chlamydotis macqueenii] [GeneID=104483961]	GeneID_104483961|FMOD|XP_086621738.1
+FMOD	XP_069489176.1	GeneID=138520778	366	kept	representative	XP_069489176.1 FMOD [organism=Ambystoma mexicanum] [GeneID=138520778]	GeneID_138520778|FMOD|XP_069489176.1
+FMOD	XP_077628218.1	GeneID=144238295	376	kept	representative	XP_077628218.1 FMOD [organism=Crocuta crocuta] [GeneID=144238295]	GeneID_144238295|FMOD|XP_077628218.1
+FMOD	XP_057256780.1	GeneID=130594711	380	kept	representative	XP_057256780.1 FMOD [organism=Pezoporus wallicus] [GeneID=130594711]	GeneID_130594711|FMOD|XP_057256780.1
+FMOD	XP_058712093.1	GeneID=131587835	382	kept	representative	XP_058712093.1 FMOD [organism=Poecile atricapillus] [GeneID=131587835]	GeneID_131587835|FMOD|XP_058712093.1
+FMOD	XP_058712094.1	GeneID=131587835	382	excluded	extra_isoform_same_species	XP_058712094.1 FMOD [organism=Poecile atricapillus] [GeneID=131587835]	GeneID_131587835|FMOD|XP_058712094.1
+FMOD	XP_058712095.1	GeneID=131587835	382	excluded	extra_isoform_same_species	XP_058712095.1 FMOD [organism=Poecile atricapillus] [GeneID=131587835]	GeneID_131587835|FMOD|XP_058712095.1
+FMOD	XP_064029591.1	GeneID=135191318	380	kept	representative	XP_064029591.1 FMOD [organism=Pogoniulus pusillus] [GeneID=135191318]	GeneID_135191318|FMOD|XP_064029591.1
+FMOD	XP_065792749.1	GeneID=136168933	376	kept	representative	XP_065792749.1 FMOD [organism=Muntiacus reevesi] [GeneID=136168933]	GeneID_136168933|FMOD|XP_065792749.1
+FMOD	XP_010139362.1	GeneID=104497780	380	kept	representative	XP_010139362.1 FMOD [organism=Buceros rhinoceros silvestris] [GeneID=104497780]	GeneID_104497780|FMOD|XP_010139362.1
+FMOD	XP_086779630.1	GeneID=147712824	372	kept	representative	XP_086779630.1 FMOD [organism=Lissotriton vulgaris] [GeneID=147712824]	GeneID_147712824|FMOD|XP_086779630.1
+FMOD	XP_082688426.1	GeneID=309957184	377	kept	representative	XP_082688426.1 FMOD [organism=Leucopleurus acutus] [GeneID=309957184]	GeneID_309957184|FMOD|XP_082688426.1
+FMOD	XP_053310377.1	GeneID=128472516	360	kept	representative	XP_053310377.1 FMOD [organism=Spea bombifrons] [GeneID=128472516]	GeneID_128472516|FMOD|XP_053310377.1
+FMOD	XP_041578745.1	GeneID=121471918	376	kept	representative	XP_041578745.1 FMOD [organism=Vulpes lagopus] [GeneID=121471918]	GeneID_121471918|FMOD|XP_041578745.1
+FMOD	XP_071993415.1	GeneID=140118888	357	kept	representative	XP_071993415.1 FMOD [organism=Engystomops pustulosus] [GeneID=140118888]	GeneID_140118888|FMOD|XP_071993415.1
+FMOD	XP_004756409.1	GeneID=101686467	376	kept	representative	XP_004756409.1 FMOD [organism=Mustela putorius furo] [GeneID=101686467]	GeneID_101686467|FMOD|XP_004756409.1
+FMOD	XP_030329507.1	GeneID=115602473	380	kept	representative	XP_030329507.1 FMOD [organism=Strigops habroptila] [GeneID=115602473]	GeneID_115602473|FMOD|XP_030329507.1
+FMOD	XP_039737812.1	isoform=X1	412	excluded	extra_isoform_same_species	XP_039737812.1 FMOD [organism=Pteropus medius] [GeneID=120617990] [isoform=X1]	isoform_X1|FMOD|XP_039737812.1
+FMOD	XP_039737813.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_039737813.1 FMOD [organism=Pteropus medius] [GeneID=120617990] [isoform=X2]	isoform_X2|FMOD|XP_039737813.1
+FMOD	XP_069612615.1	GeneID=138669784	357	kept	representative	XP_069612615.1 FMOD [organism=Ranitomeya imitator] [GeneID=138669784]	GeneID_138669784|FMOD|XP_069612615.1
+FMOD	XP_079553066.1	GeneID=307048066	376	kept	representative	XP_079553066.1 FMOD [organism=Hyperoodon ampullatus] [GeneID=307048066]	GeneID_307048066|FMOD|XP_079553066.1
+FMOD	XP_036058204.1	GeneID=118593076	376	kept	representative	XP_036058204.1 Fmod [organism=Onychomys torridus] [GeneID=118593076]	GeneID_118593076|FMOD|XP_036058204.1
+FMOD	XP_011893562.1	GeneID=105575829	376	kept	representative	XP_011893562.1 FMOD [organism=Cercocebus atys] [GeneID=105575829]	GeneID_105575829|FMOD|XP_011893562.1
+FMOD	XP_005510381.2	GeneID=102090679	380	kept	representative	XP_005510381.2 FMOD [organism=Columba livia] [GeneID=102090679]	GeneID_102090679|FMOD|XP_005510381.2
+FMOD	XP_039558506.1	GeneID=120499099	358	kept	representative	XP_039558506.1 FMOD [organism=Passer montanus] [GeneID=120499099]	GeneID_120499099|FMOD|XP_039558506.1
+FMOD	XP_052509880.1	GeneID=128061549	376	kept	representative	XP_052509880.1 FMOD [organism=Budorcas taxicolor] [GeneID=128061549]	GeneID_128061549|FMOD|XP_052509880.1
+FMOD	XP_084100595.1	GeneID=311178088	376	kept	representative	XP_084100595.1 FMOD [organism=Talpa europaea] [GeneID=311178088]	GeneID_311178088|FMOD|XP_084100595.1
+FMOD	XP_027758805.1	GeneID=114067500	380	kept	representative	XP_027758805.1 FMOD [organism=Empidonax traillii] [GeneID=114067500]	GeneID_114067500|FMOD|XP_027758805.1
+FMOD	XP_027758806.1	GeneID=114067500	380	excluded	extra_isoform_same_species	XP_027758806.1 FMOD [organism=Empidonax traillii] [GeneID=114067500]	GeneID_114067500|FMOD|XP_027758806.1
+FMOD	XP_081049681.1	isoform=1	388	excluded	extra_isoform_same_species	XP_081049681.1 FMOD [organism=Podarcis bocagei] [GeneID=308586681] [isoform=1]	isoform_1|FMOD|XP_081049681.1
+FMOD	XP_081049682.1	isoform=2	379	excluded	extra_isoform_same_species	XP_081049682.1 FMOD [organism=Podarcis bocagei] [GeneID=308586681] [isoform=2]	isoform_2|FMOD|XP_081049682.1
+FMOD	XP_081049683.1	isoform=2	379	excluded	extra_isoform_same_species	XP_081049683.1 FMOD [organism=Podarcis bocagei] [GeneID=308586681] [isoform=2]	isoform_2|FMOD|XP_081049683.1
+FMOD	XP_055090386.1	GeneID=129458507	377	kept	representative	XP_055090386.1 FMOD [organism=Symphalangus syndactylus] [GeneID=129458507]	GeneID_129458507|FMOD|XP_055090386.1
+FMOD	XP_079183208.1	isoform=1	382	excluded	extra_isoform_same_species	XP_079183208.1 FMOD [organism=Erithacus rubecula] [GeneID=306812464] [isoform=1]	isoform_1|FMOD|XP_079183208.1
+FMOD	XP_079183209.1	isoform=1	382	excluded	extra_isoform_same_species	XP_079183209.1 FMOD [organism=Erithacus rubecula] [GeneID=306812464] [isoform=1]	isoform_1|FMOD|XP_079183209.1
+FMOD	XP_042781826.1	GeneID=122212174	376	kept	representative	XP_042781826.1 FMOD [organism=Panthera leo] [GeneID=122212174]	GeneID_122212174|FMOD|XP_042781826.1
+FMOD	XP_064255130.1	GeneID=135286094	382	kept	representative	XP_064255130.1 FMOD [organism=Passer domesticus] [GeneID=135286094]	GeneID_135286094|FMOD|XP_064255130.1
+FMOD	XP_065710779.1	GeneID=136110957	380	kept	representative	XP_065710779.1 FMOD [organism=Patagioenas fasciata] [GeneID=136110957]	GeneID_136110957|FMOD|XP_065710779.1
+FMOD	XP_069400567.1	GeneID=138415944	376	kept	representative	XP_069400567.1 FMOD [organism=Ovis canadensis] [GeneID=138415944]	GeneID_138415944|FMOD|XP_069400567.1
+FMOD	XP_074420648.1	GeneID=141733750	380	kept	representative	XP_074420648.1 FMOD [organism=Larus michahellis] [GeneID=141733750]	GeneID_141733750|FMOD|XP_074420648.1
+FMOD	XP_082558692.1	GeneID=309849695	376	kept	representative	XP_082558692.1 FMOD [organism=Mustela nivalis] [GeneID=309849695]	GeneID_309849695|FMOD|XP_082558692.1
+FMOD	XP_012662135.1	GeneID=100955981	376	kept	representative	XP_012662135.1 FMOD [organism=Otolemur garnettii] [GeneID=100955981]	GeneID_100955981|FMOD|XP_012662135.1
+FMOD	XP_017947022.1	GeneID=100491938	357	kept	representative	XP_017947022.1 fmod [organism=Xenopus tropicalis] [GeneID=100491938]	GeneID_100491938|FMOD|XP_017947022.1
+FMOD	XP_040841175.1	GeneID=121159834	379	kept	representative	XP_040841175.1 FMOD [organism=Ochotona curzoniae] [GeneID=121159834]	GeneID_121159834|FMOD|XP_040841175.1
+FMOD	XP_061218934.1	GeneID=133217450	380	kept	representative	XP_061218934.1 FMOD [organism=Neopsephotus bourkii] [GeneID=133217450]	GeneID_133217450|FMOD|XP_061218934.1
+FMOD	XP_080969258.1	isoform=1	377	kept	representative	XP_080969258.1 FMOD [organism=Myotis nattereri] [GeneID=308534590] [isoform=1]	isoform_1|FMOD|XP_080969258.1
+FMOD	XP_080969259.1	isoform=2	331	excluded	extra_isoform_same_species	XP_080969259.1 FMOD [organism=Myotis nattereri] [GeneID=308534590] [isoform=2]	isoform_2|FMOD|XP_080969259.1
+FMOD	XP_017707067.1	GeneID=108515008	376	kept	representative	XP_017707067.1 FMOD [organism=Rhinopithecus bieti] [GeneID=108515008]	GeneID_108515008|FMOD|XP_017707067.1
+FMOD	XP_081866492.1	GeneID=309413260	380	kept	representative	XP_081866492.1 FMOD [organism=Phaethon aethereus] [GeneID=309413260]	GeneID_309413260|FMOD|XP_081866492.1
+FMOD	XP_004375322.1	GeneID=101357462	376	kept	representative	XP_004375322.1 FMOD [organism=Trichechus manatus latirostris] [GeneID=101357462]	GeneID_101357462|FMOD|XP_004375322.1
+FMOD	NP_001247606.1	GeneID=703048	376	kept	representative	NP_001247606.1 FMOD [organism=Macaca mulatta] [GeneID=703048]	GeneID_703048|FMOD|NP_001247606.1
+FMOD	XP_014974071.1	isoform=X1	376	excluded	extra_isoform_same_species	XP_014974071.1 FMOD [organism=Macaca mulatta] [GeneID=703048] [isoform=X1]	isoform_X1|FMOD|XP_014974071.1
+FMOD	XP_014974077.1	isoform=X1	376	excluded	extra_isoform_same_species	XP_014974077.1 FMOD [organism=Macaca mulatta] [GeneID=703048] [isoform=X1]	isoform_X1|FMOD|XP_014974077.1
+FMOD	XP_040277818.1	GeneID=120993361	361	kept	representative	XP_040277818.1 FMOD [organism=Bufo bufo] [GeneID=120993361]	GeneID_120993361|FMOD|XP_040277818.1
+FMOD	XP_004670775.1	GeneID=101610301	376	kept	representative	XP_004670775.1 Fmod [organism=Jaculus jaculus] [GeneID=101610301]	GeneID_101610301|FMOD|XP_004670775.1
+FMOD	XP_027467511.2	GeneID=113932487	376	kept	representative	XP_027467511.2 FMOD [organism=Zalophus californianus] [GeneID=113932487]	GeneID_113932487|FMOD|XP_027467511.2
+FMOD	XP_048353332.1	GeneID=125433059	375	kept	representative	XP_048353332.1 FMOD [organism=Sphaerodactylus townsendi] [GeneID=125433059]	GeneID_125433059|FMOD|XP_048353332.1
+FMOD	XP_048353333.1	GeneID=125433059	375	excluded	extra_isoform_same_species	XP_048353333.1 FMOD [organism=Sphaerodactylus townsendi] [GeneID=125433059]	GeneID_125433059|FMOD|XP_048353333.1
+FMOD	XP_048353334.1	GeneID=125433059	375	excluded	extra_isoform_same_species	XP_048353334.1 FMOD [organism=Sphaerodactylus townsendi] [GeneID=125433059]	GeneID_125433059|FMOD|XP_048353334.1
+FMOD	XP_006993275.1	GeneID=102917084	376	kept	representative	XP_006993275.1 Fmod [organism=Peromyscus maniculatus bairdii] [GeneID=102917084]	GeneID_102917084|FMOD|XP_006993275.1
+FMOD	XP_005540546.1	GeneID=102142132	376	kept	representative	XP_005540546.1 FMOD [organism=Macaca fascicularis] [GeneID=102142132]	GeneID_102142132|FMOD|XP_005540546.1
+FMOD	XP_045251080.1	GeneID=102142132	376	excluded	extra_isoform_same_species	XP_045251080.1 FMOD [organism=Macaca fascicularis] [GeneID=102142132]	GeneID_102142132|FMOD|XP_045251080.1
+FMOD	XP_031989295.1	GeneID=116455479	382	kept	representative	XP_031989295.1 FMOD [organism=Corvus moneduloides] [GeneID=116455479]	GeneID_116455479|FMOD|XP_031989295.1
+FMOD	XP_045438947.1	GeneID=118721306	377	kept	representative	XP_045438947.1 FMOD [organism=Pipistrellus kuhlii] [GeneID=118721306]	GeneID_118721306|FMOD|XP_045438947.1
+FMOD	XP_069897878.1	GeneID=138841161	379	kept	representative	XP_069897878.1 Fmod [organism=Dipodomys merriami] [GeneID=138841161]	GeneID_138841161|FMOD|XP_069897878.1
+FMOD	XP_074019524.1	GeneID=141475191	380	kept	representative	XP_074019524.1 FMOD [organism=Numenius arquata] [GeneID=141475191]	GeneID_141475191|FMOD|XP_074019524.1
+FMOD	XP_010291578.1	GeneID=104615412	368	kept	representative	XP_010291578.1 FMOD [organism=Phaethon lepturus] [GeneID=104615412]	GeneID_104615412|FMOD|XP_010291578.1
+FMOD	XP_005375323.1	GeneID=102012279	378	kept	representative	XP_005375323.1 Fmod [organism=Chinchilla lanigera] [GeneID=102012279]	GeneID_102012279|FMOD|XP_005375323.1
+FMOD	XP_003474867.2	GeneID=100726861	376	kept	representative	XP_003474867.2 Fmod [organism=Cavia porcellus] [GeneID=100726861]	GeneID_100726861|FMOD|XP_003474867.2
+FMOD	XP_025967489.2	GeneID=112990156	380	kept	representative	XP_025967489.2 FMOD [organism=Dromaius novaehollandiae] [GeneID=112990156]	GeneID_112990156|FMOD|XP_025967489.2
+FMOD	XP_061486367.1	GeneID=133386673	379	kept	representative	XP_061486367.1 FMOD [organism=Rhineura floridana] [GeneID=133386673]	GeneID_133386673|FMOD|XP_061486367.1
+FMOD	XP_068029218.1	GeneID=137462590	382	kept	representative	XP_068029218.1 FMOD [organism=Anomalospiza imberbis] [GeneID=137462590]	GeneID_137462590|FMOD|XP_068029218.1
+FMOD	XP_001364906.1	GeneID=100012571	374	kept	representative	XP_001364906.1 FMOD [organism=Monodelphis domestica] [GeneID=100012571]	GeneID_100012571|FMOD|XP_001364906.1
+FMOD	XP_008974851.4	GeneID=100990416	376	kept	representative	XP_008974851.4 FMOD [organism=Pan paniscus] [GeneID=100990416]	GeneID_100990416|FMOD|XP_008974851.4
+FMOD	XP_060629017.2	GeneID=132773658	379	kept	representative	XP_060629017.2 FMOD [organism=Anolis sagrei] [GeneID=132773658]	GeneID_132773658|FMOD|XP_060629017.2
+FMOD	XP_033055468.1	GeneID=117076270	376	kept	representative	XP_033055468.1 FMOD [organism=Trachypithecus francoisi] [GeneID=117076270]	GeneID_117076270|FMOD|XP_033055468.1
+FMOD	XP_079838506.1	isoform=1	379	excluded	extra_isoform_same_species	XP_079838506.1 FMOD [organism=Podarcis cretensis] [GeneID=307219281] [isoform=1]	isoform_1|FMOD|XP_079838506.1
+FMOD	XP_079838507.1	isoform=1	379	excluded	extra_isoform_same_species	XP_079838507.1 FMOD [organism=Podarcis cretensis] [GeneID=307219281] [isoform=1]	isoform_1|FMOD|XP_079838507.1
+FMOD	XP_061237863.1	GeneID=133227446	376	kept	representative	XP_061237863.1 FMOD [organism=Bos javanicus] [GeneID=133227446]	GeneID_133227446|FMOD|XP_061237863.1
+FMOD	XP_075469811.1	GeneID=142502554	360	kept	representative	XP_075469811.1 FMOD [organism=Ascaphus truei] [GeneID=142502554]	GeneID_142502554|FMOD|XP_075469811.1
+FMOD	XP_009990705.1	GeneID=104384083	380	kept	representative	XP_009990705.1 FMOD [organism=Tauraco erythrolophus] [GeneID=104384083]	GeneID_104384083|FMOD|XP_009990705.1
+FMOD	XP_008935008.1	GeneID=103769550	380	kept	representative	XP_008935008.1 FMOD [organism=Merops nubicus] [GeneID=103769550]	GeneID_103769550|FMOD|XP_008935008.1
+FMOD	XP_036871099.1	GeneID=108409925	376	kept	representative	XP_036871099.1 FMOD [organism=Manis javanica] [GeneID=108409925]	GeneID_108409925|FMOD|XP_036871099.1
+FMOD	XP_025710994.1	GeneID=112811222	376	kept	representative	XP_025710994.1 FMOD [organism=Callorhinus ursinus] [GeneID=112811222]	GeneID_112811222|FMOD|XP_025710994.1
+FMOD	XP_083364803.1	isoform=1	388	excluded	extra_isoform_same_species	XP_083364803.1 FMOD [organism=Podarcis liolepis] [GeneID=310709295] [isoform=1]	isoform_1|FMOD|XP_083364803.1
+FMOD	XP_083364804.1	isoform=2	379	excluded	extra_isoform_same_species	XP_083364804.1 FMOD [organism=Podarcis liolepis] [GeneID=310709295] [isoform=2]	isoform_2|FMOD|XP_083364804.1
+FMOD	XP_010588529.1	GeneID=100655443	376	kept	representative	XP_010588529.1 FMOD [organism=Loxodonta africana] [GeneID=100655443]	GeneID_100655443|FMOD|XP_010588529.1
+FMOD	XP_007166189.1	GeneID=103004726	376	kept	representative	XP_007166189.1 FMOD [organism=Balaenoptera acutorostrata] [GeneID=103004726]	GeneID_103004726|FMOD|XP_007166189.1
+FMOD	XP_050841105.1	GeneID=103825366	382	kept	representative	XP_050841105.1 FMOD [organism=Serinus canaria] [GeneID=103825366]	GeneID_103825366|FMOD|XP_050841105.1
+FMOD	XP_009946608.2	GeneID=104344225	380	kept	representative	XP_009946608.2 FMOD [organism=Leptosomus discolor] [GeneID=104344225]	GeneID_104344225|FMOD|XP_009946608.2
+FMOD	XP_003893317.1	GeneID=100997162	376	kept	representative	XP_003893317.1 FMOD [organism=Papio anubis] [GeneID=100997162]	GeneID_100997162|FMOD|XP_003893317.1
+FMOD	XP_085156453.1	GeneID=146598395	380	kept	representative	XP_085156453.1 FMOD [organism=Rhea americana] [GeneID=146598395]	GeneID_146598395|FMOD|XP_085156453.1
+FMOD	XP_062451166.1	GeneID=134150965	380	kept	representative	XP_062451166.1 FMOD [organism=Rhea pennata] [GeneID=134150965]	GeneID_134150965|FMOD|XP_062451166.1
+FMOD	XP_079402613.1	GeneID=306955239	380	kept	representative	XP_079402613.1 FMOD [organism=Tetrao urogallus] [GeneID=306955239]	GeneID_306955239|FMOD|XP_079402613.1
+FMOD	XP_084938930.1	GeneID=146427023	380	kept	representative	XP_084938930.1 FMOD [organism=Lichenostomus cassidix] [GeneID=146427023]	GeneID_146427023|FMOD|XP_084938930.1
+FMOD	XP_046932378.1	GeneID=124509800	376	kept	representative	XP_046932378.1 FMOD [organism=Lynx rufus] [GeneID=124509800]	GeneID_124509800|FMOD|XP_046932378.1
+FMOD	XP_020749812.1	GeneID=110137640	376	kept	representative	XP_020749812.1 FMOD [organism=Odocoileus virginianus] [GeneID=110137640]	GeneID_110137640|FMOD|XP_020749812.1
+FMOD	XP_037020644.1	GeneID=119063419	376	kept	representative	XP_037020644.1 FMOD [organism=Artibeus jamaicensis] [GeneID=119063419]	GeneID_119063419|FMOD|XP_037020644.1
+FMOD	XP_041869693.1	GeneID=121657730	380	kept	representative	XP_041869693.1 FMOD [organism=Corvus kubaryi] [GeneID=121657730]	GeneID_121657730|FMOD|XP_041869693.1
+FMOD	XP_050811834.1	GeneID=127052311	374	kept	representative	XP_050811834.1 FMOD [organism=Gopherus flavomarginatus] [GeneID=127052311]	GeneID_127052311|FMOD|XP_050811834.1
+FMOD	XP_080489159.1	GeneID=308229174	380	kept	representative	XP_080489159.1 FMOD [organism=Psittacula echo] [GeneID=308229174]	GeneID_308229174|FMOD|XP_080489159.1
+FMOD	XP_010219510.1	GeneID=104573970	380	kept	representative	XP_010219510.1 FMOD [organism=Tinamus guttatus] [GeneID=104573970]	GeneID_104573970|FMOD|XP_010219510.1
+FMOD	XP_038304111.1	GeneID=488560	376	kept	representative	XP_038304111.1 FMOD [organism=Canis lupus familiaris] [GeneID=488560]	GeneID_488560|FMOD|XP_038304111.1
+FMOD	XP_038378052.1	GeneID=488560	376	excluded	extra_isoform_same_species	XP_038378052.1 FMOD [organism=Canis lupus familiaris] [GeneID=488560]	GeneID_488560|FMOD|XP_038378052.1
+FMOD	XP_038441871.1	GeneID=488560	376	excluded	extra_isoform_same_species	XP_038441871.1 FMOD [organism=Canis lupus familiaris] [GeneID=488560]	GeneID_488560|FMOD|XP_038441871.1
+FMOD	XP_038506252.1	GeneID=488560	376	excluded	extra_isoform_same_species	XP_038506252.1 FMOD [organism=Canis lupus familiaris] [GeneID=488560]	GeneID_488560|FMOD|XP_038506252.1
+FMOD	XP_545677.2	GeneID=488560	376	excluded	extra_isoform_same_species	XP_545677.2 FMOD [organism=Canis lupus familiaris] [GeneID=488560]	GeneID_488560|FMOD|XP_545677.2
+FMOD	XP_057245406.1	GeneID=130588508	330	kept	representative	XP_057245406.1 FMOD [organism=Malurus melanocephalus] [GeneID=130588508]	GeneID_130588508|FMOD|XP_057245406.1
+FMOD	XP_035749696.1	GeneID=104125739	380	kept	representative	XP_035749696.1 FMOD [organism=Egretta garzetta] [GeneID=104125739]	GeneID_104125739|FMOD|XP_035749696.1
+FMOD	XP_084132058.1	GeneID=311201530	380	kept	representative	XP_084132058.1 FMOD [organism=Gallinula chloropus] [GeneID=311201530]	GeneID_311201530|FMOD|XP_084132058.1
+FMOD	XP_025239573.1	isoform=X1	392	excluded	extra_isoform_same_species	XP_025239573.1 FMOD [organism=Theropithecus gelada] [GeneID=112623389] [isoform=X1]	isoform_X1|FMOD|XP_025239573.1
+FMOD	XP_025239579.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_025239579.1 FMOD [organism=Theropithecus gelada] [GeneID=112623389] [isoform=X2]	isoform_X2|FMOD|XP_025239579.1
+FMOD	XP_078500819.1	GeneID=144755586	360	kept	representative	XP_078500819.1 FMOD [organism=Lissotriton helveticus] [GeneID=144755586]	GeneID_144755586|FMOD|XP_078500819.1
+FMOD	XP_078500820.1	GeneID=144755586	360	excluded	extra_isoform_same_species	XP_078500820.1 FMOD [organism=Lissotriton helveticus] [GeneID=144755586]	GeneID_144755586|FMOD|XP_078500820.1
+FMOD	XP_015684524.1	GeneID=107299694	378	kept	representative	XP_015684524.1 FMOD [organism=Protobothrops mucrosquamatus] [GeneID=107299694]	GeneID_107299694|FMOD|XP_015684524.1
+FMOD	XP_041326453.1	GeneID=121355243	382	kept	representative	XP_041326453.1 FMOD [organism=Pyrgilauda ruficollis] [GeneID=121355243]	GeneID_121355243|FMOD|XP_041326453.1
+FMOD	XP_005891945.1	GeneID=102269990	376	kept	representative	XP_005891945.1 FMOD [organism=Bos mutus] [GeneID=102269990]	GeneID_102269990|FMOD|XP_005891945.1
+FMOD	XP_070240621.1	GeneID=102269990	376	excluded	extra_isoform_same_species	XP_070240621.1 FMOD [organism=Bos mutus] [GeneID=102269990]	GeneID_102269990|FMOD|XP_070240621.1
+FMOD	XP_013052038.1	GeneID=106045841	380	kept	representative	XP_013052038.1 FMOD [organism=Anser cygnoides] [GeneID=106045841]	GeneID_106045841|FMOD|XP_013052038.1
+FMOD	XP_066839115.1	GeneID=106045841	380	excluded	extra_isoform_same_species	XP_066839115.1 FMOD [organism=Anser cygnoides] [GeneID=106045841]	GeneID_106045841|FMOD|XP_066839115.1
+FMOD	XP_009812248.2	GeneID=104258759	380	kept	representative	XP_009812248.2 FMOD [organism=Gavia stellata] [GeneID=104258759]	GeneID_104258759|FMOD|XP_009812248.2
+FMOD	NP_776483.2	GeneID=281168	376	kept	representative	NP_776483.2 FMOD [organism=Bos taurus] [GeneID=281168]	GeneID_281168|FMOD|NP_776483.2
+FMOD	XP_059731202.1	isoform=X1	376	excluded	extra_isoform_same_species	XP_059731202.1 FMOD [organism=Bos taurus] [GeneID=281168] [isoform=X1]	isoform_X1|FMOD|XP_059731202.1
+FMOD	XP_026719970.1	GeneID=113488824	380	kept	representative	XP_026719970.1 FMOD [organism=Athene cunicularia] [GeneID=113488824]	GeneID_113488824|FMOD|XP_026719970.1
+FMOD	XP_011787192.1	isoform=X1	403	excluded	extra_isoform_same_species	XP_011787192.1 FMOD [organism=Colobus angolensis palliatus] [GeneID=105504366] [isoform=X1]	isoform_X1|FMOD|XP_011787192.1
+FMOD	XP_011787193.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_011787193.1 FMOD [organism=Colobus angolensis palliatus] [GeneID=105504366] [isoform=X2]	isoform_X2|FMOD|XP_011787193.1
+FMOD	NP_542429.1	GeneID=64507	376	kept	representative	NP_542429.1 Fmod [organism=Rattus norvegicus] [GeneID=64507]	GeneID_64507|FMOD|NP_542429.1
+FMOD	XP_047609020.1	GeneID=125111196	376	kept	representative	XP_047609020.1 FMOD [organism=Phacochoerus africanus] [GeneID=125111196]	GeneID_125111196|FMOD|XP_047609020.1
+FMOD	XP_004685583.1	GeneID=101633717	374	kept	representative	XP_004685583.1 FMOD [organism=Condylura cristata] [GeneID=101633717]	GeneID_101633717|FMOD|XP_004685583.1
+FMOD	XP_003264631.1	GeneID=100602187	377	kept	representative	XP_003264631.1 FMOD [organism=Nomascus leucogenys] [GeneID=100602187]	GeneID_100602187|FMOD|XP_003264631.1
+FMOD	XP_035301333.1	GeneID=100765932	376	kept	representative	XP_035301333.1 Fmod [organism=Cricetulus griseus] [GeneID=100765932]	GeneID_100765932|FMOD|XP_035301333.1
+FMOD	XP_035313832.1	GeneID=100765932	376	excluded	extra_isoform_same_species	XP_035313832.1 Fmod [organism=Cricetulus griseus] [GeneID=100765932]	GeneID_100765932|FMOD|XP_035313832.1
+FMOD	XP_009868004.1	GeneID=104274158	380	kept	representative	XP_009868004.1 FMOD [organism=Apaloderma vittatum] [GeneID=104274158]	GeneID_104274158|FMOD|XP_009868004.1
+FMOD	XP_081351167.1	isoform=X1	453	excluded	extra_isoform_same_species	XP_081351167.1 FMOD [organism=Giraffa tippelskirchi] [GeneID=145507721] [isoform=X1]	isoform_X1|FMOD|XP_081351167.1
+FMOD	XP_081351168.1	isoform=X2	407	excluded	extra_isoform_same_species	XP_081351168.1 FMOD [organism=Giraffa tippelskirchi] [GeneID=145507721] [isoform=X2]	isoform_X2|FMOD|XP_081351168.1
+FMOD	XP_059269128.1	GeneID=132025629	376	kept	representative	XP_059269128.1 FMOD [organism=Mustela nigripes] [GeneID=132025629]	GeneID_132025629|FMOD|XP_059269128.1
+FMOD	XP_058556462.1	GeneID=131495485	376	kept	representative	XP_058556462.1 FMOD [organism=Neofelis nebulosa] [GeneID=131495485]	GeneID_131495485|FMOD|XP_058556462.1
+FMOD	XP_070604989.1	GeneID=139165670	377	kept	representative	XP_070604989.1 FMOD [organism=Erythrolamprus reginae] [GeneID=139165670]	GeneID_139165670|FMOD|XP_070604989.1
+FMOD	XP_032278114.1	GeneID=116643444	376	kept	representative	XP_032278114.1 FMOD [organism=Phoca vitulina] [GeneID=116643444]	GeneID_116643444|FMOD|XP_032278114.1
+FMOD	XP_029430048.1	isoform=X1	458	excluded	extra_isoform_same_species	XP_029430048.1 FMOD [organism=Rhinatrema bivittatum] [GeneID=115074606] [isoform=X1]	isoform_X1|FMOD|XP_029430048.1
+FMOD	XP_029430049.1	isoform=X2	353	excluded	extra_isoform_same_species	XP_029430049.1 FMOD [organism=Rhinatrema bivittatum] [GeneID=115074606] [isoform=X2]	isoform_X2|FMOD|XP_029430049.1
+FMOD	XP_029430050.1	isoform=X2	353	excluded	extra_isoform_same_species	XP_029430050.1 FMOD [organism=Rhinatrema bivittatum] [GeneID=115074606] [isoform=X2]	isoform_X2|FMOD|XP_029430050.1
+FMOD	XP_036765499.1	GeneID=118924649	389	kept	representative	XP_036765499.1 FMOD [organism=Manis pentadactyla] [GeneID=118924649]	GeneID_118924649|FMOD|XP_036765499.1
+FMOD	XP_065554676.1	GeneID=136023769	380	kept	representative	XP_065554676.1 FMOD [organism=Lathamus discolor] [GeneID=136023769]	GeneID_136023769|FMOD|XP_065554676.1
+FMOD	XP_032322610.1	GeneID=102514364	376	kept	representative	XP_032322610.1 FMOD [organism=Camelus ferus] [GeneID=102514364]	GeneID_102514364|FMOD|XP_032322610.1
+FMOD	XP_008058649.1	GeneID=103262811	376	kept	representative	XP_008058649.1 FMOD [organism=Carlito syrichta] [GeneID=103262811]	GeneID_103262811|FMOD|XP_008058649.1
+FMOD	XP_026930563.1	GeneID=106971254	376	kept	representative	XP_026930563.1 FMOD [organism=Acinonyx jubatus] [GeneID=106971254]	GeneID_106971254|FMOD|XP_026930563.1
+FMOD	XP_081153138.1	GeneID=308650741	378	kept	representative	XP_081153138.1 FMOD [organism=Spermophilus citellus] [GeneID=308650741]	GeneID_308650741|FMOD|XP_081153138.1
+FMOD	XP_004325680.1	GeneID=101334274	377	kept	representative	XP_004325680.1 FMOD [organism=Tursiops truncatus] [GeneID=101334274]	GeneID_101334274|FMOD|XP_004325680.1
+FMOD	XP_083818612.1	GeneID=310979446	380	kept	representative	XP_083818612.1 FMOD [organism=Clangula hyemalis] [GeneID=310979446]	GeneID_310979446|FMOD|XP_083818612.1
+FMOD	XP_006072465.2	isoform=X1	376	excluded	extra_isoform_same_species	XP_006072465.2 FMOD [organism=Bubalus bubalis] [GeneID=102397477] [isoform=X1]	isoform_X1|FMOD|XP_006072465.2
+FMOD	XP_044799262.1	isoform=X2	332	excluded	extra_isoform_same_species	XP_044799262.1 FMOD [organism=Bubalus bubalis] [GeneID=102397477] [isoform=X2]	isoform_X2|FMOD|XP_044799262.1
+FMOD	XP_056367518.1	GeneID=130263771	382	kept	representative	XP_056367518.1 FMOD [organism=Oenanthe melanoleuca] [GeneID=130263771]	GeneID_130263771|FMOD|XP_056367518.1
+FMOD	XP_073416854.1	GeneID=141073506	357	kept	representative	XP_073416854.1 FMOD [organism=Dendrobates tinctorius] [GeneID=141073506]	GeneID_141073506|FMOD|XP_073416854.1
+FMOD	XP_082288809.1	GeneID=309646393	376	kept	representative	XP_082288809.1 FMOD [organism=Balaenoptera physalus] [GeneID=309646393]	GeneID_309646393|FMOD|XP_082288809.1
+FMOD	XP_082503558.1	isoform=1	377	excluded	extra_isoform_same_species	XP_082503558.1 FMOD [organism=Grampus griseus] [GeneID=309818036] [isoform=1]	isoform_1|FMOD|XP_082503558.1
+FMOD	XP_082503559.1	isoform=1	377	excluded	extra_isoform_same_species	XP_082503559.1 FMOD [organism=Grampus griseus] [GeneID=309818036] [isoform=1]	isoform_1|FMOD|XP_082503559.1
+FMOD	XP_051003386.1	GeneID=127190421	378	kept	representative	XP_051003386.1 Fmod [organism=Acomys russatus] [GeneID=127190421]	GeneID_127190421|FMOD|XP_051003386.1
+FMOD	XP_056701098.1	GeneID=130473569	374	kept	representative	XP_056701098.1 FMOD [organism=Euleptes europaea] [GeneID=130473569]	GeneID_130473569|FMOD|XP_056701098.1
+FMOD	XP_049713980.1	GeneID=126061466	376	kept	representative	XP_049713980.1 FMOD [organism=Elephas maximus indicus] [GeneID=126061466]	GeneID_126061466|FMOD|XP_049713980.1
+FMOD	XP_044871903.1	isoform=X1	382	excluded	extra_isoform_same_species	XP_044871903.1 FMOD [organism=Mauremys mutica] [GeneID=123369910] [isoform=X1]	isoform_X1|FMOD|XP_044871903.1
+FMOD	XP_044871904.1	isoform=X2	379	excluded	extra_isoform_same_species	XP_044871904.1 FMOD [organism=Mauremys mutica] [GeneID=123369910] [isoform=X2]	isoform_X2|FMOD|XP_044871904.1
+FMOD	XP_075030360.1	GeneID=142093262	380	kept	representative	XP_075030360.1 FMOD [organism=Calonectris borealis] [GeneID=142093262]	GeneID_142093262|FMOD|XP_075030360.1
+FMOD	XP_029818409.1	GeneID=103767196	382	kept	representative	XP_029818409.1 FMOD [organism=Manacus vitellinus] [GeneID=103767196]	GeneID_103767196|FMOD|XP_029818409.1
+FMOD	XP_012614218.1	GeneID=105868171	376	kept	representative	XP_012614218.1 FMOD [organism=Microcebus murinus] [GeneID=105868171]	GeneID_105868171|FMOD|XP_012614218.1
+FMOD	XP_009699230.1	GeneID=104162246	380	kept	representative	XP_009699230.1 FMOD [organism=Cariama cristata] [GeneID=104162246]	GeneID_104162246|FMOD|XP_009699230.1
+FMOD	XP_045392244.1	GeneID=123626980	376	kept	representative	XP_045392244.1 FMOD [organism=Lemur catta] [GeneID=123626980]	GeneID_123626980|FMOD|XP_045392244.1
+FMOD	XP_051854558.1	GeneID=127562693	374	kept	representative	XP_051854558.1 FMOD [organism=Antechinus flavipes] [GeneID=127562693]	GeneID_127562693|FMOD|XP_051854558.1
+FMOD	XP_051854559.1	GeneID=127562693	374	excluded	extra_isoform_same_species	XP_051854559.1 FMOD [organism=Antechinus flavipes] [GeneID=127562693]	GeneID_127562693|FMOD|XP_051854559.1
+FMOD	XP_075189863.1	GeneID=142289819	357	kept	representative	XP_075189863.1 FMOD [organism=Anomaloglossus baeobatrachus] [GeneID=142289819]	GeneID_142289819|FMOD|XP_075189863.1
+FMOD	XP_008590230.1	GeneID=103607512	357	kept	representative	XP_008590230.1 FMOD [organism=Galeopterus variegatus] [GeneID=103607512]	GeneID_103607512|FMOD|XP_008590230.1
+FMOD	XP_051495037.1	GeneID=127393722	380	kept	representative	XP_051495037.1 FMOD [organism=Apus apus] [GeneID=127393722]	GeneID_127393722|FMOD|XP_051495037.1
+FMOD	XP_010147708.1	GeneID=104507957	380	kept	representative	XP_010147708.1 FMOD [organism=Eurypyga helias] [GeneID=104507957]	GeneID_104507957|FMOD|XP_010147708.1
+FMOD	XP_040118981.1	GeneID=120879987	376	kept	representative	XP_040118981.1 FMOD [organism=Oryx dammah] [GeneID=120879987]	GeneID_120879987|FMOD|XP_040118981.1
+FMOD	XP_075377854.1	GeneID=142419105	380	kept	representative	XP_075377854.1 FMOD [organism=Mycteria americana] [GeneID=142419105]	GeneID_142419105|FMOD|XP_075377854.1
+FMOD	XP_069626809.1	GeneID=104310534	380	kept	representative	XP_069626809.1 FMOD [organism=Haliaeetus albicilla] [GeneID=104310534]	GeneID_104310534|FMOD|XP_069626809.1
+FMOD	XP_003938355.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_003938355.1 FMOD [organism=Saimiri boliviensis] [GeneID=101032788] [isoform=X2]	isoform_X2|FMOD|XP_003938355.1
+FMOD	XP_074241108.1	isoform=X1	386	excluded	extra_isoform_same_species	XP_074241108.1 FMOD [organism=Saimiri boliviensis] [GeneID=101032788] [isoform=X1]	isoform_X1|FMOD|XP_074241108.1
+FMOD	XP_074241109.1	isoform=X3	341	kept	representative	XP_074241109.1 FMOD [organism=Saimiri boliviensis] [GeneID=101032788] [isoform=X3]	isoform_X3|FMOD|XP_074241109.1
+FMOD	XP_027976130.1	GeneID=114222006	376	kept	representative	XP_027976130.1 FMOD [organism=Eumetopias jubatus] [GeneID=114222006]	GeneID_114222006|FMOD|XP_027976130.1
+FMOD	XP_053882780.1	isoform=X1	382	excluded	extra_isoform_same_species	XP_053882780.1 FMOD [organism=Malaclemys terrapin pileata] [GeneID=128836483] [isoform=X1]	isoform_X1|FMOD|XP_053882780.1
+FMOD	XP_053882781.1	isoform=X2	379	excluded	extra_isoform_same_species	XP_053882781.1 FMOD [organism=Malaclemys terrapin pileata] [GeneID=128836483] [isoform=X2]	isoform_X2|FMOD|XP_053882781.1
+FMOD	XP_074910784.1	GeneID=142043472	380	kept	representative	XP_074910784.1 FMOD [organism=Buteo buteo] [GeneID=142043472]	GeneID_142043472|FMOD|XP_074910784.1
+FMOD	XP_023797941.1	GeneID=111939778	336	kept	representative	XP_023797941.1 FMOD [organism=Cyanistes caeruleus] [GeneID=111939778]	GeneID_111939778|FMOD|XP_023797941.1
+FMOD	XP_054504806.2	GeneID=129130405	382	kept	representative	XP_054504806.2 FMOD [organism=Agelaius phoeniceus] [GeneID=129130405]	GeneID_129130405|FMOD|XP_054504806.2
+FMOD	XP_071306239.1	GeneID=139601265	382	kept	representative	XP_071306239.1 FMOD [organism=Agelaius tricolor] [GeneID=139601265]	GeneID_139601265|FMOD|XP_071306239.1
+FMOD	XP_076214261.1	GeneID=143170141	380	kept	representative	XP_076214261.1 FMOD [organism=Aptenodytes patagonicus] [GeneID=143170141]	GeneID_143170141|FMOD|XP_076214261.1
+FMOD	XP_009904503.2	GeneID=104305355	380	kept	representative	XP_009904503.2 FMOD [organism=Dryobates pubescens] [GeneID=104305355]	GeneID_104305355|FMOD|XP_009904503.2
+FMOD	XP_048213727.1	GeneID=125359908	379	kept	representative	XP_048213727.1 Fmod [organism=Perognathus longimembris pacificus] [GeneID=125359908]	GeneID_125359908|FMOD|XP_048213727.1
+FMOD	XP_077155673.1	GeneID=143818155	357	kept	representative	XP_077155673.1 FMOD [organism=Ranitomeya variabilis] [GeneID=143818155]	GeneID_143818155|FMOD|XP_077155673.1
+FMOD	XP_083474182.1	isoform=1	388	excluded	extra_isoform_same_species	XP_083474182.1 FMOD [organism=Podarcis filfolensis] [GeneID=310764350] [isoform=1]	isoform_1|FMOD|XP_083474182.1
+FMOD	XP_083474183.1	isoform=2	379	excluded	extra_isoform_same_species	XP_083474183.1 FMOD [organism=Podarcis filfolensis] [GeneID=310764350] [isoform=2]	isoform_2|FMOD|XP_083474183.1
+FMOD	XP_084722035.1	GeneID=311612721	377	kept	representative	XP_084722035.1 FMOD [organism=Pipistrellus hanaki] [GeneID=311612721]	GeneID_311612721|FMOD|XP_084722035.1
+FMOD	XP_063274658.1	GeneID=134561505	382	kept	representative	XP_063274658.1 FMOD [organism=Prinia subflava] [GeneID=134561505]	GeneID_134561505|FMOD|XP_063274658.1
+FMOD	XP_004392849.1	GeneID=101376269	376	kept	representative	XP_004392849.1 FMOD [organism=Odobenus rosmarus divergens] [GeneID=101376269]	GeneID_101376269|FMOD|XP_004392849.1
+FMOD	XP_043778812.1	GeneID=122707405	376	kept	representative	XP_043778812.1 FMOD [organism=Cervus elaphus] [GeneID=122707405]	GeneID_122707405|FMOD|XP_043778812.1
+FMOD	XP_036614006.1	GeneID=118849035	374	kept	representative	XP_036614006.1 FMOD [organism=Trichosurus vulpecula] [GeneID=118849035]	GeneID_118849035|FMOD|XP_036614006.1
+FMOD	XP_075578592.1	GeneID=104028501	380	kept	representative	XP_075578592.1 FMOD [organism=Pelecanus crispus] [GeneID=104028501]	GeneID_104028501|FMOD|XP_075578592.1
+FMOD	XP_028732436.1	GeneID=114698100	376	kept	representative	XP_028732436.1 Fmod [organism=Peromyscus leucopus] [GeneID=114698100]	GeneID_114698100|FMOD|XP_028732436.1
+FMOD	XP_043340663.1	GeneID=122451798	376	kept	representative	XP_043340663.1 FMOD [organism=Cervus canadensis] [GeneID=122451798]	GeneID_122451798|FMOD|XP_043340663.1
+FMOD	XP_054147626.1	GeneID=128947391	382	kept	representative	XP_054147626.1 FMOD [organism=Melozone crissalis] [GeneID=128947391]	GeneID_128947391|FMOD|XP_054147626.1
+FMOD	XP_054147628.1	GeneID=128947391	382	excluded	extra_isoform_same_species	XP_054147628.1 FMOD [organism=Melozone crissalis] [GeneID=128947391]	GeneID_128947391|FMOD|XP_054147628.1
+FMOD	XP_054836616.1	GeneID=129330565	375	kept	representative	XP_054836616.1 FMOD [organism=Eublepharis macularius] [GeneID=129330565]	GeneID_129330565|FMOD|XP_054836616.1
+FMOD	XP_010722717.1	GeneID=100549714	380	kept	representative	XP_010722717.1 FMOD [organism=Meleagris gallopavo] [GeneID=100549714]	GeneID_100549714|FMOD|XP_010722717.1
+FMOD	XP_008983693.1	GeneID=100409816	376	kept	representative	XP_008983693.1 FMOD [organism=Callithrix jacchus] [GeneID=100409816]	GeneID_100409816|FMOD|XP_008983693.1
+FMOD	XP_051059995.1	GeneID=127236419	376	kept	representative	XP_051059995.1 Fmod [organism=Phodopus roborovskii] [GeneID=127236419]	GeneID_127236419|FMOD|XP_051059995.1
+FMOD	XP_013797463.1	GeneID=106483945	380	kept	representative	XP_013797463.1 FMOD [organism=Apteryx mantelli] [GeneID=106483945]	GeneID_106483945|FMOD|XP_013797463.1
+FMOD	XP_021017240.1	GeneID=110293717	376	kept	representative	XP_021017240.1 Fmod [organism=Mus caroli] [GeneID=110293717]	GeneID_110293717|FMOD|XP_021017240.1
+FMOD	XP_074384206.1	GeneID=106630250	382	kept	representative	XP_074384206.1 LOC106630250 [organism=Zonotrichia albicollis] [GeneID=106630250]	GeneID_106630250|FMOD|XP_074384206.1
+FMOD	XP_074384207.1	GeneID=106630250	382	excluded	extra_isoform_same_species	XP_074384207.1 LOC106630250 [organism=Zonotrichia albicollis] [GeneID=106630250]	GeneID_106630250|FMOD|XP_074384207.1
+FMOD	XP_011845874.1	isoform=X1	392	excluded	extra_isoform_same_species	XP_011845874.1 FMOD [organism=Mandrillus leucophaeus] [GeneID=105547078] [isoform=X1]	isoform_X1|FMOD|XP_011845874.1
+FMOD	XP_011845875.1	isoform=X2	376	excluded	extra_isoform_same_species	XP_011845875.1 FMOD [organism=Mandrillus leucophaeus] [GeneID=105547078] [isoform=X2]	isoform_X2|FMOD|XP_011845875.1
+FMOD	XP_048782029.1	GeneID=125684162	380	kept	representative	XP_048782029.1 FMOD [organism=Lagopus muta] [GeneID=125684162]	GeneID_125684162|FMOD|XP_048782029.1
+FMOD	XP_048782030.1	GeneID=125684162	380	excluded	extra_isoform_same_species	XP_048782030.1 FMOD [organism=Lagopus muta] [GeneID=125684162]	GeneID_125684162|FMOD|XP_048782030.1
+FMOD	XP_053249135.1	GeneID=128416078	379	kept	representative	XP_053249135.1 FMOD [organism=Podarcis raffonei] [GeneID=128416078]	GeneID_128416078|FMOD|XP_053249135.1
+FMOD	XP_059723878.1	GeneID=132338422	382	kept	representative	XP_059723878.1 FMOD [organism=Haemorhous mexicanus] [GeneID=132338422]	GeneID_132338422|FMOD|XP_059723878.1
+FMOD	XP_061041497.1	GeneID=133087845	376	kept	representative	XP_061041497.1 FMOD [organism=Eubalaena glacialis] [GeneID=133087845]	GeneID_133087845|FMOD|XP_061041497.1
+FMOD	XP_065596299.1	GeneID=136051028	380	kept	representative	XP_065596299.1 FMOD [organism=Cyrtonyx montezumae] [GeneID=136051028]	GeneID_136051028|FMOD|XP_065596299.1
+FMOD	XP_074706227.1	GeneID=141934570	380	kept	representative	XP_074706227.1 FMOD [organism=Strix aluco] [GeneID=141934570]	GeneID_141934570|FMOD|XP_074706227.1
+FMOD	XP_029789017.1	GeneID=115286769	376	kept	representative	XP_029789017.1 FMOD [organism=Suricata suricatta] [GeneID=115286769]	GeneID_115286769|FMOD|XP_029789017.1
+FMOD	XP_050767328.1	GeneID=127026229	380	kept	representative	XP_050767328.1 FMOD [organism=Gymnogyps californianus] [GeneID=127026229]	GeneID_127026229|FMOD|XP_050767328.1
+FMOD	XP_080503832.1	GeneID=308237157	377	kept	representative	XP_080503832.1 FMOD [organism=Plecotus auritus] [GeneID=308237157]	GeneID_308237157|FMOD|XP_080503832.1
+FMOD	XP_010072017.1	GeneID=104459712	380	kept	representative	XP_010072017.1 FMOD [organism=Pterocles gutturalis] [GeneID=104459712]	GeneID_104459712|FMOD|XP_010072017.1
+FMOD	XP_081721464.1	isoform=1	388	excluded	extra_isoform_same_species	XP_081721464.1 FMOD [organism=Podarcis erhardii] [GeneID=309343628] [isoform=1]	isoform_1|FMOD|XP_081721464.1
+FMOD	XP_081721465.1	isoform=2	379	excluded	extra_isoform_same_species	XP_081721465.1 FMOD [organism=Podarcis erhardii] [GeneID=309343628] [isoform=2]	isoform_2|FMOD|XP_081721465.1
+FMOD	XP_004625434.1	GeneID=101581467	378	kept	representative	XP_004625434.1 Fmod [organism=Octodon degus] [GeneID=101581467]	GeneID_101581467|FMOD|XP_004625434.1
+FMOD	XP_023563901.1	GeneID=101581467	378	excluded	extra_isoform_same_species	XP_023563901.1 Fmod [organism=Octodon degus] [GeneID=101581467]	GeneID_101581467|FMOD|XP_023563901.1
+FMOD	XP_067387778.1	GeneID=137142362	366	kept	representative	XP_067387778.1 FMOD [organism=Emydura macquarii macquarii] [GeneID=137142362]	GeneID_137142362|FMOD|XP_067387778.1
+FMOD	XP_081178269.1	GeneID=308664691	378	kept	representative	XP_081178269.1 FMOD [organism=Vipera berus] [GeneID=308664691]	GeneID_308664691|FMOD|XP_081178269.1
+FMOD	XP_012511385.1	GeneID=105819640	376	kept	representative	XP_012511385.1 FMOD [organism=Propithecus coquereli] [GeneID=105819640]	GeneID_105819640|FMOD|XP_012511385.1
+FMOD	XP_015339357.1	GeneID=107140697	378	kept	representative	XP_015339357.1 Fmod [organism=Marmota marmota marmota] [GeneID=107140697]	GeneID_107140697|FMOD|XP_015339357.1
+FMOD	XP_082186261.1	GeneID=309599043	380	kept	representative	XP_082186261.1 FMOD [organism=Platalea leucorodia] [GeneID=309599043]	GeneID_309599043|FMOD|XP_082186261.1
+FMOD	XP_043820573.1	GeneID=122726732	376	kept	representative	XP_043820573.1 FMOD [organism=Dromiciops gliroides] [GeneID=122726732]	GeneID_122726732|FMOD|XP_043820573.1
+FMOD	XP_043820574.1	GeneID=122726732	376	excluded	extra_isoform_same_species	XP_043820574.1 FMOD [organism=Dromiciops gliroides] [GeneID=122726732]	GeneID_122726732|FMOD|XP_043820574.1
+FMOD	XP_019369810.1	GeneID=109295405	377	kept	representative	XP_019369810.1 FMOD [organism=Gavialis gangeticus] [GeneID=109295405]	GeneID_109295405|FMOD|XP_019369810.1
+FMOD	XP_019369811.1	GeneID=109295405	377	excluded	extra_isoform_same_species	XP_019369811.1 FMOD [organism=Gavialis gangeticus] [GeneID=109295405]	GeneID_109295405|FMOD|XP_019369811.1
+FMOD	XP_019369812.1	GeneID=109295405	377	excluded	extra_isoform_same_species	XP_019369812.1 FMOD [organism=Gavialis gangeticus] [GeneID=109295405]	GeneID_109295405|FMOD|XP_019369812.1
+FMOD	XP_056413800.1	GeneID=130356378	363	kept	representative	XP_056413800.1 FMOD [organism=Hyla sarda] [GeneID=130356378]	GeneID_130356378|FMOD|XP_056413800.1
+FMOD	XP_063308704.1	GeneID=134609144	368	kept	representative	XP_063308704.1 FMOD [organism=Pelobates fuscus] [GeneID=134609144]	GeneID_134609144|FMOD|XP_063308704.1
+FMOD	XP_066482160.1	GeneID=136649443	378	kept	representative	XP_066482160.1 FMOD [organism=Tiliqua scincoides] [GeneID=136649443]	GeneID_136649443|FMOD|XP_066482160.1
+FMOD	XP_033266412.1	GeneID=101287433	377	kept	representative	XP_033266412.1 FMOD [organism=Orcinus orca] [GeneID=101287433]	GeneID_101287433|FMOD|XP_033266412.1
+FMOD	XP_014728121.1	GeneID=106850962	382	kept	representative	XP_014728121.1 FMOD [organism=Sturnus vulgaris] [GeneID=106850962]	GeneID_106850962|FMOD|XP_014728121.1
+FMOD	XP_075706762.1	GeneID=142741245	357	kept	representative	XP_075706762.1 FMOD [organism=Rhinoderma darwinii] [GeneID=142741245]	GeneID_142741245|FMOD|XP_075706762.1
+FMOD	XP_082687469.1	GeneID=309910629	380	kept	representative	XP_082687469.1 FMOD [organism=Cygnus columbianus] [GeneID=309910629]	GeneID_309910629|FMOD|XP_082687469.1
+FMOD	XP_010852425.1	GeneID=104998782	376	kept	representative	XP_010852425.1 FMOD [organism=Bison bison bison] [GeneID=104998782]	GeneID_104998782|FMOD|XP_010852425.1
+FMOD	XP_055454114.1	GeneID=129669766	376	kept	representative	XP_055454114.1 Fmod [organism=Psammomys obesus] [GeneID=129669766]	GeneID_129669766|FMOD|XP_055454114.1
+FMOD	XP_030418564.1	GeneID=115651614	374	kept	representative	XP_030418564.1 FMOD [organism=Gopherus evgoodei] [GeneID=115651614]	GeneID_115651614|FMOD|XP_030418564.1
+FMOD	XP_071624561.1	GeneID=139807450	380	kept	representative	XP_071624561.1 FMOD [organism=Heliangelus exortis] [GeneID=139807450]	GeneID_139807450|FMOD|XP_071624561.1
+FMOD	XP_017687591.1	GeneID=108505791	382	kept	representative	XP_017687591.1 FMOD [organism=Lepidothrix coronata] [GeneID=108505791]	GeneID_108505791|FMOD|XP_017687591.1
+FMOD	XP_005857818.1	GeneID=102239866	377	kept	representative	XP_005857818.1 FMOD [organism=Myotis brandtii] [GeneID=102239866]	GeneID_102239866|FMOD|XP_005857818.1
+FMOD	XP_031238815.1	GeneID=116099414	376	kept	representative	XP_031238815.1 Fmod [organism=Mastomys coucha] [GeneID=116099414]	GeneID_116099414|FMOD|XP_031238815.1
+FMOD	NP_002014.2	GeneID=2331	376	kept	representative	NP_002014.2 FMOD [organism=Homo sapiens] [GeneID=2331]	GeneID_2331|FMOD|NP_002014.2
+FMOD	XP_047272260.1	isoform=X1	376	excluded	extra_isoform_same_species	XP_047272260.1 FMOD [organism=Homo sapiens] [GeneID=2331] [isoform=X1]	isoform_X1|FMOD|XP_047272260.1
+FMOD	XP_027801489.1	GeneID=114100840	378	kept	representative	XP_027801489.1 Fmod [organism=Marmota flaviventris] [GeneID=114100840]	GeneID_114100840|FMOD|XP_027801489.1
+FMOD	XP_042689631.1	GeneID=122168397	380	kept	representative	XP_042689631.1 FMOD [organism=Centrocercus urophasianus] [GeneID=122168397]	GeneID_122168397|FMOD|XP_042689631.1
+FMOD	XP_048184405.1	GeneID=125338099	382	kept	representative	XP_048184405.1 FMOD [organism=Corvus hawaiiensis] [GeneID=125338099]	GeneID_125338099|FMOD|XP_048184405.1
+FMOD	XP_072212208.1	GeneID=140262023	380	kept	representative	XP_072212208.1 FMOD [organism=Excalfactoria chinensis] [GeneID=140262023]	GeneID_140262023|FMOD|XP_072212208.1
+FMOD	XP_080554572.1	GeneID=308264884	378	kept	representative	XP_080554572.1 FMOD [organism=Muscardinus avellanarius] [GeneID=308264884]	GeneID_308264884|FMOD|XP_080554572.1
+FMOD	XP_010643343.1	GeneID=104876821	378	kept	representative	XP_010643343.1 Fmod [organism=Fukomys damarensis] [GeneID=104876821]	GeneID_104876821|FMOD|XP_010643343.1
+FMOD	XP_027602781.2	GeneID=114001653	382	kept	representative	XP_027602781.2 FMOD [organism=Pipra filicauda] [GeneID=114001653]	GeneID_114001653|FMOD|XP_027602781.2
+FMOD	XP_010377113.1	GeneID=104674485	376	kept	representative	XP_010377113.1 FMOD [organism=Rhinopithecus roxellana] [GeneID=104674485]	GeneID_104674485|FMOD|XP_010377113.1
+FMOD	XP_030786416.1	GeneID=104674485	376	excluded	extra_isoform_same_species	XP_030786416.1 FMOD [organism=Rhinopithecus roxellana] [GeneID=104674485]	GeneID_104674485|FMOD|XP_030786416.1
+FMOD	XP_053463315.1	GeneID=128597178	376	kept	representative	XP_053463315.1 FMOD [organism=Nycticebus coucang] [GeneID=128597178]	GeneID_128597178|FMOD|XP_053463315.1
+FMOD	XP_053463316.1	GeneID=128597178	376	excluded	extra_isoform_same_species	XP_053463316.1 FMOD [organism=Nycticebus coucang] [GeneID=128597178]	GeneID_128597178|FMOD|XP_053463316.1
+FMOD	NP_990298.2	GeneID=395814	380	kept	representative	NP_990298.2 FMOD [organism=Gallus gallus] [GeneID=395814]	GeneID_395814|FMOD|NP_990298.2
+FMOD	XP_020652548.2	GeneID=110080742	378	kept	representative	XP_020652548.2 FMOD [organism=Pogona vitticeps] [GeneID=110080742]	GeneID_110080742|FMOD|XP_020652548.2
+FMOD	XP_020652556.2	GeneID=110080742	378	excluded	extra_isoform_same_species	XP_020652556.2 FMOD [organism=Pogona vitticeps] [GeneID=110080742]	GeneID_110080742|FMOD|XP_020652556.2
+FMOD	XP_078248076.1	GeneID=110080742	378	excluded	extra_isoform_same_species	XP_078248076.1 FMOD [organism=Pogona vitticeps] [GeneID=110080742]	GeneID_110080742|FMOD|XP_078248076.1
+FMOD	XP_022449442.1	GeneID=111184800	376	kept	representative	XP_022449442.1 FMOD [organism=Delphinapterus leucas] [GeneID=111184800]	GeneID_111184800|FMOD|XP_022449442.1
+FMOD	XP_028620604.1	GeneID=114618926	376	kept	representative	XP_028620604.1 Fmod [organism=Grammomys surdaster] [GeneID=114618926]	GeneID_114618926|FMOD|XP_028620604.1
+FMOD	XP_056217584.1	GeneID=130159715	380	kept	representative	XP_056217584.1 FMOD [organism=Falco biarmicus] [GeneID=130159715]	GeneID_130159715|FMOD|XP_056217584.1
+FMOD	XP_009574341.1	GeneID=104075515	380	kept	representative	XP_009574341.1 FMOD [organism=Fulmarus glacialis] [GeneID=104075515]	GeneID_104075515|FMOD|XP_009574341.1
+FMOD	XP_041504427.1	GeneID=121446101	377	kept	representative	XP_041504427.1 Fmod [organism=Microtus oregoni] [GeneID=121446101]	GeneID_121446101|FMOD|XP_041504427.1
+FMOD	XP_041504428.1	GeneID=121446101	377	excluded	extra_isoform_same_species	XP_041504428.1 Fmod [organism=Microtus oregoni] [GeneID=121446101]	GeneID_121446101|FMOD|XP_041504428.1
+FMOD	XP_059795451.1	GeneID=132374949	376	kept	representative	XP_059795451.1 FMOD [organism=Balaenoptera ricei] [GeneID=132374949]	GeneID_132374949|FMOD|XP_059795451.1
+FMOD	XP_039196303.1	GeneID=120306697	378	kept	representative	XP_039196303.1 FMOD [organism=Crotalus tigris] [GeneID=120306697]	GeneID_120306697|FMOD|XP_039196303.1
+FMOD	XP_039196312.1	GeneID=120306697	378	excluded	extra_isoform_same_species	XP_039196312.1 FMOD [organism=Crotalus tigris] [GeneID=120306697]	GeneID_120306697|FMOD|XP_039196312.1
+FMOD	XP_039196323.1	GeneID=120306697	378	excluded	extra_isoform_same_species	XP_039196323.1 FMOD [organism=Crotalus tigris] [GeneID=120306697]	GeneID_120306697|FMOD|XP_039196323.1
+FMOD	XP_074792176.1	GeneID=141975587	379	kept	representative	XP_074792176.1 FMOD [organism=Natator depressus] [GeneID=141975587]	GeneID_141975587|FMOD|XP_074792176.1
+FMOD	XP_081110859.1	GeneID=308628116	376	kept	representative	XP_081110859.1 FMOD [organism=Mesoplodon bidens] [GeneID=308628116]	GeneID_308628116|FMOD|XP_081110859.1
+FMOD	XP_004610100.1	GeneID=101538360	371	kept	representative	XP_004610100.1 FMOD [organism=Sorex araneus] [GeneID=101538360]	GeneID_101538360|FMOD|XP_004610100.1
+FMOD	XP_008152455.1	GeneID=103297517	377	kept	representative	XP_008152455.1 FMOD [organism=Eptesicus fuscus] [GeneID=103297517]	GeneID_103297517|FMOD|XP_008152455.1
+FMOD	XP_042321716.1	GeneID=121929841	379	kept	representative	XP_042321716.1 FMOD [organism=Sceloporus undulatus] [GeneID=121929841]	GeneID_121929841|FMOD|XP_042321716.1
+FMOD	XP_027550980.1	GeneID=113973277	382	kept	representative	XP_027550980.1 FMOD [organism=Neopelma chrysocephalum] [GeneID=113973277]	GeneID_113973277|FMOD|XP_027550980.1
+FMOD	XP_015505886.1	GeneID=107214745	382	kept	representative	XP_015505886.1 FMOD [organism=Parus major] [GeneID=107214745]	GeneID_107214745|FMOD|XP_015505886.1
+FMOD	XP_063034001.1	GeneID=134430324	382	kept	representative	XP_063034001.1 FMOD [organism=Melospiza melodia melodia] [GeneID=134430324]	GeneID_134430324|FMOD|XP_063034001.1
+FMOD	XP_078963960.1	GeneID=306642224	376	kept	representative	XP_078963960.1 FMOD [organism=Sciurus vulgaris] [GeneID=306642224]	GeneID_306642224|FMOD|XP_078963960.1
+FMOD	XP_058894383.1	GeneID=131741443	376	kept	representative	XP_058894383.1 FMOD [organism=Kogia breviceps] [GeneID=131741443]	GeneID_131741443|FMOD|XP_058894383.1
+FMOD	XP_030728558.1	GeneID=115861710	377	kept	representative	XP_030728558.1 FMOD [organism=Globicephala melas] [GeneID=115861710]	GeneID_115861710|FMOD|XP_030728558.1
+FMOD	XP_066117749.1	GeneID=136326148	376	kept	representative	XP_066117749.1 FMOD [organism=Saccopteryx bilineata] [GeneID=136326148]	GeneID_136326148|FMOD|XP_066117749.1
+FMOD	XP_084354261.1	GeneID=311423748	380	kept	representative	XP_084354261.1 FMOD [organism=Aythya ferina] [GeneID=311423748]	GeneID_311423748|FMOD|XP_084354261.1
+FMOD	XP_030077695.1	GeneID=115482213	353	kept	representative	XP_030077695.1 FMOD [organism=Microcaecilia unicolor] [GeneID=115482213]	GeneID_115482213|FMOD|XP_030077695.1
+FMOD	XP_026336392.1	GeneID=113242518	376	kept	representative	XP_026336392.1 FMOD [organism=Ursus arctos] [GeneID=113242518]	GeneID_113242518|FMOD|XP_026336392.1
+FMOD	XP_034623201.1	GeneID=117875822	379	kept	representative	XP_034623201.1 FMOD [organism=Trachemys scripta elegans] [GeneID=117875822]	GeneID_117875822|FMOD|XP_034623201.1
+FMOD	XP_042538277.1	GeneID=122109747	379	kept	representative	XP_042538277.1 Fmod [organism=Dipodomys spectabilis] [GeneID=122109747]	GeneID_122109747|FMOD|XP_042538277.1
+FMOD	XP_065260444.1	GeneID=135878650	379	kept	representative	XP_065260444.1 FMOD [organism=Emys orbicularis] [GeneID=135878650]	GeneID_135878650|FMOD|XP_065260444.1
+FMOD	XP_071435009.1	GeneID=139683603	380	kept	representative	XP_071435009.1 FMOD [organism=Pithys albifrons albifrons] [GeneID=139683603]	GeneID_139683603|FMOD|XP_071435009.1
+FMOD	XP_081805754.1	GeneID=309390362	378	kept	representative	XP_081805754.1 FMOD [organism=Natrix helvetica] [GeneID=309390362]	GeneID_309390362|FMOD|XP_081805754.1
+FMOD	XP_015394902.1	GeneID=102956962	376	kept	representative	XP_015394902.1 FMOD [organism=Panthera tigris] [GeneID=102956962]	GeneID_102956962|FMOD|XP_015394902.1
+FMOD	XP_052671787.1	GeneID=128154762	380	kept	representative	XP_052671787.1 FMOD [organism=Harpia harpyja] [GeneID=128154762]	GeneID_128154762|FMOD|XP_052671787.1
+FMOD	XP_057625835.1	GeneID=130874477	376	kept	representative	XP_057625835.1 Fmod [organism=Chionomys nivalis] [GeneID=130874477]	GeneID_130874477|FMOD|XP_057625835.1
+FMOD	XP_074971658.1	GeneID=142067167	380	kept	representative	XP_074971658.1 FMOD [organism=Phalacrocorax aristotelis] [GeneID=142067167]	GeneID_142067167|FMOD|XP_074971658.1
+FMOD	XP_019505149.1	GeneID=109386448	376	kept	representative	XP_019505149.1 FMOD [organism=Hipposideros armiger] [GeneID=109386448]	GeneID_109386448|FMOD|XP_019505149.1
+FMOD	XP_024606707.1	GeneID=112403476	376	kept	representative	XP_024606707.1 FMOD [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112403476]	GeneID_112403476|FMOD|XP_024606707.1
+FMOD	XP_024606708.1	GeneID=112403476	376	excluded	extra_isoform_same_species	XP_024606708.1 FMOD [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112403476]	GeneID_112403476|FMOD|XP_024606708.1
+FMOD	XP_013152348.1	GeneID=101914049	380	kept	representative	XP_013152348.1 FMOD [organism=Falco peregrinus] [GeneID=101914049]	GeneID_101914049|FMOD|XP_013152348.1
+FMOD	XP_055437656.1	GeneID=129652747	376	kept	representative	XP_055437656.1 FMOD [organism=Bubalus kerabau] [GeneID=129652747]	GeneID_129652747|FMOD|XP_055437656.1
+FMOD	XP_076797323.1	GeneID=117716306	376	kept	representative	XP_076797323.1 Fmod [organism=Arvicanthis niloticus] [GeneID=117716306]	GeneID_117716306|FMOD|XP_076797323.1
+FMOD	XP_080882111.1	GeneID=308487572	376	kept	representative	XP_080882111.1 FMOD [organism=Rhinolophus hipposideros] [GeneID=308487572]	GeneID_308487572|FMOD|XP_080882111.1
+FMOD	XP_086201907.1	GeneID=147357158	376	kept	representative	XP_086201907.1 FMOD [organism=Bos grunniens] [GeneID=147357158]	GeneID_147357158|FMOD|XP_086201907.1
+FMOD	XP_086201909.1	GeneID=147357158	376	excluded	extra_isoform_same_species	XP_086201909.1 FMOD [organism=Bos grunniens] [GeneID=147357158]	GeneID_147357158|FMOD|XP_086201909.1
+FMOD	XP_035417502.1	GeneID=118255430	380	kept	representative	XP_035417502.1 FMOD [organism=Cygnus atratus] [GeneID=118255430]	GeneID_118255430|FMOD|XP_035417502.1
+FMOD	XP_057584727.1	GeneID=130849666	376	kept	representative	XP_057584727.1 FMOD [organism=Hippopotamus amphibius kiboko] [GeneID=130849666]	GeneID_130849666|FMOD|XP_057584727.1
+FMOD	XP_052554111.1	GeneID=128088046	380	kept	representative	XP_052554111.1 FMOD [organism=Tympanuchus pallidicinctus] [GeneID=128088046]	GeneID_128088046|FMOD|XP_052554111.1
+FMOD	XP_070252866.1	GeneID=138995947	377	kept	representative	XP_070252866.1 FMOD [organism=Myotis yumanensis] [GeneID=138995947]	GeneID_138995947|FMOD|XP_070252866.1
+FMOD	XP_032865539.2	GeneID=104355934	380	kept	representative	XP_032865539.2 FMOD [organism=Tyto alba] [GeneID=104355934]	GeneID_104355934|FMOD|XP_032865539.2
+FMOD	XP_016070317.1	GeneID=107538543	376	kept	representative	XP_016070317.1 FMOD [organism=Miniopterus natalensis] [GeneID=107538543]	GeneID_107538543|FMOD|XP_016070317.1
+FMOD	XP_016070323.1	GeneID=107538543	376	excluded	extra_isoform_same_species	XP_016070323.1 FMOD [organism=Miniopterus natalensis] [GeneID=107538543]	GeneID_107538543|FMOD|XP_016070323.1
+FMOD	XP_047561528.1	GeneID=125086324	376	kept	representative	XP_047561528.1 FMOD [organism=Lutra lutra] [GeneID=125086324]	GeneID_125086324|FMOD|XP_047561528.1
+FMOD	XP_053819784.1	GeneID=128799416	382	kept	representative	XP_053819784.1 FMOD [organism=Vidua chalybeata] [GeneID=128799416]	GeneID_128799416|FMOD|XP_053819784.1
+FMOD	XP_054418927.1	GeneID=129062170	376	kept	representative	XP_054418927.1 FMOD [organism=Pteronotus mesoamericanus] [GeneID=129062170]	GeneID_129062170|FMOD|XP_054418927.1
+FMOD	XP_074078514.1	GeneID=141513001	374	kept	representative	XP_074078514.1 FMOD [organism=Macrotis lagotis] [GeneID=141513001]	GeneID_141513001|FMOD|XP_074078514.1
+FMOD	XP_074078515.1	GeneID=141513001	374	excluded	extra_isoform_same_species	XP_074078515.1 FMOD [organism=Macrotis lagotis] [GeneID=141513001]	GeneID_141513001|FMOD|XP_074078515.1
+FMOD	XP_074078516.1	GeneID=141513001	374	excluded	extra_isoform_same_species	XP_074078516.1 FMOD [organism=Macrotis lagotis] [GeneID=141513001]	GeneID_141513001|FMOD|XP_074078516.1
+FMOD	XP_082350629.1	GeneID=309680779	380	kept	representative	XP_082350629.1 FMOD [organism=Vanellus vanellus] [GeneID=309680779]	GeneID_309680779|FMOD|XP_082350629.1
+FMOD	XP_006942940.1	GeneID=101101027	376	kept	representative	XP_006942940.1 FMOD [organism=Felis catus] [GeneID=101101027]	GeneID_101101027|FMOD|XP_006942940.1
+FMOD	XP_032936163.1	GeneID=117007263	382	kept	representative	XP_032936163.1 FMOD [organism=Catharus ustulatus] [GeneID=117007263]	GeneID_117007263|FMOD|XP_032936163.1
+FMOD	XP_010982045.1	GeneID=105092094	376	kept	representative	XP_010982045.1 FMOD [organism=Camelus dromedarius] [GeneID=105092094]	GeneID_105092094|FMOD|XP_010982045.1
+FMOD	XP_030882078.1	GeneID=102737058	376	kept	representative	XP_030882078.1 FMOD [organism=Leptonychotes weddellii] [GeneID=102737058]	GeneID_102737058|FMOD|XP_030882078.1
+FMOD	XP_032059109.1	GeneID=116498800	380	kept	representative	XP_032059109.1 FMOD [organism=Aythya fuligula] [GeneID=116498800]	GeneID_116498800|FMOD|XP_032059109.1
+FMOD	XP_067585472.1	GeneID=137219973	377	kept	representative	XP_067585472.1 FMOD [organism=Pseudorca crassidens] [GeneID=137219973]	GeneID_137219973|FMOD|XP_067585472.1
+FMOD	XP_020040090.1	GeneID=109699667	377	kept	representative	XP_020040090.1 Fmod [organism=Castor canadensis] [GeneID=109699667]	GeneID_109699667|FMOD|XP_020040090.1
+FMOD	XP_030158970.1	GeneID=115505464	376	kept	representative	XP_030158970.1 FMOD [organism=Lynx canadensis] [GeneID=115505464]	GeneID_115505464|FMOD|XP_030158970.1
+FMOD	XP_074833709.1	GeneID=142001940	369	kept	representative	XP_074833709.1 FMOD [organism=Carettochelys insculpta] [GeneID=142001940]	GeneID_142001940|FMOD|XP_074833709.1
+FMOD	XP_010944723.1	GeneID=105062216	376	kept	representative	XP_010944723.1 FMOD [organism=Camelus bactrianus] [GeneID=105062216]	GeneID_105062216|FMOD|XP_010944723.1
+FMOD	XP_047376842.1	GeneID=124961842	376	kept	representative	XP_047376842.1 Fmod [organism=Sciurus carolinensis] [GeneID=124961842]	GeneID_124961842|FMOD|XP_047376842.1
+FMOD	XP_047376843.1	GeneID=124961842	376	excluded	extra_isoform_same_species	XP_047376843.1 Fmod [organism=Sciurus carolinensis] [GeneID=124961842]	GeneID_124961842|FMOD|XP_047376843.1
+FMOD	XP_081255316.1	GeneID=308709611	380	kept	representative	XP_081255316.1 FMOD [organism=Grus grus] [GeneID=308709611]	GeneID_308709611|FMOD|XP_081255316.1
+FMOD	XP_083028976.1	GeneID=146060051	361	kept	representative	XP_083028976.1 FMOD [organism=Crinia signifera] [GeneID=146060051]	GeneID_146060051|FMOD|XP_083028976.1
+FMOD	XP_084158102.1	GeneID=311219025	380	kept	representative	XP_084158102.1 FMOD [organism=Netta rufina] [GeneID=311219025]	GeneID_311219025|FMOD|XP_084158102.1
+FMOD	XP_009560355.1	GeneID=104060289	380	kept	representative	XP_009560355.1 FMOD [organism=Cuculus canorus] [GeneID=104060289]	GeneID_104060289|FMOD|XP_009560355.1
+FMOD	XP_066456398.1	GeneID=136625801	357	kept	representative	XP_066456398.1 FMOD [organism=Eleutherodactylus coqui] [GeneID=136625801]	GeneID_136625801|FMOD|XP_066456398.1
+FMOD	XP_083301707.1	isoform=1	388	excluded	extra_isoform_same_species	XP_083301707.1 FMOD [organism=Podarcis tiliguerta] [GeneID=310679818] [isoform=1]	isoform_1|FMOD|XP_083301707.1
+FMOD	XP_083301708.1	isoform=2	379	excluded	extra_isoform_same_species	XP_083301708.1 FMOD [organism=Podarcis tiliguerta] [GeneID=310679818] [isoform=2]	isoform_2|FMOD|XP_083301708.1
+FMOD	XP_083301709.1	isoform=2	379	excluded	extra_isoform_same_species	XP_083301709.1 FMOD [organism=Podarcis tiliguerta] [GeneID=310679818] [isoform=2]	isoform_2|FMOD|XP_083301709.1
+FMOD	XP_026938473.1	GeneID=113607405	377	kept	representative	XP_026938473.1 FMOD [organism=Aethalodelphis obliquidens] [GeneID=113607405]	GeneID_113607405|FMOD|XP_026938473.1
+FMOD	XP_026252993.1	GeneID=113188745	378	kept	representative	XP_026252993.1 Fmod [organism=Urocitellus parryii] [GeneID=113188745]	GeneID_113188745|FMOD|XP_026252993.1
+FMOD	XP_084076791.1	GeneID=311162362	382	kept	representative	XP_084076791.1 FMOD [organism=Fringilla coelebs] [GeneID=311162362]	GeneID_311162362|FMOD|XP_084076791.1
+FMOD	XP_032073188.1	GeneID=116508659	378	kept	representative	XP_032073188.1 FMOD [organism=Thamnophis elegans] [GeneID=116508659]	GeneID_116508659|FMOD|XP_032073188.1
+FMOD	XP_066421409.1	GeneID=136566242	382	kept	representative	XP_066421409.1 FMOD [organism=Molothrus aeneus] [GeneID=136566242]	GeneID_136566242|FMOD|XP_066421409.1
+FMOD	XP_074781499.1	GeneID=141969515	380	kept	representative	XP_074781499.1 FMOD [organism=Athene noctua] [GeneID=141969515]	GeneID_141969515|FMOD|XP_074781499.1
+FMOD	XP_074781500.1	GeneID=141969515	380	excluded	extra_isoform_same_species	XP_074781500.1 FMOD [organism=Athene noctua] [GeneID=141969515]	GeneID_141969515|FMOD|XP_074781500.1
+FMOD	XP_045697574.1	GeneID=123820690	376	kept	representative	XP_045697574.1 FMOD [organism=Phyllostomus hastatus] [GeneID=123820690]	GeneID_123820690|FMOD|XP_045697574.1
+FMOD	XP_068275430.1	GeneID=137674148	380	kept	representative	XP_068275430.1 FMOD [organism=Nyctibius grandis] [GeneID=137674148]	GeneID_137674148|FMOD|XP_068275430.1
+FMOD	XP_081945489.1	GeneID=309457393	380	kept	representative	XP_081945489.1 FMOD [organism=Larus argentatus] [GeneID=309457393]	GeneID_309457393|FMOD|XP_081945489.1
+FMOD	XP_044123579.1	GeneID=122918813	376	kept	representative	XP_044123579.1 FMOD [organism=Neogale vison] [GeneID=122918813]	GeneID_122918813|FMOD|XP_044123579.1
+FMOD	XP_080680558.1	GeneID=308355869	376	kept	representative	XP_080680558.1 FMOD [organism=Martes martes] [GeneID=308355869]	GeneID_308355869|FMOD|XP_080680558.1
+FMOD	XP_032771356.1	GeneID=116911483	376	kept	representative	XP_032771356.1 Fmod [organism=Rattus rattus] [GeneID=116911483]	GeneID_116911483|FMOD|XP_032771356.1
+FMOD	XP_040392029.1	GeneID=121059342	380	kept	representative	XP_040392029.1 FMOD [organism=Cygnus olor] [GeneID=121059342]	GeneID_121059342|FMOD|XP_040392029.1
+FMOD	XP_043423470.1	GeneID=122475597	376	kept	representative	XP_043423470.1 FMOD [organism=Prionailurus bengalensis] [GeneID=122475597]	GeneID_122475597|FMOD|XP_043423470.1
+FMOD	XP_047697314.1	GeneID=125155757	376	kept	representative	XP_047697314.1 FMOD [organism=Prionailurus viverrinus] [GeneID=125155757]	GeneID_125155757|FMOD|XP_047697314.1
+FMOD	XP_054660164.1	GeneID=129196541	380	kept	representative	XP_054660164.1 FMOD [organism=Grus americana] [GeneID=129196541]	GeneID_129196541|FMOD|XP_054660164.1
+FMOD	XP_080223880.1	isoform=1	397	excluded	extra_isoform_same_species	XP_080223880.1 FMOD [organism=Falco punctatus] [GeneID=308054626] [isoform=1]	isoform_1|FMOD|XP_080223880.1
+FMOD	XP_080223881.1	isoform=2	380	excluded	extra_isoform_same_species	XP_080223881.1 FMOD [organism=Falco punctatus] [GeneID=308054626] [isoform=2]	isoform_2|FMOD|XP_080223881.1
+FMOD	XP_040472967.1	GeneID=121098738	380	kept	representative	XP_040472967.1 FMOD [organism=Falco naumanni] [GeneID=121098738]	GeneID_121098738|FMOD|XP_040472967.1
+FMOD	XP_083734797.1	GeneID=310919353	385	kept	representative	XP_083734797.1 FMOD [organism=Zosterops lateralis] [GeneID=310919353]	GeneID_310919353|FMOD|XP_083734797.1
+FMOD	XP_032734211.1	GeneID=116879824	376	kept	representative	XP_032734211.1 FMOD [organism=Lontra canadensis] [GeneID=116879824]	GeneID_116879824|FMOD|XP_032734211.1
+FMOD	XP_009676767.1	GeneID=104146451	380	kept	representative	XP_009676767.1 FMOD [organism=Struthio camelus] [GeneID=104146451]	GeneID_104146451|FMOD|XP_009676767.1
+FMOD	XP_009676768.1	GeneID=104146451	380	excluded	extra_isoform_same_species	XP_009676768.1 FMOD [organism=Struthio camelus] [GeneID=104146451]	GeneID_104146451|FMOD|XP_009676768.1
+FMOD	XP_046539659.1	GeneID=124251162	376	kept	representative	XP_046539659.1 FMOD [organism=Equus quagga] [GeneID=124251162]	GeneID_124251162|FMOD|XP_046539659.1
+FMOD	XP_046539660.1	GeneID=124251162	376	excluded	extra_isoform_same_species	XP_046539660.1 FMOD [organism=Equus quagga] [GeneID=124251162]	GeneID_124251162|FMOD|XP_046539660.1
+FMOD	XP_075052138.1	GeneID=142138925	366	kept	representative	XP_075052138.1 FMOD [organism=Mixophyes fleayi] [GeneID=142138925]	GeneID_142138925|FMOD|XP_075052138.1
+FMOD	XP_075052139.1	GeneID=142138925	366	excluded	extra_isoform_same_species	XP_075052139.1 FMOD [organism=Mixophyes fleayi] [GeneID=142138925]	GeneID_142138925|FMOD|XP_075052139.1
+FMOD	XP_010402669.2	GeneID=104692365	382	kept	representative	XP_010402669.2 FMOD [organism=Corvus cornix cornix] [GeneID=104692365]	GeneID_104692365|FMOD|XP_010402669.2
+FMOD	XP_084704457.1	GeneID=146348465	379	kept	representative	XP_084704457.1 FMOD [organism=Heloderma suspectum] [GeneID=146348465]	GeneID_146348465|FMOD|XP_084704457.1
+FMOD	XP_008683363.1	GeneID=103657735	376	kept	representative	XP_008683363.1 FMOD [organism=Ursus maritimus] [GeneID=103657735]	GeneID_103657735|FMOD|XP_008683363.1
+FMOD	XP_076687744.1	GeneID=143379198	378	kept	representative	XP_076687744.1 Fmod [organism=Callospermophilus lateralis] [GeneID=143379198]	GeneID_143379198|FMOD|XP_076687744.1
+FMOD	XP_080820300.1	GeneID=308452564	380	kept	representative	XP_080820300.1 FMOD [organism=Bucephala clangula] [GeneID=308452564]	GeneID_308452564|FMOD|XP_080820300.1
+FMOD	XP_048286745.1	GeneID=125398171	376	kept	representative	XP_048286745.1 Fmod [organism=Myodes glareolus] [GeneID=125398171]	GeneID_125398171|FMOD|XP_048286745.1
+FMOD	XP_010203965.2	GeneID=104560339	380	kept	representative	XP_010203965.2 FMOD [organism=Colius striatus] [GeneID=104560339]	GeneID_104560339|FMOD|XP_010203965.2
+FMOD	XP_019287750.1	GeneID=109256674	376	kept	representative	XP_019287750.1 FMOD [organism=Panthera pardus] [GeneID=109256674]	GeneID_109256674|FMOD|XP_019287750.1
+FMOD	XP_032641618.1	GeneID=116827884	379	kept	representative	XP_032641618.1 FMOD [organism=Chelonoidis abingdonii] [GeneID=116827884]	GeneID_116827884|FMOD|XP_032641618.1
+FMOD	XP_044307273.1	GeneID=123034171	379	kept	representative	XP_044307273.1 FMOD [organism=Varanus komodoensis] [GeneID=123034171]	GeneID_123034171|FMOD|XP_044307273.1
+FMOD	XP_050182924.1	GeneID=126645995	380	kept	representative	XP_050182924.1 FMOD [organism=Myiozetetes cayanensis] [GeneID=126645995]	GeneID_126645995|FMOD|XP_050182924.1
+FMOD	XP_055190309.1	GeneID=129515413	376	kept	representative	XP_055190309.1 FMOD [organism=Nyctereutes procyonoides] [GeneID=129515413]	GeneID_129515413|FMOD|XP_055190309.1
+FMOD	XP_080866250.1	isoform=1	388	excluded	extra_isoform_same_species	XP_080866250.1 FMOD [organism=Podarcis pityusensis] [GeneID=308479424] [isoform=1]	isoform_1|FMOD|XP_080866250.1
+FMOD	XP_080866251.1	isoform=2	379	excluded	extra_isoform_same_species	XP_080866251.1 FMOD [organism=Podarcis pityusensis] [GeneID=308479424] [isoform=2]	isoform_2|FMOD|XP_080866251.1
+FMOD	XP_080866252.1	isoform=2	379	excluded	extra_isoform_same_species	XP_080866252.1 FMOD [organism=Podarcis pityusensis] [GeneID=308479424] [isoform=2]	isoform_2|FMOD|XP_080866252.1
+FMOD	XP_014809102.1	GeneID=106894755	381	kept	representative	XP_014809102.1 FMOD [organism=Calidris pugnax] [GeneID=106894755]	GeneID_106894755|FMOD|XP_014809102.1
+FMOD	XP_010190242.1	GeneID=104546526	380	kept	representative	XP_010190242.1 FMOD [organism=Mesitornis unicolor] [GeneID=104546526]	GeneID_104546526|FMOD|XP_010190242.1
+FMOD	XP_015995182.1	GeneID=107508134	376	kept	representative	XP_015995182.1 FMOD [organism=Rousettus aegyptiacus] [GeneID=107508134]	GeneID_107508134|FMOD|XP_015995182.1
+FMOD	XP_068026896.1	GeneID=137460452	380	kept	representative	XP_068026896.1 FMOD [organism=Melanerpes formicivorus] [GeneID=137460452]	GeneID_137460452|FMOD|XP_068026896.1
+FMOD	XP_025933080.1	GeneID=112971676	380	kept	representative	XP_025933080.1 FMOD [organism=Apteryx rowi] [GeneID=112971676]	GeneID_112971676|FMOD|XP_025933080.1
+FMOD	XP_004425211.1	GeneID=101407233	376	kept	representative	XP_004425211.1 LOC101407233 [organism=Ceratotherium simum simum] [GeneID=101407233]	GeneID_101407233|FMOD|XP_004425211.1
+FMOD	XP_045312369.1	GeneID=123586854	376	kept	representative	XP_045312369.1 FMOD [organism=Leopardus geoffroyi] [GeneID=123586854]	GeneID_123586854|FMOD|XP_045312369.1

@@ -1,0 +1,7 @@
+query_gene	n_species	species	cds_exon_counts	modal_cds_exon_count	protein_length_min	protein_length_max	gene_span_min_bp	gene_span_max_bp
+BGN	5	chicken,cow,human,mouse,zebrafish	7,8	7	369	385	12336	37306
+EPYC	5	chicken,cow,human,mouse,zebrafish	6,9	6	317	713	14169	42026
+FMOD	5	chicken,cow,human,mouse,zebrafish	2	2	343	381	5876	11027
+OGN	5	chicken,cow,human,mouse,zebrafish	6,7	6	293	357	5873	21432
+OMD	5	chicken,cow,human,mouse,zebrafish	2	2	402	424	6722	15037
+PRELP	5	chicken,cow,human,mouse,zebrafish	2,3	2	379	397	10785	21996

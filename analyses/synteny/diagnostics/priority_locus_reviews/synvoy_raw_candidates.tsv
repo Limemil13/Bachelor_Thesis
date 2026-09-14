@@ -1,0 +1,57 @@
+gene	species	rank_within_report	chromosome	start	end	identity_percent	confidence	original_goi_class	final_goi_class	owning_gene	inferred_paralog	model_status
+BGN	catshark	1	NC_052156.1	24651616	24675112	52.6	HIGH	synteny_hull_rescue	paralog_not_goi	gene-ASPN	gene-ASPN	rescue
+BGN	chicken	1	NC_052532.1	44074519	44108131	53.8	MEDIUM	probable_goi	paralog_not_goi	gene-DCN	gene-DCN	complete
+BGN	elephant_shark	1	NW_024704746.1	33363411	33377382	57.3	HIGH	confident_goi	paralog_not_goi	gene-DCN	gene-DCN	complete
+DCN	coelacanth	1	NC_088145.1	113847863	113848741	39.3	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+DCN	coelacanth	2	NC_088145.1	114049722	114102359	37.3	MEDIUM	probable_goi	probable_goi	gene-DCN		complete
+DCN	spotted_gar	1	NC_090699.1	61443873	61451685	50.9	HIGH	synteny_hull_rescue	paralog_not_goi	gene-ASPN-2	gene-ASPN-2	rescue
+DCN	zebrafish	1	NC_133179.1	16926158	16940360	50.2	HIGH	confident_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+DCN	zebrafish	2	NC_133200.1	20301440	20302069	30.4	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	fragment
+EPYC	amphioxus	1	NC_049983.1	12339566	12340792	21.0	MEDIUM	probable_goi	probable_goi	gene-EPYC		partial
+EPYC	coelacanth	1	NC_088145.1	113783923	113792675	68.4	MEDIUM	probable_goi	probable_goi	gene-EPYC		partial
+EPYC	elephant_shark	1	NW_024704760.1	2095489	2096193	55.4	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	elephant_shark	2	NW_024704746.1	33333397	33334140	54.5	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	elephant_shark	3	NW_024704760.1	2139945	2140661	50.1	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+EPYC	elephant_shark	4	NW_024704753.1	364339	405342	49.9	MEDIUM	probable_goi	paralog_not_goi	gene-OGN-2	gene-OGN-2	partial
+EPYC	elephant_shark	5	NW_024704746.1	33285686	33297121	49.6	MEDIUM	synteny_hull_rescue	synteny_hull_rescue			rescue
+EPYC	elephant_shark	6	NW_024704746.1	32993769	33017209	28.3	MEDIUM	probable_goi	probable_goi	gene-EPYC		partial
+EPYC	spotted_gar	1	NC_090721.1	6915943	6916575	22.4	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	partial
+EPYC	spotted_gar	2	NC_090702.1	17107093	17107848	21.5	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+EPYC	zebrafish	1	NC_133200.1	19952197	19952868	26.2	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	fragment
+EPYC	zebrafish	2	NC_133200.1	20614002	20614649	20.0	MEDIUM	probable_goi	probable_goi	gene-EPYC		fragment
+FMOD	amphioxus	1	NC_049986.1	10317928	10317972	73.3	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+FMOD	catshark	1	NC_052156.1	108595627	108595680	64.0	MEDIUM	tandem_goi_copy	tandem_goi_copy			fragment
+LUM	amphioxus	1	NC_049983.1	12602582	12603646	40.7	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	amphioxus	2	NC_049983.1	12330604	12331014	26.6	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	fragment
+LUM	catshark	1	NC_052165.1	37073541	37076017	63.4	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	fragment
+LUM	catshark	2	NC_052165.1	37259589	37266919	48.2	MEDIUM	synteny_hull_rescue	paralog_not_goi	gene-FMOD	gene-FMOD	rescue
+LUM	catshark	3	NC_052156.1	105386109	105386660	23.3	MEDIUM	probable_goi	probable_goi	gene-LUM		partial
+LUM	catshark	4	NC_052156.1	104690097	104690627	23.0	MEDIUM	probable_goi	probable_goi	gene-LUM		partial
+LUM	coelacanth	1	NC_088145.1	113788710	113792675	58.5	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	fragment
+LUM	coelacanth	2	NC_088145.1	113634160	113634471	27.7	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	coelacanth	3	NC_088145.1	36296972	36297418	22.9	MEDIUM	probable_goi	probable_goi	gene-LUM		partial
+LUM	spotted_gar	1	NC_090702.1	17048413	17048754	32.0	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	spotted_gar	2	NC_090721.1	3023055	3023498	23.2	MEDIUM	probable_goi	probable_goi	gene-LUM		fragment
+LUM	spotted_gar	3	NC_090721.1	6915943	6916560	22.1	MEDIUM	probable_goi	paralog_not_goi	gene-KERA	gene-KERA	partial
+OGN	amphioxus	1	NC_049995.1	11579019	11579069	52.9	MEDIUM	probable_goi	paralog_not_goi	gene-EPYC	gene-EPYC	fragment
+OGN	amphioxus	2	NC_049980.1	574182	574952	38.2	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	fragment
+OGN	amphioxus	3	NC_049995.1	2528885	2552508	32.6	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	complete
+OGN	amphioxus	4	NC_049989.1	19438612	19439076	32.5	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN-2	gene-ASPN-2	fragment
+OGN	amphioxus	5	NC_049983.1	16399424	16400905	32.2	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+OGN	amphioxus	6	NC_049990.1	1612630	1613652	31.4	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	amphioxus	7	NC_049995.1	12278771	12279199	30.0	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	fragment
+OGN	amphioxus	8	NC_049993.1	14595916	14596707	29.9	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	complete
+OGN	amphioxus	9	NC_049983.1	16508919	16509761	29.4	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	partial
+OGN	amphioxus	10	NC_049983.1	538844	540691	29.3	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	partial
+OGN	amphioxus	11	NC_049995.1	2722184	2723269	28.8	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	complete
+OGN	amphioxus	12	NC_049987.1	7330915	7331391	28.4	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	amphioxus	13	NC_049994.1	16833290	16833892	28.3	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	amphioxus	14	NC_049980.1	758672	765576	28.2	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	complete
+OGN	amphioxus	15	NC_049993.1	14036887	14046368	28.1	MEDIUM	probable_goi	paralog_not_goi	gene-PRELP	gene-PRELP	partial
+OGN	amphioxus	16	NC_049994.1	6725169	6726491	27.6	MEDIUM	probable_goi	paralog_not_goi	gene-LUM	gene-LUM	complete
+OGN	amphioxus	17	NC_049995.1	12526462	12529739	27.2	MEDIUM	probable_goi	paralog_not_goi	gene-OPTC	gene-OPTC	partial
+OGN	amphioxus	18	NC_049990.1	2344530	2346387	25.4	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN	gene-ASPN	complete
+OGN	amphioxus	19	NC_049994.1	7226783	7227271	25.1	MEDIUM	probable_goi	paralog_not_goi	gene-ASPN-2	gene-ASPN-2	fragment
+OGN	amphioxus	20	NC_049983.1	644139	644813	23.2	MEDIUM	probable_goi	paralog_not_goi	gene-CENPP-2	gene-CENPP-2	partial
+OGN	amphioxus	21	NC_049983.1	22808066	22809985	19.9	MEDIUM	probable_goi	paralog_not_goi	gene-OMD	gene-OMD	complete
+PRELP	catshark	1	NC_052160.1	136025837	136038669	25.7	MEDIUM	probable_goi	probable_goi	gene-PRELP		partial

@@ -1,0 +1,1054 @@
+gene	accession	species	gene_id	isoform	length	status	reason	old_header	new_header
+LUM	XP_071279401.1	Agelaius tricolor	139588215		343	kept	representative	XP_071279401.1 LUM [organism=Agelaius tricolor] [GeneID=139588215]	Agelaius_tricolor|LUM|XP_071279401.1
+LUM	XP_082597142.1	Mustela nivalis	309869621		337	kept	representative	XP_082597142.1 LUM [organism=Mustela nivalis] [GeneID=309869621]	Mustela_nivalis|LUM|XP_082597142.1
+LUM	XP_077566159.1	Stigmatopora nigra	144181495		341	kept	representative	XP_077566159.1 lum [organism=Stigmatopora nigra] [GeneID=144181495]	Stigmatopora_nigra|LUM|XP_077566159.1
+LUM	XP_048274713.1	Myodes glareolus	125390001		339	kept	representative	XP_048274713.1 Lum [organism=Myodes glareolus] [GeneID=125390001]	Myodes_glareolus|LUM|XP_048274713.1
+LUM	XP_048357891.1	Sphaerodactylus townsendi	125435652		351	kept	representative	XP_048357891.1 LUM [organism=Sphaerodactylus townsendi] [GeneID=125435652]	Sphaerodactylus_townsendi|LUM|XP_048357891.1
+LUM	XP_048357892.1	Sphaerodactylus townsendi	125435652		351	excluded	extra_isoform_same_locus	XP_048357892.1 LUM [organism=Sphaerodactylus townsendi] [GeneID=125435652]	Sphaerodactylus_townsendi|LUM|XP_048357892.1
+LUM	XP_060939375.1	Limanda limanda	133015756		343	kept	representative	XP_060939375.1 lum [organism=Limanda limanda] [GeneID=133015756]	Limanda_limanda|LUM|XP_060939375.1
+LUM	XP_075456558.1	Ascaphus truei	142495240		350	kept	representative	XP_075456558.1 LUM [organism=Ascaphus truei] [GeneID=142495240]	Ascaphus_truei|LUM|XP_075456558.1
+LUM	XP_005068078.1	Mesocricetus auratus	101836594		338	kept	representative	XP_005068078.1 Lum [organism=Mesocricetus auratus] [GeneID=101836594]	Mesocricetus_auratus|LUM|XP_005068078.1
+LUM	XP_072002651.1	Engystomops pustulosus	140126741		346	kept	representative	XP_072002651.1 LUM [organism=Engystomops pustulosus] [GeneID=140126741]	Engystomops_pustulosus|LUM|XP_072002651.1
+LUM	XP_085243062.1	Rhamphochromis longiceps	146649923		342	kept	representative	XP_085243062.1 lum [organism=Rhamphochromis longiceps] [GeneID=146649923]	Rhamphochromis_longiceps|LUM|XP_085243062.1
+LUM	XP_080614101.1	Protomyctophum bolini	308311308	1	344	kept	representative	XP_080614101.1 lum [organism=Protomyctophum bolini] [GeneID=308311308] [isoform=1]	Protomyctophum_bolini|LUM|XP_080614101.1
+LUM	XP_080614102.1	Protomyctophum bolini	308311308	1	344	excluded	extra_isoform_same_locus	XP_080614102.1 lum [organism=Protomyctophum bolini] [GeneID=308311308] [isoform=1]	Protomyctophum_bolini|LUM|XP_080614102.1
+LUM	XP_072721239.1	Ciconia boyciana	140653250		343	kept	representative	XP_072721239.1 LUM [organism=Ciconia boyciana] [GeneID=140653250]	Ciconia_boyciana|LUM|XP_072721239.1
+LUM	XP_030404431.1	Gopherus evgoodei	115644353		349	kept	representative	XP_030404431.1 LUM [organism=Gopherus evgoodei] [GeneID=115644353]	Gopherus_evgoodei|LUM|XP_030404431.1
+LUM	XP_006197955.1	Vicugna pacos	102527096		339	kept	representative	XP_006197955.1 LUM [organism=Vicugna pacos] [GeneID=102527096]	Vicugna_pacos|LUM|XP_006197955.1
+LUM	XP_057878839.1	Melospiza georgiana	131082746		343	kept	representative	XP_057878839.1 LUM [organism=Melospiza georgiana] [GeneID=131082746]	Melospiza_georgiana|LUM|XP_057878839.1
+LUM	XP_045409219.1	Lemur catta	123639457		338	kept	representative	XP_045409219.1 LUM [organism=Lemur catta] [GeneID=123639457]	Lemur_catta|LUM|XP_045409219.1
+LUM	XP_079190950.1	Symphodus melops	306817715		342	kept	representative	XP_079190950.1 lum [organism=Symphodus melops] [GeneID=306817715]	Symphodus_melops|LUM|XP_079190950.1
+LUM	XP_004083108.1	Oryzias latipes	101170317		342	kept	representative	XP_004083108.1 lum [organism=Oryzias latipes] [GeneID=101170317]	Oryzias_latipes|LUM|XP_004083108.1
+LUM	XP_011489464.1	Oryzias latipes	101170317		342	excluded	extra_isoform_same_locus	XP_011489464.1 lum [organism=Oryzias latipes] [GeneID=101170317]	Oryzias_latipes|LUM|XP_011489464.1
+LUM	XP_017404096.1	Cebus imitator	108317903		338	kept	representative	XP_017404096.1 LUM [organism=Cebus imitator] [GeneID=108317903]	Cebus_imitator|LUM|XP_017404096.1
+LUM	XP_034628510.1	Trachemys scripta elegans	117878434		349	kept	representative	XP_034628510.1 LUM [organism=Trachemys scripta elegans] [GeneID=117878434]	Trachemys_scripta_elegans|LUM|XP_034628510.1
+LUM	XP_040090360.1	Oryx dammah	120858393		342	kept	representative	XP_040090360.1 LUM [organism=Oryx dammah] [GeneID=120858393]	Oryx_dammah|LUM|XP_040090360.1
+LUM	XP_040090361.1	Oryx dammah	120858393		342	excluded	extra_isoform_same_locus	XP_040090361.1 LUM [organism=Oryx dammah] [GeneID=120858393]	Oryx_dammah|LUM|XP_040090361.1
+LUM	XP_046502236.1	Equus quagga	124230328		341	kept	representative	XP_046502236.1 LUM [organism=Equus quagga] [GeneID=124230328]	Equus_quagga|LUM|XP_046502236.1
+LUM	XP_006889571.1	Elephantulus edwardii	102861202		339	kept	representative	XP_006889571.1 LUM [organism=Elephantulus edwardii] [GeneID=102861202]	Elephantulus_edwardii|LUM|XP_006889571.1
+LUM	XP_009880905.1	Charadrius vociferus	104284288		343	kept	representative	XP_009880905.1 LUM [organism=Charadrius vociferus] [GeneID=104284288]	Charadrius_vociferus|LUM|XP_009880905.1
+LUM	XP_081814974.1	Natrix helvetica	309395066	1	343	kept	representative	XP_081814974.1 LUM [organism=Natrix helvetica] [GeneID=309395066] [isoform=1]	Natrix_helvetica|LUM|XP_081814974.1
+LUM	XP_081814975.1	Natrix helvetica	309395066	1	343	excluded	extra_isoform_same_locus	XP_081814975.1 LUM [organism=Natrix helvetica] [GeneID=309395066] [isoform=1]	Natrix_helvetica|LUM|XP_081814975.1
+LUM	XP_017582160.1	Corvus brachyrhynchos	103624989		343	kept	representative	XP_017582160.1 LUM [organism=Corvus brachyrhynchos] [GeneID=103624989]	Corvus_brachyrhynchos|LUM|XP_017582160.1
+LUM	XP_013859659.1	Austrofundulus limnaeus	106514782		341	kept	representative	XP_013859659.1 lum [organism=Austrofundulus limnaeus] [GeneID=106514782]	Austrofundulus_limnaeus|LUM|XP_013859659.1
+LUM	XP_079389378.1	Tetrao urogallus	306944667		343	kept	representative	XP_079389378.1 LUM [organism=Tetrao urogallus] [GeneID=306944667]	Tetrao_urogallus|LUM|XP_079389378.1
+LUM	XP_010795529.1	Notothenia coriiceps	104967713		342	kept	representative	XP_010795529.1 lum [organism=Notothenia coriiceps] [GeneID=104967713]	Notothenia_coriiceps|LUM|XP_010795529.1
+LUM	XP_009672853.1	Struthio camelus	104143837		343	kept	representative	XP_009672853.1 LUM [organism=Struthio camelus] [GeneID=104143837]	Struthio_camelus|LUM|XP_009672853.1
+LUM	XP_074840092.1	Carettochelys insculpta	142007373		349	kept	representative	XP_074840092.1 LUM [organism=Carettochelys insculpta] [GeneID=142007373]	Carettochelys_insculpta|LUM|XP_074840092.1
+LUM	XP_076861483.1	Brachyhypopomus gauderio	143514331		340	kept	representative	XP_076861483.1 lum [organism=Brachyhypopomus gauderio] [GeneID=143514331]	Brachyhypopomus_gauderio|LUM|XP_076861483.1
+LUM	XP_076861485.1	Brachyhypopomus gauderio	143514331		340	excluded	extra_isoform_same_locus	XP_076861485.1 lum [organism=Brachyhypopomus gauderio] [GeneID=143514331]	Brachyhypopomus_gauderio|LUM|XP_076861485.1
+LUM	XP_081068054.1	Podarcis bocagei	308596733		349	kept	representative	XP_081068054.1 LUM [organism=Podarcis bocagei] [GeneID=308596733]	Podarcis_bocagei|LUM|XP_081068054.1
+LUM	XP_083968185.1	Abramis brama	311081509	1	344	kept	representative	XP_083968185.1 lum [organism=Abramis brama] [GeneID=311081509] [isoform=1]	Abramis_brama|LUM|XP_083968185.1
+LUM	XP_083968186.1	Abramis brama	311081509	1	344	excluded	extra_isoform_same_locus	XP_083968186.1 lum [organism=Abramis brama] [GeneID=311081509] [isoform=1]	Abramis_brama|LUM|XP_083968186.1
+LUM	XP_056311719.1	Danio aesculapii	130223046		343	kept	representative	XP_056311719.1 lum [organism=Danio aesculapii] [GeneID=130223046]	Danio_aesculapii|LUM|XP_056311719.1
+LUM	XP_079161285.1	Erithacus rubecula	306801786		343	kept	representative	XP_079161285.1 LUM [organism=Erithacus rubecula] [GeneID=306801786]	Erithacus_rubecula|LUM|XP_079161285.1
+LUM	XP_004053712.3	Gorilla gorilla gorilla	101132998		338	kept	representative	XP_004053712.3 LUM [organism=Gorilla gorilla gorilla] [GeneID=101132998]	Gorilla_gorilla_gorilla|LUM|XP_004053712.3
+LUM	XP_084650244.1	Acomys minous	311604345		340	kept	representative	XP_084650244.1 LUM [organism=Acomys minous] [GeneID=311604345]	Acomys_minous|LUM|XP_084650244.1
+LUM	XP_046879110.1	Hypomesus transpacificus	124469701		339	kept	representative	XP_046879110.1 lum [organism=Hypomesus transpacificus] [GeneID=124469701]	Hypomesus_transpacificus|LUM|XP_046879110.1
+LUM	XP_046879111.1	Hypomesus transpacificus	124469701		339	excluded	extra_isoform_same_locus	XP_046879111.1 lum [organism=Hypomesus transpacificus] [GeneID=124469701]	Hypomesus_transpacificus|LUM|XP_046879111.1
+LUM	XP_059328258.1	Ammospiza nelsoni	132073309		343	kept	representative	XP_059328258.1 LUM [organism=Ammospiza nelsoni] [GeneID=132073309]	Ammospiza_nelsoni|LUM|XP_059328258.1
+LUM	XP_065140938.2	Paramisgurnus dabryanus	135774889		343	kept	representative	XP_065140938.2 lum [organism=Paramisgurnus dabryanus] [GeneID=135774889]	Paramisgurnus_dabryanus|LUM|XP_065140938.2
+LUM	XP_078479182.1	Lampetra planeri	144740202		342	kept	representative	XP_078479182.1 LUM [organism=Lampetra planeri] [GeneID=144740202]	Lampetra_planeri|LUM|XP_078479182.1
+LUM	XP_075810605.1	Microtus pennsylvanicus	142838834		338	kept	representative	XP_075810605.1 Lum [organism=Microtus pennsylvanicus] [GeneID=142838834]	Microtus_pennsylvanicus|LUM|XP_075810605.1
+LUM	XP_030576550.1	Archocentrus centrarchus	115773775		342	kept	representative	XP_030576550.1 lum [organism=Archocentrus centrarchus] [GeneID=115773775]	Archocentrus_centrarchus|LUM|XP_030576550.1
+LUM	XP_030576551.1	Archocentrus centrarchus	115773775		342	excluded	extra_isoform_same_locus	XP_030576551.1 lum [organism=Archocentrus centrarchus] [GeneID=115773775]	Archocentrus_centrarchus|LUM|XP_030576551.1
+LUM	XP_051487157.1	Apus apus	127390051		343	kept	representative	XP_051487157.1 LUM [organism=Apus apus] [GeneID=127390051]	Apus_apus|LUM|XP_051487157.1
+LUM	XP_041935069.1	Alosa sapidissima	121697569		340	kept	representative	XP_041935069.1 lum [organism=Alosa sapidissima] [GeneID=121697569]	Alosa_sapidissima|LUM|XP_041935069.1
+LUM	XP_028307284.1	Gouania willdenowi	114466046		342	kept	representative	XP_028307284.1 lum [organism=Gouania willdenowi] [GeneID=114466046]	Gouania_willdenowi|LUM|XP_028307284.1
+LUM	XP_036025819.1	Onychomys torridus	118571042		338	kept	representative	XP_036025819.1 Lum [organism=Onychomys torridus] [GeneID=118571042]	Onychomys_torridus|LUM|XP_036025819.1
+LUM	XP_078530386.1	Lissotriton helveticus	144816435		356	kept	representative	XP_078530386.1 LUM [organism=Lissotriton helveticus] [GeneID=144816435]	Lissotriton_helveticus|LUM|XP_078530386.1
+LUM	XP_064198740.1	Anguilla rostrata	135258941		346	kept	representative	XP_064198740.1 lum [organism=Anguilla rostrata] [GeneID=135258941]	Anguilla_rostrata|LUM|XP_064198740.1
+LUM	XP_056372388.1	Oenanthe melanoleuca	130267086		343	kept	representative	XP_056372388.1 LUM [organism=Oenanthe melanoleuca] [GeneID=130267086]	Oenanthe_melanoleuca|LUM|XP_056372388.1
+LUM	XP_076776176.1	Arvicanthis niloticus	143436121		338	kept	representative	XP_076776176.1 Lum [organism=Arvicanthis niloticus] [GeneID=143436121]	Arvicanthis_niloticus|LUM|XP_076776176.1
+LUM	XP_083385073.1	Silurus aristotelis	310719341		341	kept	representative	XP_083385073.1 lum [organism=Silurus aristotelis] [GeneID=310719341]	Silurus_aristotelis|LUM|XP_083385073.1
+LUM	XP_043736973.1	Cervus elaphus	122680093		342	kept	representative	XP_043736973.1 LUM [organism=Cervus elaphus] [GeneID=122680093]	Cervus_elaphus|LUM|XP_043736973.1
+LUM	XP_068573491.1	Cebidichthys violaceus	137877449	X1	374	excluded	extra_isoform_same_locus	XP_068573491.1 lum [organism=Cebidichthys violaceus] [GeneID=137877449] [isoform=X1]	Cebidichthys_violaceus|LUM|XP_068573491.1
+LUM	XP_068573493.1	Cebidichthys violaceus	137877449	X2	342	kept	representative	XP_068573493.1 lum [organism=Cebidichthys violaceus] [GeneID=137877449] [isoform=X2]	Cebidichthys_violaceus|LUM|XP_068573493.1
+LUM	XP_027899837.1	Xiphophorus couchianus	114161025		342	kept	representative	XP_027899837.1 lum [organism=Xiphophorus couchianus] [GeneID=114161025]	Xiphophorus_couchianus|LUM|XP_027899837.1
+LUM	XP_027899838.1	Xiphophorus couchianus	114161025		342	excluded	extra_isoform_same_locus	XP_027899838.1 lum [organism=Xiphophorus couchianus] [GeneID=114161025]	Xiphophorus_couchianus|LUM|XP_027899838.1
+LUM	XP_025738385.1	Callorhinus ursinus	112831221		338	kept	representative	XP_025738385.1 LUM [organism=Callorhinus ursinus] [GeneID=112831221]	Callorhinus_ursinus|LUM|XP_025738385.1
+LUM	XP_033076985.1	Trachypithecus francoisi	117089639		338	kept	representative	XP_033076985.1 LUM [organism=Trachypithecus francoisi] [GeneID=117089639]	Trachypithecus_francoisi|LUM|XP_033076985.1
+LUM	XP_079878677.1	Zeus faber	307246581	1	342	kept	representative	XP_079878677.1 lum [organism=Zeus faber] [GeneID=307246581] [isoform=1]	Zeus_faber|LUM|XP_079878677.1
+LUM	XP_079878678.1	Zeus faber	307246581	1	342	excluded	extra_isoform_same_locus	XP_079878678.1 lum [organism=Zeus faber] [GeneID=307246581] [isoform=1]	Zeus_faber|LUM|XP_079878678.1
+LUM	XP_026877388.3	Electrophorus electricus	113584582		339	kept	representative	XP_026877388.3 lum [organism=Electrophorus electricus] [GeneID=113584582]	Electrophorus_electricus|LUM|XP_026877388.3
+LUM	XP_026877389.3	Electrophorus electricus	113584582		339	excluded	extra_isoform_same_locus	XP_026877389.3 lum [organism=Electrophorus electricus] [GeneID=113584582]	Electrophorus_electricus|LUM|XP_026877389.3
+LUM	XP_081579814.1	Electrophorus electricus	113584582		339	excluded	extra_isoform_same_locus	XP_081579814.1 lum [organism=Electrophorus electricus] [GeneID=113584582]	Electrophorus_electricus|LUM|XP_081579814.1
+LUM	XP_081579815.1	Electrophorus electricus	113584582		339	excluded	extra_isoform_same_locus	XP_081579815.1 lum [organism=Electrophorus electricus] [GeneID=113584582]	Electrophorus_electricus|LUM|XP_081579815.1
+LUM	XP_004417999.1	Ceratotherium simum simum	101404920		340	kept	representative	XP_004417999.1 LOC101404920 [organism=Ceratotherium simum simum] [GeneID=101404920]	Ceratotherium_simum_simum|LUM|XP_004417999.1
+LUM	XP_004700460.1	Echinops telfairi	101662217		340	kept	representative	XP_004700460.1 LUM [organism=Echinops telfairi] [GeneID=101662217]	Echinops_telfairi|LUM|XP_004700460.1
+LUM	XP_053833756.1	Vidua macroura	128807397		343	kept	representative	XP_053833756.1 LUM [organism=Vidua macroura] [GeneID=128807397]	Vidua_macroura|LUM|XP_053833756.1
+LUM	XP_082136109.1	Coloeus monedula	309572014		343	kept	representative	XP_082136109.1 LUM [organism=Coloeus monedula] [GeneID=309572014]	Coloeus_monedula|LUM|XP_082136109.1
+LUM	XP_048012244.1	Megalobrama amblycephala	125245620	X1	380	excluded	extra_isoform_same_locus	XP_048012244.1 lum [organism=Megalobrama amblycephala] [GeneID=125245620] [isoform=X1]	Megalobrama_amblycephala|LUM|XP_048012244.1
+LUM	XP_048012245.1	Megalobrama amblycephala	125245620	X2	344	kept	representative	XP_048012245.1 lum [organism=Megalobrama amblycephala] [GeneID=125245620] [isoform=X2]	Megalobrama_amblycephala|LUM|XP_048012245.1
+LUM	XP_030006460.1	Sphaeramia orbicularis	115430528		342	kept	representative	XP_030006460.1 lum [organism=Sphaeramia orbicularis] [GeneID=115430528]	Sphaeramia_orbicularis|LUM|XP_030006460.1
+LUM	XP_073336737.1	Pagrus major	141008325		342	kept	representative	XP_073336737.1 lum [organism=Pagrus major] [GeneID=141008325]	Pagrus_major|LUM|XP_073336737.1
+LUM	XP_016390487.1	Sinocyclocheilus rhinocerous	107725655		344	kept	representative	XP_016390487.1 lum [organism=Sinocyclocheilus rhinocerous] [GeneID=107725655]	Sinocyclocheilus_rhinocerous|LUM|XP_016390487.1
+LUM	XP_022604773.1	Seriola dumerili	111224525		342	kept	representative	XP_022604773.1 lum [organism=Seriola dumerili] [GeneID=111224525]	Seriola_dumerili|LUM|XP_022604773.1
+LUM	XP_008822141.1	Nannospalax galili	103726385		338	kept	representative	XP_008822141.1 Lum [organism=Nannospalax galili] [GeneID=103726385]	Nannospalax_galili|LUM|XP_008822141.1
+LUM	XP_042803280.1	Panthera leo	122224906		339	kept	representative	XP_042803280.1 LUM [organism=Panthera leo] [GeneID=122224906]	Panthera_leo|LUM|XP_042803280.1
+LUM	XP_071761731.1	Centroberyx gerrardi	139916669		342	kept	representative	XP_071761731.1 lum [organism=Centroberyx gerrardi] [GeneID=139916669]	Centroberyx_gerrardi|LUM|XP_071761731.1
+LUM	XP_002927504.1	Ailuropoda melanoleuca	100467113		338	kept	representative	XP_002927504.1 LUM [organism=Ailuropoda melanoleuca] [GeneID=100467113]	Ailuropoda_melanoleuca|LUM|XP_002927504.1
+LUM	XP_019732657.1	Hippocampus comes	109520123		342	kept	representative	XP_019732657.1 lum [organism=Hippocampus comes] [GeneID=109520123]	Hippocampus_comes|LUM|XP_019732657.1
+LUM	XP_037617022.1	Sebastes umbrosus	119483066		342	kept	representative	XP_037617022.1 lum [organism=Sebastes umbrosus] [GeneID=119483066]	Sebastes_umbrosus|LUM|XP_037617022.1
+LUM	XP_056425362.1	Hyla sarda	130367003		345	kept	representative	XP_056425362.1 LUM [organism=Hyla sarda] [GeneID=130367003]	Hyla_sarda|LUM|XP_056425362.1
+LUM	XP_061523879.1	Phycodurus eques	133397248		342	kept	representative	XP_061523879.1 lum [organism=Phycodurus eques] [GeneID=133397248]	Phycodurus_eques|LUM|XP_061523879.1
+LUM	XP_008685901.1	Ursus maritimus	103660080		338	kept	representative	XP_008685901.1 LUM [organism=Ursus maritimus] [GeneID=103660080]	Ursus_maritimus|LUM|XP_008685901.1
+LUM	XP_042672134.1	Centrocercus urophasianus	122159042		346	kept	representative	XP_042672134.1 LUM [organism=Centrocercus urophasianus] [GeneID=122159042]	Centrocercus_urophasianus|LUM|XP_042672134.1
+LUM	XP_085878573.1	Filicampus tigris	147126662		342	kept	representative	XP_085878573.1 lum [organism=Filicampus tigris] [GeneID=147126662]	Filicampus_tigris|LUM|XP_085878573.1
+LUM	XP_056878831.1	Takifugu flavidus	130519417	X1	410	excluded	extra_isoform_same_locus	XP_056878831.1 lum [organism=Takifugu flavidus] [GeneID=130519417] [isoform=X1]	Takifugu_flavidus|LUM|XP_056878831.1
+LUM	XP_056878832.1	Takifugu flavidus	130519417	X2	342	kept	representative	XP_056878832.1 lum [organism=Takifugu flavidus] [GeneID=130519417] [isoform=X2]	Takifugu_flavidus|LUM|XP_056878832.1
+LUM	XP_079407747.1	Gobius niger	306959498		342	kept	representative	XP_079407747.1 lum [organism=Gobius niger] [GeneID=306959498]	Gobius_niger|LUM|XP_079407747.1
+LUM	XP_009462197.1	Nipponia nippon	104011645		343	kept	representative	XP_009462197.1 LUM [organism=Nipponia nippon] [GeneID=104011645]	Nipponia_nippon|LUM|XP_009462197.1
+LUM	XP_084263305.1	Rutilus rutilus	311289313		344	kept	representative	XP_084263305.1 lum [organism=Rutilus rutilus] [GeneID=311289313]	Rutilus_rutilus|LUM|XP_084263305.1
+LUM	XP_066447606.1	Eleutherodactylus coqui	136611715		346	kept	representative	XP_066447606.1 LUM [organism=Eleutherodactylus coqui] [GeneID=136611715]	Eleutherodactylus_coqui|LUM|XP_066447606.1
+LUM	XP_029317394.1	Cottoperca gobio	115028113		342	kept	representative	XP_029317394.1 lum [organism=Cottoperca gobio] [GeneID=115028113]	Cottoperca_gobio|LUM|XP_029317394.1
+LUM	XP_029317396.1	Cottoperca gobio	115028113		342	excluded	extra_isoform_same_locus	XP_029317396.1 lum [organism=Cottoperca gobio] [GeneID=115028113]	Cottoperca_gobio|LUM|XP_029317396.1
+LUM	XP_024076131.2	Terrapene triunguis	112121334		349	kept	representative	XP_024076131.2 LUM [organism=Terrapene triunguis] [GeneID=112121334]	Terrapene_triunguis|LUM|XP_024076131.2
+LUM	XP_031613669.1	Oreochromis aureus	116334392		342	kept	representative	XP_031613669.1 lum [organism=Oreochromis aureus] [GeneID=116334392]	Oreochromis_aureus|LUM|XP_031613669.1
+LUM	XP_031613678.1	Oreochromis aureus	116334392		342	excluded	extra_isoform_same_locus	XP_031613678.1 lum [organism=Oreochromis aureus] [GeneID=116334392]	Oreochromis_aureus|LUM|XP_031613678.1
+LUM	XP_010132060.1	Buceros rhinoceros silvestris	104491349		343	kept	representative	XP_010132060.1 LUM [organism=Buceros rhinoceros silvestris] [GeneID=104491349]	Buceros_rhinoceros_silvestris|LUM|XP_010132060.1
+LUM	XP_053438567.1	Nycticebus coucang	128580575		338	kept	representative	XP_053438567.1 LUM [organism=Nycticebus coucang] [GeneID=128580575]	Nycticebus_coucang|LUM|XP_053438567.1
+LUM	XP_054436166.1	Pteronotus mesoamericanus	129075942		339	kept	representative	XP_054436166.1 LUM [organism=Pteronotus mesoamericanus] [GeneID=129075942]	Pteronotus_mesoamericanus|LUM|XP_054436166.1
+LUM	XP_029521496.2	Oncorhynchus nerka	115132916	X1	474	excluded	relative_length	XP_029521496.2 lum [organism=Oncorhynchus nerka] [GeneID=115132916] [isoform=X1]	Oncorhynchus_nerka|LUM|XP_029521496.2
+LUM	XP_029521497.1	Oncorhynchus nerka	115132916	X2	360	excluded	extra_isoform_same_locus	XP_029521497.1 lum [organism=Oncorhynchus nerka] [GeneID=115132916] [isoform=X2]	Oncorhynchus_nerka|LUM|XP_029521497.1
+LUM	XP_029521498.1	Oncorhynchus nerka	115132916	X3	342	kept	representative	XP_029521498.1 lum [organism=Oncorhynchus nerka] [GeneID=115132916] [isoform=X3]	Oncorhynchus_nerka|LUM|XP_029521498.1
+LUM	XP_040347184.1	Herpailurus yagouaroundi	121040638		339	kept	representative	XP_040347184.1 LUM [organism=Herpailurus yagouaroundi] [GeneID=121040638]	Herpailurus_yagouaroundi|LUM|XP_040347184.1
+LUM	XP_077327015.1	Lithobates pipiens	143961580		347	kept	representative	XP_077327015.1 LUM [organism=Lithobates pipiens] [GeneID=143961580]	Lithobates_pipiens|LUM|XP_077327015.1
+LUM	XP_028388565.1	Phyllostomus discolor	114513450		339	kept	representative	XP_028388565.1 LUM [organism=Phyllostomus discolor] [GeneID=114513450]	Phyllostomus_discolor|LUM|XP_028388565.1
+LUM	XP_028673251.1	Erpetoichthys calabaricus	114663590		343	kept	representative	XP_028673251.1 lum [organism=Erpetoichthys calabaricus] [GeneID=114663590]	Erpetoichthys_calabaricus|LUM|XP_028673251.1
+LUM	XP_032972447.1	Rhinolophus ferrumequinum	117028222		339	kept	representative	XP_032972447.1 LUM [organism=Rhinolophus ferrumequinum] [GeneID=117028222]	Rhinolophus_ferrumequinum|LUM|XP_032972447.1
+LUM	XP_056197356.1	Falco biarmicus	130150419		343	kept	representative	XP_056197356.1 LUM [organism=Falco biarmicus] [GeneID=130150419]	Falco_biarmicus|LUM|XP_056197356.1
+LUM	XP_066039461.1	Chamaea fasciata	136289491		343	kept	representative	XP_066039461.1 LUM [organism=Chamaea fasciata] [GeneID=136289491]	Chamaea_fasciata|LUM|XP_066039461.1
+LUM	XP_006154882.1	Tupaia belangeri chinensis	102474556		341	kept	representative	XP_006154882.1 LUM [organism=Tupaia belangeri chinensis] [GeneID=102474556]	Tupaia_belangeri_chinensis|LUM|XP_006154882.1
+LUM	XP_010176857.1	Mesitornis unicolor	104536037		343	kept	representative	XP_010176857.1 LUM [organism=Mesitornis unicolor] [GeneID=104536037]	Mesitornis_unicolor|LUM|XP_010176857.1
+LUM	XP_041265726.1	Onychostruthus taczanowskii	121338626		343	kept	representative	XP_041265726.1 LUM [organism=Onychostruthus taczanowskii] [GeneID=121338626]	Onychostruthus_taczanowskii|LUM|XP_041265726.1
+LUM	XP_010126524.2	Chlamydotis macqueenii	104485768		343	kept	representative	XP_010126524.2 LUM [organism=Chlamydotis macqueenii] [GeneID=104485768]	Chlamydotis_macqueenii|LUM|XP_010126524.2
+LUM	XP_032026779.1	Hylobates moloch	116479081		338	kept	representative	XP_032026779.1 LUM [organism=Hylobates moloch] [GeneID=116479081]	Hylobates_moloch|LUM|XP_032026779.1
+LUM	XP_032272354.1	Phoca vitulina	116639813		338	kept	representative	XP_032272354.1 LUM [organism=Phoca vitulina] [GeneID=116639813]	Phoca_vitulina|LUM|XP_032272354.1
+LUM	XP_010830372.1	Bison bison bison	104982630		342	kept	representative	XP_010830372.1 LUM [organism=Bison bison bison] [GeneID=104982630]	Bison_bison_bison|LUM|XP_010830372.1
+LUM	XP_019947778.1	Paralichthys olivaceus	109632781		342	kept	representative	XP_019947778.1 lum [organism=Paralichthys olivaceus] [GeneID=109632781]	Paralichthys_olivaceus|LUM|XP_019947778.1
+LUM	XP_032914738.1	Catharus ustulatus	116995826		343	kept	representative	XP_032914738.1 LUM [organism=Catharus ustulatus] [GeneID=116995826]	Catharus_ustulatus|LUM|XP_032914738.1
+LUM	XP_035003368.1	Hippoglossus stenolepis	118101571		342	kept	representative	XP_035003368.1 lum [organism=Hippoglossus stenolepis] [GeneID=118101571]	Hippoglossus_stenolepis|LUM|XP_035003368.1
+LUM	XP_036747360.1	Manis pentadactyla	118915530		339	kept	representative	XP_036747360.1 LUM [organism=Manis pentadactyla] [GeneID=118915530]	Manis_pentadactyla|LUM|XP_036747360.1
+LUM	XP_076015119.1	Genypterus blacodes	143007600		341	kept	representative	XP_076015119.1 lum [organism=Genypterus blacodes] [GeneID=143007600]	Genypterus_blacodes|LUM|XP_076015119.1
+LUM	XP_082097029.1	Podarcis vaucheri	309542244		349	kept	representative	XP_082097029.1 LUM [organism=Podarcis vaucheri] [GeneID=309542244]	Podarcis_vaucheri|LUM|XP_082097029.1
+LUM	XP_023788947.1	Cyanistes caeruleus	111933523		343	kept	representative	XP_023788947.1 LUM [organism=Cyanistes caeruleus] [GeneID=111933523]	Cyanistes_caeruleus|LUM|XP_023788947.1
+LUM	XP_075407302.1	Tenrec ecaudatus	142449887		340	kept	representative	XP_075407302.1 LUM [organism=Tenrec ecaudatus] [GeneID=142449887]	Tenrec_ecaudatus|LUM|XP_075407302.1
+LUM	XP_077121540.1	Ranitomeya variabilis	143776247		345	kept	representative	XP_077121540.1 LUM [organism=Ranitomeya variabilis] [GeneID=143776247]	Ranitomeya_variabilis|LUM|XP_077121540.1
+LUM	XP_003783408.1	Otolemur garnettii	100946463		339	kept	representative	XP_003783408.1 LUM [organism=Otolemur garnettii] [GeneID=100946463]	Otolemur_garnettii|LUM|XP_003783408.1
+LUM	XP_067553622.1	Pseudorca crassidens	137202260		340	kept	representative	XP_067553622.1 LUM [organism=Pseudorca crassidens] [GeneID=137202260]	Pseudorca_crassidens|LUM|XP_067553622.1
+LUM	XP_036920554.1	Sturnira hondurensis	118999924		340	kept	representative	XP_036920554.1 LUM [organism=Sturnira hondurensis] [GeneID=118999924]	Sturnira_hondurensis|LUM|XP_036920554.1
+LUM	XP_010412115.1	Corvus cornix cornix	104698439		343	kept	representative	XP_010412115.1 LUM [organism=Corvus cornix cornix] [GeneID=104698439]	Corvus_cornix_cornix|LUM|XP_010412115.1
+LUM	XP_034382180.1	Cyclopterus lumpus	117726172		342	kept	representative	XP_034382180.1 lum [organism=Cyclopterus lumpus] [GeneID=117726172]	Cyclopterus_lumpus|LUM|XP_034382180.1
+LUM	XP_034382181.1	Cyclopterus lumpus	117726172		342	excluded	extra_isoform_same_locus	XP_034382181.1 lum [organism=Cyclopterus lumpus] [GeneID=117726172]	Cyclopterus_lumpus|LUM|XP_034382181.1
+LUM	XP_040886419.1	Toxotes jaculatrix	121176426		342	kept	representative	XP_040886419.1 lum [organism=Toxotes jaculatrix] [GeneID=121176426]	Toxotes_jaculatrix|LUM|XP_040886419.1
+LUM	XP_003989158.1	Felis catus	101100982		339	kept	representative	XP_003989158.1 LUM [organism=Felis catus] [GeneID=101100982]	Felis_catus|LUM|XP_003989158.1
+LUM	XP_080938696.1	Myotis nattereri	308512878		339	kept	representative	XP_080938696.1 LUM [organism=Myotis nattereri] [GeneID=308512878]	Myotis_nattereri|LUM|XP_080938696.1
+LUM	XP_010728933.2	Larimichthys crocea	104918779		342	kept	representative	XP_010728933.2 lum [organism=Larimichthys crocea] [GeneID=104918779]	Larimichthys_crocea|LUM|XP_010728933.2
+LUM	XP_071621561.1	Heliangelus exortis	139806187		343	kept	representative	XP_071621561.1 LUM [organism=Heliangelus exortis] [GeneID=139806187]	Heliangelus_exortis|LUM|XP_071621561.1
+LUM	XP_035193279.1	Oxyura jamaicensis	118173120		343	kept	representative	XP_035193279.1 LUM [organism=Oxyura jamaicensis] [GeneID=118173120]	Oxyura_jamaicensis|LUM|XP_035193279.1
+LUM	XP_005679869.1	Capra hircus	102176393		342	kept	representative	XP_005679869.1 LUM [organism=Capra hircus] [GeneID=102176393]	Capra_hircus|LUM|XP_005679869.1
+LUM	XP_017903107.1	Capra hircus	102176393		342	excluded	extra_isoform_same_locus	XP_017903107.1 LUM [organism=Capra hircus] [GeneID=102176393]	Capra_hircus|LUM|XP_017903107.1
+LUM	XP_029019740.1	Betta splendens	114863075		344	kept	representative	XP_029019740.1 lum [organism=Betta splendens] [GeneID=114863075]	Betta_splendens|LUM|XP_029019740.1
+LUM	XP_029019741.1	Betta splendens	114863075		344	excluded	extra_isoform_same_locus	XP_029019741.1 lum [organism=Betta splendens] [GeneID=114863075]	Betta_splendens|LUM|XP_029019741.1
+LUM	XP_073694283.1	Garra rufa	141333221		344	kept	representative	XP_073694283.1 lum [organism=Garra rufa] [GeneID=141333221]	Garra_rufa|LUM|XP_073694283.1
+LUM	XP_073694284.1	Garra rufa	141333221		344	excluded	extra_isoform_same_locus	XP_073694284.1 lum [organism=Garra rufa] [GeneID=141333221]	Garra_rufa|LUM|XP_073694284.1
+LUM	XP_067437679.1	Thunnus thynnus	137175738		342	kept	representative	XP_067437679.1 lum [organism=Thunnus thynnus] [GeneID=137175738]	Thunnus_thynnus|LUM|XP_067437679.1
+LUM	XP_027698314.1	Vombatus ursinus	114028269		341	kept	representative	XP_027698314.1 LUM [organism=Vombatus ursinus] [GeneID=114028269]	Vombatus_ursinus|LUM|XP_027698314.1
+LUM	XP_030179227.1	Lynx canadensis	115519419		339	kept	representative	XP_030179227.1 LUM [organism=Lynx canadensis] [GeneID=115519419]	Lynx_canadensis|LUM|XP_030179227.1
+LUM	XP_063164992.1	Candoia aspera	134501270		345	kept	representative	XP_063164992.1 LUM [organism=Candoia aspera] [GeneID=134501270]	Candoia_aspera|LUM|XP_063164992.1
+LUM	XP_007449170.1	Lipotes vexillifer	103077415		340	kept	representative	XP_007449170.1 LUM [organism=Lipotes vexillifer] [GeneID=103077415]	Lipotes_vexillifer|LUM|XP_007449170.1
+LUM	XP_076967702.1	Tamandua tetradactyla	143642781		341	kept	representative	XP_076967702.1 LUM [organism=Tamandua tetradactyla] [GeneID=143642781]	Tamandua_tetradactyla|LUM|XP_076967702.1
+LUM	XP_030815216.1	Camarhynchus parvulus	115909781		343	kept	representative	XP_030815216.1 LUM [organism=Camarhynchus parvulus] [GeneID=115909781]	Camarhynchus_parvulus|LUM|XP_030815216.1
+LUM	XP_041832842.1	Melanotaenia boesemani	121634346		342	kept	representative	XP_041832842.1 lum [organism=Melanotaenia boesemani] [GeneID=121634346]	Melanotaenia_boesemani|LUM|XP_041832842.1
+LUM	XP_059968792.1	Mesoplodon densirostris	132498753		340	kept	representative	XP_059968792.1 LUM [organism=Mesoplodon densirostris] [GeneID=132498753]	Mesoplodon_densirostris|LUM|XP_059968792.1
+LUM	XP_074757577.1	Athene noctua	141958631		343	kept	representative	XP_074757577.1 LUM [organism=Athene noctua] [GeneID=141958631]	Athene_noctua|LUM|XP_074757577.1
+LUM	XP_079570731.1	Hyperoodon ampullatus	307060186		340	kept	representative	XP_079570731.1 LUM [organism=Hyperoodon ampullatus] [GeneID=307060186]	Hyperoodon_ampullatus|LUM|XP_079570731.1
+LUM	XP_005733550.1	Pundamilia nyererei	102196827		342	kept	representative	XP_005733550.1 lum [organism=Pundamilia nyererei] [GeneID=102196827]	Pundamilia_nyererei|LUM|XP_005733550.1
+LUM	XP_037318324.1	Pungitius pungitius	119211481	X2	342	kept	representative	XP_037318324.1 lum [organism=Pungitius pungitius] [GeneID=119211481] [isoform=X2]	Pungitius_pungitius|LUM|XP_037318324.1
+LUM	XP_037318325.1	Pungitius pungitius	119211481	X2	342	excluded	extra_isoform_same_locus	XP_037318325.1 lum [organism=Pungitius pungitius] [GeneID=119211481] [isoform=X2]	Pungitius_pungitius|LUM|XP_037318325.1
+LUM	XP_062415875.1	Pungitius pungitius	119211481	X1	348	excluded	extra_isoform_same_locus	XP_062415875.1 lum [organism=Pungitius pungitius] [GeneID=119211481] [isoform=X1]	Pungitius_pungitius|LUM|XP_062415875.1
+LUM	XP_057933167.2	Doryrhamphus excisus	131132026	X1	431	excluded	extra_isoform_same_locus	XP_057933167.2 lum [organism=Doryrhamphus excisus] [GeneID=131132026] [isoform=X1]	Doryrhamphus_excisus|LUM|XP_057933167.2
+LUM	XP_078645258.1	Doryrhamphus excisus	131132026	X2	363	kept	representative	XP_078645258.1 lum [organism=Doryrhamphus excisus] [GeneID=131132026] [isoform=X2]	Doryrhamphus_excisus|LUM|XP_078645258.1
+LUM	XP_081219841.1	Scardinius erythrophthalmus	308689780		344	kept	representative	XP_081219841.1 lum [organism=Scardinius erythrophthalmus] [GeneID=308689780]	Scardinius_erythrophthalmus|LUM|XP_081219841.1
+LUM	XP_009987102.1	Tauraco erythrolophus	104371291		292	kept	representative	XP_009987102.1 LUM [organism=Tauraco erythrolophus] [GeneID=104371291]	Tauraco_erythrolophus|LUM|XP_009987102.1
+LUM	XP_014911397.1	Poecilia latipinna	106961848		342	kept	representative	XP_014911397.1 lum [organism=Poecilia latipinna] [GeneID=106961848]	Poecilia_latipinna|LUM|XP_014911397.1
+LUM	XP_029061370.1	Monodon monoceros	114885551		340	kept	representative	XP_029061370.1 LUM [organism=Monodon monoceros] [GeneID=114885551]	Monodon_monoceros|LUM|XP_029061370.1
+LUM	XP_035407703.1	Cygnus atratus	118250561		343	kept	representative	XP_035407703.1 LUM [organism=Cygnus atratus] [GeneID=118250561]	Cygnus_atratus|LUM|XP_035407703.1
+LUM	XP_080347915.1	Lipophrys pholis	308127039	1	342	kept	representative	XP_080347915.1 lum [organism=Lipophrys pholis] [GeneID=308127039] [isoform=1]	Lipophrys_pholis|LUM|XP_080347915.1
+LUM	XP_080347916.1	Lipophrys pholis	308127039	1	342	excluded	extra_isoform_same_locus	XP_080347916.1 lum [organism=Lipophrys pholis] [GeneID=308127039] [isoform=1]	Lipophrys_pholis|LUM|XP_080347916.1
+LUM	XP_055252010.1	Moschus berezovskii	129536872		342	kept	representative	XP_055252010.1 LUM [organism=Moschus berezovskii] [GeneID=129536872]	Moschus_berezovskii|LUM|XP_055252010.1
+LUM	XP_027535660.1	Neopelma chrysocephalum	113965879		343	kept	representative	XP_027535660.1 LUM [organism=Neopelma chrysocephalum] [GeneID=113965879]	Neopelma_chrysocephalum|LUM|XP_027535660.1
+LUM	XP_080792164.1	Micromys minutus	308435355		338	kept	representative	XP_080792164.1 LUM [organism=Micromys minutus] [GeneID=308435355]	Micromys_minutus|LUM|XP_080792164.1
+LUM	XP_040009547.1	Xiphias gladius	120804265		342	kept	representative	XP_040009547.1 lum [organism=Xiphias gladius] [GeneID=120804265]	Xiphias_gladius|LUM|XP_040009547.1
+LUM	XP_046275352.1	Marmota monax	124075788		338	kept	representative	XP_046275352.1 Lum [organism=Marmota monax] [GeneID=124075788]	Marmota_monax|LUM|XP_046275352.1
+LUM	XP_037702206.1	Choloepus didactylus	119541922		341	kept	representative	XP_037702206.1 LUM [organism=Choloepus didactylus] [GeneID=119541922]	Choloepus_didactylus|LUM|XP_037702206.1
+LUM	XP_019597716.1	Rhinolophus sinicus	109452882		339	kept	representative	XP_019597716.1 LUM [organism=Rhinolophus sinicus] [GeneID=109452882]	Rhinolophus_sinicus|LUM|XP_019597716.1
+LUM	XP_036978395.1	Acanthopagrus latus	119032878		342	kept	representative	XP_036978395.1 lum [organism=Acanthopagrus latus] [GeneID=119032878]	Acanthopagrus_latus|LUM|XP_036978395.1
+LUM	XP_037245803.1	Falco rusticolus	119149055		343	kept	representative	XP_037245803.1 LUM [organism=Falco rusticolus] [GeneID=119149055]	Falco_rusticolus|LUM|XP_037245803.1
+LUM	XP_085509141.1	Triturus cristatus	146855317		356	kept	representative	XP_085509141.1 LUM [organism=Triturus cristatus] [GeneID=146855317]	Triturus_cristatus|LUM|XP_085509141.1
+LUM	XP_048404637.1	Stegostoma tigrinum	125460779		342	kept	representative	XP_048404637.1 lum [organism=Stegostoma tigrinum] [GeneID=125460779]	Stegostoma_tigrinum|LUM|XP_048404637.1
+LUM	XP_078996551.1	Sciurus vulgaris	306661429		338	kept	representative	XP_078996551.1 LUM [organism=Sciurus vulgaris] [GeneID=306661429]	Sciurus_vulgaris|LUM|XP_078996551.1
+LUM	XP_011360071.1	Pteropus vampyrus	105293237		339	kept	representative	XP_011360071.1 LUM [organism=Pteropus vampyrus] [GeneID=105293237]	Pteropus_vampyrus|LUM|XP_011360071.1
+LUM	XP_084381160.1	Aythya ferina	311439404		343	kept	representative	XP_084381160.1 LUM [organism=Aythya ferina] [GeneID=311439404]	Aythya_ferina|LUM|XP_084381160.1
+LUM	XP_005874706.1	Myotis brandtii	102260931		339	kept	representative	XP_005874706.1 LUM [organism=Myotis brandtii] [GeneID=102260931]	Myotis_brandtii|LUM|XP_005874706.1
+LUM	XP_058424661.1	Diceros bicornis minor	131421821		340	kept	representative	XP_058424661.1 LUM [organism=Diceros bicornis minor] [GeneID=131421821]	Diceros_bicornis_minor|LUM|XP_058424661.1
+LUM	XP_070803489.1	Pituophis catenifer annectens	139319500		345	kept	representative	XP_070803489.1 LUM [organism=Pituophis catenifer annectens] [GeneID=139319500]	Pituophis_catenifer_annectens|LUM|XP_070803489.1
+LUM	XP_059539750.1	Myotis daubentonii	132228006		339	kept	representative	XP_059539750.1 LUM [organism=Myotis daubentonii] [GeneID=132228006]	Myotis_daubentonii|LUM|XP_059539750.1
+LUM	XP_048124086.1	Alosa alosa	125310577		340	kept	representative	XP_048124086.1 lum [organism=Alosa alosa] [GeneID=125310577]	Alosa_alosa|LUM|XP_048124086.1
+LUM	XP_043823850.1	Dromiciops gliroides	122729196		341	kept	representative	XP_043823850.1 LUM [organism=Dromiciops gliroides] [GeneID=122729196]	Dromiciops_gliroides|LUM|XP_043823850.1
+LUM	XP_070848021.1	Chaetodon trifascialis	139350474		342	kept	representative	XP_070848021.1 lum [organism=Chaetodon trifascialis] [GeneID=139350474]	Chaetodon_trifascialis|LUM|XP_070848021.1
+LUM	XP_029969842.1	Salarias fasciatus	115404579		342	kept	representative	XP_029969842.1 lum [organism=Salarias fasciatus] [GeneID=115404579]	Salarias_fasciatus|LUM|XP_029969842.1
+LUM	XP_008947544.1	Merops nubicus	103781570		312	kept	representative	XP_008947544.1 LUM [organism=Merops nubicus] [GeneID=103781570]	Merops_nubicus|LUM|XP_008947544.1
+LUM	XP_075583706.1	Pelecanus crispus	104027917		343	kept	representative	XP_075583706.1 LUM [organism=Pelecanus crispus] [GeneID=104027917]	Pelecanus_crispus|LUM|XP_075583706.1
+LUM	XP_030197212.1	Gadus morhua	115531967	X1	349	excluded	extra_isoform_same_locus	XP_030197212.1 lum [organism=Gadus morhua] [GeneID=115531967] [isoform=X1]	Gadus_morhua|LUM|XP_030197212.1
+LUM	XP_030197213.1	Gadus morhua	115531967	X2	346	kept	representative	XP_030197213.1 lum [organism=Gadus morhua] [GeneID=115531967] [isoform=X2]	Gadus_morhua|LUM|XP_030197213.1
+LUM	XP_030197214.1	Gadus morhua	115531967	X2	346	excluded	extra_isoform_same_locus	XP_030197214.1 lum [organism=Gadus morhua] [GeneID=115531967] [isoform=X2]	Gadus_morhua|LUM|XP_030197214.1
+LUM	XP_033845660.1	Periophthalmus magnuspinnatus	117391844		342	kept	representative	XP_033845660.1 lum [organism=Periophthalmus magnuspinnatus] [GeneID=117391844]	Periophthalmus_magnuspinnatus|LUM|XP_033845660.1
+LUM	XP_065505940.1	Caloenas nicobarica	135997351		343	kept	representative	XP_065505940.1 LUM [organism=Caloenas nicobarica] [GeneID=135997351]	Caloenas_nicobarica|LUM|XP_065505940.1
+LUM	XP_065505947.1	Caloenas nicobarica	135997351		343	excluded	extra_isoform_same_locus	XP_065505947.1 LUM [organism=Caloenas nicobarica] [GeneID=135997351]	Caloenas_nicobarica|LUM|XP_065505947.1
+LUM	XP_065743282.1	Phocoena phocoena	136130655		340	kept	representative	XP_065743282.1 LUM [organism=Phocoena phocoena] [GeneID=136130655]	Phocoena_phocoena|LUM|XP_065743282.1
+LUM	XP_006989095.2	Peromyscus maniculatus bairdii	102924889		338	kept	representative	XP_006989095.2 Lum [organism=Peromyscus maniculatus bairdii] [GeneID=102924889]	Peromyscus_maniculatus_bairdii|LUM|XP_006989095.2
+LUM	XP_048867348.1	Brienomyrus brachyistius	125740400	X1	417	excluded	extra_isoform_same_locus	XP_048867348.1 lum [organism=Brienomyrus brachyistius] [GeneID=125740400] [isoform=X1]	Brienomyrus_brachyistius|LUM|XP_048867348.1
+LUM	XP_048867356.1	Brienomyrus brachyistius	125740400	X2	342	kept	representative	XP_048867356.1 lum [organism=Brienomyrus brachyistius] [GeneID=125740400] [isoform=X2]	Brienomyrus_brachyistius|LUM|XP_048867356.1
+LUM	XP_048867366.1	Brienomyrus brachyistius	125740400	X2	342	excluded	extra_isoform_same_locus	XP_048867366.1 lum [organism=Brienomyrus brachyistius] [GeneID=125740400] [isoform=X2]	Brienomyrus_brachyistius|LUM|XP_048867366.1
+LUM	XP_043877852.1	Solea senegalensis	122766763		342	kept	representative	XP_043877852.1 lum [organism=Solea senegalensis] [GeneID=122766763]	Solea_senegalensis|LUM|XP_043877852.1
+LUM	XP_044853344.1	Mauremys mutica	123354953		349	kept	representative	XP_044853344.1 LUM [organism=Mauremys mutica] [GeneID=123354953]	Mauremys_mutica|LUM|XP_044853344.1
+LUM	XP_032445607.1	Xiphophorus hellerii	116736873		342	kept	representative	XP_032445607.1 lum [organism=Xiphophorus hellerii] [GeneID=116736873]	Xiphophorus_hellerii|LUM|XP_032445607.1
+LUM	XP_032445608.1	Xiphophorus hellerii	116736873		342	excluded	extra_isoform_same_locus	XP_032445608.1 lum [organism=Xiphophorus hellerii] [GeneID=116736873]	Xiphophorus_hellerii|LUM|XP_032445608.1
+LUM	XP_043302579.1	Cervus canadensis	122427288		342	kept	representative	XP_043302579.1 LUM [organism=Cervus canadensis] [GeneID=122427288]	Cervus_canadensis|LUM|XP_043302579.1
+LUM	XP_062931786.1	Cynocephalus volans	134360857		339	kept	representative	XP_062931786.1 LUM [organism=Cynocephalus volans] [GeneID=134360857]	Cynocephalus_volans|LUM|XP_062931786.1
+LUM	XP_009558225.1	Cuculus canorus	104058421		343	kept	representative	XP_009558225.1 LUM [organism=Cuculus canorus] [GeneID=104058421]	Cuculus_canorus|LUM|XP_009558225.1
+LUM	XP_007893500.1	Callorhinchus milii	103179837		340	kept	representative	XP_007893500.1 lum [organism=Callorhinchus milii] [GeneID=103179837]	Callorhinchus_milii|LUM|XP_007893500.1
+LUM	XP_068257389.1	Nyctibius grandis	137663765		343	kept	representative	XP_068257389.1 LUM [organism=Nyctibius grandis] [GeneID=137663765]	Nyctibius_grandis|LUM|XP_068257389.1
+LUM	XP_085624947.1	Trachurus japonicus	146962555		342	kept	representative	XP_085624947.1 lum [organism=Trachurus japonicus] [GeneID=146962555]	Trachurus_japonicus|LUM|XP_085624947.1
+LUM	XP_005930292.1	Haplochromis burtoni	102291245		342	kept	representative	XP_005930292.1 lum [organism=Haplochromis burtoni] [GeneID=102291245]	Haplochromis_burtoni|LUM|XP_005930292.1
+LUM	XP_051746818.1	Ctenopharyngodon idella	127510816		344	kept	representative	XP_051746818.1 lum [organism=Ctenopharyngodon idella] [GeneID=127510816]	Ctenopharyngodon_idella|LUM|XP_051746818.1
+LUM	XP_084149405.1	Netta rufina	311213341		343	kept	representative	XP_084149405.1 LUM [organism=Netta rufina] [GeneID=311213341]	Netta_rufina|LUM|XP_084149405.1
+LUM	XP_079478508.1	Phoxinus phoxinus	307003669	1	344	kept	representative	XP_079478508.1 lum [organism=Phoxinus phoxinus] [GeneID=307003669] [isoform=1]	Phoxinus_phoxinus|LUM|XP_079478508.1
+LUM	XP_079478509.1	Phoxinus phoxinus	307003669	1	344	excluded	extra_isoform_same_locus	XP_079478509.1 lum [organism=Phoxinus phoxinus] [GeneID=307003669] [isoform=1]	Phoxinus_phoxinus|LUM|XP_079478509.1
+LUM	XP_021030605.1	Mus caroli	110303742		338	kept	representative	XP_021030605.1 Lum [organism=Mus caroli] [GeneID=110303742]	Mus_caroli|LUM|XP_021030605.1
+LUM	XP_035759420.1	Egretta garzetta	104134504		343	kept	representative	XP_035759420.1 LUM [organism=Egretta garzetta] [GeneID=104134504]	Egretta_garzetta|LUM|XP_035759420.1
+LUM	XP_509260.3	Pan troglodytes	452119		338	kept	representative	XP_509260.3 LUM [organism=Pan troglodytes] [GeneID=452119]	Pan_troglodytes|LUM|XP_509260.3
+LUM	XP_037003378.1	Artibeus jamaicensis	119050956		339	kept	representative	XP_037003378.1 LUM [organism=Artibeus jamaicensis] [GeneID=119050956]	Artibeus_jamaicensis|LUM|XP_037003378.1
+LUM	XP_064898589.1	Columba livia	102096263		343	kept	representative	XP_064898589.1 LUM [organism=Columba livia] [GeneID=102096263]	Columba_livia|LUM|XP_064898589.1
+LUM	XP_004845036.1	Heterocephalus glaber	101724760		337	kept	representative	XP_004845036.1 Lum [organism=Heterocephalus glaber] [GeneID=101724760]	Heterocephalus_glaber|LUM|XP_004845036.1
+LUM	XP_027785950.1	Marmota flaviventris	114088495		338	kept	representative	XP_027785950.1 Lum [organism=Marmota flaviventris] [GeneID=114088495]	Marmota_flaviventris|LUM|XP_027785950.1
+LUM	XP_060633316.2	Anolis sagrei	132776106		348	kept	representative	XP_060633316.2 LUM [organism=Anolis sagrei] [GeneID=132776106]	Anolis_sagrei|LUM|XP_060633316.2
+LUM	XP_075967962.1	Anarhichas minor	142971197		342	kept	representative	XP_075967962.1 lum [organism=Anarhichas minor] [GeneID=142971197]	Anarhichas_minor|LUM|XP_075967962.1
+LUM	XP_035970382.1	Halichoerus grypus	118549890		338	kept	representative	XP_035970382.1 LUM [organism=Halichoerus grypus] [GeneID=118549890]	Halichoerus_grypus|LUM|XP_035970382.1
+LUM	XP_026962973.1	Aethalodelphis obliquidens	113620820	X1	375	excluded	extra_isoform_same_locus	XP_026962973.1 LUM [organism=Aethalodelphis obliquidens] [GeneID=113620820] [isoform=X1]	Aethalodelphis_obliquidens|LUM|XP_026962973.1
+LUM	XP_026962974.1	Aethalodelphis obliquidens	113620820	X2	340	kept	representative	XP_026962974.1 LUM [organism=Aethalodelphis obliquidens] [GeneID=113620820] [isoform=X2]	Aethalodelphis_obliquidens|LUM|XP_026962974.1
+LUM	XP_010155471.1	Eurypyga helias	104513716		347	kept	representative	XP_010155471.1 LUM [organism=Eurypyga helias] [GeneID=104513716]	Eurypyga_helias|LUM|XP_010155471.1
+LUM	XP_024414839.1	Desmodus rotundus	112303441		339	kept	representative	XP_024414839.1 LUM [organism=Desmodus rotundus] [GeneID=112303441]	Desmodus_rotundus|LUM|XP_024414839.1
+LUM	XP_036723173.1	Balaenoptera musculus	118902670		339	kept	representative	XP_036723173.1 LUM [organism=Balaenoptera musculus] [GeneID=118902670]	Balaenoptera_musculus|LUM|XP_036723173.1
+LUM	XP_036723175.1	Balaenoptera musculus	118902670		339	excluded	extra_isoform_same_locus	XP_036723175.1 LUM [organism=Balaenoptera musculus] [GeneID=118902670]	Balaenoptera_musculus|LUM|XP_036723175.1
+LUM	XP_084430020.1	Chelon labrosus	311508904		342	kept	representative	XP_084430020.1 lum [organism=Chelon labrosus] [GeneID=311508904]	Chelon_labrosus|LUM|XP_084430020.1
+LUM	XP_077195144.1	Paroedura picta	143838143		350	kept	representative	XP_077195144.1 LUM [organism=Paroedura picta] [GeneID=143838143]	Paroedura_picta|LUM|XP_077195144.1
+LUM	XP_039198235.1	Crotalus tigris	120307478		344	kept	representative	XP_039198235.1 LUM [organism=Crotalus tigris] [GeneID=120307478]	Crotalus_tigris|LUM|XP_039198235.1
+LUM	XP_046185058.1	Oncorhynchus gorbuscha	124014280	X1	474	excluded	relative_length	XP_046185058.1 lum [organism=Oncorhynchus gorbuscha] [GeneID=124014280] [isoform=X1]	Oncorhynchus_gorbuscha|LUM|XP_046185058.1
+LUM	XP_046185059.1	Oncorhynchus gorbuscha	124014280	X2	342	kept	representative	XP_046185059.1 lum [organism=Oncorhynchus gorbuscha] [GeneID=124014280] [isoform=X2]	Oncorhynchus_gorbuscha|LUM|XP_046185059.1
+LUM	XP_049482035.1	Panthera uncia	125919405		339	kept	representative	XP_049482035.1 LUM [organism=Panthera uncia] [GeneID=125919405]	Panthera_uncia|LUM|XP_049482035.1
+LUM	XP_005374506.1	Chinchilla lanigera	102019658		337	kept	representative	XP_005374506.1 Lum [organism=Chinchilla lanigera] [GeneID=102019658]	Chinchilla_lanigera|LUM|XP_005374506.1
+LUM	XP_032055705.1	Aythya fuligula	116496607		343	kept	representative	XP_032055705.1 LUM [organism=Aythya fuligula] [GeneID=116496607]	Aythya_fuligula|LUM|XP_032055705.1
+LUM	XP_034019318.1	Thalassophryne amazonica	117504067		342	kept	representative	XP_034019318.1 lum [organism=Thalassophryne amazonica] [GeneID=117504067]	Thalassophryne_amazonica|LUM|XP_034019318.1
+LUM	XP_031205927.1	Mastomys coucha	116076338		336	kept	representative	XP_031205927.1 Lum [organism=Mastomys coucha] [GeneID=116076338]	Mastomys_coucha|LUM|XP_031205927.1
+LUM	XP_078272717.1	Rhinoraja longicauda	144603411		340	kept	representative	XP_078272717.1 lum [organism=Rhinoraja longicauda] [GeneID=144603411]	Rhinoraja_longicauda|LUM|XP_078272717.1
+LUM	XP_078272718.1	Rhinoraja longicauda	144603411		340	excluded	extra_isoform_same_locus	XP_078272718.1 lum [organism=Rhinoraja longicauda] [GeneID=144603411]	Rhinoraja_longicauda|LUM|XP_078272718.1
+LUM	XP_078272719.1	Rhinoraja longicauda	144603411		340	excluded	extra_isoform_same_locus	XP_078272719.1 lum [organism=Rhinoraja longicauda] [GeneID=144603411]	Rhinoraja_longicauda|LUM|XP_078272719.1
+LUM	XP_078272720.1	Rhinoraja longicauda	144603411		340	excluded	extra_isoform_same_locus	XP_078272720.1 lum [organism=Rhinoraja longicauda] [GeneID=144603411]	Rhinoraja_longicauda|LUM|XP_078272720.1
+LUM	XP_006759415.1	Myotis davidii	102753852		339	kept	representative	XP_006759415.1 LUM [organism=Myotis davidii] [GeneID=102753852]	Myotis_davidii|LUM|XP_006759415.1
+LUM	XP_045221624.2	Macaca fascicularis	101865625		338	kept	representative	XP_045221624.2 LUM [organism=Macaca fascicularis] [GeneID=101865625]	Macaca_fascicularis|LUM|XP_045221624.2
+LUM	XP_067247140.1	Chanodichthys erythropterus	137023919	X1	380	excluded	extra_isoform_same_locus	XP_067247140.1 lum [organism=Chanodichthys erythropterus] [GeneID=137023919] [isoform=X1]	Chanodichthys_erythropterus|LUM|XP_067247140.1
+LUM	XP_067247141.1	Chanodichthys erythropterus	137023919	X2	344	kept	representative	XP_067247141.1 lum [organism=Chanodichthys erythropterus] [GeneID=137023919] [isoform=X2]	Chanodichthys_erythropterus|LUM|XP_067247141.1
+LUM	XP_085231912.1	Diplotaxodon limnothrissa	146615192		342	kept	representative	XP_085231912.1 lum [organism=Diplotaxodon limnothrissa] [GeneID=146615192]	Diplotaxodon_limnothrissa|LUM|XP_085231912.1
+LUM	XP_005810785.1	Xiphophorus maculatus	102218732		342	kept	representative	XP_005810785.1 lum [organism=Xiphophorus maculatus] [GeneID=102218732]	Xiphophorus_maculatus|LUM|XP_005810785.1
+LUM	XP_023205724.1	Xiphophorus maculatus	102218732		342	excluded	extra_isoform_same_locus	XP_023205724.1 lum [organism=Xiphophorus maculatus] [GeneID=102218732]	Xiphophorus_maculatus|LUM|XP_023205724.1
+LUM	XP_036157264.1	Myotis myotis	118651803		339	kept	representative	XP_036157264.1 LUM [organism=Myotis myotis] [GeneID=118651803]	Myotis_myotis|LUM|XP_036157264.1
+LUM	XP_041873517.1	Corvus kubaryi	121659489		343	kept	representative	XP_041873517.1 LUM [organism=Corvus kubaryi] [GeneID=121659489]	Corvus_kubaryi|LUM|XP_041873517.1
+LUM	XP_058629240.1	Onychostoma macrolepis	131539005		344	kept	representative	XP_058629240.1 lum [organism=Onychostoma macrolepis] [GeneID=131539005]	Onychostoma_macrolepis|LUM|XP_058629240.1
+LUM	XP_004006300.1	Ovis aries	101112967		342	kept	representative	XP_004006300.1 LUM [organism=Ovis aries] [GeneID=101112967]	Ovis_aries|LUM|XP_004006300.1
+LUM	XP_012029466.1	Ovis aries	101112967		342	excluded	extra_isoform_same_locus	XP_012029466.1 LUM [organism=Ovis aries] [GeneID=101112967]	Ovis_aries|LUM|XP_012029466.1
+LUM	XP_005039582.1	Ficedula albicollis	101812345		343	kept	representative	XP_005039582.1 LUM [organism=Ficedula albicollis] [GeneID=101812345]	Ficedula_albicollis|LUM|XP_005039582.1
+LUM	XP_006131134.1	Pelodiscus sinensis	102454740		349	kept	representative	XP_006131134.1 LUM [organism=Pelodiscus sinensis] [GeneID=102454740]	Pelodiscus_sinensis|LUM|XP_006131134.1
+LUM	XP_017506868.1	Manis javanica	108391666		339	kept	representative	XP_017506868.1 LUM [organism=Manis javanica] [GeneID=108391666]	Manis_javanica|LUM|XP_017506868.1
+LUM	XP_063303188.1	Pelobates fuscus	134602332		349	kept	representative	XP_063303188.1 LUM [organism=Pelobates fuscus] [GeneID=134602332]	Pelobates_fuscus|LUM|XP_063303188.1
+LUM	XP_054683922.1	Grus americana	129207261		343	kept	representative	XP_054683922.1 LUM [organism=Grus americana] [GeneID=129207261]	Grus_americana|LUM|XP_054683922.1
+LUM	XP_062347434.1	Cinclus cinclus	134043288		343	kept	representative	XP_062347434.1 LUM [organism=Cinclus cinclus] [GeneID=134043288]	Cinclus_cinclus|LUM|XP_062347434.1
+LUM	XP_067110234.1	Osmerus mordax	136959905		339	kept	representative	XP_067110234.1 lum [organism=Osmerus mordax] [GeneID=136959905]	Osmerus_mordax|LUM|XP_067110234.1
+LUM	XP_080374316.1	Blennius ocellaris	308146400	1	349	excluded	extra_isoform_same_locus	XP_080374316.1 lum [organism=Blennius ocellaris] [GeneID=308146400] [isoform=1]	Blennius_ocellaris|LUM|XP_080374316.1
+LUM	XP_080374317.1	Blennius ocellaris	308146400	2	345	excluded	extra_isoform_same_locus	XP_080374317.1 lum [organism=Blennius ocellaris] [GeneID=308146400] [isoform=2]	Blennius_ocellaris|LUM|XP_080374317.1
+LUM	XP_080374318.1	Blennius ocellaris	308146400	3	342	kept	representative	XP_080374318.1 lum [organism=Blennius ocellaris] [GeneID=308146400] [isoform=3]	Blennius_ocellaris|LUM|XP_080374318.1
+LUM	XP_080374319.1	Blennius ocellaris	308146400	3	342	excluded	extra_isoform_same_locus	XP_080374319.1 lum [organism=Blennius ocellaris] [GeneID=308146400] [isoform=3]	Blennius_ocellaris|LUM|XP_080374319.1
+LUM	NP_001230268.1	Sus scrofa	100152607		341	kept	representative	NP_001230268.1 LUM [organism=Sus scrofa] [GeneID=100152607]	Sus_scrofa|LUM|NP_001230268.1
+LUM	XP_045686496.1	Phyllostomus hastatus	123813497		339	kept	representative	XP_045686496.1 LUM [organism=Phyllostomus hastatus] [GeneID=123813497]	Phyllostomus_hastatus|LUM|XP_045686496.1
+LUM	XP_080247537.1	Falco punctatus	308065435		343	kept	representative	XP_080247537.1 LUM [organism=Falco punctatus] [GeneID=308065435]	Falco_punctatus|LUM|XP_080247537.1
+LUM	XP_023140515.1	Amphiprion ocellaris	111578139		342	kept	representative	XP_023140515.1 lum [organism=Amphiprion ocellaris] [GeneID=111578139]	Amphiprion_ocellaris|LUM|XP_023140515.1
+LUM	XP_070709760.1	Pempheris klunzingeri	139221738		341	kept	representative	XP_070709760.1 lum [organism=Pempheris klunzingeri] [GeneID=139221738]	Pempheris_klunzingeri|LUM|XP_070709760.1
+LUM	XP_070709761.1	Pempheris klunzingeri	139221738		341	excluded	extra_isoform_same_locus	XP_070709761.1 lum [organism=Pempheris klunzingeri] [GeneID=139221738]	Pempheris_klunzingeri|LUM|XP_070709761.1
+LUM	XP_070709762.1	Pempheris klunzingeri	139221738		341	excluded	extra_isoform_same_locus	XP_070709762.1 lum [organism=Pempheris klunzingeri] [GeneID=139221738]	Pempheris_klunzingeri|LUM|XP_070709762.1
+LUM	XP_083548108.1	Argentina silus	310820383	1	340	kept	representative	XP_083548108.1 lum [organism=Argentina silus] [GeneID=310820383] [isoform=1]	Argentina_silus|LUM|XP_083548108.1
+LUM	XP_083548109.1	Argentina silus	310820383	1	340	excluded	extra_isoform_same_locus	XP_083548109.1 lum [organism=Argentina silus] [GeneID=310820383] [isoform=1]	Argentina_silus|LUM|XP_083548109.1
+LUM	XP_050964452.1	Labeo rohita	127164518		344	kept	representative	XP_050964452.1 lum [organism=Labeo rohita] [GeneID=127164518]	Labeo_rohita|LUM|XP_050964452.1
+LUM	XP_069084899.1	Pleurodeles waltl	138287869	X1	367	excluded	extra_isoform_same_locus	XP_069084899.1 LUM [organism=Pleurodeles waltl] [GeneID=138287869] [isoform=X1]	Pleurodeles_waltl|LUM|XP_069084899.1
+LUM	XP_069084900.1	Pleurodeles waltl	138287869	X2	355	kept	representative	XP_069084900.1 LUM [organism=Pleurodeles waltl] [GeneID=138287869] [isoform=X2]	Pleurodeles_waltl|LUM|XP_069084900.1
+LUM	XP_007123754.1	Physeter macrocephalus	102975417		340	kept	representative	XP_007123754.1 LUM [organism=Physeter macrocephalus] [GeneID=102975417]	Physeter_macrocephalus|LUM|XP_007123754.1
+LUM	XP_007123755.1	Physeter macrocephalus	102975417		340	excluded	extra_isoform_same_locus	XP_007123755.1 LUM [organism=Physeter macrocephalus] [GeneID=102975417]	Physeter_macrocephalus|LUM|XP_007123755.1
+LUM	XP_065807600.1	Labrus bergylta	109998779		341	kept	representative	XP_065807600.1 lum [organism=Labrus bergylta] [GeneID=109998779]	Labrus_bergylta|LUM|XP_065807600.1
+LUM	XP_066175361.1	Sylvia atricapilla	136361393		343	kept	representative	XP_066175361.1 LUM [organism=Sylvia atricapilla] [GeneID=136361393]	Sylvia_atricapilla|LUM|XP_066175361.1
+LUM	NP_001011006.1	Xenopus tropicalis	496415		353	kept	representative	NP_001011006.1 lum [organism=Xenopus tropicalis] [GeneID=496415]	Xenopus_tropicalis|LUM|NP_001011006.1
+LUM	XP_025782633.1	Puma concolor	112863685		339	kept	representative	XP_025782633.1 LUM [organism=Puma concolor] [GeneID=112863685]	Puma_concolor|LUM|XP_025782633.1
+LUM	XP_034984208.1	Zootoca vivipara	118091381		349	kept	representative	XP_034984208.1 LUM [organism=Zootoca vivipara] [GeneID=118091381]	Zootoca_vivipara|LUM|XP_034984208.1
+LUM	XP_026252941.2	Urocitellus parryii	113188707		338	kept	representative	XP_026252941.2 Lum [organism=Urocitellus parryii] [GeneID=113188707]	Urocitellus_parryii|LUM|XP_026252941.2
+LUM	XP_053719076.1	Synchiropus splendidus	128757645		342	kept	representative	XP_053719076.1 lum [organism=Synchiropus splendidus] [GeneID=128757645]	Synchiropus_splendidus|LUM|XP_053719076.1
+LUM	XP_067998921.1	Melanerpes formicivorus	137443260		343	kept	representative	XP_067998921.1 LUM [organism=Melanerpes formicivorus] [GeneID=137443260]	Melanerpes_formicivorus|LUM|XP_067998921.1
+LUM	XP_067998923.1	Melanerpes formicivorus	137443260		343	excluded	extra_isoform_same_locus	XP_067998923.1 LUM [organism=Melanerpes formicivorus] [GeneID=137443260]	Melanerpes_formicivorus|LUM|XP_067998923.1
+LUM	XP_068163217.1	Antennarius striatus	137589390		342	kept	representative	XP_068163217.1 lum [organism=Antennarius striatus] [GeneID=137589390]	Antennarius_striatus|LUM|XP_068163217.1
+LUM	XP_057596388.1	Hippopotamus amphibius kiboko	130856324		340	kept	representative	XP_057596388.1 LUM [organism=Hippopotamus amphibius kiboko] [GeneID=130856324]	Hippopotamus_amphibius_kiboko|LUM|XP_057596388.1
+LUM	XP_065790264.1	Muntiacus reevesi	136167042		342	kept	representative	XP_065790264.1 LUM [organism=Muntiacus reevesi] [GeneID=136167042]	Muntiacus_reevesi|LUM|XP_065790264.1
+LUM	XP_070785077.1	Enoplosus armatus	139305039		342	kept	representative	XP_070785077.1 lum [organism=Enoplosus armatus] [GeneID=139305039]	Enoplosus_armatus|LUM|XP_070785077.1
+LUM	XP_083429608.1	Podarcis filfolensis	310743304		349	kept	representative	XP_083429608.1 LUM [organism=Podarcis filfolensis] [GeneID=310743304]	Podarcis_filfolensis|LUM|XP_083429608.1
+LUM	XP_084061646.1	Fringilla coelebs	311153577		343	kept	representative	XP_084061646.1 LUM [organism=Fringilla coelebs] [GeneID=311153577]	Fringilla_coelebs|LUM|XP_084061646.1
+LUM	XP_007059262.1	Chelonia mydas	102934774		348	kept	representative	XP_007059262.1 LUM [organism=Chelonia mydas] [GeneID=102934774]	Chelonia_mydas|LUM|XP_007059262.1
+LUM	XP_017566798.1	Pygocentrus nattereri	108435456		341	kept	representative	XP_017566798.1 lum [organism=Pygocentrus nattereri] [GeneID=108435456]	Pygocentrus_nattereri|LUM|XP_017566798.1
+LUM	XP_017566799.1	Pygocentrus nattereri	108435456		341	excluded	extra_isoform_same_locus	XP_017566799.1 lum [organism=Pygocentrus nattereri] [GeneID=108435456]	Pygocentrus_nattereri|LUM|XP_017566799.1
+LUM	XP_021256098.1	Numida meleagris	110400296		343	kept	representative	XP_021256098.1 LUM [organism=Numida meleagris] [GeneID=110400296]	Numida_meleagris|LUM|XP_021256098.1
+LUM	XP_064275769.1	Passer domesticus	135300341		343	kept	representative	XP_064275769.1 LUM [organism=Passer domesticus] [GeneID=135300341]	Passer_domesticus|LUM|XP_064275769.1
+LUM	XP_064306809.1	Phalacrocorax carbo	135313210		343	kept	representative	XP_064306809.1 LUM [organism=Phalacrocorax carbo] [GeneID=135313210]	Phalacrocorax_carbo|LUM|XP_064306809.1
+LUM	XP_059182224.1	Centropristis striata	131960974		341	kept	representative	XP_059182224.1 lum [organism=Centropristis striata] [GeneID=131960974]	Centropristis_striata|LUM|XP_059182224.1
+LUM	XP_085865616.1	Somniosus microcephalus	147106407		343	kept	representative	XP_085865616.1 lum [organism=Somniosus microcephalus] [GeneID=147106407]	Somniosus_microcephalus|LUM|XP_085865616.1
+LUM	XP_039096165.1	Hyaena hyaena	120237082		339	kept	representative	XP_039096165.1 LUM [organism=Hyaena hyaena] [GeneID=120237082]	Hyaena_hyaena|LUM|XP_039096165.1
+LUM	XP_004285164.1	Orcinus orca	101280544	X2	340	kept	representative	XP_004285164.1 LUM [organism=Orcinus orca] [GeneID=101280544] [isoform=X2]	Orcinus_orca|LUM|XP_004285164.1
+LUM	XP_033271367.1	Orcinus orca	101280544	X1	375	excluded	extra_isoform_same_locus	XP_033271367.1 LUM [organism=Orcinus orca] [GeneID=101280544] [isoform=X1]	Orcinus_orca|LUM|XP_033271367.1
+LUM	XP_008523916.1	Equus przewalskii	103554581		341	kept	representative	XP_008523916.1 LUM [organism=Equus przewalskii] [GeneID=103554581]	Equus_przewalskii|LUM|XP_008523916.1
+LUM	XP_076709319.1	Callospermophilus lateralis	143397149		338	kept	representative	XP_076709319.1 Lum [organism=Callospermophilus lateralis] [GeneID=143397149]	Callospermophilus_lateralis|LUM|XP_076709319.1
+LUM	XP_012519450.1	Propithecus coquereli	105826087		289	kept	representative	XP_012519450.1 LUM [organism=Propithecus coquereli] [GeneID=105826087]	Propithecus_coquereli|LUM|XP_012519450.1
+LUM	XP_004650228.1	Jaculus jaculus	101607972		338	kept	representative	XP_004650228.1 Lum [organism=Jaculus jaculus] [GeneID=101607972]	Jaculus_jaculus|LUM|XP_004650228.1
+LUM	XP_011887068.1	Cercocebus atys	105572759		338	kept	representative	XP_011887068.1 LUM [organism=Cercocebus atys] [GeneID=105572759]	Cercocebus_atys|LUM|XP_011887068.1
+LUM	XP_030712269.1	Globicephala melas	115853042		340	kept	representative	XP_030712269.1 LUM [organism=Globicephala melas] [GeneID=115853042]	Globicephala_melas|LUM|XP_030712269.1
+LUM	XP_032544677.1	Chiroxiphia lanceolata	116787296		343	kept	representative	XP_032544677.1 LUM [organism=Chiroxiphia lanceolata] [GeneID=116787296]	Chiroxiphia_lanceolata|LUM|XP_032544677.1
+LUM	XP_048691561.1	Caretta caretta	125630107		348	kept	representative	XP_048691561.1 LUM [organism=Caretta caretta] [GeneID=125630107]	Caretta_caretta|LUM|XP_048691561.1
+LUM	XP_055483871.1	Psammomys obesus	129691714		338	kept	representative	XP_055483871.1 Lum [organism=Psammomys obesus] [GeneID=129691714]	Psammomys_obesus|LUM|XP_055483871.1
+LUM	XP_049616588.1	Syngnathus scovelli	125992053		341	kept	representative	XP_049616588.1 lum [organism=Syngnathus scovelli] [GeneID=125992053]	Syngnathus_scovelli|LUM|XP_049616588.1
+LUM	XP_051625969.1	Manacus candei	127461863		343	kept	representative	XP_051625969.1 LUM [organism=Manacus candei] [GeneID=127461863]	Manacus_candei|LUM|XP_051625969.1
+LUM	XP_061815821.2	Nerophis lumbriciformis	133606189		342	kept	representative	XP_061815821.2 lum [organism=Nerophis lumbriciformis] [GeneID=133606189]	Nerophis_lumbriciformis|LUM|XP_061815821.2
+LUM	XP_067282905.1	Pseudorasbora parva	137048627		344	kept	representative	XP_067282905.1 lum [organism=Pseudorasbora parva] [GeneID=137048627]	Pseudorasbora_parva|LUM|XP_067282905.1
+LUM	XP_042322394.1	Sceloporus undulatus	121930302		349	kept	representative	XP_042322394.1 LUM [organism=Sceloporus undulatus] [GeneID=121930302]	Sceloporus_undulatus|LUM|XP_042322394.1
+LUM	XP_046920763.1	Lynx rufus	124500946		339	kept	representative	XP_046920763.1 LUM [organism=Lynx rufus] [GeneID=124500946]	Lynx_rufus|LUM|XP_046920763.1
+LUM	XP_048790615.1	Lagopus muta	125688463		344	kept	representative	XP_048790615.1 LUM [organism=Lagopus muta] [GeneID=125688463]	Lagopus_muta|LUM|XP_048790615.1
+LUM	XP_079047745.1	Caprimulgus europaeus	306718971		343	kept	representative	XP_079047745.1 LUM [organism=Caprimulgus europaeus] [GeneID=306718971]	Caprimulgus_europaeus|LUM|XP_079047745.1
+LUM	XP_052021072.1	Apodemus sylvaticus	127670679		338	kept	representative	XP_052021072.1 Lum [organism=Apodemus sylvaticus] [GeneID=127670679]	Apodemus_sylvaticus|LUM|XP_052021072.1
+LUM	XP_060885796.1	Labrus mixtus	132956390		341	kept	representative	XP_060885796.1 lum [organism=Labrus mixtus] [GeneID=132956390]	Labrus_mixtus|LUM|XP_060885796.1
+LUM	XP_045866615.1	Meles meles	123945783		338	kept	representative	XP_045866615.1 LUM [organism=Meles meles] [GeneID=123945783]	Meles_meles|LUM|XP_045866615.1
+LUM	XP_055422365.1	Bubalus kerabau	129641758		342	kept	representative	XP_055422365.1 LUM [organism=Bubalus kerabau] [GeneID=129641758]	Bubalus_kerabau|LUM|XP_055422365.1
+LUM	XP_084110771.1	Talpa europaea	311184551		339	kept	representative	XP_084110771.1 LUM [organism=Talpa europaea] [GeneID=311184551]	Talpa_europaea|LUM|XP_084110771.1
+LUM	XP_061570948.1	Cololabis saira	133424396		342	kept	representative	XP_061570948.1 lum [organism=Cololabis saira] [GeneID=133424396]	Cololabis_saira|LUM|XP_061570948.1
+LUM	XP_033471145.2	Epinephelus lanceolatus	117249533		342	kept	representative	XP_033471145.2 lum [organism=Epinephelus lanceolatus] [GeneID=117249533]	Epinephelus_lanceolatus|LUM|XP_033471145.2
+LUM	XP_007564138.1	Poecilia formosa	103146239		342	kept	representative	XP_007564138.1 lum [organism=Poecilia formosa] [GeneID=103146239]	Poecilia_formosa|LUM|XP_007564138.1
+LUM	XP_010982168.1	Camelus dromedarius	105092213		339	kept	representative	XP_010982168.1 LUM [organism=Camelus dromedarius] [GeneID=105092213]	Camelus_dromedarius|LUM|XP_010982168.1
+LUM	XP_059260642.1	Mustela nigripes	132020522		337	kept	representative	XP_059260642.1 LUM [organism=Mustela nigripes] [GeneID=132020522]	Mustela_nigripes|LUM|XP_059260642.1
+LUM	XP_010222555.1	Tinamus guttatus	104576844		343	kept	representative	XP_010222555.1 LUM [organism=Tinamus guttatus] [GeneID=104576844]	Tinamus_guttatus|LUM|XP_010222555.1
+LUM	XP_010222562.1	Tinamus guttatus	104576844		343	excluded	extra_isoform_same_locus	XP_010222562.1 LUM [organism=Tinamus guttatus] [GeneID=104576844]	Tinamus_guttatus|LUM|XP_010222562.1
+LUM	XP_080610085.1	Nannobrachium achirus	308308543		343	kept	representative	XP_080610085.1 lum [organism=Nannobrachium achirus] [GeneID=308308543]	Nannobrachium_achirus|LUM|XP_080610085.1
+LUM	XP_009958153.1	Leptosomus discolor	104353302		343	kept	representative	XP_009958153.1 LUM [organism=Leptosomus discolor] [GeneID=104353302]	Leptosomus_discolor|LUM|XP_009958153.1
+LUM	XP_030071080.1	Microcaecilia unicolor	115478024		350	kept	representative	XP_030071080.1 LUM [organism=Microcaecilia unicolor] [GeneID=115478024]	Microcaecilia_unicolor|LUM|XP_030071080.1
+LUM	XP_030071081.1	Microcaecilia unicolor	115478024		350	excluded	extra_isoform_same_locus	XP_030071081.1 LUM [organism=Microcaecilia unicolor] [GeneID=115478024]	Microcaecilia_unicolor|LUM|XP_030071081.1
+LUM	XP_047644263.1	Phacochoerus africanus	125131555		341	kept	representative	XP_047644263.1 LUM [organism=Phacochoerus africanus] [GeneID=125131555]	Phacochoerus_africanus|LUM|XP_047644263.1
+LUM	XP_075716213.1	Rhinoderma darwinii	142751123		346	kept	representative	XP_075716213.1 LUM [organism=Rhinoderma darwinii] [GeneID=142751123]	Rhinoderma_darwinii|LUM|XP_075716213.1
+LUM	XP_080488768.1	Psittacula echo	308228973		343	kept	representative	XP_080488768.1 LUM [organism=Psittacula echo] [GeneID=308228973]	Psittacula_echo|LUM|XP_080488768.1
+LUM	XP_082275200.1	Balaenoptera physalus	309640381	1	339	kept	representative	XP_082275200.1 LUM [organism=Balaenoptera physalus] [GeneID=309640381] [isoform=1]	Balaenoptera_physalus|LUM|XP_082275200.1
+LUM	XP_082275201.1	Balaenoptera physalus	309640381	1	339	excluded	extra_isoform_same_locus	XP_082275201.1 LUM [organism=Balaenoptera physalus] [GeneID=309640381] [isoform=1]	Balaenoptera_physalus|LUM|XP_082275201.1
+LUM	XP_083318648.1	Podarcis liolepis	310687461		349	kept	representative	XP_083318648.1 LUM [organism=Podarcis liolepis] [GeneID=310687461]	Podarcis_liolepis|LUM|XP_083318648.1
+LUM	XP_003823450.1	Pan paniscus	100970142		338	kept	representative	XP_003823450.1 LUM [organism=Pan paniscus] [GeneID=100970142]	Pan_paniscus|LUM|XP_003823450.1
+LUM	XP_077090560.1	Siphateles boraxobius	143741901		344	kept	representative	XP_077090560.1 lum [organism=Siphateles boraxobius] [GeneID=143741901]	Siphateles_boraxobius|LUM|XP_077090560.1
+LUM	XP_041072072.1	Carcharodon carcharias	121293263		343	kept	representative	XP_041072072.1 lum [organism=Carcharodon carcharias] [GeneID=121293263]	Carcharodon_carcharias|LUM|XP_041072072.1
+LUM	XP_041072073.1	Carcharodon carcharias	121293263		343	excluded	extra_isoform_same_locus	XP_041072073.1 lum [organism=Carcharodon carcharias] [GeneID=121293263]	Carcharodon_carcharias|LUM|XP_041072073.1
+LUM	XP_075352989.1	Mycteria americana	142407399		343	kept	representative	XP_075352989.1 LUM [organism=Mycteria americana] [GeneID=142407399]	Mycteria_americana|LUM|XP_075352989.1
+LUM	XP_080707360.1	Sprattus sprattus	308375166		391	kept	representative	XP_080707360.1 lum [organism=Sprattus sprattus] [GeneID=308375166]	Sprattus_sprattus|LUM|XP_080707360.1
+LUM	XP_003972837.1	Takifugu rubripes	101063156	X2	342	kept	representative	XP_003972837.1 lum [organism=Takifugu rubripes] [GeneID=101063156] [isoform=X2]	Takifugu_rubripes|LUM|XP_003972837.1
+LUM	XP_029707506.1	Takifugu rubripes	101063156	X1	410	excluded	extra_isoform_same_locus	XP_029707506.1 lum [organism=Takifugu rubripes] [GeneID=101063156] [isoform=X1]	Takifugu_rubripes|LUM|XP_029707506.1
+LUM	XP_006009488.1	Latimeria chalumnae	102354554		345	kept	representative	XP_006009488.1 LUM [organism=Latimeria chalumnae] [GeneID=102354554]	Latimeria_chalumnae|LUM|XP_006009488.1
+LUM	XP_067907276.1	Heterodontus francisci	137379794		339	kept	representative	XP_067907276.1 lum [organism=Heterodontus francisci] [GeneID=137379794]	Heterodontus_francisci|LUM|XP_067907276.1
+LUM	XP_026723754.1	Athene cunicularia	113491198		343	kept	representative	XP_026723754.1 LUM [organism=Athene cunicularia] [GeneID=113491198]	Athene_cunicularia|LUM|XP_026723754.1
+LUM	XP_003444990.1	Oreochromis niloticus	100692073		342	kept	representative	XP_003444990.1 lum [organism=Oreochromis niloticus] [GeneID=100692073]	Oreochromis_niloticus|LUM|XP_003444990.1
+LUM	XP_005451657.1	Oreochromis niloticus	100692073		342	excluded	extra_isoform_same_locus	XP_005451657.1 lum [organism=Oreochromis niloticus] [GeneID=100692073]	Oreochromis_niloticus|LUM|XP_005451657.1
+LUM	XP_008932903.1	Manacus vitellinus	103767502		343	kept	representative	XP_008932903.1 LUM [organism=Manacus vitellinus] [GeneID=103767502]	Manacus_vitellinus|LUM|XP_008932903.1
+LUM	XP_084304366.1	Borostomias antarcticus	311317200		341	kept	representative	XP_084304366.1 lum [organism=Borostomias antarcticus] [GeneID=311317200]	Borostomias_antarcticus|LUM|XP_084304366.1
+LUM	XP_068524177.1	Anas acuta	137848698		343	kept	representative	XP_068524177.1 LUM [organism=Anas acuta] [GeneID=137848698]	Anas_acuta|LUM|XP_068524177.1
+LUM	XP_003906991.1	Papio anubis	101017408		338	kept	representative	XP_003906991.1 LUM [organism=Papio anubis] [GeneID=101017408]	Papio_anubis|LUM|XP_003906991.1
+LUM	XP_077701905.1	Canis aureus	144282294		338	kept	representative	XP_077701905.1 LUM [organism=Canis aureus] [GeneID=144282294]	Canis_aureus|LUM|XP_077701905.1
+LUM	XP_030626073.1	Chanos chanos	115808750		340	kept	representative	XP_030626073.1 lum [organism=Chanos chanos] [GeneID=115808750]	Chanos_chanos|LUM|XP_030626073.1
+LUM	XP_042577930.1	Cyprinus carpio	109071499		344	kept	representative	XP_042577930.1 lum [organism=Cyprinus carpio] [GeneID=109071499]	Cyprinus_carpio|LUM|XP_042577930.1
+LUM	XP_061768156.1	Nerophis ophidion	133560080		342	kept	representative	XP_061768156.1 lum [organism=Nerophis ophidion] [GeneID=133560080]	Nerophis_ophidion|LUM|XP_061768156.1
+LUM	XP_061768157.1	Nerophis ophidion	133560080		342	excluded	extra_isoform_same_locus	XP_061768157.1 lum [organism=Nerophis ophidion] [GeneID=133560080]	Nerophis_ophidion|LUM|XP_061768157.1
+LUM	XP_074681517.1	Strix aluco	141923786		343	kept	representative	XP_074681517.1 LUM [organism=Strix aluco] [GeneID=141923786]	Strix_aluco|LUM|XP_074681517.1
+LUM	XP_029617503.1	Salmo trutta	115199089	X1	360	excluded	extra_isoform_same_locus	XP_029617503.1 lum [organism=Salmo trutta] [GeneID=115199089] [isoform=X1]	Salmo_trutta|LUM|XP_029617503.1
+LUM	XP_029617504.1	Salmo trutta	115199089	X2	342	kept	representative	XP_029617504.1 lum [organism=Salmo trutta] [GeneID=115199089] [isoform=X2]	Salmo_trutta|LUM|XP_029617504.1
+LUM	XP_005279204.1	Chrysemys picta bellii	101934538		349	kept	representative	XP_005279204.1 LUM [organism=Chrysemys picta bellii] [GeneID=101934538]	Chrysemys_picta_bellii|LUM|XP_005279204.1
+LUM	XP_005147993.1	Melopsittacus undulatus	101871446		343	kept	representative	XP_005147993.1 LUM [organism=Melopsittacus undulatus] [GeneID=101871446]	Melopsittacus_undulatus|LUM|XP_005147993.1
+LUM	XP_056434254.1	Gadus chalcogrammus	130372321	X1	349	excluded	extra_isoform_same_locus	XP_056434254.1 lum [organism=Gadus chalcogrammus] [GeneID=130372321] [isoform=X1]	Gadus_chalcogrammus|LUM|XP_056434254.1
+LUM	XP_056434256.1	Gadus chalcogrammus	130372321	X2	346	kept	representative	XP_056434256.1 lum [organism=Gadus chalcogrammus] [GeneID=130372321] [isoform=X2]	Gadus_chalcogrammus|LUM|XP_056434256.1
+LUM	XP_056434257.1	Gadus chalcogrammus	130372321	X2	346	excluded	extra_isoform_same_locus	XP_056434257.1 lum [organism=Gadus chalcogrammus] [GeneID=130372321] [isoform=X2]	Gadus_chalcogrammus|LUM|XP_056434257.1
+LUM	XP_062299862.1	Scomber scombrus	134004554		342	kept	representative	XP_062299862.1 lum [organism=Scomber scombrus] [GeneID=134004554]	Scomber_scombrus|LUM|XP_062299862.1
+LUM	XP_009084920.1	Serinus canaria	103813404		343	kept	representative	XP_009084920.1 LUM [organism=Serinus canaria] [GeneID=103813404]	Serinus_canaria|LUM|XP_009084920.1
+LUM	XP_041330277.1	Pyrgilauda ruficollis	121357221		343	kept	representative	XP_041330277.1 LUM [organism=Pyrgilauda ruficollis] [GeneID=121357221]	Pyrgilauda_ruficollis|LUM|XP_041330277.1
+LUM	XP_041521628.1	Microtus oregoni	121457055		338	kept	representative	XP_041521628.1 Lum [organism=Microtus oregoni] [GeneID=121457055]	Microtus_oregoni|LUM|XP_041521628.1
+LUM	XP_068951241.1	Petaurus breviceps papuanus	138166676	X1	361	excluded	extra_isoform_same_locus	XP_068951241.1 LUM [organism=Petaurus breviceps papuanus] [GeneID=138166676] [isoform=X1]	Petaurus_breviceps_papuanus|LUM|XP_068951241.1
+LUM	XP_068951242.1	Petaurus breviceps papuanus	138166676	X2	341	kept	representative	XP_068951242.1 LUM [organism=Petaurus breviceps papuanus] [GeneID=138166676] [isoform=X2]	Petaurus_breviceps_papuanus|LUM|XP_068951242.1
+LUM	XP_081785307.1	Podarcis melisellensis	309379754		349	kept	representative	XP_081785307.1 LUM [organism=Podarcis melisellensis] [GeneID=309379754]	Podarcis_melisellensis|LUM|XP_081785307.1
+LUM	XP_083515914.1	Poromitra crassiceps	310797420		342	kept	representative	XP_083515914.1 lum [organism=Poromitra crassiceps] [GeneID=310797420]	Poromitra_crassiceps|LUM|XP_083515914.1
+LUM	XP_036374297.1	Megalops cyprinoides	118770642		348	kept	representative	XP_036374297.1 lum [organism=Megalops cyprinoides] [GeneID=118770642]	Megalops_cyprinoides|LUM|XP_036374297.1
+LUM	XP_038244064.1	Dermochelys coriacea	119850218		349	kept	representative	XP_038244064.1 LUM [organism=Dermochelys coriacea] [GeneID=119850218]	Dermochelys_coriacea|LUM|XP_038244064.1
+LUM	XP_061920810.1	Entelurus aequoreus	133661552	X1	437	excluded	extra_isoform_same_locus	XP_061920810.1 lum [organism=Entelurus aequoreus] [GeneID=133661552] [isoform=X1]	Entelurus_aequoreus|LUM|XP_061920810.1
+LUM	XP_061920811.1	Entelurus aequoreus	133661552	X2	342	kept	representative	XP_061920811.1 lum [organism=Entelurus aequoreus] [GeneID=133661552] [isoform=X2]	Entelurus_aequoreus|LUM|XP_061920811.1
+LUM	XP_079849598.1	Podarcis cretensis	307225558		349	kept	representative	XP_079849598.1 LUM [organism=Podarcis cretensis] [GeneID=307225558]	Podarcis_cretensis|LUM|XP_079849598.1
+LUM	XP_051544270.1	Myxocyprinus asiaticus	127435108		344	kept	representative	XP_051544270.1 lum [organism=Myxocyprinus asiaticus] [GeneID=127435108]	Myxocyprinus_asiaticus|LUM|XP_051544270.1
+LUM	XP_057711599.1	Corythoichthys intestinalis	130928842		342	kept	representative	XP_057711599.1 lum [organism=Corythoichthys intestinalis] [GeneID=130928842]	Corythoichthys_intestinalis|LUM|XP_057711599.1
+LUM	XP_061663010.1	Syngnathoides biaculeatus	133493562		342	kept	representative	XP_061663010.1 lum [organism=Syngnathoides biaculeatus] [GeneID=133493562]	Syngnathoides_biaculeatus|LUM|XP_061663010.1
+LUM	XP_040413608.1	Cygnus olor	121070468		343	kept	representative	XP_040413608.1 LUM [organism=Cygnus olor] [GeneID=121070468]	Cygnus_olor|LUM|XP_040413608.1
+LUM	XP_054910646.1	Poeciliopsis prolifica	129375529		342	kept	representative	XP_054910646.1 lum [organism=Poeciliopsis prolifica] [GeneID=129375529]	Poeciliopsis_prolifica|LUM|XP_054910646.1
+LUM	XP_054910647.1	Poeciliopsis prolifica	129375529		342	excluded	extra_isoform_same_locus	XP_054910647.1 lum [organism=Poeciliopsis prolifica] [GeneID=129375529]	Poeciliopsis_prolifica|LUM|XP_054910647.1
+LUM	XP_066113863.1	Saccopteryx bilineata	136324627		344	kept	representative	XP_066113863.1 LUM [organism=Saccopteryx bilineata] [GeneID=136324627]	Saccopteryx_bilineata|LUM|XP_066113863.1
+LUM	XP_040452259.1	Falco naumanni	121089239		343	kept	representative	XP_040452259.1 LUM [organism=Falco naumanni] [GeneID=121089239]	Falco_naumanni|LUM|XP_040452259.1
+LUM	XP_084489365.1	Lepidochelys olivacea	311523358		348	kept	representative	XP_084489365.1 LUM [organism=Lepidochelys olivacea] [GeneID=311523358]	Lepidochelys_olivacea|LUM|XP_084489365.1
+LUM	XP_051248424.1	Dicentrarchus labrax	127358906		409	kept	representative	XP_051248424.1 lum [organism=Dicentrarchus labrax] [GeneID=127358906]	Dicentrarchus_labrax|LUM|XP_051248424.1
+LUM	XP_084186314.1	Notolepis coatsorum	311241384	1	342	kept	representative	XP_084186314.1 lum [organism=Notolepis coatsorum] [GeneID=311241384] [isoform=1]	Notolepis_coatsorum|LUM|XP_084186314.1
+LUM	XP_084186315.1	Notolepis coatsorum	311241384	1	342	excluded	extra_isoform_same_locus	XP_084186315.1 lum [organism=Notolepis coatsorum] [GeneID=311241384] [isoform=1]	Notolepis_coatsorum|LUM|XP_084186315.1
+LUM	XP_084186316.1	Notolepis coatsorum	311241384	1	342	excluded	extra_isoform_same_locus	XP_084186316.1 lum [organism=Notolepis coatsorum] [GeneID=311241384] [isoform=1]	Notolepis_coatsorum|LUM|XP_084186316.1
+LUM	XP_032503109.1	Phocoena sinus	116761336		340	kept	representative	XP_032503109.1 LUM [organism=Phocoena sinus] [GeneID=116761336]	Phocoena_sinus|LUM|XP_032503109.1
+LUM	XP_032503110.1	Phocoena sinus	116761336		340	excluded	extra_isoform_same_locus	XP_032503110.1 LUM [organism=Phocoena sinus] [GeneID=116761336]	Phocoena_sinus|LUM|XP_032503110.1
+LUM	XP_084131977.1	Gallinula chloropus	311201465		343	kept	representative	XP_084131977.1 LUM [organism=Gallinula chloropus] [GeneID=311201465]	Gallinula_chloropus|LUM|XP_084131977.1
+LUM	XP_037369788.1	Talpa occidentalis	119247441		339	kept	representative	XP_037369788.1 LUM [organism=Talpa occidentalis] [GeneID=119247441]	Talpa_occidentalis|LUM|XP_037369788.1
+LUM	XP_064010991.1	Pogoniulus pusillus	135181662		343	kept	representative	XP_064010991.1 LUM [organism=Pogoniulus pusillus] [GeneID=135181662]	Pogoniulus_pusillus|LUM|XP_064010991.1
+LUM	XP_082522797.1	Grampus griseus	309830227		340	kept	representative	XP_082522797.1 LUM [organism=Grampus griseus] [GeneID=309830227]	Grampus_griseus|LUM|XP_082522797.1
+LUM	XP_083823304.1	Clangula hyemalis	310983530	1	343	kept	representative	XP_083823304.1 LUM [organism=Clangula hyemalis] [GeneID=310983530] [isoform=1]	Clangula_hyemalis|LUM|XP_083823304.1
+LUM	XP_083823305.1	Clangula hyemalis	310983530	2	314	excluded	extra_isoform_same_locus	XP_083823305.1 LUM [organism=Clangula hyemalis] [GeneID=310983530] [isoform=2]	Clangula_hyemalis|LUM|XP_083823305.1
+LUM	XP_008066899.1	Carlito syrichta	103271256		338	kept	representative	XP_008066899.1 LUM [organism=Carlito syrichta] [GeneID=103271256]	Carlito_syrichta|LUM|XP_008066899.1
+LUM	XP_080668038.1	Martes martes	308348073		337	kept	representative	XP_080668038.1 LUM [organism=Martes martes] [GeneID=308348073]	Martes_martes|LUM|XP_080668038.1
+LUM	XP_080986896.1	Miniopterus schreibersii	308554049		339	kept	representative	XP_080986896.1 LUM [organism=Miniopterus schreibersii] [GeneID=308554049]	Miniopterus_schreibersii|LUM|XP_080986896.1
+LUM	XP_081286859.1	Grus grus	308724036		343	kept	representative	XP_081286859.1 LUM [organism=Grus grus] [GeneID=308724036]	Grus_grus|LUM|XP_081286859.1
+LUM	XP_083716269.1	Zosterops lateralis	310908779		343	kept	representative	XP_083716269.1 LUM [organism=Zosterops lateralis] [GeneID=310908779]	Zosterops_lateralis|LUM|XP_083716269.1
+LUM	XP_035474853.2	Scophthalmus maximus	118291063		404	kept	representative	XP_035474853.2 lum [organism=Scophthalmus maximus] [GeneID=118291063]	Scophthalmus_maximus|LUM|XP_035474853.2
+LUM	XP_047599067.1	Lutra lutra	125107737		337	kept	representative	XP_047599067.1 LUM [organism=Lutra lutra] [GeneID=125107737]	Lutra_lutra|LUM|XP_047599067.1
+LUM	XP_003405299.2	Loxodonta africana	100657786		340	kept	representative	XP_003405299.2 LUM [organism=Loxodonta africana] [GeneID=100657786]	Loxodonta_africana|LUM|XP_003405299.2
+LUM	XP_032893920.1	Amblyraja radiata	116984005		341	kept	representative	XP_032893920.1 lum [organism=Amblyraja radiata] [GeneID=116984005]	Amblyraja_radiata|LUM|XP_032893920.1
+LUM	XP_032893921.1	Amblyraja radiata	116984005		341	excluded	extra_isoform_same_locus	XP_032893921.1 lum [organism=Amblyraja radiata] [GeneID=116984005]	Amblyraja_radiata|LUM|XP_032893921.1
+LUM	XP_083763317.1	Microchirus variegatus	310941936		340	kept	representative	XP_083763317.1 lum [organism=Microchirus variegatus] [GeneID=310941936]	Microchirus_variegatus|LUM|XP_083763317.1
+LUM	XP_010310655.2	Balearica regulorum gibbericeps	104643141		343	kept	representative	XP_010310655.2 LUM [organism=Balearica regulorum gibbericeps] [GeneID=104643141]	Balearica_regulorum_gibbericeps|LUM|XP_010310655.2
+LUM	XP_039891365.1	Simochromis diagramma	120735776		342	kept	representative	XP_039891365.1 lum [organism=Simochromis diagramma] [GeneID=120735776]	Simochromis_diagramma|LUM|XP_039891365.1
+LUM	XP_039891366.1	Simochromis diagramma	120735776		342	excluded	extra_isoform_same_locus	XP_039891366.1 lum [organism=Simochromis diagramma] [GeneID=120735776]	Simochromis_diagramma|LUM|XP_039891366.1
+LUM	XP_039891367.1	Simochromis diagramma	120735776		342	excluded	extra_isoform_same_locus	XP_039891367.1 lum [organism=Simochromis diagramma] [GeneID=120735776]	Simochromis_diagramma|LUM|XP_039891367.1
+LUM	XP_039891368.1	Simochromis diagramma	120735776		342	excluded	extra_isoform_same_locus	XP_039891368.1 lum [organism=Simochromis diagramma] [GeneID=120735776]	Simochromis_diagramma|LUM|XP_039891368.1
+LUM	XP_053798915.1	Vidua chalybeata	128788125		343	kept	representative	XP_053798915.1 LUM [organism=Vidua chalybeata] [GeneID=128788125]	Vidua_chalybeata|LUM|XP_053798915.1
+LUM	XP_075065490.1	Mixophyes fleayi	142152596		345	kept	representative	XP_075065490.1 LUM [organism=Mixophyes fleayi] [GeneID=142152596]	Mixophyes_fleayi|LUM|XP_075065490.1
+LUM	XP_067415193.1	Emydura macquarii macquarii	137160528		350	kept	representative	XP_067415193.1 LUM [organism=Emydura macquarii macquarii] [GeneID=137160528]	Emydura_macquarii_macquarii|LUM|XP_067415193.1
+LUM	XP_068611383.1	Brachionichthys hirsutus	137910865		342	kept	representative	XP_068611383.1 lum [organism=Brachionichthys hirsutus] [GeneID=137910865]	Brachionichthys_hirsutus|LUM|XP_068611383.1
+LUM	NP_001002059.1	Danio rerio	415149		344	kept	representative	NP_001002059.1 lum [organism=Danio rerio] [GeneID=415149]	Danio_rerio|LUM|NP_001002059.1
+LUM	XP_009069683.1	Acanthisitta chloris	103799136		343	kept	representative	XP_009069683.1 LUM [organism=Acanthisitta chloris] [GeneID=103799136]	Acanthisitta_chloris|LUM|XP_009069683.1
+LUM	XP_024610139.1	Neophocaena asiaeorientalis asiaeorientalis	112405813		340	kept	representative	XP_024610139.1 LUM [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112405813]	Neophocaena_asiaeorientalis_asiaeorientalis|LUM|XP_024610139.1
+LUM	XP_024610140.1	Neophocaena asiaeorientalis asiaeorientalis	112405813		340	excluded	extra_isoform_same_locus	XP_024610140.1 LUM [organism=Neophocaena asiaeorientalis asiaeorientalis] [GeneID=112405813]	Neophocaena_asiaeorientalis_asiaeorientalis|LUM|XP_024610140.1
+LUM	XP_005012436.1	Anas platyrhynchos	101801762		343	kept	representative	XP_005012436.1 LUM [organism=Anas platyrhynchos] [GeneID=101801762]	Anas_platyrhynchos|LUM|XP_005012436.1
+LUM	XP_015815431.3	Nothobranchius furzeri	107385817		343	kept	representative	XP_015815431.3 lum [organism=Nothobranchius furzeri] [GeneID=107385817]	Nothobranchius_furzeri|LUM|XP_015815431.3
+LUM	XP_080219591.1	Nesoenas mayeri	308052825		343	kept	representative	XP_080219591.1 LUM [organism=Nesoenas mayeri] [GeneID=308052825]	Nesoenas_mayeri|LUM|XP_080219591.1
+LUM	XP_007944312.1	Orycteropus afer afer	103201427		339	kept	representative	XP_007944312.1 LUM [organism=Orycteropus afer afer] [GeneID=103201427]	Orycteropus_afer_afer|LUM|XP_007944312.1
+LUM	XP_056604086.1	Triplophysa dalaica	130420651		342	kept	representative	XP_056604086.1 lum [organism=Triplophysa dalaica] [GeneID=130420651]	Triplophysa_dalaica|LUM|XP_056604086.1
+LUM	XP_056604087.1	Triplophysa dalaica	130420651		342	excluded	extra_isoform_same_locus	XP_056604087.1 lum [organism=Triplophysa dalaica] [GeneID=130420651]	Triplophysa_dalaica|LUM|XP_056604087.1
+LUM	XP_056604088.1	Triplophysa dalaica	130420651		342	excluded	extra_isoform_same_locus	XP_056604088.1 lum [organism=Triplophysa dalaica] [GeneID=130420651]	Triplophysa_dalaica|LUM|XP_056604088.1
+LUM	XP_014744552.1	Sturnus vulgaris	106860935		343	kept	representative	XP_014744552.1 LUM [organism=Sturnus vulgaris] [GeneID=106860935]	Sturnus_vulgaris|LUM|XP_014744552.1
+LUM	XP_041717331.1	Coregonus clupeaformis	121549607		342	kept	representative	XP_041717331.1 lum [organism=Coregonus clupeaformis] [GeneID=121549607]	Coregonus_clupeaformis|LUM|XP_041717331.1
+LUM	XP_045068808.1	Coregonus clupeaformis	121549607		342	excluded	extra_isoform_same_locus	XP_045068808.1 lum [organism=Coregonus clupeaformis] [GeneID=121549607]	Coregonus_clupeaformis|LUM|XP_045068808.1
+LUM	XP_066224748.1	Saccopteryx leptura	136394863		344	kept	representative	XP_066224748.1 LUM [organism=Saccopteryx leptura] [GeneID=136394863]	Saccopteryx_leptura|LUM|XP_066224748.1
+LUM	XP_079793155.1	Stenella coeruleoalba	307194141	1	340	kept	representative	XP_079793155.1 LUM [organism=Stenella coeruleoalba] [GeneID=307194141] [isoform=1]	Stenella_coeruleoalba|LUM|XP_079793155.1
+LUM	XP_079793156.1	Stenella coeruleoalba	307194141	1	340	excluded	extra_isoform_same_locus	XP_079793156.1 LUM [organism=Stenella coeruleoalba] [GeneID=307194141] [isoform=1]	Stenella_coeruleoalba|LUM|XP_079793156.1
+LUM	XP_003475879.1	Cavia porcellus	100732503		340	kept	representative	XP_003475879.1 Lum [organism=Cavia porcellus] [GeneID=100732503]	Cavia_porcellus|LUM|XP_003475879.1
+LUM	XP_072565340.1	Paramormyrops kingsleyae	111853821	X1	413	excluded	extra_isoform_same_locus	XP_072565340.1 lum [organism=Paramormyrops kingsleyae] [GeneID=111853821] [isoform=X1]	Paramormyrops_kingsleyae|LUM|XP_072565340.1
+LUM	XP_072565346.1	Paramormyrops kingsleyae	111853821	X2	343	kept	representative	XP_072565346.1 lum [organism=Paramormyrops kingsleyae] [GeneID=111853821] [isoform=X2]	Paramormyrops_kingsleyae|LUM|XP_072565346.1
+LUM	XP_006029353.1	Alligator sinensis	102385370		342	kept	representative	XP_006029353.1 LUM [organism=Alligator sinensis] [GeneID=102385370]	Alligator_sinensis|LUM|XP_006029353.1
+LUM	XP_075327801.1	Odontesthes bonariensis	142385291		342	kept	representative	XP_075327801.1 lum [organism=Odontesthes bonariensis] [GeneID=142385291]	Odontesthes_bonariensis|LUM|XP_075327801.1
+LUM	XP_080743391.1	Rhamphochromis sp. 'chilingali'	308399853		342	kept	representative	XP_080743391.1 lum [organism=Rhamphochromis sp. 'chilingali'] [GeneID=308399853]	Rhamphochromis_sp._chilingali|LUM|XP_080743391.1
+LUM	XP_045318578.1	Leopardus geoffroyi	123589958		339	kept	representative	XP_045318578.1 LUM [organism=Leopardus geoffroyi] [GeneID=123589958]	Leopardus_geoffroyi|LUM|XP_045318578.1
+LUM	XP_045318580.1	Leopardus geoffroyi	123589958		339	excluded	extra_isoform_same_locus	XP_045318580.1 LUM [organism=Leopardus geoffroyi] [GeneID=123589958]	Leopardus_geoffroyi|LUM|XP_045318580.1
+LUM	XP_015270832.1	Gekko japonicus	107113938		350	kept	representative	XP_015270832.1 LUM [organism=Gekko japonicus] [GeneID=107113938]	Gekko_japonicus|LUM|XP_015270832.1
+LUM	XP_015270833.1	Gekko japonicus	107113938		350	excluded	extra_isoform_same_locus	XP_015270833.1 LUM [organism=Gekko japonicus] [GeneID=107113938]	Gekko_japonicus|LUM|XP_015270833.1
+LUM	XP_084202362.1	Pagrus pagrus	311252742		342	kept	representative	XP_084202362.1 lum [organism=Pagrus pagrus] [GeneID=311252742]	Pagrus_pagrus|LUM|XP_084202362.1
+LUM	NP_001310144.1	Coturnix japonica	107311489		343	kept	representative	NP_001310144.1 LUM [organism=Coturnix japonica] [GeneID=107311489]	Coturnix_japonica|LUM|NP_001310144.1
+LUM	XP_036257297.1	Molothrus ater	118698239		343	kept	representative	XP_036257297.1 LUM [organism=Molothrus ater] [GeneID=118698239]	Molothrus_ater|LUM|XP_036257297.1
+LUM	XP_010382244.1	Rhinopithecus roxellana	104678614		338	kept	representative	XP_010382244.1 LUM [organism=Rhinopithecus roxellana] [GeneID=104678614]	Rhinopithecus_roxellana|LUM|XP_010382244.1
+LUM	XP_010560163.1	Haliaeetus leucocephalus	104828278		343	kept	representative	XP_010560163.1 LUM [organism=Haliaeetus leucocephalus] [GeneID=104828278]	Haliaeetus_leucocephalus|LUM|XP_010560163.1
+LUM	XP_032746671.1	Rattus rattus	116889995		338	kept	representative	XP_032746671.1 Lum [organism=Rattus rattus] [GeneID=116889995]	Rattus_rattus|LUM|XP_032746671.1
+LUM	XP_082111447.1	Pelophylax lessonae	309553852		347	kept	representative	XP_082111447.1 LUM [organism=Pelophylax lessonae] [GeneID=309553852]	Pelophylax_lessonae|LUM|XP_082111447.1
+LUM	XP_017723859.1	Rhinopithecus bieti	108527221		338	kept	representative	XP_017723859.1 LUM [organism=Rhinopithecus bieti] [GeneID=108527221]	Rhinopithecus_bieti|LUM|XP_017723859.1
+LUM	XP_040264696.1	Bufo bufo	120979805		346	kept	representative	XP_040264696.1 LUM [organism=Bufo bufo] [GeneID=120979805]	Bufo_bufo|LUM|XP_040264696.1
+LUM	XP_020782351.1	Boleophthalmus pectinirostris	110161854		342	kept	representative	XP_020782351.1 lum [organism=Boleophthalmus pectinirostris] [GeneID=110161854]	Boleophthalmus_pectinirostris|LUM|XP_020782351.1
+LUM	XP_034091679.1	Gymnodraco acuticeps	117559123		342	kept	representative	XP_034091679.1 lum [organism=Gymnodraco acuticeps] [GeneID=117559123]	Gymnodraco_acuticeps|LUM|XP_034091679.1
+LUM	XP_056703078.1	Euleptes europaea	130475343		351	kept	representative	XP_056703078.1 LUM [organism=Euleptes europaea] [GeneID=130475343]	Euleptes_europaea|LUM|XP_056703078.1
+LUM	XP_056703079.1	Euleptes europaea	130475343		351	excluded	extra_isoform_same_locus	XP_056703079.1 LUM [organism=Euleptes europaea] [GeneID=130475343]	Euleptes_europaea|LUM|XP_056703079.1
+LUM	XP_072257339.1	Pyxicephalus adspersus	140323848		348	kept	representative	XP_072257339.1 LUM [organism=Pyxicephalus adspersus] [GeneID=140323848]	Pyxicephalus_adspersus|LUM|XP_072257339.1
+LUM	XP_019400796.1	Crocodylus porosus	109316871		342	kept	representative	XP_019400796.1 LUM [organism=Crocodylus porosus] [GeneID=109316871]	Crocodylus_porosus|LUM|XP_019400796.1
+LUM	XP_065599229.1	Cyrtonyx montezumae	136052785		343	kept	representative	XP_065599229.1 LUM [organism=Cyrtonyx montezumae] [GeneID=136052785]	Cyrtonyx_montezumae|LUM|XP_065599229.1
+LUM	XP_065599230.1	Cyrtonyx montezumae	136052785		343	excluded	extra_isoform_same_locus	XP_065599230.1 LUM [organism=Cyrtonyx montezumae] [GeneID=136052785]	Cyrtonyx_montezumae|LUM|XP_065599230.1
+LUM	XP_071375287.1	Centroberyx affinis	139643894		342	kept	representative	XP_071375287.1 lum [organism=Centroberyx affinis] [GeneID=139643894]	Centroberyx_affinis|LUM|XP_071375287.1
+LUM	XP_003202173.3	Meleagris gallopavo	100543036		343	kept	representative	XP_003202173.3 LUM [organism=Meleagris gallopavo] [GeneID=100543036]	Meleagris_gallopavo|LUM|XP_003202173.3
+LUM	XP_086125644.1	Aulonocara sp. 'chitande type north' Nkhata Bay	147310307		342	kept	representative	XP_086125644.1 lum [organism=Aulonocara sp. 'chitande type north' Nkhata Bay] [GeneID=147310307]	Aulonocara_sp._chitande_type_north_Nkhata_Bay|LUM|XP_086125644.1
+LUM	XP_026554620.1	Pseudonaja textilis	113435182		345	kept	representative	XP_026554620.1 LUM [organism=Pseudonaja textilis] [GeneID=113435182]	Pseudonaja_textilis|LUM|XP_026554620.1
+LUM	XP_054023811.1	Dryobates pubescens	104305169		343	kept	representative	XP_054023811.1 LUM [organism=Dryobates pubescens] [GeneID=104305169]	Dryobates_pubescens|LUM|XP_054023811.1
+LUM	XP_034259136.1	Pantherophis guttatus	117655639		345	kept	representative	XP_034259136.1 LUM [organism=Pantherophis guttatus] [GeneID=117655639]	Pantherophis_guttatus|LUM|XP_034259136.1
+LUM	XP_080561271.1	Muscardinus avellanarius	308269758		338	kept	representative	XP_080561271.1 LUM [organism=Muscardinus avellanarius] [GeneID=308269758]	Muscardinus_avellanarius|LUM|XP_080561271.1
+LUM	XP_049422687.1	Epinephelus fuscoguttatus	125882835		342	kept	representative	XP_049422687.1 lum [organism=Epinephelus fuscoguttatus] [GeneID=125882835]	Epinephelus_fuscoguttatus|LUM|XP_049422687.1
+LUM	XP_055192638.1	Nyctereutes procyonoides	129517022		338	kept	representative	XP_055192638.1 LUM [organism=Nyctereutes procyonoides] [GeneID=129517022]	Nyctereutes_procyonoides|LUM|XP_055192638.1
+LUM	XP_059702794.1	Haemorhous mexicanus	132327534		343	kept	representative	XP_059702794.1 LUM [organism=Haemorhous mexicanus] [GeneID=132327534]	Haemorhous_mexicanus|LUM|XP_059702794.1
+LUM	XP_072629144.1	Canis lupus baileyi	140602850		338	kept	representative	XP_072629144.1 LUM [organism=Canis lupus baileyi] [GeneID=140602850]	Canis_lupus_baileyi|LUM|XP_072629144.1
+LUM	XP_005910152.1	Bos mutus	102279626		342	kept	representative	XP_005910152.1 LUM [organism=Bos mutus] [GeneID=102279626]	Bos_mutus|LUM|XP_005910152.1
+LUM	XP_070227031.1	Bos mutus	102279626		342	excluded	extra_isoform_same_locus	XP_070227031.1 LUM [organism=Bos mutus] [GeneID=102279626]	Bos_mutus|LUM|XP_070227031.1
+LUM	XP_038612905.1	Tachyglossus aculeatus	119937289		349	kept	representative	XP_038612905.1 LUM [organism=Tachyglossus aculeatus] [GeneID=119937289]	Tachyglossus_aculeatus|LUM|XP_038612905.1
+LUM	XP_038612906.1	Tachyglossus aculeatus	119937289		349	excluded	extra_isoform_same_locus	XP_038612906.1 LUM [organism=Tachyglossus aculeatus] [GeneID=119937289]	Tachyglossus_aculeatus|LUM|XP_038612906.1
+LUM	XP_047431514.1	Mugil cephalus	125000162		342	kept	representative	XP_047431514.1 lum [organism=Mugil cephalus] [GeneID=125000162]	Mugil_cephalus|LUM|XP_047431514.1
+LUM	XP_054608720.1	Dunckerocampus dactyliophorus	129167997		342	kept	representative	XP_054608720.1 lum [organism=Dunckerocampus dactyliophorus] [GeneID=129167997]	Dunckerocampus_dactyliophorus|LUM|XP_054608720.1
+LUM	XP_079350511.1	Electrona antarctica	306916497	1	344	kept	representative	XP_079350511.1 lum [organism=Electrona antarctica] [GeneID=306916497] [isoform=1]	Electrona_antarctica|LUM|XP_079350511.1
+LUM	XP_079350512.1	Electrona antarctica	306916497	1	344	excluded	extra_isoform_same_locus	XP_079350512.1 lum [organism=Electrona antarctica] [GeneID=306916497] [isoform=1]	Electrona_antarctica|LUM|XP_079350512.1
+LUM	XP_023078865.1	Piliocolobus tephrosceles	111549872	X1	338	kept	representative	XP_023078865.1 LUM [organism=Piliocolobus tephrosceles] [GeneID=111549872] [isoform=X1]	Piliocolobus_tephrosceles|LUM|XP_023078865.1
+LUM	XP_023078922.1	Piliocolobus tephrosceles	111549872	X2	290	excluded	extra_isoform_same_locus	XP_023078922.1 LUM [organism=Piliocolobus tephrosceles] [GeneID=111549872] [isoform=X2]	Piliocolobus_tephrosceles|LUM|XP_023078922.1
+LUM	XP_023078995.1	Piliocolobus tephrosceles	111549872	X3	289	excluded	extra_isoform_same_locus	XP_023078995.1 LUM [organism=Piliocolobus tephrosceles] [GeneID=111549872] [isoform=X3]	Piliocolobus_tephrosceles|LUM|XP_023078995.1
+LUM	NP_001075249.1	Equus caballus	100009681		341	kept	representative	NP_001075249.1 LUM [organism=Equus caballus] [GeneID=100009681]	Equus_caballus|LUM|NP_001075249.1
+LUM	XP_006923884.1	Pteropus alecto	102886614		339	kept	representative	XP_006923884.1 LUM [organism=Pteropus alecto] [GeneID=102886614]	Pteropus_alecto|LUM|XP_006923884.1
+LUM	XP_036108105.1	Molossus molossus	118624171		341	kept	representative	XP_036108105.1 LUM [organism=Molossus molossus] [GeneID=118624171]	Molossus_molossus|LUM|XP_036108105.1
+LUM	XP_037099676.1	Syngnathus acus	119117494		341	kept	representative	XP_037099676.1 lum [organism=Syngnathus acus] [GeneID=119117494]	Syngnathus_acus|LUM|XP_037099676.1
+LUM	XP_029102973.1	Scleropages formosus	114909268	X1	360	excluded	extra_isoform_same_locus	XP_029102973.1 lum [organism=Scleropages formosus] [GeneID=114909268] [isoform=X1]	Scleropages_formosus|LUM|XP_029102973.1
+LUM	XP_029102974.1	Scleropages formosus	114909268	X2	343	kept	representative	XP_029102974.1 lum [organism=Scleropages formosus] [GeneID=114909268] [isoform=X2]	Scleropages_formosus|LUM|XP_029102974.1
+LUM	XP_011844305.1	Mandrillus leucophaeus	105545869	X1	338	kept	representative	XP_011844305.1 LUM [organism=Mandrillus leucophaeus] [GeneID=105545869] [isoform=X1]	Mandrillus_leucophaeus|LUM|XP_011844305.1
+LUM	XP_011844306.1	Mandrillus leucophaeus	105545869	X2	338	excluded	extra_isoform_same_locus	XP_011844306.1 LUM [organism=Mandrillus leucophaeus] [GeneID=105545869] [isoform=X2]	Mandrillus_leucophaeus|LUM|XP_011844306.1
+LUM	XP_011844307.1	Mandrillus leucophaeus	105545869	X1	338	excluded	extra_isoform_same_locus	XP_011844307.1 LUM [organism=Mandrillus leucophaeus] [GeneID=105545869] [isoform=X1]	Mandrillus_leucophaeus|LUM|XP_011844307.1
+LUM	XP_011844308.1	Mandrillus leucophaeus	105545869	X3	289	excluded	extra_isoform_same_locus	XP_011844308.1 LUM [organism=Mandrillus leucophaeus] [GeneID=105545869] [isoform=X3]	Mandrillus_leucophaeus|LUM|XP_011844308.1
+LUM	XP_066579813.1	Amia ocellicauda	136771413		342	kept	representative	XP_066579813.1 lum [organism=Amia ocellicauda] [GeneID=136771413]	Amia_ocellicauda|LUM|XP_066579813.1
+LUM	XP_066579814.1	Amia ocellicauda	136771413		342	excluded	extra_isoform_same_locus	XP_066579814.1 lum [organism=Amia ocellicauda] [GeneID=136771413]	Amia_ocellicauda|LUM|XP_066579814.1
+LUM	XP_066579815.1	Amia ocellicauda	136771413		342	excluded	extra_isoform_same_locus	XP_066579815.1 lum [organism=Amia ocellicauda] [GeneID=136771413]	Amia_ocellicauda|LUM|XP_066579815.1
+LUM	XP_015208177.1	Lepisosteus oculatus	107078028		344	kept	representative	XP_015208177.1 lum [organism=Lepisosteus oculatus] [GeneID=107078028]	Lepisosteus_oculatus|LUM|XP_015208177.1
+LUM	XP_047724331.1	Prionailurus viverrinus	125171184		339	kept	representative	XP_047724331.1 LUM [organism=Prionailurus viverrinus] [GeneID=125171184]	Prionailurus_viverrinus|LUM|XP_047724331.1
+LUM	XP_086775683.1	Lissotriton vulgaris	147751383		356	kept	representative	XP_086775683.1 LUM [organism=Lissotriton vulgaris] [GeneID=147751383]	Lissotriton_vulgaris|LUM|XP_086775683.1
+LUM	XP_080276873.1	Gymnoscopelus braueri	308079319	1	343	kept	representative	XP_080276873.1 lum [organism=Gymnoscopelus braueri] [GeneID=308079319] [isoform=1]	Gymnoscopelus_braueri|LUM|XP_080276873.1
+LUM	XP_080276874.1	Gymnoscopelus braueri	308079319	1	343	excluded	extra_isoform_same_locus	XP_080276874.1 lum [organism=Gymnoscopelus braueri] [GeneID=308079319] [isoform=1]	Gymnoscopelus_braueri|LUM|XP_080276874.1
+LUM	XP_081166594.1	Spermophilus citellus	308658036		338	kept	representative	XP_081166594.1 LUM [organism=Spermophilus citellus] [GeneID=308658036]	Spermophilus_citellus|LUM|XP_081166594.1
+LUM	XP_063783707.1	Pseudophryne corroboree	134932851		346	kept	representative	XP_063783707.1 LUM [organism=Pseudophryne corroboree] [GeneID=134932851]	Pseudophryne_corroboree|LUM|XP_063783707.1
+LUM	XP_007259064.3	Astyanax mexicanus	103047128		341	kept	representative	XP_007259064.3 lum [organism=Astyanax mexicanus] [GeneID=103047128]	Astyanax_mexicanus|LUM|XP_007259064.3
+LUM	XP_049330972.1	Astyanax mexicanus	103047128		341	excluded	extra_isoform_same_locus	XP_049330972.1 lum [organism=Astyanax mexicanus] [GeneID=103047128]	Astyanax_mexicanus|LUM|XP_049330972.1
+LUM	XP_049330973.1	Astyanax mexicanus	103047128		341	excluded	extra_isoform_same_locus	XP_049330973.1 lum [organism=Astyanax mexicanus] [GeneID=103047128]	Astyanax_mexicanus|LUM|XP_049330973.1
+LUM	XP_049330974.1	Astyanax mexicanus	103047128		341	excluded	extra_isoform_same_locus	XP_049330974.1 lum [organism=Astyanax mexicanus] [GeneID=103047128]	Astyanax_mexicanus|LUM|XP_049330974.1
+LUM	XP_033989528.1	Trematomus bernacchii	117485041		342	kept	representative	XP_033989528.1 lum [organism=Trematomus bernacchii] [GeneID=117485041]	Trematomus_bernacchii|LUM|XP_033989528.1
+LUM	XP_035535029.1	Morone saxatilis	118340965		342	kept	representative	XP_035535029.1 lum [organism=Morone saxatilis] [GeneID=118340965]	Morone_saxatilis|LUM|XP_035535029.1
+LUM	XP_031456345.1	Phasianus colchicus	116233513		343	kept	representative	XP_031456345.1 LUM [organism=Phasianus colchicus] [GeneID=116233513]	Phasianus_colchicus|LUM|XP_031456345.1
+LUM	XP_049639689.1	Suncus etruscus	126022737		343	kept	representative	XP_049639689.1 LUM [organism=Suncus etruscus] [GeneID=126022737]	Suncus_etruscus|LUM|XP_049639689.1
+LUM	XP_061061135.1	Eubalaena glacialis	133100742		340	kept	representative	XP_061061135.1 LUM [organism=Eubalaena glacialis] [GeneID=133100742]	Eubalaena_glacialis|LUM|XP_061061135.1
+LUM	XP_061061137.1	Eubalaena glacialis	133100742		340	excluded	extra_isoform_same_locus	XP_061061137.1 LUM [organism=Eubalaena glacialis] [GeneID=133100742]	Eubalaena_glacialis|LUM|XP_061061137.1
+LUM	XP_072914950.1	Hemitrygon akajei	140734624		342	kept	representative	XP_072914950.1 lum [organism=Hemitrygon akajei] [GeneID=140734624]	Hemitrygon_akajei|LUM|XP_072914950.1
+LUM	XP_072914951.1	Hemitrygon akajei	140734624		342	excluded	extra_isoform_same_locus	XP_072914951.1 lum [organism=Hemitrygon akajei] [GeneID=140734624]	Hemitrygon_akajei|LUM|XP_072914951.1
+LUM	XP_032202678.1	Mustela erminea	116593028		337	kept	representative	XP_032202678.1 LUM [organism=Mustela erminea] [GeneID=116593028]	Mustela_erminea|LUM|XP_032202678.1
+LUM	XP_034718970.1	Etheostoma cragini	117938456		343	kept	representative	XP_034718970.1 lum [organism=Etheostoma cragini] [GeneID=117938456]	Etheostoma_cragini|LUM|XP_034718970.1
+LUM	XP_072511656.1	Notamacropus eugenii	140534475		341	kept	representative	XP_072511656.1 LUM [organism=Notamacropus eugenii] [GeneID=140534475]	Notamacropus_eugenii|LUM|XP_072511656.1
+LUM	XP_006180835.1	Camelus ferus	102519636		339	kept	representative	XP_006180835.1 LUM [organism=Camelus ferus] [GeneID=102519636]	Camelus_ferus|LUM|XP_006180835.1
+LUM	XP_039648237.1	Perca fluviatilis	120553660		342	kept	representative	XP_039648237.1 lum [organism=Perca fluviatilis] [GeneID=120553660]	Perca_fluviatilis|LUM|XP_039648237.1
+LUM	XP_041113145.1	Polyodon spathula	121319612		340	kept	representative	XP_041113145.1 lum [organism=Polyodon spathula] [GeneID=121319612]	Polyodon_spathula|LUM|XP_041113145.1
+LUM	XP_014844937.1	Poecilia mexicana	106919222		342	kept	representative	XP_014844937.1 lum [organism=Poecilia mexicana] [GeneID=106919222]	Poecilia_mexicana|LUM|XP_014844937.1
+LUM	XP_026355696.1	Ursus arctos	113256178		338	kept	representative	XP_026355696.1 LUM [organism=Ursus arctos] [GeneID=113256178]	Ursus_arctos|LUM|XP_026355696.1
+LUM	XP_048073878.1	Ursus arctos	113256178		338	excluded	extra_isoform_same_locus	XP_048073878.1 LUM [organism=Ursus arctos] [GeneID=113256178]	Ursus_arctos|LUM|XP_048073878.1
+LUM	XP_044533907.1	Gracilinanus agilis	123249016		341	kept	representative	XP_044533907.1 LUM [organism=Gracilinanus agilis] [GeneID=123249016]	Gracilinanus_agilis|LUM|XP_044533907.1
+LUM	XP_026216977.1	Anabas testudineus	113162930		342	kept	representative	XP_026216977.1 lum [organism=Anabas testudineus] [GeneID=113162930]	Anabas_testudineus|LUM|XP_026216977.1
+LUM	XP_006780832.1	Neolamprologus brichardi	102799822		342	kept	representative	XP_006780832.1 lum [organism=Neolamprologus brichardi] [GeneID=102799822]	Neolamprologus_brichardi|LUM|XP_006780832.1
+LUM	XP_006780833.1	Neolamprologus brichardi	102799822		342	excluded	extra_isoform_same_locus	XP_006780833.1 lum [organism=Neolamprologus brichardi] [GeneID=102799822]	Neolamprologus_brichardi|LUM|XP_006780833.1
+LUM	XP_044311355.1	Varanus komodoensis	123036287		349	kept	representative	XP_044311355.1 LUM [organism=Varanus komodoensis] [GeneID=123036287]	Varanus_komodoensis|LUM|XP_044311355.1
+LUM	XP_086002548.1	Fistularia commersonii	147233823		342	kept	representative	XP_086002548.1 lum [organism=Fistularia commersonii] [GeneID=147233823]	Fistularia_commersonii|LUM|XP_086002548.1
+LUM	XP_045927972.1	Micropterus dolomieu	123984829		343	kept	representative	XP_045927972.1 lum [organism=Micropterus dolomieu] [GeneID=123984829]	Micropterus_dolomieu|LUM|XP_045927972.1
+LUM	XP_061495568.1	Rhineura floridana	133390627		349	kept	representative	XP_061495568.1 LUM [organism=Rhineura floridana] [GeneID=133390627]	Rhineura_floridana|LUM|XP_061495568.1
+LUM	XP_061495569.1	Rhineura floridana	133390627		349	excluded	extra_isoform_same_locus	XP_061495569.1 LUM [organism=Rhineura floridana] [GeneID=133390627]	Rhineura_floridana|LUM|XP_061495569.1
+LUM	XP_069527551.1	Semicossyphus pulcher	138599695		342	kept	representative	XP_069527551.1 lum [organism=Semicossyphus pulcher] [GeneID=138599695]	Semicossyphus_pulcher|LUM|XP_069527551.1
+LUM	XP_005358187.1	Microtus ochrogaster	101991196		338	kept	representative	XP_005358187.1 Lum [organism=Microtus ochrogaster] [GeneID=101991196]	Microtus_ochrogaster|LUM|XP_005358187.1
+LUM	XP_009319598.1	Pygoscelis adeliae	103914641		343	kept	representative	XP_009319598.1 LUM [organism=Pygoscelis adeliae] [GeneID=103914641]	Pygoscelis_adeliae|LUM|XP_009319598.1
+LUM	XP_007524306.1	Erinaceus europaeus	103114555	X2	338	kept	representative	XP_007524306.1 LUM [organism=Erinaceus europaeus] [GeneID=103114555] [isoform=X2]	Erinaceus_europaeus|LUM|XP_007524306.1
+LUM	XP_060051499.1	Erinaceus europaeus	103114555	X1	347	excluded	extra_isoform_same_locus	XP_060051499.1 LUM [organism=Erinaceus europaeus] [GeneID=103114555] [isoform=X1]	Erinaceus_europaeus|LUM|XP_060051499.1
+LUM	XP_032153389.1	Sapajus apella	116564403		338	kept	representative	XP_032153389.1 LUM [organism=Sapajus apella] [GeneID=116564403]	Sapajus_apella|LUM|XP_032153389.1
+LUM	XP_058481513.1	Solea solea	131456862		342	kept	representative	XP_058481513.1 lum [organism=Solea solea] [GeneID=131456862]	Solea_solea|LUM|XP_058481513.1
+LUM	XP_037552011.1	Nematolebias whitei	119428404		342	kept	representative	XP_037552011.1 lum [organism=Nematolebias whitei] [GeneID=119428404]	Nematolebias_whitei|LUM|XP_037552011.1
+LUM	XP_069705931.1	Phaenicophaeus curvirostris	138716657		343	kept	representative	XP_069705931.1 LUM [organism=Phaenicophaeus curvirostris] [GeneID=138716657]	Phaenicophaeus_curvirostris|LUM|XP_069705931.1
+LUM	XP_028809680.1	Denticeps clupeoides	114764316		340	kept	representative	XP_028809680.1 lum [organism=Denticeps clupeoides] [GeneID=114764316]	Denticeps_clupeoides|LUM|XP_028809680.1
+LUM	XP_082493069.1	Mesoplodon mirus	309812795		340	kept	representative	XP_082493069.1 LUM [organism=Mesoplodon mirus] [GeneID=309812795]	Mesoplodon_mirus|LUM|XP_082493069.1
+LUM	XP_074914085.1	Buteo buteo	142044956		343	kept	representative	XP_074914085.1 LUM [organism=Buteo buteo] [GeneID=142044956]	Buteo_buteo|LUM|XP_074914085.1
+LUM	XP_060101157.1	Heteronotia binoei	132576219		351	kept	representative	XP_060101157.1 LUM [organism=Heteronotia binoei] [GeneID=132576219]	Heteronotia_binoei|LUM|XP_060101157.1
+LUM	XP_060101158.1	Heteronotia binoei	132576219		351	excluded	extra_isoform_same_locus	XP_060101158.1 LUM [organism=Heteronotia binoei] [GeneID=132576219]	Heteronotia_binoei|LUM|XP_060101158.1
+LUM	XP_060101159.1	Heteronotia binoei	132576219		351	excluded	extra_isoform_same_locus	XP_060101159.1 LUM [organism=Heteronotia binoei] [GeneID=132576219]	Heteronotia_binoei|LUM|XP_060101159.1
+LUM	XP_084902535.1	Lichenostomus cassidix	146443529		343	kept	representative	XP_084902535.1 LUM [organism=Lichenostomus cassidix] [GeneID=146443529]	Lichenostomus_cassidix|LUM|XP_084902535.1
+LUM	XP_004602884.1	Sorex araneus	101554191		342	kept	representative	XP_004602884.1 LUM [organism=Sorex araneus] [GeneID=101554191]	Sorex_araneus|LUM|XP_004602884.1
+LUM	XP_034528880.1	Notolabrus celidotus	117804677		342	kept	representative	XP_034528880.1 lum [organism=Notolabrus celidotus] [GeneID=117804677]	Notolabrus_celidotus|LUM|XP_034528880.1
+LUM	XP_056091723.1	Rhinichthys klamathensis goyatoka	130071120		344	kept	representative	XP_056091723.1 lum [organism=Rhinichthys klamathensis goyatoka] [GeneID=130071120]	Rhinichthys_klamathensis_goyatoka|LUM|XP_056091723.1
+LUM	XP_056091724.1	Rhinichthys klamathensis goyatoka	130071120		344	excluded	extra_isoform_same_locus	XP_056091724.1 lum [organism=Rhinichthys klamathensis goyatoka] [GeneID=130071120]	Rhinichthys_klamathensis_goyatoka|LUM|XP_056091724.1
+LUM	XP_044199901.1	Thunnus albacares	122975507		342	kept	representative	XP_044199901.1 lum [organism=Thunnus albacares] [GeneID=122975507]	Thunnus_albacares|LUM|XP_044199901.1
+LUM	XP_085960072.1	Hippocampus guttulatus	147186205		342	kept	representative	XP_085960072.1 lum [organism=Hippocampus guttulatus] [GeneID=147186205]	Hippocampus_guttulatus|LUM|XP_085960072.1
+LUM	XP_041595028.1	Vulpes lagopus	121481600		338	kept	representative	XP_041595028.1 LUM [organism=Vulpes lagopus] [GeneID=121481600]	Vulpes_lagopus|LUM|XP_041595028.1
+LUM	XP_076152763.1	Alosa pseudoharengus	143136131		340	kept	representative	XP_076152763.1 lum [organism=Alosa pseudoharengus] [GeneID=143136131]	Alosa_pseudoharengus|LUM|XP_076152763.1
+LUM	XP_079631154.1	Cnephaeus nilssonii	307101706		339	kept	representative	XP_079631154.1 LUM [organism=Cnephaeus nilssonii] [GeneID=307101706]	Cnephaeus_nilssonii|LUM|XP_079631154.1
+LUM	XP_080880249.1	Podarcis pityusensis	308486904		349	kept	representative	XP_080880249.1 LUM [organism=Podarcis pityusensis] [GeneID=308486904]	Podarcis_pityusensis|LUM|XP_080880249.1
+LUM	XP_038352174.1	Canis lupus familiaris	482599		338	kept	representative	XP_038352174.1 LUM [organism=Canis lupus familiaris] [GeneID=482599]	Canis_lupus_familiaris|LUM|XP_038352174.1
+LUM	XP_038414561.1	Canis lupus familiaris	482599		338	excluded	extra_isoform_same_locus	XP_038414561.1 LUM [organism=Canis lupus familiaris] [GeneID=482599]	Canis_lupus_familiaris|LUM|XP_038414561.1
+LUM	XP_038478461.1	Canis lupus familiaris	482599		338	excluded	extra_isoform_same_locus	XP_038478461.1 LUM [organism=Canis lupus familiaris] [GeneID=482599]	Canis_lupus_familiaris|LUM|XP_038478461.1
+LUM	XP_038544147.1	Canis lupus familiaris	482599		338	excluded	extra_isoform_same_locus	XP_038544147.1 LUM [organism=Canis lupus familiaris] [GeneID=482599]	Canis_lupus_familiaris|LUM|XP_038544147.1
+LUM	XP_539716.1	Canis lupus familiaris	482599		338	excluded	extra_isoform_same_locus	XP_539716.1 LUM [organism=Canis lupus familiaris] [GeneID=482599]	Canis_lupus_familiaris|LUM|XP_539716.1
+LUM	XP_043565840.1	Chiloscyllium plagiosum	122559820		342	kept	representative	XP_043565840.1 lum [organism=Chiloscyllium plagiosum] [GeneID=122559820]	Chiloscyllium_plagiosum|LUM|XP_043565840.1
+LUM	XP_050602526.1	Macaca thibetana thibetana	126929997		338	kept	representative	XP_050602526.1 LUM [organism=Macaca thibetana thibetana] [GeneID=126929997]	Macaca_thibetana_thibetana|LUM|XP_050602526.1
+LUM	XP_040845503.1	Ochotona curzoniae	121162516		338	kept	representative	XP_040845503.1 LUM [organism=Ochotona curzoniae] [GeneID=121162516]	Ochotona_curzoniae|LUM|XP_040845503.1
+LUM	XP_058661028.1	Ammospiza caudacuta	131557660		343	kept	representative	XP_058661028.1 LUM [organism=Ammospiza caudacuta] [GeneID=131557660]	Ammospiza_caudacuta|LUM|XP_058661028.1
+LUM	XP_058936896.1	Kogia breviceps	131766517		340	kept	representative	XP_058936896.1 LUM [organism=Kogia breviceps] [GeneID=131766517]	Kogia_breviceps|LUM|XP_058936896.1
+LUM	XP_074725515.1	Strix uralensis	141943751		343	kept	representative	XP_074725515.1 LUM [organism=Strix uralensis] [GeneID=141943751]	Strix_uralensis|LUM|XP_074725515.1
+LUM	XP_027016207.1	Tachysurus fulvidraco	113651596		341	kept	representative	XP_027016207.1 lum [organism=Tachysurus fulvidraco] [GeneID=113651596]	Tachysurus_fulvidraco|LUM|XP_027016207.1
+LUM	XP_027016208.1	Tachysurus fulvidraco	113651596		341	excluded	extra_isoform_same_locus	XP_027016208.1 lum [organism=Tachysurus fulvidraco] [GeneID=113651596]	Tachysurus_fulvidraco|LUM|XP_027016208.1
+LUM	XP_025259424.1	Theropithecus gelada	112635478	X1	338	kept	representative	XP_025259424.1 LUM [organism=Theropithecus gelada] [GeneID=112635478] [isoform=X1]	Theropithecus_gelada|LUM|XP_025259424.1
+LUM	XP_025259425.1	Theropithecus gelada	112635478	X2	290	excluded	extra_isoform_same_locus	XP_025259425.1 LUM [organism=Theropithecus gelada] [GeneID=112635478] [isoform=X2]	Theropithecus_gelada|LUM|XP_025259425.1
+LUM	XP_025259426.1	Theropithecus gelada	112635478	X3	289	excluded	extra_isoform_same_locus	XP_025259426.1 LUM [organism=Theropithecus gelada] [GeneID=112635478] [isoform=X3]	Theropithecus_gelada|LUM|XP_025259426.1
+LUM	XP_042549063.1	Dipodomys spectabilis	122119154		339	kept	representative	XP_042549063.1 Lum [organism=Dipodomys spectabilis] [GeneID=122119154]	Dipodomys_spectabilis|LUM|XP_042549063.1
+LUM	XP_044042679.1	Siniperca chuatsi	122871533		342	kept	representative	XP_044042679.1 lum [organism=Siniperca chuatsi] [GeneID=122871533]	Siniperca_chuatsi|LUM|XP_044042679.1
+LUM	XP_057234901.1	Malurus melanocephalus	130581039		343	kept	representative	XP_057234901.1 LUM [organism=Malurus melanocephalus] [GeneID=130581039]	Malurus_melanocephalus|LUM|XP_057234901.1
+LUM	XP_083675988.1	Anser anser	310892303		343	kept	representative	XP_083675988.1 LUM [organism=Anser anser] [GeneID=310892303]	Anser_anser|LUM|XP_083675988.1
+LUM	NP_001124646.1	Pongo abelii	100171487		338	kept	representative	NP_001124646.1 LUM [organism=Pongo abelii] [GeneID=100171487]	Pongo_abelii|LUM|NP_001124646.1
+LUM	XP_046730343.1	Silurus meridionalis	124401862		341	kept	representative	XP_046730343.1 lum [organism=Silurus meridionalis] [GeneID=124401862]	Silurus_meridionalis|LUM|XP_046730343.1
+LUM	XP_067855421.1	Heptranchias perlo	137334558		343	kept	representative	XP_067855421.1 lum [organism=Heptranchias perlo] [GeneID=137334558]	Heptranchias_perlo|LUM|XP_067855421.1
+LUM	XP_078423881.1	Cetorhinus maximus	144696453		343	kept	representative	XP_078423881.1 lum [organism=Cetorhinus maximus] [GeneID=144696453]	Cetorhinus_maximus|LUM|XP_078423881.1
+LUM	XP_078423882.1	Cetorhinus maximus	144696453		343	excluded	extra_isoform_same_locus	XP_078423882.1 lum [organism=Cetorhinus maximus] [GeneID=144696453]	Cetorhinus_maximus|LUM|XP_078423882.1
+LUM	XP_078423883.1	Cetorhinus maximus	144696453		343	excluded	extra_isoform_same_locus	XP_078423883.1 lum [organism=Cetorhinus maximus] [GeneID=144696453]	Cetorhinus_maximus|LUM|XP_078423883.1
+LUM	XP_042566071.1	Clupea harengus	105897589		340	kept	representative	XP_042566071.1 lum [organism=Clupea harengus] [GeneID=105897589]	Clupea_harengus|LUM|XP_042566071.1
+LUM	XP_052609151.1	Peromyscus californicus insignis	128119717		338	kept	representative	XP_052609151.1 Lum [organism=Peromyscus californicus insignis] [GeneID=128119717]	Peromyscus_californicus_insignis|LUM|XP_052609151.1
+LUM	XP_076577867.1	Chaetodon auriga	143314689		342	kept	representative	XP_076577867.1 lum [organism=Chaetodon auriga] [GeneID=143314689]	Chaetodon_auriga|LUM|XP_076577867.1
+LUM	XP_002752864.1	Callithrix jacchus	100406248		338	kept	representative	XP_002752864.1 LUM [organism=Callithrix jacchus] [GeneID=100406248]	Callithrix_jacchus|LUM|XP_002752864.1
+LUM	XP_027593997.1	Pipra filicauda	113996866		343	kept	representative	XP_027593997.1 LUM [organism=Pipra filicauda] [GeneID=113996866]	Pipra_filicauda|LUM|XP_027593997.1
+LUM	XP_039376631.1	Mauremys reevesii	120395890		349	kept	representative	XP_039376631.1 LUM [organism=Mauremys reevesii] [GeneID=120395890]	Mauremys_reevesii|LUM|XP_039376631.1
+LUM	XP_080047450.1	Carcharhinus amblyrhynchos	145344272	X1	356	excluded	extra_isoform_same_locus	XP_080047450.1 lum [organism=Carcharhinus amblyrhynchos] [GeneID=145344272] [isoform=X1]	Carcharhinus_amblyrhynchos|LUM|XP_080047450.1
+LUM	XP_080047451.1	Carcharhinus amblyrhynchos	145344272	X2	341	kept	representative	XP_080047451.1 lum [organism=Carcharhinus amblyrhynchos] [GeneID=145344272] [isoform=X2]	Carcharhinus_amblyrhynchos|LUM|XP_080047451.1
+LUM	XP_080916870.1	Rhinolophus hipposideros	308502667		339	kept	representative	XP_080916870.1 LUM [organism=Rhinolophus hipposideros] [GeneID=308502667]	Rhinolophus_hipposideros|LUM|XP_080916870.1
+LUM	XP_008579757.1	Galeopterus variegatus	103597666		339	kept	representative	XP_008579757.1 LUM [organism=Galeopterus variegatus] [GeneID=103597666]	Galeopterus_variegatus|LUM|XP_008579757.1
+LUM	XP_023263980.1	Seriola lalandi dorsalis	111656480		342	kept	representative	XP_023263980.1 lum [organism=Seriola lalandi dorsalis] [GeneID=111656480]	Seriola_lalandi_dorsalis|LUM|XP_023263980.1
+LUM	XP_005519477.1	Pseudopodoces humilis	102112857		343	kept	representative	XP_005519477.1 LUM [organism=Pseudopodoces humilis] [GeneID=102112857]	Pseudopodoces_humilis|LUM|XP_005519477.1
+LUM	XP_010006317.1	Chaetura pelagica	104397981		344	kept	representative	XP_010006317.1 LUM [organism=Chaetura pelagica] [GeneID=104397981]	Chaetura_pelagica|LUM|XP_010006317.1
+LUM	XP_081870207.1	Phaethon aethereus	309416723		343	kept	representative	XP_081870207.1 LUM [organism=Phaethon aethereus] [GeneID=309416723]	Phaethon_aethereus|LUM|XP_081870207.1
+LUM	XP_011789011.1	Colobus angolensis palliatus	105505701	X1	338	kept	representative	XP_011789011.1 LUM [organism=Colobus angolensis palliatus] [GeneID=105505701] [isoform=X1]	Colobus_angolensis_palliatus|LUM|XP_011789011.1
+LUM	XP_011789020.1	Colobus angolensis palliatus	105505701	X2	290	excluded	extra_isoform_same_locus	XP_011789020.1 LUM [organism=Colobus angolensis palliatus] [GeneID=105505701] [isoform=X2]	Colobus_angolensis_palliatus|LUM|XP_011789020.1
+LUM	XP_011789027.1	Colobus angolensis palliatus	105505701	X3	289	excluded	extra_isoform_same_locus	XP_011789027.1 LUM [organism=Colobus angolensis palliatus] [GeneID=105505701] [isoform=X3]	Colobus_angolensis_palliatus|LUM|XP_011789027.1
+LUM	NP_112312.1	Rattus norvegicus	81682		338	kept	representative	NP_112312.1 Lum [organism=Rattus norvegicus] [GeneID=81682]	Rattus_norvegicus|LUM|NP_112312.1
+LUM	XP_063120368.1	Rattus norvegicus	81682	X1	363	excluded	extra_isoform_same_locus	XP_063120368.1 Lum [organism=Rattus norvegicus] [GeneID=81682] [isoform=X1]	Rattus_norvegicus|LUM|XP_063120368.1
+LUM	XP_081187188.1	Vipera berus	308669978	1	344	kept	representative	XP_081187188.1 LUM [organism=Vipera berus] [GeneID=308669978] [isoform=1]	Vipera_berus|LUM|XP_081187188.1
+LUM	XP_081187189.1	Vipera berus	308669978	1	344	excluded	extra_isoform_same_locus	XP_081187189.1 LUM [organism=Vipera berus] [GeneID=308669978] [isoform=1]	Vipera_berus|LUM|XP_081187189.1
+LUM	XP_082023072.1	Leuciscus leuciscus	309496817	1	344	kept	representative	XP_082023072.1 lum [organism=Leuciscus leuciscus] [GeneID=309496817] [isoform=1]	Leuciscus_leuciscus|LUM|XP_082023072.1
+LUM	XP_082023073.1	Leuciscus leuciscus	309496817	1	344	excluded	extra_isoform_same_locus	XP_082023073.1 lum [organism=Leuciscus leuciscus] [GeneID=309496817] [isoform=1]	Leuciscus_leuciscus|LUM|XP_082023073.1
+LUM	XP_028737032.1	Peromyscus leucopus	114701201		338	kept	representative	XP_028737032.1 Lum [organism=Peromyscus leucopus] [GeneID=114701201]	Peromyscus_leucopus|LUM|XP_028737032.1
+LUM	XP_042367243.1	Plectropomus leopardus	121961357		342	kept	representative	XP_042367243.1 lum [organism=Plectropomus leopardus] [GeneID=121961357]	Plectropomus_leopardus|LUM|XP_042367243.1
+LUM	XP_056224108.1	Seriola aureovittata	130163767		433	kept	representative	XP_056224108.1 lum [organism=Seriola aureovittata] [GeneID=130163767]	Seriola_aureovittata|LUM|XP_056224108.1
+LUM	XP_005421650.1	Geospiza fortis	102035855		343	kept	representative	XP_005421650.1 LUM [organism=Geospiza fortis] [GeneID=102035855]	Geospiza_fortis|LUM|XP_005421650.1
+LUM	XP_085293410.1	Copadichromis virginalis	146689610		342	kept	representative	XP_085293410.1 lum [organism=Copadichromis virginalis] [GeneID=146689610]	Copadichromis_virginalis|LUM|XP_085293410.1
+LUM	XP_027398980.1	Bos indicus x Bos taurus	113893289		342	kept	representative	XP_027398980.1 LUM [organism=Bos indicus x Bos taurus] [GeneID=113893289]	Bos_indicus_x_Bos_taurus|LUM|XP_027398980.1
+LUM	XP_027398981.1	Bos indicus x Bos taurus	113893289		342	excluded	extra_isoform_same_locus	XP_027398981.1 LUM [organism=Bos indicus x Bos taurus] [GeneID=113893289]	Bos_indicus_x_Bos_taurus|LUM|XP_027398981.1
+LUM	XP_009695682.1	Cariama cristata	104159468		343	kept	representative	XP_009695682.1 LUM [organism=Cariama cristata] [GeneID=104159468]	Cariama_cristata|LUM|XP_009695682.1
+LUM	XP_061124482.1	Syngnathus typhle	133145236		341	kept	representative	XP_061124482.1 lum [organism=Syngnathus typhle] [GeneID=133145236]	Syngnathus_typhle|LUM|XP_061124482.1
+LUM	XP_040030756.1	Gasterosteus aculeatus	120818066	X2	341	kept	representative	XP_040030756.1 lum [organism=Gasterosteus aculeatus] [GeneID=120818066] [isoform=X2]	Gasterosteus_aculeatus|LUM|XP_040030756.1
+LUM	XP_040030757.1	Gasterosteus aculeatus	120818066	X2	341	excluded	extra_isoform_same_locus	XP_040030757.1 lum [organism=Gasterosteus aculeatus] [GeneID=120818066] [isoform=X2]	Gasterosteus_aculeatus|LUM|XP_040030757.1
+LUM	XP_040030758.1	Gasterosteus aculeatus	120818066	X2	341	excluded	extra_isoform_same_locus	XP_040030758.1 lum [organism=Gasterosteus aculeatus] [GeneID=120818066] [isoform=X2]	Gasterosteus_aculeatus|LUM|XP_040030758.1
+LUM	XP_077956471.1	Gasterosteus aculeatus	120818066	X1	391	excluded	extra_isoform_same_locus	XP_077956471.1 lum [organism=Gasterosteus aculeatus] [GeneID=120818066] [isoform=X1]	Gasterosteus_aculeatus|LUM|XP_077956471.1
+LUM	XP_077956473.1	Gasterosteus aculeatus	120818066	X2	341	excluded	extra_isoform_same_locus	XP_077956473.1 lum [organism=Gasterosteus aculeatus] [GeneID=120818066] [isoform=X2]	Gasterosteus_aculeatus|LUM|XP_077956473.1
+LUM	XP_062374368.1	Sardina pilchardus	134062397		340	kept	representative	XP_062374368.1 lum [organism=Sardina pilchardus] [GeneID=134062397]	Sardina_pilchardus|LUM|XP_062374368.1
+LUM	XP_051910989.1	Hippocampus zosterae	127593528		342	kept	representative	XP_051910989.1 lum [organism=Hippocampus zosterae] [GeneID=127593528]	Hippocampus_zosterae|LUM|XP_051910989.1
+LUM	XP_075198553.1	Anomaloglossus baeobatrachus	142301430		346	kept	representative	XP_075198553.1 LUM [organism=Anomaloglossus baeobatrachus] [GeneID=142301430]	Anomaloglossus_baeobatrachus|LUM|XP_075198553.1
+LUM	XP_019301960.1	Panthera pardus	109265314		339	kept	representative	XP_019301960.1 LUM [organism=Panthera pardus] [GeneID=109265314]	Panthera_pardus|LUM|XP_019301960.1
+LUM	XP_039917271.1	Hirundo rustica	120751457		343	kept	representative	XP_039917271.1 LUM [organism=Hirundo rustica] [GeneID=120751457]	Hirundo_rustica|LUM|XP_039917271.1
+LUM	XP_019815901.2	Bos indicus	109558969		342	kept	representative	XP_019815901.2 LUM [organism=Bos indicus] [GeneID=109558969]	Bos_indicus|LUM|XP_019815901.2
+LUM	XP_070645040.1	Bos indicus	109558969		342	excluded	extra_isoform_same_locus	XP_070645040.1 LUM [organism=Bos indicus] [GeneID=109558969]	Bos_indicus|LUM|XP_070645040.1
+LUM	XP_074127221.1	Sminthopsis crassicaudata	141544696		341	kept	representative	XP_074127221.1 LUM [organism=Sminthopsis crassicaudata] [GeneID=141544696]	Sminthopsis_crassicaudata|LUM|XP_074127221.1
+LUM	XP_014696750.1	Equus asinus	106831192		341	kept	representative	XP_014696750.1 LUM [organism=Equus asinus] [GeneID=106831192]	Equus_asinus|LUM|XP_014696750.1
+LUM	XP_082706393.1	Leucopleurus acutus	309968795		340	kept	representative	XP_082706393.1 LUM [organism=Leucopleurus acutus] [GeneID=309968795]	Leucopleurus_acutus|LUM|XP_082706393.1
+LUM	XP_060759704.1	Neoarius graeffei	132870153		343	kept	representative	XP_060759704.1 lum [organism=Neoarius graeffei] [GeneID=132870153]	Neoarius_graeffei|LUM|XP_060759704.1
+LUM	XP_060759705.1	Neoarius graeffei	132870153		343	excluded	extra_isoform_same_locus	XP_060759705.1 lum [organism=Neoarius graeffei] [GeneID=132870153]	Neoarius_graeffei|LUM|XP_060759705.1
+LUM	XP_060981622.1	Dama dama	133044208		342	kept	representative	XP_060981622.1 LUM [organism=Dama dama] [GeneID=133044208]	Dama_dama|LUM|XP_060981622.1
+LUM	XP_012324776.1	Aotus nancymaae	105728787		338	kept	representative	XP_012324776.1 LUM [organism=Aotus nancymaae] [GeneID=105728787]	Aotus_nancymaae|LUM|XP_012324776.1
+LUM	XP_033930701.1	Pseudochaenichthys georgianus	117439082		341	kept	representative	XP_033930701.1 lum [organism=Pseudochaenichthys georgianus] [GeneID=117439082]	Pseudochaenichthys_georgianus|LUM|XP_033930701.1
+LUM	XP_083613587.1	Protomyctophum parallelum	310853217	1	344	kept	representative	XP_083613587.1 lum [organism=Protomyctophum parallelum] [GeneID=310853217] [isoform=1]	Protomyctophum_parallelum|LUM|XP_083613587.1
+LUM	XP_083613588.1	Protomyctophum parallelum	310853217	1	344	excluded	extra_isoform_same_locus	XP_083613588.1 lum [organism=Protomyctophum parallelum] [GeneID=310853217] [isoform=1]	Protomyctophum_parallelum|LUM|XP_083613588.1
+LUM	XP_083613589.1	Protomyctophum parallelum	310853217	1	344	excluded	extra_isoform_same_locus	XP_083613589.1 lum [organism=Protomyctophum parallelum] [GeneID=310853217] [isoform=1]	Protomyctophum_parallelum|LUM|XP_083613589.1
+LUM	XP_028603658.1	Podarcis muralis	114606051		349	kept	representative	XP_028603658.1 LUM [organism=Podarcis muralis] [GeneID=114606051]	Podarcis_muralis|LUM|XP_028603658.1
+LUM	XP_082167216.1	Platalea leucorodia	309590122		343	kept	representative	XP_082167216.1 LUM [organism=Platalea leucorodia] [GeneID=309590122]	Platalea_leucorodia|LUM|XP_082167216.1
+LUM	XP_044136442.1	Bufo gargarizans	122928040		346	kept	representative	XP_044136442.1 LUM [organism=Bufo gargarizans] [GeneID=122928040]	Bufo_gargarizans|LUM|XP_044136442.1
+LUM	XP_084666424.1	Heloderma suspectum	146339824		347	kept	representative	XP_084666424.1 LUM [organism=Heloderma suspectum] [GeneID=146339824]	Heloderma_suspectum|LUM|XP_084666424.1
+LUM	XP_031963174.1	Corvus moneduloides	116443239		343	kept	representative	XP_031963174.1 LUM [organism=Corvus moneduloides] [GeneID=116443239]	Corvus_moneduloides|LUM|XP_031963174.1
+LUM	XP_053270809.1	Pleuronectes platessa	128428615		341	kept	representative	XP_053270809.1 lum [organism=Pleuronectes platessa] [GeneID=128428615]	Pleuronectes_platessa|LUM|XP_053270809.1
+LUM	XP_038171059.1	Arvicola amphibius	119803709		338	kept	representative	XP_038171059.1 Lum [organism=Arvicola amphibius] [GeneID=119803709]	Arvicola_amphibius|LUM|XP_038171059.1
+LUM	XP_081914026.1	Streptopelia decaocto	309442246		343	kept	representative	XP_081914026.1 LUM [organism=Streptopelia decaocto] [GeneID=309442246]	Streptopelia_decaocto|LUM|XP_081914026.1
+LUM	XP_007432540.1	Python bivittatus	103061447		345	kept	representative	XP_007432540.1 LUM [organism=Python bivittatus] [GeneID=103061447]	Python_bivittatus|LUM|XP_007432540.1
+LUM	XP_082343495.1	Vanellus vanellus	309675144		343	kept	representative	XP_082343495.1 LUM [organism=Vanellus vanellus] [GeneID=309675144]	Vanellus_vanellus|LUM|XP_082343495.1
+LUM	XP_022408181.1	Delphinapterus leucas	111163623		340	kept	representative	XP_022408181.1 LUM [organism=Delphinapterus leucas] [GeneID=111163623]	Delphinapterus_leucas|LUM|XP_022408181.1
+LUM	XP_022408182.1	Delphinapterus leucas	111163623		340	excluded	extra_isoform_same_locus	XP_022408182.1 LUM [organism=Delphinapterus leucas] [GeneID=111163623]	Delphinapterus_leucas|LUM|XP_022408182.1
+LUM	XP_066406354.1	Molothrus aeneus	136556853		343	kept	representative	XP_066406354.1 LUM [organism=Molothrus aeneus] [GeneID=136556853]	Molothrus_aeneus|LUM|XP_066406354.1
+LUM	XP_068442494.1	Clinocottus analis	137791438		342	kept	representative	XP_068442494.1 lum [organism=Clinocottus analis] [GeneID=137791438]	Clinocottus_analis|LUM|XP_068442494.1
+LUM	XP_068442495.1	Clinocottus analis	137791438		342	excluded	extra_isoform_same_locus	XP_068442495.1 lum [organism=Clinocottus analis] [GeneID=137791438]	Clinocottus_analis|LUM|XP_068442495.1
+LUM	XP_020767019.1	Odocoileus virginianus	110149031		342	kept	representative	XP_020767019.1 LUM [organism=Odocoileus virginianus] [GeneID=110149031]	Odocoileus_virginianus|LUM|XP_020767019.1
+LUM	XP_039724955.1	Pteropus medius	120607279		339	kept	representative	XP_039724955.1 LUM [organism=Pteropus medius] [GeneID=120607279]	Pteropus_medius|LUM|XP_039724955.1
+LUM	XP_079119043.1	Telmatherina bonti	306773174		342	kept	representative	XP_079119043.1 lum [organism=Telmatherina bonti] [GeneID=306773174]	Telmatherina_bonti|LUM|XP_079119043.1
+LUM	XP_059790716.1	Balaenoptera ricei	132372645		339	kept	representative	XP_059790716.1 LUM [organism=Balaenoptera ricei] [GeneID=132372645]	Balaenoptera_ricei|LUM|XP_059790716.1
+LUM	XP_059790717.1	Balaenoptera ricei	132372645		339	excluded	extra_isoform_same_locus	XP_059790717.1 LUM [organism=Balaenoptera ricei] [GeneID=132372645]	Balaenoptera_ricei|LUM|XP_059790717.1
+LUM	XP_053883877.1	Malaclemys terrapin pileata	128837065		349	kept	representative	XP_053883877.1 LUM [organism=Malaclemys terrapin pileata] [GeneID=128837065]	Malaclemys_terrapin_pileata|LUM|XP_053883877.1
+LUM	XP_010201603.1	Colius striatus	104558634		343	kept	representative	XP_010201603.1 LUM [organism=Colius striatus] [GeneID=104558634]	Colius_striatus|LUM|XP_010201603.1
+LUM	XP_017266947.1	Kryptolebias marmoratus	108233175		375	kept	representative	XP_017266947.1 lum [organism=Kryptolebias marmoratus] [GeneID=108233175]	Kryptolebias_marmoratus|LUM|XP_017266947.1
+LUM	XP_018415745.1	Nanorana parkeri	108790065		347	kept	representative	XP_018415745.1 LUM [organism=Nanorana parkeri] [GeneID=108790065]	Nanorana_parkeri|LUM|XP_018415745.1
+LUM	XP_020037975.1	Castor canadensis	109698284		339	kept	representative	XP_020037975.1 Lum [organism=Castor canadensis] [GeneID=109698284]	Castor_canadensis|LUM|XP_020037975.1
+LUM	XP_063010985.1	Melospiza melodia melodia	134417566		343	kept	representative	XP_063010985.1 LUM [organism=Melospiza melodia melodia] [GeneID=134417566]	Melospiza_melodia_melodia|LUM|XP_063010985.1
+LUM	XP_081443481.1	Giraffa tippelskirchi	145544440		342	kept	representative	XP_081443481.1 LUM [organism=Giraffa tippelskirchi] [GeneID=145544440]	Giraffa_tippelskirchi|LUM|XP_081443481.1
+LUM	XP_081104520.1	Mesoplodon bidens	308624766		340	kept	representative	XP_081104520.1 LUM [organism=Mesoplodon bidens] [GeneID=308624766]	Mesoplodon_bidens|LUM|XP_081104520.1
+LUM	XP_081733682.1	Podarcis erhardii	309350588		349	kept	representative	XP_081733682.1 LUM [organism=Podarcis erhardii] [GeneID=309350588]	Podarcis_erhardii|LUM|XP_081733682.1
+LUM	XP_081890181.1	Branta canadensis	309428911		343	kept	representative	XP_081890181.1 LUM [organism=Branta canadensis] [GeneID=309428911]	Branta_canadensis|LUM|XP_081890181.1
+LUM	XP_052524805.1	Tympanuchus pallidicinctus	128073692		346	kept	representative	XP_052524805.1 LUM [organism=Tympanuchus pallidicinctus] [GeneID=128073692]	Tympanuchus_pallidicinctus|LUM|XP_052524805.1
+LUM	XP_059894082.1	Gadus macrocephalus	132447392	X1	349	excluded	extra_isoform_same_locus	XP_059894082.1 lum [organism=Gadus macrocephalus] [GeneID=132447392] [isoform=X1]	Gadus_macrocephalus|LUM|XP_059894082.1
+LUM	XP_059894083.1	Gadus macrocephalus	132447392	X2	346	kept	representative	XP_059894083.1 lum [organism=Gadus macrocephalus] [GeneID=132447392] [isoform=X2]	Gadus_macrocephalus|LUM|XP_059894083.1
+LUM	XP_084993541.1	Neolamprologus multifasciatus	146499494		342	kept	representative	XP_084993541.1 lum [organism=Neolamprologus multifasciatus] [GeneID=146499494]	Neolamprologus_multifasciatus|LUM|XP_084993541.1
+LUM	XP_084993542.1	Neolamprologus multifasciatus	146499494		342	excluded	extra_isoform_same_locus	XP_084993542.1 lum [organism=Neolamprologus multifasciatus] [GeneID=146499494]	Neolamprologus_multifasciatus|LUM|XP_084993542.1
+LUM	XP_084566833.1	Lutjanus erythropterus	146306885		342	kept	representative	XP_084566833.1 lum [organism=Lutjanus erythropterus] [GeneID=146306885]	Lutjanus_erythropterus|LUM|XP_084566833.1
+LUM	XP_042648572.1	Tyto alba	104367534		343	kept	representative	XP_042648572.1 LUM [organism=Tyto alba] [GeneID=104367534]	Tyto_alba|LUM|XP_042648572.1
+LUM	XP_060745791.1	Tachysurus vachellii	132859163		342	kept	representative	XP_060745791.1 lum [organism=Tachysurus vachellii] [GeneID=132859163]	Tachysurus_vachellii|LUM|XP_060745791.1
+LUM	XP_060745792.1	Tachysurus vachellii	132859163		342	excluded	extra_isoform_same_locus	XP_060745792.1 lum [organism=Tachysurus vachellii] [GeneID=132859163]	Tachysurus_vachellii|LUM|XP_060745792.1
+LUM	XP_032602118.2	Taeniopygia guttata	100225377		343	kept	representative	XP_032602118.2 LUM [organism=Taeniopygia guttata] [GeneID=100225377]	Taeniopygia_guttata|LUM|XP_032602118.2
+LUM	XP_010885686.2	Esox lucius	105020391		342	kept	representative	XP_010885686.2 lum [organism=Esox lucius] [GeneID=105020391]	Esox_lucius|LUM|XP_010885686.2
+LUM	XP_086255042.1	Bos grunniens	147371392	X1	437	excluded	extra_isoform_same_locus	XP_086255042.1 LUM [organism=Bos grunniens] [GeneID=147371392] [isoform=X1]	Bos_grunniens|LUM|XP_086255042.1
+LUM	XP_086255043.1	Bos grunniens	147371392	X2	378	excluded	extra_isoform_same_locus	XP_086255043.1 LUM [organism=Bos grunniens] [GeneID=147371392] [isoform=X2]	Bos_grunniens|LUM|XP_086255043.1
+LUM	XP_086255044.1	Bos grunniens	147371392	X3	358	excluded	extra_isoform_same_locus	XP_086255044.1 LUM [organism=Bos grunniens] [GeneID=147371392] [isoform=X3]	Bos_grunniens|LUM|XP_086255044.1
+LUM	XP_086255045.1	Bos grunniens	147371392	X4	342	kept	representative	XP_086255045.1 LUM [organism=Bos grunniens] [GeneID=147371392] [isoform=X4]	Bos_grunniens|LUM|XP_086255045.1
+LUM	XP_053169908.1	Scomber japonicus	128353246		342	kept	representative	XP_053169908.1 lum [organism=Scomber japonicus] [GeneID=128353246]	Scomber_japonicus|LUM|XP_053169908.1
+LUM	XP_058273220.1	Hemibagrus wyckioides	131370134		341	kept	representative	XP_058273220.1 lum [organism=Hemibagrus wyckioides] [GeneID=131370134]	Hemibagrus_wyckioides|LUM|XP_058273220.1
+LUM	XP_062989879.1	Elgaria multicarinata webbii	134403542		349	kept	representative	XP_062989879.1 LUM [organism=Elgaria multicarinata webbii] [GeneID=134403542]	Elgaria_multicarinata_webbii|LUM|XP_062989879.1
+LUM	XP_034434463.1	Hippoglossus hippoglossus	117757420		342	kept	representative	XP_034434463.1 lum [organism=Hippoglossus hippoglossus] [GeneID=117757420]	Hippoglossus_hippoglossus|LUM|XP_034434463.1
+LUM	NP_001263286.1	Gallus gallus	417891		343	kept	representative	NP_001263286.1 LUM [organism=Gallus gallus] [GeneID=417891]	Gallus_gallus|LUM|NP_001263286.1
+LUM	XP_053111935.1	Hemicordylus capensis	128327303		349	kept	representative	XP_053111935.1 LUM [organism=Hemicordylus capensis] [GeneID=128327303]	Hemicordylus_capensis|LUM|XP_053111935.1
+LUM	XP_053111936.1	Hemicordylus capensis	128327303		349	excluded	extra_isoform_same_locus	XP_053111936.1 LUM [organism=Hemicordylus capensis] [GeneID=128327303]	Hemicordylus_capensis|LUM|XP_053111936.1
+LUM	XP_053111937.1	Hemicordylus capensis	128327303		349	excluded	extra_isoform_same_locus	XP_053111937.1 LUM [organism=Hemicordylus capensis] [GeneID=128327303]	Hemicordylus_capensis|LUM|XP_053111937.1
+LUM	XP_053111938.1	Hemicordylus capensis	128327303		349	excluded	extra_isoform_same_locus	XP_053111938.1 LUM [organism=Hemicordylus capensis] [GeneID=128327303]	Hemicordylus_capensis|LUM|XP_053111938.1
+LUM	XP_031169174.1	Sander lucioperca	116060003		342	kept	representative	XP_031169174.1 lum [organism=Sander lucioperca] [GeneID=116060003]	Sander_lucioperca|LUM|XP_031169174.1
+LUM	XP_072311195.1	Eucyclogobius newberryi	140368174		340	kept	representative	XP_072311195.1 lum [organism=Eucyclogobius newberryi] [GeneID=140368174]	Eucyclogobius_newberryi|LUM|XP_072311195.1
+LUM	XP_074807236.1	Natator depressus	141986548		348	kept	representative	XP_074807236.1 LUM [organism=Natator depressus] [GeneID=141986548]	Natator_depressus|LUM|XP_074807236.1
+LUM	XP_010631651.1	Fukomys damarensis	104868550		337	kept	representative	XP_010631651.1 Lum [organism=Fukomys damarensis] [GeneID=104868550]	Fukomys_damarensis|LUM|XP_010631651.1
+LUM	XP_021543193.1	Neomonachus schauinslandi	110578004		338	kept	representative	XP_021543193.1 LUM [organism=Neomonachus schauinslandi] [GeneID=110578004]	Neomonachus_schauinslandi|LUM|XP_021543193.1
+LUM	XP_015338433.1	Marmota marmota marmota	107140018		338	kept	representative	XP_015338433.1 Lum [organism=Marmota marmota marmota] [GeneID=107140018]	Marmota_marmota_marmota|LUM|XP_015338433.1
+LUM	XP_050756913.1	Gymnogyps californianus	127019043		343	kept	representative	XP_050756913.1 LUM [organism=Gymnogyps californianus] [GeneID=127019043]	Gymnogyps_californianus|LUM|XP_050756913.1
+LUM	XP_082651175.1	Cygnus columbianus	309896619		343	kept	representative	XP_082651175.1 LUM [organism=Cygnus columbianus] [GeneID=309896619]	Cygnus_columbianus|LUM|XP_082651175.1
+LUM	XP_053364794.1	Clarias gariepinus	128534398		343	kept	representative	XP_053364794.1 lum [organism=Clarias gariepinus] [GeneID=128534398]	Clarias_gariepinus|LUM|XP_053364794.1
+LUM	XP_008398802.2	Poecilia reticulata	103459206		342	kept	representative	XP_008398802.2 lum [organism=Poecilia reticulata] [GeneID=103459206]	Poecilia_reticulata|LUM|XP_008398802.2
+LUM	XP_005324490.1	Ictidomys tridecemlineatus	101975592		338	kept	representative	XP_005324490.1 Lum [organism=Ictidomys tridecemlineatus] [GeneID=101975592]	Ictidomys_tridecemlineatus|LUM|XP_005324490.1
+LUM	XP_048214348.1	Perognathus longimembris pacificus	125360441		339	kept	representative	XP_048214348.1 Lum [organism=Perognathus longimembris pacificus] [GeneID=125360441]	Perognathus_longimembris_pacificus|LUM|XP_048214348.1
+LUM	XP_082206581.1	Balaenoptera borealis	309609226	1	339	kept	representative	XP_082206581.1 LUM [organism=Balaenoptera borealis] [GeneID=309609226] [isoform=1]	Balaenoptera_borealis|LUM|XP_082206581.1
+LUM	XP_082206582.1	Balaenoptera borealis	309609226	1	339	excluded	extra_isoform_same_locus	XP_082206582.1 LUM [organism=Balaenoptera borealis] [GeneID=309609226] [isoform=1]	Balaenoptera_borealis|LUM|XP_082206582.1
+LUM	XP_010285731.1	Phaethon lepturus	104621043		343	kept	representative	XP_010285731.1 LUM [organism=Phaethon lepturus] [GeneID=104621043]	Phaethon_lepturus|LUM|XP_010285731.1
+LUM	XP_084558080.1	Hypomesus nipponensis	146276233		339	kept	representative	XP_084558080.1 lum [organism=Hypomesus nipponensis] [GeneID=146276233]	Hypomesus_nipponensis|LUM|XP_084558080.1
+LUM	XP_043417988.1	Prionailurus bengalensis	122472473		339	kept	representative	XP_043417988.1 LUM [organism=Prionailurus bengalensis] [GeneID=122472473]	Prionailurus_bengalensis|LUM|XP_043417988.1
+LUM	XP_043417989.1	Prionailurus bengalensis	122472473		339	excluded	extra_isoform_same_locus	XP_043417989.1 LUM [organism=Prionailurus bengalensis] [GeneID=122472473]	Prionailurus_bengalensis|LUM|XP_043417989.1
+LUM	XP_054071338.1	Rissa tridactyla	128915254		343	kept	representative	XP_054071338.1 LUM [organism=Rissa tridactyla] [GeneID=128915254]	Rissa_tridactyla|LUM|XP_054071338.1
+LUM	XP_058047247.1	Ahaetulla prasina	131202354		345	kept	representative	XP_058047247.1 LUM [organism=Ahaetulla prasina] [GeneID=131202354]	Ahaetulla_prasina|LUM|XP_058047247.1
+LUM	XP_064511542.1	Pseudopipra pipra	135414570		343	kept	representative	XP_064511542.1 LUM [organism=Pseudopipra pipra] [GeneID=135414570]	Pseudopipra_pipra|LUM|XP_064511542.1
+LUM	XP_009810306.1	Gavia stellata	104253156		343	kept	representative	XP_009810306.1 LUM [organism=Gavia stellata] [GeneID=104253156]	Gavia_stellata|LUM|XP_009810306.1
+LUM	XP_066490098.1	Tiliqua scincoides	136657268		348	kept	representative	XP_066490098.1 LUM [organism=Tiliqua scincoides] [GeneID=136657268]	Tiliqua_scincoides|LUM|XP_066490098.1
+LUM	XP_072233627.1	Leuresthes tenuis	140282931		342	kept	representative	XP_072233627.1 lum [organism=Leuresthes tenuis] [GeneID=140282931]	Leuresthes_tenuis|LUM|XP_072233627.1
+LUM	XP_007085676.1	Panthera tigris	102952168		339	kept	representative	XP_007085676.1 LUM [organism=Panthera tigris] [GeneID=102952168]	Panthera_tigris|LUM|XP_007085676.1
+LUM	XP_013802896.1	Apteryx mantelli	106488583		343	kept	representative	XP_013802896.1 LUM [organism=Apteryx mantelli] [GeneID=106488583]	Apteryx_mantelli|LUM|XP_013802896.1
+LUM	XP_051886279.1	Pristis pectinata	127578373		342	kept	representative	XP_051886279.1 lum [organism=Pristis pectinata] [GeneID=127578373]	Pristis_pectinata|LUM|XP_051886279.1
+LUM	XP_051886281.1	Pristis pectinata	127578373		342	excluded	extra_isoform_same_locus	XP_051886281.1 lum [organism=Pristis pectinata] [GeneID=127578373]	Pristis_pectinata|LUM|XP_051886281.1
+LUM	XP_051886282.1	Pristis pectinata	127578373		342	excluded	extra_isoform_same_locus	XP_051886282.1 lum [organism=Pristis pectinata] [GeneID=127578373]	Pristis_pectinata|LUM|XP_051886282.1
+LUM	XP_077034877.1	Agelaius phoeniceus	129119746		343	kept	representative	XP_077034877.1 LUM [organism=Agelaius phoeniceus] [GeneID=129119746]	Agelaius_phoeniceus|LUM|XP_077034877.1
+LUM	XP_026778367.1	Pangasianodon hypophthalmus	113531706		341	kept	representative	XP_026778367.1 lum [organism=Pangasianodon hypophthalmus] [GeneID=113531706]	Pangasianodon_hypophthalmus|LUM|XP_026778367.1
+LUM	XP_069346274.1	Eulemur rufifrons	138396618		338	kept	representative	XP_069346274.1 LUM [organism=Eulemur rufifrons] [GeneID=138396618]	Eulemur_rufifrons|LUM|XP_069346274.1
+LUM	XP_006063015.1	Bubalus bubalis	102402291		342	kept	representative	XP_006063015.1 LUM [organism=Bubalus bubalis] [GeneID=102402291]	Bubalus_bubalis|LUM|XP_006063015.1
+LUM	XP_029811605.1	Suricata suricatta	115305475		339	kept	representative	XP_029811605.1 LUM [organism=Suricata suricatta] [GeneID=115305475]	Suricata_suricatta|LUM|XP_029811605.1
+LUM	XP_012878822.1	Dipodomys ordii	105990847		339	kept	representative	XP_012878822.1 Lum [organism=Dipodomys ordii] [GeneID=105990847]	Dipodomys_ordii|LUM|XP_012878822.1
+LUM	XP_051857061.1	Antechinus flavipes	127564519		341	kept	representative	XP_051857061.1 LUM [organism=Antechinus flavipes] [GeneID=127564519]	Antechinus_flavipes|LUM|XP_051857061.1
+LUM	XP_052496414.1	Budorcas taxicolor	128048005		342	kept	representative	XP_052496414.1 LUM [organism=Budorcas taxicolor] [GeneID=128048005]	Budorcas_taxicolor|LUM|XP_052496414.1
+LUM	XP_052496415.1	Budorcas taxicolor	128048005		342	excluded	extra_isoform_same_locus	XP_052496415.1 LUM [organism=Budorcas taxicolor] [GeneID=128048005]	Budorcas_taxicolor|LUM|XP_052496415.1
+LUM	XP_017659966.1	Lepidothrix coronata	108492295		343	kept	representative	XP_017659966.1 LUM [organism=Lepidothrix coronata] [GeneID=108492295]	Lepidothrix_coronata|LUM|XP_017659966.1
+LUM	XP_033807669.1	Geotrypetes seraphini	117363671		346	kept	representative	XP_033807669.1 LUM [organism=Geotrypetes seraphini] [GeneID=117363671]	Geotrypetes_seraphini|LUM|XP_033807669.1
+LUM	XP_033807670.1	Geotrypetes seraphini	117363671		346	excluded	extra_isoform_same_locus	XP_033807670.1 LUM [organism=Geotrypetes seraphini] [GeneID=117363671]	Geotrypetes_seraphini|LUM|XP_033807670.1
+LUM	XP_045728823.1	Mirounga angustirostris	123843443		338	kept	representative	XP_045728823.1 LUM [organism=Mirounga angustirostris] [GeneID=123843443]	Mirounga_angustirostris|LUM|XP_045728823.1
+LUM	XP_005480732.1	Zonotrichia albicollis	102063284		343	kept	representative	XP_005480732.1 LUM [organism=Zonotrichia albicollis] [GeneID=102063284]	Zonotrichia_albicollis|LUM|XP_005480732.1
+LUM	XP_063073626.1	Engraulis encrasicolus	134464106		344	kept	representative	XP_063073626.1 lum [organism=Engraulis encrasicolus] [GeneID=134464106]	Engraulis_encrasicolus|LUM|XP_063073626.1
+LUM	XP_079672824.1	Gobio gobio	307126247	1	344	kept	representative	XP_079672824.1 lum [organism=Gobio gobio] [GeneID=307126247] [isoform=1]	Gobio_gobio|LUM|XP_079672824.1
+LUM	XP_079672825.1	Gobio gobio	307126247	1	344	excluded	extra_isoform_same_locus	XP_079672825.1 lum [organism=Gobio gobio] [GeneID=307126247] [isoform=1]	Gobio_gobio|LUM|XP_079672825.1
+LUM	XP_038636707.1	Scyliorhinus canicula	119954996		339	kept	representative	XP_038636707.1 lum [organism=Scyliorhinus canicula] [GeneID=119954996]	Scyliorhinus_canicula|LUM|XP_038636707.1
+LUM	XP_038636708.1	Scyliorhinus canicula	119954996		339	excluded	extra_isoform_same_locus	XP_038636708.1 lum [organism=Scyliorhinus canicula] [GeneID=119954996]	Scyliorhinus_canicula|LUM|XP_038636708.1
+LUM	XP_079255156.1	Barbus barbus	306858465	1	344	kept	representative	XP_079255156.1 lum [organism=Barbus barbus] [GeneID=306858465] [isoform=1]	Barbus_barbus|LUM|XP_079255156.1
+LUM	XP_079255157.1	Barbus barbus	306858465	1	344	excluded	extra_isoform_same_locus	XP_079255157.1 lum [organism=Barbus barbus] [GeneID=306858465] [isoform=1]	Barbus_barbus|LUM|XP_079255157.1
+LUM	XP_031363514.1	Lonchura striata	110469362		343	kept	representative	XP_031363514.1 LUM [organism=Lonchura striata] [GeneID=110469362]	Lonchura_striata|LUM|XP_031363514.1
+LUM	XP_080517432.1	Plecotus auritus	308244928		340	kept	representative	XP_080517432.1 LUM [organism=Plecotus auritus] [GeneID=308244928]	Plecotus_auritus|LUM|XP_080517432.1
+LUM	XP_008501435.1	Calypte anna	103536962		343	kept	representative	XP_008501435.1 LUM [organism=Calypte anna] [GeneID=103536962]	Calypte_anna|LUM|XP_008501435.1
+LUM	XP_026183228.1	Mastacembelus armatus	113142424		342	kept	representative	XP_026183228.1 lum [organism=Mastacembelus armatus] [GeneID=113142424]	Mastacembelus_armatus|LUM|XP_026183228.1
+LUM	XP_026183230.1	Mastacembelus armatus	113142424		342	excluded	extra_isoform_same_locus	XP_026183230.1 lum [organism=Mastacembelus armatus] [GeneID=113142424]	Mastacembelus_armatus|LUM|XP_026183230.1
+LUM	XP_085758968.1	Syngnathus leptorhynchus	147040029		341	kept	representative	XP_085758968.1 lum [organism=Syngnathus leptorhynchus] [GeneID=147040029]	Syngnathus_leptorhynchus|LUM|XP_085758968.1
+LUM	XP_053262824.1	Podarcis raffonei	128422630		349	kept	representative	XP_053262824.1 LUM [organism=Podarcis raffonei] [GeneID=128422630]	Podarcis_raffonei|LUM|XP_053262824.1
+LUM	XP_028426525.1	Perca flavescens	114550144		342	kept	representative	XP_028426525.1 lum [organism=Perca flavescens] [GeneID=114550144]	Perca_flavescens|LUM|XP_028426525.1
+LUM	XP_047245126.1	Girardinichthys multiradiatus	124882686		342	kept	representative	XP_047245126.1 lum [organism=Girardinichthys multiradiatus] [GeneID=124882686]	Girardinichthys_multiradiatus|LUM|XP_047245126.1
+LUM	XP_057613971.1	Chionomys nivalis	130866499		338	kept	representative	XP_057613971.1 Lum [organism=Chionomys nivalis] [GeneID=130866499]	Chionomys_nivalis|LUM|XP_057613971.1
+LUM	XP_005242715.1	Falco peregrinus	101923786		343	kept	representative	XP_005242715.1 LUM [organism=Falco peregrinus] [GeneID=101923786]	Falco_peregrinus|LUM|XP_005242715.1
+LUM	XP_036617986.1	Trichosurus vulpecula	118852367		340	kept	representative	XP_036617986.1 LUM [organism=Trichosurus vulpecula] [GeneID=118852367]	Trichosurus_vulpecula|LUM|XP_036617986.1
+LUM	XP_054301075.1	Pongo pygmaeus	129010612		338	kept	representative	XP_054301075.1 LUM [organism=Pongo pygmaeus] [GeneID=129010612]	Pongo_pygmaeus|LUM|XP_054301075.1
+LUM	XP_003259698.1	Nomascus leucogenys	100595797		338	kept	representative	XP_003259698.1 LUM [organism=Nomascus leucogenys] [GeneID=100595797]	Nomascus_leucogenys|LUM|XP_003259698.1
+LUM	XP_009577915.1	Fulmarus glacialis	104078105		343	kept	representative	XP_009577915.1 LUM [organism=Fulmarus glacialis] [GeneID=104078105]	Fulmarus_glacialis|LUM|XP_009577915.1
+LUM	XP_010162378.1	Antrostomus carolinensis	104521935		292	kept	representative	XP_010162378.1 LUM [organism=Antrostomus carolinensis] [GeneID=104521935]	Antrostomus_carolinensis|LUM|XP_010162378.1
+LUM	XP_004548368.1	Maylandia zebra	101466877		342	kept	representative	XP_004548368.1 lum [organism=Maylandia zebra] [GeneID=101466877]	Maylandia_zebra|LUM|XP_004548368.1
+LUM	NP_001182609.1	Oryctolagus cuniculus	100008665		338	kept	representative	NP_001182609.1 LUM [organism=Oryctolagus cuniculus] [GeneID=100008665]	Oryctolagus_cuniculus|LUM|NP_001182609.1
+LUM	XP_069907360.1	Oryctolagus cuniculus	100008665	X1	338	excluded	extra_isoform_same_locus	XP_069907360.1 LUM [organism=Oryctolagus cuniculus] [GeneID=100008665] [isoform=X1]	Oryctolagus_cuniculus|LUM|XP_069907360.1
+LUM	XP_069907361.1	Oryctolagus cuniculus	100008665	X1	338	excluded	extra_isoform_same_locus	XP_069907361.1 LUM [organism=Oryctolagus cuniculus] [GeneID=100008665] [isoform=X1]	Oryctolagus_cuniculus|LUM|XP_069907361.1
+LUM	XP_056281280.1	Pseudoliparis swirei	130200772	X1	375	excluded	extra_isoform_same_locus	XP_056281280.1 lum [organism=Pseudoliparis swirei] [GeneID=130200772] [isoform=X1]	Pseudoliparis_swirei|LUM|XP_056281280.1
+LUM	XP_056281281.1	Pseudoliparis swirei	130200772	X2	374	kept	representative	XP_056281281.1 lum [organism=Pseudoliparis swirei] [GeneID=130200772] [isoform=X2]	Pseudoliparis_swirei|LUM|XP_056281281.1
+LUM	XP_006870782.1	Chrysochloris asiatica	102818549		339	kept	representative	XP_006870782.1 LUM [organism=Chrysochloris asiatica] [GeneID=102818549]	Chrysochloris_asiatica|LUM|XP_006870782.1
+LUM	XP_078098814.1	Sander vitreus	144512112		342	kept	representative	XP_078098814.1 lum [organism=Sander vitreus] [GeneID=144512112]	Sander_vitreus|LUM|XP_078098814.1
+LUM	XP_025914234.1	Apteryx rowi	112962376		343	kept	representative	XP_025914234.1 LUM [organism=Apteryx rowi] [GeneID=112962376]	Apteryx_rowi|LUM|XP_025914234.1
+LUM	XP_017349669.1	Ictalurus punctatus	108279748		341	kept	representative	XP_017349669.1 lum [organism=Ictalurus punctatus] [GeneID=108279748]	Ictalurus_punctatus|LUM|XP_017349669.1
+LUM	XP_017349670.1	Ictalurus punctatus	108279748		341	excluded	extra_isoform_same_locus	XP_017349670.1 lum [organism=Ictalurus punctatus] [GeneID=108279748]	Ictalurus_punctatus|LUM|XP_017349670.1
+LUM	XP_043093892.1	Puntigrus tetrazona	122343473		343	kept	representative	XP_043093892.1 lum [organism=Puntigrus tetrazona] [GeneID=122343473]	Puntigrus_tetrazona|LUM|XP_043093892.1
+LUM	XP_077663821.1	Eretmochelys imbricata	144259460		348	kept	representative	XP_077663821.1 LUM [organism=Eretmochelys imbricata] [GeneID=144259460]	Eretmochelys_imbricata|LUM|XP_077663821.1
+LUM	XP_008141995.1	Eptesicus fuscus	103288056		339	kept	representative	XP_008141995.1 LUM [organism=Eptesicus fuscus] [GeneID=103288056]	Eptesicus_fuscus|LUM|XP_008141995.1
+LUM	XP_054574776.1	Eptesicus fuscus	103288056		339	excluded	extra_isoform_same_locus	XP_054574776.1 LUM [organism=Eptesicus fuscus] [GeneID=103288056]	Eptesicus_fuscus|LUM|XP_054574776.1
+LUM	XP_026004168.1	Astatotilapia calliptera	113009809		342	kept	representative	XP_026004168.1 lum [organism=Astatotilapia calliptera] [GeneID=113009809]	Astatotilapia_calliptera|LUM|XP_026004168.1
+LUM	XP_059101432.1	Peromyscus eremicus	131895051		338	kept	representative	XP_059101432.1 Lum [organism=Peromyscus eremicus] [GeneID=131895051]	Peromyscus_eremicus|LUM|XP_059101432.1
+LUM	XP_061617587.1	Phyllopteryx taeniolatus	133471740		342	kept	representative	XP_061617587.1 lum [organism=Phyllopteryx taeniolatus] [GeneID=133471740]	Phyllopteryx_taeniolatus|LUM|XP_061617587.1
+LUM	XP_062238959.1	Platichthys flesus	133948897		341	kept	representative	XP_062238959.1 lum [organism=Platichthys flesus] [GeneID=133948897]	Platichthys_flesus|LUM|XP_062238959.1
+LUM	XP_074482058.1	Sebastes fasciatus	141762093	X1	376	excluded	extra_isoform_same_locus	XP_074482058.1 lum [organism=Sebastes fasciatus] [GeneID=141762093] [isoform=X1]	Sebastes_fasciatus|LUM|XP_074482058.1
+LUM	XP_074482059.1	Sebastes fasciatus	141762093	X2	375	kept	representative	XP_074482059.1 lum [organism=Sebastes fasciatus] [GeneID=141762093] [isoform=X2]	Sebastes_fasciatus|LUM|XP_074482059.1
+LUM	XP_030296608.1	Sparus aurata	115595900		342	kept	representative	XP_030296608.1 lum [organism=Sparus aurata] [GeneID=115595900]	Sparus_aurata|LUM|XP_030296608.1
+LUM	XP_030296609.1	Sparus aurata	115595900		342	excluded	extra_isoform_same_locus	XP_030296609.1 lum [organism=Sparus aurata] [GeneID=115595900]	Sparus_aurata|LUM|XP_030296609.1
+LUM	XP_049739992.1	Elephas maximus indicus	126075863		340	kept	representative	XP_049739992.1 LUM [organism=Elephas maximus indicus] [GeneID=126075863]	Elephas_maximus_indicus|LUM|XP_049739992.1
+LUM	XP_060020675.1	Lagenorhynchus albirostris	132528686		340	kept	representative	XP_060020675.1 LUM [organism=Lagenorhynchus albirostris] [GeneID=132528686]	Lagenorhynchus_albirostris|LUM|XP_060020675.1
+LUM	XP_070757626.1	Pristiophorus japonicus	139281371		341	kept	representative	XP_070757626.1 lum [organism=Pristiophorus japonicus] [GeneID=139281371]	Pristiophorus_japonicus|LUM|XP_070757626.1
+LUM	XP_070976708.1	Oncorhynchus clarkii lewisi	139378435		342	kept	representative	XP_070976708.1 lum [organism=Oncorhynchus clarkii lewisi] [GeneID=139378435]	Oncorhynchus_clarkii_lewisi|LUM|XP_070976708.1
+LUM	XP_070976709.1	Oncorhynchus clarkii lewisi	139378435		342	excluded	extra_isoform_same_locus	XP_070976709.1 lum [organism=Oncorhynchus clarkii lewisi] [GeneID=139378435]	Oncorhynchus_clarkii_lewisi|LUM|XP_070976709.1
+LUM	XP_054480701.1	Anoplopoma fimbria	129112571		342	kept	representative	XP_054480701.1 lum [organism=Anoplopoma fimbria] [GeneID=129112571]	Anoplopoma_fimbria|LUM|XP_054480701.1
+LUM	XP_047407787.1	Sciurus carolinensis	124984047		338	kept	representative	XP_047407787.1 Lum [organism=Sciurus carolinensis] [GeneID=124984047]	Sciurus_carolinensis|LUM|XP_047407787.1
+LUM	XP_029457496.1	Rhinatrema bivittatum	115091366		350	kept	representative	XP_029457496.1 LUM [organism=Rhinatrema bivittatum] [GeneID=115091366]	Rhinatrema_bivittatum|LUM|XP_029457496.1
+LUM	XP_011743023.1	Macaca nemestrina	105483741		338	kept	representative	XP_011743023.1 LUM [organism=Macaca nemestrina] [GeneID=105483741]	Macaca_nemestrina|LUM|XP_011743023.1
+LUM	XP_075886235.1	Nelusetta ayraudi	142890836		342	kept	representative	XP_075886235.1 lum [organism=Nelusetta ayraudi] [GeneID=142890836]	Nelusetta_ayraudi|LUM|XP_075886235.1
+LUM	XP_074024924.1	Numenius arquata	141479579		343	kept	representative	XP_074024924.1 LUM [organism=Numenius arquata] [GeneID=141479579]	Numenius_arquata|LUM|XP_074024924.1
+LUM	XP_075130573.1	Leptodactylus fuscus	142203597		346	kept	representative	XP_075130573.1 LUM [organism=Leptodactylus fuscus] [GeneID=142203597]	Leptodactylus_fuscus|LUM|XP_075130573.1
+LUM	XP_079150788.1	Melanostigma gelatinosum	306795936	1	342	kept	representative	XP_079150788.1 lum [organism=Melanostigma gelatinosum] [GeneID=306795936] [isoform=1]	Melanostigma_gelatinosum|LUM|XP_079150788.1
+LUM	XP_079150789.1	Melanostigma gelatinosum	306795936	1	342	excluded	extra_isoform_same_locus	XP_079150789.1 lum [organism=Melanostigma gelatinosum] [GeneID=306795936] [isoform=1]	Melanostigma_gelatinosum|LUM|XP_079150789.1
+LUM	XP_028638936.1	Grammomys surdaster	114634496		338	kept	representative	XP_028638936.1 Lum [organism=Grammomys surdaster] [GeneID=114634496]	Grammomys_surdaster|LUM|XP_028638936.1
+LUM	XP_032620940.1	Chelonoidis abingdonii	116816085		349	kept	representative	XP_032620940.1 LUM [organism=Chelonoidis abingdonii] [GeneID=116816085]	Chelonoidis_abingdonii|LUM|XP_032620940.1
+LUM	XP_050180120.1	Myiozetetes cayanensis	126644611		343	kept	representative	XP_050180120.1 LUM [organism=Myiozetetes cayanensis] [GeneID=126644611]	Myiozetetes_cayanensis|LUM|XP_050180120.1
+LUM	XP_063761707.1	Eleginops maclovinus	134879240		342	kept	representative	XP_063761707.1 lum [organism=Eleginops maclovinus] [GeneID=134879240]	Eleginops_maclovinus|LUM|XP_063761707.1
+LUM	XP_081678316.1	Leptonychotes weddellii	102748605		338	kept	representative	XP_081678316.1 LUM [organism=Leptonychotes weddellii] [GeneID=102748605]	Leptonychotes_weddellii|LUM|XP_081678316.1
+LUM	XP_083791371.1	Echiichthys vipera	310962707	1	341	kept	representative	XP_083791371.1 lum [organism=Echiichthys vipera] [GeneID=310962707] [isoform=1]	Echiichthys_vipera|LUM|XP_083791371.1
+LUM	XP_083791372.1	Echiichthys vipera	310962707	1	341	excluded	extra_isoform_same_locus	XP_083791372.1 lum [organism=Echiichthys vipera] [GeneID=310962707] [isoform=1]	Echiichthys_vipera|LUM|XP_083791372.1
+LUM	NP_032550.2	Mus musculus	17022		338	kept	representative	NP_032550.2 Lum [organism=Mus musculus] [GeneID=17022]	Mus_musculus|LUM|NP_032550.2
+LUM	XP_083557973.1	Podarcis gaigeae	310826688		349	kept	representative	XP_083557973.1 LUM [organism=Podarcis gaigeae] [GeneID=310826688]	Podarcis_gaigeae|LUM|XP_083557973.1
+LUM	XP_019488452.1	Hipposideros armiger	109376783		339	kept	representative	XP_019488452.1 LUM [organism=Hipposideros armiger] [GeneID=109376783]	Hipposideros_armiger|LUM|XP_019488452.1
+LUM	XP_019488453.1	Hipposideros armiger	109376783		339	excluded	extra_isoform_same_locus	XP_019488453.1 LUM [organism=Hipposideros armiger] [GeneID=109376783]	Hipposideros_armiger|LUM|XP_019488453.1
+LUM	XP_083906196.1	Gymnoscopelus microlampas	311040009	1	343	kept	representative	XP_083906196.1 lum [organism=Gymnoscopelus microlampas] [GeneID=311040009] [isoform=1]	Gymnoscopelus_microlampas|LUM|XP_083906196.1
+LUM	XP_083906197.1	Gymnoscopelus microlampas	311040009	1	343	excluded	extra_isoform_same_locus	XP_083906197.1 lum [organism=Gymnoscopelus microlampas] [GeneID=311040009] [isoform=1]	Gymnoscopelus_microlampas|LUM|XP_083906197.1
+LUM	XP_003771065.1	Sarcophilus harrisii	100922835		341	kept	representative	XP_003771065.1 LUM [organism=Sarcophilus harrisii] [GeneID=100922835]	Sarcophilus_harrisii|LUM|XP_003771065.1
+LUM	XP_031793588.1	Sarcophilus harrisii	100922835		341	excluded	extra_isoform_same_locus	XP_031793588.1 LUM [organism=Sarcophilus harrisii] [GeneID=100922835]	Sarcophilus_harrisii|LUM|XP_031793588.1
+LUM	XP_008002421.1	Chlorocebus sabaeus	103238849		338	kept	representative	XP_008002421.1 LUM [organism=Chlorocebus sabaeus] [GeneID=103238849]	Chlorocebus_sabaeus|LUM|XP_008002421.1
+LUM	XP_079040381.1	Pholis gunnellus	306714275	1	342	kept	representative	XP_079040381.1 lum [organism=Pholis gunnellus] [GeneID=306714275] [isoform=1]	Pholis_gunnellus|LUM|XP_079040381.1
+LUM	XP_079040382.1	Pholis gunnellus	306714275	1	342	excluded	extra_isoform_same_locus	XP_079040382.1 lum [organism=Pholis gunnellus] [GeneID=306714275] [isoform=1]	Pholis_gunnellus|LUM|XP_079040382.1
+LUM	XP_035281031.1	Anguilla anguilla	118231386		346	kept	representative	XP_035281031.1 lum [organism=Anguilla anguilla] [GeneID=118231386]	Anguilla_anguilla|LUM|XP_035281031.1
+LUM	XP_035281032.1	Anguilla anguilla	118231386		346	excluded	extra_isoform_same_locus	XP_035281032.1 lum [organism=Anguilla anguilla] [GeneID=118231386]	Anguilla_anguilla|LUM|XP_035281032.1
+LUM	XP_003503922.1	Cricetulus griseus	100755861		338	kept	representative	XP_003503922.1 Lum [organism=Cricetulus griseus] [GeneID=100755861]	Cricetulus_griseus|LUM|XP_003503922.1
+LUM	XP_027249933.1	Cricetulus griseus	100755861		338	excluded	extra_isoform_same_locus	XP_027249933.1 Lum [organism=Cricetulus griseus] [GeneID=100755861]	Cricetulus_griseus|LUM|XP_027249933.1
+LUM	XP_025848002.1	Vulpes vulpes	112914903		338	kept	representative	XP_025848002.1 LUM [organism=Vulpes vulpes] [GeneID=112914903]	Vulpes_vulpes|LUM|XP_025848002.1
+LUM	XP_027961276.1	Eumetopias jubatus	114211016		338	kept	representative	XP_027961276.1 LUM [organism=Eumetopias jubatus] [GeneID=114211016]	Eumetopias_jubatus|LUM|XP_027961276.1
+LUM	XP_061271711.1	Bos javanicus	133247209		342	kept	representative	XP_061271711.1 LUM [organism=Bos javanicus] [GeneID=133247209]	Bos_javanicus|LUM|XP_061271711.1
+LUM	XP_061271713.1	Bos javanicus	133247209		342	excluded	extra_isoform_same_locus	XP_061271713.1 LUM [organism=Bos javanicus] [GeneID=133247209]	Bos_javanicus|LUM|XP_061271713.1
+LUM	XP_004748612.1	Mustela putorius furo	101684107		337	kept	representative	XP_004748612.1 LUM [organism=Mustela putorius furo] [GeneID=101684107]	Mustela_putorius_furo|LUM|XP_004748612.1
+LUM	XP_052411274.1	Carassius gibelio	127956979		344	kept	representative	XP_052411274.1 lum [organism=Carassius gibelio] [GeneID=127956979]	Carassius_gibelio|LUM|XP_052411274.1
+LUM	XP_066525238.1	Hoplias malabaricus	136695215		344	kept	representative	XP_066525238.1 lum [organism=Hoplias malabaricus] [GeneID=136695215]	Hoplias_malabaricus|LUM|XP_066525238.1
+LUM	XP_029351009.1	Echeneis naucrates	115036797		342	kept	representative	XP_029351009.1 lum [organism=Echeneis naucrates] [GeneID=115036797]	Echeneis_naucrates|LUM|XP_029351009.1
+LUM	XP_004459881.1	Dasypus novemcinctus	101445777		341	kept	representative	XP_004459881.1 LUM [organism=Dasypus novemcinctus] [GeneID=101445777]	Dasypus_novemcinctus|LUM|XP_004459881.1
+LUM	XP_076190483.1	Aptenodytes patagonicus	143158426		343	kept	representative	XP_076190483.1 LUM [organism=Aptenodytes patagonicus] [GeneID=143158426]	Aptenodytes_patagonicus|LUM|XP_076190483.1
+LUM	NP_001253256.1	Macaca mulatta	709830		338	kept	representative	NP_001253256.1 LUM [organism=Macaca mulatta] [GeneID=709830]	Macaca_mulatta|LUM|NP_001253256.1
+LUM	XP_027751155.1	Empidonax traillii	114063216		343	kept	representative	XP_027751155.1 LUM [organism=Empidonax traillii] [GeneID=114063216]	Empidonax_traillii|LUM|XP_027751155.1
+LUM	XP_039617735.1	Polypterus senegalus	120534308		343	kept	representative	XP_039617735.1 lum [organism=Polypterus senegalus] [GeneID=120534308]	Polypterus_senegalus|LUM|XP_039617735.1
+LUM	XP_016070770.1	Miniopterus natalensis	107538931		339	kept	representative	XP_016070770.1 LUM [organism=Miniopterus natalensis] [GeneID=107538931]	Miniopterus_natalensis|LUM|XP_016070770.1
+LUM	XP_025959918.1	Dromaius novaehollandiae	112985491		343	kept	representative	XP_025959918.1 LUM [organism=Dromaius novaehollandiae] [GeneID=112985491]	Dromaius_novaehollandiae|LUM|XP_025959918.1
+LUM	XP_055047055.2	Misgurnus anguillicaudatus	129432586		341	kept	representative	XP_055047055.2 lum [organism=Misgurnus anguillicaudatus] [GeneID=129432586]	Misgurnus_anguillicaudatus|LUM|XP_055047055.2
+LUM	XP_073724442.1	Misgurnus anguillicaudatus	129432586		341	excluded	extra_isoform_same_locus	XP_073724442.1 lum [organism=Misgurnus anguillicaudatus] [GeneID=129432586]	Misgurnus_anguillicaudatus|LUM|XP_073724442.1
+LUM	XP_074082668.1	Macrotis lagotis	141515191		340	kept	representative	XP_074082668.1 LUM [organism=Macrotis lagotis] [GeneID=141515191]	Macrotis_lagotis|LUM|XP_074082668.1
+LUM	XP_004415614.1	Odobenus rosmarus divergens	101364068		338	kept	representative	XP_004415614.1 LUM [organism=Odobenus rosmarus divergens] [GeneID=101364068]	Odobenus_rosmarus_divergens|LUM|XP_004415614.1
+LUM	XP_073410379.1	Dendrobates tinctorius	141058115		346	kept	representative	XP_073410379.1 LUM [organism=Dendrobates tinctorius] [GeneID=141058115]	Dendrobates_tinctorius|LUM|XP_073410379.1
+LUM	XP_081954728.1	Larus argentatus	309461860		343	kept	representative	XP_081954728.1 LUM [organism=Larus argentatus] [GeneID=309461860]	Larus_argentatus|LUM|XP_081954728.1
+LUM	XP_004623841.1	Octodon degus	101574552		338	kept	representative	XP_004623841.1 Lum [organism=Octodon degus] [GeneID=101574552]	Octodon_degus|LUM|XP_004623841.1
+LUM	XP_023572116.1	Octodon degus	101574552		338	excluded	extra_isoform_same_locus	XP_023572116.1 Lum [organism=Octodon degus] [GeneID=101574552]	Octodon_degus|LUM|XP_023572116.1
+LUM	XP_014936329.1	Acinonyx jubatus	106982670		339	kept	representative	XP_014936329.1 LUM [organism=Acinonyx jubatus] [GeneID=106982670]	Acinonyx_jubatus|LUM|XP_014936329.1
+LUM	XP_059881330.1	Delphinus delphis	132433940		340	kept	representative	XP_059881330.1 LUM [organism=Delphinus delphis] [GeneID=132433940]	Delphinus_delphis|LUM|XP_059881330.1
+LUM	XP_077400917.1	Vanacampus margaritifer	144035244		342	kept	representative	XP_077400917.1 lum [organism=Vanacampus margaritifer] [GeneID=144035244]	Vanacampus_margaritifer|LUM|XP_077400917.1
+LUM	XP_021060770.1	Mus pahari	110326576		338	kept	representative	XP_021060770.1 Lum [organism=Mus pahari] [GeneID=110326576]	Mus_pahari|LUM|XP_021060770.1
+LUM	XP_042259496.1	Thunnus maccoyii	121890921		342	kept	representative	XP_042259496.1 lum [organism=Thunnus maccoyii] [GeneID=121890921]	Thunnus_maccoyii|LUM|XP_042259496.1
+LUM	XP_068856083.1	Aphelocoma coerulescens	138102259		343	kept	representative	XP_068856083.1 LUM [organism=Aphelocoma coerulescens] [GeneID=138102259]	Aphelocoma_coerulescens|LUM|XP_068856083.1
+LUM	XP_079511582.1	Notothenia rossii	307022611		342	kept	representative	XP_079511582.1 lum [organism=Notothenia rossii] [GeneID=307022611]	Notothenia_rossii|LUM|XP_079511582.1
+LUM	XP_082609144.1	Aythya marila	309874638		343	kept	representative	XP_082609144.1 LUM [organism=Aythya marila] [GeneID=309874638]	Aythya_marila|LUM|XP_082609144.1
+LUM	XP_054845403.1	Eublepharis macularius	129336300		351	kept	representative	XP_054845403.1 LUM [organism=Eublepharis macularius] [GeneID=129336300]	Eublepharis_macularius|LUM|XP_054845403.1
+LUM	XP_054845404.1	Eublepharis macularius	129336300		351	excluded	extra_isoform_same_locus	XP_054845404.1 LUM [organism=Eublepharis macularius] [GeneID=129336300]	Eublepharis_macularius|LUM|XP_054845404.1
+LUM	XP_073507749.1	Phyllobates terribilis	141165763		346	kept	representative	XP_073507749.1 LUM [organism=Phyllobates terribilis] [GeneID=141165763]	Phyllobates_terribilis|LUM|XP_073507749.1
+LUM	XP_003221093.1	Anolis carolinensis	100561888	X2	349	kept	representative	XP_003221093.1 lum [organism=Anolis carolinensis] [GeneID=100561888] [isoform=X2]	Anolis_carolinensis|LUM|XP_003221093.1
+LUM	XP_016849239.1	Anolis carolinensis	100561888	X1	380	excluded	extra_isoform_same_locus	XP_016849239.1 lum [organism=Anolis carolinensis] [GeneID=100561888] [isoform=X1]	Anolis_carolinensis|LUM|XP_016849239.1
+LUM	XP_027519113.1	Corapipo altera	113956582		343	kept	representative	XP_027519113.1 LUM [organism=Corapipo altera] [GeneID=113956582]	Corapipo_altera|LUM|XP_027519113.1
+LUM	XP_042746428.1	Lagopus leucura	122190484		344	kept	representative	XP_042746428.1 LUM [organism=Lagopus leucura] [GeneID=122190484]	Lagopus_leucura|LUM|XP_042746428.1
+LUM	XP_027449191.2	Zalophus californianus	113921920		338	kept	representative	XP_027449191.2 LUM [organism=Zalophus californianus] [GeneID=113921920]	Zalophus_californianus|LUM|XP_027449191.2
+LUM	XP_008277095.1	Stegastes partitus	103355178		340	kept	representative	XP_008277095.1 lum [organism=Stegastes partitus] [GeneID=103355178]	Stegastes_partitus|LUM|XP_008277095.1
+LUM	XP_029902245.1	Myripristis murdjan	115355534		342	kept	representative	XP_029902245.1 lum [organism=Myripristis murdjan] [GeneID=115355534]	Myripristis_murdjan|LUM|XP_029902245.1
+LUM	XP_029902246.1	Myripristis murdjan	115355534		342	excluded	extra_isoform_same_locus	XP_029902246.1 lum [organism=Myripristis murdjan] [GeneID=115355534]	Myripristis_murdjan|LUM|XP_029902246.1
+LUM	XP_084339559.1	Micromesistius poutassou	311363483		346	kept	representative	XP_084339559.1 lum [organism=Micromesistius poutassou] [GeneID=311363483]	Micromesistius_poutassou|LUM|XP_084339559.1
+LUM	XP_012609332.1	Microcebus murinus	105865373		338	kept	representative	XP_012609332.1 LUM [organism=Microcebus murinus] [GeneID=105865373]	Microcebus_murinus|LUM|XP_012609332.1
+LUM	XP_055094212.1	Symphalangus syndactylus	129460435		338	kept	representative	XP_055094212.1 LUM [organism=Symphalangus syndactylus] [GeneID=129460435]	Symphalangus_syndactylus|LUM|XP_055094212.1
+LUM	XP_019370400.1	Gavialis gangeticus	109295788		342	kept	representative	XP_019370400.1 LUM [organism=Gavialis gangeticus] [GeneID=109295788]	Gavialis_gangeticus|LUM|XP_019370400.1
+LUM	XP_036313535.1	Pipistrellus kuhlii	118729999		341	kept	representative	XP_036313535.1 LUM [organism=Pipistrellus kuhlii] [GeneID=118729999]	Pipistrellus_kuhlii|LUM|XP_036313535.1
+LUM	XP_049991499.1	Alexandromys fortis	126497488		338	kept	representative	XP_049991499.1 Lum [organism=Alexandromys fortis] [GeneID=126497488]	Alexandromys_fortis|LUM|XP_049991499.1
+LUM	XP_065279704.1	Emys orbicularis	135895522		349	kept	representative	XP_065279704.1 LUM [organism=Emys orbicularis] [GeneID=135895522]	Emys_orbicularis|LUM|XP_065279704.1
+LUM	XP_024139728.1	Oryzias melastigma	112153610		342	kept	representative	XP_024139728.1 lum [organism=Oryzias melastigma] [GeneID=112153610]	Oryzias_melastigma|LUM|XP_024139728.1
+LUM	XP_013911966.1	Thamnophis sirtalis	106541143		344	kept	representative	XP_013911966.1 LUM [organism=Thamnophis sirtalis] [GeneID=106541143]	Thamnophis_sirtalis|LUM|XP_013911966.1
+LUM	XP_013911967.1	Thamnophis sirtalis	106541143		344	excluded	extra_isoform_same_locus	XP_013911967.1 LUM [organism=Thamnophis sirtalis] [GeneID=106541143]	Thamnophis_sirtalis|LUM|XP_013911967.1
+LUM	XP_025891299.1	Nothoprocta perdicaria	112944136		343	kept	representative	XP_025891299.1 LUM [organism=Nothoprocta perdicaria] [GeneID=112944136]	Nothoprocta_perdicaria|LUM|XP_025891299.1
+LUM	XP_068128875.1	Hyperolius riggenbachi	137561476		353	kept	representative	XP_068128875.1 LUM [organism=Hyperolius riggenbachi] [GeneID=137561476]	Hyperolius_riggenbachi|LUM|XP_068128875.1
+LUM	XP_077450141.1	Stigmatopora argus	144069002		342	kept	representative	XP_077450141.1 lum [organism=Stigmatopora argus] [GeneID=144069002]	Stigmatopora_argus|LUM|XP_077450141.1
+LUM	XP_084734967.1	Pipistrellus hanaki	311619990		341	kept	representative	XP_084734967.1 LUM [organism=Pipistrellus hanaki] [GeneID=311619990]	Pipistrellus_hanaki|LUM|XP_084734967.1
+LUM	XP_050995695.1	Acomys russatus	127183656		340	kept	representative	XP_050995695.1 Lum [organism=Acomys russatus] [GeneID=127183656]	Acomys_russatus|LUM|XP_050995695.1
+LUM	XP_053572882.1	Bombina bombina	128662884		351	kept	representative	XP_053572882.1 LUM [organism=Bombina bombina] [GeneID=128662884]	Bombina_bombina|LUM|XP_053572882.1
+LUM	XP_084018249.1	Coregonus lavaretus	311129715		342	kept	representative	XP_084018249.1 lum [organism=Coregonus lavaretus] [GeneID=311129715]	Coregonus_lavaretus|LUM|XP_084018249.1
+LUM	XP_062059120.1	Lepus europaeus	133768517		338	kept	representative	XP_062059120.1 LUM [organism=Lepus europaeus] [GeneID=133768517]	Lepus_europaeus|LUM|XP_062059120.1
+LUM	XP_069436770.1	Ovis canadensis	138435708		342	kept	representative	XP_069436770.1 LUM [organism=Ovis canadensis] [GeneID=138435708]	Ovis_canadensis|LUM|XP_069436770.1
+LUM	XP_072341047.1	Scyliorhinus torazame	140396374		341	kept	representative	XP_072341047.1 lum [organism=Scyliorhinus torazame] [GeneID=140396374]	Scyliorhinus_torazame|LUM|XP_072341047.1
+LUM	XP_083257385.1	Podarcis tiliguerta	310658869		349	kept	representative	XP_083257385.1 LUM [organism=Podarcis tiliguerta] [GeneID=310658869]	Podarcis_tiliguerta|LUM|XP_083257385.1
+LUM	XP_010336786.1	Saimiri boliviensis	101051281		338	kept	representative	XP_010336786.1 LUM [organism=Saimiri boliviensis] [GeneID=101051281]	Saimiri_boliviensis|LUM|XP_010336786.1
+LUM	XP_062339530.1	Osmerus eperlanus	134037967		339	kept	representative	XP_062339530.1 lum [organism=Osmerus eperlanus] [GeneID=134037967]	Osmerus_eperlanus|LUM|XP_062339530.1
+LUM	XP_062339531.1	Osmerus eperlanus	134037967		339	excluded	extra_isoform_same_locus	XP_062339531.1 lum [organism=Osmerus eperlanus] [GeneID=134037967]	Osmerus_eperlanus|LUM|XP_062339531.1
+LUM	XP_077628362.1	Crocuta crocuta	144238431		339	kept	representative	XP_077628362.1 LUM [organism=Crocuta crocuta] [GeneID=144238431]	Crocuta_crocuta|LUM|XP_077628362.1
+LUM	XP_039523530.1	Pimephales promelas	120476533		344	kept	representative	XP_039523530.1 lum [organism=Pimephales promelas] [GeneID=120476533]	Pimephales_promelas|LUM|XP_039523530.1
+LUM	XP_058597801.1	Neofelis nebulosa	131519114		339	kept	representative	XP_058597801.1 LUM [organism=Neofelis nebulosa] [GeneID=131519114]	Neofelis_nebulosa|LUM|XP_058597801.1
+LUM	XP_068417406.1	Eschrichtius robustus	137775437		339	kept	representative	XP_068417406.1 LUM [organism=Eschrichtius robustus] [GeneID=137775437]	Eschrichtius_robustus|LUM|XP_068417406.1
+LUM	XP_068417407.1	Eschrichtius robustus	137775437		339	excluded	extra_isoform_same_locus	XP_068417407.1 LUM [organism=Eschrichtius robustus] [GeneID=137775437]	Eschrichtius_robustus|LUM|XP_068417407.1
+LUM	XP_069571878.1	Brachyistius frenatus	138631055		342	kept	representative	XP_069571878.1 lum [organism=Brachyistius frenatus] [GeneID=138631055]	Brachyistius_frenatus|LUM|XP_069571878.1
+LUM	XP_069571879.1	Brachyistius frenatus	138631055		342	excluded	extra_isoform_same_locus	XP_069571879.1 lum [organism=Brachyistius frenatus] [GeneID=138631055]	Brachyistius_frenatus|LUM|XP_069571879.1
+LUM	XP_083894487.1	Eutrigla gurnardus	311031838		341	kept	representative	XP_083894487.1 lum [organism=Eutrigla gurnardus] [GeneID=311031838]	Eutrigla_gurnardus|LUM|XP_083894487.1
+LUM	XP_006258420.1	Alligator mississippiensis	102565796		342	kept	representative	XP_006258420.1 LUM [organism=Alligator mississippiensis] [GeneID=102565796]	Alligator_mississippiensis|LUM|XP_006258420.1
+LUM	XP_018541159.1	Lates calcarifer	108889272		342	kept	representative	XP_018541159.1 lum [organism=Lates calcarifer] [GeneID=108889272]	Lates_calcarifer|LUM|XP_018541159.1
+LUM	XP_041637310.1	Cheilinus undulatus	121505824		342	kept	representative	XP_041637310.1 lum [organism=Cheilinus undulatus] [GeneID=121505824]	Cheilinus_undulatus|LUM|XP_041637310.1
+LUM	XP_055973045.1	Sorex fumeus	130026310		343	kept	representative	XP_055973045.1 LUM [organism=Sorex fumeus] [GeneID=130026310]	Sorex_fumeus|LUM|XP_055973045.1
+LUM	XP_001368917.2	Monodelphis domestica	100014644		341	kept	representative	XP_001368917.2 LUM [organism=Monodelphis domestica] [GeneID=100014644]	Monodelphis_domestica|LUM|XP_001368917.2
+LUM	XP_064587666.1	Zonotrichia leucophrys gambelii	135457186		343	kept	representative	XP_064587666.1 LUM [organism=Zonotrichia leucophrys gambelii] [GeneID=135457186]	Zonotrichia_leucophrys_gambelii|LUM|XP_064587666.1
+LUM	XP_014819474.1	Calidris pugnax	106901345		343	kept	representative	XP_014819474.1 LUM [organism=Calidris pugnax] [GeneID=106901345]	Calidris_pugnax|LUM|XP_014819474.1
+LUM	XP_061109122.1	Conger conger	133135843		346	kept	representative	XP_061109122.1 lum [organism=Conger conger] [GeneID=133135843]	Conger_conger|LUM|XP_061109122.1
+LUM	XP_043963646.1	Gambusia affinis	122826167		342	kept	representative	XP_043963646.1 lum [organism=Gambusia affinis] [GeneID=122826167]	Gambusia_affinis|LUM|XP_043963646.1
+LUM	XP_022045811.1	Acanthochromis polyacanthus	110948546		342	kept	representative	XP_022045811.1 lum [organism=Acanthochromis polyacanthus] [GeneID=110948546]	Acanthochromis_polyacanthus|LUM|XP_022045811.1
+LUM	XP_051812402.1	Acanthochromis polyacanthus	110948546		342	excluded	extra_isoform_same_locus	XP_051812402.1 lum [organism=Acanthochromis polyacanthus] [GeneID=110948546]	Acanthochromis_polyacanthus|LUM|XP_051812402.1
+LUM	XP_033019243.1	Lacerta agilis	117054475		349	kept	representative	XP_033019243.1 LUM [organism=Lacerta agilis] [GeneID=117054475]	Lacerta_agilis|LUM|XP_033019243.1
+LUM	XP_004384256.1	Trichechus manatus latirostris	101347194		340	kept	representative	XP_004384256.1 LUM [organism=Trichechus manatus latirostris] [GeneID=101347194]	Trichechus_manatus_latirostris|LUM|XP_004384256.1
+LUM	XP_071406039.1	Pithys albifrons albifrons	139669447		343	kept	representative	XP_071406039.1 LUM [organism=Pithys albifrons albifrons] [GeneID=139669447]	Pithys_albifrons_albifrons|LUM|XP_071406039.1
+LUM	XP_010019195.1	Nestor notabilis	104410658		303	kept	representative	XP_010019195.1 LUM [organism=Nestor notabilis] [GeneID=104410658]	Nestor_notabilis|LUM|XP_010019195.1
+LUM	XP_069485367.1	Ambystoma mexicanum	138514030		352	kept	representative	XP_069485367.1 LUM [organism=Ambystoma mexicanum] [GeneID=138514030]	Ambystoma_mexicanum|LUM|XP_069485367.1
+LUM	XP_079724395.1	Squalius cephalus	307156757		344	kept	representative	XP_079724395.1 lum [organism=Squalius cephalus] [GeneID=307156757]	Squalius_cephalus|LUM|XP_079724395.1
+LUM	XP_022350752.1	Enhydra lutris kenyoni	111142093		337	kept	representative	XP_022350752.1 LOC111142093 [organism=Enhydra lutris kenyoni] [GeneID=111142093]	Enhydra_lutris_kenyoni|LUM|XP_022350752.1
+LUM	XP_079612226.1	Pollachius pollachius	307089695		346	kept	representative	XP_079612226.1 lum [organism=Pollachius pollachius] [GeneID=307089695]	Pollachius_pollachius|LUM|XP_079612226.1
+LUM	XP_015668387.1	Protobothrops mucrosquamatus	107284784		344	kept	representative	XP_015668387.1 LUM [organism=Protobothrops mucrosquamatus] [GeneID=107284784]	Protobothrops_mucrosquamatus|LUM|XP_015668387.1
+LUM	XP_004330174.1	Tursiops truncatus	101328149	X2	340	kept	representative	XP_004330174.1 LUM [organism=Tursiops truncatus] [GeneID=101328149] [isoform=X2]	Tursiops_truncatus|LUM|XP_004330174.1
+LUM	XP_019774278.1	Tursiops truncatus	101328149	X1	375	excluded	extra_isoform_same_locus	XP_019774278.1 LUM [organism=Tursiops truncatus] [GeneID=101328149] [isoform=X1]	Tursiops_truncatus|LUM|XP_019774278.1
+LUM	XP_026549460.1	Notechis scutatus	113431340		345	kept	representative	XP_026549460.1 LUM [organism=Notechis scutatus] [GeneID=113431340]	Notechis_scutatus|LUM|XP_026549460.1
+LUM	XP_069620470.1	Ranitomeya imitator	138675815		345	kept	representative	XP_069620470.1 LUM [organism=Ranitomeya imitator] [GeneID=138675815]	Ranitomeya_imitator|LUM|XP_069620470.1
+LUM	XP_015256382.1	Cyprinodon variegatus	107101834		342	kept	representative	XP_015256382.1 lum [organism=Cyprinodon variegatus] [GeneID=107101834]	Cyprinodon_variegatus|LUM|XP_015256382.1
+LUM	XP_015256383.1	Cyprinodon variegatus	107101834		342	excluded	extra_isoform_same_locus	XP_015256383.1 lum [organism=Cyprinodon variegatus] [GeneID=107101834]	Cyprinodon_variegatus|LUM|XP_015256383.1
+LUM	XP_051062251.1	Phodopus roborovskii	127237884		341	kept	representative	XP_051062251.1 Lum [organism=Phodopus roborovskii] [GeneID=127237884]	Phodopus_roborovskii|LUM|XP_051062251.1
+LUM	XP_073476289.1	Aquarana catesbeiana	141132128		347	kept	representative	XP_073476289.1 LUM [organism=Aquarana catesbeiana] [GeneID=141132128]	Aquarana_catesbeiana|LUM|XP_073476289.1
+LUM	XP_049892633.1	Epinephelus moara	126385130		342	kept	representative	XP_049892633.1 lum [organism=Epinephelus moara] [GeneID=126385130]	Epinephelus_moara|LUM|XP_049892633.1
+LUM	XP_012725172.2	Fundulus heteroclitus	105931161		342	kept	representative	XP_012725172.2 lum [organism=Fundulus heteroclitus] [GeneID=105931161]	Fundulus_heteroclitus|LUM|XP_012725172.2
+LUM	XP_021519150.1	Meriones unguiculatus	110565732		338	kept	representative	XP_021519150.1 Lum [organism=Meriones unguiculatus] [GeneID=110565732]	Meriones_unguiculatus|LUM|XP_021519150.1
+LUM	XP_046235558.1	Scatophagus argus	124053979		342	kept	representative	XP_046235558.1 lum [organism=Scatophagus argus] [GeneID=124053979]	Scatophagus_argus|LUM|XP_046235558.1
+LUM	XP_008313748.1	Cynoglossus semilaevis	103382667		342	kept	representative	XP_008313748.1 lum [organism=Cynoglossus semilaevis] [GeneID=103382667]	Cynoglossus_semilaevis|LUM|XP_008313748.1
+LUM	XP_009922102.2	Haliaeetus albicilla	104321206		343	kept	representative	XP_009922102.2 LUM [organism=Haliaeetus albicilla] [GeneID=104321206]	Haliaeetus_albicilla|LUM|XP_009922102.2
+LUM	XP_020633090.2	Pogona vitticeps	110069850		349	kept	representative	XP_020633090.2 LUM [organism=Pogona vitticeps] [GeneID=110069850]	Pogona_vitticeps|LUM|XP_020633090.2
+LUM	XP_070263693.1	Myotis yumanensis	139005307		339	kept	representative	XP_070263693.1 LUM [organism=Myotis yumanensis] [GeneID=139005307]	Myotis_yumanensis|LUM|XP_070263693.1
+LUM	XP_069845842.1	Dipodomys merriami	138805135		339	kept	representative	XP_069845842.1 Lum [organism=Dipodomys merriami] [GeneID=138805135]	Dipodomys_merriami|LUM|XP_069845842.1
+LUM	XP_077356235.1	Festucalex cinctus	144003642		342	kept	representative	XP_077356235.1 lum [organism=Festucalex cinctus] [GeneID=144003642]	Festucalex_cinctus|LUM|XP_077356235.1
+LUM	NP_002336.1	Homo sapiens	4060		338	kept	representative	NP_002336.1 LUM [organism=Homo sapiens] [GeneID=4060]	Homo_sapiens|LUM|NP_002336.1
+LUM	XP_043943789.1	Protopterus annectens	122815388		348	kept	representative	XP_043943789.1 LUM [organism=Protopterus annectens] [GeneID=122815388]	Protopterus_annectens|LUM|XP_043943789.1
+LUM	XP_043943791.1	Protopterus annectens	122815388		348	excluded	extra_isoform_same_locus	XP_043943791.1 LUM [organism=Protopterus annectens] [GeneID=122815388]	Protopterus_annectens|LUM|XP_043943791.1
+LUM	XP_004583149.2	Ochotona princeps	101536326		338	kept	representative	XP_004583149.2 LUM [organism=Ochotona princeps] [GeneID=101536326]	Ochotona_princeps|LUM|XP_004583149.2
+LUM	XP_053318384.1	Spea bombifrons	128490511		351	kept	representative	XP_053318384.1 LUM [organism=Spea bombifrons] [GeneID=128490511]	Spea_bombifrons|LUM|XP_053318384.1
+LUM	XP_041819799.1	Chelmon rostratus	121625673		342	kept	representative	XP_041819799.1 lum [organism=Chelmon rostratus] [GeneID=121625673]	Chelmon_rostratus|LUM|XP_041819799.1
+LUM	XP_044084253.1	Neogale vison	122892142		337	kept	representative	XP_044084253.1 LUM [organism=Neogale vison] [GeneID=122892142]	Neogale_vison|LUM|XP_044084253.1
+LUM	XP_019329012.1	Aptenodytes forsteri	103903307		343	kept	representative	XP_019329012.1 LUM [organism=Aptenodytes forsteri] [GeneID=103903307]	Aptenodytes_forsteri|LUM|XP_019329012.1
+LUM	XP_010947741.1	Camelus bactrianus	105064494		339	kept	representative	XP_010947741.1 LUM [organism=Camelus bactrianus] [GeneID=105064494]	Camelus_bactrianus|LUM|XP_010947741.1
+LUM	XP_025294902.1	Canis lupus dingo	112654548		338	kept	representative	XP_025294902.1 LUM [organism=Canis lupus dingo] [GeneID=112654548]	Canis_lupus_dingo|LUM|XP_025294902.1
+LUM	XP_032730096.1	Lontra canadensis	116877470		337	kept	representative	XP_032730096.1 LUM [organism=Lontra canadensis] [GeneID=116877470]	Lontra_canadensis|LUM|XP_032730096.1
+LUM	XP_020455107.1	Monopterus albus	109959801	X1	402	excluded	extra_isoform_same_locus	XP_020455107.1 lum [organism=Monopterus albus] [GeneID=109959801] [isoform=X1]	Monopterus_albus|LUM|XP_020455107.1
+LUM	XP_020455108.1	Monopterus albus	109959801	X2	378	kept	representative	XP_020455108.1 lum [organism=Monopterus albus] [GeneID=109959801] [isoform=X2]	Monopterus_albus|LUM|XP_020455108.1
+LUM	XP_032360517.1	Etheostoma spectabile	116672774		343	kept	representative	XP_032360517.1 lum [organism=Etheostoma spectabile] [GeneID=116672774]	Etheostoma_spectabile|LUM|XP_032360517.1
+LUM	XP_085108537.1	Mchenga conophoros	146555639		342	kept	representative	XP_085108537.1 lum [organism=Mchenga conophoros] [GeneID=146555639]	Mchenga_conophoros|LUM|XP_085108537.1
+LUM	XP_080096315.1	Raja brachyura	145377353		341	kept	representative	XP_080096315.1 lum [organism=Raja brachyura] [GeneID=145377353]	Raja_brachyura|LUM|XP_080096315.1
+LUM	XP_080096316.1	Raja brachyura	145377353		341	excluded	extra_isoform_same_locus	XP_080096316.1 lum [organism=Raja brachyura] [GeneID=145377353]	Raja_brachyura|LUM|XP_080096316.1
+LUM	XP_082365704.1	Aulonocara stuartgranti	309691704		342	kept	representative	XP_082365704.1 lum [organism=Aulonocara stuartgranti] [GeneID=309691704]	Aulonocara_stuartgranti|LUM|XP_082365704.1
+LUM	XP_071358467.1	Trachinotus anak	139635245		342	kept	representative	XP_071358467.1 lum [organism=Trachinotus anak] [GeneID=139635245]	Trachinotus_anak|LUM|XP_071358467.1
+LUM	XP_071358468.1	Trachinotus anak	139635245		342	excluded	extra_isoform_same_locus	XP_071358468.1 lum [organism=Trachinotus anak] [GeneID=139635245]	Trachinotus_anak|LUM|XP_071358468.1
+LUM	XP_078075758.1	Mustelus asterias	144498470	X1	361	excluded	extra_isoform_same_locus	XP_078075758.1 lum [organism=Mustelus asterias] [GeneID=144498470] [isoform=X1]	Mustelus_asterias|LUM|XP_078075758.1
+LUM	XP_078075760.1	Mustelus asterias	144498470	X1	361	excluded	extra_isoform_same_locus	XP_078075760.1 lum [organism=Mustelus asterias] [GeneID=144498470] [isoform=X1]	Mustelus_asterias|LUM|XP_078075760.1
+LUM	XP_078075761.1	Mustelus asterias	144498470	X2	341	kept	representative	XP_078075761.1 lum [organism=Mustelus asterias] [GeneID=144498470] [isoform=X2]	Mustelus_asterias|LUM|XP_078075761.1
+LUM	XP_078075762.1	Mustelus asterias	144498470	X2	341	excluded	extra_isoform_same_locus	XP_078075762.1 lum [organism=Mustelus asterias] [GeneID=144498470] [isoform=X2]	Mustelus_asterias|LUM|XP_078075762.1
+LUM	XP_085916471.1	Leptonotus elevatus	147160321		342	kept	representative	XP_085916471.1 lum [organism=Leptonotus elevatus] [GeneID=147160321]	Leptonotus_elevatus|LUM|XP_085916471.1
+LUM	XP_016083439.1	Ornithorhynchus anatinus	100080022		349	kept	representative	XP_016083439.1 LUM [organism=Ornithorhynchus anatinus] [GeneID=100080022]	Ornithorhynchus_anatinus|LUM|XP_016083439.1
+LUM	XP_028934539.1	Ornithorhynchus anatinus	100080022		349	excluded	extra_isoform_same_locus	XP_028934539.1 LUM [organism=Ornithorhynchus anatinus] [GeneID=100080022]	Ornithorhynchus_anatinus|LUM|XP_028934539.1
+LUM	XP_028934540.1	Ornithorhynchus anatinus	100080022		349	excluded	extra_isoform_same_locus	XP_028934540.1 LUM [organism=Ornithorhynchus anatinus] [GeneID=100080022]	Ornithorhynchus_anatinus|LUM|XP_028934540.1
+LUM	XP_016016002.1	Rousettus aegyptiacus	107518652		339	kept	representative	XP_016016002.1 LUM [organism=Rousettus aegyptiacus] [GeneID=107518652]	Rousettus_aegyptiacus|LUM|XP_016016002.1
+LUM	XP_028252841.1	Parambassis ranga	114428533		342	kept	representative	XP_028252841.1 lum [organism=Parambassis ranga] [GeneID=114428533]	Parambassis_ranga|LUM|XP_028252841.1
+LUM	XP_054242706.1	Indicator indicator	128971243		343	kept	representative	XP_054242706.1 LUM [organism=Indicator indicator] [GeneID=128971243]	Indicator_indicator|LUM|XP_054242706.1
+LUM	XP_053505832.1	Ictalurus furcatus	128623019		341	kept	representative	XP_053505832.1 lum [organism=Ictalurus furcatus] [GeneID=128623019]	Ictalurus_furcatus|LUM|XP_053505832.1
+LUM	XP_085162057.1	Rhea americana	146595322		343	kept	representative	XP_085162057.1 LUM [organism=Rhea americana] [GeneID=146595322]	Rhea_americana|LUM|XP_085162057.1
+LUM	XP_083855933.1	Trachurus trachurus	311006827	1	342	kept	representative	XP_083855933.1 lum [organism=Trachurus trachurus] [GeneID=311006827] [isoform=1]	Trachurus_trachurus|LUM|XP_083855933.1
+LUM	XP_083855934.1	Trachurus trachurus	311006827	1	342	excluded	extra_isoform_same_locus	XP_083855934.1 lum [organism=Trachurus trachurus] [GeneID=311006827] [isoform=1]	Trachurus_trachurus|LUM|XP_083855934.1
+LUM	XP_068046467.1	Anomalospiza imberbis	137474080		343	kept	representative	XP_068046467.1 LUM [organism=Anomalospiza imberbis] [GeneID=137474080]	Anomalospiza_imberbis|LUM|XP_068046467.1
+LUM	XP_069830310.1	Dendropsophus ebraccatus	138795210		345	kept	representative	XP_069830310.1 LUM [organism=Dendropsophus ebraccatus] [GeneID=138795210]	Dendropsophus_ebraccatus|LUM|XP_069830310.1
+LUM	XP_040200077.1	Rana temporaria	120932049		347	kept	representative	XP_040200077.1 LUM [organism=Rana temporaria] [GeneID=120932049]	Rana_temporaria|LUM|XP_040200077.1
+LUM	XP_083222785.1	Vipera ursinii	310642763	1	371	excluded	extra_isoform_same_locus	XP_083222785.1 LUM [organism=Vipera ursinii] [GeneID=310642763] [isoform=1]	Vipera_ursinii|LUM|XP_083222785.1
+LUM	XP_083222786.1	Vipera ursinii	310642763	2	344	kept	representative	XP_083222786.1 LUM [organism=Vipera ursinii] [GeneID=310642763] [isoform=2]	Vipera_ursinii|LUM|XP_083222786.1
+LUM	XP_004676551.1	Condylura cristata	101626623		340	kept	representative	XP_004676551.1 LUM [organism=Condylura cristata] [GeneID=101626623]	Condylura_cristata|LUM|XP_004676551.1
+LUM	XP_005446359.1	Falco cherrug	102058180		343	kept	representative	XP_005446359.1 LUM [organism=Falco cherrug] [GeneID=102058180]	Falco_cherrug|LUM|XP_005446359.1
+LUM	XP_055568325.1	Falco cherrug	102058180		343	excluded	extra_isoform_same_locus	XP_055568325.1 LUM [organism=Falco cherrug] [GeneID=102058180]	Falco_cherrug|LUM|XP_055568325.1
+LUM	XP_020862120.1	Phascolarctos cinereus	110221790		341	kept	representative	XP_020862120.1 LUM [organism=Phascolarctos cinereus] [GeneID=110221790]	Phascolarctos_cinereus|LUM|XP_020862120.1
+LUM	XP_080801537.1	Bucephala clangula	308441997		343	kept	representative	XP_080801537.1 LUM [organism=Bucephala clangula] [GeneID=308441997]	Bucephala_clangula|LUM|XP_080801537.1
+LUM	XP_072216765.1	Excalfactoria chinensis	140264750		343	kept	representative	XP_072216765.1 LUM [organism=Excalfactoria chinensis] [GeneID=140264750]	Excalfactoria_chinensis|LUM|XP_072216765.1
+LUM	XP_057180317.1	Triplophysa rosa	130547945		342	kept	representative	XP_057180317.1 lum [organism=Triplophysa rosa] [GeneID=130547945]	Triplophysa_rosa|LUM|XP_057180317.1
+LUM	XP_009865291.1	Apaloderma vittatum	104272090		292	kept	representative	XP_009865291.1 LUM [organism=Apaloderma vittatum] [GeneID=104272090]	Apaloderma_vittatum|LUM|XP_009865291.1
+LUM	XP_063356949.1	Pelmatolapia mariae	134646873		342	kept	representative	XP_063356949.1 lum [organism=Pelmatolapia mariae] [GeneID=134646873]	Pelmatolapia_mariae|LUM|XP_063356949.1
+LUM	XP_063356950.1	Pelmatolapia mariae	134646873		342	excluded	extra_isoform_same_locus	XP_063356950.1 lum [organism=Pelmatolapia mariae] [GeneID=134646873]	Pelmatolapia_mariae|LUM|XP_063356950.1
+LUM	XP_069020923.1	Embiotoca jacksoni	138207537		342	kept	representative	XP_069020923.1 lum [organism=Embiotoca jacksoni] [GeneID=138207537]	Embiotoca_jacksoni|LUM|XP_069020923.1
+LUM	XP_069020924.1	Embiotoca jacksoni	138207537		342	excluded	extra_isoform_same_locus	XP_069020924.1 lum [organism=Embiotoca jacksoni] [GeneID=138207537]	Embiotoca_jacksoni|LUM|XP_069020924.1
+LUM	XP_074430945.1	Larus michahellis	141738831		343	kept	representative	XP_074430945.1 LUM [organism=Larus michahellis] [GeneID=141738831]	Larus_michahellis|LUM|XP_074430945.1
+LUM	XP_075007086.1	Calonectris borealis	142082692		343	kept	representative	XP_075007086.1 LUM [organism=Calonectris borealis] [GeneID=142082692]	Calonectris_borealis|LUM|XP_075007086.1
+LUM	XP_032076420.1	Thamnophis elegans	116510898		344	kept	representative	XP_032076420.1 LUM [organism=Thamnophis elegans] [GeneID=116510898]	Thamnophis_elegans|LUM|XP_032076420.1
+LUM	XP_048158354.1	Corvus hawaiiensis	125325392		343	kept	representative	XP_048158354.1 LUM [organism=Corvus hawaiiensis] [GeneID=125325392]	Corvus_hawaiiensis|LUM|XP_048158354.1
+LUM	XP_073187142.1	Lepidochelys kempii	140906672		348	kept	representative	XP_073187142.1 LUM [organism=Lepidochelys kempii] [GeneID=140906672]	Lepidochelys_kempii|LUM|XP_073187142.1
+LUM	XP_059367125.1	Carassius carassius	132105764		344	kept	representative	XP_059367125.1 lum [organism=Carassius carassius] [GeneID=132105764]	Carassius_carassius|LUM|XP_059367125.1
+LUM	XP_067346908.1	Channa argus	137106838	X1	399	excluded	extra_isoform_same_locus	XP_067346908.1 lum [organism=Channa argus] [GeneID=137106838] [isoform=X1]	Channa_argus|LUM|XP_067346908.1
+LUM	XP_067346909.1	Channa argus	137106838	X2	341	kept	representative	XP_067346909.1 lum [organism=Channa argus] [GeneID=137106838] [isoform=X2]	Channa_argus|LUM|XP_067346909.1
+LUM	XP_067346910.1	Channa argus	137106838	X2	341	excluded	extra_isoform_same_locus	XP_067346910.1 lum [organism=Channa argus] [GeneID=137106838] [isoform=X2]	Channa_argus|LUM|XP_067346910.1
+LUM	XP_067346911.1	Channa argus	137106838	X2	341	excluded	extra_isoform_same_locus	XP_067346911.1 lum [organism=Channa argus] [GeneID=137106838] [isoform=X2]	Channa_argus|LUM|XP_067346911.1
+LUM	XP_068827096.1	Capricornis sumatraensis	138078309		342	kept	representative	XP_068827096.1 LUM [organism=Capricornis sumatraensis] [GeneID=138078309]	Capricornis_sumatraensis|LUM|XP_068827096.1
+LUM	XP_086058103.1	Aulostomus chinensis	147262797		342	kept	representative	XP_086058103.1 lum [organism=Aulostomus chinensis] [GeneID=147262797]	Aulostomus_chinensis|LUM|XP_086058103.1
+LUM	XP_063252420.1	Prinia subflava	134550070		344	kept	representative	XP_063252420.1 LUM [organism=Prinia subflava] [GeneID=134550070]	Prinia_subflava|LUM|XP_063252420.1
+LUM	XP_080436061.1	Anser brachyrhynchus	308189660		343	kept	representative	XP_080436061.1 LUM [organism=Anser brachyrhynchus] [GeneID=308189660]	Anser_brachyrhynchus|LUM|XP_080436061.1
+LUM	XP_079310275.1	Barbatula barbatula	306892832		344	kept	representative	XP_079310275.1 lum [organism=Barbatula barbatula] [GeneID=306892832]	Barbatula_barbatula|LUM|XP_079310275.1
+LUM	XP_062861677.1	Trichomycterus rosablanca	134323974		340	kept	representative	XP_062861677.1 lum [organism=Trichomycterus rosablanca] [GeneID=134323974]	Trichomycterus_rosablanca|LUM|XP_062861677.1
+LUM	NP_776359.1	Bos taurus	280847		342	kept	representative	NP_776359.1 LUM [organism=Bos taurus] [GeneID=280847]	Bos_taurus|LUM|NP_776359.1
+LUM	XP_059742069.1	Bos taurus	280847	X1	381	excluded	extra_isoform_same_locus	XP_059742069.1 LUM [organism=Bos taurus] [GeneID=280847] [isoform=X1]	Bos_taurus|LUM|XP_059742069.1
+LUM	XP_059742070.1	Bos taurus	280847	X2	342	excluded	extra_isoform_same_locus	XP_059742070.1 LUM [organism=Bos taurus] [GeneID=280847] [isoform=X2]	Bos_taurus|LUM|XP_059742070.1
+LUM	XP_072530002.1	Salminus brasiliensis	140550094		341	kept	representative	XP_072530002.1 lum [organism=Salminus brasiliensis] [GeneID=140550094]	Salminus_brasiliensis|LUM|XP_072530002.1
+LUM	XP_079092104.1	Taurulus bubalis	306752239	1	343	kept	representative	XP_079092104.1 lum [organism=Taurulus bubalis] [GeneID=306752239] [isoform=1]	Taurulus_bubalis|LUM|XP_079092104.1
+LUM	XP_079092105.1	Taurulus bubalis	306752239	1	343	excluded	extra_isoform_same_locus	XP_079092105.1 lum [organism=Taurulus bubalis] [GeneID=306752239] [isoform=1]	Taurulus_bubalis|LUM|XP_079092105.1
+LUM	XP_079092106.1	Taurulus bubalis	306752239	1	343	excluded	extra_isoform_same_locus	XP_079092106.1 lum [organism=Taurulus bubalis] [GeneID=306752239] [isoform=1]	Taurulus_bubalis|LUM|XP_079092106.1
+LUM	XP_079092107.1	Taurulus bubalis	306752239	1	343	excluded	extra_isoform_same_locus	XP_079092107.1 lum [organism=Taurulus bubalis] [GeneID=306752239] [isoform=1]	Taurulus_bubalis|LUM|XP_079092107.1
+LUM	XP_006084077.1	Myotis lucifugus	102421828		339	kept	representative	XP_006084077.1 LUM [organism=Myotis lucifugus] [GeneID=102421828]	Myotis_lucifugus|LUM|XP_006084077.1
+LUM	XP_036433589.1	Colossoma macropomum	118812604		341	kept	representative	XP_036433589.1 lum [organism=Colossoma macropomum] [GeneID=118812604]	Colossoma_macropomum|LUM|XP_036433589.1
+LUM	XP_036433590.1	Colossoma macropomum	118812604		341	excluded	extra_isoform_same_locus	XP_036433590.1 lum [organism=Colossoma macropomum] [GeneID=118812604]	Colossoma_macropomum|LUM|XP_036433590.1
+LUM	XP_036433591.1	Colossoma macropomum	118812604		341	excluded	extra_isoform_same_locus	XP_036433591.1 lum [organism=Colossoma macropomum] [GeneID=118812604]	Colossoma_macropomum|LUM|XP_036433591.1
+LUM	XP_036433592.1	Colossoma macropomum	118812604		341	excluded	extra_isoform_same_locus	XP_036433592.1 lum [organism=Colossoma macropomum] [GeneID=118812604]	Colossoma_macropomum|LUM|XP_036433592.1
+LUM	XP_036433593.1	Colossoma macropomum	118812604		341	excluded	extra_isoform_same_locus	XP_036433593.1 lum [organism=Colossoma macropomum] [GeneID=118812604]	Colossoma_macropomum|LUM|XP_036433593.1
+LUM	XP_060512778.2	Panthera onca	132693977		339	kept	representative	XP_060512778.2 LUM [organism=Panthera onca] [GeneID=132693977]	Panthera_onca|LUM|XP_060512778.2
+LUM	XP_083038509.1	Crinia signifera	146074384		378	kept	representative	XP_083038509.1 LUM [organism=Crinia signifera] [GeneID=146074384]	Crinia_signifera|LUM|XP_083038509.1
+LUM	XP_045635989.1	Ursus americanus	123780860		338	kept	representative	XP_045635989.1 LUM [organism=Ursus americanus] [GeneID=123780860]	Ursus_americanus|LUM|XP_045635989.1
+LUM	XP_065715148.1	Patagioenas fasciata	136113839	X1	343	kept	representative	XP_065715148.1 LUM [organism=Patagioenas fasciata] [GeneID=136113839] [isoform=X1]	Patagioenas_fasciata|LUM|XP_065715148.1
+LUM	XP_071656054.1	Patagioenas fasciata	136113839	X2	319	excluded	extra_isoform_same_locus	XP_071656054.1 LUM [organism=Patagioenas fasciata] [GeneID=136113839] [isoform=X2]	Patagioenas_fasciata|LUM|XP_071656054.1
+LUM	XP_071656062.1	Patagioenas fasciata	136113839	X3	304	excluded	extra_isoform_same_locus	XP_071656062.1 LUM [organism=Patagioenas fasciata] [GeneID=136113839] [isoform=X3]	Patagioenas_fasciata|LUM|XP_071656062.1
+LUM	XP_010073374.1	Pterocles gutturalis	104462922		343	kept	representative	XP_010073374.1 LUM [organism=Pterocles gutturalis] [GeneID=104462922]	Pterocles_gutturalis|LUM|XP_010073374.1
+LUM	XP_034843746.1	Mirounga leonina	117998902		338	kept	representative	XP_034843746.1 LUM [organism=Mirounga leonina] [GeneID=117998902]	Mirounga_leonina|LUM|XP_034843746.1
+LUM	XP_050791719.1	Gopherus flavomarginatus	127042123		349	kept	representative	XP_050791719.1 LUM [organism=Gopherus flavomarginatus] [GeneID=127042123]	Gopherus_flavomarginatus|LUM|XP_050791719.1
+LUM	XP_007165967.1	Balaenoptera acutorostrata	102997711		339	kept	representative	XP_007165967.1 LUM [organism=Balaenoptera acutorostrata] [GeneID=102997711]	Balaenoptera_acutorostrata|LUM|XP_007165967.1
+LUM	XP_059042485.1	Mustela lutreola	131839252		337	kept	representative	XP_059042485.1 LUM [organism=Mustela lutreola] [GeneID=131839252]	Mustela_lutreola|LUM|XP_059042485.1
+LUM	XP_084767126.1	Perissodus microlepis	146369291		342	kept	representative	XP_084767126.1 lum [organism=Perissodus microlepis] [GeneID=146369291]	Perissodus_microlepis|LUM|XP_084767126.1
+LUM	XP_084767127.1	Perissodus microlepis	146369291		342	excluded	extra_isoform_same_locus	XP_084767127.1 lum [organism=Perissodus microlepis] [GeneID=146369291]	Perissodus_microlepis|LUM|XP_084767127.1

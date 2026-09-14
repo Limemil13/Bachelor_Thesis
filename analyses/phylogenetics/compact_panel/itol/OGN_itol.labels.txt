@@ -1,0 +1,17 @@
+LABELS
+SEPARATOR TAB
+DATA
+human|OGN|NP_148935.1	Human
+mouse|OGN|NP_032786.1	Mouse
+monodelphis_domestica|OGN|XP_056660002.1	Opossum
+chicken|OGN|NP_989540.1	Chicken
+anolis_carolinensis|OGN|XP_008103381.1	Anole
+latimeria_chalumnae|OGN|XP_005987116.1	Coelacanth
+callorhinchus_milii|OGN|XP_007907071.1	Elephant shark
+scyliorhinus_canicula|OGN|XP_038668531.1	Catshark
+whale_shark|OGN|XP_020377273.1	Whale shark
+frog|OGN|XP_002934273.1	Frog
+zebrafish|OGN|NP_001013588.1	Zebrafish
+lepisosteus_oculatus|OGN|XP_006631165.2	Spotted gar
+canis_lupus_familiaris|OGN|XP_038383338.1	Dog
+bos_taurus|OGN|NP_776371.1	Cow

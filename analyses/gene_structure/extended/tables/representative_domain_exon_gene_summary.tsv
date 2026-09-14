@@ -1,0 +1,9 @@
+gene	species_count	significant_pfam_hit_range	lrr_related_hit_range	max_coding_exons_spanned_by_one_lrr_hit_range	all_species_have_lrr_support	interpretation
+BGN	5	7-8	7-8	2-3	yes	LRR-family architecture is supported in all five representative translations
+DCN	5	8-13	8-13	3-5	yes	LRR-family architecture is supported in all five representative translations
+FMOD	5	7-9	7-9	2-2	yes	LRR-family architecture is supported in all five representative translations
+PRELP	5	7-8	7-8	1-2	yes	LRR-family architecture is supported in all five representative translations
+EPYC	5	4-6	4-6	2-3	yes	LRR-family architecture is supported in all five representative translations
+LUM	5	6-11	6-11	1-2	yes	LRR-family architecture is supported in all five representative translations
+OGN	5	1-4	1-4	2-2	yes	LRR-family architecture is supported in all five representative translations
+OMD	5	6-10	6-10	1-1	yes	LRR-family architecture is supported in all five representative translations

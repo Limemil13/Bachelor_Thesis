@@ -1,0 +1,41 @@
+scope	streme_motif_id	consensus	width	train_positive_sequences	train_negative_sequences	training_p_value	holdout_positive_sequences	holdout_negative_sequences	holdout_p_value	best_jaspar_motif_id	best_jaspar_name	tomtom_q_value	validation_status
+all_vs_shuffled	1-CTCTGTCTCTCWCT	CTCTGTCTCTCWCT	14	26	0	6.3e-012	0	0	1.0e+000				training-only; no holdout available
+all_vs_shuffled	2-TAAAAAAAAAAAA	TAAAAAAAAAAAA	13	24	0	1.2e-010	0	0	1.0e+000	MA1125.2	ZNF384	0.0651938	training-only; no holdout available
+all_vs_shuffled	3-AAAATATATAT	AAAATATATAT	11	26	1	1.4e-010	0	0	1.0e+000				training-only; no holdout available
+all_vs_shuffled	4-ACACACACACACACA	ACACACACACACACA	15	23	0	4.7e-010	0	0	1.0e+000				training-only; no holdout available
+all_vs_shuffled	5-CCTCCTGCYTCTVC	CCTCCTGCYTCTVC	14	23	1	8.4e-009	0	0	1.0e+000				training-only; no holdout available
+BGN	1-AAAGTTTGAC	AAAGTTTGAC	10	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+BGN	2-AGACGGCTGGACTA	AGACGGCTGGACTA	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+BGN	3-AGCAGCTGYTCACTC	AGCAGCTGYTCACTC	15	5	0	3.1e-006	0	0	1.0e+000	MA0816.1	Ascl2	0.00738914	training-only; no holdout available
+BGN	4-CAAGAGCAGCTTB	CAAGAGCAGCTTB	13	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+BGN	5-CACYGGACAGVTAV	CACYGGACAGVTAV	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+DCN	1-AAAGTTTCTGGCTAC	AAAGTTTCTGGCTAC	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+DCN	2-AATAAAGCAMATGG	AATAAAGCAMATGG	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+DCN	3-ATGTGGGTGTCAGCC	ATGTGGGTGTCAGCC	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+DCN	4-CATATGGTAATGATA	CATATGGTAATGATA	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+DCN	5-GAAACCTTAGTTCTT	GAAACCTTAGTTCTT	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+FMOD	1-AAACCACCTTYT	AAACCACCTTYT	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+FMOD	2-AATGAGTTAGTGGTG	AATGAGTTAGTGGTG	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+FMOD	3-CTTATCTTCCCT	CTTATCTTCCCT	12	5	0	3.1e-006	0	0	1.0e+000	MA0036.4	GATA2	0.0264864	training-only; no holdout available
+FMOD	4-GGAGNTCACACTCAA	GGAGNTCACACTCAA	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+FMOD	5-TCAAATTCATVBGK	TCAAATTCATVBGK	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+PRELP	1-ACACACTTGCAGG	ACACACTTGCAGG	13	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+PRELP	2-ACAGAGCAGGGG	ACAGAGCAGGGG	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+PRELP	3-ACTCCCAAAGACTTC	ACTCCCAAAGACTTC	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+PRELP	4-TCCTCTCCABAT	TCCTCTCCABAT	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+PRELP	5-AGCAGAGAGC	AGCAGAGAGC	10	5	1	1.8e-005	0	0	1.0e+000				training-only; no holdout available
+EPYC	1-AAAGGTAAGTTTTKA	AAAGGTAAGTTTTKA	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+EPYC	2-AATTWATAACACTCA	AATTWATAACACTCA	15	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+EPYC	3-CATTGGTCAGGGKC	CATTGGTCAGGGKC	14	5	0	3.1e-006	0	0	1.0e+000	MA2324.1	BCL11A	0.0848122	training-only; no holdout available
+EPYC	4-CTACTATAACWA	CTACTATAACWA	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+EPYC	5-GATTTCATAATW	GATTTCATAATW	12	5	1	1.8e-005	0	0	1.0e+000				training-only; no holdout available
+LUM	1-ACGAAGTGC	ACGAAGTGC	9	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+LUM	2-AGTGTATHNAATBS	AGTGTATHNAATBS	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+LUM	3-ATYTGTGGA	ATYTGTGGA	9	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+LUM	4-CACCAMAATATKCT	CACCAMAATATKCT	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+LUM	5-TCACTGGGAA	TCACTGGGAA	10	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+OGN	1-AAAGCCAATTTCDA	AAAGCCAATTTCDA	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+OGN	2-ACATGGAAWCTGC	ACATGGAAWCTGC	13	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+OGN	3-ATRAACTAAAAT	ATRAACTAAAAT	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+OGN	4-ATTATAAATTTT	ATTATAAATTTT	12	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available
+OGN	5-CTTTGCCARCATTC	CTTTGCCARCATTC	14	5	0	3.1e-006	0	0	1.0e+000				training-only; no holdout available

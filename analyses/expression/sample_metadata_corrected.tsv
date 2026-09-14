@@ -1,0 +1,8 @@
+analysis_column	local_quantification	run_accession	study_accession	public_sample_title	biological_source	age	library_layout	analysis_role	metadata_note
+P0_WT1_paired	WT1_quant	SRR34978216	PRJNA1305489	Ppp1r15b(WT-1)	FACS-sorted Prx1-lineage chondroprogenitors from digested knee joints	P0	PAIRED	focal_biological_replicate	Wild-type sample from GSE305415
+P0_WT2_paired	WT2_quant	SRR34978215	PRJNA1305489	Ppp1r15b(WT-2)	FACS-sorted Prx1-lineage chondroprogenitors from digested knee joints	P0	PAIRED	focal_biological_replicate	Wild-type sample from GSE305415
+P0_WT3_single	WT3_quant	SRR34978214	PRJNA1305489	Ppp1r15b(WT-3)	FACS-sorted Prx1-lineage chondroprogenitors from digested knee joints	P0	SINGLE	focal_biological_replicate	Wild-type sample from GSE305415; different library layout
+skin_6mo_3	skin_1_quant	SRR23517591	PRJNA936435	Skin_6mo_3	Whole skin	6 months	PAIRED	age_confounded_descriptive_comparator	Not matched to the focal study
+heart_30mo_4	heart_1_quant	SRR23517610	PRJNA936435	Heart_30mo_4	Whole heart	30 months	PAIRED	age_confounded_descriptive_comparator	Not matched to the focal study
+kidney_30mo_1	kidney_1_quant	SRR23517597	PRJNA936435	Kidney_30mo_1	Whole kidney	30 months	PAIRED	age_confounded_descriptive_comparator	Not matched to the focal study
+skin_15mo_2	brain_1_quant	SRR23517588	PRJNA936435	Skin_15mo_2	Whole skin	15 months	PAIRED	age_confounded_descriptive_comparator	Previously mislabeled locally as brain_1; no brain sample is present

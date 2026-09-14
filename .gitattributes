@@ -1,0 +1,25 @@
+* text=auto
+
+*.py text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+*.toml text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.tsv text eol=lf
+
+# Generated scientific outputs can legitimately end records with spaces or
+# trailing tab-delimited empty fields. Preserve them and exclude those formats
+# from source-code whitespace checks.
+analyses/**/*.svg -whitespace
+analyses/**/*.tsv -whitespace
+analyses/**/*.iqtree -whitespace
+analyses/**/*.txt -whitespace
+analyses/**/*.domtblout -whitespace
+
+*.gz binary
+*.pdf binary
+*.png binary
+*.svg text eol=lf
+*.zip binary

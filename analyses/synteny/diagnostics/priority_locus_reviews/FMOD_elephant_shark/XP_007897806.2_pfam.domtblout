@@ -1,0 +1,111 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   1   9   2.6e-13   5.6e-10   39.4   5.6     5    61    85   141    81   141 0.97 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   2   9   3.3e-11   6.9e-08   32.7   0.0     2    58   151   209   150   212 0.90 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   3   9     2e-16   4.2e-13   49.4   5.6     1    61   221   281   221   281 0.98 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   4   9   1.4e-07    0.0003   21.1   0.5     3    46   271   313   271   316 0.95 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   5   9   2.8e-14   5.8e-11   42.6   0.1     2    61   414   475   413   475 0.96 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   6   9   5.5e-16   1.2e-12   48.0   8.8     2    61   485   543   484   543 0.98 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   7   9   3.9e-08   8.3e-05   22.9   0.0     2    38   553   589   552   591 0.95 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   8   9   4.2e-08   8.9e-05   22.8   1.9    15    61   592   633   591   633 0.88 Leucine rich repeat
+LRR_8                PF13855.13    61 XP_007897806.2       -            684   1.1e-76  253.1  53.2   9   9   0.00055       1.2    9.6   0.1     2    52   622   680   621   684 0.79 Leucine rich repeat
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   1  13   4.2e-05     0.088   13.7   5.2     5    39    85   120    84   124 0.83 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   2  13   4.2e-05      0.09   13.7   2.3     1    37   129   163   129   168 0.84 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   3  13       2.8   5.9e+03   -1.6   0.0     7    29   180   203   178   221 0.54 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   4  13   1.2e-06    0.0026   18.5   1.3     2    37   222   258   221   267 0.90 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   5  13     0.025        54    4.8   1.0     2    36   270   304   269   305 0.84 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   6  13    0.0091        19    6.3   0.0     3    30   415   444   413   454 0.72 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   7  13     2e-07   0.00042   21.1   0.2     1    41   437   480   437   484 0.86 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   8  13   1.8e-08   3.8e-05   24.4   1.7     1    40   463   500   463   506 0.86 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4   9  13   1.2e-07   0.00026   21.7   2.8     2    39   485   523   484   526 0.88 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4  10  13     1e-08   2.2e-05   25.2   4.4     1    40   508   547   508   552 0.90 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4  11  13   2.9e-05     0.062   14.2   0.1     2    38   553   590   552   595 0.88 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4  12  13     5e-09   1.1e-05   26.1   2.7     2    39   602   636   601   640 0.90 Leucine Rich repeats (2 copies)
+LRR_4                PF12799.14    44 XP_007897806.2       -            684   5.7e-34  115.9  70.4  13  13       1.2   2.5e+03   -0.4   0.0     3    15   653   666   651   677 0.71 Leucine Rich repeats (2 copies)
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   1  20      0.02        42    5.6   0.0     4    23    85   104    83   104 0.87 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   2  20     0.081   1.7e+02    3.8   0.1     1    22   106   127   106   128 0.89 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   3  20     0.024        52    5.3   0.1     1    19   130   147   130   150 0.82 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   4  20      0.42   8.9e+02    1.6   0.0     1    13   151   163   151   173 0.78 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   5  20       3.5   7.4e+03   -1.1   0.0     2    20   202   219   201   221 0.80 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   6  20     0.018        37    5.7   0.0     1    23   222   244   222   244 0.93 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   7  20     0.016        34    5.9   0.1     1    13   246   258   246   268 0.79 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   8  20    0.0041       8.6    7.6   0.1     2    20   271   288   270   291 0.80 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4   9  20      0.66   1.4e+03    1.0   0.0     3    20   295   312   293   314 0.74 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  10  20      0.19     4e+02    2.7   0.0     3    18   416   430   414   435 0.73 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  11  20       3.7   7.9e+03   -1.2   0.0     1    14   438   451   438   456 0.78 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  12  20   0.00097         2    9.5   0.1     1    21   464   484   464   486 0.80 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  13  20   0.00078       1.6    9.8   0.0     1    23   485   507   485   507 0.94 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  14  20      0.14   2.9e+02    3.1   0.3     1    16   509   526   509   533 0.71 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  15  20    0.0033       6.9    7.9   0.2     4    20   535   550   532   552 0.78 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  16  20     0.023        48    5.4   0.0     1    23   553   575   553   575 0.86 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  17  20      0.12   2.5e+02    3.3   0.1     1    16   577   592   577   599 0.74 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  18  20   0.00022      0.46   11.4   0.1     1    17   602   618   602   621 0.83 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  19  20    0.0074        16    6.8   0.2     1    22   622   643   622   644 0.93 Leucine Rich Repeat
+LRR_1                PF00560.40    23 XP_007897806.2       -            684   4.2e-25   83.0  46.4  20  20      0.27   5.7e+02    2.2   0.0     2    19   653   671   652   675 0.76 Leucine Rich Repeat
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   1   6   0.00011      0.23   11.9   0.0    42    92    90   142    69   170 0.67 BspA type Leucine rich repeat region (6 copies)
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   2   6   3.5e-06    0.0075   16.8   0.0    15   116   110   216    95   219 0.81 BspA type Leucine rich repeat region (6 copies)
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   3   6   1.4e-05     0.029   14.9   0.0    12   113   151   258   145   268 0.79 BspA type Leucine rich repeat region (6 copies)
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   4   6   2.5e-05     0.054   14.0   0.0     3    89   191   279   189   317 0.56 BspA type Leucine rich repeat region (6 copies)
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   5   6   2.7e-07   0.00058   20.4   0.0    21   110   424   517   414   533 0.60 BspA type Leucine rich repeat region (6 copies)
+LRR_5                PF13306.13   127 XP_007897806.2       -            684   1.4e-18   67.5   3.9   6   6     7e-05      0.15   12.6   0.8    20    98   562   641   551   662 0.48 BspA type Leucine rich repeat region (6 copies)
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   1   7   0.00018      0.37   10.9   5.0    46   119    85   156    66   163 0.80 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   2   7     0.082   1.7e+02    2.2   0.0    47    86   155   194   150   222 0.76 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   3   7   0.00074       1.6    8.9   1.5    47   101   226   282   221   286 0.82 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   4   7     0.045        96    3.1   0.0    59    82   287   310   285   341 0.82 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   5   7   0.00014      0.29   11.3   0.0    53   127   401   477   394   479 0.86 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   6   7   9.1e-08   0.00019   21.6   1.8    52   122   473   537   468   545 0.79 Leucine-rich repeat
+LRR_9                PF14580.13   175 XP_007897806.2       -            684   7.6e-14   52.2  32.7   7   7   0.00047      0.99    9.5   1.5    47   124   536   612   530   655 0.84 Leucine-rich repeat
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   1   6   3.2e-08   6.7e-05   23.0   3.5     2    24    54    76    54    78 0.98 Leucine rich repeat N-terminal domain
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   2   6      0.01        21    5.5   0.0    19    28   211   220   208   220 0.91 Leucine rich repeat N-terminal domain
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   3   6      0.52   1.1e+03   -0.0   0.1    16    28   277   289   277   289 0.89 Leucine rich repeat N-terminal domain
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   4   6   1.8e-10   3.8e-07   30.2   4.5     1    28   383   412   383   412 0.96 Leucine rich repeat N-terminal domain
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   5   6      0.15   3.2e+02    1.7   0.0    16    28   539   551   539   551 0.92 Leucine rich repeat N-terminal domain
+LRRNT                PF01462.24    28 XP_007897806.2       -            684     5e-13   48.9  28.6   6   6      0.83   1.7e+03   -0.7   0.0    16    25   609   618   609   620 0.86 Leucine rich repeat N-terminal domain
+LRR_LRWD1            PF23211.1    190 XP_007897806.2       -            684   4.4e-05   23.9  23.9   1   5   0.00079       1.7    8.9   0.8    32    73   119   160    85   187 0.82 Leucine-rich repeat and WD repeat-containing protein 1, LRR
+LRR_LRWD1            PF23211.1    190 XP_007897806.2       -            684   4.4e-05   23.9  23.9   2   5    0.0097        21    5.4   0.2    33    96   236   302   194   313 0.65 Leucine-rich repeat and WD repeat-containing protein 1, LRR
+LRR_LRWD1            PF23211.1    190 XP_007897806.2       -            684   4.4e-05   23.9  23.9   3   5    0.0039       8.2    6.7   1.0    28    80   449   500   437   528 0.69 Leucine-rich repeat and WD repeat-containing protein 1, LRR
+LRR_LRWD1            PF23211.1    190 XP_007897806.2       -            684   4.4e-05   23.9  23.9   4   5     0.042        89    3.3   0.9    40    64   529   553   508   566 0.79 Leucine-rich repeat and WD repeat-containing protein 1, LRR
+LRR_LRWD1            PF23211.1    190 XP_007897806.2       -            684   4.4e-05   23.9  23.9   5   5   4.4e-05     0.094   13.0   0.3    14    98   574   663   564   668 0.81 Leucine-rich repeat and WD repeat-containing protein 1, LRR
+ToxS                 PF17323.8    147 XP_007897806.2       -            684     0.012   16.0   0.5   1   2   0.00071       1.5    9.2   0.0    20    68   231   280   218   285 0.82 Trans-membrane regulatory protein ToxS
+ToxS                 PF17323.8    147 XP_007897806.2       -            684     0.012   16.0   0.5   2   2     0.031        66    3.9   0.1    47    90   574   617   562   641 0.87 Trans-membrane regulatory protein ToxS
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   1  18      0.62   1.3e+03    0.4   0.1     7    15    85    93    84    94 0.89 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   2  18       1.1   2.3e+03   -0.3   0.2     3    13   129   139   128   139 0.91 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   3  18       2.3   4.9e+03   -1.3   0.1     4    15   151   162   150   164 0.87 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   4  18     0.017        36    5.3   0.0     4    22   175   193   172   193 0.87 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   5  18      0.31   6.5e+02    1.4   0.0     3    15   221   233   220   234 0.92 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   6  18    0.0049        10    7.0   0.2     2    15   244   257   243   259 0.90 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   7  18      0.38   7.9e+02    1.1   0.2     1    15   267   281   267   282 0.88 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   8  18       1.1   2.4e+03   -0.4   0.1     3    15   292   304   290   305 0.83 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9   9  18       3.8   7.9e+03   -2.0   0.0     6    16   416   426   415   427 0.83 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  10  18      0.21   4.3e+02    2.0   0.2     3    16   463   476   461   477 0.88 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  11  18     0.034        73    4.4   0.0     3    16   484   497   483   498 0.90 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  12  18     0.019        40    5.2   0.4     4    21   509   526   506   527 0.87 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  13  18      0.19     4e+02    2.1   0.4     8    16   536   544   530   545 0.83 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  14  18       4.9     1e+04   -2.4   0.0     4    16   553   565   552   566 0.80 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  15  18     0.098   2.1e+02    3.0   0.0     9    20   582   593   574   593 0.79 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  16  18    0.0068        14    6.6   0.4     4    16   602   614   601   615 0.87 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  17  18       4.8     1e+04   -2.3   0.2     2    15   620   633   619   634 0.87 Leucine Rich repeat
+LRR_6                PF13516.13    24 XP_007897806.2       -            684     0.033   14.8  51.9  18  18       2.9   6.2e+03   -1.7   0.0     4    15   652   663   651   664 0.86 Leucine Rich repeat
+DHU1_N               PF20919.3    370 XP_007897806.2       -            684     0.088   12.6   0.1   1   4      0.17   3.6e+02    0.7   0.0   141   174   239   275   222   283 0.70 DWD hypersensitive to UV-B 1, N-terminal
+DHU1_N               PF20919.3    370 XP_007897806.2       -            684     0.088   12.6   0.1   2   4      0.26   5.4e+02    0.2   0.0   145   191   485   531   451   544 0.79 DWD hypersensitive to UV-B 1, N-terminal
+DHU1_N               PF20919.3    370 XP_007897806.2       -            684     0.088   12.6   0.1   3   4    0.0051        11    5.8   0.0   144   181   552   589   517   606 0.84 DWD hypersensitive to UV-B 1, N-terminal
+DHU1_N               PF20919.3    370 XP_007897806.2       -            684     0.088   12.6   0.1   4   4      0.56   1.2e+03   -1.0   0.0   142   168   619   645   598   659 0.76 DWD hypersensitive to UV-B 1, N-terminal
+LRR_EndoS            PF23952.2    116 XP_007897806.2       -            684      0.66   10.8  22.4   1   4    0.0032       6.7    7.5   0.3    46    94   232   281   222   293 0.83 Endo-beta-N-acetylglucosaminidase EndoS LRR domain
+LRR_EndoS            PF23952.2    116 XP_007897806.2       -            684      0.66   10.8  22.4   2   4   0.00023       0.5   11.2   2.2    42   116   460   541   449   541 0.77 Endo-beta-N-acetylglucosaminidase EndoS LRR domain
+LRR_EndoS            PF23952.2    116 XP_007897806.2       -            684      0.66   10.8  22.4   3   4      0.71   1.5e+03   -0.0   0.1    80    97   599   616   549   631 0.63 Endo-beta-N-acetylglucosaminidase EndoS LRR domain
+LRR_EndoS            PF23952.2    116 XP_007897806.2       -            684      0.66   10.8  22.4   4   4       2.3   4.8e+03   -1.7   0.0    39    54   645   660   614   680 0.73 Endo-beta-N-acetylglucosaminidase EndoS LRR domain
+TILa                 PF12714.14    55 XP_007897806.2       -            684       1.8    9.3   6.5   1   2    0.0071        15    6.4   1.1    21    36    54    69    43    71 0.89 TILa domain
+TILa                 PF12714.14    55 XP_007897806.2       -            684       1.8    9.3   6.5   2   2     0.015        32    5.3   0.4    14    28   377   391   368   403 0.81 TILa domain
+Squash               PF00299.25    29 XP_007897806.2       -            684       4.2    8.1   8.4   1   2     0.078   1.7e+02    3.0   2.7    16    26    54    64    53    67 0.86 Squash family serine protease inhibitor
+Squash               PF00299.25    29 XP_007897806.2       -            684       4.2    8.1   8.4   2   2    0.0024       5.1    7.8   0.3    14    22   382   390   380   395 0.94 Squash family serine protease inhibitor
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      analyses/synteny/diagnostics/priority_locus_reviews/FMOD_elephant_shark/XP_007897806.2.faa
+# Target file:     data/domains/Pfam-A.hmm
+# Option settings: hmmscan -o analyses/synteny/diagnostics/priority_locus_reviews/FMOD_elephant_shark/XP_007897806.2_pfam.log --domtblout analyses/synteny/diagnostics/priority_locus_reviews/FMOD_elephant_shark/XP_007897806.2_pfam.domtblout --cpu 4 data/domains/Pfam-A.hmm analyses/synteny/diagnostics/priority_locus_reviews/FMOD_elephant_shark/XP_007897806.2.faa 
+# Current dir:     .
+# Date:            Thu Sep 10 04:41:21 2026
+# [ok]

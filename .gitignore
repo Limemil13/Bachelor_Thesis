@@ -1,47 +1,99 @@
-# Raw sequencing data
-*.fastq
-*.fastq.gz
-*.fq
-*.fq.gz
-*.sra
-
-# Large genome / annotation / database files
-*.fna
-*.gff
-*.gtf
-*.hmm
-*.h3f
-*.h3i
-*.h3m
-*.h3p
-*.zip
-*.tar
-*.tar.gz
-*.gz
-
-# Salmon / transcriptome
-transcriptome/
-*_quant/
-*_index/
-
-# Nextflow / SynVoy heavy folders
-work/
-.nextflow*
-pro_panel/
-pro_mode_data/
-synvoy_tool/
-
-# Python / IDE / OS
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
 .venv/
 venv/
+
+# IDEs
 .idea/
 .vscode/
+
+# OS
 .DS_Store
 Thumbs.db
 
-# Temporary reports
-repo_ba_current_state.txt
-project_file_inventory.txt
-synteny_file_inventory.txt
+# Logs / temp
+*.log
+*.tmp
+tmp/
+
+# Local working data and historical runs
+archive/
+data/
+runs/
+results/
+
+# Downloaded or regenerable analysis inputs and intermediates
+analyses/**/archive/
+analyses/**/archive_*/
+analyses/expression/**/raw/
+analyses/phenotypes/raw/
+analyses/phylogenetics/**/ncbi_download/
+analyses/phylogenetics/per_gene_trees/*/candidates/*_raw.faa
+analyses/phylogenetics/per_gene_trees/*/alignments/
+analyses/phylogenetics/per_gene_trees/*/trimmed_alignments/
+analyses/phylogenetics/per_gene_trees/*/final_tree/
+analyses/phylogenetics/per_gene_trees/itol/
+analyses/protein_analysis/domains/domain_scan/
+analyses/protein_analysis/protspace/output/
+analyses/regulatory/databases/
+
+# Re-downloadable public database snapshots and verbose tool-native reports.
+analyses/regulatory/raw_outputs*/
+analyses/protein_analysis/motifs/raw_outputs*/
+analyses/protein_analysis/signal_peptides/output/
+analyses/protein_analysis/signal_peptides/*.html
+analyses/protein_analysis/signal_peptides/*.js
+analyses/expression/bgee_api_documentation.html
+analyses/expression/*pilot*.json
+
+# Tool-native restart and distance files are reproducible from retained inputs.
+*.bionj
+*.ckp.gz
+*.mldist
+*.model.gz
+*.splits.nex
+*.h5
+*.zip
+
+# BLAST database files
+*.nhr
+*.nin
+*.nsq
+*.phr
+*.pin
+*.psq
+
+# Index files (pyfaidx etc.)
+*.fai
+*.idx
+
+# Generated bitmap and PDF outputs
+*.png
+*.pdf
+
+# Keep final analysis figures used by the result guides and manuscript.
+!analyses/**/figures/*.png
+!analyses/**/figures/**/*.png
+!thesis/figures/*.png
+!thesis/figures/**/*.png
+
+# Keep the official university template required by the LaTeX thesis.
+!thesis/frontmatter/university_frontpage_template.pdf
+
+# LaTeX build artifacts
+thesis/build/
+thesis/*.aux
+thesis/*.bbl
+thesis/*.blg
+thesis/*.fdb_latexmk
+thesis/*.fls
+thesis/*.lof
+thesis/*.lot
+thesis/*.out
+thesis/*.synctex.gz
+thesis/*.toc

@@ -1,0 +1,2 @@
+locus_a	focal_a	locus_b	focal_b	flanking_genes_a	flanking_genes_b	shared_flanking_genes	shared_symbols	jaccard	best_order_orientation	shared_genes_in_order	order_fraction
+human_DCN	DCN	spotted_gar_DCN	dcn	30	30	8	CEP290,DUSP6,EPYC,KERA,LUM,POC1B,RLIG1,TMTC3	0.154	same	8	1.000

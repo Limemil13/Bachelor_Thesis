@@ -1,0 +1,8 @@
+gene	single_gene_unique_mp_terms	single_gene_publications	single_gene_skeletal_cartilage_joint_terms	compound_genotype_unique_mp_terms	interpretation
+BGN	19	4	14	0	direct mouse phenotype annotations include skeletal/cartilage/joint terms
+DCN	24	10	4	0	direct mouse phenotype annotations include skeletal/cartilage/joint terms
+FMOD	8	4	4	0	direct mouse phenotype annotations include skeletal/cartilage/joint terms
+PRELP	12	1	0	0	mouse phenotype annotations exist, but no skeletal/cartilage/joint term was recovered in this release
+EPYC	3	2	2	0	direct mouse phenotype annotations include skeletal/cartilage/joint terms
+LUM	31	11	1	0	direct mouse phenotype annotations include skeletal/cartilage/joint terms
+OGN	8	2	0	0	mouse phenotype annotations exist, but no skeletal/cartilage/joint term was recovered in this release

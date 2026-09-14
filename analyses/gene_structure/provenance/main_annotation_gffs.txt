@@ -1,0 +1,5 @@
+pro_panel/genomes/gff/chicken.gff
+pro_panel/genomes/gff/cow.gff
+pro_panel/genomes/gff/human.gff
+pro_panel/genomes/gff/mouse.gff
+pro_panel/genomes/gff/zebrafish.gff

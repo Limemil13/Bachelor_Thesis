@@ -1,0 +1,9 @@
+gene	species_count	representative_exon_count	representative_cds_exon_count	splice_junction_count	phase_conserved_junction_count	boundary_within_3aa_junction_count	median_boundary_range_aa	species_with_alternative_coding_structure	five_prime_utr_length_range_bp	three_prime_utr_length_range_bp	complete_start_count	terminal_stop_count	internal_stop_total	interpretation
+BGN	5	8	7	6	6	6	3.0	2	97-251	405-1140	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+DCN	5	8	7	6	6	0	17.0	1	84-314	508-5574	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+FMOD	5	3	2	1	1	0	18.0	1	76-337	976-1715	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+PRELP	5	3	2	1	1	0	11.0	1	11-447	8-4471	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+EPYC	5	7	6	5	5	0	6.0	3	39-372	45-684	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+LUM	5	3	2	1	1	0	6.0	1	58-406	652-1536	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+OGN	5	7	6	5	5	0	7.0	2	95-417	544-2531	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives
+OMD	5	3	2	1	1	1	2.0	0	126-366	21-2772	5	5	0	splice phase and approximate coding boundaries conserved across all tested representatives

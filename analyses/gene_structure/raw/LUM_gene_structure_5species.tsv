@@ -1,0 +1,8 @@
+query_gene	species_or_file	matched_gene_id	matched_gene_name	transcript_id	seqid	strand	gene_start	gene_end	gene_span_bp	cds_start	cds_end	cds_span_bp	exon_count	cds_exon_count	cds_length_bp	protein_length_est_aa	intron_count_between_cds	median_cds_intron_length_bp	note	gff_file
+LUM	chicken	gene-LUM	LUM	rna-NM_001276357.2	NC_052532.1	-	44041583	44053528	11946	44042456	44050455	8000	3	2	1032	344	1	6968		pro_panel/genomes/gff/chicken.gff
+LUM	cow	gene-LUM	LUM	rna-XM_059886087.1	NC_037332.1	-	20971292	20981075	9784	20971992	20976020	4029	4	2	1029	343	1	3000	multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+LUM	cow	gene-LUM	LUM	rna-XM_059886086.1	NC_037332.1	-	20971292	20981075	9784	20971992	20980774	8783	4	4	1146	382	3	3000	multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+LUM	cow	gene-LUM	LUM	rna-NM_173934.1	NC_037332.1	-	20971292	20981075	9784	20971992	20976020	4029	3	2	1029	343	1	3000	multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+LUM	human	gene-LUM	LUM	rna-NM_002345.4	NC_000012.12	-	91102629	91111494	8866	91104165	91108979	4815	3	2	1017	339	1	3798		pro_panel/genomes/gff/human.gff
+LUM	mouse	gene-Lum	Lum	rna-NM_008524.2	NC_000076.7	+	97401363	97408565	7203	97404107	97407913	3807	3	2	1017	339	1	2790		pro_panel/genomes/gff/mouse.gff
+LUM	zebrafish	gene-lum	lum	rna-NM_001002059.1	NC_133179.1	-	16938429	16941309	2881	16939337	16940453	1117	3	2	1035	345	1	82		pro_panel/genomes/gff/zebrafish.gff

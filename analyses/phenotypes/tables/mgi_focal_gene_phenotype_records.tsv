@@ -1,0 +1,119 @@
+gene	genotype	alleles	allele_ids	background	mp_id	mp_term	phenotype_categories	pmid	marker_mgi_id	genotype_mgi_id	evidence_scope	genes_in_genotype
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000130	abnormal trabecular bone morphology	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0001262	decreased body weight	growth/body size	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000131	abnormal long bone epiphysis morphology	skeletal/cartilage/joint;reproductive/developmental	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000559	abnormal femur morphology	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000133	abnormal long bone metaphysis morphology	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000066	osteoporosis	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0000135	decreased compact bone thickness	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0003109	short femur	skeletal/cartilage/joint;growth/body size	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0003560	osteoarthritis	skeletal/cartilage/joint;immune/inflammatory	11978731	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0004214	abnormal long bone diaphysis morphology	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0004989	decreased osteoblast cell number	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0008271	abnormal bone ossification	skeletal/cartilage/joint	11978731	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0010124	decreased bone mineral content	skeletal/cartilage/joint	9731537	MGI:88158	MGI:2657256	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae * C57BL/6	MP:0011643	abnormal tendon collagen fibril morphology	skeletal/cartilage/joint;skin/connective tissue	11978731	MGI:88158	MGI:2657256	single_gene	Bgn
+OGN	Ogn<tm1Eta>/Ogn<tm1Eta>	Ogn<tm1Eta>	MGI:2664973	involves: 129/Sv * C57BL/6	MP:0001312	abnormal cornea morphology	eye/cornea	12432342	MGI:109278	MGI:2668966	single_gene	Ogn
+OGN	Ogn<tm1Eta>/Ogn<tm1Eta>	Ogn<tm1Eta>	MGI:2664973	involves: 129/Sv * C57BL/6	MP:0005275	abnormal skin tensile strength	skin/connective tissue	12432342	MGI:109278	MGI:2668966	single_gene	Ogn
+OGN	Ogn<tm1Eta>/Ogn<tm1Eta>	Ogn<tm1Eta>	MGI:2664973	involves: 129/Sv * C57BL/6	MP:0008438	abnormal cutaneous collagen fibril morphology	skin/connective tissue	12432342	MGI:109278	MGI:2668966	single_gene	Ogn
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001265	decreased body size	growth/body size	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001648	abnormal apoptosis	other	15051477	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001243	abnormal dermal layer morphology	skin/connective tissue	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001262	decreased body weight	growth/body size	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001312	abnormal cornea morphology	eye/cornea	11431438|9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001212	skin lesions	skin/connective tissue	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0001314	cornea opacity	eye/cornea	11006226|9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0005300	abnormal cornea stroma morphology	eye/cornea	11006226|9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0005421	loose skin	skin/connective tissue	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	11076963	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003089	decreased skin tensile strength	skin/connective tissue	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003096	increased corneal light-scattering	eye/cornea	11006226|12556382	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003095	abnormal cornea stroma development	eye/cornea;reproductive/developmental	12556382|9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003094	abnormal cornea posterior stroma morphology	eye/cornea	11006226	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003092	decreased cornea stroma thickness	eye/cornea	11006226|12556382	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0003102	sclera thinning	eye/cornea	12766039	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0009275	bruising	cardiovascular	9606218	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0011703	increased fibroblast proliferation	other	15051477	MGI:109347	MGI:3047689	single_gene	Lum
+LUM	Lum<tm1Chak>/Lum<tm1Chak>	Lum<tm1Chak>	MGI:2153008	involves: 129S/Sv * CD-1	MP:0013502	decreased fibroblast apoptosis	other	15051477	MGI:109347	MGI:3047689	single_gene	Lum
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0001314	cornea opacity	eye/cornea	12766039	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0002698	abnormal sclera morphology	eye/cornea	12766039	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0002697	abnormal eye size	eye/cornea	12766039	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	11076963	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0003098	decreased tendon stiffness	skeletal/cartilage/joint	12089156	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0003102	sclera thinning	eye/cornea	12766039	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0003560	osteoarthritis	skeletal/cartilage/joint;immune/inflammatory	12089156	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * CD-1	MP:0006433	abnormal articular cartilage morphology	skeletal/cartilage/joint	12089156	MGI:1328364	MGI:3047838	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<tm1Aol>	Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	10092650	MGI:1328364	MGI:3050204	single_gene	Fmod
+FMOD	Fmod<tm1Aol>/Fmod<+>	Fmod<+>|Fmod<tm1Aol>	MGI:2154550	involves: 129S1/Sv * 129X1/SvJ * C57BL/6	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	10092650	MGI:1328364	MGI:3050205	single_gene	Fmod
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0001244	thin dermal layer	skin/connective tissue	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0001199	thin skin	skin/connective tissue	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0000519	hydronephrosis	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0002705	dilated renal tubule	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0002704	tubular nephritis	immune/inflammatory;renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0005421	loose skin	skin/connective tissue	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0003089	decreased skin tensile strength	skin/connective tissue	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0003215	renal interstitial fibrosis	skin/connective tissue;renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0003668	abnormal periodontal ligament morphology	skeletal/cartilage/joint;growth/body size	11140699	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0003669	periodontal ligament hypercellularity	skeletal/cartilage/joint;growth/body size	11140699	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0004153	increased renal tubule apoptosis	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0004970	kidney atrophy	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0008438	abnormal cutaneous collagen fibril morphology	skin/connective tissue	9024701	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0009640	abnormal renal tubule epithelium morphology	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0011346	renal tubule atrophy	renal/metabolic	11891213	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ * Black Swiss	MP:0011501	increased glomerular capsule space	renal/metabolic	15277214	MGI:94872	MGI:3530609	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129/Sv * Black Swiss * C57BL/6	MP:0000619	salivary gland epithelial hyperplasia	other	10077642	MGI:94872	MGI:3574391	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129/Sv * Black Swiss * C57BL/6	MP:0010792	abnormal stomach mucosa morphology	other	10077642	MGI:94872	MGI:3574391	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	either: C.Cg-Dcn<tm1Ioz> or C3.Cg-Dcn<tm1Ioz>	MP:0002411	decreased susceptibility to bacterial infection	immune/inflammatory	11285303	MGI:94872	MGI:3574617	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<+>	Dcn<+>|Dcn<tm1Ioz>	MGI:2153002	either: C.Cg-Dcn<tm1Ioz> or C3.Cg-Dcn<tm1Ioz>	MP:0002411	decreased susceptibility to bacterial infection	immune/inflammatory	11285303	MGI:94872	MGI:3574618	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	C.129(Cg)-Dcn<tm1Ioz>	MP:0001800	abnormal humoral immune response	immune/inflammatory	15331421	MGI:94872	MGI:3574619	single_gene	Dcn
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0001191	abnormal skin condition	skin/connective tissue	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0001510	abnormal coat appearance	skin/connective tissue	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0001314	cornea opacity	eye/cornea	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0001922	reduced male fertility	reproductive/developmental	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0002908	delayed wound healing	skin/connective tissue	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0003094	abnormal cornea posterior stroma morphology	eye/cornea	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd * C57BL/6J	MP:0020861	abnormal cornea wound healing	eye/cornea;skin/connective tissue	10644720	MGI:109347	MGI:3852169	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd	MP:0001845	abnormal inflammatory response	immune/inflammatory	17911102	MGI:109347	MGI:3852184	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd	MP:0001314	cornea opacity	eye/cornea	17911102	MGI:109347	MGI:3852184	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd	MP:0000222	decreased neutrophil cell number	immune/inflammatory;reproductive/developmental	17911102	MGI:109347	MGI:3852184	single_gene	Lum
+LUM	Lum<tm1Wwk>/Lum<tm1Wwk>	Lum<tm1Wwk>	MGI:2181377	involves: 129P2/OlaHsd	MP:0005543	decreased cornea thickness	eye/cornea	17911102	MGI:109347	MGI:3852184	single_gene	Lum
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129X1/SvJ	MP:0001923	reduced female fertility	reproductive/developmental	21502335	MGI:94872	MGI:5308725	single_gene	Dcn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0001244	thin dermal layer	skin/connective tissue	12102052	MGI:88158	MGI:5308726	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0008438	abnormal cutaneous collagen fibril morphology	skin/connective tissue	12102052	MGI:88158	MGI:5308726	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0011642	abnormal bone collagen fibril morphology	skeletal/cartilage/joint;skin/connective tissue	12102052	MGI:88158	MGI:5308726	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Y	Bgn<tm1Mfy>	MGI:2153057	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0011643	abnormal tendon collagen fibril morphology	skeletal/cartilage/joint;skin/connective tissue	12102052	MGI:88158	MGI:5308726	single_gene	Bgn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0001244	thin dermal layer	skin/connective tissue	12102052	MGI:94872	MGI:5308727	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0005503	abnormal tendon morphology	skeletal/cartilage/joint	12102052	MGI:94872	MGI:5308727	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0003089	decreased skin tensile strength	skin/connective tissue	12102052	MGI:94872	MGI:5308727	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0003795	abnormal bone structure	skeletal/cartilage/joint	12102052	MGI:94872	MGI:5308727	single_gene	Dcn
+DCN	Dcn<tm1Ioz>/Dcn<tm1Ioz>	Dcn<tm1Ioz>	MGI:2153002	involves: 129S1/Sv * 129S4/SvJae * 129X1/SvJ	MP:0008438	abnormal cutaneous collagen fibril morphology	skin/connective tissue	12102052	MGI:94872	MGI:5308727	single_gene	Dcn
+OGN	Ogn<tm1Hds>/Ogn<tm1Hds>	Ogn<tm1Hds>	MGI:5427433	B6.129S1-Ogn<tm1Hds>	MP:0003966	abnormal adrenocorticotropin level	other	21664248	MGI:109278	MGI:5427434	single_gene	Ogn
+PRELP	Prelp<tm1.1(KOMP)Vlcg>/Prelp<tm1.1(KOMP)Vlcg>	Prelp<tm1.1(KOMP)Vlcg>	MGI:5548757	C57BL/6N-Prelp<tm1.1(KOMP)Vlcg>/Ucd	MP:0001258	decreased body length	growth/body size		MGI:2151110	MGI:5631440	single_gene	Prelp
+PRELP	Prelp<tm1.1(KOMP)Vlcg>/Prelp<tm1.1(KOMP)Vlcg>	Prelp<tm1.1(KOMP)Vlcg>	MGI:5548757	C57BL/6N-Prelp<tm1.1(KOMP)Vlcg>/Ucd	MP:0000194	increased circulating calcium level	other		MGI:2151110	MGI:5631440	single_gene	Prelp
+PRELP	Prelp<tm1.1(KOMP)Vlcg>/Prelp<tm1.1(KOMP)Vlcg>	Prelp<tm1.1(KOMP)Vlcg>	MGI:5548757	C57BL/6N-Prelp<tm1.1(KOMP)Vlcg>/Ucd	MP:0005344	increased circulating bilirubin level	other		MGI:2151110	MGI:5631440	single_gene	Prelp
+DCN	Dcn<tm1.2Geno>/Dcn<tm1.2Geno>	Dcn<tm1.2Geno>	MGI:5660397	B6.129S2(Cg)-Dcn<tm1.2Geno>	MP:0002169	no abnormal phenotype detected	other	26029887	MGI:94872	MGI:5660528	single_gene	Dcn
+EPYC	Epyc<tm1Mhok>/Epyc<tm1Mhok>	Epyc<tm1Mhok>	MGI:5762921	involves: 129S7/SvEvBrd * C57BL/6J	MP:0003109	short femur	skeletal/cartilage/joint;growth/body size	19932218	MGI:107942	MGI:5762922	single_gene	Epyc
+EPYC	Epyc<tm1Mhok>/Epyc<tm1Mhok>	Epyc<tm1Mhok>	MGI:5762921	involves: 129S7/SvEvBrd * C57BL/6J	MP:0003560	osteoarthritis	skeletal/cartilage/joint;immune/inflammatory	19932218	MGI:107942	MGI:5762922	single_gene	Epyc
+BGN	Bgn<tm1Mfy>/Bgn<tm1Mfy>	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae	MP:0001262	decreased body weight	growth/body size	19932218	MGI:88158	MGI:5762924	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Bgn<tm1Mfy>	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae	MP:0003560	osteoarthritis	skeletal/cartilage/joint;immune/inflammatory	19932218	MGI:88158	MGI:5762924	single_gene	Bgn
+BGN	Bgn<tm1Mfy>/Bgn<tm1Mfy>	Bgn<tm1Mfy>	MGI:2153057	involves: 129S4/SvJae	MP:0020254	decreased collagen level	skin/connective tissue	19932218	MGI:88158	MGI:5762924	single_gene	Bgn
+LUM	Lum<tm1.1(KOMP)Vlcg>/Lum<tm1.1(KOMP)Vlcg>	Lum<tm1.1(KOMP)Vlcg>	MGI:5695885	C57BL/6N-Lum<tm1.1(KOMP)Vlcg>/Ucd	MP:0002111	abnormal tail morphology	other		MGI:109347	MGI:5797641	single_gene	Lum
+LUM	Lum<tm1.1(KOMP)Vlcg>/Lum<tm1.1(KOMP)Vlcg>	Lum<tm1.1(KOMP)Vlcg>	MGI:5695885	C57BL/6N-Lum<tm1.1(KOMP)Vlcg>/Ucd	MP:0011100	preweaning lethality, complete penetrance	other		MGI:109347	MGI:5797641	single_gene	Lum
+OGN	Ogn<tm1b(KOMP)Wtsi>/Ogn<tm1b(KOMP)Wtsi>	Ogn<tm1b(KOMP)Wtsi>	MGI:5616354	C57BL/6N-Ogn<tm1b(KOMP)Wtsi>/J	MP:0001399	hyperactivity	other		MGI:109278	MGI:5797691	single_gene	Ogn
+OGN	Ogn<tm1b(KOMP)Wtsi>/Ogn<tm1b(KOMP)Wtsi>	Ogn<tm1b(KOMP)Wtsi>	MGI:5616354	C57BL/6N-Ogn<tm1b(KOMP)Wtsi>/J	MP:0000221	decreased leukocyte cell number	immune/inflammatory;reproductive/developmental		MGI:109278	MGI:5797691	single_gene	Ogn
+OGN	Ogn<tm1b(KOMP)Wtsi>/Ogn<tm1b(KOMP)Wtsi>	Ogn<tm1b(KOMP)Wtsi>	MGI:5616354	C57BL/6N-Ogn<tm1b(KOMP)Wtsi>/J	MP:0010506	prolonged RR interval	cardiovascular		MGI:109278	MGI:5797691	single_gene	Ogn
+OGN	Ogn<tm1b(KOMP)Wtsi>/Ogn<tm1b(KOMP)Wtsi>	Ogn<tm1b(KOMP)Wtsi>	MGI:5616354	C57BL/6N-Ogn<tm1b(KOMP)Wtsi>/J	MP:0013279	increased fasting circulating glucose level	renal/metabolic		MGI:109278	MGI:5797691	single_gene	Ogn
+LUM	Lum<tm1.1(KOMP)Vlcg>/Lum<+>	Lum<+>|Lum<tm1.1(KOMP)Vlcg>	MGI:5695885	C57BL/6N-Lum<tm1.1(KOMP)Vlcg>/Ucd	MP:0005343	increased circulating aspartate transaminase level	other		MGI:109347	MGI:5884005	single_gene	Lum
+LUM	Lum<tm1.1(KOMP)Vlcg>/Lum<+>	Lum<+>|Lum<tm1.1(KOMP)Vlcg>	MGI:5695885	C57BL/6N-Lum<tm1.1(KOMP)Vlcg>/Ucd	MP:0002941	increased circulating alanine transaminase level	other		MGI:109347	MGI:5884005	single_gene	Lum
+BGN	Bgn<tm1.1(KOMP)Vlcg>/Bgn<tm1.1(KOMP)Vlcg>	Bgn<tm1.1(KOMP)Vlcg>	MGI:5701726	C57BL/6N-Bgn<tm1.1(KOMP)Vlcg>/Wtsi	MP:0001258	decreased body length	growth/body size		MGI:88158	MGI:6261980	single_gene	Bgn
+EPYC	Epyc<em1Yuna>/Epyc<em1Yuna>	Epyc<em1Yuna>	MGI:6304421	C57BL/6-Epyc<em1Yuna>	MP:0011967	increased or absent threshold for auditory brainstem response	hearing/ear	28864419	MGI:107942	MGI:6304434	single_gene	Epyc
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0002182	abnormal astrocyte morphology	other	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0006082	CNS inflammation	immune/inflammatory	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0003719	abnormal pericyte morphology	cardiovascular	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0004272	abnormal basement membrane morphology	other	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0004950	abnormal brain vasculature morphology	cardiovascular	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0008918	microgliosis	immune/inflammatory;reproductive/developmental	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0020448	increased microglial cell activation	immune/inflammatory	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0031384	impaired blood-brain barrier function	cardiovascular	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp
+PRELP	Prelp<tm1.1Sohm>/Prelp<tm1.1Sohm>	Prelp<tm1.1Sohm>	MGI:8249485	B6(Cg)-Prelp<tm1.1Sohm>	MP:0014696	decreased cell adhesion	other	37936982	MGI:2151110	MGI:8252943	single_gene	Prelp

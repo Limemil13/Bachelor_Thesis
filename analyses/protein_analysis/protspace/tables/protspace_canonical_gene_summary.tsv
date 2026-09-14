@@ -1,0 +1,8 @@
+gene	protein_count	centroid_assignment_correct_count	mean_silhouette_cosine	mean_median_within_gene_cosine_distance	supported_count	watch_count	needs_inspection_count
+BGN	13	10	-0.0251	0.0382	9	0	4
+DCN	15	15	0.4821	0.0234	13	0	2
+EPYC	15	14	0.326	0.0445	12	0	3
+FMOD	14	12	0.2703	0.0443	11	0	3
+LUM	16	15	0.6239	0.0251	15	0	1
+OGN	14	14	0.2828	0.0473	11	1	2
+PRELP	16	16	0.4724	0.0504	14	0	2

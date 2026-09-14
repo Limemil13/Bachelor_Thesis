@@ -1,0 +1,13 @@
+query_gene	species_or_file	matched_gene_id	matched_gene_name	transcript_id	seqid	strand	gene_start	gene_end	gene_span_bp	cds_start	cds_end	cds_span_bp	exon_count	cds_exon_count	cds_length_bp	protein_length_est_aa	intron_count_between_cds	median_cds_intron_length_bp	note	gff_file
+DCN	chicken	gene-DCN	DCN	rna-NM_001030747.3	NC_052532.1	-	44073171	44112514	39344	44074516	44108131	33616	8	7	1074	358	6	3204		pro_panel/genomes/gff/chicken.gff
+DCN	cow	gene-DCN	DCN	rna-NM_173906.4	NC_037332.1	-	21014373	21053400	39028	21015210	21049383	34174	8	7	1083	361	6	5682	multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+DCN	cow	gene-DCN	DCN	rna-XM_005206039.3	NC_037332.1	-	21014373	21053400	39028	21015210	21049383	34174	8	7	1083	361	6	5682	multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+DCN	human	gene-DCN	DCN	rna-NM_001920.5	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	8	7	1080	360	6	5401	multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	human	gene-DCN	DCN	rna-NM_133503.4	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	8	7	1080	360	6	5401	multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	human	gene-DCN	DCN	rna-NM_133507.3	NC_000012.12	-	91140484	91182817	42334	91146236	91178552	32317	2	2	228	76	1	32089	unusual_protein_length_estimate;multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	human	gene-DCN	DCN	rna-NM_133505.3	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	4	4	639	213	3	5401	multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	human	gene-DCN	DCN	rna-NM_133504.3	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	5	5	753	251	4	5401	multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	human	gene-DCN	DCN	rna-NM_133506.3	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	3	3	519	173	2	18352	multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	mouse	gene-Dcn	Dcn	rna-NM_001190451.2	NC_000076.7	+	97315362	97354025	38664	97319225	97353517	34293	8	7	1065	355	6	3723	multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+DCN	mouse	gene-Dcn	Dcn	rna-NM_007833.6	NC_000076.7	+	97315362	97354025	38664	97319225	97353517	34293	8	7	1065	355	6	3723	multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+DCN	zebrafish	gene-dcn	dcn	rna-NM_131697.1	NC_133179.1	-	16955805	16993841	38037	16956969	16981291	24323	8	7	1122	374	6	3718		pro_panel/genomes/gff/zebrafish.gff

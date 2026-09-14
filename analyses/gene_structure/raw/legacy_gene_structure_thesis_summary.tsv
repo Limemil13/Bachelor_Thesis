@@ -1,0 +1,7 @@
+Gene	Reference species analyzed	Conserved CDS exon count	Protein length range (aa)	Interpretation
+BGN	human, mouse, cow, chicken, zebrafish	7	369-372	Conserved coding gene structure across reference vertebrates
+EPYC	human, mouse, cow, chicken, zebrafish	6	317-323	Conserved coding gene structure across reference vertebrates
+FMOD	human, mouse, cow, chicken, zebrafish	2	363-381	Highly conserved compact coding structure
+OGN	human, mouse, cow, chicken, zebrafish	6	293-300	Conserved coding gene structure across reference vertebrates
+OMD	human, mouse, cow, chicken, zebrafish	2	402-424	Highly conserved compact coding structure
+PRELP	human, mouse, cow, chicken, zebrafish	2	375-383	Highly conserved compact coding structure

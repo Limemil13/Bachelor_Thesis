@@ -1,0 +1,15 @@
+species	fasta_seqids	gff_annotated_seqids	exact_matches	version_only_mismatches	missing_from_fasta	status
+amphioxus	432	271	271	0	0	PASS
+anole	211	116	116	0	0	PASS
+catshark	646	289	289	0	0	PASS
+chicken	214	151	151	0	0	PASS
+coelacanth	197	101	101	0	0	PASS
+cow	1958	208	208	0	0	PASS
+dog	2197	625	625	0	0	PASS
+elephant_shark	1762	706	706	0	0	PASS
+frog	167	65	65	0	0	PASS
+mouse	61	42	42	0	0	PASS
+opossum	13	13	4	6	3	FAIL
+spotted_gar	816	166	166	0	0	PASS
+whale_shark	16776	2968	2968	0	0	PASS
+zebrafish	26	26	26	0	0	PASS

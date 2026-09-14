@@ -1,0 +1,10 @@
+species	gff_seqid	fasta_seqid	mismatch_type
+opossum	NC_077229.2	NC_077229.1	version_only
+opossum	NC_077231.2	NC_077231.1	version_only
+opossum	NC_077232.2	NC_077232.1	version_only
+opossum	NC_077233.2	NC_077233.1	version_only
+opossum	NC_077234.2	NC_077234.1	version_only
+opossum	NC_077235.2	NC_077235.1	version_only
+opossum	NW_028182349.1		absent
+opossum	NW_028182350.1		absent
+opossum	NW_028182351.1		absent

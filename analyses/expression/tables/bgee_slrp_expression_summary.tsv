@@ -1,0 +1,55 @@
+species	thesis_gene	bgee_gene_id	query_mode	total_expressed_call_count	skeletal_cartilage_match_count	best_skeletal_cartilage_expression_score	best_skeletal_cartilage_term	best_skeletal_cartilage_stage	best_skeletal_cartilage_quality	best_skeletal_cartilage_data_types	interpretation
+chicken	ASPN	ENSGALG00000004722	anatomy_all_data	6	1	62.83	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	ASPN	ENSGALG00000004722	stage_rnaseq	11	1	62.83	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+chicken	BGN		anatomy_all_data								gene not resolved by exact symbol in Bgee; missing database evidence, not evidence of biological absence
+chicken	BGN		stage_rnaseq								gene not resolved by exact symbol in Bgee; missing database evidence, not evidence of biological absence
+chicken	DCN	ENSGALG00000011274	anatomy_all_data	12	1	96.39	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	DCN	ENSGALG00000011274	stage_rnaseq	20	1	96.39	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+chicken	EPYC	ENSGALG00000011269	anatomy_all_data	1	0						no matching Bgee call; this is missing evidence, not evidence of absence
+chicken	EPYC	ENSGALG00000011269	stage_rnaseq	1	0						no matching Bgee call; this is missing evidence, not evidence of absence
+chicken	FMOD	ENSGALG00000034067	anatomy_all_data	10	1	57.46	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	FMOD	ENSGALG00000034067	stage_rnaseq	14	1	57.46	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+chicken	LUM	ENSGALG00000011271	anatomy_all_data	11	1	85.82	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	LUM	ENSGALG00000011271	stage_rnaseq	18	1	85.82	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+chicken	OGN	ENSGALG00000026736	anatomy_all_data	12	1	89.17	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	OGN	ENSGALG00000026736	stage_rnaseq	17	1	89.17	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+chicken	OMD	ENSGALG00000026080	anatomy_all_data	1	0						no matching Bgee call; this is missing evidence, not evidence of absence
+chicken	OMD	ENSGALG00000026080	stage_rnaseq	2	0						no matching Bgee call; this is missing evidence, not evidence of absence
+chicken	PRELP	ENSGALG00000034456	anatomy_all_data	12	1	76.75	skeletal muscle tissue		gold	RNA-Seq	curated expression support found
+chicken	PRELP	ENSGALG00000034456	stage_rnaseq	17	1	76.75	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	ASPN	ENSMUSG00000021388	anatomy_all_data	223	21	99.78	diaphysis of femur		gold	Affymetrix	curated expression support found
+mouse	ASPN	ENSMUSG00000021388	stage_rnaseq	122	2	84.61	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	BGN	ENSMUSG00000031375	anatomy_all_data	237	8	99.84	stroma of bone marrow		gold	Affymetrix	curated expression support found
+mouse	BGN	ENSMUSG00000031375	stage_rnaseq	139	3	93.81	skeletal muscle tissue	fully formed stage	gold	RNA-Seq	curated expression support found
+mouse	DCN	ENSMUSG00000019929	anatomy_all_data	268	7	99.84	diaphysis of femur		gold	Affymetrix	curated expression support found
+mouse	DCN	ENSMUSG00000019929	stage_rnaseq	131	2	98.96	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	EPYC	ENSMUSG00000019936	anatomy_all_data	119	16	99.65	humerus cartilage element		gold	Affymetrix	curated expression support found
+mouse	EPYC	ENSMUSG00000019936	stage_rnaseq	75	0						no matching Bgee call; this is missing evidence, not evidence of absence
+mouse	FMOD	ENSMUSG00000041559	anatomy_all_data	262	25	99.83	diaphysis of femur		gold	Affymetrix	curated expression support found
+mouse	FMOD	ENSMUSG00000041559	stage_rnaseq	123	1	92.38	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	LUM	ENSMUSG00000036446	anatomy_all_data	200	9	99.85	diaphysis of femur		gold	Affymetrix	curated expression support found
+mouse	LUM	ENSMUSG00000036446	stage_rnaseq	126	2	88.60	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	OGN	ENSMUSG00000021390	anatomy_all_data	238	14	98.23	bone fossa		gold	Affymetrix	curated expression support found
+mouse	OGN	ENSMUSG00000021390	stage_rnaseq	131	2	91.72	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	OMD	ENSMUSG00000048368	anatomy_all_data	122	7	97.84	diaphysis of femur		gold	Affymetrix	curated expression support found
+mouse	OMD	ENSMUSG00000048368	stage_rnaseq	117	2	66.79	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+mouse	PRELP	ENSMUSG00000041577	anatomy_all_data	190	12	99.72	humerus cartilage element		gold	Affymetrix	curated expression support found
+mouse	PRELP	ENSMUSG00000041577	stage_rnaseq	123	1	90.68	skeletal muscle tissue	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	ASPN	ENSDARG00000002192	anatomy_all_data	14	2	74.99	chondrocranium		gold	in situ hybridization	curated expression support found
+zebrafish	ASPN	ENSDARG00000002192	stage_rnaseq	16	1	65.31	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	BGN	ENSDARG00000017884	anatomy_all_data	13	3	84.09	bone element		gold	in situ hybridization;RNA-Seq	curated expression support found
+zebrafish	BGN	ENSDARG00000017884	stage_rnaseq	11	1	84.10	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	DCN	ENSDARG00000012066	anatomy_all_data	44	7	97.13	bone element		gold	RNA-Seq	curated expression support found
+zebrafish	DCN	ENSDARG00000012066	stage_rnaseq	33	1	97.13	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	EPYC	ENSDARG00000056950	anatomy_all_data	19	5	78.60	bone element		gold	RNA-Seq	curated expression support found
+zebrafish	EPYC	ENSDARG00000056950	stage_rnaseq	23	1	78.60	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	FMOD	ENSDARG00000010294	anatomy_all_data	6	0						no matching Bgee call; this is missing evidence, not evidence of absence
+zebrafish	FMOD	ENSDARG00000010294	stage_rnaseq	9	0						no matching Bgee call; this is missing evidence, not evidence of absence
+zebrafish	LUM	ENSDARG00000045580	anatomy_all_data	20	1	95.09	bone element		gold	RNA-Seq	curated expression support found
+zebrafish	LUM	ENSDARG00000045580	stage_rnaseq	23	1	95.09	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	OGN	ENSDARG00000044132	anatomy_all_data	21	3	80.50	bone element		gold	RNA-Seq	curated expression support found
+zebrafish	OGN	ENSDARG00000044132	stage_rnaseq	21	1	80.50	bone element	post-juvenile	gold	RNA-Seq	curated expression support found
+zebrafish	OMD	ENSDARG00000093600	anatomy_all_data	5	1	22.81	bone element		silver	RNA-Seq	curated expression support found
+zebrafish	OMD	ENSDARG00000093600	stage_rnaseq	7	1	22.81	bone element	post-juvenile	silver	RNA-Seq	curated expression support found
+zebrafish	PRELP	ENSDARG00000070597	anatomy_all_data	14	1	85.63	bone element		gold	RNA-Seq	curated expression support found
+zebrafish	PRELP	ENSDARG00000070597	stage_rnaseq	13	1	85.63	bone element	post-juvenile	gold	RNA-Seq	curated expression support found

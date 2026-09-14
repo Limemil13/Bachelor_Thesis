@@ -1,0 +1,23 @@
+seqid	source	feature	start	end	strand	symbol	id	parent	description	product	protein_id
+NC_090700.1	RefSeq	region	1	61574481	+	5	NC_090700.1:1..61574481				
+NC_090700.1	Gnomon	gene	38923779	38931353	+	LOC102691729	gene-LOC102691729		lumican		
+NC_090700.1	Gnomon	mRNA	38923779	38931353	+	LOC102691729	rna-XM_006628562.3	gene-LOC102691729		lumican	
+NC_090700.1	Gnomon	exon	38925133	38925795	+	LOC102691729	exon-XM_006628562.3-2	rna-XM_006628562.3		lumican	
+NC_090700.1	Gnomon	exon	38926123	38926440	+	LOC102691729	exon-XM_006628562.3-3	rna-XM_006628562.3		lumican	
+NC_090700.1	Gnomon	exon	38929610	38931353	+	LOC102691729	exon-XM_006628562.3-4	rna-XM_006628562.3		lumican	
+NC_090700.1	Gnomon	CDS	38925168	38925795	+	LOC102691729	cds-XP_006628625.2	rna-XM_006628562.3		lumican	XP_006628625.2
+NC_090700.1	Gnomon	CDS	38926123	38926440	+	LOC102691729	cds-XP_006628625.2	rna-XM_006628562.3		lumican	XP_006628625.2
+NC_090700.1	Gnomon	CDS	38929610	38929761	+	LOC102691729	cds-XP_006628625.2	rna-XM_006628562.3		lumican	XP_006628625.2
+NC_090700.1	Gnomon	gene	38943900	38955017	+	prelp	gene-prelp		proline/arginine-rich end leucine-rich repeat protein		
+NC_090700.1	Gnomon	mRNA	38943900	38955017	+	prelp	rna-XM_006628459.3	gene-prelp		proline/arginine-rich end leucine-rich repeat protein, transcript variant X2	
+NC_090700.1	Gnomon	exon	38943900	38944205	+	prelp	exon-XM_006628459.3-1	rna-XM_006628459.3		proline/arginine-rich end leucine-rich repeat protein, transcript variant X2	
+NC_090700.1	Gnomon	exon	38950261	38951205	+	prelp	exon-XM_006628459.3-2	rna-XM_006628459.3		proline/arginine-rich end leucine-rich repeat protein, transcript variant X2	
+NC_090700.1	Gnomon	exon	38951550	38955017	+	prelp	exon-XM_006628459.3-3	rna-XM_006628459.3		proline/arginine-rich end leucine-rich repeat protein, transcript variant X2	
+NC_090700.1	Gnomon	CDS	38950272	38951205	+	prelp	cds-XP_006628522.2	rna-XM_006628459.3		prolargin	XP_006628522.2
+NC_090700.1	Gnomon	CDS	38951550	38951719	+	prelp	cds-XP_006628522.2	rna-XM_006628459.3		prolargin	XP_006628522.2
+NC_090700.1	Gnomon	mRNA	38949980	38955017	+	prelp	rna-XM_015342845.2	gene-prelp		proline/arginine-rich end leucine-rich repeat protein, transcript variant X1	
+NC_090700.1	Gnomon	exon	38949980	38950148	+	prelp	exon-XM_015342845.2-1	rna-XM_015342845.2		proline/arginine-rich end leucine-rich repeat protein, transcript variant X1	
+NC_090700.1	Gnomon	exon	38950261	38951205	+	prelp	exon-XM_015342845.2-2	rna-XM_015342845.2		proline/arginine-rich end leucine-rich repeat protein, transcript variant X1	
+NC_090700.1	Gnomon	exon	38951550	38955017	+	prelp	exon-XM_015342845.2-3	rna-XM_015342845.2		proline/arginine-rich end leucine-rich repeat protein, transcript variant X1	
+NC_090700.1	Gnomon	CDS	38950272	38951205	+	prelp	cds-XP_015198331.2	rna-XM_015342845.2		prolargin	XP_015198331.2
+NC_090700.1	Gnomon	CDS	38951550	38951719	+	prelp	cds-XP_015198331.2	rna-XM_015342845.2		prolargin	XP_015198331.2

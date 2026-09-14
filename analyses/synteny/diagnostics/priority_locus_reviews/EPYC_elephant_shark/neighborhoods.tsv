@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-15	flanking	RASSF9	gene-RASSF9	85800703	85836409	-	5127273	protein_coding	Ras association domain family member 9
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-14	flanking	NTS	gene-NTS	85874295	85882992	+	5080690	protein_coding	neurotensin
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-13	flanking	MGAT4C	gene-MGAT4C	85955667	86839000	-	4124682	protein_coding	MGAT4 family member C
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-12	flanking	C12orf50	gene-C12orf50	87980035	88030232	-	2933450	protein_coding	chromosome 12 open reading frame 50
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-11	flanking	RLIG1	gene-RLIG1	88035536	88050160	+	2913522	protein_coding	RNA 5'-phosphate and 3'-OH ligase 1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-10	flanking	CEP290	gene-CEP290	88049016	88142088	-	2821594	protein_coding	centrosomal protein 290
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-9	flanking	TMTC3	gene-TMTC3	88142307	88199887	+	2763795	protein_coding	transmembrane O-mannosyltransferase targeting cadherins 3
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-8	flanking	KITLG	gene-KITLG	88492793	88580471	-	2383211	protein_coding	KIT ligand
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-7	flanking	DUSP6	gene-DUSP6	89347235	89352501	-	1611181	protein_coding	dual specificity phosphatase 6
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-6	flanking	POC1B-DUSP6	gene-POC1B-DUSP6	89348065	89526047	-	1437635	protein_coding	POC1B-DUSP6 readthrough
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-5	flanking	POC1B	gene-POC1B	89401467	89526047	-	1437635	protein_coding	POC1 centriolar protein B
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-4	flanking	GALNT4	gene-GALNT4	89519412	89524796	-	1438886	protein_coding	polypeptide N-acetylgalactosaminyltransferase 4
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-3	flanking	POC1B-GALNT4	gene-POC1B-GALNT4	89519412	89526262	-	1437420	protein_coding	POC1B-GALNT4 readthrough
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-2	flanking	ATP2B1	gene-ATP2B1	89588049	89709366	-	1254316	protein_coding	ATPase plasma membrane Ca2+ transporting 1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	-1	flanking	CCER1	gene-CCER1	90952215	90955176	-	8506	protein_coding	coiled-coil glutamate rich protein 1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	0	focal	EPYC	gene-EPYC	90963682	91004972	-	0	protein_coding	epiphycan
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	1	flanking	KERA	gene-KERA	91050491	91058024	-	45519	protein_coding	keratocan
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	2	flanking	LUM	gene-LUM	91102629	91111494	-	97657	protein_coding	lumican
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	3	flanking	DCN	gene-DCN	91140484	91182817	-	135512	protein_coding	decorin
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	4	flanking	BTG1	gene-BTG1	92140278	92145846	-	1135306	protein_coding	BTG anti-proliferation factor 1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	5	flanking	PLEKHG7	gene-PLEKHG7	92702989	92772455	+	1698017	protein_coding	pleckstrin homology and RhoGEF domain containing G7
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	6	flanking	EEA1	gene-EEA1	92770637	92929295	-	1765665	protein_coding	early endosome antigen 1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	7	flanking	NUDT4	gene-NUDT4	93377925	93408146	+	2372953	protein_coding	nudix hydrolase 4
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	8	flanking	UBE2N	gene-UBE2N	93405684	93441947	-	2400712	protein_coding	ubiquitin conjugating enzyme E2 N
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	9	flanking	MRPL42	gene-MRPL42	93467514	93516214	+	2462542	protein_coding	mitochondrial ribosomal protein L42
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	10	flanking	SOCS2	gene-SOCS2	93569969	93626236	+	2564997	protein_coding	suppressor of cytokine signaling 2
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	11	flanking	CRADD	gene-CRADD	93677375	93894840	+	2672403	protein_coding	CARD and death domain containing adaptor protein
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	12	flanking	PLXNC1	gene-PLXNC1	94148577	94307675	+	3143605	protein_coding	plexin C1
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	13	flanking	CEP83	gene-CEP83	94265662	94460454	-	3260690	protein_coding	centrosomal protein 83
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	14	flanking	TMCC3	gene-TMCC3	94567122	94650557	-	3562150	protein_coding	transmembrane and coiled-coil domain family 3
+human_EPYC	NCBI_Assembly:GCF_000001405.40	human.gff	EPYC@NC_000012.12	NC_000012.12	15	flanking	NDUFA12	gene-NDUFA12	94971333	95003697	-	3966361	protein_coding	NADH:ubiquinone oxidoreductase subunit A12
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-15	flanking	osbpl8	gene-osbpl8	32543125	32611913	+	673158	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-14	flanking	nap1l1	gene-nap1l1	32649216	32672745	+	612326	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-13	flanking	LOC103179916	gene-LOC103179916	32676855	32677572	+	607499	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-12	flanking	krr1	gene-krr1	32758191	32765253	+	519818	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-11	flanking	LOC103179853	gene-LOC103179853	32766643	32772629	-	512442	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-10	flanking	LOC103179852	gene-LOC103179852	32774156	32778278	-	506793	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-9	flanking	ccdc107	gene-ccdc107	32779134	32787246	+	497825	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-8	flanking	caps2	gene-caps2	32787974	32801613	+	483458	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-7	flanking	cunh12orf29	gene-cunh12orf29	32801550	32810243	+	474828	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-6	flanking	cep290	gene-cep290	32810005	32848339	-	436732	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-5	flanking	tmtc3	gene-tmtc3	32851348	32875042	+	410029	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-4	flanking	kitlga	gene-kitlga	32893358	32942968	-	342103	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-3	flanking	dusp6	gene-dusp6	33034855	33040937	-	244134	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-2	flanking	poc1b	gene-poc1b	33056917	33080548	-	204523	protein_coding	POC1 centriolar protein B
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	-1	flanking	LOC103179842	gene-LOC103179842	33085486	33133627	-	151444	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	0	focal	LOC103179840	gene-LOC103179840	33285071	33298586	-	0	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	1	flanking	kera	gene-kera	33307799	33315335	-	9213	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	2	flanking	lum	gene-lum	33330048	33339282	-	31462	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	3	flanking	dcn	gene-dcn	33362608	33383802	-	64022	protein_coding	decorin
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	4	flanking	LOC103179915	gene-LOC103179915	33403284	33414927	-	104698	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	5	flanking	LOC103179834	gene-LOC103179834	33517936	33520083	-	219350	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	6	flanking	LOC103179832	gene-LOC103179832	33588845	33592445	-	290259	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	7	flanking	LOC103179914	gene-LOC103179914	33596640	33598905	-	298054	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	8	flanking	stab2	gene-stab2	33601176	33648512	+	302590	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	9	flanking	nt5dc3	gene-nt5dc3	33650101	33664669	-	351515	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	10	flanking	hsp90b1	gene-hsp90b1	33671136	33680899	+	372550	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	11	flanking	cunh12orf73	gene-cunh12orf73	33680941	33687500	-	382355	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	12	flanking	LOC103179828	gene-LOC103179828	33687955	33697327	+	389369	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	13	flanking	glt8d2	gene-glt8d2	33700980	33712621	-	402394	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	14	flanking	LOC103179826	gene-LOC103179826	33716540	33750111	+	417954	protein_coding	
+elephant_shark_EPYC	NCBI_Assembly:GCF_018977255.1	elephant_shark.gff	LOC103179840@NW_024704746.1	NW_024704746.1	15	flanking	nfyba	gene-nfyba	33754988	33765738	-	456402	protein_coding	

@@ -1,0 +1,141 @@
+gene	category	evidence_scope	unique_mp_terms	genotype_count	publication_count
+BGN	skeletal/cartilage/joint	single_gene	14	3	4
+BGN	skeletal/cartilage/joint	compound_genotype	0	0	0
+BGN	growth/body size	single_gene	3	3	2
+BGN	growth/body size	compound_genotype	0	0	0
+BGN	eye/cornea	single_gene	0	0	0
+BGN	eye/cornea	compound_genotype	0	0	0
+BGN	skin/connective tissue	single_gene	5	3	3
+BGN	skin/connective tissue	compound_genotype	0	0	0
+BGN	cardiovascular	single_gene	0	0	0
+BGN	cardiovascular	compound_genotype	0	0	0
+BGN	immune/inflammatory	single_gene	1	2	2
+BGN	immune/inflammatory	compound_genotype	0	0	0
+BGN	renal/metabolic	single_gene	0	0	0
+BGN	renal/metabolic	compound_genotype	0	0	0
+BGN	hearing/ear	single_gene	0	0	0
+BGN	hearing/ear	compound_genotype	0	0	0
+BGN	reproductive/developmental	single_gene	1	1	1
+BGN	reproductive/developmental	compound_genotype	0	0	0
+BGN	other	single_gene	0	0	0
+BGN	other	compound_genotype	0	0	0
+DCN	skeletal/cartilage/joint	single_gene	4	2	3
+DCN	skeletal/cartilage/joint	compound_genotype	0	0	0
+DCN	growth/body size	single_gene	2	1	1
+DCN	growth/body size	compound_genotype	0	0	0
+DCN	eye/cornea	single_gene	0	0	0
+DCN	eye/cornea	compound_genotype	0	0	0
+DCN	skin/connective tissue	single_gene	6	2	3
+DCN	skin/connective tissue	compound_genotype	0	0	0
+DCN	cardiovascular	single_gene	0	0	0
+DCN	cardiovascular	compound_genotype	0	0	0
+DCN	immune/inflammatory	single_gene	3	4	3
+DCN	immune/inflammatory	compound_genotype	0	0	0
+DCN	renal/metabolic	single_gene	9	1	2
+DCN	renal/metabolic	compound_genotype	0	0	0
+DCN	hearing/ear	single_gene	0	0	0
+DCN	hearing/ear	compound_genotype	0	0	0
+DCN	reproductive/developmental	single_gene	1	1	1
+DCN	reproductive/developmental	compound_genotype	0	0	0
+DCN	other	single_gene	3	2	2
+DCN	other	compound_genotype	0	0	0
+FMOD	skeletal/cartilage/joint	single_gene	4	3	3
+FMOD	skeletal/cartilage/joint	compound_genotype	0	0	0
+FMOD	growth/body size	single_gene	0	0	0
+FMOD	growth/body size	compound_genotype	0	0	0
+FMOD	eye/cornea	single_gene	4	1	1
+FMOD	eye/cornea	compound_genotype	0	0	0
+FMOD	skin/connective tissue	single_gene	0	0	0
+FMOD	skin/connective tissue	compound_genotype	0	0	0
+FMOD	cardiovascular	single_gene	0	0	0
+FMOD	cardiovascular	compound_genotype	0	0	0
+FMOD	immune/inflammatory	single_gene	1	1	1
+FMOD	immune/inflammatory	compound_genotype	0	0	0
+FMOD	renal/metabolic	single_gene	0	0	0
+FMOD	renal/metabolic	compound_genotype	0	0	0
+FMOD	hearing/ear	single_gene	0	0	0
+FMOD	hearing/ear	compound_genotype	0	0	0
+FMOD	reproductive/developmental	single_gene	0	0	0
+FMOD	reproductive/developmental	compound_genotype	0	0	0
+FMOD	other	single_gene	0	0	0
+FMOD	other	compound_genotype	0	0	0
+PRELP	skeletal/cartilage/joint	single_gene	0	0	0
+PRELP	skeletal/cartilage/joint	compound_genotype	0	0	0
+PRELP	growth/body size	single_gene	1	1	0
+PRELP	growth/body size	compound_genotype	0	0	0
+PRELP	eye/cornea	single_gene	0	0	0
+PRELP	eye/cornea	compound_genotype	0	0	0
+PRELP	skin/connective tissue	single_gene	0	0	0
+PRELP	skin/connective tissue	compound_genotype	0	0	0
+PRELP	cardiovascular	single_gene	3	1	1
+PRELP	cardiovascular	compound_genotype	0	0	0
+PRELP	immune/inflammatory	single_gene	3	1	1
+PRELP	immune/inflammatory	compound_genotype	0	0	0
+PRELP	renal/metabolic	single_gene	0	0	0
+PRELP	renal/metabolic	compound_genotype	0	0	0
+PRELP	hearing/ear	single_gene	0	0	0
+PRELP	hearing/ear	compound_genotype	0	0	0
+PRELP	reproductive/developmental	single_gene	1	1	1
+PRELP	reproductive/developmental	compound_genotype	0	0	0
+PRELP	other	single_gene	5	2	1
+PRELP	other	compound_genotype	0	0	0
+EPYC	skeletal/cartilage/joint	single_gene	2	1	1
+EPYC	skeletal/cartilage/joint	compound_genotype	0	0	0
+EPYC	growth/body size	single_gene	1	1	1
+EPYC	growth/body size	compound_genotype	0	0	0
+EPYC	eye/cornea	single_gene	0	0	0
+EPYC	eye/cornea	compound_genotype	0	0	0
+EPYC	skin/connective tissue	single_gene	0	0	0
+EPYC	skin/connective tissue	compound_genotype	0	0	0
+EPYC	cardiovascular	single_gene	0	0	0
+EPYC	cardiovascular	compound_genotype	0	0	0
+EPYC	immune/inflammatory	single_gene	1	1	1
+EPYC	immune/inflammatory	compound_genotype	0	0	0
+EPYC	renal/metabolic	single_gene	0	0	0
+EPYC	renal/metabolic	compound_genotype	0	0	0
+EPYC	hearing/ear	single_gene	1	1	1
+EPYC	hearing/ear	compound_genotype	0	0	0
+EPYC	reproductive/developmental	single_gene	0	0	0
+EPYC	reproductive/developmental	compound_genotype	0	0	0
+EPYC	other	single_gene	0	0	0
+EPYC	other	compound_genotype	0	0	0
+LUM	skeletal/cartilage/joint	single_gene	1	1	1
+LUM	skeletal/cartilage/joint	compound_genotype	0	0	0
+LUM	growth/body size	single_gene	2	1	1
+LUM	growth/body size	compound_genotype	0	0	0
+LUM	eye/cornea	single_gene	10	3	8
+LUM	eye/cornea	compound_genotype	0	0	0
+LUM	skin/connective tissue	single_gene	8	2	2
+LUM	skin/connective tissue	compound_genotype	0	0	0
+LUM	cardiovascular	single_gene	1	1	1
+LUM	cardiovascular	compound_genotype	0	0	0
+LUM	immune/inflammatory	single_gene	2	1	1
+LUM	immune/inflammatory	compound_genotype	0	0	0
+LUM	renal/metabolic	single_gene	0	0	0
+LUM	renal/metabolic	compound_genotype	0	0	0
+LUM	hearing/ear	single_gene	0	0	0
+LUM	hearing/ear	compound_genotype	0	0	0
+LUM	reproductive/developmental	single_gene	3	3	3
+LUM	reproductive/developmental	compound_genotype	0	0	0
+LUM	other	single_gene	7	3	1
+LUM	other	compound_genotype	0	0	0
+OGN	skeletal/cartilage/joint	single_gene	0	0	0
+OGN	skeletal/cartilage/joint	compound_genotype	0	0	0
+OGN	growth/body size	single_gene	0	0	0
+OGN	growth/body size	compound_genotype	0	0	0
+OGN	eye/cornea	single_gene	1	1	1
+OGN	eye/cornea	compound_genotype	0	0	0
+OGN	skin/connective tissue	single_gene	2	1	1
+OGN	skin/connective tissue	compound_genotype	0	0	0
+OGN	cardiovascular	single_gene	1	1	0
+OGN	cardiovascular	compound_genotype	0	0	0
+OGN	immune/inflammatory	single_gene	1	1	0
+OGN	immune/inflammatory	compound_genotype	0	0	0
+OGN	renal/metabolic	single_gene	1	1	0
+OGN	renal/metabolic	compound_genotype	0	0	0
+OGN	hearing/ear	single_gene	0	0	0
+OGN	hearing/ear	compound_genotype	0	0	0
+OGN	reproductive/developmental	single_gene	1	1	0
+OGN	reproductive/developmental	compound_genotype	0	0	0
+OGN	other	single_gene	2	2	1
+OGN	other	compound_genotype	0	0	0

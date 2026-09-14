@@ -1,0 +1,9 @@
+gene	target_comparison_count	interpretable_omega_count	caution_or_unavailable_count	median_amino_acid_identity_percent	median_dN_dS_omega	maximum_dN_dS_omega	all_interpretable_omega_below_one	interpretation
+BGN	4	2	2	81.496	0.049802	0.068387	yes	all interpretable human-target comparisons are compatible with purifying constraint
+DCN	4	4	1	80.144	0.109756	0.156152	yes	all interpretable human-target comparisons are compatible with purifying constraint
+FMOD	4	3	1	80.636	0.108992	0.224459	yes	all interpretable human-target comparisons are compatible with purifying constraint
+PRELP	4	4	0	83.26	0.138642	0.202834	yes	all interpretable human-target comparisons are compatible with purifying constraint
+EPYC	4	3	2	75.434	0.0778	0.161593	yes	all interpretable human-target comparisons are compatible with purifying constraint
+LUM	4	3	2	78.21	0.068266	0.113091	yes	all interpretable human-target comparisons are compatible with purifying constraint
+OGN	4	3	1	75.212	0.179425	0.195554	yes	all interpretable human-target comparisons are compatible with purifying constraint
+OMD	4	3	1	69.59	0.21098	0.240363	yes	all interpretable human-target comparisons are compatible with purifying constraint

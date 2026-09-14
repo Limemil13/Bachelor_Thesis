@@ -1,0 +1,33 @@
+gene	reference_species	target_species	human_accession	target_accession	aligned_ungapped_codon_count	amino_acid_identity_percent	nucleotide_identity_percent	dN_NG86	dS_NG86	dN_dS_omega	estimate_status	interpretation	note
+BGN	human	mouse	NP_001702.1	NP_031568.2	368	95.924	88.496	0.019932	0.63851	0.031217	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+BGN	human	cow	NP_001702.1	NP_847888.2	368	94.837	90.942	0.026466	0.387005	0.068387	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+BGN	human	chicken	NP_001702.1	XP_414298.2	363	54.545	54.729				excluded orthology conflict	omega unavailable	excluded because the selected chicken BGN-labelled model has the known ASPN-like orthology/annotation conflict
+BGN	human	zebrafish	NP_001702.1	NP_001002227.1	358	68.156	65.27	0.272749	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined
+DCN	human	mouse	NP_001911.1	NP_001177380.1	354	81.356	80.508	0.119674	0.766391	0.156152	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+DCN	human	cow	NP_001911.1	NP_776331.2	358	90.782	88.92	0.046191	0.44371	0.104101	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+DCN	human	chicken	NP_001911.1	NP_001025918.2	356	78.933	76.311	0.129055	1.432801	0.090072	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+DCN	human	zebrafish	NP_001911.1	NP_571772.1	359	67.967	67.038	0.252516	2.187996	0.11541	caution	omega below 1; compatible with purifying constraint	high dS may indicate synonymous-site saturation
+FMOD	human	mouse	NP_002014.2	NP_067330.1	376	92.553	88.741	0.034863	0.514157	0.067805	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+FMOD	human	cow	NP_002014.2	NP_776483.2	376	92.287	91.135	0.035995	0.330254	0.108992	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+FMOD	human	chicken	NP_002014.2	NP_990298.2	374	68.984	72.193	0.227441	1.013284	0.224459	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+FMOD	human	zebrafish	NP_002014.2	XP_005167298.1	356	53.933	58.801	0.372121	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined
+PRELP	human	mouse	NP_002716.1	NP_473418.3	377	90.981	87.798	0.04852	0.495178	0.097985	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+PRELP	human	cow	NP_002716.1	NP_776859.1	380	91.579	88.421	0.039646	0.493273	0.080374	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+PRELP	human	chicken	NP_002716.1	XP_418054.2	372	75.538	76.434	0.162253	0.90493	0.179299	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+PRELP	human	zebrafish	NP_002716.1	XP_001923590.2	375	57.867	63.022	0.349108	1.721147	0.202834	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+EPYC	human	mouse	NP_004941.2	NP_001366385.1	322	82.298	83.954	0.095419	0.590489	0.161593	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+EPYC	human	cow	NP_004941.2	NP_776732.1	321	94.081	91.277	0.027958	0.373155	0.074923	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+EPYC	human	chicken	NP_004941.2	NP_001004382.1	315	68.571	70.265	0.196972	2.531763	0.0778	caution	omega below 1; compatible with purifying constraint	high dS may indicate synonymous-site saturation
+EPYC	human	zebrafish	NP_004941.2	NP_001335412.1	314	53.503	57.962	0.391518	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined
+LUM	human	mouse	NP_002336.1	NP_032550.2	338	86.686	82.446	0.070219	1.028609	0.068266	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+LUM	human	cow	NP_002336.1	NP_776359.1	338	89.349	87.673	0.056556	0.500094	0.113091	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+LUM	human	chicken	NP_002336.1	NP_001263286.1	337	69.733	69.832	0.197309	5.023331	0.039279	caution	omega below 1; compatible with purifying constraint	high dS may indicate synonymous-site saturation
+LUM	human	zebrafish	NP_002336.1	NP_001002059.1	336	50.0	56.845	0.432301	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined
+OGN	human	mouse	NP_054776.1	NP_032786.1	298	85.235	88.702	0.065878	0.367161	0.179425	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OGN	human	cow	NP_054776.1	NP_776371.1	298	92.953	92.394	0.032224	0.280615	0.114832	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OGN	human	chicken	NP_054776.1	NP_989540.1	293	65.188	69.283	0.255787	1.30801	0.195554	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OGN	human	zebrafish	NP_054776.1	NP_001013588.1	286	55.245	57.925	0.393048	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined
+OMD	human	mouse	NP_005005.1	NP_001347637.1	418	79.904	85.407	0.101237	0.479842	0.21098	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OMD	human	cow	NP_005005.1	NP_776372.1	417	83.213	88.409	0.081388	0.338605	0.240363	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OMD	human	chicken	NP_005005.1	XP_004944561.2	415	59.277	67.309	0.293602	1.575984	0.186298	interpretable	omega below 1; compatible with purifying constraint	descriptive pairwise NG86 estimate
+OMD	human	zebrafish	NP_005005.1	XP_017208890.1	390	47.692	55.128	0.469718	-1.0		not interpretable	omega unavailable	dS was non-positive, infinite, or undefined

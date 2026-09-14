@@ -1,0 +1,41 @@
+gene	species	annotated_transcript_count	protein_coding_transcript_count	cds_exon_count_set	protein_length_range_aa	selected_transcript	selected_cds_exon_count	selected_protein_length_aa	selected_matches_modal_cds_count	alternative_coding_structure	interpretation
+BGN	human	2	2	7	369-369	rna-NM_001711.6	7	369	yes	no	annotated coding isoforms preserve exon count and protein length
+BGN	mouse	2	2	7,8	370-385	rna-NM_007542.5	7	370	no	yes	coding isoform choice can change exon count and/or protein length
+BGN	cow	2	2	7	370-370	rna-NM_178318.4	7	370	yes	no	annotated coding isoforms preserve exon count and protein length
+BGN	chicken	1	1	7	372-372	rna-XM_414298.8	7	372	yes	no	annotated coding isoforms preserve exon count and protein length
+BGN	zebrafish	3	3	7	370-375	rna-NM_001002227.2	7	370	yes	yes	coding isoform choice can change exon count and/or protein length
+DCN	human	6	6	2,3,4,5,7	76-360	rna-NM_001920.5	7	360	yes	yes	coding isoform choice can change exon count and/or protein length
+DCN	mouse	2	2	7	355-355	rna-NM_001190451.2	7	355	yes	no	annotated coding isoforms preserve exon count and protein length
+DCN	cow	2	2	7	361-361	rna-NM_173906.4	7	361	yes	no	annotated coding isoforms preserve exon count and protein length
+DCN	chicken	1	1	7	358-358	rna-NM_001030747.3	7	358	yes	no	annotated coding isoforms preserve exon count and protein length
+DCN	zebrafish	1	1	7	374-374	rna-NM_131697.1	7	374	yes	no	annotated coding isoforms preserve exon count and protein length
+FMOD	human	3	2	2	377-377	rna-NM_002023.5	2	377	yes	no	annotated coding isoforms preserve exon count and protein length
+FMOD	mouse	1	1	2	377-377	rna-NM_021355.4	2	377	yes	no	annotated coding isoforms preserve exon count and protein length
+FMOD	cow	2	2	2	377-377	rna-NM_174058.3	2	377	yes	no	annotated coding isoforms preserve exon count and protein length
+FMOD	chicken	1	1	2	381-381	rna-NM_204967.2	2	381	yes	no	annotated coding isoforms preserve exon count and protein length
+FMOD	zebrafish	3	3	2	343-363	rna-XM_005167241.6	2	363	yes	yes	coding isoform choice can change exon count and/or protein length
+PRELP	human	2	2	2	383-383	rna-NM_002725.4	2	383	yes	no	annotated coding isoforms preserve exon count and protein length
+PRELP	mouse	2	2	2	379-379	rna-NM_054077.4	2	379	yes	no	annotated coding isoforms preserve exon count and protein length
+PRELP	cow	2	2	2	382-382	rna-NM_174434.3	2	382	yes	no	annotated coding isoforms preserve exon count and protein length
+PRELP	chicken	2	2	2,3	375-397	rna-XM_418054.8	2	375	no	yes	coding isoform choice can change exon count and/or protein length
+PRELP	zebrafish	1	1	2	379-379	rna-XM_001923555.9	2	379	yes	no	annotated coding isoforms preserve exon count and protein length
+EPYC	human	2	2	5,6	262-323	rna-NM_004950.5	6	323	yes	yes	coding isoform choice can change exon count and/or protein length
+EPYC	mouse	2	2	6	323-323	rna-NM_001379456.1	6	323	yes	no	annotated coding isoforms preserve exon count and protein length
+EPYC	cow	2	2	6	322-322	rna-NM_174307.2	6	322	yes	no	annotated coding isoforms preserve exon count and protein length
+EPYC	chicken	2	2	6,7	317-333	rna-NM_001004382.3	6	317	yes	yes	coding isoform choice can change exon count and/or protein length
+EPYC	zebrafish	5	5	6,9	322-713	rna-NM_001348483.1	6	322	no	yes	coding isoform choice can change exon count and/or protein length
+LUM	human	1	1	2	339-339	rna-NM_002345.4	2	339	yes	no	annotated coding isoforms preserve exon count and protein length
+LUM	mouse	1	1	2	339-339	rna-NM_008524.2	2	339	yes	no	annotated coding isoforms preserve exon count and protein length
+LUM	cow	3	3	2,4	343-382	rna-NM_173934.1	2	343	yes	yes	coding isoform choice can change exon count and/or protein length
+LUM	chicken	1	1	2	344-344	rna-NM_001276357.2	2	344	yes	no	annotated coding isoforms preserve exon count and protein length
+LUM	zebrafish	1	1	2	345-345	rna-NM_001002059.1	2	345	yes	no	annotated coding isoforms preserve exon count and protein length
+OGN	human	6	6	6,7	299-357	rna-NM_014057.5	6	299	yes	yes	coding isoform choice can change exon count and/or protein length
+OGN	mouse	1	1	6	299-299	rna-NM_008760.5	6	299	yes	no	annotated coding isoforms preserve exon count and protein length
+OGN	cow	1	1	6	300-300	rna-NM_173946.2	6	300	yes	no	annotated coding isoforms preserve exon count and protein length
+OGN	chicken	1	1	6	295-295	rna-NM_204209.2	6	295	yes	no	annotated coding isoforms preserve exon count and protein length
+OGN	zebrafish	8	8	6	246-293	rna-NM_001013570.2	6	293	yes	yes	coding isoform choice can change exon count and/or protein length
+OMD	human	2	2	2	422-422	rna-NM_005014.3	2	422	yes	no	annotated coding isoforms preserve exon count and protein length
+OMD	mouse	2	2	2	424-424	rna-NM_001360708.1	2	424	yes	no	annotated coding isoforms preserve exon count and protein length
+OMD	cow	2	2	2	423-423	rna-NM_173947.2	2	423	yes	no	annotated coding isoforms preserve exon count and protein length
+OMD	chicken	1	1	2	420-420	rna-XM_004944504.5	2	420	yes	no	annotated coding isoforms preserve exon count and protein length
+OMD	zebrafish	1	1	2	402-402	rna-XM_017353401.4	2	402	yes	no	annotated coding isoforms preserve exon count and protein length

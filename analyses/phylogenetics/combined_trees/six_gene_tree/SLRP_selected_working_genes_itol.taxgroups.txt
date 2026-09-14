@@ -1,0 +1,111 @@
+DATASET_COLORSTRIP
+SEPARATOR TAB
+DATASET_LABEL	Taxonomic_group
+COLOR	#000000
+STRIP_WIDTH	25
+MARGIN	5
+SHOW_INTERNAL	0
+DATA
+BGN_anolis_carolinensis_XP_062827322.1	#91cf60	Reptile
+BGN_bos_taurus_XP_005227715.1	#d73027	Placental mammal
+BGN_canis_lupus_familiaris_NP_001003229.1	#d73027	Placental mammal
+BGN_frog_NP_001072552.1	#66c2a5	Amphibian
+BGN_human_XP_016885213.1	#d73027	Placental mammal
+BGN_lamprey_XP_075929720.1	#a6d854	Jawless vertebrate
+BGN_latimeria_chalumnae_XP_064415290.1	#3288bd	Lobe-finned fish
+BGN_lepisosteus_oculatus_XP_069037386.1	#4575b4	Ray-finned fish
+BGN_mouse_NP_031568.2	#d73027	Placental mammal
+BGN_rattus_norvegicus_NP_058783.1	#d73027	Placental mammal
+BGN_scyliorhinus_canicula_XP_038638277.1	#984ea3	Cartilaginous fish
+BGN_whale_shark_XP_048475905.1	#984ea3	Cartilaginous fish
+BGN_zebrafish_NP_001001825.2	#4575b4	Ray-finned fish
+DCN_anolis_carolinensis_XP_003221092.1	#91cf60	Reptile
+DCN_bos_taurus_NP_776331.2	#d73027	Placental mammal
+DCN_callorhinchus_milii_NP_001279248.1	#984ea3	Cartilaginous fish
+DCN_canis_lupus_familiaris_NP_001003228.1	#d73027	Placental mammal
+DCN_chicken_NP_001025918.2	#fee08b	Bird
+DCN_frog_NP_001093704.1	#66c2a5	Amphibian
+DCN_human_NP_001911.1	#d73027	Placental mammal
+DCN_latimeria_chalumnae_XP_006004204.1	#3288bd	Lobe-finned fish
+DCN_lepisosteus_oculatus_XP_015208366.1	#4575b4	Ray-finned fish
+DCN_monodelphis_domestica_XP_001363160.3	#fc8d59	Marsupial
+DCN_mouse_NP_031859.1	#d73027	Placental mammal
+DCN_rattus_norvegicus_NP_077043.1	#d73027	Placental mammal
+DCN_scyliorhinus_canicula_XP_038636759.1	#984ea3	Cartilaginous fish
+DCN_whale_shark_XP_048463588.1	#984ea3	Cartilaginous fish
+DCN_zebrafish_NP_571772.1	#4575b4	Ray-finned fish
+EPYC_anolis_carolinensis_XP_003221176.1	#91cf60	Reptile
+EPYC_bos_taurus_XP_010803061.1	#d73027	Placental mammal
+EPYC_callorhinchus_milii_XP_007893502.1	#984ea3	Cartilaginous fish
+EPYC_canis_lupus_familiaris_XP_038414560.1	#d73027	Placental mammal
+EPYC_chicken_XP_025003921.1	#fee08b	Bird
+EPYC_frog_XP_031753666.1	#66c2a5	Amphibian
+EPYC_human_NP_004941.2	#d73027	Placental mammal
+EPYC_latimeria_chalumnae_XP_006009490.1	#3288bd	Lobe-finned fish
+EPYC_lepisosteus_oculatus_XP_006633678.1	#4575b4	Ray-finned fish
+EPYC_monodelphis_domestica_XP_056654622.1	#fc8d59	Marsupial
+EPYC_mouse_NP_031910.1	#d73027	Placental mammal
+EPYC_rattus_norvegicus_NP_001101558.1	#d73027	Placental mammal
+EPYC_scyliorhinus_canicula_XP_038636412.1	#984ea3	Cartilaginous fish
+EPYC_whale_shark_XP_048463897.1	#984ea3	Cartilaginous fish
+EPYC_zebrafish_XP_021330689.1	#4575b4	Ray-finned fish
+FMOD_anolis_carolinensis_XP_008107883.2	#91cf60	Reptile
+FMOD_bos_taurus_XP_059731202.1	#d73027	Placental mammal
+FMOD_canis_lupus_familiaris_XP_038441871.1	#d73027	Placental mammal
+FMOD_chicken_NP_990298.2	#fee08b	Bird
+FMOD_frog_XP_017947022.1	#66c2a5	Amphibian
+FMOD_human_XP_047272260.1	#d73027	Placental mammal
+FMOD_latimeria_chalumnae_XP_006002318.1	#3288bd	Lobe-finned fish
+FMOD_lepisosteus_oculatus_XP_006628521.2	#4575b4	Ray-finned fish
+FMOD_monodelphis_domestica_XP_001364906.1	#fc8d59	Marsupial
+FMOD_mouse_NP_067330.1	#d73027	Placental mammal
+FMOD_rattus_norvegicus_NP_542429.1	#d73027	Placental mammal
+FMOD_scyliorhinus_canicula_XP_038675394.1	#984ea3	Cartilaginous fish
+FMOD_whale_shark_XP_048468126.1	#984ea3	Cartilaginous fish
+FMOD_zebrafish_XP_073767056.1	#4575b4	Ray-finned fish
+LUM_anolis_carolinensis_XP_003221093.1	#91cf60	Reptile
+LUM_bos_taurus_NP_776359.1	#d73027	Placental mammal
+LUM_callorhinchus_milii_XP_007893500.1	#984ea3	Cartilaginous fish
+LUM_canis_lupus_familiaris_XP_038414561.1	#d73027	Placental mammal
+LUM_chicken_NP_001263286.1	#fee08b	Bird
+LUM_frog_NP_001011006.1	#66c2a5	Amphibian
+LUM_human_NP_002336.1	#d73027	Placental mammal
+LUM_lamprey_XP_075930353.1	#a6d854	Jawless vertebrate
+LUM_latimeria_chalumnae_XP_006009488.1	#3288bd	Lobe-finned fish
+LUM_lepisosteus_oculatus_XP_015208177.1	#4575b4	Ray-finned fish
+LUM_monodelphis_domestica_XP_001368917.2	#fc8d59	Marsupial
+LUM_mouse_NP_032550.2	#d73027	Placental mammal
+LUM_rattus_norvegicus_NP_112312.1	#d73027	Placental mammal
+LUM_scyliorhinus_canicula_XP_038636708.1	#984ea3	Cartilaginous fish
+LUM_whale_shark_XP_048464015.1	#984ea3	Cartilaginous fish
+LUM_zebrafish_NP_001002059.1	#4575b4	Ray-finned fish
+OGN_anolis_carolinensis_XP_008103381.1	#91cf60	Reptile
+OGN_bos_taurus_NP_776371.1	#d73027	Placental mammal
+OGN_callorhinchus_milii_XP_007907071.1	#984ea3	Cartilaginous fish
+OGN_canis_lupus_familiaris_XP_038383338.1	#d73027	Placental mammal
+OGN_chicken_NP_989540.1	#fee08b	Bird
+OGN_frog_XP_002934273.1	#66c2a5	Amphibian
+OGN_human_NP_148935.1	#d73027	Placental mammal
+OGN_latimeria_chalumnae_XP_005987116.1	#3288bd	Lobe-finned fish
+OGN_lepisosteus_oculatus_XP_006631165.2	#4575b4	Ray-finned fish
+OGN_monodelphis_domestica_XP_056660002.1	#fc8d59	Marsupial
+OGN_mouse_NP_032786.1	#d73027	Placental mammal
+OGN_scyliorhinus_canicula_XP_038668531.1	#984ea3	Cartilaginous fish
+OGN_whale_shark_XP_020377273.1	#984ea3	Cartilaginous fish
+OGN_zebrafish_NP_001013588.1	#4575b4	Ray-finned fish
+PRELP_anolis_carolinensis_XP_008107880.1	#91cf60	Reptile
+PRELP_bos_taurus_XP_005216708.2	#d73027	Placental mammal
+PRELP_callorhinchus_milii_XP_042198145.1	#984ea3	Cartilaginous fish
+PRELP_canis_lupus_familiaris_XP_038441873.1	#d73027	Placental mammal
+PRELP_chicken_XP_046760117.1	#fee08b	Bird
+PRELP_frog_NP_001096208.1	#66c2a5	Amphibian
+PRELP_human_NP_958505.1	#d73027	Placental mammal
+PRELP_lamprey_XP_032810295.2	#a6d854	Jawless vertebrate
+PRELP_latimeria_chalumnae_XP_006002320.1	#3288bd	Lobe-finned fish
+PRELP_lepisosteus_oculatus_XP_015198331.2	#4575b4	Ray-finned fish
+PRELP_monodelphis_domestica_XP_056671733.1	#fc8d59	Marsupial
+PRELP_mouse_XP_006529147.1	#d73027	Placental mammal
+PRELP_rattus_norvegicus_XP_008767794.1	#d73027	Placental mammal
+PRELP_scyliorhinus_canicula_XP_038675391.1	#984ea3	Cartilaginous fish
+PRELP_whale_shark_XP_048468210.1	#984ea3	Cartilaginous fish
+PRELP_zebrafish_XP_001923590.2	#4575b4	Ray-finned fish

@@ -1,0 +1,63 @@
+locus	assembly	gff	focal_selector	seqid	relative_index	role	symbol	gene_id	start	end	strand	distance_from_focal_bp	biotype	description
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-15	flanking	KDM5B	gene-KDM5B	202724495	202808421	-	667385	protein_coding	lysine demethylase 5B
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-14	flanking	LOC124904583	gene-LOC124904583	202810238	202825935	-	649871	protein_coding	uncharacterized LOC124904583
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-13	flanking	RABIF	gene-RABIF	202878282	202889149	-	586657	protein_coding	RAB interacting factor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-12	flanking	KLHL12	gene-KLHL12	202891120	202928599	-	547207	protein_coding	kelch like family member 12
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-11	flanking	ADIPOR1	gene-ADIPOR1	202940825	202958572	-	517234	protein_coding	adiponectin receptor 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-10	flanking	CYB5R1	gene-CYB5R1	202961873	202967257	-	508549	protein_coding	cytochrome b5 reductase 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-9	flanking	TMEM183A	gene-TMEM183A	203007374	203024848	+	450958	protein_coding	transmembrane protein 183A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-8	flanking	PPFIA4	gene-PPFIA4	203026491	203078736	+	397070	protein_coding	PPFI scaffold protein A4
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-7	flanking	MYOG	gene-MYOG	203083129	203086012	-	389794	protein_coding	myogenin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-6	flanking	ADORA1	gene-ADORA1	203127726	203167405	+	308401	protein_coding	adenosine A1 receptor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-5	flanking	MYBPH	gene-MYBPH	203167811	203179214	-	296592	protein_coding	myosin binding protein H
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-4	flanking	CHI3L1	gene-CHI3L1	203178931	203186704	-	289102	protein_coding	chitinase 3 like 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-3	flanking	CHIT1	gene-CHIT1	203216079	203230099	-	245707	protein_coding	chitinase 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-2	flanking	BTG2	gene-BTG2	203305519	203309602	+	166204	protein_coding	BTG anti-proliferation factor 2
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	-1	flanking	FMOD	gene-FMOD	203340628	203351122	-	124684	protein_coding	fibromodulin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	0	focal	PRELP	gene-PRELP	203475806	203491352	+	0	protein_coding	proline and arginine rich end leucine rich repeat protein
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	1	flanking	OPTC	gene-OPTC	203494153	203508949	+	2801	protein_coding	opticin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	2	flanking	ATP2B4	gene-ATP2B4	203626832	203744081	+	135480	protein_coding	ATPase plasma membrane Ca2+ transporting 4
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	3	flanking	LAX1	gene-LAX1	203765183	203776372	+	273831	protein_coding	lymphocyte transmembrane adaptor 1
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	4	flanking	ZBED6	gene-ZBED6	203795623	203854124	+	304271	protein_coding	zinc finger BED-type containing 6
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	5	flanking	ZC3H11A	gene-ZC3H11A	203795623	203854124	+	304271	protein_coding	zinc finger CCCH-type containing 11A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	6	flanking	LOC128031836	gene-LOC128031836	203802094	203802192	+	310742	protein_coding	uncharacterized LOC128031836
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	7	flanking	SNRPE	gene-SNRPE	203861599	203871152	+	370247	protein_coding	small nuclear ribonucleoprotein polypeptide E
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	8	flanking	SOX13	gene-SOX13	204073115	204127743	+	581763	protein_coding	SRY-box transcription factor 13
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	9	flanking	ETNK2	gene-ETNK2	204131062	204152044	-	639710	protein_coding	ethanolamine kinase 2
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	10	flanking	REN	gene-REN	204154819	204166337	-	663467	protein_coding	renin
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	11	flanking	KISS1	gene-KISS1	204190341	204196491	-	698989	protein_coding	KiSS-1 metastasis suppressor
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	12	flanking	GOLT1A	gene-GOLT1A	204198163	204213988	-	706811	protein_coding	golgi transport 1A
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	13	flanking	PLEKHA6	gene-PLEKHA6	204218853	204378168	-	727501	protein_coding	pleckstrin homology domain containing A6
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	14	flanking	PPP1R15B	gene-PPP1R15B	204395826	204411817	-	904474	protein_coding	protein phosphatase 1 regulatory subunit 15B
+human_PRELP	NCBI_Assembly:GCF_000001405.40	human.gff	PRELP@NC_000001.11	NC_000001.11	15	flanking	PIK3C2B	gene-PIK3C2B	204422633	204494805	-	931281	protein_coding	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-15	flanking	LOC119978395	gene-LOC119978395	139956525	139978248	+	2426235	protein_coding	pepsin A-2/A-3-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-14	flanking	LOC119978396	gene-LOC119978396	140011547	140028457	+	2376026	protein_coding	pepsin A-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-13	flanking	LOC119978394	gene-LOC119978394	140046546	140062819	+	2341664	protein_coding	gastricsin-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-12	flanking	LOC119978810	gene-LOC119978810	140069582	140088456	-	2316027	protein_coding	gastricsin-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-11	flanking	LOC119978012	gene-LOC119978012	140112486	140199440	-	2205043	protein_coding	fibroblast growth factor receptor substrate 2-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-10	flanking	LOC119978392	gene-LOC119978392	140320962	140459555	+	1944928	protein_coding	prickle-like protein 1
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-9	flanking	LOC119978498	gene-LOC119978498	140462419	140535329	-	1869154	protein_coding	uncharacterized LOC119978498
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-8	flanking	tomm6	gene-tomm6	140563572	140572292	+	1832191	protein_coding	translocase of outer mitochondrial membrane 6 homolog (yeast)
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-7	flanking	LOC119978430	gene-LOC119978430	140588118	140637071	-	1767412	protein_coding	ubiquitin carboxyl-terminal hydrolase 49-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-6	flanking	med20	gene-med20	140695398	140711891	-	1692592	protein_coding	mediator complex subunit 20
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-5	flanking	bysl	gene-bysl	140716001	140730328	+	1674155	protein_coding	bystin-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-4	flanking	ccnd3	gene-ccnd3	140759380	140796823	-	1607660	protein_coding	cyclin D3
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-3	flanking	taf8	gene-taf8	141195780	141214938	+	1189545	protein_coding	TAF8 RNA polymerase II, TATA box binding protein (TBP)-associated factor
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-2	flanking	mdm4	gene-mdm4	141219261	141258742	+	1145741	protein_coding	MDM4 regulator of p53
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	-1	flanking	LOC119978753	gene-LOC119978753	141301393	141579078	-	825405	protein_coding	plasma membrane calcium-transporting ATPase 1-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	0	focal	prelp	gene-prelp	142404483	142432733	-	0	protein_coding	proline/arginine-rich end leucine-rich repeat protein
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	1	flanking	LOC119978082	gene-LOC119978082	142416100	142676943	+	0	protein_coding	decorin-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	2	flanking	LOC119978081	gene-LOC119978081	142715179	142734639	+	282446	protein_coding	fibromodulin-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	3	flanking	LOC119978188	gene-LOC119978188	142972220	142974651	-	539487	protein_coding	protein BTG2-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	4	flanking	LOC119978455	gene-LOC119978455	143111950	143124777	-	679217	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	5	flanking	LOC119978456	gene-LOC119978456	143143289	143166263	+	710556	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	6	flanking	LOC119978803	gene-LOC119978803	143266954	143316716	+	834221	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	7	flanking	LOC119978189	gene-LOC119978189	143363056	143424326	+	930323	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	8	flanking	LOC119978191	gene-LOC119978191	143505309	143561827	+	1072576	protein_coding	chitinase-3-like protein 1
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	9	flanking	LOC119978192	gene-LOC119978192	143592199	143650910	-	1159466	protein_coding	chitotriosidase-1-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	10	flanking	LOC119978217	gene-LOC119978217	143697520	143751711	-	1264787	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	11	flanking	LOC119978216	gene-LOC119978216	143835205	143906161	-	1402472	protein_coding	chitinase-3-like protein 2
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	12	flanking	LOC119978215	gene-LOC119978215	143911013	143934953	-	1478280	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	13	flanking	LOC119978666	gene-LOC119978666	144052364	144105753	+	1619631	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	14	flanking	LOC119978675	gene-LOC119978675	144106348	144124117	-	1673615	protein_coding	acidic mammalian chitinase-like
+catshark_PRELP	NCBI_Assembly:GCF_902713615.2	catshark.gff	prelp@NC_052160.1	NC_052160.1	15	flanking	LOC119978676	gene-LOC119978676	144137459	144161426	-	1704726	protein_coding	acidic mammalian chitinase-like
