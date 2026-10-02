@@ -1,24 +1,22 @@
 # SLRP synteny analysis status
 
-Last audited: 2026-09-10
+Last audited: 2026-10-02
 
 ## Decision
 
 SynVoy reports are complete and parsed for BGN, DCN, EPYC, FMOD, LUM, OGN, and
 PRELP in the 98-row master table. The updated-tool DCN run completed on
-4 September 2026 at `results/dcn_human_15species_dev_20260903` after about
-16 hours. The updated BGN run completed on 6 September 2026 at
-`results/bgn_human_15species_dev_20260905` after about 18 hours; all 175 tasks
-completed. An FMOD refresh was started on 6 September but was interrupted by
-`SIGHUP` on 7 September during iterative-search wave 6 of 7. It has no final
-`synvoy_report.json` and is therefore not yet a completed result. After several
-plain Nextflow resumes restarted the iterative task from wave 1, the run was
-resumed on 10 September from a verified internal checkpoint containing five
-completed waves. The active run is named
-`fmod_15species_dev_20260906_resume7_wave5_20260910`; its log explicitly
-reports that waves 1--5 were skipped and processing continued at wave 6. PRELP
-and EPYC have not been launched. OGN and LUM are newer and are not part of this
-refresh batch.
+4 September 2026 at `results/dcn_human_15species_dev_20260903`, and the updated
+BGN run completed on 6 September 2026 at
+`results/bgn_human_15species_dev_20260905`. The updated FMOD report at
+`results/fmod_human_15species_dev_20260906` has also completed, been compared
+with the historical report, and been integrated into all 14 FMOD rows. The
+PRELP refresh has a resumable checkpoint after iterative-search wave 4 of 7 but
+no final report, and an updated-tool EPYC run has not been launched. Historical
+PRELP and EPYC reports therefore remain the sources for those rows; these two
+refreshes are optional sensitivity analyses rather than requirements for the
+thesis. OGN and LUM were produced with the newer workflow and are not part of
+this refresh batch.
 
 All 98 current gene-by-target rows have now been reviewed. Historical calls
 remain useful for comparison, and each future updated report should be compared
@@ -56,11 +54,11 @@ iterative-search CPU. These settings are recorded in the run's
 | BGN | 10 | 1 | 9 | 5 | 6 | 3 |
 | DCN | 10 | 1 | 10 | 4 | 10 | 0 |
 | EPYC | 9 | 15 | 9 | 5 | 8 | 1 |
-| FMOD | 12 | 7 | 11 | 3 | 11 | 0 |
+| FMOD | 10 | 5 | 10 | 4 | 10 | 0 |
 | LUM | 10 | 39 | 10 | 4 | 10 | 0 |
 | OGN | 13 | 22 | 13 | 1 | 13 | 0 |
 | PRELP | 11 | 11 | 11 | 3 | 11 | 0 |
-| **Total** | **75** | **96** | **73** | **25** | **69** | **4** |
+| **Total** | **73** | **94** | **72** | **26** | **68** | **4** |
 
 HIGH/MEDIUM values are retained annotations/candidates, not counts of verified
 one-to-one orthologs. A genome can contain more than one retained candidate.
@@ -77,8 +75,8 @@ catshark, coelacanth, and spotted-gar LUM loci and left amphioxus ambiguous.
 
 | Decision | Gene-by-target rows |
 |---|---:|
-| accepted | 50 |
-| tentative | 32 |
+| accepted | 62 |
+| tentative | 20 |
 | ambiguous | 12 |
 | rejected | 4 |
 
@@ -104,9 +102,8 @@ be cited until the target is rerun with a synchronized FASTA/GFF pair.
    complete. The elephant-shark FMOD-like protein remains triaged as a likely
    compound/fused annotation; resolving it requires a revised model or
    transcript evidence rather than another routine domain run.
-3. Allow the active checkpointed FMOD refresh to finish and validate its final
-   report. Launch PRELP and EPYC only after FMOD has produced and passed checks
-   on `synvoy_report.json`.
+3. PRELP and EPYC updated-tool reruns may be completed as sensitivity analyses,
+   but the documented historical reports are sufficient for the present thesis.
 4. Rebuild the evidence tables and repeat locus review only for rows changed by
    a new report. Do not interpret a missing displayed gene as gene loss.
 
