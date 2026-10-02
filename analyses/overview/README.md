@@ -1,35 +1,24 @@
-# Thesis overview: start here
+# Integrated result overview
 
-This directory is the control centre for the bachelor-thesis project. The
-analysis-specific inputs and outputs remain in the neighbouring analysis
-directories; this folder contains the cross-analysis interpretation and final
-decision material.
+This directory joins the method-specific analyses without collapsing them into
+a single numerical score. Conflicts and limitations remain recorded in the
+candidate- and gene-level tables.
 
-## Read these first
+## Main files
 
-1. `AUTHORITATIVE_RESULT_LOCATIONS.md` — the exact table and figure to use for
-   each result.
-2. `RESULTS_INTERPRETATION_GUIDE.md` — how to read the results without
-   overstating them.
-3. `GENE_FUNCTION_REFERENCE.md` and `SIX_GENE_PROFILES.md` — cited gene biology
-   and its connection to this thesis.
-4. `METHODS_ALGORITHM_NOTES.md` — exact per-method inputs, settings, scripts,
-   outputs, algorithms, and interpretation limits for the Methods chapter.
-5. `WORKFLOW_OVERVIEW.md` — the analysis sequence and links between evidence
-   layers.
+- `AUTHORITATIVE_RESULT_LOCATIONS.md`: final output map.
+- `METHODS_ALGORITHM_NOTES.md`: implementation and parameter record.
+- `WORKFLOW_OVERVIEW.md`: biological and computational workflow.
+- `THESIS_REPRODUCIBILITY_STATUS.md`: current completion status and known
+  limitations.
+- `tables/final_gene_level_evidence.tsv`: one row per focal gene.
+- `tables/final_candidate_level_confidence.tsv`: one row per reviewed candidate
+  or diagnostic record.
+- `tables/results_interpretation_summary.tsv`: compact cross-analysis result
+  summary.
+- `verify_thesis_analysis_outputs.py`: consistency checks for the retained
+  tables, figures, and scripts.
 
-## Directory contents
-
-- `tables/`: final gene-level, candidate-level, and result-synthesis tables.
-- `figures/`: thesis-wide overview and evidence-summary figures.
-- `scripts/`: builders for the final tables and figures.
-- The few filenames containing `six_gene` are historical names;
-their current contents use the seven-gene comparative panel (BGN, DCN, EPYC,
-FMOD, LUM, OGN, and PRELP). They are retained for now because analysis builders
-and thesis links already depend on those paths.
-
-## Editing rule
-
-Do not hand-edit generated evidence tables merely to improve a conclusion.
-Update the appropriate source table, run its builder, and then run
-`verify_thesis_analysis_outputs.py`.
+The filenames containing `six_gene` are retained for compatibility with older
+builders. Their current contents use the seven-gene comparative panel: BGN,
+DCN, EPYC, FMOD, LUM, OGN, and PRELP.

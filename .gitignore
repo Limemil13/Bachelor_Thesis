@@ -27,13 +27,27 @@ data/
 runs/
 results/
 
-# Local planning notes and private literature inventory
+# Local manuscript, writing notes, and private literature inventory
+thesis/
 analyses/overview/history/
 analyses/overview/GITHUB_PUSH_MANIFEST.md
 analyses/overview/THESIS_NEXT_STEPS.md
 analyses/overview/THESIS_SELF_WRITING_GUIDE.md
 analyses/overview/THESIS_STRUCTURE_AND_WRITING_PLAN.md
+analyses/overview/CANDIDATE_GENE_DECISION.md
+analyses/overview/FIGURE_CAPTIONS.md
+analyses/overview/GENE_FUNCTION_REFERENCE.md
+analyses/overview/RESULTS_INTERPRETATION_GUIDE.md
+analyses/overview/SIX_GENE_PANEL_CURRENT_STATUS.md
+analyses/overview/SIX_GENE_PROFILES.md
+analyses/overview/SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md
+analyses/overview/THESIS_CONCLUSION.md
+analyses/literature/PAPER_EVIDENCE_AND_THESIS_USE.md
+analyses/literature/paper_evidence_and_thesis_use.tsv
+analyses/literature/scripts/build_paper_use_map.py
 analyses/literature/private_pdf_inventory.tsv
+analyses/protein_analysis/manual_review/CHONDRICHTHYAN_BGN_DCN_CURATION_PLAN.md
+analyses/synteny/SYNTENY_MANUAL_REVIEW_GUIDE.md
 
 # Downloaded or regenerable analysis inputs and intermediates
 analyses/**/archive/
@@ -84,14 +98,9 @@ analyses/expression/*pilot*.json
 *.png
 *.pdf
 
-# Keep final analysis figures used by the result guides and manuscript.
+# Keep final analysis figures.
 !analyses/**/figures/*.png
 !analyses/**/figures/**/*.png
-!thesis/figures/*.png
-!thesis/figures/**/*.png
-
-# Keep the official university template required by the LaTeX thesis.
-!thesis/frontmatter/university_frontpage_template.pdf
 
 # LaTeX build artifacts
 thesis/build/

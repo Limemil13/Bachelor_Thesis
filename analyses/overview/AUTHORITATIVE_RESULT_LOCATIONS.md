@@ -141,7 +141,7 @@ optional unless those expanded trees will be presented as final evidence.
   `synvoy_batch_confirmation_completed.tsv`, and
   `synvoy_spot_check_completed.tsv`
 - Manual-review procedure:
-  `analyses/synteny/SYNTENY_MANUAL_REVIEW_GUIDE.md`
+  `analyses/synteny/SYNVOY_MANUAL_REVIEW_PROTOCOL.md`
 - Elephant-shark compound FMOD-like model diagnostic:
   `analyses/synteny/diagnostics/priority_locus_reviews/FMOD_elephant_shark/`
 
@@ -149,10 +149,10 @@ optional unless those expanded trees will be presented as final evidence.
 
 - Per-species quantitative table:
   `analyses/overview/tables/species_lineage_evidence_summary.tsv`
-- Thesis-ready figure:
+- Overview figure:
   `analyses/overview/figures/species_lineage_evidence_summary.png`
-- Evolutionary interpretation and literature context:
-  `analyses/overview/SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md`
+- Underlying values:
+  `analyses/overview/tables/species_lineage_evidence_summary.tsv`
 
 DCN completed at `results/dcn_human_15species_dev_20260903`, BGN at
 `results/bgn_human_15species_dev_20260905`, and FMOD at
@@ -162,16 +162,11 @@ complete. A matched opossum FASTA/GFF rerun is required; updated PRELP and EPYC
 runs are optional sensitivity analyses. The staged WSL procedure is in
 `analyses/synteny/SYNVOY_UPDATED_RERUN_RUNBOOK.md`.
 
-## Interpretation and writing
+## Reproducibility
 
-- Detailed gene biology: `analyses/overview/GENE_FUNCTION_REFERENCE.md`
-- Gene-to-thesis profiles: `analyses/overview/SIX_GENE_PROFILES.md`
-- Evolutionary origin/species context:
-  `analyses/overview/SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md`
-- Figure captions: `analyses/overview/FIGURE_CAPTIONS.md`
-- Reproducibility status: `analyses/overview/THESIS_REPRODUCIBILITY_STATUS.md`
-- Thesis drafts: `thesis/chapters/`
-- Bibliography: `thesis/bibliography.bib`
-
-Personal writing aids, dated work logs, and the current task checklist are kept
-locally and excluded from the public repository.
+- Current completion and QC status:
+  `analyses/overview/THESIS_REPRODUCIBILITY_STATUS.md`
+- Per-method implementation details:
+  `analyses/overview/METHODS_ALGORITHM_NOTES.md`
+- Analysis workflow:
+  `analyses/overview/WORKFLOW_OVERVIEW.md`

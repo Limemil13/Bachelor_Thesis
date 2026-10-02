@@ -382,13 +382,15 @@ def main() -> None:
     rows = build_rows()
     table = ROOT / "analyses/overview/tables/species_lineage_evidence_summary.tsv"
     figure = ROOT / "analyses/overview/figures/species_lineage_evidence_summary"
-    thesis_figure = (
-        ROOT / "thesis/figures/overview/species_lineage_evidence_summary.png"
-    )
     write_tsv(table, rows)
     plot(rows, figure)
-    thesis_figure.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(figure.with_suffix(".png"), thesis_figure)
+    thesis_directory = ROOT / "thesis"
+    if thesis_directory.is_dir():
+        thesis_figure = (
+            thesis_directory / "figures/overview/species_lineage_evidence_summary.png"
+        )
+        thesis_figure.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(figure.with_suffix(".png"), thesis_figure)
     print(f"Wrote {len(rows)} species rows to {table.relative_to(ROOT)}")
     print(f"Wrote {figure.relative_to(ROOT)}.png/.svg")
 

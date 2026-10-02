@@ -546,16 +546,10 @@ def main() -> None:
     for document in (
         "analyses/README.md",
         "analyses/overview/AUTHORITATIVE_RESULT_LOCATIONS.md",
-        "analyses/overview/RESULTS_INTERPRETATION_GUIDE.md",
         "analyses/overview/WORKFLOW_OVERVIEW.md",
-        "analyses/overview/THESIS_CONCLUSION.md",
         "analyses/overview/METHODS_ALGORITHM_NOTES.md",
-        "analyses/overview/SIX_GENE_PROFILES.md",
-        "analyses/overview/FIGURE_CAPTIONS.md",
+        "analyses/overview/THESIS_REPRODUCIBILITY_STATUS.md",
         "analyses/literature/README.md",
-        "thesis/chapters/results.tex",
-        "thesis/chapters/discussion.tex",
-        "thesis/bibliography.bib",
         "analyses/synteny/SYNTENY_ANALYSIS_STATUS.md",
         "analyses/synteny/diagnostics/priority_locus_reviews/"
         "FMOD_elephant_shark/README.md",
@@ -564,10 +558,6 @@ def main() -> None:
         "analyses/regulatory/README.md",
         "analyses/protein_analysis/motifs/README.md",
         "analyses/phenotypes/README.md",
-        "thesis/chapters/introduction.tex",
-        "thesis/chapters/methods.tex",
-        "thesis/chapters/conclusion.tex",
-        "thesis/chapters/appendix.tex",
     ):
         assert (ROOT / document).is_file(), f"Missing: {document}"
     assert (
@@ -675,8 +665,11 @@ def main() -> None:
         path = ROOT / relative
         ast.parse(path.read_text(encoding="utf-8"), filename=str(path))
 
-    thesis_tex_files = [ROOT / "thesis/main.tex"]
-    thesis_tex_files.extend(sorted((ROOT / "thesis/chapters").glob("*.tex")))
+    thesis_main = ROOT / "thesis/main.tex"
+    thesis_tex_files: list[Path] = []
+    if thesis_main.is_file():
+        thesis_tex_files = [thesis_main]
+        thesis_tex_files.extend(sorted((ROOT / "thesis/chapters").glob("*.tex")))
     include_pattern = re.compile(
         r"\\includegraphics(?:\[[^\]]*\])?\s*\{([^}]+)\}", re.MULTILINE
     )
@@ -696,7 +689,8 @@ def main() -> None:
         assert tex.count(r"\begin{figure}") == tex.count(r"\end{figure}"), (
             f"Unbalanced figure environment: {tex_path}"
         )
-    assert figure_paths, "No LaTeX figure references found"
+    if thesis_tex_files:
+        assert figure_paths, "No LaTeX figure references found"
     for figure_path in figure_paths:
         assert figure_path.is_file(), f"Missing LaTeX figure: {figure_path}"
     duplicate_labels = [label for label, count in Counter(labels).items() if count > 1]
@@ -731,9 +725,7 @@ def main() -> None:
     print(
         "PASS: coding constraint 25 finite NG86 estimates, all below one; deep comparisons explicitly limited"
     )
-    print(
-        "PASS: corrected large-tree locus-filter reports and thesis-wide overview figures"
-    )
+    print("PASS: corrected large-tree locus-filter reports and overview figures")
     print(
         "PASS: gene-structure queue 35 / predicted-transcript audit 6 / five-protein manual packet and explicit decisions"
     )
@@ -744,10 +736,13 @@ def main() -> None:
     )
     print("PASS: curated MGI/HPO summaries for all seven comparative genes")
     print("PASS: analysis scripts parse successfully")
-    print(
-        f"PASS: {len(figure_paths)} LaTeX figure paths and "
-        f"{len(references)} cross-references resolve; labels are unique"
-    )
+    if thesis_tex_files:
+        print(
+            f"PASS: {len(figure_paths)} LaTeX figure paths and "
+            f"{len(references)} cross-references resolve; labels are unique"
+        )
+    else:
+        print("PASS: manuscript checks skipped (local manuscript not present)")
 
 
 if __name__ == "__main__":

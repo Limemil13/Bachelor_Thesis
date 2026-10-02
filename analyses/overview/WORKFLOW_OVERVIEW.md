@@ -83,9 +83,9 @@ main member.
   CDSs complete; 26 comparable junctions conserve intron phase.
 - Promoters: 35 loci/70 windows; no corrected targeted TF-motif result.
 - Phenotypes: seven-gene MGI/HPO summaries, including DCN.
-- SynVoy: 98 rows for seven genes, including completed updated-tool DCN and BGN
-  runs. The FMOD refresh was interrupted before its final report; PRELP and
-  EPYC refreshes have not been launched.
+- SynVoy: 98 rows for seven genes, including completed updated-tool DCN, BGN,
+  and FMOD runs. The PRELP refresh is incomplete, and the EPYC refresh has not
+  been launched; their documented historical reports remain in use.
 
 ## Evolutionary scope
 
@@ -94,12 +94,12 @@ Living tunicates, amphioxus, and lamprey are not “the species where SLRPs
 originated”; they are extant lineages useful for bracketing early chordate and
 vertebrate history. Literature supports a tunicate SLRP-like precursor and
 early vertebrate expansion. Deep candidates are therefore expected to be harder
-to assign gene-specifically. See `SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md`.
+to assign gene-specifically.
 
 An **outgroup** is selected to orient a tree based on known evolutionary
-relationships. An **outlier** is an unusual observation. The thesis does not
-need a deliberately bad sequence; real, documented edge cases already test the
-workflow without forcing an artificial outlier.
+relationships. An **outlier** is an unusual observation. Documented edge cases
+were retained where they test the workflow without introducing an artificial
+negative control.
 
 ## Source order
 

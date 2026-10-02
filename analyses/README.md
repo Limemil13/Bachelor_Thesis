@@ -1,50 +1,39 @@
-# Thesis analysis directory map
+# Analysis directory
 
-This directory contains the current bachelor-thesis analyses. Use the files in
-`overview/` to navigate; do not choose a result merely because it has a
-shorter filename or an older timestamp.
+Each subdirectory contains the scripts and compact outputs for one evidence
+layer. Raw downloads and large external databases are excluded from version
+control; retained provenance files identify the public sources and processed
+inputs used in the analyses.
 
-## Authoritative sections
+## Sections
 
-- `overview/`: one-row-per-gene evidence, decisions, methods,
-  reproducibility checks, and result locations.
-- `gene_structure/`: the local 40-row representative-transcript analysis,
-  coding-block tables, provenance, and five-species figures.
-- `protein_analysis/`: compact canonical protein workflow. The one editable
-  protein-level source of truth is
-  `protein_analysis/tables/protein_conservation_domain_msa_signalp_summary.tsv`.
-  The supplementary mature-protein MEME/STREME/MAST module is under
-  `protein_analysis/motifs/`.
-- `phylogenetics/`: every phylogenetic analysis, divided by purpose:
-  `compact_panel/`, `combined_trees/`, and `per_gene_trees/`.
-- `expression/`: expression inputs, scripts, tables, and figures.
-- `synteny/`: parsed synteny evidence and prioritized manual review.
-- `regulatory/`: bounded five-species promoter extraction and exploratory
-  STREME/Tomtom/AME/FIMO analysis.
-- `phenotypes/`: pinned MGI/MP and HPO evidence summaries; downloaded raw files
-  are gitignored.
-- `evolutionary_rates/`: supplementary protein-guided codon alignments and
-  human-reference NG86 dN/dS estimates with explicit saturation flags.
+- `expression/`: juvenile skeletal-lineage, growth-plate, and Bgee expression
+  summaries.
+- `protein_analysis/`: candidate proteins, reciprocal searches, Pfam domains,
+  MSAs, SignalP, sequence logos, ProtSpace, and protein motifs.
+- `phylogenetics/`: compact per-gene trees, the combined panel tree, reference
+  family tree, and iTOL annotations.
+- `synteny/`: SynVoy summaries, locus audits, review decisions, and diagnostic
+  neighbourhood comparisons.
+- `gene_structure/`: representative transcript, CDS-exon, splice-phase, and
+  domain-exon analyses.
+- `evolutionary_rates/`: protein-guided codon alignments and pairwise coding
+  constraint estimates.
+- `regulatory/`: exploratory promoter extraction and motif analysis.
+- `phenotypes/`: filtered MGI and HPO associations.
+- `literature/`: structured reference evidence without copyrighted PDFs.
+- `overview/`: integrated tables, workflow documentation, and output map.
 
-## Interpretation entry points
+## Entry points
 
-- `overview/README.md`: short navigation page and directory map.
-- `overview/RESULTS_INTERPRETATION_GUIDE.md`: what every result and figure means.
-- `overview/GENE_FUNCTION_REFERENCE.md`: detailed, cited biology and explicit
-  unknowns for BGN, FMOD, PRELP, EPYC, LUM, OGN, and context gene OMD.
-- `overview/SIX_GENE_PROFILES.md`: concise bridge from gene function to this
-  project's expression and comparative results.
-- `overview/WORKFLOW_OVERVIEW.md`: what was done, in biological and computational order.
-- `overview/THESIS_CONCLUSION.md`: defensible overall conclusion and claims to avoid.
-- `gene_structure/README.md`: where the gene-structure analysis lives and how to read it.
+- `overview/AUTHORITATIVE_RESULT_LOCATIONS.md`: locations of final tables and
+  figures.
+- `overview/METHODS_ALGORITHM_NOTES.md`: inputs, settings, scripts, outputs, and
+  interpretation limits for each method.
+- `overview/WORKFLOW_OVERVIEW.md`: order and purpose of the analysis steps.
+- `overview/THESIS_REPRODUCIBILITY_STATUS.md`: current completion and QC status.
+- `overview/verify_thesis_analysis_outputs.py`: consistency checks across the
+  retained analysis package.
 
-## Provenance rules
-
-- Historical analysis snapshots have been moved to the local-only top-level
-  `archive/analysis_history/` directory.
-- Directories named `diagnostics` contain QC evidence, not final thesis figures.
-- Tool-native IQ-TREE, SignalP, HMMER, ProtSpace, and SynVoy files remain beside
-  their workflows for reproducibility.
-- Raw databases stay under top-level `data/`; they are not copied here.
-- Use `overview/AUTHORITATIVE_RESULT_LOCATIONS.md` rather than historical path
-  dumps or filenames found in dated logs.
+Generated evidence tables should be rebuilt from their source tables and
+scripts rather than edited directly.
