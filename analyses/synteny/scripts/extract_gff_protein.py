@@ -10,7 +10,6 @@ from urllib.parse import unquote
 
 from Bio.Seq import Seq
 
-
 COMPLEMENT = str.maketrans("ACGTNacgtn", "TGCANtgcan")
 
 
@@ -134,12 +133,8 @@ def main() -> None:
     try:
         parts: list[str] = []
         for row in cds:
-            part = fasta.fetch(
-                str(row["seqid"]), int(row["start"]), int(row["end"])
-            )
-            parts.append(
-                part.translate(COMPLEMENT)[::-1] if strand == "-" else part
-            )
+            part = fasta.fetch(str(row["seqid"]), int(row["start"]), int(row["end"]))
+            parts.append(part.translate(COMPLEMENT)[::-1] if strand == "-" else part)
     finally:
         fasta.close()
 
@@ -176,7 +171,9 @@ def main() -> None:
         writer = csv.DictWriter(handle, fieldnames=list(qc), delimiter="\t")
         writer.writeheader()
         writer.writerow(qc)
-    print(f"Reconstructed {args.protein_id}: {len(protein)} aa from {len(cds)} CDS blocks")
+    print(
+        f"Reconstructed {args.protein_id}: {len(protein)} aa from {len(cds)} CDS blocks"
+    )
 
 
 if __name__ == "__main__":

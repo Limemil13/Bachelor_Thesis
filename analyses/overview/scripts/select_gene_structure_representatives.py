@@ -120,6 +120,13 @@ def main() -> None:
             str(cds_exons - mode) if cds_exons is not None and mode is not None else ""
         )
         row["structural_flag_clean"] = ";".join(flags)
+        if gene == "BGN" and row["species_or_file"] == "chicken":
+            caveat = (
+                "locus_structure_only; translated product XP_414298.2 is "
+                "ASPN-like and is not independent BGN orthology support"
+            )
+            prior_note = row.get("note", "").strip()
+            row["note"] = ";".join(part for part in (prior_note, caveat) if part)
 
     representatives.sort(key=lambda row: (row["query_gene"], row["species_or_file"]))
     fields = [

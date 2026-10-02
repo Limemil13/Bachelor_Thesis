@@ -81,9 +81,7 @@ def collect_protein_intervals(
     return intervals
 
 
-def attach_containing_genes(
-    gff: Path, intervals: dict[str, dict[str, object]]
-) -> None:
+def attach_containing_genes(gff: Path, intervals: dict[str, dict[str, object]]) -> None:
     by_seqid: dict[str, list[tuple[str, dict[str, object]]]] = defaultdict(list)
     for accession, record in intervals.items():
         by_seqid[str(record["seqid"])].append((accession, record))
@@ -143,9 +141,7 @@ def main() -> None:
     args = parser.parse_args()
 
     evidence = read_tsv(args.evidence_table)
-    input_status = {
-        row["species"]: row["status"] for row in read_tsv(args.input_audit)
-    }
+    input_status = {row["species"]: row["status"] for row in read_tsv(args.input_audit)}
     wanted_by_species: dict[str, set[str]] = defaultdict(set)
     for row in evidence:
         accession = row["canonical_protein_accession"]
@@ -191,10 +187,22 @@ def main() -> None:
                 "input_status": target_input_status,
                 "canonical_protein_accession": accession,
                 "canonical_seqid": str(canonical.get("seqid", "")) if canonical else "",
-                "canonical_start": str(canonical.get("gene_start", canonical.get("start", ""))) if canonical else "",
-                "canonical_end": str(canonical.get("gene_end", canonical.get("end", ""))) if canonical else "",
-                "canonical_gene_symbol": str(canonical.get("gene_symbol", "")) if canonical else "",
-                "canonical_product": str(canonical.get("product", "")) if canonical else "",
+                "canonical_start": str(
+                    canonical.get("gene_start", canonical.get("start", ""))
+                )
+                if canonical
+                else "",
+                "canonical_end": str(
+                    canonical.get("gene_end", canonical.get("end", ""))
+                )
+                if canonical
+                else "",
+                "canonical_gene_symbol": str(canonical.get("gene_symbol", ""))
+                if canonical
+                else "",
+                "canonical_product": str(canonical.get("product", ""))
+                if canonical
+                else "",
                 "synvoy_confidence": row["best_confidence"],
                 "synvoy_seqid": row["best_chromosome"],
                 "synvoy_start": row["best_start"],

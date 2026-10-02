@@ -9,7 +9,7 @@ dog	2197	625	625	0	0	PASS
 elephant_shark	1762	706	706	0	0	PASS
 frog	167	65	65	0	0	PASS
 mouse	61	42	42	0	0	PASS
-opossum	13	13	4	6	3	FAIL
+opossum	13	13	13	0	0	PASS
 spotted_gar	816	166	166	0	0	PASS
 whale_shark	16776	2968	2968	0	0	PASS
 zebrafish	26	26	26	0	0	PASS

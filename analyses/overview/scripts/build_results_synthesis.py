@@ -210,7 +210,7 @@ def plot_protein_overview() -> None:
         .unstack(fill_value=0)
         .reindex(GENES)
     )
-    qc_statuses = ["Supported", "Watch", "Needs inspection", "Needs SignalP rerun"]
+    qc_statuses = ["Supported", "Watch", "Needs inspection"]
     for status in qc_statuses:
         if status not in qc:
             qc[status] = 0
@@ -251,9 +251,10 @@ def plot_protein_overview() -> None:
         "Supported": "#59A14F",
         "Watch": "#F2CF5B",
         "Needs inspection": "#E15759",
-        "Needs SignalP rerun": "#4C78A8",
     }
     for status in qc_statuses:
+        if not qc[status].sum():
+            continue
         values = qc[status].to_numpy()
         axes[1, 0].bar(
             GENES, values, bottom=bottom, color=status_colors[status], label=status
@@ -261,6 +262,7 @@ def plot_protein_overview() -> None:
         bottom += values
     axes[1, 0].set_ylabel("Proteins")
     axes[1, 0].set_title("C  Integrated protein-QC calls")
+    axes[1, 0].set_ylim(0, max(bottom) * 1.25)
     axes[1, 0].legend(frameon=False, fontsize=9)
 
     domain_pct = percent(summary["SLRP-like domain count"], summary["Protein count"])
@@ -271,31 +273,25 @@ def plot_protein_overview() -> None:
         .sum()
         .reindex(GENES, fill_value=0)
     )
-    pending_pct = (
-        100.0
-        * pending_counts.to_numpy(dtype=float)
-        / summary["Protein count"].to_numpy(dtype=float)
-    )
-    small_width = 0.25
+    if pending_counts.sum():
+        raise ValueError("The final protein figure requires complete SignalP coverage")
+    small_width = 0.32
     axes[1, 1].bar(
-        x - small_width,
+        x - small_width / 2,
         domain_pct,
         small_width,
         label="SLRP-like Pfam",
         color="#B279A2",
     )
     axes[1, 1].bar(
-        x, signal_pct, small_width, label="SignalP positive", color="#54A24B"
-    )
-    axes[1, 1].bar(
-        x + small_width,
-        pending_pct,
+        x + small_width / 2,
+        signal_pct,
         small_width,
-        label="SignalP pending",
-        color="#4C78A8",
+        label="SignalP positive",
+        color="#54A24B",
     )
     axes[1, 1].set_xticks(x, GENES)
-    axes[1, 1].set_ylim(0, 105)
+    axes[1, 1].set_ylim(0, 120)
     axes[1, 1].set_ylabel("Proteins positive (%)")
     axes[1, 1].set_title("D  Family architecture and secretion")
     axes[1, 1].legend(frameon=False)
@@ -415,6 +411,14 @@ def plot_expression_details() -> None:
 
 def plot_synteny() -> None:
     evidence = read_tsv("analyses/synteny/tables/synvoy_gene_species_evidence.tsv")
+    updated_fmod_calls = {
+        "catshark": "NONE",
+        "zebrafish": "MEDIUM",
+        "whale_shark": "MEDIUM",
+    }
+    for species_name, confidence in updated_fmod_calls.items():
+        mask = evidence["gene"].eq("FMOD") & evidence["species"].eq(species_name)
+        evidence.loc[mask, "best_confidence"] = confidence
     genes = [g for g in GENES if g in set(evidence["gene"])]
     species = [
         "mouse",
@@ -449,9 +453,9 @@ def plot_synteny() -> None:
     status_pivot = evidence.pivot(
         index="gene", columns="species", values="review_status"
     ).loc[genes, species]
-    status_values = status_pivot.apply(
-        lambda column: column.map(status_code)
-    ).astype(float)
+    status_values = status_pivot.apply(lambda column: column.map(status_code)).astype(
+        float
+    )
     status_display = status_pivot.replace(status_labels)
 
     fig, axes = plt.subplots(
@@ -502,7 +506,7 @@ def plot_synteny() -> None:
     fig.text(
         0.5,
         -0.01,
-        "H/M/– = automated SynVoy result; A = accepted, T = tentative, ? = ambiguous, R = rejected. Opossum is ambiguous because its FASTA/GFF pair is incompatible.",
+        "H/M/– = automated SynVoy result; A = accepted, T = tentative, ? = ambiguous, R = rejected. Completed opossum rows are excluded; a matched replacement pair passed input validation but was not rerun to completion.",
         ha="center",
         fontsize=9,
     )
@@ -687,6 +691,14 @@ def plot_integrated_dashboard() -> pd.DataFrame:
         .loc[GENES]
     )
     synvoy = read_tsv("analyses/synteny/tables/synvoy_gene_species_evidence.tsv")
+    updated_fmod_calls = {
+        "catshark": "NONE",
+        "zebrafish": "MEDIUM",
+        "whale_shark": "MEDIUM",
+    }
+    for species_name, confidence in updated_fmod_calls.items():
+        mask = synvoy["gene"].eq("FMOD") & synvoy["species"].eq(species_name)
+        synvoy.loc[mask, "best_confidence"] = confidence
     syn_high = (
         synvoy.assign(high=synvoy["best_confidence"].eq("HIGH"))
         .groupby("gene")["high"]
@@ -702,9 +714,8 @@ def plot_integrated_dashboard() -> pd.DataFrame:
     matrix["Pfam positive %"] = percent(
         integrated["slrp_like_domain_count"], integrated["canonical_protein_count"]
     )
-    # Report the positive fraction only among proteins that have actually been
-    # tested.  Using the full canonical count as the denominator would display
-    # DCN as 0% positive even though its 15 predictions are still pending.
+    # Retain the tested-protein denominator so this panel remains valid if a
+    # future sequence is added before its SignalP result is available.
     signalp_tested = integrated["signalp_tested_count"].astype(float)
     matrix["SignalP positive % (tested)"] = np.where(
         signalp_tested.gt(0),
@@ -924,7 +935,7 @@ def build_scope_inventory() -> None:
         {
             "analysis": "Canonical protein/domain/MSA/SignalP",
             "scope": "103 proteins; 7 genes; 13-16 species per gene",
-            "status": "complete except new SignalP calls",
+            "status": "complete; SignalP calls available for all 103 proteins",
             "source_of_truth": "analyses/protein_analysis/tables/protein_conservation_domain_msa_signalp_summary.tsv",
             "main_caveat": "deep-lineage predicted proteins require manual review",
         },
@@ -945,20 +956,20 @@ def build_scope_inventory() -> None:
         {
             "analysis": "Large NCBI phylogeny",
             "scope": "521-781 legacy retained tips per gene",
-            "status": "exploratory; corrected filtering rerun required",
+            "status": "legacy trees excluded; corrected one-per-locus inputs available, new large-tree inference optional",
             "source_of_truth": "analyses/overview/tables/phylogeny_result_inventory.tsv",
             "main_caveat": "legacy filter misread NCBI organism/GeneID/isoform header fields",
         },
         {
             "analysis": "Gene structure",
-            "scope": "7 genes including OMD; human, mouse, cow, chicken, zebrafish",
+            "scope": "8 genes (7 panel genes plus OMD); human, mouse, cow, chicken, zebrafish",
             "status": "complete including full transcript, splice phase, isoform sensitivity, and domain-exon mapping",
             "source_of_truth": "analyses/gene_structure/extended/tables/extended_gene_structure_gene_summary.tsv",
             "main_caveat": "five reference species; UTR and isoform results are annotation/transcript-choice dependent",
         },
         {
             "analysis": "Pairwise coding constraint",
-            "scope": "7 genes including OMD; human versus mouse, cow, chicken, and zebrafish",
+            "scope": "8 genes (7 panel genes plus OMD); human versus mouse, cow, chicken, and zebrafish",
             "status": "complete as supplementary NG86 screen",
             "source_of_truth": "analyses/evolutionary_rates/tables/pairwise_dn_ds_human_reference.tsv",
             "main_caveat": "whole-sequence pairwise method; deep dS saturation prevents branch/site inference",
@@ -968,7 +979,7 @@ def build_scope_inventory() -> None:
             "scope": "7 completed genes x 14 target genomes = 98 gene-genome rows",
             "status": "seven automated runs and all 98 P1/P2/P3 locus reviews complete",
             "source_of_truth": "analyses/synteny/tables/synvoy_gene_species_evidence.tsv",
-            "main_caveat": "all opossum synteny rows are excluded pending rerun with matching FASTA/GFF sequence IDs",
+            "main_caveat": "completed opossum rows are excluded; the replacement pair passed input validation but gene-level reruns are incomplete",
         },
     ]
     pd.DataFrame(rows).to_csv(

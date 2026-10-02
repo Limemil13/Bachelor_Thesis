@@ -22,6 +22,11 @@ every organ system. Evidence is labelled by experiment type because a binding
 assay, cultured-cell experiment, expression pattern, knockout phenotype, and
 cross-species computational result answer different questions.
 
+The "local P0" shorthand below means the project's stored Salmon
+quantifications of three WT P0 mouse samples from public NCBI GEO GSE305415
+(BioProject PRJNA1305489), not an original local sequencing study. The
+independent direct growth-plate dataset is GSE114919.
+
 ## Shared molecular framework
 
 Small leucine-rich proteoglycans (SLRPs) are secreted extracellular-matrix
@@ -110,8 +115,8 @@ reported mammalian function in all vertebrate orthologs.
 
 BGN is the strongest expression and comparative anchor in the project. It
 ranked first in the local P0 expression screen. Its decontaminated 13-protein
-set has SLRP-domain support throughout, 11 retained SignalP-positive calls plus
-two reviewed shark replacements, a continuous LRR-rich alignment core, and
+set has SLRP-domain support throughout, 12 SignalP-positive calls and one
+negative fragmentary whale-shark model, a continuous LRR-rich alignment core, and
 stable seven-CDS-exon organization. The seven-gene tree does not recover BGN as
 one pure split, but a focused BGN/DCN nearest-neighbour analysis assigns every
 BGN and DCN tip to a closer same-gene tip. This convergence supports a preserved

@@ -45,6 +45,8 @@ the original CDS-block screen intentionally did not test:
 - Pfam-to-exon map and its tables:
   `extended/figures/human_domain_exon_architecture.png` and
   `extended/tables/representative_domain_exon_gene_summary.tsv`
+- accession and sequence crosswalk against the canonical protein panel:
+  `extended/tables/structure_protein_crosswalk.tsv`
 
 The reproducible entry point is
 `scripts/run_extended_gene_structure.sh`. It reconstructs CDS/protein sequences
@@ -93,6 +95,15 @@ cross a coding-exon boundary in at least one representative of every gene
 except OMD. This links the conserved protein architecture to the stable coding
 framework without implying that each exon is an independent functional module.
 
+The accession crosswalk separates annotation-level structure from protein-panel
+orthology. Eighteen representatives use the exact canonical accession and 15
+use a different accession with an equivalent or near-equivalent translation.
+Zebrafish BGN structure is represented by `bgna`, whereas the canonical protein
+panel uses `bgnb`; these are treated as teleost co-ortholog evidence rather than
+the same protein record. Chicken `XP_414298.2` passes transcript/CDS quality
+checks but is absent from the canonical BGN panel because the translated product
+is ASPN-like. The five OMD rows remain context-only comparisons.
+
 ## How to read the figures
 
 The per-gene plots are transcript-oriented. Rectangles represent coding
@@ -136,6 +147,8 @@ junctions, not only the same number of boxes.
   rather than biology.
 - Chicken BGN is an unresolved locus/product conflict: the locus structure can
   be described, but it does not validate the disputed ASPN-like protein as BGN.
+- The zebrafish BGN structure row describes `bgna`; it is not a direct structural
+  validation of the canonical-panel `bgnb` protein.
 - UTR differences are annotation- and transcript-choice-sensitive and should not
   be presented as demonstrated regulatory evolution.
 - Conserved splice phase is strong structural evidence but does not by itself

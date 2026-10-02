@@ -8,10 +8,8 @@ import csv
 import subprocess
 from pathlib import Path
 
-
 OUTFMT = (
-    "6 qseqid sseqid pident length qlen slen qstart qend sstart send "
-    "evalue bitscore"
+    "6 qseqid sseqid pident length qlen slen qstart qend sstart send evalue bitscore"
 )
 
 
@@ -25,9 +23,7 @@ def parse_subject(value: str) -> tuple[str, Path]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--query", required=True, type=Path)
-    parser.add_argument(
-        "--subject", required=True, action="append", type=parse_subject
-    )
+    parser.add_argument("--subject", required=True, action="append", type=parse_subject)
     parser.add_argument("--output", required=True, type=Path)
     args = parser.parse_args()
 

@@ -27,6 +27,14 @@ data/
 runs/
 results/
 
+# Local planning notes and private literature inventory
+analyses/overview/history/
+analyses/overview/GITHUB_PUSH_MANIFEST.md
+analyses/overview/THESIS_NEXT_STEPS.md
+analyses/overview/THESIS_SELF_WRITING_GUIDE.md
+analyses/overview/THESIS_STRUCTURE_AND_WRITING_PLAN.md
+analyses/literature/private_pdf_inventory.tsv
+
 # Downloaded or regenerable analysis inputs and intermediates
 analyses/**/archive/
 analyses/**/archive_*/

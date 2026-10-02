@@ -13,6 +13,11 @@ function to the project's expression, protein, MSA, tree, synteny, and
 gene-structure results. They do not infer that a known mammalian function is
 experimentally demonstrated in every sampled species.
 
+The "local P0" shorthand below refers to stored Salmon quantifications of
+public NCBI GEO GSE305415 WT P0 mouse samples (BioProject PRJNA1305489), not
+to sequencing performed locally. GSE114919 is the separate direct mouse/rat
+growth-plate dataset.
+
 Use this file as the concise gene-by-gene bridge to the thesis results. For the
 fuller biological explanation, experimental evidence, and explicit unknowns,
 read [`GENE_FUNCTION_REFERENCE.md`](GENE_FUNCTION_REFERENCE.md) first or keep it
@@ -36,8 +41,9 @@ osteoclast formation ([Kram et al., 2017](https://doi.org/10.1038/s41598-017-126
 
 **Computational evidence.** BGN ranked first in the local P0 screen
 (3012.762 TPM) and had strong mouse/rat growth-plate mean ranks (2.0/1.5).
-All 13 canonical proteins had SLRP-like Pfam support; 11 have retained
-SignalP-positive calls and the two replacement shark models are pending. Mean
+All 13 canonical proteins had SLRP-like Pfam support; 12 are SignalP-positive.
+The catshark replacement is positive, whereas the fragmentary whale-shark
+replacement is negative. Mean
 forward identity was 80.69% and mean pairwise MSA identity was 72.14%. The
 combined tree did not place all 13 in one pure split, but every BGN tip had a
 closer BGN than DCN neighbour in the focused class-I diagnostic. Representative
@@ -62,7 +68,8 @@ against vertebrate BGN conservation. Historical opossum, elephant-shark,
 catshark, and whale-shark DCN/DCN-like records were also removed from BGN;
 catshark `XP_038638277.1` and whale-shark `XP_048475905.1` are the tentative
 replacement BGN models. The catshark locus has partial broad-block support, but
-both partial proteins still require focused terminal/model review.
+both partial proteins have now had focused terminal/model review and remain
+tentative for the documented reasons.
 
 ## DCN — class-I cartilage-matrix candidate and BGN paralog control
 
@@ -88,21 +95,23 @@ The compact DCN tree completed with 1,000 ultrafast-bootstrap and 1,000 SH-aLRT
 replicates. Across human, mouse, cow, chicken, and zebrafish, DCN retains seven
 CDS blocks and all six homologous junctions retain intron phase. The four finite
 human-target codon comparisons all have omega below one (median 0.109756),
-compatible with purifying constraint. SignalP is not yet available for this
-panel and must remain marked pending. ProtSpace assigns 15/15 DCN proteins to
+compatible with purifying constraint. SignalP is positive for 14/15 DCN proteins;
+the N-terminally incomplete opossum fragment is negative. ProtSpace assigns 15/15 DCN proteins to
 the correct gene centroid, while opossum and catshark remain outlier priorities.
 The combined compact tree recovers a pure 15/15 DCN split. The updated SynVoy
 run passed all 14 target-genome QC checks and retained 10 HIGH and one MEDIUM
 post-filter candidate. Amphioxus, spotted gar, and zebrafish had no retained
 post-filter DCN candidate. Manual review nevertheless recovered canonical,
-ordered DCN loci in coelacanth, spotted gar, and zebrafish; all remain tentative
-until the pending SignalP layer is completed. Amphioxus is unresolved, and the
+ordered DCN loci in coelacanth, spotted gar, and zebrafish; these were accepted
+after locus, protein, tree, domain, and SignalP review. Amphioxus is unresolved, and the
 current opossum synteny result is excluded because of the input mismatch.
 
-**Curation and conclusion.** Opossum `XP_001363160.3` is tentative because the
-current protein is a 212-aa partial model. Catshark `XP_038636759.1` is a
-tentative long isoform whose canonical SynVoy locus is confirmed but whose
-isoform choice still needs direct sequence comparison. DCN is biologically justified in the expanded panel and is also
+**Curation and conclusion.** Opossum `XP_001363160.3` is retained as a partial
+DCN sequence because its conserved C-terminal core and tree support are strong;
+the missing N terminus explains its negative SignalP call, and its synteny is
+unresolved pending compatible FASTA/GFF input. Catshark `XP_038636759.1` is
+retained as a confident DCN ortholog with an N-terminal extension/cleavage-site
+model caveat. DCN is biologically justified in the expanded panel and is also
 methodologically essential: distinguishing DCN from its class-I paralog BGN
 exposed four contaminated or DCN-like historical BGN assignments. Current MGI
 contains 24 DCN single-gene terms, including four skeletal/cartilage/joint

@@ -36,14 +36,25 @@ summarized in Figure~\ref{fig:workflow-overview}.
 \subsection{Expression datasets and candidate selection}
 \label{subsec:rnaseq-expression}
 
-The initial screen used three wild-type samples from GSE305415
-(BioProject PRJNA1305489). These were postnatal-day-0, fluorescence-activated
-cell-sorted Prx1-lineage chondroprogenitors isolated from digested mouse knee
-joints; WT1 and WT2 were paired-end libraries and WT3 was single-end. Existing
-Salmon \texttt{quant.sf} files were used because their mapping rates were
-81.9--92.0\% and re-extraction reproduced the previously curated tables. For
-each sample, transcript TPM values assigned to the same gene symbol were summed,
-and the mean, sample standard deviation, coefficient of variation, and rank of
+The initial screen used three wild-type samples from the public NCBI Gene
+Expression Omnibus study GSE305415 (BioProject PRJNA1305489; raw reads in
+NCBI SRA; \url{https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305415}).
+The selected runs were SRR34978216, SRR34978215, and SRR34978214. The study
+obtained Prx1-lineage chondroprogenitors by fluorescence-activated sorting of
+digested postnatal-day-0 mouse knee joints \citep{John2026}. The GEO series
+description implies RNA extraction after sorting, whereas the individual WT
+sample records describe culture toward mature chondrocytes before extraction.
+Because this cell-state discrepancy could not be resolved from the deposited
+metadata, these samples were treated as P0-derived chondrocyte-lineage material,
+not as freshly isolated growth-plate cells. WT1 and WT2 had paired-end runs;
+the SRA/ENA run metadata identify WT3 (SRR34978214) as single-end despite the
+generic paired-end processing text copied into its GEO sample record.
+Previously generated Salmon
+\texttt{quant.sf} files stored on the computer were
+used because their mapping rates were 81.9--92.0\% and re-extraction reproduced
+the previously curated tables. For each sample, transcript TPM values assigned
+to the same gene symbol were summed, and the mean, sample standard deviation,
+coefficient of variation, and rank of
 nine screened SLRPs were calculated across the three wild-type samples. The
 original Salmon version and index-building command were not recoverable from the
 preserved files; therefore, the analysis is reproducible from the archived
@@ -59,9 +70,9 @@ GSE114919. These data contain laser-capture-microdissected proliferative and
 hypertrophic zones from mouse and rat growth plates, including tibia at one and
 four weeks with five replicates per tibial condition. The authors' normalized
 values were retained on their deposited scales. Detection and within-condition
-ranks were summarized; values were not pooled with the local Salmon TPMs or
-compared as absolute measurements between species. Bgee 16 expression calls for
-mouse, chicken, and zebrafish were used as qualitative context because anatomy,
+ranks were summarized; values were not pooled with the GSE305415-derived Salmon
+TPMs or compared as absolute measurements between species. Bgee 16 expression
+calls for mouse, chicken, and zebrafish were used as qualitative context because anatomy,
 developmental stage, and assay coverage were not matched among species. Missing
 Bgee calls were treated as missing evidence rather than absence of expression.
 
@@ -72,7 +83,11 @@ SLRP classes I--III, and feasibility of cross-species ortholog analysis. BGN,
 DCN, FMOD, PRELP, EPYC, LUM, and OGN were advanced through the full comparative
 workflow. DCN also served as the closest paralog control for BGN, and OMD as a
 gene-structure and biological-context gene. OGN was designated exploratory
-because its growth-plate expression evidence was less consistent.
+because its growth-plate expression evidence was less consistent. ASPN was kept
+as class-I background rather than taken through the full pipeline because its
+independent tibial growth-plate support was weaker and less consistent across
+the two rodent species, while BGN and DCN already provided the principal
+class-I candidate and paralog-control comparison.
 
 \subsection{Reference proteins, ortholog candidates, and manual curation}
 \label{subsec:ortholog-search-filtering}
@@ -109,7 +124,8 @@ protein-completeness evidence, not gene-specific proof.
 Classical secretion signals were predicted with SignalP 6.0 using the eukaryotic
 slow-sequential mode. An initial set of 86 retained calls was supplemented by a
 final 17-sequence run (job \texttt{6AA7E4B90014723A58E1A86B}), giving predictions
-for all 103 canonical proteins. A positive N-terminal signal is compatible with entry into the
+for all 103 canonical proteins (100 positive and three negative). A positive
+N-terminal signal is compatible with entry into the
 secretory pathway and the expected extracellular localization of SLRPs, but was
 not treated as an independent demonstration of in-vivo localization.
 
@@ -162,22 +178,26 @@ and DCN analyses used MMseqs sensitivity 9.5, non-strict gene-family token
 matching, disabled automatic generic presets, an 8-GB MMseqs split-memory
 limit, and one iterative-search CPU. For EPYC, FMOD, LUM, OGN, and PRELP, the
 current evidence table retained the corresponding completed report and its
-run-specific provenance; an interrupted FMOD refresh without a final report
-was not substituted for the completed historical FMOD result.
+run-specific provenance. The completed FMOD refresh was compared with its
+historical report and substituted in the final evidence table after the changed
+loci were reviewed.
 
-Manual review used the exact target assembly in NCBI Genome Data Viewer and the
-SynVoy neighbourhood plot. For all 98 gene-by-target combinations, the
-canonical protein accession was located in the exact GFF3 used by SynVoy and
-tested for overlap with the best post-ownership candidate coordinate. The 69
-P2 rows and four P3 controls were screened by this reproducible accession--
-locus comparison, and any conflict or missing accession was escalated. The 25
-P1 exceptions were examined in greater detail: the
+The 98 gene-by-target combinations underwent an exact-assembly locus audit:
+the canonical protein accession was searched in the GFF3 used by SynVoy and,
+where present, compared with the best post-ownership candidate coordinate.
+The 68 P2 rows and four P3 controls were screened primarily by this
+reproducible accession--locus comparison; conflicts and missing accessions
+were escalated. The 26 P1 exceptions received detailed feature and
+neighbourhood review. For these rows, the
 annotated symbol or uncharacterized model, strand, accession, and informative
 non-SLRP flanking genes were recorded, and gene order was compared after
 orienting both blocks relative to the focal gene. Fifteen genes on each side
 were used by default; the annotation-rich but \texttt{LOC}-dominated catshark BGN
 region was broadened to 40 genes per side. Locus evidence was integrated with
 reciprocal protein, domain, SignalP, embedding-QC, and tree results.
+Selected difficult loci were also inspected visually in NCBI Genome Data Viewer
+against the exact target assembly and SynVoy neighbourhood plot. The 98-row
+audit should not be interpreted as 98 independent visual GDV confirmations.
 
 For the unusually long elephant-shark FMOD-like model
 (\texttt{XP\_007897806.2}), all nine CDS features were reconstructed from the
@@ -189,19 +209,23 @@ local Pfam-A database with HMMER 3.4. Hydrophobic segments were inspected
 directly but were not reported as formal SignalP predictions.
 
 FASTA and GFF3 sequence identifiers were audited before interpretation. The
-opossum pair failed this check because six chromosome accessions differed by
-version and three GFF3 scaffolds were absent from the FASTA. All opossum
-SynVoy calls were consequently classified as not assessable pending a matched-
-input rerun, while independently supported opossum proteins remained eligible
-for protein, alignment, and tree analyses. Missing annotations were otherwise
+opossum pair used by the completed reports failed this check because six
+chromosome accessions differed by version and three GFF3 scaffolds were absent
+from the FASTA. All opossum calls in the frozen evidence table were therefore
+classified as not assessable. A replacement GCF\_027887165.2 pair was later
+validated (13/13 annotated sequence identifiers matched exactly), but the
+gene-level reruns were not complete when the table was frozen. Independently
+supported opossum proteins remained eligible for protein, alignment, and tree
+analyses. Missing annotations were otherwise
 described as annotation-limited unless GFF3 and protein-to-genome evidence
 independently supported gene loss. SynVoy was thus used as qualitative locus-
 level orthology support, not as a binary test.
 
 For a descriptive species-lineage comparison, canonical proteins were grouped
 by sampled species and their median forward amino-acid identity to the human
-query was calculated. The numbers of supported, watch-list, and SignalP-pending
-protein models and the accepted, tentative, ambiguous, and rejected synteny
+query was calculated. The numbers of supported, watch-list, and
+needs-inspection protein models and the accepted, tentative, ambiguous, and
+rejected synteny
 decisions were summarized per species. These summaries were not treated as an
 evolutionary clock: species with different numbers of retained genes were not
 compared inferentially, and missing candidates were not interpreted as gene
@@ -237,6 +261,14 @@ local Pfam-A database with HMMER 3.4. Significant domain hits
 coordinates. This tested whether conserved SLRP/LRR architecture spans the same
 coding framework, but domain--exon overlap was not interpreted as evidence that
 individual exons encode independent biochemical modules.
+
+Representative structure translations were cross-referenced against the final
+canonical protein panel by gene, species, accession, and global amino-acid
+alignment. This audit distinguished exact or alternative accessions from
+different teleost co-orthologs and from records excluded during protein
+curation. Passing transcript and CDS quality control was therefore treated as
+evidence for a technically coherent annotation, not by itself as validation of
+gene-specific orthology.
 
 \subsection{Supplementary coding-sequence constraint}
 \label{subsec:codon-constraint}

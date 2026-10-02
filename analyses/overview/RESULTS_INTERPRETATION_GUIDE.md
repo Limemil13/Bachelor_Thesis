@@ -43,11 +43,11 @@ Open the integrated dashboard first:
 - Figure: `../expression/figures/six_gene_expression_evidence.png`
 - Direct-data table:
   `../expression/gse114919/tables/gse114919_slrp_tibia_cross_condition_summary.tsv`
-- Local-data table:
+- GSE305415 WT P0 data table (stored Salmon quantifications):
   `../expression/tables/mouse_expression_descriptive_metadata_corrected.tsv`
 
-The local P0 Prx1-lineage dataset detects all six candidates. Its mean TPM
-ranking is BGN, OGN, FMOD, LUM, PRELP, EPYC. These are cells isolated from
+The GSE305415 WT P0 Prx1-lineage dataset detects all seven candidates. Its mean
+TPM ranking is BGN, OGN, FMOD, DCN, LUM, PRELP, EPYC. These are cells isolated from
 digested juvenile knee joints, not laser-captured growth-plate zones. This
 panel therefore supports expression in a relevant juvenile skeletal lineage,
 not tissue specificity.
@@ -341,7 +341,7 @@ Across all 98 rows, 62 are accepted, 20 tentative, 12 ambiguous, and four
 rejected. The figure therefore separates automated recovery from the final
 multi-evidence interpretation.
 
-All seven panel-wide SynVoy runs and all 25 P1, 69 P2, and four P3 reviews are
+All seven panel-wide SynVoy runs and all 26 P1, 68 P2, and four P3 reviews are
 complete. Sixty-seven canonical protein accessions directly overlap the best
 post-ownership locus. Detailed exceptions show that alternative retained loci
 can outperform the summary's highest-ranked fragment, as in spotted-gar FMOD,

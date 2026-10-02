@@ -16,7 +16,6 @@ import argparse
 import csv
 from pathlib import Path
 
-
 FIELDS = [
     "gene",
     "species",
@@ -54,12 +53,9 @@ def main() -> None:
     args = parser.parse_args()
 
     evidence = read_tsv(args.evidence)
-    audit = {
-        (row["gene"], row["species"]): row for row in read_tsv(args.locus_audit)
-    }
+    audit = {(row["gene"], row["species"]): row for row in read_tsv(args.locus_audit)}
     detailed = {
-        (row["gene"], row["species"]): row
-        for row in read_tsv(args.detailed_decisions)
+        (row["gene"], row["species"]): row for row in read_tsv(args.detailed_decisions)
     }
     output: list[dict[str, str]] = []
 
@@ -83,7 +79,9 @@ def main() -> None:
                     "confirmed_gene_symbol": symbol,
                     "confirmed_protein_accession": accession,
                     "neighbor_order_consistent": "not assessable",
-                    "phylogeny_consistent": "yes" if accession != "not available" else "not available",
+                    "phylogeny_consistent": "yes"
+                    if accession != "not available"
+                    else "not available",
                     "reviewer": "Local input audit",
                     "review_date": "2026-09-14",
                     "manual_notes": (
@@ -146,7 +144,9 @@ def main() -> None:
             continue
 
         if audit_row["coordinate_relation"] != "same locus":
-            raise ValueError(f"Unresolved non-P1 coordinate conflict for {key}: {audit_row}")
+            raise ValueError(
+                f"Unresolved non-P1 coordinate conflict for {key}: {audit_row}"
+            )
 
         caution = (
             evidence_row["protein_qc_status"] != "Supported"

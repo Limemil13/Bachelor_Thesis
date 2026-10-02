@@ -153,9 +153,7 @@ def qc_status_and_concerns(
         watch.append("signalp_watch")
 
     concerns = severe + [item for item in watch if item not in severe]
-    if "canonical_signalp_raw_result_missing" in severe:
-        status = "Needs SignalP rerun"
-    elif severe:
+    if severe:
         status = "Needs inspection"
     elif watch:
         status = "Watch"
@@ -298,8 +296,7 @@ def main() -> None:
         )
         signalp_tested = len(gene_proteins) - signalp_pending
         needs_inspection = sum(
-            row["Protein QC status"] in {"Needs inspection", "Needs SignalP rerun"}
-            for row in gene_proteins
+            row["Protein QC status"] == "Needs inspection" for row in gene_proteins
         )
         watches = sum(row["Protein QC status"] == "Watch" for row in gene_proteins)
 
@@ -330,7 +327,7 @@ def main() -> None:
                     f"{domain_good}/{len(gene_proteins)} SLRP-like domain support; "
                     f"{signalp_positive}/{signalp_tested} tested SignalP-positive; "
                     f"{signalp_pending} SignalP pending; "
-                    f"{needs_inspection} require inspection/rerun"
+                    f"{needs_inspection} require manual inspection"
                 ),
             }
         )

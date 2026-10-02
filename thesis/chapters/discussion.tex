@@ -1,5 +1,5 @@
 % ============================================================
-% Discussion draft generated from the integrated evidence package.
+% Discussion
 % ============================================================
 
 \subsection{Conservation supports a shared extracellular-matrix framework}
@@ -51,8 +51,9 @@ The FMOD locus results also illustrate a biologically meaningful consequence
 of teleost duplication. Zebrafish \textit{fmodb} provided the more complete
 human-FMOD sequence match, whereas \textit{fmoda} retained the ancestral
 FMOD--PRELP neighbourhood. Spotted-gar \textit{fmoda} was likewise supported by
-an alternative retained SynVoy locus and eight shared human flanking genes,
-even though the run summary ranked a nearby lumican-like/PRELP interval first.
+the best HIGH rescue in the integrated updated-tool report and by eight shared
+human flanking genes. The historical report had instead ranked a nearby
+lumican-like/PRELP interval first.
 These cases support retention of duplicated co-ortholog evidence rather than
 forcing every species into a single best-hit model. The elephant-shark FMOD-
 like locus remains tentative because its reconstructed 684-aa product contains
@@ -106,8 +107,9 @@ do not validate the amphioxus sequence. Excluding amphioxus from the confident
 set was justified by the combination of divergent terminal structure, large
 sequence-specific insertions, an alternative reciprocal hit, poor synteny, and
 its position outside the former main OGN split. Spotted-gar OGN remains a more
-limited uncertainty: its LRR-rich alignment is plausible, but the absence of a
-SignalP-positive N terminus prevents a fully confident secretion claim.
+limited uncertainty: its LRR-rich alignment and hydrophobic N terminus are
+plausible, but the absence of an alternative annotated model or a formal
+SignalP-positive cleavage call prevents a fully confident secretion claim.
 
 OMD should be discussed as supporting context rather than silently promoted to
 the same evidential level as the seven-gene panel. OMD is secreted by osteoblasts,
@@ -172,6 +174,11 @@ stop-free reconstructed translations, this is strong evidence for stable coding
 models and homologous gene organization. It does not imply that UTRs or isoform
 usage are conserved: those features varied more strongly and depend on
 annotation and tissue-specific transcript use.
+It also does not repair a conflicting protein assignment. In particular, the
+complete chicken BGN-locus model remains ASPN-like at protein level, and the
+zebrafish structure comparison used \textit{bgna} while the canonical sequence
+panel used \textit{bgnb}. These cases illustrate why gene structure was used as
+one evidence layer rather than as a stand-alone orthology test.
 
 The supplementary pairwise $d_N/d_S$ analysis provides a complementary
 nucleotide-level view. All finite estimates were below one, which is compatible
@@ -217,8 +224,10 @@ assays, or equivalent functional evidence.
 \subsection{Limitations}
 \label{subsec:discussion-limitations}
 
-The initial P0 expression samples were developmentally relevant but not
-microdissected growth-plate zones, while the direct GSE114919 dataset used a
+The initial expression samples were derived from P0 Prx1-lineage cells but were
+not microdissected growth-plate zones. GEO series- and sample-level descriptions
+also disagree about whether the cells were cultured before RNA extraction, so
+their exact cell state is uncertain. The direct GSE114919 dataset used a
 different processed scale and a limited set of rodent ages and zones. Expression
 therefore supports biological relevance, not gene function or causal importance.
 Cross-species equivalence of expression was not tested by pooling these scales.
@@ -235,12 +244,16 @@ whole sequence, and $d_S$ saturation made most human--zebrafish comparisons
 uninterpretable; they are not evidence for branch- or residue-specific
 selection.
 The compact trees are unrooted; their split support does not establish the
-direction or timing of duplication events. The completed SynVoy review showed
-that rescue calls and genomes with no retained HIGH or MEDIUM candidate cannot
-be interpreted without annotation and protein evidence. In addition, the
-opossum FASTA/GFF sequence-version mismatch made all seven current opossum
-synteny rows technically uninterpretable; these require a matched-input rerun.
-Finally, computational conservation
+direction or timing of duplication events. The 98-row exact-assembly SynVoy
+locus audit showed that rescue calls and genomes with no retained HIGH or
+MEDIUM candidate cannot be interpreted without annotation and protein
+evidence. Although priority exceptions received detailed feature and
+neighbourhood review, most rows were screened by batch GFF/accession matching
+rather than independently confirmed visually in GDV. In addition, the
+opossum FASTA/GFF sequence-version mismatch made all seven completed opossum
+synteny rows technically uninterpretable. A matched replacement pair passed
+the sequence-ID audit, but its gene-level reruns were not complete at the data
+freeze. Finally, computational conservation
 supports compatibility with known functions but cannot demonstrate collagen
 binding, signalling activity, or a growth-plate phenotype in each species.
 
@@ -258,12 +271,18 @@ therefore confirmatory or hypothesis-generating rather than decisive.
 
 SignalP coverage and focused review of the partial BGN/DCN models are complete.
 All 98 current SynVoy locus decisions are recorded: 62 are accepted, 20
-tentative, 12 ambiguous and four rejected. The required synteny follow-up is a matched-input
-opossum rerun; the interrupted updated-tool FMOD refresh and subsequent PRELP/
-EPYC comparisons are optional sensitivity analyses if they remain in the final
-scope. The tentative whale-shark EPYC sequence, duplicated zebrafish FMOD calls,
-and tentative elephant-shark FMOD-like model should remain visible when the
-evidence table is frozen. Broader expression work would be most valuable if it added matched
+tentative, 12 ambiguous and four rejected. The replacement opossum input pair
+has been validated, but a completed rerun is still needed before making
+opossum synteny claims; until then those loci remain unavailable. Targeted
+visual GDV checks remain useful for disputed or
+high-impact loci, especially where an automated fragment differs from the
+canonical annotated gene. The updated-tool FMOD report has been compared with
+the historical calls and integrated; the partial PRELP run and
+an updated EPYC run are optional sensitivity analyses if they remain in the
+final scope. The tentative whale-shark EPYC sequence, duplicated zebrafish
+FMOD calls, and tentative elephant-shark FMOD-like model should remain visible
+when the evidence table is frozen. Broader expression work would be most
+valuable if it added matched
 juvenile growth-plate zones or well-annotated single-cell data rather than simply
 adding unrelated adult tissues. Regulatory follow-up should prioritize
 growth-plate-relevant ATAC-seq/ChIP-seq or reporter data rather than another

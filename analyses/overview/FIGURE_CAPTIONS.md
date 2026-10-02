@@ -1,6 +1,6 @@
 # Thesis-ready figure captions
 
-Last updated: 2026-09-10
+Last updated: 2026-09-23
 
 These captions describe the current figures and explicitly preserve the scope
 and limitations needed for defensible interpretation. Replace `Figure X` with
@@ -13,10 +13,12 @@ under `thesis/figures/`; LaTeX assigns the final numbering automatically.
 
 **Figure X. Expression evidence used to prioritize the seven-gene SLRP panel.**
 (A) Mean expression of BGN, DCN, FMOD, PRELP, EPYC, LUM, and OGN
-in three postnatal-day-0 Prx1-lineage chondroprogenitor samples. Bars show mean
+in three samples of postnatal-day-0-derived Prx1-lineage chondrocyte material from NCBI GEO
+GSE305415 (BioProject PRJNA1305489). Bars show mean
 TPM and error bars show standard deviation; the y-axis is logarithmic. These
 samples represent a relevant juvenile skeletal lineage but are not anatomically
-isolated growth-plate zones. (B) Mean within-condition rank in processed
+isolated growth-plate zones. Deposited series- and sample-level records conflict
+about culture before RNA extraction, so no exact cell state is assigned. (B) Mean within-condition rank in processed
 microdissected tibial growth-plate data from mouse and rat (GSE114919), averaged
 across the examined age-by-zone conditions; rank 1 denotes the highest of the
 nine screened SLRPs. Values are interpreted within each dataset and species and
@@ -24,6 +26,17 @@ were not pooled with the TPM measurements. Expression supports biological
 prioritization but does not establish function or orthology.
 
 Source figure: `analyses/expression/figures/six_gene_expression_evidence.png`
+
+**Supplementary Figure X. Replicate-level expression in the GSE114919
+growth-plate dataset.** Points show the five deposited biological replicates
+for each available mouse or rat age--bone--zone condition; black bars denote
+condition means. Values are displayed on the authors' published normalized-
+value scale without logarithmic transformation. The panel is descriptive:
+absolute values are not compared between species and no inferential test is
+implied.
+
+Source figure:
+`analyses/expression/gse114919/figures/gse114919_slrp_replicates.png`
 
 ## Combined phylogenetic tree
 
@@ -114,7 +127,9 @@ derived from the combined CDS. (C) Genomic gene span on a logarithmic scale.
 Protein length and coding-exon count were stable, whereas locus span varied more
 strongly because of intron-length differences. Results depend on transcript and
 annotation choice and therefore support gene-model plausibility rather than
-proving orthology alone.
+proving orthology alone. The chicken BGN transcript passes structural QC but
+encodes an ASPN-like product, and the zebrafish BGN row represents *bgna* rather
+than the canonical-panel *bgnb*.
 
 Source figure: `analyses/gene_structure/figures/gene_structure_conservation_overview.png`
 
@@ -190,7 +205,7 @@ Source figure: `analyses/evolutionary_rates/figures/pairwise_dn_ds_human_referen
 canonical SLRP panel.** (A) Mean within-gene pairwise identity in the MAFFT
 alignments. (B) Mean alignment-column occupancy and modal residue conservation
 at high-occupancy columns. (C) Numbers of proteins classified as Supported,
-Watch, Needs inspection, or Needs SignalP rerun by the integrated rules;
+Watch, or Needs inspection by the integrated rules;
 these categories are quality-control flags, not statistical confidence
 intervals. (D) Proportion of proteins with significant SLRP/LRR-family Pfam
 support and a SignalP-positive N terminus. All 103 proteins have retained
@@ -235,9 +250,8 @@ Source figure: `analyses/regulatory/figures/promoter_proximal_gc_heatmap.png`
 
 **Supplementary Figure X. AME enrichment results for a targeted
 cartilage/osteogenesis-related transcription-factor motif panel.** Bars show
--log10 of the raw AME p-value and symbols/labels report multiple-testing-aware
-results for the 40-profile panel. HIF1A was the strongest raw result, but its
-panel-corrected E-value was 1.17; no targeted motif reached E < 0.05. The figure
+−log10 of the AME E-value for the 40-profile panel. HIF1A was the strongest
+targeted result (E = 2.55), but no targeted motif reached E < 0.05. The figure
 therefore does not demonstrate shared transcription-factor regulation of the
 seven genes.
 

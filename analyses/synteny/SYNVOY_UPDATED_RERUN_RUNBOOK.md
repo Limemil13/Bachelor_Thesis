@@ -1,16 +1,22 @@
 # Updated SynVoy rerun runbook
 
-Last updated: 2026-09-07
+Last updated: 2026-10-01
 
 ## Scope
 
 This batch refreshes BGN, FMOD, PRELP, and EPYC with the annotation-aware
-SynVoy code. DCN and BGN have completed and are integrated. The FMOD refresh at
-`results/fmod_human_15species_dev_20260906` was interrupted by `SIGHUP` during
-iterative-search wave 6 of 7 and has no final report. Preserve that result
-directory and its Nextflow work for a later explicit resume; do not launch a
-duplicate FMOD run. PRELP and EPYC have not been launched. OGN and LUM are
-deliberately excluded because their completed runs are newer.
+SynVoy code. DCN, BGN, and FMOD are complete and integrated. The FMOD report
+at `results/fmod_human_15species_dev_20260906` is the authoritative source for
+all 14 FMOD rows. PRELP was started at
+`results/prelp_human_15species_dev_20260914`; its existing iterative-search
+checkpoint records four of seven waves, but there is no final report. An
+updated EPYC run has not been started. No SynVoy process was active on
+2026-09-21. OGN and LUM are not first-priority reruns.
+
+Do not use an old `--run-tag dev_20260906 PRELP` launch command: the actual
+PRELP output is dated `dev_20260914` and should be resumed only after checking
+its exact Nextflow invocation and cache. No SynVoy run is authorized by this
+status note alone.
 
 The launcher runs one new gene at a time, validates all 14 target genome/GFF
 pairs before starting, and refuses to overwrite an existing result directory.
@@ -25,94 +31,44 @@ export SYNVOY_ROOT=/path/to/SynVoy
 export CONDA_SH=/path/to/conda.sh
 ```
 
-## 1. Open Ubuntu/WSL and run the dry check
+## 1. Check the existing work before any new run
 
-```bash
-cd "$PROJECT_ROOT"
-bash analyses/synteny/scripts/run_updated_synvoy_panel.sh \
-  --dry-run \
-  --run-tag dev_20260906 \
-  PRELP EPYC
-```
+FMOD already has a final report and has been parsed, compared with the
+historical FMOD rows, manually reviewed, and integrated. PRELP has an existing
+dated output directory and a partial Nextflow cache. Confirm its latest
+checkpoint, input FASTA/GFF pairing, available disk space, and original
+launcher invocation before using Nextflow `-resume`. Do not start PRELP with
+a new tag simply because its final report is absent.
 
-The dry check must report that all 14 target genome/GFF pairs pass and print
-three `./run_synvoy.sh` commands. It does not run Nextflow. If it reports an
-existing output directory, inspect that directory instead of deleting it and
-choose a new dated tag only when it is not a resumable run.
+EPYC is the only fresh updated-tool full-gene run still to start, if that
+sensitivity analysis remains in scope. Use a new date-specific tag and the
+launcher dry-run first; the dry-run should validate all 14 target genome/GFF
+pairs. Run only when explicitly requested, one gene at a time. Keep logs and
+dated result directories; do not overwrite historical reports or resumable
+work.
 
-## 2. Start the next overnight run
-
-DCN completed after about 16 hours and BGN after about 18 hours. No saved result
-is a symlink into `work/`. Clear completed work that is no longer needed for
-resume and check disk space before continuing. The remaining order is FMOD,
-then PRELP and EPYC. Each invocation appends its provenance and refuses to
-overwrite an existing gene result.
-
-First create the log directory because shell redirection happens before the
-launcher itself starts:
-
-```bash
-mkdir -p "$SYNVOY_ROOT/results/rerun_launcher_logs"
-```
-
-The former FMOD launch command must not be run again because its dated output
-directory now exists. Resume that exact run only when the SynVoy work is
-explicitly restarted. After FMOD has a checked final report, use the launcher
-for PRELP and then EPYC.
-
-Example for a new PRELP run:
-
-```bash
-cd "$PROJECT_ROOT"
-nohup bash analyses/synteny/scripts/run_updated_synvoy_panel.sh \
-  --run-tag dev_20260906 \
-  PRELP \
-  > "$SYNVOY_ROOT/results/rerun_launcher_logs/prelp_dev_20260906.console.log" 2>&1 &
-echo $!
-```
-
-Record the printed process ID. Closing the terminal should not stop a `nohup`
-run. Run only one gene at a time while Windows disk space remains tight.
-
-## 3. Monitor without repeatedly restarting it
-
-```bash
-tail -f "$SYNVOY_ROOT/results/rerun_launcher_logs/prelp_dev_20260906.console.log"
-```
-
-Press `Ctrl+C` to stop following the log; that does not stop SynVoy. Check the
-process separately with:
-
-```bash
-ps -fp YOUR_PROCESS_ID
-```
-
-Per-gene logs are written under:
-
-```text
-$SYNVOY_ROOT/results/rerun_launcher_logs/
-```
+The separate opossum matched-input issue affects all seven gene reviews.
+Resolve and rerun those comparisons before presenting opossum synteny as
+confirmed. This is distinct from an updated full-gene PRELP or EPYC run.
 
 ## 4. Check completion
 
 ```bash
-for gene in fmod prelp epyc; do
-  report="$SYNVOY_ROOT/results/${gene}_human_15species_dev_20260906/synvoy_report.json"
-  if [[ -s "$report" ]]; then
-    echo "COMPLETE  $gene  $report"
-  else
-    echo "MISSING   $gene  $report"
-  fi
-done
+test -s "$SYNVOY_ROOT/results/fmod_human_15species_dev_20260906/synvoy_report.json"
+test -s "$SYNVOY_ROOT/results/prelp_human_15species_dev_20260914/synvoy_report.json"
 ```
+
+The first check currently succeeds; the second currently fails because the
+PRELP run is incomplete. An updated EPYC output directory does not yet exist.
+For any later EPYC launch, record its actual dated tag before checking a path.
 
 The expected final directories are:
 
 ```text
 results/bgn_human_15species_dev_20260905/
 results/fmod_human_15species_dev_20260906/
-results/prelp_human_15species_dev_20260906/
-results/epyc_human_15species_dev_20260906/
+results/prelp_human_15species_dev_20260914/  # partial; no report yet
+results/epyc_human_15species_<future_tag>/  # not launched
 results/dcn_human_15species_dev_20260903/
 ```
 
@@ -128,9 +84,10 @@ directory exists. Do not immediately delete `.nextflow`, `work`, or the dated
 result directory: those may be needed for a safe resume. A new tag is for a
 genuinely clean rerun, not a substitute for diagnosing a resumable failure.
 
-## 6. After all three remaining refresh reports exist
+## 6. After a refresh report exists
 
-Return to the project and parse the dated reports, compare them with the
+The dated FMOD report has completed this sequence. Apply it to PRELP and EPYC
+only if their optional updated reports are completed. Compare with the
 current 98-row table, regenerate P1/P2/P3 review queues, and then update the
 final evidence tables and thesis figures. Automated HIGH/MEDIUM calls remain
 candidate-level synteny evidence, not final one-to-one orthology assignments.

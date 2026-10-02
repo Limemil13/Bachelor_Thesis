@@ -59,8 +59,8 @@ recognizable repertoire is supported across jawed vertebrates.
 
 | Gene | Thesis role | Integrated interpretation |
 |---|---|---|
-| BGN | principal class-I anchor | Highest local expression and strong direct growth-plate support; conserved domain/MSA/coding evidence, but partial shark models, chicken ASPN-like provenance, and non-monophyletic combined-tree topology require qualified wording. |
-| DCN | principal class-I candidate/paralog control | Direct cartilage/ECM function, expression, phenotype, domain/MSA, 15/15 pure tree split, conserved seven-CDS-exon structure, and conserved reviewed loci; SignalP is still pending for the current panel. |
+| BGN | principal class-I anchor | Highest GSE305415 WT P0 expression and strong direct growth-plate support; conserved domain/MSA/coding evidence, but partial shark models, chicken ASPN-like provenance, and non-monophyletic combined-tree topology require qualified wording. |
+| DCN | principal class-I candidate/paralog control | Direct cartilage/ECM function, expression, phenotype, domain/MSA, 15/15 pure tree split, conserved seven-CDS-exon structure, and conserved reviewed loci; 14/15 proteins are SignalP-positive, with the N-terminally incomplete opossum fragment negative. |
 | FMOD | principal class-II anchor | Strong direct developmental growth-plate localization plus coherent protein/tree/coding evidence; duplicated zebrafish co-orthologs and the alternative spotted-gar locus are informative evolutionary findings. |
 | PRELP | principal class-II candidate | Direct growth-plate expression and experimental bone-interface roles align with strong comparative conservation; zebrafish locus accepted, catshark tentative, amphioxus unresolved. |
 | EPYC | principal class-III candidate | Direct growth-plate ECM localization and coherent comparative evidence; whale-shark/zebrafish are tentative and the amphioxus SynVoy call is rejected. |
@@ -72,8 +72,9 @@ recognizable repertoire is supported across jawed vertebrates.
 
 Do not state that all genes are equally conserved, that all analyses used the
 same 15 species, or that conserved sequence proves conserved growth-plate
-function in every species. Do not interpret pending SignalP as negative,
-missing Bgee/SynVoy output as absence, MGI/HPO counts as effect sizes, motif
+function in every species. Do not interpret a SignalP-negative prediction from
+an incomplete N terminus as proof of nonsecretion, missing Bgee/SynVoy output
+as absence, MGI/HPO counts as effect sizes, motif
 matches as binding sites, or an unrooted tree as evolutionary direction.
 
 ## Thesis-ready one-sentence version

@@ -216,7 +216,9 @@ def compare_loci(left: Locus, right: Locus) -> dict[str, str | int]:
         symbol for symbol in right.oriented_flanking_symbols if symbol in shared
     )
     forward = longest_common_subsequence(left_order, right_order)
-    reversed_order = longest_common_subsequence(left_order, tuple(reversed(right_order)))
+    reversed_order = longest_common_subsequence(
+        left_order, tuple(reversed(right_order))
+    )
     if reversed_order > forward:
         order = "reversed"
         ordered_count = reversed_order

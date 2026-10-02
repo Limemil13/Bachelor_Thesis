@@ -12,9 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 
 
-def read_tsv(
-    relative: str, *, allow_empty: bool = False
-) -> list[dict[str, str]]:
+def read_tsv(relative: str, *, allow_empty: bool = False) -> list[dict[str, str]]:
     path = ROOT / relative
     assert path.is_file(), f"Missing: {path}"
     with path.open(encoding="utf-8", newline="") as handle:
@@ -129,16 +127,14 @@ def main() -> None:
     synvoy_p2_done = read_tsv(
         "analyses/synteny/tables/synvoy_batch_confirmation_completed.tsv"
     )
-    synvoy_p3_done = read_tsv(
-        "analyses/synteny/tables/synvoy_spot_check_completed.tsv"
-    )
+    synvoy_p3_done = read_tsv("analyses/synteny/tables/synvoy_spot_check_completed.tsv")
     synvoy_genes = {x["gene"] for x in synvoy_all}
     assert synvoy_genes == {"BGN", "DCN", "EPYC", "FMOD", "LUM", "OGN", "PRELP"}
     assert len(synvoy_all) == 98
     synvoy_priorities = Counter(x["review_priority"] for x in synvoy_all)
     assert not synvoy_p1 and not synvoy_p2 and not synvoy_p3
-    assert len(synvoy_p1_done) == synvoy_priorities["P1"] == 25
-    assert len(synvoy_p2_done) == synvoy_priorities["P2"] == 69
+    assert len(synvoy_p1_done) == synvoy_priorities["P1"] == 26
+    assert len(synvoy_p2_done) == synvoy_priorities["P2"] == 68
     assert len(synvoy_p3_done) == synvoy_priorities["P3"] == 4
     assert all(x["review_status"] for x in synvoy_all)
     assert Counter(x["review_status"] for x in synvoy_all) == {
@@ -556,15 +552,6 @@ def main() -> None:
         "analyses/overview/METHODS_ALGORITHM_NOTES.md",
         "analyses/overview/SIX_GENE_PROFILES.md",
         "analyses/overview/FIGURE_CAPTIONS.md",
-        "analyses/overview/THESIS_NEXT_STEPS.md",
-        "analyses/overview/THESIS_SELF_WRITING_GUIDE.md",
-        "analyses/overview/THESIS_STRUCTURE_AND_WRITING_PLAN.md",
-        "analyses/overview/GITHUB_PUSH_MANIFEST.md",
-        "analyses/overview/history/THESIS_ANALYSIS_LOG_2026-08-25.md",
-        "analyses/overview/history/THESIS_ANALYSIS_LOG_2026-08-29.md",
-        "analyses/overview/history/THESIS_ANALYSIS_LOG_2026-09-07.md",
-        "analyses/overview/history/THESIS_ANALYSIS_LOG_2026-09-10.md",
-        "analyses/overview/history/THESIS_ANALYSIS_LOG_2026-09-14.md",
         "analyses/literature/README.md",
         "thesis/chapters/results.tex",
         "thesis/chapters/discussion.tex",
@@ -693,9 +680,7 @@ def main() -> None:
     include_pattern = re.compile(
         r"\\includegraphics(?:\[[^\]]*\])?\s*\{([^}]+)\}", re.MULTILINE
     )
-    supplement_pattern = re.compile(
-        r"\\thesissuppfigure\s*\{([^}]+)\}", re.MULTILINE
-    )
+    supplement_pattern = re.compile(r"\\thesissuppfigure\s*\{([^}]+)\}", re.MULTILINE)
     figure_paths: list[Path] = []
     labels: list[str] = []
     references: list[str] = []
@@ -722,9 +707,7 @@ def main() -> None:
     )
 
     print("PASS: canonical manifest 103 and Pfam 693 hits / 103 summaries")
-    print(
-        "PASS: SignalP 103 calls (100 positive, 3 negative) and no pending calls"
-    )
+    print("PASS: SignalP 103 calls (100 positive, 3 negative) and no pending calls")
     print("PASS: integrated protein table 103 and ProtSpace canonical-QC table 103")
     print("PASS: Bgee 27 mappings / 54 summaries")
     print("PASS: GSE114919 531 long rows / 108 conditions / 18 tibia summaries")
@@ -732,7 +715,9 @@ def main() -> None:
         f"PASS: SynVoy {len(synvoy_all)} rows across {len(synvoy_genes)} genes -> "
         + " / ".join(f"{synvoy_priorities[p]} {p}" for p in ("P1", "P2", "P3"))
     )
-    print("PASS: all SynVoy reviews complete; seven opossum input-pair failures quarantined")
+    print(
+        "PASS: all SynVoy reviews complete; seven opossum input-pair failures quarantined"
+    )
     print("PASS: candidate evidence 9 genes")
     print(
         "PASS: integrated seven-gene evidence, 103-tip review, and canonical compact trees"

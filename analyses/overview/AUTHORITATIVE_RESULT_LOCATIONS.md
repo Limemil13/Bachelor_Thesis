@@ -1,6 +1,6 @@
 # Authoritative thesis result locations
 
-Last audited: 2026-09-03
+Last audited: 2026-10-01
 
 This is the current result map. Some historical directory names still contain
 `six_gene`; those stable paths now hold the rebuilt seven-gene/103-protein
@@ -115,7 +115,7 @@ optional unless those expanded trees will be presented as final evidence.
 
 ## Expression, promoter, and phenotype context
 
-- Corrected local expression summary:
+- Corrected GSE305415 WT P0 expression summary (from stored Salmon files):
   `analyses/expression/tables/mouse_expression_descriptive_metadata_corrected.tsv`
 - Mouse/rat microdissected growth-plate results:
   `analyses/expression/gse114919/tables/`
@@ -154,11 +154,12 @@ optional unless those expanded trees will be presented as final evidence.
 - Evolutionary interpretation and literature context:
   `analyses/overview/SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md`
 
-DCN completed at `results/dcn_human_15species_dev_20260903`, and BGN completed
-at `results/bgn_human_15species_dev_20260905`; both are included in the
-authoritative 98-row table. All current locus reviews are complete. A matched
-opossum FASTA/GFF rerun is required; updated FMOD, PRELP, and EPYC runs are
-optional sensitivity analyses. The staged WSL procedure is in
+DCN completed at `results/dcn_human_15species_dev_20260903`, BGN at
+`results/bgn_human_15species_dev_20260905`, and FMOD at
+`results/fmod_human_15species_dev_20260906`; all three updated reports are
+included in the authoritative 98-row table. All current locus reviews are
+complete. A matched opossum FASTA/GFF rerun is required; updated PRELP and EPYC
+runs are optional sensitivity analyses. The staged WSL procedure is in
 `analyses/synteny/SYNVOY_UPDATED_RERUN_RUNBOOK.md`.
 
 ## Interpretation and writing
@@ -169,9 +170,8 @@ optional sensitivity analyses. The staged WSL procedure is in
   `analyses/overview/SLRP_EVOLUTIONARY_ORIGIN_AND_SPECIES.md`
 - Figure captions: `analyses/overview/FIGURE_CAPTIONS.md`
 - Reproducibility status: `analyses/overview/THESIS_REPRODUCIBILITY_STATUS.md`
-- Immediate next steps: `analyses/overview/THESIS_NEXT_STEPS.md`
-- Student writing workbook: `analyses/overview/THESIS_SELF_WRITING_GUIDE.md`
-- Current refresh log:
-  `analyses/overview/history/THESIS_ANALYSIS_LOG_2026-09-10.md`
 - Thesis drafts: `thesis/chapters/`
 - Bibliography: `thesis/bibliography.bib`
+
+Personal writing aids, dated work logs, and the current task checklist are kept
+locally and excluded from the public repository.

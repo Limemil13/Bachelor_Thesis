@@ -1,6 +1,6 @@
 # Comparative SLRP panel: current status
 
-Last updated: 2026-09-07
+Last updated: 2026-09-21
 
 The historical filename is retained for existing links. The current full panel
 has **seven genes**: BGN, DCN, FMOD, PRELP, EPYC, LUM, and OGN. OMD is a context
@@ -28,17 +28,18 @@ DCN was promoted as a full 15-protein member and paralog control.
 - Amphioxus OGN is excluded from the confident set and retained as uncertain
   SLRP-like provenance.
 - Lamprey LUM is outside the 15/16 main LUM split and remains tentative.
-- Seventeen SignalP calls (15 DCN and two BGN replacements) are pending.
-- SynVoy is complete for all seven panel genes, including updated-tool DCN and
-  BGN runs. The optional updated-tool FMOD refresh was interrupted before its
-  final report; PRELP and EPYC refreshes have not been launched. Historical
-  completed reports remain the current evidence for those three genes.
+- SignalP is complete for all 103 proteins: 100 positive, three negative.
+- SynVoy historical reports are complete for all seven panel genes, and
+  updated-tool DCN and BGN are integrated. The updated FMOD report exists but
+  still needs comparison/integration. PRELP has a partial resumable updated
+  run (four of seven iterative waves), and updated EPYC has not started.
+  Historical reports remain the current evidence for these three genes.
 
 ## Does juvenile RNA make sense?
 
 Yes. A growth plate is a developmental cartilage, so juvenile data are
-biologically appropriate. The limitation is anatomical specificity. Local P0
-Prx1-lineage samples are a relevant screen, whereas GSE114919 microdissected
+biologically appropriate. The limitation is anatomical specificity. Public
+GSE305415 WT P0 Prx1-lineage samples are a relevant screen, whereas GSE114919 microdissected
 zones provide direct growth-plate support. The two scales must not be pooled or
 described as one differential-expression experiment.
 
@@ -49,6 +50,6 @@ continuity. The informative outcome is a conserved vertebrate ECM framework
 plus specific exceptions—not a claim that all orthologs have identical
 growth-plate function.
 
-For exact counts and remaining work, use `THESIS_REPRODUCIBILITY_STATUS.md` and
-`THESIS_NEXT_STEPS.md`. For result paths, use
+For exact counts and current limitations, use
+`THESIS_REPRODUCIBILITY_STATUS.md`. For result paths, use
 `AUTHORITATIVE_RESULT_LOCATIONS.md`.

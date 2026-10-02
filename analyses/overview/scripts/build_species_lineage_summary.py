@@ -12,7 +12,6 @@ from statistics import median
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 ROOT = Path(__file__).resolve().parents[3]
 GENES = ("BGN", "DCN", "EPYC", "FMOD", "LUM", "OGN", "PRELP")
 
@@ -215,8 +214,7 @@ def build_rows() -> list[dict[str, str]]:
         ROOT / "analyses/protein_analysis/candidates/canonical_candidate_manifest.tsv"
     )
     protein_qc = read_tsv(
-        ROOT
-        / "analyses/protein_analysis/tables/"
+        ROOT / "analyses/protein_analysis/tables/"
         "protein_conservation_domain_msa_signalp_summary.tsv"
     )
     synteny = read_tsv(
@@ -265,9 +263,7 @@ def build_rows() -> list[dict[str, str]]:
                 "median_query_coverage_percent": fmt(
                     median(coverages) if coverages else None
                 ),
-                "mean_msa_gap_percent": fmt(
-                    sum(gaps) / len(gaps) if gaps else None
-                ),
+                "mean_msa_gap_percent": fmt(sum(gaps) / len(gaps) if gaps else None),
                 "protein_qc_supported": str(qc_statuses["Supported"]),
                 "protein_qc_watch": str(qc_statuses["Watch"]),
                 "protein_qc_needs_signalp": str(qc_statuses["Needs SignalP rerun"]),
@@ -306,9 +302,13 @@ def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
         gridspec_kw={"width_ratios": (1.15, 1)},
     )
     ax_identity.barh(y, np.nan_to_num(identities), color=colors, edgecolor="white")
-    for index, (identity, count) in enumerate(zip(identities, protein_counts)):
+    for index, (identity, count) in enumerate(
+        zip(identities, protein_counts, strict=True)
+    ):
         if np.isnan(identity):
-            ax_identity.text(2, index, "no confident canonical protein", va="center", fontsize=8)
+            ax_identity.text(
+                2, index, "no confident canonical protein", va="center", fontsize=8
+            )
         else:
             ax_identity.text(
                 min(identity + 1.2, 96),
@@ -323,7 +323,9 @@ def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
     ax_identity.invert_yaxis()
     ax_identity.grid(axis="x", color="#dddddd", linewidth=0.6)
     ax_identity.set_axisbelow(True)
-    ax_identity.set_title("A  Curated canonical protein panel", loc="left", fontweight="bold")
+    ax_identity.set_title(
+        "A  Curated canonical protein panel", loc="left", fontweight="bold"
+    )
 
     left = np.zeros(len(rows))
     for status in ("accepted", "tentative", "ambiguous", "rejected"):
@@ -342,7 +344,9 @@ def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
             ax_synteny.text(0.15, index, "not in SynVoy panel", va="center", fontsize=8)
     ax_synteny.set_xlim(0, 7.1)
     ax_synteny.set_xlabel("Reviewed gene loci (maximum 7)")
-    ax_synteny.set_title("B  Completed synteny decisions", loc="left", fontweight="bold")
+    ax_synteny.set_title(
+        "B  Completed synteny decisions", loc="left", fontweight="bold"
+    )
     ax_synteny.grid(axis="x", color="#dddddd", linewidth=0.6)
     ax_synteny.set_axisbelow(True)
     ax_synteny.legend(
@@ -378,7 +382,9 @@ def main() -> None:
     rows = build_rows()
     table = ROOT / "analyses/overview/tables/species_lineage_evidence_summary.tsv"
     figure = ROOT / "analyses/overview/figures/species_lineage_evidence_summary"
-    thesis_figure = ROOT / "thesis/figures/overview/species_lineage_evidence_summary.png"
+    thesis_figure = (
+        ROOT / "thesis/figures/overview/species_lineage_evidence_summary.png"
+    )
     write_tsv(table, rows)
     plot(rows, figure)
     thesis_figure.parent.mkdir(parents=True, exist_ok=True)

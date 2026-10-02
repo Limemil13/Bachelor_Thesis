@@ -53,15 +53,22 @@ def main() -> None:
         matching_edge = None
         matching_side = ""
         largest_pure_group: set[str] = set()
+        largest_pure_edge = None
+        largest_pure_side = ""
         for clade in tree.find_clades(order="preorder"):
             if clade is tree.root:
                 continue
             side = {tip.name for tip in clade.get_terminals()}
-            for candidate_side in (side, all_names - side):
+            for side_name, candidate_side in (
+                ("descendant", side),
+                ("complement", all_names - side),
+            ):
                 if candidate_side <= target_names and len(candidate_side) > len(
                     largest_pure_group
                 ):
                     largest_pure_group = candidate_side
+                    largest_pure_edge = clade
+                    largest_pure_side = side_name
             if side == target_names:
                 matching_edge, matching_side = clade, "descendant"
                 break
@@ -99,6 +106,16 @@ def main() -> None:
                 if matching_edge is not None
                 else "",
                 "largest_pure_gene_split_tip_count": len(largest_pure_group),
+                "largest_pure_gene_split_side": largest_pure_side,
+                "largest_pure_gene_split_support": (
+                    largest_pure_edge.confidence
+                    if largest_pure_edge is not None
+                    and largest_pure_edge.confidence is not None
+                    else ""
+                ),
+                "largest_pure_gene_split_label": (
+                    largest_pure_edge.name if largest_pure_edge is not None else ""
+                ),
                 "tips_outside_largest_pure_gene_split": ",".join(
                     sorted(target_names - largest_pure_group)
                 ),

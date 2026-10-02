@@ -5,6 +5,15 @@ The focal RNA-seq samples are three wild-type samples from GSE305415
 digested knee joints. They should not be described as bulk whole-growth-plate
 samples. WT1 and WT2 are paired-end; WT3 is single-end.
 
+Data provenance: GSE305415 is a public NCBI Gene Expression Omnibus (GEO)
+study; its raw sequencing reads are available through NCBI SRA under
+BioProject PRJNA1305489. The focal WT runs used here are SRR34978216,
+SRR34978215, and SRR34978214. This project re-extracted expression values from
+previously generated Salmon `quant.sf` files stored on the computer. "Local"
+describes those working files, not the origin of the samples or sequencing data.
+The original Salmon index-building/quantification command was not preserved.
+Source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE305415
+
 The four files previously labeled as skin, heart, kidney, and brain are from
 the aging atlas PRJNA936435. Their verified samples are skin at 6 months,
 heart at 30 months, kidney at 30 months, and skin at 15 months. There is no
@@ -28,8 +37,8 @@ tibial condition. The published processed workbooks and all derived tables are
 under `gse114919/`.
 
 The authors' normalized values are retained on their original scale. They are
-not pooled with the local Salmon TPMs and absolute values are not compared
-between species. Cross-species interpretation uses detection and
+not pooled with the GSE305415-derived Salmon TPMs, and absolute values are not
+compared between species. Cross-species interpretation uses detection and
 within-condition rank.
 
 Across tibial conditions, BGN, FMOD, and PRELP are the strongest and most

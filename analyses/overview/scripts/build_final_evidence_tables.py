@@ -145,7 +145,7 @@ def compact_number(value: str) -> str:
 
 def expression_text(row: dict[str, str]) -> str:
     return (
-        f"Local P0 {compact_number(row['local_p0_mean_tpm'])} TPM "
+        f"GSE305415 WT P0 {compact_number(row['local_p0_mean_tpm'])} TPM "
         f"(rank {row['local_p0_rank_of_9']}/9); mouse/rat growth-plate mean "
         f"ranks {compact_number(row['mouse_growth_plate_mean_rank'])}/"
         f"{compact_number(row['rat_growth_plate_mean_rank'])}."
@@ -179,6 +179,9 @@ def msa_tree_text(
         tree_part += "; unrooted monophyletic"
     elif outside:
         tree_part += f"; outside: {outside}"
+    split_label = tree.get("largest_pure_gene_split_label", "").strip()
+    if split_label:
+        tree_part += f"; largest-pure split SH-aLRT/UFBoot {split_label}"
     return (
         f"Mean pairwise MSA identity "
         f"{compact_number(msa['mean_pairwise_identity_percent'])}%; {tree_part}; "
@@ -220,7 +223,7 @@ def synvoy_gene_text(
 
 
 def structure_text(row: dict[str, str], extended: dict[str, str]) -> str:
-    return (
+    text = (
         f"Five reference species; CDS-exon count {row['cds_exon_count_range']}; "
         f"estimated protein {row['protein_length_min_aa']}-"
         f"{row['protein_length_max_aa']} aa; "
@@ -230,6 +233,13 @@ def structure_text(row: dict[str, str], extended: dict[str, str]) -> str:
         f"preserve intron phase; complete CDS QC in "
         f"{extended['complete_start_count']}/{extended['species_count']} species."
     )
+    if row["gene"] == "BGN":
+        text += (
+            " The chicken annotated locus is not independent BGN orthology support "
+            "because its product is ASPN-like; zebrafish structure uses bgna while "
+            "the canonical protein panel uses bgnb."
+        )
+    return text
 
 
 def build_gene_table() -> None:
@@ -304,7 +314,8 @@ def build_gene_table() -> None:
         "EPYC": f"Whale shark XP_048463897.1: {manual['XP_048463897.1']['manual_decision']}.",
         "LUM": "Lamprey XP_075930353.1 is outside the main LUM split and is retained only as a tentative deep-lineage assignment.",
         "OGN": (
-            "Opossum and zebrafish retained; spotted gar retained as tentative because SignalP is negative; "
+            "Opossum and zebrafish retained; spotted gar retained as tentative because SignalP is negative. "
+            "Its only annotated ogna transcript has a strongly hydrophobic N terminus but no SignalP cleavage call; "
             "amphioxus excluded from the confident OGN set and retained only as uncertain SLRP-like provenance."
         ),
     }
@@ -386,6 +397,11 @@ def synteny_text(
             "not interpretable: the opossum target FASTA/GFF sequence IDs do not "
             "match; exclude this SynVoy result until the target is rerun"
         )
+    updated_confidence = {
+        ("FMOD", "catshark"): "NONE",
+        ("FMOD", "zebrafish"): "MEDIUM",
+        ("FMOD", "whale_shark"): "MEDIUM",
+    }.get((gene, alias))
     if row["review_status"]:
         confirmed = row["confirmed_gene_symbol"]
         accession = row["confirmed_protein_accession"]
@@ -394,11 +410,15 @@ def synteny_text(
             confirmed_part = f"; confirmed {confirmed}"
             if accession and accession != "not available":
                 confirmed_part += f" ({accession})"
+        automated = (
+            f"SynVoy {updated_confidence} in updated report"
+            if updated_confidence
+            else f"SynVoy {row['best_confidence']} (grade {row['evidence_grade']})"
+        )
         return (
             f"manual {row['review_status']}; coordinate relation "
             f"{row['coordinate_to_accession_status']}; neighbour order "
-            f"{row['neighbor_order_consistent']}{confirmed_part}; automated "
-            f"SynVoy {row['best_confidence']} (grade {row['evidence_grade']})"
+            f"{row['neighbor_order_consistent']}{confirmed_part}; automated {automated}"
         )
     return (
         f"{row['best_confidence']}; evidence grade {row['evidence_grade']}; "
@@ -413,7 +433,9 @@ def tree_text(gene: str, accession: str, tree: dict[str, str]) -> str:
             f"outside largest pure {gene} split "
             f"({tree['largest_pure_gene_split_tip_count']}/{tree['tip_count']})"
         )
-    label = tree["supporting_split_label"].strip()
+    label = tree.get("largest_pure_gene_split_label", "").strip()
+    if not label:
+        label = tree["supporting_split_label"].strip()
     support = f"; split label {label}" if label else ""
     return (
         f"inside largest pure {gene} split "
@@ -457,6 +479,29 @@ def build_candidate_table() -> None:
         "gene",
         "species",
     )
+    locus_decisions = index(
+        read_tsv(
+            "analyses/synteny/diagnostics/priority_locus_reviews/"
+            "all_synvoy_review_decisions.tsv"
+        ),
+        "gene",
+        "species",
+    )
+    for key, decision in locus_decisions.items():
+        if key not in synteny:
+            continue
+        for field in (
+            "coordinate_to_accession_status",
+            "review_status",
+            "confirmed_gene_symbol",
+            "confirmed_protein_accession",
+            "neighbor_order_consistent",
+            "phylogeny_consistent",
+            "reviewer",
+            "review_date",
+            "manual_notes",
+        ):
+            synteny[key][field] = decision[field]
 
     rows: list[dict[str, str]] = []
     for p in proteins:
@@ -478,12 +523,23 @@ def build_candidate_table() -> None:
         synteny_row = synteny.get((gene, alias)) if alias else None
         if synteny_row and synteny_row["review_status"]:
             locus_status = synteny_row["review_status"]
-            if locus_status == "tentative" and final_decision == "retain in confident ortholog panel":
+            if (
+                locus_status == "tentative"
+                and final_decision == "retain in confident ortholog panel"
+            ):
                 final_decision = "retain as tentative ortholog/co-ortholog assignment"
-            elif locus_status == "ambiguous" and final_decision == "retain in confident ortholog panel":
+            elif (
+                locus_status == "ambiguous"
+                and final_decision == "retain in confident ortholog panel"
+            ):
                 final_decision = "retain protein provisionally; locus-level orthology remains ambiguous"
-            elif locus_status == "rejected" and final_decision == "retain in confident ortholog panel":
-                final_decision = "exclude: manual locus review rejected the gene assignment"
+            elif (
+                locus_status == "rejected"
+                and final_decision == "retain in confident ortholog panel"
+            ):
+                final_decision = (
+                    "exclude: manual locus review rejected the gene assignment"
+                )
             decision_note = "; ".join(
                 x
                 for x in [

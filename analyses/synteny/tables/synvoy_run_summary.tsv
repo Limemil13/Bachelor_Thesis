@@ -1,8 +1,8 @@
-gene	run	report	genomes	genomes_qc_pass	final_high_goi	final_medium_goi	low_ambiguous_goi	self_consistency_flags	paralog_misassignments_removed	headline
-BGN	bgn_human_15species_dev_20260905	results/bgn_human_15species_dev_20260905/synvoy_report.json	14	14	10	1	473	9	7	10 high-confidence + 1 medium-confidence GOI ortholog annotation(s) (+473 low-confidence/ambiguous) across 14 genome(s).
-DCN	dcn_human_15species_dev_20260903	results/dcn_human_15species_dev_20260903/synvoy_report.json	14	14	10	1	342	54	17	10 high-confidence + 1 medium-confidence GOI ortholog annotation(s) (+342 low-confidence/ambiguous) across 14 genome(s).
-EPYC	epyc_human_15species	results/epyc_human_15species/synvoy_report.json	14	14	9	15	315	13	13	9 high-confidence + 15 medium-confidence GOI ortholog annotation(s) (+315 low-confidence/ambiguous) across 14 genome(s).
-FMOD	fmod_human_15species	results/fmod_human_15species/synvoy_report.json	14	14	12	7	219	9	9	12 high-confidence + 7 medium-confidence GOI ortholog annotation(s) (+219 low-confidence/ambiguous) across 14 genome(s).
-OGN	ogn_human_15species_standard_1408	results/ogn_human_15species_standard_1408/synvoy_report.json	14	14	13	22	1178	73	40	13 high-confidence + 22 medium-confidence GOI ortholog annotation(s) (+1178 low-confidence/ambiguous) across 14 genome(s).
-PRELP	prelp_human_15species_fresh	results/prelp_human_15species_fresh/synvoy_report.json	14	14	11	11	197	10	10	11 high-confidence + 11 medium-confidence GOI ortholog annotation(s) (+197 low-confidence/ambiguous) across 14 genome(s).
-LUM	lum_human_15species	results/lum_human_15species/synvoy_report.json	14	14	10	39	405	44	8	10 high-confidence + 39 medium-confidence GOI ortholog annotation(s) (+405 low-confidence/ambiguous) across 14 genome(s).
+gene	run	report	species_report_overrides	genomes	genomes_qc_pass	final_high_goi	final_medium_goi	low_ambiguous_goi	self_consistency_flags	paralog_misassignments_removed	headline
+BGN	bgn_human_15species_dev_20260905	results/bgn_human_15species_dev_20260905/synvoy_report.json		14	14	10	1	473	9	7	Merged evidence: 10 HIGH and 1 MEDIUM retained GOI candidates across 14 target genomes.
+DCN	dcn_human_15species_dev_20260903	results/dcn_human_15species_dev_20260903/synvoy_report.json		14	14	10	1	342	54	17	Merged evidence: 10 HIGH and 1 MEDIUM retained GOI candidates across 14 target genomes.
+EPYC	epyc_human_15species	results/epyc_human_15species/synvoy_report.json		14	14	9	15	315	13	13	Merged evidence: 9 HIGH and 15 MEDIUM retained GOI candidates across 14 target genomes.
+FMOD	fmod_human_15species_dev_20260906	results/fmod_human_15species_dev_20260906/synvoy_report.json		14	14	10	5	149	37	8	Merged evidence: 10 HIGH and 5 MEDIUM retained GOI candidates across 14 target genomes.
+OGN	ogn_human_15species_standard_1408	results/ogn_human_15species_standard_1408/synvoy_report.json		14	14	13	22	1178	73	40	Merged evidence: 13 HIGH and 22 MEDIUM retained GOI candidates across 14 target genomes.
+PRELP	prelp_human_15species_fresh	results/prelp_human_15species_fresh/synvoy_report.json		14	14	11	11	197	10	10	Merged evidence: 11 HIGH and 11 MEDIUM retained GOI candidates across 14 target genomes.
+LUM	lum_human_15species	results/lum_human_15species/synvoy_report.json		14	14	10	39	405	44	8	Merged evidence: 10 HIGH and 39 MEDIUM retained GOI candidates across 14 target genomes.

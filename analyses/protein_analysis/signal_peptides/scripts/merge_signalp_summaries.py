@@ -59,7 +59,9 @@ def main() -> None:
         (row["gene"], row["species"], row["accession"]) for row in canonical
     }
     supplemental = [
-        row for supplemental_path in args.supplemental for row in read_tsv(supplemental_path)
+        row
+        for supplemental_path in args.supplemental
+        for row in read_tsv(supplemental_path)
     ]
     historical = existing + lum + supplemental
     rows = [

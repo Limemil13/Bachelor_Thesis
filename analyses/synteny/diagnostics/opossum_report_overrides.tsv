@@ -1,0 +1,8 @@
+gene	species	run
+BGN	opossum	bgn_human_opossum_matched_GCF_027887165.2_20260922
+DCN	opossum	dcn_human_opossum_matched_GCF_027887165.2_20260922
+EPYC	opossum	epyc_human_opossum_matched_GCF_027887165.2_20260922
+FMOD	opossum	fmod_human_opossum_matched_GCF_027887165.2_20260922
+LUM	opossum	lum_human_opossum_matched_GCF_027887165.2_20260922
+OGN	opossum	ogn_human_opossum_matched_GCF_027887165.2_20260922
+PRELP	opossum	prelp_human_opossum_matched_GCF_027887165.2_20260922

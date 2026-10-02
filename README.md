@@ -21,7 +21,7 @@ and workflow documentation.
   trees, combined/family trees, and large per-gene NCBI trees.
 - `analyses/evolutionary_rates/`: supplementary protein-guided codon
   alignments and bounded pairwise dN/dS estimates.
-- `analyses/expression/`: local P0, Bgee, and direct mouse/rat
+- `analyses/expression/`: NCBI GEO GSE305415 P0, Bgee, and direct mouse/rat
   growth-plate expression analyses.
 - `analyses/gene_structure/`: representative five-species coding-gene
   structure tables, provenance, and figures.

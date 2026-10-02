@@ -1,14 +1,25 @@
 # Manual review of SynVoy loci
 
-Last updated: 2026-09-10
+Last updated: 2026-09-21
 
-**Current status:** all 98 SynVoy gene-by-species rows are reviewed: 25 detailed
+**Current status:** all 98 SynVoy gene-by-species rows are reviewed: 26 detailed
 P1 loci, 69 exact-locus P2 confirmations and four P3 controls. All live pending
 queues contain zero rows. Use
 `diagnostics/priority_locus_reviews/all_synvoy_review_decisions.tsv` for the
 complete curated decisions and `tables/synvoy_gene_species_evidence.tsv` for
 the merged evidence view. The checklist below is retained for reproducibility
 and for future rerun exceptions.
+
+This completed review was not 98 separate visual GDV confirmations. All 98 rows
+received exact-assembly GFF/accession checks; the 26 P1 exceptions received
+detailed feature-overlap and oriented-neighbour comparisons, while the 68 P2
+and four P3 rows received reproducible accession-to-locus confirmation.
+Your GDV screenshots and notes informed selected difficult cases; the exact-GFF
+checks are the reproducible basis of the 98-row audit. GDV remains the
+recommended interface for a reader's own visual spot-checks. A row
+without an archived GDV screenshot should not be described as visually
+confirmed in GDV. New SynVoy reports or corrected opossum inputs reopen only
+the rows whose underlying evidence changes.
 
 **Opossum warning:** the current opossum SynVoy results are invalid for synteny
 interpretation because the GFF chromosome versions do not match the paired
@@ -113,9 +124,9 @@ assembly accession rather than relying only on a similar-looking build name.
 | BGN / elephant shark | ambiguous | The only SynVoy hit was DCN; no annotated BGN model was resolved. |
 | BGN / opossum | ambiguous | Conserved surrounding block but no BGN model; input mismatch requires rerun. |
 | DCN / amphioxus | ambiguous | No gene-specific DCN locus resolved. |
-| DCN / coelacanth | tentative | `NC_088145.1:114048728-114126931`, `XP_006004204.1`; eight ordered anchors; SignalP pending. |
-| DCN / spotted gar | tentative | `NC_090702.1:16396890-16423580`, `XP_015208366.1`; eight ordered anchors; SignalP pending. |
-| DCN / zebrafish | tentative | `NC_133179.1:16955805-16993841`, `NP_571772.1`; conserved class-III block; SignalP pending. |
+| DCN / coelacanth | accepted | `NC_088145.1:114048728-114126931`, `XP_006004204.1`; eight ordered anchors and completed positive SignalP call. |
+| DCN / spotted gar | accepted | `NC_090702.1:16396890-16423580`, `XP_015208366.1`; eight ordered anchors and completed positive SignalP call. |
+| DCN / zebrafish | accepted | `NC_133179.1:16955805-16993841`, `NP_571772.1`; conserved EPYC-KERA-LUM-DCN block and completed positive SignalP call. |
 | EPYC / amphioxus | rejected | SynVoy interval overlaps a RUN-domain protein-like gene, not EPYC. |
 | EPYC / coelacanth | accepted | `NC_088145.1:113783413-113830371`, `XP_006009490.1`; ten ordered anchors. |
 | EPYC / elephant shark | accepted | `NW_024704746.1:33285071-33298586`, `XP_007893502.1`; canonical rescue locus and seven ordered anchors. |
@@ -162,11 +173,11 @@ confirmed ortholog.
 | 8 | FMOD / zebrafish | `XP_073767056.1`; then `FMOD` | 0 | Check for an annotated/duplicated FMOD locus and conserved neighbours. |
 | 9 | PRELP / zebrafish | `XP_001923590.2`; then `PRELP` or `prolargin` | 0 | Does the supported protein map to a defensible PRELP locus? |
 | 10 | PRELP / amphioxus | Search `PRELP`, `prolargin`, then SLRP-like models | 0 | Is there any locus-level support, or is the case annotation-limited? |
-| 11 | DCN / coelacanth | `NC_088145.1:114049722-114102359`; `XP_006004204.1` | 1 | Confirm the complete model and flanking block; SignalP is still pending. |
+| 11 | DCN / coelacanth | `NC_088145.1:114049722-114102359`; `XP_006004204.1` | 1 | Completed: accepted after ordered-flank, protein/tree, and positive SignalP review. |
 | 12 | DCN / spotted gar | `XP_015208366.1`; then `DCN` | 0 | Locate the protein-supported gene and determine why SynVoy retained no locus. |
 | 13 | DCN / zebrafish | `NP_571772.1`; then `DCN` | 0 | Locate the established protein and assess teleost locus rearrangement/annotation. |
 | 14 | DCN / amphioxus | Search `DCN`, `decorin`, then SLRP-like models | 0 | Determine whether evidence is absent or simply not assessable in this deep lineage. |
-| 15 | BGN / catshark | `XP_038638277.1`; then `BGN` | 0 | Locate the protein model and assess synteny; SignalP and ProtSpace checks remain pending. |
+| 15 | BGN / catshark | `XP_038638277.1`; then `BGN` | 0 | Completed: tentative partial BGN; signal peptide positive, C terminus incomplete, and locus support partial. |
 | 16 | BGN / elephant shark | Search `BGN`, `biglycan`, then expected neighbours | 0 | Check whether an unlabelled/fragmented BGN locus exists. |
 | 17 | BGN / opossum | Search `BGN`, `biglycan`, then expected neighbours | 0 | Check the apparent missing SynVoy call in a well-annotated mammal. |
 | 18 | BGN / amphioxus | Search `BGN`, `biglycan`, then SLRP-like models | 0 | Treat absence cautiously; assess whether the locus is informative at all. |

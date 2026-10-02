@@ -38,10 +38,19 @@ the Supervisor line or one on the Advisor line.
 
 ## Overleaf
 
-Upload the contents of this directory together, including the `frontmatter/`
-folder and its PDF. Set `main.tex` as the main document. The project uses
-standard pdfLaTeX-compatible packages, so pdfLaTeX is the safest compiler
-choice.
+Upload this directory as one project, including `frontmatter/` and its PDF,
+or import the prepared ZIP with `main.tex` at its root. Set `main.tex` as the
+main document and use pdfLaTeX. This repository has no configured Overleaf
+Git remote, so edits made here do not appear automatically in an existing
+Overleaf project. To update an existing project without replacing it, upload
+the changed `main.tex`, `chapters/*.tex`, and updated expression and synteny
+figures into the same relative paths in that project. A project-specific
+Overleaf Git remote would enable direct synchronization later.
+
+The current manuscript describes the 98-row SynVoy locus audit as an
+exact-assembly GFF/accession assessment with detailed review of 25 priority
+exceptions. It does not claim that all 98 rows were independently inspected
+visually in NCBI Genome Data Viewer.
 
 Generated PDF and auxiliary build files are outputs, not source files; keep
 them out of this directory or place local build output under `build/`.

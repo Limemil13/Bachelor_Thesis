@@ -33,7 +33,7 @@ Outputs:
 
 ## Review tiers
 
-### P1: detailed review (25 rows; complete)
+### P1: detailed review (26 rows; complete)
 
 These rows have no retained HIGH/MEDIUM candidate or only a MEDIUM best call.
 They are the loci most likely to change a biological conclusion.
@@ -59,7 +59,7 @@ or zebrafish. MEDIUM-only P1 rows are DCN coelacanth; EPYC amphioxus,
 coelacanth, elephant shark, or zebrafish; FMOD amphioxus or catshark; LUM
 amphioxus, catshark, coelacanth, or spotted gar; and PRELP catshark.
 
-### P2: rapid confirmation (69 rows; complete)
+### P2: rapid confirmation (68 rows; complete)
 
 These rows have a HIGH best call plus at least one automated exception, such as
 multiple candidates, a rescue/partial model, a consistency flag, a deep-lineage

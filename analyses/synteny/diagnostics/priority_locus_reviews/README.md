@@ -3,8 +3,8 @@
 Last updated: 2026-09-10
 
 This directory contains the reproducible curation layer for all 98 SynVoy
-gene-by-species combinations. The 25 P1 rows received detailed locus review;
-the remaining 69 P2 rows and four P3 controls received an exact-GFF canonical
+gene-by-species combinations. The 26 P1 rows received detailed locus review;
+the remaining 68 P2 rows and four P3 controls received an exact-GFF canonical
 accession/locus confirmation. All generated pending queues are now empty. The
 complete decisions are stored in `all_synvoy_review_decisions.tsv` and merged
 into `../../tables/synvoy_gene_species_evidence.tsv`.
@@ -121,7 +121,7 @@ type of mismatch is detected before future runs.
 
 | File or directory | Purpose |
 |---|---|
-| `manual_review_decisions.tsv` | Curated decisions and full evidence notes for all 25 P1 rows. |
+| `manual_review_decisions.tsv` | Curated decisions and full evidence notes for all 26 P1 rows. |
 | `all_synvoy_review_decisions.tsv` | Complete decision source for all 98 P1/P2/P3 rows. |
 | `canonical_locus_audit.tsv` | Exact-GFF canonical-accession versus SynVoy-coordinate audit for all rows. |
 | `synvoy_raw_candidates.tsv` | Coordinates and ownership outcomes of all raw HIGH/MEDIUM candidates. |
@@ -150,10 +150,15 @@ python3 analyses/synteny/scripts/build_synvoy_review.py \
   --protspace-table analyses/protein_analysis/protspace/tables/protspace_canonical_embedding_qc.tsv \
   --input-audit analyses/synteny/diagnostics/priority_locus_reviews/fasta_gff_seqid_audit_summary.tsv \
   --manual-decisions analyses/synteny/diagnostics/priority_locus_reviews/all_synvoy_review_decisions.tsv \
+  --species-report-overrides analyses/synteny/diagnostics/opossum_report_overrides.tsv \
   --output-dir analyses/synteny/tables
 ```
 
+The override file replaces only the seven opossum rows with the matched
+GCF_027887165.2 single-species reports. All other rows continue to come from
+the named 14-species reports.
+
 After rebuilding, all three queue files should contain zero data rows;
 `synvoy_manual_review_completed.tsv`, `synvoy_batch_confirmation_completed.tsv`
-and `synvoy_spot_check_completed.tsv` should contain 25, 69 and four rows,
-respectively.
+and `synvoy_spot_check_completed.tsv` should together contain all 98 reviewed
+gene-by-species rows; the exact split is reported by the build command.

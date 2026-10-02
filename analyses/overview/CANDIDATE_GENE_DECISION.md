@@ -26,8 +26,8 @@ expressed SLRPs. Describe them as an **expression-supported, class-spanning pane
 of juvenile cartilage/growth-plate-associated SLRPs** selected using several
 evidence types:
 
-- reproducible expression in three local P0 Prx1-lineage
-  chondroprogenitor samples;
+- reproducible expression in three P0 Prx1-lineage chondroprogenitor samples
+  from public NCBI GEO GSE305415 (re-extracted from stored Salmon files);
 - independent, zone-resolved mouse and rat growth-plate expression;
 - prior cartilage, growth-plate, or skeletal evidence;
 - representation of SLRP classes I (BGN), II (FMOD, PRELP, and LUM), and III

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Plot the non-pooled local and growth-plate expression evidence.
+"""Plot the non-pooled GSE305415 and growth-plate expression evidence.
 
-Panel A uses local P0 Prx1-lineage TPM (mean +/- SD). Panel B uses only
+Panel A uses GSE305415 WT P0 Prx1-lineage TPM (mean +/- SD). Panel B uses only
 within-species ranks from the independent zone-resolved GSE114919 tibial data.
 The two scales are deliberately not combined.
 """
@@ -69,7 +69,7 @@ def main() -> None:
     axes[0].set_yscale("log")
     axes[0].set_xticks(x, GENES, rotation=35, ha="right")
     axes[0].set_ylabel("TPM, log scale (mean +/- SD; n = 3)")
-    axes[0].set_title("A  Local P0 Prx1-lineage chondroprogenitors", loc="left")
+    axes[0].set_title("A  GSE305415 WT P0 Prx1-lineage cells", loc="left")
     axes[0].grid(axis="y", which="both", alpha=0.2)
 
     image = axes[1].imshow(

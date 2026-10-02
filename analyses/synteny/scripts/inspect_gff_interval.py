@@ -95,8 +95,12 @@ def main() -> None:
 
     args.output_prefix.parent.mkdir(parents=True, exist_ok=True)
     outputs = {
-        args.output_prefix.with_name(args.output_prefix.name + "_features.tsv"): interval_features,
-        args.output_prefix.with_name(args.output_prefix.name + "_neighbors.tsv"): neighborhood,
+        args.output_prefix.with_name(
+            args.output_prefix.name + "_features.tsv"
+        ): interval_features,
+        args.output_prefix.with_name(
+            args.output_prefix.name + "_neighbors.tsv"
+        ): neighborhood,
     }
     for path, rows in outputs.items():
         fields = [

@@ -14,8 +14,9 @@ main member.
 
 ## Workflow and role of each layer
 
-1. **Expression-guided prioritization.** Local P0 Prx1-lineage TPMs provide a
-   juvenile skeletal-lineage screen. GSE114919 mouse/rat microdissected zones
+1. **Expression-guided prioritization.** GSE305415-derived P0 Prx1-lineage
+   TPMs, re-extracted from stored Salmon quantifications, provide a juvenile
+   skeletal-lineage screen. GSE114919 mouse/rat microdissected zones
    provide direct growth-plate support, and Bgee adds qualitative context.
    Expression prioritizes genes but does not prove function or orthology.
 
@@ -72,7 +73,7 @@ main member.
 - 103 canonical proteins: BGN 13, DCN 15, EPYC 15, FMOD 14, LUM 16, OGN 14,
   PRELP 16.
 - 693 significant Pfam hits; seven canonical MSAs/logos.
-- 86 retained SignalP calls: 85 positive, one negative; 17 pending.
+- 103 SignalP calls: 100 positive, three negative; none pending.
 - ProtSpace: 103 SLRPs plus four controls.
 - Protein motifs: all 103 rank their own gene model best, with no independent
   hold-out set.

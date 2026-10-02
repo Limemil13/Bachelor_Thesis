@@ -6,22 +6,25 @@
 \subsection{Expression-guided selection of candidate SLRPs}
 \label{subsec:results-expression}
 
-The initial expression screen measured nine SLRP genes in three postnatal-day-0
-Prx1-lineage chondroprogenitor samples. BGN had the highest mean abundance
-(3012.762 TPM), followed by OGN (657.412 TPM), FMOD (605.864 TPM), DCN
-(581.246 TPM), LUM (272.457 TPM), PRELP (189.840 TPM), ASPN (112.954 TPM),
+The initial expression screen measured nine SLRP genes in three samples of
+P0-derived Prx1-lineage chondrocyte material from NCBI GEO GSE305415. BGN had the
+highest mean abundance (3012.762 TPM), followed by OGN (657.412 TPM), FMOD
+(605.864 TPM), DCN (581.246 TPM), LUM (272.457 TPM), PRELP (189.840 TPM),
+ASPN (112.954 TPM),
 EPYC (99.059 TPM), and OMD (96.317 TPM). Because these samples represented a
-juvenile skeletal lineage rather than anatomically isolated growth-plate zones,
+P0-derived skeletal lineage rather than anatomically isolated growth-plate zones,
 the screen was treated as a prioritization dataset and not as direct evidence
-of growth-plate-specific expression.
+of growth-plate-specific expression. The deposited series and sample records
+disagree about whether RNA was extracted before or after culture; therefore,
+these values were not attributed to an exact in-vivo chondrocyte state.
 
 Processed microdissected tibial growth-plate data from mouse and rat
 (GSE114919) provided the direct anatomical comparison. BGN, FMOD, and PRELP
 ranked consistently highly across the examined age-by-zone conditions. LUM and
 EPYC showed intermediate support, whereas OGN ranked lower, particularly in
-rat. The numerical scales of the local TPM dataset and GSE114919 were not
-pooled. Bgee call summaries and gene-specific literature were used as
-independent contextual evidence rather than as replacements for the two local
+rat. The numerical scales of the GSE305415-derived TPM dataset and GSE114919
+were not pooled. Bgee call summaries and gene-specific literature were used as
+independent contextual evidence rather than as replacements for the two
 expression analyses. Figure~\ref{fig:expression-evidence} presents these two
 complementary expression layers without combining their numerical scales.
 
@@ -32,19 +35,27 @@ and retained OGN as an explicitly exploratory class-III member. DCN was included
 as a full class-I candidate and the closest paralog control for BGN. OMD was
 retained as a context gene because of its
 skeletal literature and conserved representative gene structure, but it was not
-advanced to the full protein, phylogeny, and synteny workflow.
+advanced to the full protein, phylogeny, and synteny workflow. ASPN was retained
+as class-I background rather than advanced to the seven-gene panel: it ranked
+seventh in the P0-derived screen, its independent tibial growth-plate support
+was weaker and inconsistent between mouse and rat, and BGN plus the DCN paralog
+control already supplied the main class-I comparison. This was a scope and
+evidence-prioritization decision, not a claim that ASPN is absent from cartilage.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]
         {figures/expression/expression_evidence.png}
     \caption{Expression evidence used to prioritize the seven-gene SLRP panel.
-    Panel A summarizes mean expression in three postnatal-day-0 Prx1-lineage
-    chondroprogenitor samples; error bars show standard deviation and the
-    abundance axis is logarithmic. Panel B summarizes within-condition ranks in
+    Panel A summarizes mean expression in three samples of P0-derived
+    Prx1-lineage chondrocyte material from NCBI GEO GSE305415; error bars show
+    standard deviation and the abundance axis is logarithmic. Panel B
+    summarizes within-condition ranks in
     processed mouse and rat microdissected tibial growth-plate data
     (GSE114919). The two numerical scales were not pooled. Expression was used
-    for biological prioritization and does not establish function or orthology.}
+    for biological prioritization and does not establish function or orthology.
+    Because the deposited records conflict about culture before RNA extraction,
+    the exact cell state is not assigned.}
     \label{fig:expression-evidence}
 \end{figure}
 
@@ -73,7 +84,11 @@ positive calls; its negative calls were the fragmentary whale-shark BGN
 negative record was spotted-gar OGN \texttt{XP\_006631165.2}. Manual inspection
 showed an intact OGN protein and a continuous LRR-rich alignment, so it was
 retained as tentative while uncertainty about its N-terminal secretion signal
-was recorded. Opossum OGN
+was recorded. The exact spotted-gar GFF contained only one \textit{ogna}
+transcript (\texttt{XM\_006631102.3}), so no annotated alternative N terminus
+could be substituted. Although residues 8--25 form a strongly hydrophobic
+N-terminal segment, SignalP classified the sequence as OTHER (SP score 0.167)
+without a cleavage call; this supported no confidence upgrade. Opossum OGN
 \texttt{XP\_056660002.1} and zebrafish OGN \texttt{NP\_001013588.1} were
 retained after manual inspection of termini, conserved cysteine positions, and
 alignment continuity. The whale-shark EPYC sequence
@@ -143,6 +158,28 @@ infer a direction of evolution without an explicit outgroup. The combined
 analysis and its gene-specific exceptions are shown in
 Figure~\ref{fig:combined-phylogeny}.
 
+\begin{table}[htbp]
+    \centering
+    \caption{Support for the largest pure gene-specific split in the final
+    103-protein unrooted tree. Branch labels are reported as
+    SH-aLRT/UFBoot percentages. For BGN and LUM the value describes the largest
+    pure subset rather than monophyly of every assigned sequence.}
+    \label{tab:phylogeny-support}
+    \begin{tabularx}{\textwidth}{@{}lcccX@{}}
+        \toprule
+        Gene & Pure split & Total tips & SH-aLRT/UFBoot & Interpretation \\
+        \midrule
+        BGN   & 6  & 13 & 99.6/99 & Strongly supported subset; the full BGN set is not one pure split. \\
+        DCN   & 15 & 15 & 100/99  & Complete pure split. \\
+        EPYC  & 15 & 15 & 96.6/89 & Complete pure split. \\
+        FMOD  & 14 & 14 & 94/100  & Complete pure split. \\
+        OGN   & 14 & 14 & 94.9/99 & Complete pure split after amphioxus exclusion. \\
+        PRELP & 16 & 16 & 94.3/99 & Complete pure split. \\
+        LUM   & 15 & 16 & 94.1/99 & Main pure split; lamprey LUM lies outside it. \\
+        \bottomrule
+    \end{tabularx}
+\end{table}
+
 \begin{figure}[p]
     \centering
     \includegraphics[width=\textwidth,height=0.82\textheight,keepaspectratio]
@@ -202,7 +239,7 @@ reflected incompatible FASTA/GFF inputs rather than evolutionary divergence.
     to the human reference across the canonical proteins available for each
     species; labels give the number of retained proteins and bar colours denote
     lineage groups. Medians based on different gene subsets are descriptive and
-    are not a molecular-clock analysis. (B) Completed manual synteny decisions
+    are not a molecular-clock analysis. (B) Recorded locus-audit decisions
     across the seven focal genes. Rat and lamprey were not SynVoy targets, and
     human supplied the home locus. Opossum calls are technically uninterpretable
     because the FASTA/GFF sequence versions differ. The amphioxus protein and
@@ -217,19 +254,21 @@ reflected incompatible FASTA/GFF inputs rather than evolutionary divergence.
 Completed SynVoy reports for BGN, DCN, EPYC, FMOD, LUM, OGN, and PRELP were
 parsed across 14 non-human target genomes, yielding a 98-row gene-by-genome
 evidence table. The numbers of genomes with a best retained HIGH call were 9
-for BGN, 10 for DCN, 9 for EPYC, 11 for FMOD, 10 for LUM, 13 for OGN, and 11
+for BGN, 10 for DCN, 9 for EPYC, 10 for FMOD, 10 for LUM, 13 for OGN, and 11
 for PRELP. HIGH and MEDIUM values identify retained automated candidates, not
 verified one-to-one orthologs, because one genome can contribute multiple calls
 or a rescue-derived candidate. The automated results were therefore used to
 locate and prioritize loci rather than as a binary orthology test.
 
-The review scheme assigned 25 rows to detailed P1 inspection, 69 to rapid P2
-confirmation, and four to P3 controls. All 98 reviews were completed. Fifty
-gene-by-target combinations were accepted, 32 were retained as tentative, 12
-remained ambiguous, and four were rejected. In 67 combinations, the canonical
-protein accession directly overlapped the best post-ownership SynVoy locus in
-the exact target GFF3. This confirmed that the automated coordinate and the
-protein analysed elsewhere in the thesis represented the same model.
+The review scheme assigned 26 rows to detailed P1 feature and neighbourhood
+inspection, 68 to rapid P2 accession--locus confirmation, and four to P3
+controls. All 98 rows have a recorded evidence-based decision: 62 were
+accepted, 20 retained as tentative, 12 remained ambiguous, and four were
+rejected. These decisions include batch GFF/accession checks and should not be
+read as 98 independent visual GDV confirmations. In 69 combinations,
+the canonical protein accession directly overlapped the best post-ownership
+SynVoy locus in the exact target GFF3, showing that the automated coordinate
+and the protein analysed elsewhere represented the same model in those cases.
 
 Detailed review showed why the remaining automated calls could not be read as
 a one-to-one orthology table. Canonical EPYC in coelacanth, elephant shark and
@@ -247,10 +286,16 @@ ASPN-like.
 The locus audit additionally resolved duplicated or annotation-sensitive FMOD
 cases. In zebrafish, \textit{fmodb} was the better full-length human-FMOD match,
 whereas \textit{fmoda} retained the ancestral FMOD--PRELP neighbourhood; both
-were therefore retained as co-ortholog evidence. In spotted gar, the summary's
-top HIGH interval overlapped lumican-like/PRELP models, but a second retained
-HIGH rescue overlapped canonical \textit{fmoda} and was supported by eight
-shared human flanking genes. The elephant-shark fibromodulin-like model remained
+were therefore retained as co-ortholog evidence. The updated-tool FMOD report
+was integrated rather than treated as a pending rerun. It contained 10 HIGH and
+five MEDIUM retained calls, compared with 12 HIGH and seven MEDIUM in the
+historical report. Most changes did not alter the final biological decision,
+but in spotted gar the updated best HIGH rescue directly overlapped canonical
+\textit{fmoda}; eight shared human flanking genes independently supported that
+locus. Amphioxus remained rejected, whereas catshark, whale shark, and
+zebrafish retained qualified decisions based on the combined locus and protein
+evidence rather than the automated rank alone. The elephant-shark
+fibromodulin-like model remained
 tentative despite a complete 684-aa translation from nine CDS segments. BLASTP
 assigned residues 1--330 most strongly to DCN (47.0\% identity) and residues
 376--684 most strongly to FMOD (57.0\% identity; 82.2\% coverage of human
@@ -262,23 +307,28 @@ retained as tentative FMOD evidence, but the protein was excluded from the
 confident FMOD panel.
 
 All seven opossum rows were classified as ambiguous for synteny because the
-local GFF3 and FASTA used incompatible chromosome sequence versions. This
-technical exclusion does not invalidate independently supported opossum
-proteins, but it prevents use of the current SynVoy scores as locus evidence.
+GFF3 and FASTA used for those completed reports had incompatible chromosome
+sequence versions. A replacement GCF\_027887165.2 pair subsequently passed the
+identifier audit, but its gene-level reruns were not complete at the data
+freeze. This technical exclusion does not invalidate independently supported
+opossum proteins, but it prevents use of the completed SynVoy scores as locus
+evidence.
 A gene absent from a retained SynVoy call was otherwise recorded as unresolved,
 not as a demonstrated evolutionary loss. Figure~\ref{fig:synvoy-overview}
-separates the automated call from the completed integrated review decision.
+separates the automated call from the recorded integrated locus decision.
 
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]
         {figures/synteny/synvoy_species_confidence_heatmap.png}
-    \caption{SynVoy locus-level evidence and completed review outcomes for seven
+    \caption{SynVoy locus-level evidence and recorded review outcomes for seven
     genes across 14 non-human target genomes. Panel A shows the best retained
     automated candidate class after ownership/paralog filtering: H, HIGH; M,
     MEDIUM; dash, no retained HIGH/MEDIUM call. Panel B shows the integrated
     locus decision: A, accepted; T, tentative; question mark, ambiguous; R,
-    rejected. A missing automated call is not evidence of gene loss. All
+    rejected. Decisions combine exact-assembly GFF/accession checks with
+    detailed review of prioritized exceptions; they are not 98 independent
+    visual GDV confirmations. A missing automated call is not evidence of gene loss. All
     opossum outcomes are ambiguous because the target FASTA and GFF3 sequence
     identifiers were incompatible.}
     \label{fig:synvoy-overview}
@@ -293,9 +343,17 @@ for each examined gene: seven CDS exons for BGN and DCN, six for EPYC and OGN, a
 for FMOD, PRELP, LUM, and OMD. Estimated protein lengths were correspondingly
 stable, whereas total gene span varied more strongly because of intron-length
 differences. No representative transcript was flagged as a structural outlier.
-All 40 genome-reconstructed CDSs were divisible by three, began with methionine,
-contained a terminal stop codon, and lacked internal stops; all coding
-blocks also passed their GFF phase-continuity checks.
+All 40 selected annotation models produced genome-reconstructed CDSs that were
+divisible by three, began with methionine, contained a terminal stop codon, and
+lacked internal stops; all coding blocks also passed their GFF phase-continuity
+checks. These are annotation-quality results rather than automatic orthology
+validation. The accession crosswalk identified 18 exact canonical-panel
+accessions and 15 alternative accessions with equivalent or near-equivalent
+translations. Zebrafish BGN structure was represented by \textit{bgna}, whereas
+the canonical protein panel used \textit{bgnb}. The technically complete chicken
+BGN-locus transcript encoded the ASPN-like product \texttt{XP\_414298.2} and was
+therefore not counted as independent BGN orthology support. OMD remained a
+five-species context-only comparison.
 
 The higher-resolution splice analysis identified 26 coding junctions that were
 comparable across all five species. Intron phase was conserved for all 26.
@@ -305,6 +363,9 @@ which varied by two amino acids. The remaining genes preserved phase despite
 modest boundary displacement (median gene-level ranges of 6--18 amino acids).
 Thus, the shared exon counts represent a conserved frame-compatible coding
 organization rather than only the same number of annotated boxes.
+For BGN, this statement describes the selected annotated BGN-like/co-ortholog
+set and does not override the chicken product conflict or the zebrafish
+\textit{bgna}/\textit{bgnb} distinction.
 
 The annotation-level isoform screen identified coding alternatives that could
 change CDS-exon count and/or protein length at 11 of 40 loci. These flags were
@@ -336,7 +397,10 @@ organization and distinguishes it from more variable total gene span.
     within each of the seven comparative genes and OMD context, and estimated
     protein length is much more stable than intron-dependent genomic span.
     Results depend on the selected representative annotation and support gene-
-    model plausibility rather than orthology by themselves.}
+    model plausibility rather than orthology by themselves. The chicken BGN
+    annotation is structurally coherent but its product is ASPN-like, and the
+    zebrafish BGN structure row represents \textit{bgna} rather than the
+    canonical-panel \textit{bgnb}.}
     \label{fig:gene-structure-overview}
 \end{figure}
 
@@ -409,8 +473,8 @@ GC content ranged from 32.48\% to 59.06\%.
 No site from the targeted 40-profile transcription-factor panel passed the
 strict FIMO threshold of $q\leq0.05$, and no targeted motif reached the
 panel-corrected AME threshold of $E<0.05$. HIF1A was the strongest targeted AME
-result (raw $p=3.34\times10^{-5}$; within-motif adjusted $p=0.0292$), but its
-panel-corrected E-value was 1.17. Eight motifs from the full JASPAR collection
+result (raw $p=7.49\times10^{-5}$; within-motif adjusted $p=0.0638$), but its
+panel-corrected E-value was 2.55. Twelve motifs from the full JASPAR collection
 passed $E<0.05$; several were A-rich, T-rich, or repetitive, as were many global
 de-novo motifs. The analysis therefore did not identify a statistically
 supported shared cartilage/growth-plate regulatory signature. Uncorrected
