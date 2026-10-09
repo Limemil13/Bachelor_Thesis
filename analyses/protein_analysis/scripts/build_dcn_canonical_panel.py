@@ -1,10 +1,4 @@
-"""Build the compact DCN ortholog panel from the pinned NCBI ortholog download.
-
-The panel mirrors the vertebrate sampling used for the other thesis SLRPs. An
-amphioxus sequence is intentionally not forced into the set: the old DCN hit
-XP_066272062.1 is also the historical LUM hit and is not a confident DCN
-ortholog. Each retained protein is checked against the human DCN query and a
-human SLRP reference panel with BLASTP.
+"""Since DCN was confused with BGN this builds a comparison panel in order to recognize BGN/DCN wrong assignments
 """
 
 from __future__ import annotations
@@ -19,7 +13,7 @@ BASE = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = BASE.parents[1]
 SOURCE_FASTA = (
     PROJECT_ROOT
-    / "analyses/phylogenetics/per_gene_trees/DCN/ncbi_download/DCN_orthologs"
+    / "data/ncbi/DCN_orthologs"
     / "ncbi_dataset/data/protein.faa"
 )
 REFERENCE_FASTA = (

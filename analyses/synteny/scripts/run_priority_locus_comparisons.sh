@@ -13,6 +13,7 @@ human_gff="$synvoy_root/pro_panel/genomes/gff/human.gff"
 output_root="$thesis_root/analyses/synteny/diagnostics/priority_locus_reviews"
 
 run_comparison() {
+  # Compare one named human locus with one target locus using 15 genes per flank.
   local gene=$1
   local species=$2
   local human_selector=$3
@@ -27,6 +28,7 @@ run_comparison() {
     --output-dir "$output_dir"
 }
 
+# These pairs are the priority loci selected from the SynVoy review queues.
 run_comparison BGN catshark BGN@NC_000023.11 LOC119955784@NC_052166.1
 
 run_comparison DCN coelacanth DCN@NC_000012.12 DCN@NC_088145.1

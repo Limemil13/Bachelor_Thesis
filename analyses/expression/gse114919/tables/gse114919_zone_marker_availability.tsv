@@ -1,0 +1,11 @@
+species	gene	role	expected_zone	available_in_source_matrix	source_identifier	source_row	note
+mouse	SOX9	cartilage_lineage_control	none	yes	SOX9	16932	one exact gene-symbol row in the deposited matrix
+mouse	COL2A1	cartilage_matrix_control	none	yes	COL2A1	4438	one exact gene-symbol row in the deposited matrix
+mouse	ACAN	cartilage_matrix_control	none	yes	ACAN	1451	one exact gene-symbol row in the deposited matrix
+mouse	COL10A1	hypertrophic_marker	HZ	yes	COL10A1	4417	one exact gene-symbol row in the deposited matrix
+mouse	MMP13	hypertrophic_marker	HZ	yes	MMP13	11632	one exact gene-symbol row in the deposited matrix
+rat	SOX9	cartilage_lineage_control	none	yes	NM_080403	10838	one exact gene-symbol row in the deposited matrix
+rat	COL2A1	cartilage_matrix_control	none	yes	NM_012929	6751	one exact gene-symbol row in the deposited matrix
+rat	ACAN	cartilage_matrix_control	none	yes	NM_022190	213	one exact gene-symbol row in the deposited matrix
+rat	COL10A1	hypertrophic_marker	HZ	no			no exact gene-symbol row; unavailable, not treated as zero
+rat	MMP13	hypertrophic_marker	HZ	yes	NM_133530	7924	one exact gene-symbol row in the deposited matrix

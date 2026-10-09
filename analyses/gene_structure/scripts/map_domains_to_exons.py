@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Parse representative-protein Pfam hits and map them onto coding exons."""
+"""Parse representative-protein Pfam hits and map them onto coding exons
+For each selected transcript a domain-exon architecture is generated
+"""
 
 from __future__ import annotations
 
@@ -211,8 +213,6 @@ def main() -> None:
         list(summary_rows[0]),
     )
 
-    # Human overview: coding-exon positions provide the structural frame and
-    # significant LRR-family hits show how the protein architecture crosses it.
     human_blocks = pd.DataFrame(blocks)
     human_blocks = human_blocks[human_blocks["species"].eq("human")]
     human_hits = hit_df[

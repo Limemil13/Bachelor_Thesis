@@ -1,8 +1,7 @@
 """Fetch reproducible Bgee 16 expression evidence for thesis SLRP candidates.
 
 The script keeps anatomy-only calls (all supported data types) separate from
-stage-resolved calls supported by bulk or single-cell RNA-seq. Bgee data
-availability is not interpreted as biological absence.
+stage-resolved calls supported by bulk or single-cell RNA-seq.
 """
 
 from __future__ import annotations
@@ -65,7 +64,7 @@ SPECIES = {
         },
     },
 }
-
+# Terms used to flag potentially relevant musculoskeletal anatomy calls.
 SKELETAL_PATTERN = re.compile(
     r"cartilage|chondr|growth plate|epiphys|joint|bone|skelet|tendon|ligament|"
     r"intervertebral|notochord|sclerotome|somite|femur|tibia|humerus|vertebr",
@@ -151,6 +150,7 @@ def expression_query(gene_row: dict[str, str], mode: str) -> tuple[dict, str]:
 def flatten_call(
     call: dict, gene_row: dict[str, str], mode: str, url: str
 ) -> dict[str, str]:
+    # Flatten the nested response while retaining IDs and request provenance.
     condition = call.get("condition", {})
     anatomy = condition.get("anatEntity") or {}
     stage = condition.get("devStage") or {}
@@ -183,6 +183,7 @@ def flatten_call(
 def write_tsv(
     path: Path, rows: list[dict[str, str]], fields: list[str] | None = None
 ) -> None:
+    # Keep a stable TSV column order.
     path.parent.mkdir(parents=True, exist_ok=True)
     columns = fields or list(rows[0])
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -192,7 +193,9 @@ def write_tsv(
 
 
 def main() -> None:
+    # Resolve exact Bgee gene IDs before requesting expression calls.
     RAW_DIR.mkdir(parents=True, exist_ok=True)
+    # Run independent lookups concurrently, then sort the results.
     lookup_tasks = []
     with ThreadPoolExecutor(max_workers=3) as executor:
         for species, info in SPECIES.items():
@@ -206,6 +209,7 @@ def main() -> None:
     gene_rows.sort(key=lambda row: (row["species"], row["thesis_gene"]))
     write_tsv(TABLE_DIR / "bgee_slrp_gene_mapping.tsv", gene_rows)
 
+    # Retain raw JSON, flattened calls, and query-level provenance.
     calls: list[dict[str, str]] = []
     provenance: list[dict[str, str]] = []
     with ThreadPoolExecutor(max_workers=3) as executor:
@@ -242,6 +246,7 @@ def main() -> None:
             )
             time.sleep(0.05)
 
+    # Sort after concurrent retrieval so output does not depend on completion time.
     calls.sort(
         key=lambda row: (
             row["species"],
@@ -271,6 +276,7 @@ def main() -> None:
         "request_url",
     ]
     write_tsv(TABLE_DIR / "bgee_slrp_expression_calls_all.tsv", calls, call_fields)
+    # Keyword filtering is a convenience subset, not proof of biological absence.
     relevant = [row for row in calls if row["skeletal_cartilage_term_match"] == "yes"]
     write_tsv(
         TABLE_DIR / "bgee_slrp_skeletal_cartilage_calls.tsv", relevant, call_fields
@@ -280,6 +286,7 @@ def main() -> None:
     )
     write_tsv(TABLE_DIR / "bgee_slrp_query_provenance.tsv", provenance)
 
+    # Summarize mappings and call counts while keeping missing mappings explicit.
     summary: list[dict[str, str]] = []
     for gene_row in gene_rows:
         for mode in ("anatomy_all_data", "stage_rnaseq"):

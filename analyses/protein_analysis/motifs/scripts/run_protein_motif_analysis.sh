@@ -13,11 +13,13 @@ RAW="${MOTIF_RAW_DIR:-$BASE/raw_outputs_7gene_20260914}"
 SEED="${MOTIF_SEED:-20260826}"
 
 mkdir -p "$INPUTS" "$RAW"
+# Prepare full-length and mature-protein FASTAs from the canonical panel.
 "$PYTHON_BIN" "$BASE/scripts/prepare_protein_motif_inputs.py" \
   --fasta "$REPO/analyses/protein_analysis/candidates/slrp_candidates_canonical.faa" \
   --protein-table "$REPO/analyses/protein_analysis/tables/protein_conservation_domain_msa_signalp_summary.tsv" \
   --output-dir "$INPUTS"
 
+# Discover motifs across all mature SLRPs and scan them back across the panel.
 "$MEME_BIN" "$INPUTS/slrp_canonical_103_mature.faa" -protein \
   -oc "$RAW/meme_all_slrp" -mod zoops -nmotifs 12 -minw 6 -maxw 40 \
   -evt 0.05 -seed "$SEED" -maxsize 1000000 -nostatus
@@ -25,6 +27,8 @@ mkdir -p "$INPUTS" "$RAW"
   "$RAW/meme_all_slrp/meme.txt" "$INPUTS/slrp_canonical_103_mature.faa"
 
 for gene in BGN DCN FMOD PRELP EPYC LUM OGN; do
+  # Build gene-specific motif models, cross-scan all proteins, and run a
+  # gene-versus-other-genes discriminative STREME analysis.
   "$MEME_BIN" "$INPUTS/per_gene/${gene}_mature.faa" -protein \
     -oc "$RAW/meme_${gene}" -mod zoops -nmotifs 12 -minw 6 -maxw 40 \
     -evt 0.05 -seed "$SEED" -maxsize 1000000 -nostatus

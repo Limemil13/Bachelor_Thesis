@@ -1,0 +1,9 @@
+field	value
+canonical_input	analyses/protein_analysis/candidates/slrp_candidates_canonical.faa
+canonical_tree	analyses/phylogenetics/combined_trees/six_gene_tree/SLRP_selected_working_genes.treefile
+sensitivity_input_count	101
+excluded_accessions	XP_038638277.1,XP_048475905.1
+iqtree_seed	797597
+mafft_version	v7.505 (2022/Apr/10)
+trimal_version	trimAl v1.5.rev1 build[2025-11-25]
+iqtree_version	IQ-TREE multicore version 2.0.7 for Linux 64-bit built Apr  1 2024

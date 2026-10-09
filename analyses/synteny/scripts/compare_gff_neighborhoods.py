@@ -27,6 +27,7 @@ from urllib.parse import unquote
 
 @dataclass(frozen=True)
 class Gene:
+
     seqid: str
     start: int
     end: int
@@ -98,6 +99,7 @@ def gene_symbol(attributes: dict[str, str]) -> str:
 
 
 def read_genes(path: Path, include_noncoding: bool) -> list[Gene]:
+    #set by default compare coding genes, best annotated in general
     genes: list[Gene] = []
     with path.open(encoding="utf-8", errors="ignore") as handle:
         for raw_line in handle:
@@ -129,6 +131,9 @@ def read_genes(path: Path, include_noncoding: bool) -> list[Gene]:
 
 
 def find_focal_gene(genes: list[Gene], selector: str) -> Gene:
+    '''Require an exact symbol/ID match rather than a substring, which could confuse
+    BGN with a similarly named locus. seqid forces a choice only when an
+    annotation legitimately contains the same symbol at multiple positions'''
     symbol_selector, separator, seqid_selector = selector.rpartition("@")
     if not separator:
         symbol_selector, seqid_selector = selector, ""

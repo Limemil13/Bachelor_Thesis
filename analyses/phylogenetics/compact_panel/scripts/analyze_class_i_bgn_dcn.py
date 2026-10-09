@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-"""Quantify BGN/DCN discrimination in the combined canonical tree.
-
-This diagnostic is deliberately distance-based and unrooted. It asks whether
-each class-I protein is closer to another sequence bearing the same curated
-gene label than to the closest sequence bearing the paralog label. It does not
-infer ancestry or replace synteny/manual gene-model review.
+"""
+reads the BGN/DCN tree, it assigns tips to each expected gene group then checks if
+each group is seperated, the output lists the placements with conflicting labels
 """
 
 from __future__ import annotations
@@ -17,7 +14,7 @@ from Bio import Phylo
 ROOT = Path(__file__).resolve().parents[4]
 TREE = (
     ROOT
-    / "analyses/phylogenetics/combined_trees/six_gene_tree/SLRP_selected_working_genes.treefile"
+    / "analyses/phylogenetics/combined_trees/seven_gene_tree/SLRP_selected_working_genes.treefile"
 )
 OUT = (
     ROOT
@@ -26,6 +23,7 @@ OUT = (
 
 
 def parts(name: str) -> tuple[str, str, str]:
+    # Decode canonical gene, species and accession fields from a tree tip.
     gene, species, accession = name.split("|", 2)
     return gene, species, accession
 

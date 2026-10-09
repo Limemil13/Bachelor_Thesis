@@ -24,10 +24,13 @@ def write_tsv(path: Path, rows: list[dict[str, object]]) -> None:
 
 
 def confidence_rank(value: str) -> int:
+    # Convert SynVoy confidence labels to a stable sorting order.
     return {"HIGH": 3, "MEDIUM": 2, "LOW": 1}.get(value, 0)
 
 
 def main() -> None:
+    # For every priority-review pair, list raw pre-ownership candidates beside the
+    # final post-ownership GOI candidates so demotions remain visible.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--queue", required=True, type=Path)
     parser.add_argument("--synvoy-results", required=True, type=Path)

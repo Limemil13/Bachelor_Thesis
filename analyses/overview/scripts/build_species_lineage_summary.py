@@ -118,11 +118,11 @@ SPECIES = (
     {
         "protein": "monodelphis_domestica",
         "synteny": "opossum",
-        "display": "Opossum†",
+        "display": "Opossum",
         "scientific": "Monodelphis domestica",
         "lineage": "Marsupial",
         "role": "Marsupial mammal comparison",
-        "finding": "Six canonical proteins were retained, but all seven synteny rows are technically uninterpretable because the paired FASTA and GFF sequence versions differ.",
+        "finding": "Six canonical proteins were retained. Matched-assembly review accepted DCN, EPYC, FMOD, LUM, OGN and PRELP; BGN remains unresolved because the expected interval is mostly assembly gap.",
     },
     {
         "protein": "mouse",
@@ -193,15 +193,18 @@ STATUS_COLORS = {
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
+    # Read project result tables as dictionaries keyed by their header fields.
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
 def fmt(value: float | None, digits: int = 1) -> str:
+    # Format optional measurements without turning missing values into zero.
     return "not available" if value is None else f"{value:.{digits}f}"
 
 
 def write_tsv(path: Path, rows: list[dict[str, str]]) -> None:
+    # Use the first row to define a stable output column order.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]), delimiter="\t")
@@ -210,6 +213,8 @@ def write_tsv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def build_rows() -> list[dict[str, str]]:
+    # Combine protein-panel and SynVoy summaries for each sampled lineage. These
+    # counts describe available evidence, not ancestral gene-content estimates.
     manifest = read_tsv(
         ROOT / "analyses/protein_analysis/candidates/canonical_candidate_manifest.tsv"
     )
@@ -283,6 +288,7 @@ def build_rows() -> list[dict[str, str]]:
 
 
 def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
+    # Plot retained-protein coverage and locus-confidence counts side by side.
     labels = [row["display_species"] for row in rows]
     y = np.arange(len(rows))
     identities = [
@@ -367,8 +373,8 @@ def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
     fig.text(
         0.06,
         0.012,
-        "† Opossum synteny is technically uninterpretable because FASTA/GFF sequence versions differ.  "
-        "‡ Amphioxus protein and synteny searches used different Branchiostoma species; no absence claim is made.",
+        "‡ Amphioxus protein and synteny searches used different Branchiostoma species; no absence claim is made. "
+        "Opossum values use matched-assembly reruns reviewed with the same locus criteria as the other species.",
         fontsize=8,
     )
     fig.subplots_adjust(left=0.22, right=0.98, top=0.92, bottom=0.12, wspace=0.12)
@@ -379,6 +385,7 @@ def plot(rows: list[dict[str, str]], output_stem: Path) -> None:
 
 
 def main() -> None:
+    # Generate the lineage table, figure and a copy used by the thesis project.
     rows = build_rows()
     table = ROOT / "analyses/overview/tables/species_lineage_evidence_summary.tsv"
     figure = ROOT / "analyses/overview/figures/species_lineage_evidence_summary"

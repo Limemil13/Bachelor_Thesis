@@ -1,13 +1,12 @@
 #!/usr/bin/env python3
 """Create a complete 98-row SynVoy decision file.
-
 Detailed P1 decisions are preserved verbatim. P2/P3 rows are confirmed by the
 canonical-locus audit: the accession from the protein panel must map to the
 best post-ownership SynVoy locus in the exact GFF. Protein/SignalP/ProtSpace
 warnings keep an otherwise matching row tentative. Manually resolved rows may
 override that conservative rule. Two FMOD exceptions are recorded explicitly,
-and all opossum rows are marked ambiguous because the current FASTA/GFF pair is
-incompatible.
+and all frozen-table opossum rows are marked ambiguous because the original
+FASTA/GFF pair is incompatible.
 """
 
 from __future__ import annotations
@@ -83,11 +82,12 @@ def main() -> None:
                     if accession != "not available"
                     else "not available",
                     "reviewer": "Local input audit",
-                    "review_date": "2026-09-14",
+                    "review_date": "2026-06-14",
                     "manual_notes": (
-                        "The canonical protein may be independently usable, but the current opossum "
-                        "SynVoy locus is not interpretable: the GFF and FASTA sequence IDs are from "
-                        "incompatible versions. Rerun with a synchronized target pair before claiming synteny."
+                        "The canonical protein may be independently usable, but the frozen opossum "
+                        "SynVoy locus is not interpretable: the original GFF and FASTA sequence IDs "
+                        "are from incompatible versions. Matched post-freeze reports require repeated "
+                        "row-level review before replacing this decision."
                     ),
                 }
             )
@@ -105,7 +105,7 @@ def main() -> None:
                     "neighbor_order_consistent": "yes",
                     "phylogeny_consistent": "yes",
                     "reviewer": "Local GFF review",
-                    "review_date": "2026-09-14",
+                    "review_date": "2026-06-14",
                     "manual_notes": (
                         "The summary's top HIGH interval spans lumican-like and PRELP models, but a second "
                         "retained HIGH rescue overlaps canonical fmoda at NC_090700.1:38907779-38911298. "
@@ -128,7 +128,7 @@ def main() -> None:
                     "neighbor_order_consistent": "partial",
                     "phylogeny_consistent": "not available",
                     "reviewer": "Local GFF review",
-                    "review_date": "2026-09-14",
+                    "review_date": "2026-06-14",
                     "manual_notes": (
                         "The top SynVoy rescue overlaps an annotated fibromodulin-like model at "
                         "NW_024704760.1:2093069-2111518. Five human flanking symbols are shared and four "

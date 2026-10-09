@@ -1,127 +1,127 @@
 gene	motif_id	motif_name	motif_family	species_with_p_le_1e-4	species	hit_count	minimum_p_value	minimum_reported_q_value	interpretation
 BGN	MA0107.1	RELA	NF-kB	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0515.1	Sox6	SOX5/6/9	4	human;mouse;chicken;zebrafish	5	2.32e-05	0.265	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0105.4	NFKB1	NF-kB	2	human;cow	4	7.75e-06	0.208	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0515.1	Sox6	SOX5/6/9	3	human;mouse;zebrafish	3	3.8e-05	0.294	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0105.4	NFKB1	NF-kB	2	human;cow	4	7.75e-06	0.202	exploratory uncorrected recurrence; not binding evidence
 BGN	MA0795.1	SMAD3	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA0511.2	RUNX2	RUNX	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA1127.1	FOSB::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA1129.1	FOSL1::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA1557.1	SMAD5	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0833.3	ATF4	ATF4	1	zebrafish	1	2.19e-05	0.547	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0833.3	ATF4	ATF4	1	zebrafish	1	2.19e-05	0.54	exploratory uncorrected recurrence; not binding evidence
 BGN	MA0462.3	BATF::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA0489.3	Jun	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA0488.2	JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0018.5	CREB1	CREB1	1	chicken	1	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0018.5	CREB1	CREB1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA0476.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA1951.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0099.4	FOS::JUN	AP-1	1	zebrafish	1	3.33e-05	0.71	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0099.4	FOS::JUN	AP-1	1	zebrafish	1	3.33e-05	0.686	exploratory uncorrected recurrence; not binding evidence
 BGN	MA1126.2	FOS::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA1134.2	FOS::JUNB	AP-1	1	zebrafish	1	9.53e-05	0.769	exploratory uncorrected recurrence; not binding evidence
-BGN	MA1141.2	FOS::JUND	AP-1	1	zebrafish	1	3.17e-05	0.674	exploratory uncorrected recurrence; not binding evidence
-BGN	MA1128.2	FOSL1::JUN	AP-1	1	zebrafish	1	2.43e-05	0.734	exploratory uncorrected recurrence; not binding evidence
-BGN	MA1130.2	FOSL2::JUN	AP-1	1	zebrafish	1	3.33e-05	0.683	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1134.2	FOS::JUNB	AP-1	1	zebrafish	1	9.53e-05	0.748	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1141.2	FOS::JUND	AP-1	1	zebrafish	1	3.17e-05	0.655	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1128.2	FOSL1::JUN	AP-1	1	zebrafish	1	2.43e-05	0.707	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1130.2	FOSL2::JUN	AP-1	1	zebrafish	1	3.33e-05	0.671	exploratory uncorrected recurrence; not binding evidence
 BGN	MA1131.2	FOSL2::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0047.4	FOXA2	FOXA2	1	zebrafish	2	2.18e-05	0.461	exploratory uncorrected recurrence; not binding evidence
-BGN	MA1990.2	Gli1	GLI	2	human;cow	5	1.3e-05	0.655	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0734.4	Gli2	GLI	3	human;mouse;cow	6	4.95e-06	0.48	exploratory uncorrected recurrence; not binding evidence
-BGN	MA1491.3	GLI3	GLI	3	human;cow;zebrafish	5	4.75e-06	0.415	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0047.4	FOXA2	FOXA2	1	zebrafish	2	2.18e-05	0.445	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1990.2	Gli1	GLI	2	human;cow	5	1.3e-05	0.637	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0734.4	Gli2	GLI	3	human;mouse;cow	6	4.95e-06	0.467	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1491.3	GLI3	GLI	3	human;cow;zebrafish	5	4.75e-06	0.403	exploratory uncorrected recurrence; not binding evidence
 BGN	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 BGN	MA1132.2	JUN::JUNB	AP-1	1	zebrafish	1	3.26e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 BGN	MA1133.2	JUN::JUNB	AP-1	1	cow	1	8.98e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0768.3	Lef1	WNT/TCF	3	human;mouse;cow	4	3.58e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0497.2	MEF2C	MEF2C	3	mouse;chicken;zebrafish	6	8.25e-06	0.314	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0768.3	Lef1	WNT/TCF	3	human;mouse;cow	4	3.58e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0497.2	MEF2C	MEF2C	2	mouse;zebrafish	5	8.25e-06	0.315	exploratory uncorrected recurrence; not binding evidence
 BGN	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA0684.3	RUNX3	RUNX	1	mouse	1	1.79e-05	0.68	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0684.3	RUNX3	RUNX	1	mouse	1	1.79e-05	0.661	exploratory uncorrected recurrence; not binding evidence
 BGN	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-BGN	MA1153.2	Smad4	SMAD	2	cow;chicken	2	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0087.3	Sox5	SOX5/6/9	2	mouse;chicken	3	3.96e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0077.2	SOX9	SOX5/6/9	2	cow;chicken	2	3.96e-05	0.94	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0144.3	STAT3	STAT3	3	human;mouse;cow	3	4.03e-06	0.193	exploratory uncorrected recurrence; not binding evidence
-BGN	MA0523.2	TCF7L2	WNT/TCF	3	human;mouse;cow	4	2.86e-05	0.47	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0107.1	RELA	NF-kB	1	cow	2	1.48e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0515.1	Sox6	SOX5/6/9	3	human;mouse;chicken	6	1.02e-05	0.208	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0105.4	NFKB1	NF-kB	3	human;mouse;cow	5	9.71e-06	0.208	exploratory uncorrected recurrence; not binding evidence
+BGN	MA1153.2	Smad4	SMAD	1	cow	1	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0087.3	Sox5	SOX5/6/9	1	mouse	1	9.4e-05	0.913	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0077.2	SOX9	SOX5/6/9	1	cow	1	9.72e-05	1.0	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0144.3	STAT3	STAT3	3	human;mouse;cow	3	4.03e-06	0.19	exploratory uncorrected recurrence; not binding evidence
+BGN	MA0523.2	TCF7L2	WNT/TCF	3	human;mouse;cow	4	2.86e-05	0.458	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0107.1	RELA	NF-kB	1	cow	2	1.48e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0515.1	Sox6	SOX5/6/9	3	human;mouse;chicken	6	1.02e-05	0.201	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0105.4	NFKB1	NF-kB	3	human;mouse;cow	5	9.71e-06	0.202	exploratory uncorrected recurrence; not binding evidence
 DCN	MA0795.1	SMAD3	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA0511.2	RUNX2	RUNX	2	chicken;zebrafish	2	2.45e-05	0.939	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0511.2	RUNX2	RUNX	2	chicken;zebrafish	2	2.45e-05	0.913	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1127.1	FOSB::JUN	AP-1	1	cow	1	6.97e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1129.1	FOSL1::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 DCN	MA1557.1	SMAD5	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
 DCN	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA0833.3	ATF4	ATF4	2	mouse;zebrafish	2	1.87e-05	0.547	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0833.3	ATF4	ATF4	2	mouse;zebrafish	2	1.87e-05	0.54	exploratory uncorrected recurrence; not binding evidence
 DCN	MA0462.3	BATF::JUN	AP-1	3	mouse;cow;chicken	4	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0489.3	Jun	AP-1	3	mouse;cow;chicken	5	1.79e-05	0.541	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0488.2	JUN	AP-1	5	human;mouse;cow;chicken;zebrafish	6	9.87e-06	0.232	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0018.5	CREB1	CREB1	2	human;mouse	2	6.51e-05	0.619	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0476.2	FOS	AP-1	3	mouse;cow;chicken	5	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0489.3	Jun	AP-1	3	mouse;cow;chicken	5	1.79e-05	0.531	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0488.2	JUN	AP-1	5	human;mouse;cow;chicken;zebrafish	6	9.87e-06	0.224	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0018.5	CREB1	CREB1	2	human;mouse	2	6.51e-05	0.641	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0476.2	FOS	AP-1	3	mouse;cow;chicken	5	1.79e-05	0.53	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1951.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA0099.4	FOS::JUN	AP-1	3	mouse;cow;chicken	4	8.94e-06	0.453	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1126.2	FOS::JUN	AP-1	2	cow;zebrafish	2	2.98e-05	0.746	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1134.2	FOS::JUNB	AP-1	3	mouse;cow;chicken	6	1.3e-05	0.644	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1141.2	FOS::JUND	AP-1	3	mouse;cow;chicken	4	8.94e-06	0.447	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1128.2	FOSL1::JUN	AP-1	3	mouse;cow;chicken	3	8.94e-06	0.449	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1130.2	FOSL2::JUN	AP-1	3	mouse;cow;chicken	4	1.3e-05	0.654	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1131.2	FOSL2::JUN	AP-1	1	zebrafish	1	9.11e-05	0.869	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0047.4	FOXA2	FOXA2	2	human;chicken	2	2.18e-05	0.461	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1990.2	Gli1	GLI	1	zebrafish	1	9.38e-05	0.664	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0734.4	Gli2	GLI	2	chicken;zebrafish	2	5.59e-05	0.547	exploratory uncorrected recurrence; not binding evidence
-DCN	MA1491.3	GLI3	GLI	1	zebrafish	2	5.84e-05	0.558	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0099.4	FOS::JUN	AP-1	3	mouse;cow;chicken	4	8.94e-06	0.437	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1126.2	FOS::JUN	AP-1	2	cow;zebrafish	2	2.98e-05	0.725	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1134.2	FOS::JUNB	AP-1	3	mouse;cow;chicken	6	1.3e-05	0.627	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1141.2	FOS::JUND	AP-1	3	mouse;cow;chicken	4	8.94e-06	0.434	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1128.2	FOSL1::JUN	AP-1	3	mouse;cow;chicken	3	8.94e-06	0.432	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1130.2	FOSL2::JUN	AP-1	3	mouse;cow;chicken	4	1.3e-05	0.643	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1131.2	FOSL2::JUN	AP-1	1	zebrafish	1	9.11e-05	0.858	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0047.4	FOXA2	FOXA2	2	human;chicken	2	2.18e-05	0.445	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1990.2	Gli1	GLI	1	zebrafish	1	9.38e-05	0.646	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0734.4	Gli2	GLI	2	chicken;zebrafish	2	5.59e-05	0.532	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1491.3	GLI3	GLI	1	zebrafish	2	5.84e-05	0.542	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 DCN	MA1132.2	JUN::JUNB	AP-1	3	mouse;cow;chicken	3	4.72e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1133.2	JUN::JUNB	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA0768.3	Lef1	WNT/TCF	2	mouse;zebrafish	3	1.79e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0497.2	MEF2C	MEF2C	2	human;mouse	3	2.69e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0768.3	Lef1	WNT/TCF	2	mouse;zebrafish	3	1.79e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0497.2	MEF2C	MEF2C	2	human;mouse	3	2.69e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 DCN	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA0684.3	RUNX3	RUNX	2	chicken;zebrafish	2	1.79e-05	0.68	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0684.3	RUNX3	RUNX	2	chicken;zebrafish	2	1.79e-05	0.661	exploratory uncorrected recurrence; not binding evidence
 DCN	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-DCN	MA1153.2	Smad4	SMAD	1	mouse	1	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0087.3	Sox5	SOX5/6/9	2	chicken;zebrafish	2	3.96e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0077.2	SOX9	SOX5/6/9	1	chicken	3	3.96e-05	0.94	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0144.3	STAT3	STAT3	2	cow;zebrafish	3	3.86e-05	0.291	exploratory uncorrected recurrence; not binding evidence
-DCN	MA0523.2	TCF7L2	WNT/TCF	3	mouse;cow;chicken	4	2.86e-05	0.47	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0107.1	RELA	NF-kB	2	mouse;cow	4	4.86e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0515.1	Sox6	SOX5/6/9	3	cow;chicken;zebrafish	4	6.12e-06	0.208	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0105.4	NFKB1	NF-kB	3	human;cow;chicken	11	4.31e-06	0.208	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0795.1	SMAD3	SMAD	2	mouse;cow	4	2.29e-05	0.803	exploratory uncorrected recurrence; not binding evidence
+DCN	MA1153.2	Smad4	SMAD	1	mouse	1	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0087.3	Sox5	SOX5/6/9	2	chicken;zebrafish	2	3.96e-05	0.877	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0077.2	SOX9	SOX5/6/9	1	chicken	3	3.96e-05	1.0	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0144.3	STAT3	STAT3	2	cow;zebrafish	3	3.86e-05	0.288	exploratory uncorrected recurrence; not binding evidence
+DCN	MA0523.2	TCF7L2	WNT/TCF	3	mouse;cow;chicken	4	2.86e-05	0.458	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0107.1	RELA	NF-kB	2	mouse;cow	4	4.86e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0515.1	Sox6	SOX5/6/9	3	cow;chicken;zebrafish	4	6.12e-06	0.201	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0105.4	NFKB1	NF-kB	3	human;cow;chicken	11	4.31e-06	0.202	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0795.1	SMAD3	SMAD	2	mouse;cow	4	2.29e-05	0.78	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA0511.2	RUNX2	RUNX	0		0			exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1127.1	FOSB::JUN	AP-1	2	cow;zebrafish	5	1.36e-05	0.753	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1129.1	FOSL1::JUN	AP-1	2	cow;zebrafish	6	1.58e-05	0.657	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1557.1	SMAD5	SMAD	2	mouse;cow	4	2.37e-05	0.801	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1127.1	FOSB::JUN	AP-1	2	cow;zebrafish	5	1.36e-05	0.732	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1129.1	FOSL1::JUN	AP-1	2	cow;zebrafish	6	1.58e-05	0.638	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1557.1	SMAD5	SMAD	2	mouse;cow	4	2.37e-05	0.778	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0833.3	ATF4	ATF4	2	human;zebrafish	4	6.31e-06	0.473	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0833.3	ATF4	ATF4	2	human;zebrafish	4	6.31e-06	0.467	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA0462.3	BATF::JUN	AP-1	1	cow	1	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0489.3	Jun	AP-1	1	cow	2	1.79e-05	0.541	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0488.2	JUN	AP-1	4	human;mouse;cow;zebrafish	7	1.35e-06	0.125	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0018.5	CREB1	CREB1	4	human;mouse;cow;zebrafish	6	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0476.2	FOS	AP-1	1	cow	2	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0489.3	Jun	AP-1	1	cow	2	1.79e-05	0.531	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0488.2	JUN	AP-1	4	human;mouse;cow;zebrafish	7	1.35e-06	0.121	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0018.5	CREB1	CREB1	4	human;mouse;cow;zebrafish	6	1.79e-05	0.641	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0476.2	FOS	AP-1	1	cow	2	1.79e-05	0.53	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1951.2	FOS	AP-1	2	cow;zebrafish	3	1.57e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0099.4	FOS::JUN	AP-1	2	human;cow	4	4.91e-06	0.453	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1126.2	FOS::JUN	AP-1	2	cow;zebrafish	5	9.99e-06	0.404	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1134.2	FOS::JUNB	AP-1	1	cow	3	4.91e-06	0.644	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1141.2	FOS::JUND	AP-1	2	human;cow	4	4.91e-06	0.447	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1128.2	FOSL1::JUN	AP-1	2	human;cow	4	4.91e-06	0.449	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1130.2	FOSL2::JUN	AP-1	2	human;cow	4	4.91e-06	0.654	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1131.2	FOSL2::JUN	AP-1	3	mouse;cow;zebrafish	6	1.41e-05	0.547	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0047.4	FOXA2	FOXA2	2	mouse;zebrafish	2	2.18e-05	0.461	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1990.2	Gli1	GLI	2	cow;chicken	6	9.82e-06	0.655	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0734.4	Gli2	GLI	3	human;cow;chicken	7	2.26e-05	0.48	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA1491.3	GLI3	GLI	3	human;cow;chicken	7	5.43e-06	0.415	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0099.4	FOS::JUN	AP-1	2	human;cow	4	4.91e-06	0.437	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1126.2	FOS::JUN	AP-1	2	cow;zebrafish	5	9.99e-06	0.392	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1134.2	FOS::JUNB	AP-1	1	cow	3	4.91e-06	0.627	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1141.2	FOS::JUND	AP-1	2	human;cow	4	4.91e-06	0.434	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1128.2	FOSL1::JUN	AP-1	2	human;cow	4	4.91e-06	0.432	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1130.2	FOSL2::JUN	AP-1	2	human;cow	4	4.91e-06	0.643	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1131.2	FOSL2::JUN	AP-1	3	mouse;cow;zebrafish	6	1.41e-05	0.54	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0047.4	FOXA2	FOXA2	2	mouse;zebrafish	2	2.18e-05	0.445	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1990.2	Gli1	GLI	2	cow;chicken	6	9.82e-06	0.637	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0734.4	Gli2	GLI	3	human;cow;chicken	7	2.26e-05	0.467	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA1491.3	GLI3	GLI	3	human;cow;chicken	7	5.43e-06	0.403	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1132.2	JUN::JUNB	AP-1	2	human;cow	2	1.79e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1133.2	JUN::JUNB	AP-1	3	mouse;cow;zebrafish	4	2.72e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0768.3	Lef1	WNT/TCF	3	human;cow;zebrafish	4	1.79e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0497.2	MEF2C	MEF2C	3	human;chicken;zebrafish	4	1.5e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0768.3	Lef1	WNT/TCF	3	human;cow;zebrafish	4	1.79e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0497.2	MEF2C	MEF2C	3	human;chicken;zebrafish	4	1.5e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0684.3	RUNX3	RUNX	1	human	1	3.26e-05	0.698	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0684.3	RUNX3	RUNX	1	human	1	3.26e-05	0.678	exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
 FMOD	MA1153.2	Smad4	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0087.3	Sox5	SOX5/6/9	2	cow;chicken	2	7.22e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0077.2	SOX9	SOX5/6/9	2	chicken;zebrafish	2	5.75e-05	0.94	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0144.3	STAT3	STAT3	4	human;mouse;cow;chicken	9	1.06e-05	0.255	exploratory uncorrected recurrence; not binding evidence
-FMOD	MA0523.2	TCF7L2	WNT/TCF	2	human;zebrafish	2	9.82e-06	0.47	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0107.1	RELA	NF-kB	4	human;cow;chicken;zebrafish	9	2.58e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0515.1	Sox6	SOX5/6/9	1	zebrafish	1	9.05e-06	0.208	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0105.4	NFKB1	NF-kB	3	human;cow;chicken	8	4.55e-06	0.208	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0087.3	Sox5	SOX5/6/9	2	cow;chicken	2	7.22e-05	0.877	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0077.2	SOX9	SOX5/6/9	2	chicken;zebrafish	2	5.75e-05	1.0	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0144.3	STAT3	STAT3	4	human;mouse;cow;chicken	9	1.06e-05	0.251	exploratory uncorrected recurrence; not binding evidence
+FMOD	MA0523.2	TCF7L2	WNT/TCF	2	human;zebrafish	2	9.82e-06	0.458	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0107.1	RELA	NF-kB	4	human;cow;chicken;zebrafish	9	2.58e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0515.1	Sox6	SOX5/6/9	1	zebrafish	1	9.05e-06	0.201	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0105.4	NFKB1	NF-kB	3	human;cow;chicken	8	4.55e-06	0.202	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0795.1	SMAD3	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0511.2	RUNX2	RUNX	1	zebrafish	1	5.58e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1127.1	FOSB::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
@@ -130,49 +130,49 @@ PRELP	MA1557.1	SMAD5	SMAD	0		0			exploratory uncorrected recurrence; not binding
 PRELP	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0833.3	ATF4	ATF4	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0462.3	BATF::JUN	AP-1	1	mouse	1	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0489.3	Jun	AP-1	1	mouse	2	4.72e-05	0.893	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0488.2	JUN	AP-1	1	chicken	1	7.92e-05	0.552	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0018.5	CREB1	CREB1	1	human	2	4.72e-05	0.619	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0476.2	FOS	AP-1	2	mouse;zebrafish	2	6.51e-05	0.991	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0489.3	Jun	AP-1	1	mouse	2	4.72e-05	0.877	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0488.2	JUN	AP-1	1	chicken	1	7.92e-05	0.531	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0018.5	CREB1	CREB1	1	human	2	4.72e-05	0.641	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0476.2	FOS	AP-1	2	mouse;zebrafish	2	6.51e-05	0.965	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1951.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0099.4	FOS::JUN	AP-1	2	mouse;zebrafish	3	4.66e-05	0.71	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0099.4	FOS::JUN	AP-1	2	mouse;zebrafish	3	4.66e-05	0.686	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1126.2	FOS::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1134.2	FOS::JUNB	AP-1	2	mouse;zebrafish	2	4.59e-05	0.713	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1141.2	FOS::JUND	AP-1	2	mouse;zebrafish	2	3.17e-05	0.674	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1128.2	FOSL1::JUN	AP-1	2	mouse;zebrafish	2	3.77e-05	0.734	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1130.2	FOSL2::JUN	AP-1	2	mouse;zebrafish	2	3.66e-05	0.683	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1134.2	FOS::JUNB	AP-1	2	mouse;zebrafish	2	4.59e-05	0.693	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1141.2	FOS::JUND	AP-1	2	mouse;zebrafish	2	3.17e-05	0.655	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1128.2	FOSL1::JUN	AP-1	2	mouse;zebrafish	2	3.77e-05	0.707	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1130.2	FOSL2::JUN	AP-1	2	mouse;zebrafish	2	3.66e-05	0.671	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1131.2	FOSL2::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0047.4	FOXA2	FOXA2	2	cow;chicken	2	4.35e-05	0.538	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1990.2	Gli1	GLI	5	human;mouse;cow;chicken;zebrafish	6	1.84e-05	0.655	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0734.4	Gli2	GLI	5	human;mouse;cow;chicken;zebrafish	7	1.05e-05	0.48	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1491.3	GLI3	GLI	4	human;cow;chicken;zebrafish	5	2.04e-05	0.527	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0047.4	FOXA2	FOXA2	2	cow;chicken	2	4.35e-05	0.519	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1990.2	Gli1	GLI	5	human;mouse;cow;chicken;zebrafish	6	1.84e-05	0.637	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0734.4	Gli2	GLI	5	human;mouse;cow;chicken;zebrafish	7	1.05e-05	0.467	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1491.3	GLI3	GLI	4	human;cow;chicken;zebrafish	5	2.04e-05	0.512	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1132.2	JUN::JUNB	AP-1	1	mouse	1	4.72e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1133.2	JUN::JUNB	AP-1	1	human	1	8.69e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0768.3	Lef1	WNT/TCF	2	mouse;zebrafish	2	7.54e-05	0.705	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0497.2	MEF2C	MEF2C	4	human;mouse;chicken;zebrafish	5	1.5e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0768.3	Lef1	WNT/TCF	2	mouse;zebrafish	2	7.54e-05	0.686	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0497.2	MEF2C	MEF2C	4	human;mouse;chicken;zebrafish	5	1.5e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0684.3	RUNX3	RUNX	0		0			exploratory uncorrected recurrence; not binding evidence
 PRELP	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-PRELP	MA1153.2	Smad4	SMAD	1	mouse	1	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0087.3	Sox5	SOX5/6/9	1	human	1	5.75e-05	0.78	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA1153.2	Smad4	SMAD	1	mouse	1	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0087.3	Sox5	SOX5/6/9	1	human	1	5.75e-05	0.877	exploratory uncorrected recurrence; not binding evidence
 PRELP	MA0077.2	SOX9	SOX5/6/9	0		0			exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0144.3	STAT3	STAT3	5	human;mouse;cow;chicken;zebrafish	9	4.03e-06	0.193	exploratory uncorrected recurrence; not binding evidence
-PRELP	MA0523.2	TCF7L2	WNT/TCF	2	mouse;zebrafish	2	2.86e-05	0.47	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0107.1	RELA	NF-kB	2	human;chicken	2	3.58e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0515.1	Sox6	SOX5/6/9	4	human;mouse;chicken;zebrafish	8	3.12e-06	0.208	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0144.3	STAT3	STAT3	5	human;mouse;cow;chicken;zebrafish	9	4.03e-06	0.19	exploratory uncorrected recurrence; not binding evidence
+PRELP	MA0523.2	TCF7L2	WNT/TCF	2	mouse;zebrafish	2	2.86e-05	0.458	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0107.1	RELA	NF-kB	2	human;chicken	2	3.58e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0515.1	Sox6	SOX5/6/9	4	human;mouse;chicken;zebrafish	8	3.12e-06	0.201	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0105.4	NFKB1	NF-kB	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0795.1	SMAD3	SMAD	2	mouse;zebrafish	3	3.24e-05	0.803	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0795.1	SMAD3	SMAD	2	mouse;zebrafish	3	3.24e-05	0.78	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0511.2	RUNX2	RUNX	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1127.1	FOSB::JUN	AP-1	1	zebrafish	1	8e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1129.1	FOSL1::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA1557.1	SMAD5	SMAD	2	mouse;zebrafish	3	4.18e-05	0.801	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA1557.1	SMAD5	SMAD	2	mouse;zebrafish	3	4.18e-05	0.778	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0833.3	ATF4	ATF4	1	human	2	1.87e-05	0.547	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0833.3	ATF4	ATF4	1	human	2	1.87e-05	0.54	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0462.3	BATF::JUN	AP-1	1	mouse	1	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0489.3	Jun	AP-1	1	mouse	1	4.72e-05	0.893	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0489.3	Jun	AP-1	1	mouse	1	4.72e-05	0.877	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0488.2	JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0018.5	CREB1	CREB1	2	mouse;cow	2	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0018.5	CREB1	CREB1	2	mouse;cow	2	1.79e-05	0.641	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0476.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1951.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0099.4	FOS::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
@@ -182,100 +182,100 @@ EPYC	MA1141.2	FOS::JUND	AP-1	0		0			exploratory uncorrected recurrence; not bind
 EPYC	MA1128.2	FOSL1::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1130.2	FOSL2::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1131.2	FOSL2::JUN	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0047.4	FOXA2	FOXA2	3	mouse;chicken;zebrafish	5	2.18e-05	0.461	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA1990.2	Gli1	GLI	1	mouse	1	5.87e-05	0.655	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0734.4	Gli2	GLI	2	mouse;zebrafish	2	2.53e-05	0.48	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA1491.3	GLI3	GLI	2	human;mouse	2	3.49e-05	0.547	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0047.4	FOXA2	FOXA2	3	mouse;chicken;zebrafish	5	2.18e-05	0.445	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA1990.2	Gli1	GLI	1	mouse	1	5.87e-05	0.637	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0734.4	Gli2	GLI	2	mouse;zebrafish	2	2.53e-05	0.467	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA1491.3	GLI3	GLI	2	human;mouse	2	3.49e-05	0.531	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1132.2	JUN::JUNB	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1133.2	JUN::JUNB	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0768.3	Lef1	WNT/TCF	4	human;mouse;cow;chicken	4	1.79e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0497.2	MEF2C	MEF2C	3	human;mouse;cow	5	1.57e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0768.3	Lef1	WNT/TCF	4	human;mouse;cow;chicken	4	1.79e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0497.2	MEF2C	MEF2C	3	human;mouse;cow	5	1.57e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0684.3	RUNX3	RUNX	1	human	1	1.79e-05	0.68	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0684.3	RUNX3	RUNX	1	human	1	1.79e-05	0.661	exploratory uncorrected recurrence; not binding evidence
 EPYC	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-EPYC	MA1153.2	Smad4	SMAD	3	human;mouse;zebrafish	3	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0087.3	Sox5	SOX5/6/9	3	human;mouse;zebrafish	4	1.79e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0077.2	SOX9	SOX5/6/9	2	mouse;zebrafish	3	1.79e-05	0.876	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0144.3	STAT3	STAT3	4	human;mouse;cow;chicken	9	1.56e-05	0.291	exploratory uncorrected recurrence; not binding evidence
-EPYC	MA0523.2	TCF7L2	WNT/TCF	3	cow;chicken;zebrafish	4	3.75e-05	0.504	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0107.1	RELA	NF-kB	3	mouse;cow;zebrafish	3	2.74e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0515.1	Sox6	SOX5/6/9	5	human;mouse;cow;chicken;zebrafish	9	1.26e-05	0.208	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA1153.2	Smad4	SMAD	3	human;mouse;zebrafish	3	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0087.3	Sox5	SOX5/6/9	3	human;mouse;zebrafish	4	1.79e-05	0.869	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0077.2	SOX9	SOX5/6/9	2	mouse;zebrafish	3	1.79e-05	0.83	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0144.3	STAT3	STAT3	4	human;mouse;cow;chicken	9	1.56e-05	0.288	exploratory uncorrected recurrence; not binding evidence
+EPYC	MA0523.2	TCF7L2	WNT/TCF	3	cow;chicken;zebrafish	4	3.75e-05	0.492	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0107.1	RELA	NF-kB	3	mouse;cow;zebrafish	3	2.74e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0515.1	Sox6	SOX5/6/9	5	human;mouse;cow;chicken;zebrafish	9	1.26e-05	0.201	exploratory uncorrected recurrence; not binding evidence
 LUM	MA0105.4	NFKB1	NF-kB	0		0			exploratory uncorrected recurrence; not binding evidence
-LUM	MA0795.1	SMAD3	SMAD	1	cow	3	2.02e-05	0.803	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0795.1	SMAD3	SMAD	1	cow	3	2.02e-05	0.78	exploratory uncorrected recurrence; not binding evidence
 LUM	MA0511.2	RUNX2	RUNX	1	mouse	1	8.79e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1127.1	FOSB::JUN	AP-1	2	cow;chicken	3	2.48e-05	0.753	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1129.1	FOSL1::JUN	AP-1	2	cow;chicken	6	3.94e-05	0.89	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1557.1	SMAD5	SMAD	1	cow	2	1.89e-05	0.801	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1127.1	FOSB::JUN	AP-1	2	cow;chicken	3	2.48e-05	0.732	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1129.1	FOSL1::JUN	AP-1	2	cow;chicken	6	3.94e-05	0.865	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1557.1	SMAD5	SMAD	1	cow	2	1.89e-05	0.778	exploratory uncorrected recurrence; not binding evidence
 LUM	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-LUM	MA0833.3	ATF4	ATF4	1	chicken	2	6.31e-06	0.473	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0833.3	ATF4	ATF4	1	chicken	2	6.31e-06	0.467	exploratory uncorrected recurrence; not binding evidence
 LUM	MA0462.3	BATF::JUN	AP-1	1	chicken	1	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0489.3	Jun	AP-1	1	chicken	2	1.79e-05	0.541	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0488.2	JUN	AP-1	3	human;cow;chicken	7	2.45e-06	0.125	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0018.5	CREB1	CREB1	2	cow;chicken	5	4.72e-05	0.619	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0476.2	FOS	AP-1	2	human;chicken	3	1.79e-05	0.544	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0489.3	Jun	AP-1	1	chicken	2	1.79e-05	0.531	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0488.2	JUN	AP-1	3	human;cow;chicken	7	2.45e-06	0.121	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0018.5	CREB1	CREB1	2	cow;chicken	5	4.72e-05	0.641	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0476.2	FOS	AP-1	2	human;chicken	3	1.79e-05	0.53	exploratory uncorrected recurrence; not binding evidence
 LUM	MA1951.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
-LUM	MA0099.4	FOS::JUN	AP-1	2	human;chicken	5	8.94e-06	0.453	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1126.2	FOS::JUN	AP-1	2	cow;chicken	4	9.99e-06	0.404	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1134.2	FOS::JUNB	AP-1	3	human;mouse;chicken	5	1.3e-05	0.644	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1141.2	FOS::JUND	AP-1	2	human;chicken	3	8.94e-06	0.447	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1128.2	FOSL1::JUN	AP-1	2	human;chicken	3	8.94e-06	0.449	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1130.2	FOSL2::JUN	AP-1	2	human;chicken	4	1.3e-05	0.654	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1131.2	FOSL2::JUN	AP-1	4	human;mouse;cow;chicken	7	2.17e-05	0.547	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0047.4	FOXA2	FOXA2	1	chicken	2	2.18e-05	0.461	exploratory uncorrected recurrence; not binding evidence
-LUM	MA1990.2	Gli1	GLI	2	mouse;chicken	2	5.76e-05	0.655	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0734.4	Gli2	GLI	1	mouse	2	6.77e-05	0.547	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0099.4	FOS::JUN	AP-1	2	human;chicken	5	8.94e-06	0.437	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1126.2	FOS::JUN	AP-1	2	cow;chicken	4	9.99e-06	0.392	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1134.2	FOS::JUNB	AP-1	3	human;mouse;chicken	5	1.3e-05	0.627	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1141.2	FOS::JUND	AP-1	2	human;chicken	3	8.94e-06	0.434	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1128.2	FOSL1::JUN	AP-1	2	human;chicken	3	8.94e-06	0.432	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1130.2	FOSL2::JUN	AP-1	2	human;chicken	4	1.3e-05	0.643	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1131.2	FOSL2::JUN	AP-1	4	human;mouse;cow;chicken	7	2.17e-05	0.54	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0047.4	FOXA2	FOXA2	1	chicken	2	2.18e-05	0.445	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1990.2	Gli1	GLI	2	mouse;chicken	2	5.76e-05	0.637	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0734.4	Gli2	GLI	1	mouse	2	6.77e-05	0.532	exploratory uncorrected recurrence; not binding evidence
 LUM	MA1491.3	GLI3	GLI	0		0			exploratory uncorrected recurrence; not binding evidence
 LUM	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 LUM	MA1132.2	JUN::JUNB	AP-1	1	chicken	1	4.72e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 LUM	MA1133.2	JUN::JUNB	AP-1	1	cow	3	1.81e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0768.3	Lef1	WNT/TCF	1	chicken	1	5.36e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0497.2	MEF2C	MEF2C	4	human;mouse;cow;zebrafish	10	1.8e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0768.3	Lef1	WNT/TCF	1	chicken	1	5.36e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0497.2	MEF2C	MEF2C	4	human;mouse;cow;zebrafish	10	1.8e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 LUM	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-LUM	MA0684.3	RUNX3	RUNX	2	human;chicken	2	7.98e-05	0.935	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0684.3	RUNX3	RUNX	2	human;chicken	2	7.98e-05	0.908	exploratory uncorrected recurrence; not binding evidence
 LUM	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-LUM	MA1153.2	Smad4	SMAD	2	cow;chicken	2	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0087.3	Sox5	SOX5/6/9	3	human;cow;zebrafish	3	1.79e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0077.2	SOX9	SOX5/6/9	1	zebrafish	1	1.79e-05	0.876	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0144.3	STAT3	STAT3	3	human;cow;zebrafish	4	3.86e-05	0.291	exploratory uncorrected recurrence; not binding evidence
-LUM	MA0523.2	TCF7L2	WNT/TCF	2	mouse;chicken	2	1.47e-05	0.47	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0107.1	RELA	NF-kB	4	human;mouse;cow;chicken	5	2.74e-05	0.587	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0515.1	Sox6	SOX5/6/9	3	mouse;chicken;zebrafish	7	2.02e-06	0.208	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0105.4	NFKB1	NF-kB	2	human;mouse	4	2.24e-05	0.283	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0795.1	SMAD3	SMAD	3	human;mouse;zebrafish	6	1.39e-05	0.803	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0511.2	RUNX2	RUNX	4	human;mouse;cow;zebrafish	5	1.63e-05	0.832	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1127.1	FOSB::JUN	AP-1	1	zebrafish	2	4.99e-06	0.753	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1129.1	FOSL1::JUN	AP-1	1	zebrafish	2	4.27e-06	0.431	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1557.1	SMAD5	SMAD	1	human	1	1.8e-05	0.801	exploratory uncorrected recurrence; not binding evidence
+LUM	MA1153.2	Smad4	SMAD	2	cow;chicken	2	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0087.3	Sox5	SOX5/6/9	3	human;cow;zebrafish	3	1.79e-05	0.869	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0077.2	SOX9	SOX5/6/9	1	zebrafish	1	1.79e-05	0.83	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0144.3	STAT3	STAT3	3	human;cow;zebrafish	4	3.86e-05	0.288	exploratory uncorrected recurrence; not binding evidence
+LUM	MA0523.2	TCF7L2	WNT/TCF	2	mouse;chicken	2	1.47e-05	0.458	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0107.1	RELA	NF-kB	4	human;mouse;cow;chicken	5	2.74e-05	0.571	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0515.1	Sox6	SOX5/6/9	3	mouse;chicken;zebrafish	7	2.02e-06	0.201	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0105.4	NFKB1	NF-kB	2	human;mouse	4	2.24e-05	0.275	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0795.1	SMAD3	SMAD	3	human;mouse;zebrafish	6	1.39e-05	0.78	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0511.2	RUNX2	RUNX	4	human;mouse;cow;zebrafish	5	1.63e-05	0.809	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1127.1	FOSB::JUN	AP-1	1	zebrafish	2	4.99e-06	0.732	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1129.1	FOSL1::JUN	AP-1	1	zebrafish	2	4.27e-06	0.419	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1557.1	SMAD5	SMAD	1	human	1	1.8e-05	0.778	exploratory uncorrected recurrence; not binding evidence
 OGN	MA0259.2	ARNT::HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
-OGN	MA0833.3	ATF4	ATF4	2	cow;zebrafish	3	4.34e-05	0.855	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0833.3	ATF4	ATF4	2	cow;zebrafish	3	4.34e-05	0.845	exploratory uncorrected recurrence; not binding evidence
 OGN	MA0462.3	BATF::JUN	AP-1	1	zebrafish	1	6.51e-05	1.0	exploratory uncorrected recurrence; not binding evidence
 OGN	MA0489.3	Jun	AP-1	1	zebrafish	1	8.3e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0488.2	JUN	AP-1	2	cow;zebrafish	2	1.12e-05	0.232	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0488.2	JUN	AP-1	2	cow;zebrafish	2	1.12e-05	0.224	exploratory uncorrected recurrence; not binding evidence
 OGN	MA0018.5	CREB1	CREB1	0		0			exploratory uncorrected recurrence; not binding evidence
 OGN	MA0476.2	FOS	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 OGN	MA1951.2	FOS	AP-1	2	cow;zebrafish	3	1.8e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0099.4	FOS::JUN	AP-1	2	chicken;zebrafish	2	5.88e-05	0.71	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1126.2	FOS::JUN	AP-1	1	zebrafish	2	5.02e-06	0.404	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1134.2	FOS::JUNB	AP-1	2	chicken;zebrafish	2	6.37e-05	0.713	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1141.2	FOS::JUND	AP-1	2	chicken;zebrafish	2	5.52e-05	0.674	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1128.2	FOSL1::JUN	AP-1	2	chicken;zebrafish	2	6.34e-05	0.734	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1130.2	FOSL2::JUN	AP-1	2	chicken;zebrafish	2	8.12e-05	0.723	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1131.2	FOSL2::JUN	AP-1	1	zebrafish	2	3.36e-06	0.508	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0047.4	FOXA2	FOXA2	1	mouse	2	4.35e-05	0.538	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1990.2	Gli1	GLI	2	mouse;zebrafish	2	4.34e-05	0.655	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0734.4	Gli2	GLI	1	mouse	1	9.18e-05	0.547	exploratory uncorrected recurrence; not binding evidence
-OGN	MA1491.3	GLI3	GLI	1	zebrafish	2	1.47e-05	0.527	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0099.4	FOS::JUN	AP-1	2	chicken;zebrafish	2	5.88e-05	0.686	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1126.2	FOS::JUN	AP-1	1	zebrafish	2	5.02e-06	0.392	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1134.2	FOS::JUNB	AP-1	2	chicken;zebrafish	2	6.37e-05	0.693	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1141.2	FOS::JUND	AP-1	2	chicken;zebrafish	2	5.52e-05	0.655	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1128.2	FOSL1::JUN	AP-1	2	chicken;zebrafish	2	6.34e-05	0.707	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1130.2	FOSL2::JUN	AP-1	2	chicken;zebrafish	2	8.12e-05	0.711	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1131.2	FOSL2::JUN	AP-1	1	zebrafish	2	3.36e-06	0.501	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0047.4	FOXA2	FOXA2	1	mouse	2	4.35e-05	0.519	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1990.2	Gli1	GLI	2	mouse;zebrafish	2	4.34e-05	0.637	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0734.4	Gli2	GLI	1	mouse	1	9.18e-05	0.532	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1491.3	GLI3	GLI	1	zebrafish	2	1.47e-05	0.512	exploratory uncorrected recurrence; not binding evidence
 OGN	MA1106.2	HIF1A	HIF	0		0			exploratory uncorrected recurrence; not binding evidence
 OGN	MA1132.2	JUN::JUNB	AP-1	0		0			exploratory uncorrected recurrence; not binding evidence
 OGN	MA1133.2	JUN::JUNB	AP-1	1	zebrafish	1	4.43e-05	1.0	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0768.3	Lef1	WNT/TCF	2	human;zebrafish	2	3.58e-05	0.579	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0497.2	MEF2C	MEF2C	4	human;mouse;chicken;zebrafish	6	1.91e-05	0.314	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0768.3	Lef1	WNT/TCF	2	human;zebrafish	2	3.58e-05	0.563	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0497.2	MEF2C	MEF2C	4	human;mouse;chicken;zebrafish	6	1.91e-05	0.315	exploratory uncorrected recurrence; not binding evidence
 OGN	MA0624.3	Nfatc1	NFATC1	0		0			exploratory uncorrected recurrence; not binding evidence
-OGN	MA0684.3	RUNX3	RUNX	4	human;mouse;cow;zebrafish	6	1.79e-05	0.68	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0684.3	RUNX3	RUNX	4	human;mouse;cow;zebrafish	6	1.79e-05	0.661	exploratory uncorrected recurrence; not binding evidence
 OGN	MA1964.2	SMAD2	SMAD	0		0			exploratory uncorrected recurrence; not binding evidence
-OGN	MA1153.2	Smad4	SMAD	2	human;zebrafish	3	6.51e-05	0.833	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0087.3	Sox5	SOX5/6/9	2	chicken;zebrafish	2	7.22e-05	0.78	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0077.2	SOX9	SOX5/6/9	1	zebrafish	1	5.75e-05	0.94	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0144.3	STAT3	STAT3	3	mouse;cow;chicken	4	4.03e-06	0.193	exploratory uncorrected recurrence; not binding evidence
-OGN	MA0523.2	TCF7L2	WNT/TCF	3	human;chicken;zebrafish	6	1.47e-05	0.47	exploratory uncorrected recurrence; not binding evidence
+OGN	MA1153.2	Smad4	SMAD	2	human;zebrafish	3	6.51e-05	0.883	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0087.3	Sox5	SOX5/6/9	2	chicken;zebrafish	2	7.22e-05	0.877	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0077.2	SOX9	SOX5/6/9	1	zebrafish	1	5.75e-05	1.0	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0144.3	STAT3	STAT3	3	mouse;cow;chicken	4	4.03e-06	0.19	exploratory uncorrected recurrence; not binding evidence
+OGN	MA0523.2	TCF7L2	WNT/TCF	3	human;chicken;zebrafish	6	1.47e-05	0.458	exploratory uncorrected recurrence; not binding evidence

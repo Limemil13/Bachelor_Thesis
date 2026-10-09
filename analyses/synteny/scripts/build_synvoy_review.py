@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
-"""Build a compact, evidence-based review queue from the final SynVoy runs.
-
-The SynVoy report contains many low-confidence family matches and also retains
-HIGH/MEDIUM records that its ownership or coverage checks demote. This script
-therefore uses the report's final definition of a GOI candidate: HIGH/MEDIUM
-records excluding paralogs and coverage-demoted calls. It never turns a SynVoy
-candidate into a claimed ortholog without manual/NCBI confirmation.
+"""
+for manual review, synvoy goi is reconstructed from each synvoy report with reciprocal
+ protein evidence as well as locus audit results, classifies reviewing priority
 """
 
 from __future__ import annotations
@@ -43,12 +39,6 @@ SPECIES_TO_CANONICAL = {
     "whale_shark": "whale_shark",
 }
 
-# The current opossum files staged for a replacement run are compatible, but
-# every completed full-panel report still contains the earlier mismatched
-# FASTA/GFF pair (for example NC_077235.1 versus NC_077235.2). Keep those
-# historical rows failed until a matched single-species report override is
-# supplied; otherwise a later audit of the staged inputs would incorrectly
-# relabel old report evidence as valid.
 HISTORICAL_REPORT_INPUT_MISMATCH_SPECIES = {"opossum"}
 
 DEEP_LINEAGES = {
@@ -110,7 +100,6 @@ def candidate_sort_key(record: dict) -> tuple:
 
 
 def index_report(report: dict) -> dict[str, object]:
-    """Index the per-genome parts of one SynVoy JSON report."""
     flags_by_species: dict[str, list[dict]] = defaultdict(list)
     for flag in report["self_consistency"].get("flags", []):
         flags_by_species[Path(flag["genome"]).stem].append(flag)
@@ -133,7 +122,6 @@ def index_report(report: dict) -> dict[str, object]:
 def load_report(path: Path) -> dict:
     with path.open(encoding="utf-8") as handle:
         return json.load(handle)
-
 
 def load_protein_support(
     conservation_path: Path, protspace_path: Path
@@ -245,8 +233,6 @@ def main() -> None:
         input_pair_qc = {
             row["species"]: row["status"] for row in read_tsv(args.input_audit)
         }
-    # Preserve completed review fields when the automated table is rebuilt
-    # after a new or updated SynVoy report.
     previous_manual: dict[tuple[str, str], dict[str, str]] = {}
     previous_table = args.output_dir / "synvoy_gene_species_evidence.tsv"
     if previous_table.is_file():

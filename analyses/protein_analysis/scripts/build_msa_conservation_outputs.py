@@ -1,4 +1,5 @@
-"""Generate canonical per-gene MSA conservation and species-comparison outputs."""
+#generating results for per gene MSA conservation and species-comparison
+
 
 from __future__ import annotations
 
@@ -51,6 +52,7 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
 
 
 def main() -> None:
+    # For each gene, calculate pairwise identities, per-column conservation, summary statistics and a conservation-profile figure.
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     summary_rows: list[dict[str, object]] = []
 

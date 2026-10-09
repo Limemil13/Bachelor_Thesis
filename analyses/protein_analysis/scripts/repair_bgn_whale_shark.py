@@ -40,6 +40,7 @@ AUDIT = ROOT / "analyses/protein_analysis/candidates/BGN_whale_shark_correction.
 
 
 def read_fasta(path: Path) -> list[tuple[str, str]]:
+    # Preserve source headers so the exact replaced accession can be audited.
     records: list[tuple[str, str]] = []
     header: str | None = None
     chunks: list[str] = []
@@ -60,6 +61,7 @@ def read_fasta(path: Path) -> list[tuple[str, str]]:
 
 
 def write_fasta(path: Path, records: list[tuple[str, str]]) -> None:
+    # Write the repaired panel to a new FASTA; never overwrite the source panel.
     with path.open("w", encoding="utf-8") as handle:
         for header, sequence in records:
             handle.write(f">{header}\n")
@@ -68,12 +70,15 @@ def write_fasta(path: Path, records: list[tuple[str, str]]) -> None:
 
 
 def parse_attrs(text: str) -> dict[str, str]:
+    # Parse the GFF3 attribute column for CDS parent and protein identifiers.
     return dict(
         item.split("=", 1) for item in text.rstrip(";").split(";") if "=" in item
     )
 
 
 def reconstruct_protein() -> tuple[str, str, str, int, int]:
+    # Find CDS records for the target accession, extract them from the matching
+    # genome assembly in transcript order and translate the reconstructed CDS.
     cds: list[tuple[str, int, int, str, int]] = []
     with GFF.open(encoding="utf-8", errors="ignore") as handle:
         for line in handle:
@@ -121,6 +126,7 @@ def reconstruct_protein() -> tuple[str, str, str, int, int]:
 
 
 def run_blast(query: Path, subject: Path, fields: str) -> list[str]:
+    # Validate the replacement against a fixed reference FASTA with BLASTP.
     result = subprocess.run(
         [
             "blastp",
@@ -145,6 +151,8 @@ def run_blast(query: Path, subject: Path, fields: str) -> list[str]:
 
 
 def main() -> None:
+    # Reconstruct, validate and substitute the whale-shark BGN-like protein while
+    # writing all supporting coordinates and BLAST fields to an audit table.
     protein, seqid, strand, cds_count, coding_length = reconstruct_protein()
     original = read_fasta(TARGET_FILES[0])
     human = next(seq for header, seq in original if header.startswith("human|BGN|"))

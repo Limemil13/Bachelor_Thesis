@@ -23,6 +23,7 @@ EOF
 }
 
 while (($#)); do
+  # Parse dry-run/run-tag options while treating remaining arguments as genes.
   case "$1" in
     --dry-run)
       DRY_RUN=true
@@ -91,6 +92,7 @@ declare -A TOKENS=(
 )
 
 if [[ -n "${CONDA_SH}" ]]; then
+  # Optional activation supports non-interactive WSL shells.
   source "${CONDA_SH}"
 fi
 cd "$SYNVOY_ROOT"
@@ -101,6 +103,7 @@ python3 "${PROJECT_ROOT}/analyses/synteny/scripts/validate_synvoy_target_gffs.py
   --expected 14
 
 mkdir -p results/rerun_launcher_logs
+# Record the exact code revision and requested genes before launching runs.
 PROVENANCE="results/rerun_launcher_logs/${RUN_TAG}_provenance.tsv"
 if [[ ! -e "$PROVENANCE" ]]; then
   printf 'date\tbranch\tcommit\tgenes\n' > "$PROVENANCE"
@@ -112,6 +115,7 @@ printf '%s\t%s\t%s\t%s\n' \
   "${GENES[*]}" >> "$PROVENANCE"
 
 for gene in "${GENES[@]}"; do
+  # Build one explicit SynVoy command per gene and refuse to overwrite outputs.
   gene="${gene^^}"
   if [[ -z "${QUERY[$gene]:-}" ]]; then
     printf 'Unsupported gene: %s\n' "$gene" >&2

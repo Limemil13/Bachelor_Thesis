@@ -22,7 +22,7 @@ GENES=(
 echo "=== Download missing human reference proteins from NCBI Datasets ==="
 
 for gene in "${GENES[@]}"; do
-  # Skip download if local query already exists
+  # Prefer existing local queries; otherwise download the human gene package.
   if [ -f "data/queries/${gene}.faa" ]; then
     echo "Local query exists for ${gene}, skipping download."
     continue
@@ -54,6 +54,7 @@ done
 
 echo "=== Build selected reference FASTA ==="
 
+# Select one plausible human reference protein for every context gene.
 python "${BASE}/scripts/build_slrp_reference_context_fasta.py"
 
 echo "=== Check selected proteins ==="
@@ -62,6 +63,7 @@ column -t -s $'\t' "${BASE}/SLRP_reference_context_selected.tsv" | less -S
 
 echo "=== MAFFT E-INS-i alignment ==="
 
+# Use a consistency-based alignment suitable for related but divergent proteins.
 mafft --genafpair --maxiterate 1000 \
   "${BASE}/SLRP_reference_context.faa" \
   > "${BASE}/SLRP_reference_context_aligned.faa"
@@ -75,6 +77,7 @@ trimal \
 
 echo "=== IQ-TREE ==="
 
+# Infer the context tree with automatic model selection and branch support.
 iqtree2 \
   -s "${BASE}/SLRP_reference_context_aligned_trimmed.faa" \
   -m MFP \
@@ -83,20 +86,5 @@ iqtree2 \
   -T AUTO \
   --prefix "${BASE}/SLRP_reference_context"
 
-echo "=== Prepare iTOL files ==="
-
-cp "${BASE}/SLRP_reference_context.treefile" \
-   "${BASE}/SLRP_reference_context_itol.tree"
-
-sed -i 's/|/_/g' "${BASE}/SLRP_reference_context_itol.tree"
-
-python "${BASE}/scripts/make_slrp_reference_itol_annotations.py" \
-  --tree "${BASE}/SLRP_reference_context_itol.tree" \
-  --out-prefix "${BASE}/SLRP_reference_context_itol"
-
 echo "DONE."
-echo "Upload to iTOL:"
-echo "${BASE}/SLRP_reference_context_itol.tree"
-echo "${BASE}/SLRP_reference_context_itol.labels.txt"
-echo "${BASE}/SLRP_reference_context_itol.classes.txt"
-echo "${BASE}/SLRP_reference_context_itol.thesis_genes.txt"
+echo "Tree: ${BASE}/SLRP_reference_context.treefile"

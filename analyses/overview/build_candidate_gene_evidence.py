@@ -9,6 +9,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "analyses" / "overview" / "candidate_gene_evidence.tsv"
 
+# These are all genes considered during panel selection. The annotation below
+# records biological context; numerical evidence is joined from result tables.
 GENES = ("BGN", "FMOD", "PRELP", "EPYC", "OGN", "LUM", "DCN", "OMD", "ASPN")
 
 ANNOTATION = {
@@ -88,11 +90,14 @@ ANNOTATION = {
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
+    # All project summary tables use a header row and tab-separated fields.
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
 def main() -> None:
+    # Load independent evidence sources before assembling one row per gene.
+    # The output integrates existing results; it does not recompute them.
     local_rows = read_tsv(
         ROOT
         / "analyses"
@@ -153,6 +158,8 @@ def main() -> None:
     )
     synvoy = {x["gene"]: x for x in synvoy_rows}
 
+    # Keep each study on its original scale. Ranks and detection counts are not
+    # collapsed into a new statistical score.
     rows: list[dict] = []
     for gene in GENES:
         mouse = gse[("mouse", gene)]
@@ -161,6 +168,8 @@ def main() -> None:
         protein = conservation.get(gene)
         synteny = synvoy.get(gene)
         annotation = ANNOTATION[gene]
+        # Each dictionary becomes one output row containing both measurements
+        # and the documented reason for the panel decision.
         rows.append(
             {
                 "gene": gene,
@@ -205,6 +214,7 @@ def main() -> None:
             }
         )
 
+    # Write the integration table consumed by later overview scripts.
     fields = list(rows[0])
     with OUT.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fields, delimiter="\t")

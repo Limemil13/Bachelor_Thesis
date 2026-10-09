@@ -16,6 +16,7 @@ TARGET = "XP_414298.2"
 
 
 def read_fasta(path: Path) -> list[tuple[str, str]]:
+    # Read reference and candidate FASTA records with complete headers.
     records = []
     header = None
     chunks = []
@@ -35,6 +36,7 @@ def read_fasta(path: Path) -> list[tuple[str, str]]:
 
 
 def write_fasta(path: Path, records: list[tuple[str, str]]) -> None:
+    # Write diagnostic subsets without changing canonical source files.
     with path.open("w", encoding="utf-8", newline="\n") as handle:
         for header, sequence in records:
             handle.write(f">{header}\n")
@@ -43,6 +45,8 @@ def write_fasta(path: Path, records: list[tuple[str, str]]) -> None:
 
 
 def main() -> None:
+    # Add the disputed chicken protein to the human SLRP reference panel so its
+    # placement can be compared with BGN, ASPN and related paralogs.
     references = read_fasta(REFERENCE)
     matches = [record for record in read_fasta(CANONICAL) if TARGET in record[0]]
     if len(references) != 19 or len(matches) != 1:

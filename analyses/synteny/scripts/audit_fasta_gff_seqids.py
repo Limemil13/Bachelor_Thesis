@@ -9,6 +9,7 @@ from pathlib import Path
 
 
 def fasta_ids(path: Path) -> set[str]:
+    # Collect exact sequence identifiers from FASTA headers.
     ids: set[str] = set()
     with path.open(encoding="utf-8") as handle:
         for line in handle:
@@ -18,6 +19,7 @@ def fasta_ids(path: Path) -> set[str]:
 
 
 def gff_ids(path: Path) -> set[str]:
+    # Collect sequence IDs used by non-comment GFF feature rows.
     ids: set[str] = set()
     with path.open(encoding="utf-8", errors="ignore") as handle:
         for line in handle:
@@ -30,11 +32,14 @@ def gff_ids(path: Path) -> set[str]:
 
 
 def unversioned(accession: str) -> str:
+    # Remove a final numeric accession version for secondary diagnostics only.
     head, separator, tail = accession.rpartition(".")
     return head if separator and tail.isdigit() else accession
 
 
 def main() -> None:
+    # Compare every FASTA/GFF pair using exact and unversioned identifiers and
+    # report whether SynVoy can safely combine the files.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--fna-dir", required=True, type=Path)
     parser.add_argument("--gff-dir", required=True, type=Path)

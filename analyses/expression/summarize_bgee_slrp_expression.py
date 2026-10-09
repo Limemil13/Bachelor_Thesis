@@ -36,6 +36,8 @@ def write_tsv(path: Path, rows: list[dict[str, str]]) -> None:
 
 
 def category(name: str) -> str:
+    # Assign anatomy labels to broad evidence classes. Muscle and bone marrow
+    # are excluded because their names can otherwise match broader terms.
     lowered = name.casefold()
     if "skeletal muscle" in lowered or "bone marrow" in lowered:
         return "none"
@@ -49,8 +51,11 @@ def category(name: str) -> str:
 
 
 def main() -> None:
+    # First retain musculoskeletal calls, then summarize their presence for each
+    # requested species, gene and query mode.
     calls = read_tsv(CALLS)
     mappings = read_tsv(MAPPING)
+    # Preserve individual Bgee calls so the summary remains auditable.
     relevant: list[dict[str, str]] = []
     for row in calls:
         label = category(row["anatomical_entity_name"])
@@ -71,6 +76,7 @@ def main() -> None:
     )
     write_tsv(TABLE_DIR / "bgee_slrp_relevant_expression_calls.tsv", relevant)
 
+    # An empty subset means no matching downloaded call, not biological absence.
     summary: list[dict[str, str]] = []
     for mapping in mappings:
         for mode in ("anatomy_all_data", "stage_rnaseq"):
@@ -89,6 +95,8 @@ def main() -> None:
                     "skeletal_development_or_connective_tissue",
                 )
             }
+            # Prefer direct cartilage calls, then broader bone and developmental
+            # terms. The highest expression score is selected within that class.
             prioritized = (
                 by_category["direct_cartilage_or_growth_plate"]
                 or by_category["bone_or_joint"]

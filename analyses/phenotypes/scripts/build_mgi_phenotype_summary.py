@@ -84,6 +84,7 @@ CATEGORY_KEYWORDS = {
 }
 
 
+# Read Mammalian Phenotype ontology names and parent relationships.
 def parse_obo(path: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
     names: dict[str, str] = {}
     parents: dict[str, list[str]] = defaultdict(list)
@@ -117,6 +118,7 @@ def parse_obo(path: Path) -> tuple[dict[str, str], dict[str, list[str]]]:
     return names, parents
 
 
+# Traverse ontology parents so specific MP terms inherit broad categories.
 def ancestor_names(
     term_id: str, names: dict[str, str], parents: dict[str, list[str]]
 ) -> list[str]:
@@ -134,6 +136,7 @@ def ancestor_names(
     return result
 
 
+# Assign thesis-facing phenotype groups from a term and its ancestors.
 def categories_for(
     term_id: str, names: dict[str, str], parents: dict[str, list[str]]
 ) -> list[str]:
@@ -146,6 +149,7 @@ def categories_for(
     return categories or ["other"]
 
 
+# Extract focal-gene genotype/phenotype evidence from the pinned MGI report.
 def parse_mgi(
     path: Path, names: dict[str, str], parents: dict[str, list[str]]
 ) -> list[dict[str, str]]:
@@ -203,6 +207,7 @@ def parse_mgi(
     return records
 
 
+# Shared writer for detailed, summary and category-matrix tables.
 def write_tsv(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
@@ -213,6 +218,7 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fieldnames: list[str]) 
         writer.writerows(rows)
 
 
+# Count distinct terms and alleles by gene while retaining category membership.
 def aggregate(
     records: list[dict[str, str]],
 ) -> tuple[list[dict[str, object]], list[dict[str, object]], list[dict[str, object]]]:
@@ -331,6 +337,7 @@ def aggregate(
     return terms, category_rows, evidence_rows
 
 
+# Display term counts by gene/category; colour intensity is descriptive only.
 def plot_heatmap(category_rows: list[dict[str, object]], output: Path) -> None:
     categories = list(CATEGORY_KEYWORDS) + ["other"]
     matrix = np.zeros((len(GENES), len(categories)), dtype=int)
@@ -366,6 +373,8 @@ def plot_heatmap(category_rows: list[dict[str, object]], output: Path) -> None:
 
 
 def main() -> None:
+    # Parse MGI and the MP ontology, aggregate focal-gene evidence, and write
+    # tables plus the phenotype-category heat map.
     parser = argparse.ArgumentParser()
     parser.add_argument("--gene-pheno", required=True, type=Path)
     parser.add_argument("--ontology", required=True, type=Path)

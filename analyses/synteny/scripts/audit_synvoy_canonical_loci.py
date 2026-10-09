@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
-"""Compare SynVoy candidate coordinates with canonical protein loci in target GFFs.
-
-This is a rapid confirmation tool for P2/P3 rows. It does not replace the
-multi-evidence P1 review: it asks the narrower, reproducible question of whether
-the protein accession used in the thesis maps to the same annotated locus as
-the best post-ownership SynVoy candidate.
+"""checks for Synvoy candidate the intervals and coordinates of protein,
+ then outputs if overlap, close or different loci
 """
 
 from __future__ import annotations

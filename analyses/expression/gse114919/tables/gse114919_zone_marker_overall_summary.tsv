@@ -1,0 +1,11 @@
+species	gene	role	expected_zone	available_in_source_matrix	condition_count	conditions_higher_in_hz	conditions_higher_in_pz	conditions_matching_expected_direction	mean_hz_minus_pz_descriptive_only	source_note
+mouse	SOX9	cartilage_lineage_control	none	yes	3	0	3	not_applicable	-2.375793	one exact gene-symbol row in the deposited matrix
+mouse	COL2A1	cartilage_matrix_control	none	yes	3	0	3	not_applicable	-1.596077	one exact gene-symbol row in the deposited matrix
+mouse	ACAN	cartilage_matrix_control	none	yes	3	1	2	not_applicable	-0.710089	one exact gene-symbol row in the deposited matrix
+mouse	COL10A1	hypertrophic_marker	HZ	yes	3	3	0	3	4.169597	one exact gene-symbol row in the deposited matrix
+mouse	MMP13	hypertrophic_marker	HZ	yes	3	3	0	3	4.447999	one exact gene-symbol row in the deposited matrix
+rat	SOX9	cartilage_lineage_control	none	yes	3	0	3	not_applicable	-0.998505	one exact gene-symbol row in the deposited matrix
+rat	COL2A1	cartilage_matrix_control	none	yes	3	0	3	not_applicable	-0.494425	one exact gene-symbol row in the deposited matrix
+rat	ACAN	cartilage_matrix_control	none	yes	3	1	2	not_applicable	-0.065994	one exact gene-symbol row in the deposited matrix
+rat	COL10A1	hypertrophic_marker	HZ	no	0	0	0	0		no exact gene-symbol row; unavailable, not treated as zero
+rat	MMP13	hypertrophic_marker	HZ	yes	3	3	0	3	4.79949	one exact gene-symbol row in the deposited matrix

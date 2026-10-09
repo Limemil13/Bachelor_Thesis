@@ -21,15 +21,20 @@ ZONE_MARKERS = {"PZ": "o", "HZ": "^"}
 
 
 def condition_label(row: pd.Series) -> str:
+    # Compact labels encode species, age, bone and zone for the shared x-axis.
     bone = "P" if row["bone"] == "phalanx" else "T"
     return f"{row['species'][0].upper()}{int(row['age_weeks'])}{bone}-{row['zone']}"
 
 
 def main() -> None:
+    # Keep replicate values separate. The short black segment added below is the
+    # condition mean and is not a statistical significance test.
     data = pd.read_csv(INPUT, sep="\t")
     data = data[data["gene"].isin(GENES)].copy()
     data["condition"] = data.apply(condition_label, axis=1)
 
+    # Build one condition order for all gene panels and skip combinations absent
+    # from the deposited data.
     conditions = []
     for species in ("mouse", "rat"):
         for bone, age in (("phalanx", 1), ("tibia", 1), ("tibia", 4)):
@@ -43,6 +48,7 @@ def main() -> None:
                 if not subset.empty:
                     conditions.append(subset.iloc[0]["condition"])
 
+    # A fixed seed makes the display jitter reproducible between runs.
     rng = np.random.default_rng(20260922)
     fig, axes = plt.subplots(3, 3, figsize=(14.5, 10.5), sharex=True)
     for axis, gene in zip(axes.flat, GENES, strict=True):
@@ -55,6 +61,7 @@ def main() -> None:
                 continue
             species = "mouse" if condition.startswith("M") else "rat"
             zone = condition.rsplit("-", 1)[1]
+            # Horizontal jitter separates overlapping points without changing data.
             jitter = rng.uniform(-0.12, 0.12, len(values))
             axis.scatter(
                 position + jitter,
@@ -133,6 +140,7 @@ def main() -> None:
     )
     fig.tight_layout(rect=(0, 0.035, 1, 0.95))
 
+    # Export both scalable PDF and convenient PNG versions.
     OUTPUT.mkdir(parents=True, exist_ok=True)
     for suffix in ("png", "svg"):
         fig.savefig(

@@ -1,4 +1,4 @@
-"""Build canonical per-protein and per-gene thesis conservation summaries."""
+#Build canonical per-protein and per-gene conservation summaries
 
 from __future__ import annotations
 
@@ -68,6 +68,7 @@ def index_unique(
 
 
 def msa_quality(raw_status: str) -> str:
+    #faster understanding of quality, at least for me
     return {
         "ok": "Good",
         "watch": "Watch",
@@ -91,9 +92,7 @@ def canonical_signalp(
         raw.get("signalp_source") or "SignalP-6.0 better_run (2026-07-27)"
     )
     result["signalp_rerun_required"] = raw.get("signalp_rerun_required") or "no"
-
-    # Preserve the documented fallback only when the corrected canonical dog
-    # sequence has not been included in an explicit canonical SignalP run.
+    #issue with signalP run for dog ogn
     if row_key == DOG_OGN_KEY and "canonical" not in result["signalp_source"].lower():
         result.update(
             {
@@ -163,6 +162,7 @@ def qc_status_and_concerns(
 
 
 def main() -> None:
+    #for the summary, proteins in summary based on manifest to keep everything tidy
     manifest_rows = read_tsv(MANIFEST)
     domain_rows = read_tsv(DOMAIN_IN)
     msa_rows = read_tsv(MSA_IN)
@@ -182,11 +182,6 @@ def main() -> None:
                 f"{label} keys differ from manifest; missing={missing}, extra={extra}"
             )
 
-    # A promoted gene may be added to the canonical computational panel before
-    # a new SignalP web/standalone run is available. Keep that gap explicit
-    # rather than copying or inferring a prediction. Historical SignalP rows
-    # that are no longer canonical are ignored, while missing rows become
-    # honest pending records below.
     unexpected_signalp = sorted(set(signalp) - expected_keys)
     if unexpected_signalp:
         raise ValueError(

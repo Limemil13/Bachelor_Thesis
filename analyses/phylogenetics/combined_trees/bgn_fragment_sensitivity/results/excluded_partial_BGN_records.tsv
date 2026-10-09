@@ -1,0 +1,3 @@
+gene	species	accession	protein_length_aa	sensitivity_exclusion_reason
+BGN	scyliorhinus_canicula	XP_038638277.1	268	catshark partial BGN model; 68% query coverage
+BGN	whale_shark	XP_048475905.1	161	whale-shark partial BGN model; 39% query coverage

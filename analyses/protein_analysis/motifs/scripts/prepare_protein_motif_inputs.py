@@ -13,6 +13,7 @@ EXPECTED_CANONICAL_COUNT = 103
 
 
 def read_fasta(path: Path) -> dict[str, str]:
+    # Read canonical proteins keyed by their compact project identifiers.
     records: dict[str, list[str]] = {}
     header: str | None = None
     for line in path.read_text(encoding="utf-8").splitlines():
@@ -25,6 +26,7 @@ def read_fasta(path: Path) -> dict[str, str]:
 
 
 def write_fasta(path: Path, records: dict[str, str]) -> None:
+    # Write deterministic FASTA files in dictionary insertion order.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as handle:
         for header, sequence in records.items():
@@ -34,6 +36,8 @@ def write_fasta(path: Path, records: dict[str, str]) -> None:
 
 
 def main() -> None:
+    # Validate all 103 canonical proteins, then write full-length and
+    # SignalP-cleavage-trimmed sets for global and per-gene motif searches.
     parser = argparse.ArgumentParser()
     parser.add_argument("--fasta", required=True, type=Path)
     parser.add_argument("--protein-table", required=True, type=Path)

@@ -8,6 +8,8 @@ from pathlib import Path
 
 
 def main() -> None:
+    # Stream one named FASTA record, validate 1-based inclusive coordinates and
+    # write only the requested subsequence.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("fasta", type=Path)
     parser.add_argument("record")
@@ -19,6 +21,7 @@ def main() -> None:
     if args.start < 1 or args.end < args.start:
         raise ValueError("Coordinates must satisfy 1 <= start <= end")
 
+    # Avoid loading unrelated records from a potentially large assembly FASTA.
     collecting = False
     parts: list[str] = []
     with args.fasta.open(encoding="utf-8") as handle:

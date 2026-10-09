@@ -45,6 +45,7 @@ AUDIT = ROOT / "analyses/protein_analysis/candidates/BGN_deep_lineage_correction
 
 @dataclass(frozen=True)
 class Replacement:
+    # Describe one annotation-supported replacement locus and expected accession.
     species: str
     gff_name: str
     fna_name: str
@@ -84,12 +85,14 @@ EXCLUSIONS = {
 
 
 def parse_attrs(text: str) -> dict[str, str]:
+    # Parse GFF3 attributes needed to link CDS features to proteins.
     return dict(
         item.split("=", 1) for item in text.rstrip(";").split(";") if "=" in item
     )
 
 
 def reconstruct(replacement: Replacement) -> tuple[str, str, str, int, int]:
+    # Rebuild a predicted protein from CDS coordinates on the matching assembly.
     gff = SYNVOY / "pro_panel/targets_15/gff" / replacement.gff_name
     genome = SYNVOY / "pro_panel/targets_15/fna" / replacement.fna_name
     cds: list[tuple[str, int, int, str]] = []
@@ -132,6 +135,8 @@ def reconstruct(replacement: Replacement) -> tuple[str, str, str, int, int]:
 def validate(
     protein: str, human: str, family_records: list[tuple[str, str]], accession: str
 ) -> dict[str, str]:
+    # Check the reconstructed sequence against human SLRP references and return
+    # the forward/reverse BLAST evidence used for curation.
     with tempfile.TemporaryDirectory(prefix="bgn_deep_repair_") as temp_name:
         temp = Path(temp_name)
         human_fasta, target_fasta, family_fasta = (
@@ -167,6 +172,8 @@ def validate(
 
 
 def main() -> None:
+    # Remove known DCN contaminants, insert supported shark replacements and
+    # preserve every removal/replacement decision in a provenance table.
     current = read_fasta(TARGET_FILES[0])
     human = next(
         sequence for header, sequence in current if header.startswith("human|BGN|")

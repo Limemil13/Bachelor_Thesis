@@ -35,11 +35,17 @@ def write_tsv(path: Path, rows: list[dict], fields: list[str]) -> None:
 
 
 def rat_name_map() -> dict[int, str]:
+    # Rat matrix headers contain only numeric sample suffixes. The deposited
+    # companion map, rather than row order or a guessed naming pattern, is used to
+    # recover age, bone, growth-plate zone, and replicate.
     rows = read_tsv(TABLES / "gse114919_rat_sample_name_map.tsv")
     return {int(row["No."]): row["Sample "].strip() for row in rows}
 
 
 def parse_mouse(sample: str) -> dict[str, str | int]:
+    # A strict full match makes metadata errors visible. Silently accepting an
+    # unfamiliar header could put a sample into the wrong condition while still
+    # producing a plausible mean.
     match = re.fullmatch(r"([14])w(T|Ph|P)_(HZ|PZ)(\d+)", sample)
     if not match:
         raise ValueError(f"Unrecognized mouse sample header: {sample}")
@@ -54,6 +60,9 @@ def parse_mouse(sample: str) -> dict[str, str | int]:
 
 
 def parse_rat(sample: str, names: dict[int, str]) -> dict[str, str | int]:
+    # Convert the matrix ID through the published map before parsing biological
+    # metadata. This keeps the interpretation tied to the deposited source rather
+    # than to assumptions about how the spreadsheet columns were ordered.
     number_match = re.search(r"_S(\d+)$", sample)
     if not number_match:
         raise ValueError(f"Unrecognized rat matrix header: {sample}")
@@ -73,6 +82,9 @@ def parse_rat(sample: str, names: dict[int, str]) -> dict[str, str | int]:
 
 
 def mean_sd_cv(values: list[float]) -> tuple[float, float, float | str]:
+    # Use sample SD for replicate variability. Leave CV blank at a zero mean:
+    # returning zero would wrongly say there is no relative variability, whereas
+    # the ratio is mathematically undefined.
     mean = statistics.fmean(values)
     sd = statistics.stdev(values) if len(values) > 1 else 0.0
     cv = sd / mean if mean else ""
@@ -80,7 +92,12 @@ def mean_sd_cv(values: list[float]) -> tuple[float, float, float | str]:
 
 
 def main() -> None:
+    # First convert both matrices to the same long-table structure. Every later
+    # summary is derived from that auditable sample-level table, which avoids having
+    # separate mouse and rat calculation paths that could drift apart.
     rat_names = rat_name_map()
+    # One row represents one gene measurement in one biological sample; no values
+    # are pooled at this stage.
     long_rows: list[dict] = []
     sources = {
         "mouse": TABLES / "gse114919_mouse_slrp_normalized_counts.tsv",
@@ -128,6 +145,9 @@ def main() -> None:
     ]
     write_tsv(TABLES / "gse114919_slrp_growth_plate_long.tsv", long_rows, long_fields)
 
+    # Define a biological condition by species, bone, age, and zone. Only replicate
+    # values inside that exact group are summarized, so incompatible normalizations
+    # and distinct anatomical/age groups are never treated as replicates.
     groups: dict[tuple, list[float]] = defaultdict(list)
     for row in long_rows:
         key = (row["species"], row["bone"], row["age_weeks"], row["zone"], row["gene"])
@@ -154,6 +174,9 @@ def main() -> None:
             }
         )
 
+    # Ranks provide a scale-independent description of the nine screened genes
+    # within one condition. They do not represent fold changes, p-values, or a
+    # statistically tested difference between genes.
     by_condition: dict[tuple, list[dict]] = defaultdict(list)
     for row in summary_rows:
         by_condition[
@@ -229,7 +252,9 @@ def main() -> None:
         gene_fields,
     )
 
-    # Auditable within-species, within-zone age contrasts for tibial growth plate.
+    # Age contrasts are calculated only within species, tibia, and zone. Subtraction
+    # stays on the authors' normalized-value scale and is deliberately not called a
+    # fold change because the scale is not a raw-count ratio.
     lookup = {
         (x["species"], x["gene"], x["age_weeks"], x["zone"]): x for x in tibia_rows
     }

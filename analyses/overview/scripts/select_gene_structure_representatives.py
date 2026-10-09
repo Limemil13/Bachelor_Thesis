@@ -1,11 +1,4 @@
 #!/usr/bin/env python3
-"""Select one biologically plausible transcript per gene/species GFF result.
-
-The selector is the reproducible, parameterized replacement for the historical
-six-gene script in the SynVoy checkout.  It keeps the same output columns and
-quality flags while including LUM explicitly.
-"""
-
 from __future__ import annotations
 
 import argparse

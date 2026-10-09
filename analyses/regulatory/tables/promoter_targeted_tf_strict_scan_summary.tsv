@@ -1,2 +1,2 @@
 scan	motifs_tested	promoters_tested	reported_hits	interpretation
-targeted JASPAR FIMO q<=0.05	40	35	0	no motif instances survived global FIMO q-value correction
+targeted JASPAR FIMO q<=0.05	40	34	0	no motif instances survived global FIMO q-value correction

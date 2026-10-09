@@ -11,6 +11,8 @@ OUT_DIR = BASE / "protspace" / "figures"
 
 
 def main() -> None:
+    # Plot each stored two-dimensional projection using the same gene colours.
+    # These figures are exploratory; outlier decisions were made in full space.
     data = pd.read_csv(TABLE, sep="\t")
     genes = ["BGN", "DCN", "EPYC", "FMOD", "OGN", "PRELP", "LUM"]
     colors = {
@@ -23,6 +25,7 @@ def main() -> None:
         "LUM": "#e7298a",
         "Control": "#555555",
     }
+    # Create one panel for every projection method present in the validated table.
     projection_names = data["projection_name"].drop_duplicates().tolist()
     fig, axes = plt.subplots(
         1, len(projection_names), figsize=(16, 5), constrained_layout=True

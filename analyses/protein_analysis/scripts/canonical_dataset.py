@@ -1,10 +1,6 @@
-"""Build and validate the canonical compact SLRP protein dataset.
-
-The compact thesis dataset contains one selected protein per confident
-gene/species key for BGN, DCN, EPYC, FMOD, OGN, PRELP, and LUM. Dog OGN is read
-from the corrected FASTA; amphioxus OGN is retained only as manual-review
-provenance. DCN is the promoted class-I comparator; its questionable amphioxus
-hit is deliberately excluded from the compact ortholog set.
+"""
+final protein panel used for my thesis
+makes a final protein FASTA and provenance table for the SLRP panel used in my thesis
 """
 
 from __future__ import annotations
@@ -55,6 +51,7 @@ METRIC_RE = re.compile(r"\b(forward_pident|forward_qcovs|reverse_hit)=([^\s]+)")
 
 @dataclass(frozen=True)
 class Record:
+    #immutable incase of formatting step fucking it up after validation
     gene: str
     species: str
     accession: str
@@ -110,10 +107,12 @@ def parse_header(header: str) -> tuple[str, str, str, dict[str, str]]:
 
 
 def project_relative(path: Path) -> str:
+    #inclusive function
     return path.resolve().relative_to(PROJECT_ROOT.resolve()).as_posix()
 
 
 def load_records() -> list[Record]:
+    #since im messy with my directories, old and corrected files are in /candidates
     missing = [path for path in CANONICAL_FASTAS.values() if not path.exists()]
     if missing:
         raise FileNotFoundError(
@@ -159,6 +158,7 @@ def load_records() -> list[Record]:
                 )
             )
 
+    #identity check to keep it tidy
     keys = [record.key for record in records]
     duplicate_keys = [key for key, count in Counter(keys).items() if count > 1]
     if duplicate_keys:

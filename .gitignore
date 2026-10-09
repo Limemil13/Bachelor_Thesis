@@ -20,6 +20,8 @@ Thumbs.db
 *.log
 *.tmp
 tmp/
+.chart-data-*/
+.presentation-build/
 
 # Local working data and historical runs
 archive/
@@ -29,6 +31,9 @@ results/
 
 # Local manuscript, writing notes, and private literature inventory
 thesis/
+*.md
+!/README.md
+!/analyses/overview/README.md
 analyses/overview/history/
 analyses/overview/GITHUB_PUSH_MANIFEST.md
 analyses/overview/THESIS_NEXT_STEPS.md
@@ -48,6 +53,50 @@ analyses/literature/scripts/build_paper_use_map.py
 analyses/literature/private_pdf_inventory.tsv
 analyses/protein_analysis/manual_review/CHONDRICHTHYAN_BGN_DCN_CURATION_PLAN.md
 analyses/synteny/SYNTENY_MANUAL_REVIEW_GUIDE.md
+
+# Local development code and superseded exploratory workflows
+/.editorconfig
+/pyproject.toml
+/synteny_pipeline/
+/analyses/phylogenetics/per_gene_trees/
+/analyses/literature/
+/analyses/overview/build_gene_structure_review_queue.py
+/analyses/overview/review_predicted_gene_structure_transcripts.py
+/analyses/overview/gene_structure_manual_review_queue.tsv
+/analyses/overview/gene_structure_predicted_transcript_ncbi_review.tsv
+/analyses/overview/scripts/extract_gene_structure_cached.py
+/analyses/overview/scripts/extract_gene_structure_streaming.py
+/analyses/overview/scripts/merge_gene_structure_gene.py
+/analyses/overview/scripts/merge_lum_gene_structure.py
+/analyses/overview/scripts/run_lum_gene_structure_update.sh
+/analyses/protein_analysis/diagnostics/OGN/check_ogn_nterm.py
+/analyses/protein_analysis/diagnostics/OGN/make_ogn_nterm_fasta.py
+/analyses/protein_analysis/diagnostics/OGN/make_ogn_signalp_retest.py
+/analyses/protein_analysis/scripts/build_manual_sequence_review_packet.py
+/analyses/protein_analysis/scripts/tables.py
+/analyses/synteny/scripts/run_opossum_synvoy_panel.sh
+/analyses/phylogenetics/compact_panel/scripts/make_itol_annotations.py
+/analyses/phylogenetics/combined_trees/seven_gene_tree/make_selected_gene_itol_annotations.py
+/analyses/phylogenetics/combined_trees/slrp_family_reference_tree/scripts/make_slrp_reference_itol_annotations.py
+/analyses/phylogenetics/compact_panel/itol/
+/analyses/phylogenetics/combined_trees/seven_gene_tree/*_itol.*
+/analyses/phylogenetics/combined_trees/slrp_family_reference_tree/*_itol.*
+/analyses/protein_analysis/alignments/BGN_aligned.faa
+/analyses/protein_analysis/alignments/EPYC_aligned.faa
+/analyses/protein_analysis/alignments/FMOD_aligned.faa
+/analyses/protein_analysis/alignments/OGN_aligned.faa
+/analyses/protein_analysis/alignments/OGN_dog_corrected_aligned.faa
+/analyses/protein_analysis/alignments/PRELP_aligned.faa
+/analyses/protein_analysis/alignments/msa_quality_summary.tsv
+/analyses/protein_analysis/motifs/inputs/slrp_canonical_90_full.faa
+/analyses/protein_analysis/motifs/inputs/slrp_canonical_90_mature.faa
+/analyses/protein_analysis/signal_peptides/raw_outputs/
+/analyses/protein_analysis/signal_peptides/signalp6_*
+/analyses/protein_analysis/signal_peptides/input/*
+!/analyses/protein_analysis/signal_peptides/input/slrp_candidates_canonical_for_signalp.faa
+!/analyses/protein_analysis/signal_peptides/input/signalp_canonical_id_mapping.tsv
+/analyses/protein_analysis/signal_peptides/tables/*
+!/analyses/protein_analysis/signal_peptides/tables/signalp_summary_clean.tsv
 
 # Downloaded or regenerable analysis inputs and intermediates
 analyses/**/archive/
@@ -73,14 +122,36 @@ analyses/protein_analysis/signal_peptides/*.js
 analyses/expression/bgee_api_documentation.html
 analyses/expression/*pilot*.json
 
+# Keep the compact outputs from the two final focused sensitivity checks.
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/
+analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/*
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/all_gene_tree_comparison.tsv
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/bgn_tree_comparison.tsv
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/excluded_partial_BGN_records.tsv
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/input_gene_counts.tsv
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/run_manifest.tsv
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/SLRP_partial_BGN_excluded_aligned_trimmed.faa
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/SLRP_partial_BGN_excluded.iqtree
+!analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/SLRP_partial_BGN_excluded.treefile
+!analyses/protein_analysis/targeted_bgn_genome_search/results/
+analyses/protein_analysis/targeted_bgn_genome_search/results/*
+!analyses/protein_analysis/targeted_bgn_genome_search/results/final_interpretation.tsv
+!analyses/protein_analysis/targeted_bgn_genome_search/results/*.candidate_windows.tsv
+!analyses/protein_analysis/targeted_bgn_genome_search/results/*.tblastn.tsv
+!analyses/protein_analysis/targeted_bgn_genome_search/results/*.miniprot.gff
+
 # Tool-native restart and distance files are reproducible from retained inputs.
 *.bionj
 *.ckp.gz
 *.mldist
 *.model.gz
 *.splits.nex
+*.contree
+*.tree
 *.h5
 *.zip
+*.svg
+*.eps
 
 # BLAST database files
 *.nhr

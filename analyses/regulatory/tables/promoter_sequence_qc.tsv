@@ -1,6 +1,4 @@
 gene	species	window	transcript_id	strand	length_bp	expected_length_bp	clipped_at_contig_edge	gc_percent	ambiguous_percent
-BGN	chicken	core	rna-XM_414298.8	+	601	601	no	39.434	0.0
-BGN	chicken	proximal	rna-XM_414298.8	+	2201	2201	no	38.71	0.0
 BGN	cow	core	rna-NM_178318.4	+	601	601	no	68.885	0.0
 BGN	cow	proximal	rna-NM_178318.4	+	2201	2201	no	58.11	0.0
 BGN	human	core	rna-NM_001711.6	+	601	601	no	66.223	0.0

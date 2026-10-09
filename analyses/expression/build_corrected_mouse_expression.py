@@ -1,8 +1,6 @@
-"""Build a metadata-corrected, descriptive mouse expression panel.
-
-This deliberately does not calculate a growth-plate-versus-other-tissue fold
-change: the focal and comparison samples come from different studies, ages,
-cell/tissue preparations, platforms, and replication designs.
+"""description of expression of the three wild type samples
+reads salmon quant.sf files and metadata that was corrected
+sums transcript TPM by gene, calculates mean, SD, coef var and rank
 """
 
 from __future__ import annotations
@@ -51,6 +49,7 @@ GENES_TO_PLOT = [
 
 
 def main() -> None:
+    #source directory has for each sample one modified salmon gene TPM table
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--source-root",
@@ -60,8 +59,11 @@ def main() -> None:
     )
     args = parser.parse_args()
 
+
+    #read id and TPM val from every sample
     metadata = pd.read_csv(METADATA, sep="\t")
     tables: list[pd.DataFrame] = []
+
 
     for row in metadata.itertuples(index=False):
         local_name = str(row.local_quantification).replace("_quant", "")
@@ -71,11 +73,13 @@ def main() -> None:
         table = pd.read_csv(source, sep="\t")[["gene_symbol", "total_TPM"]]
         tables.append(table.rename(columns={"total_TPM": row.analysis_column}))
 
+
     combined = tables[0]
     for table in tables[1:]:
         combined = combined.merge(
             table, on="gene_symbol", how="outer", validate="one_to_one"
         )
+
 
     focal = ["P0_WT1_paired", "P0_WT2_paired", "P0_WT3_single"]
     combined["p0_chondroprogenitor_mean_TPM"] = combined[focal].mean(axis=1)
@@ -88,11 +92,13 @@ def main() -> None:
     )
     combined["p0_detected_in_all_three"] = (combined[focal] > 0).all(axis=1)
 
+
     TABLE_DIR.mkdir(parents=True, exist_ok=True)
     FIGURE_DIR.mkdir(parents=True, exist_ok=True)
     table_out = TABLE_DIR / "mouse_expression_descriptive_metadata_corrected.tsv"
     combined.to_csv(table_out, sep="\t", index=False)
 
+    #need to leave pseudocount out
     plot = combined[combined["gene_symbol"].isin(GENES_TO_PLOT)].copy()
     plot["gene_symbol"] = pd.Categorical(
         plot["gene_symbol"], categories=GENES_TO_PLOT, ordered=True

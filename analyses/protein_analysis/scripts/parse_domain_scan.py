@@ -22,6 +22,7 @@ def read_manifest() -> list[dict[str, str]]:
 
 
 def is_lrr(domain_name: str, description: str) -> bool:
+    # Pfam we catching all the names, actually only 3lrrrr :)
     text = f"{domain_name} {description}".lower()
     return (
         "lrr" in domain_name.lower()
@@ -87,6 +88,7 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
 
 
 def main() -> None:
+    #if < 2 LRR then its flagged
     if not DOMTBLOUT.exists():
         raise SystemExit(f"Missing hmmscan output: {DOMTBLOUT}")
 

@@ -34,6 +34,7 @@ DELIMITER = b"---PARQUET_DELIMITER---"
 
 
 def read_bundle_tables(path: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    # Read annotation, projection, and metadata tables from the ProtSpace bundle.
     parts = path.read_bytes().split(DELIMITER)
     if len(parts) not in (3, 4):
         raise ValueError(f"Expected 3 or 4 ProtSpace bundle parts, found {len(parts)}")
@@ -42,6 +43,7 @@ def read_bundle_tables(path: Path) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataF
 
 
 def write_tsv(path: Path, rows: list[dict[str, object]]) -> None:
+    # Export derived QC rows as a stable TSV.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=list(rows[0]), delimiter="\t")
@@ -50,6 +52,7 @@ def write_tsv(path: Path, rows: list[dict[str, object]]) -> None:
 
 
 def robust_z(values: np.ndarray) -> np.ndarray:
+    # Use median/MAD scaling so extreme points do not define the scale.
     median = np.median(values)
     mad = np.median(np.abs(values - median))
     if mad == 0:
@@ -58,6 +61,7 @@ def robust_z(values: np.ndarray) -> np.ndarray:
 
 
 def silhouette_from_distance(distance: np.ndarray, labels: list[str]) -> np.ndarray:
+    # Calculate silhouette values in full embedding space, not in a 2-D projection.
     result = np.zeros(len(labels), dtype=float)
     for i, label in enumerate(labels):
         same = [j for j, other in enumerate(labels) if other == label and j != i]
@@ -72,6 +76,7 @@ def silhouette_from_distance(distance: np.ndarray, labels: list[str]) -> np.ndar
 
 
 def main() -> None:
+    # Validate IDs, calculate embedding-distance QC, and export summaries.
     annotations = pd.read_csv(INPUT_ANNOTATIONS, dtype=str).fillna("")
     expected_total = 107  # 103 canonical SLRPs plus four retained controls.
     if (
@@ -114,6 +119,7 @@ def main() -> None:
     if vectors.shape != (expected_total, 1024) or not np.isfinite(vectors).all():
         raise ValueError(f"Unexpected embedding matrix: {vectors.shape}")
 
+    # Unit-normalize vectors before calculating cosine distance.
     normalized = vectors / np.linalg.norm(vectors, axis=1, keepdims=True)
     distance = np.clip(1.0 - normalized @ normalized.T, 0.0, 2.0)
 
@@ -142,6 +148,7 @@ def main() -> None:
 
         centroid_distances: dict[str, float] = {}
         for candidate_gene in genes:
+            # Leave the query out of each candidate centroid.
             members = [
                 idx
                 for idx in slr_indices
@@ -200,6 +207,7 @@ def main() -> None:
             }
         )
 
+    # Scale within-gene distances separately for robust outlier scores.
     robust_scores: dict[int, float] = {}
     for values in median_within_by_gene.values():
         indices = [index for index, _ in values]

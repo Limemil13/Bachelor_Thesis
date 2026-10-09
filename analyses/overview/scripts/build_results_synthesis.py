@@ -32,10 +32,12 @@ COLORS = {
 
 
 def read_tsv(relative: str) -> pd.DataFrame:
+    # Resolve all analysis inputs from the repository root.
     return pd.read_csv(ROOT / relative, sep="\t")
 
 
 def save_figure(fig: plt.Figure, base: Path) -> None:
+    # Save identical content as PNG for preview and SVG for scalable use.
     base.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(
         base.with_suffix(".png"), dpi=300, bbox_inches="tight", facecolor="white"
@@ -45,13 +47,129 @@ def save_figure(fig: plt.Figure, base: Path) -> None:
 
 
 def percent(numerator: pd.Series, denominator: pd.Series) -> pd.Series:
+    # Centralize percentage calculation so panels use the same convention.
     return 100.0 * numerator.astype(float) / denominator.astype(float)
 
 
+def orthology_supported_structure_rows(
+    representatives: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Separate comparative ortholog rows from annotation-conflict provenance.
+
+    The chicken BGN-labelled transcript is structurally valid as an annotated
+    locus, but its translated product is ASPN-like.  It can therefore be kept
+    for provenance without being counted as a chicken BGN ortholog in the
+    cross-species summary.
+    """
+    notes = representatives["note"].fillna("").astype(str)
+    excluded_mask = notes.str.contains("locus_structure_only", regex=False)
+    retained = representatives.loc[~excluded_mask].copy()
+    excluded = representatives.loc[excluded_mask].copy()
+    return retained, excluded
+
+
+def write_orthology_supported_structure_audit(
+    representatives: pd.DataFrame, excluded: pd.DataFrame
+) -> None:
+    """Write filtered structure tables without deleting the raw locus record."""
+    tables = ROOT / "analyses/gene_structure/tables"
+    extended = ROOT / "analyses/gene_structure/extended/tables"
+    representatives.to_csv(
+        tables / "gene_structure_representative_orthology_supported.tsv",
+        sep="\t",
+        index=False,
+    )
+
+    excluded_keys = set(
+        zip(excluded["query_gene"], excluded["species_or_file"], strict=False)
+    )
+
+    qc = pd.read_csv(extended / "full_gene_structure_qc.tsv", sep="\t")
+    qc_keys = list(zip(qc["gene"], qc["species"], strict=False))
+    qc = qc.loc[[key not in excluded_keys for key in qc_keys]].copy()
+    qc.to_csv(
+        extended / "full_gene_structure_qc_orthology_supported.tsv",
+        sep="\t",
+        index=False,
+    )
+
+    blocks = pd.read_csv(
+        extended / "coding_exon_splice_phase_5species.tsv", sep="\t"
+    )
+    block_keys = list(zip(blocks["gene"], blocks["species"], strict=False))
+    blocks = blocks.loc[[key not in excluded_keys for key in block_keys]].copy()
+    junctions = blocks[blocks["intron_phase_after"].notna()].copy()
+    splice_rows: list[dict[str, object]] = []
+    for (gene, cds_index), group in junctions.groupby(
+        ["gene", "cds_index"], sort=False
+    ):
+        phases = sorted({int(value) for value in group["intron_phase_after"]})
+        positions = group["coding_boundary_aa"].astype(float)
+        normalized = group["normalized_cds_position_percent"].astype(float)
+        splice_rows.append(
+            {
+                "gene": gene,
+                "junction_after_cds": int(cds_index),
+                "species_count": group["species"].nunique(),
+                "intron_phases": ",".join(map(str, phases)),
+                "phase_conserved_across_species": "yes" if len(phases) == 1 else "no",
+                "boundary_position_min_aa": round(positions.min(), 3),
+                "boundary_position_max_aa": round(positions.max(), 3),
+                "boundary_position_range_aa": round(
+                    positions.max() - positions.min(), 3
+                ),
+                "normalized_position_min_percent": round(normalized.min(), 3),
+                "normalized_position_max_percent": round(normalized.max(), 3),
+                "normalized_position_range_percentage_points": round(
+                    normalized.max() - normalized.min(), 3
+                ),
+                "all_gff_phase_checks_pass": (
+                    "yes" if group["phase_consistent"].eq("yes").all() else "no"
+                ),
+                "boundary_conserved_within_3aa": (
+                    "yes" if positions.max() - positions.min() <= 3 else "no"
+                ),
+            }
+        )
+    pd.DataFrame(splice_rows).to_csv(
+        extended / "splice_junction_conservation_orthology_supported.tsv",
+        sep="\t",
+        index=False,
+    )
+
+    isoforms = pd.read_csv(extended / "isoform_sensitivity_5species.tsv", sep="\t")
+    isoform_keys = list(zip(isoforms["gene"], isoforms["species"], strict=False))
+    isoforms = isoforms.loc[[key not in excluded_keys for key in isoform_keys]].copy()
+    isoforms.to_csv(
+        extended / "isoform_sensitivity_orthology_supported.tsv",
+        sep="\t",
+        index=False,
+    )
+
+    domains = pd.read_csv(extended / "representative_pfam_domain_hits.tsv", sep="\t")
+    domain_keys = list(zip(domains["gene"], domains["species"], strict=False))
+    domains = domains.loc[[key not in excluded_keys for key in domain_keys]].copy()
+    domains.to_csv(
+        extended / "representative_pfam_domain_hits_orthology_supported.tsv",
+        sep="\t",
+        index=False,
+    )
+
+
 def build_gene_structure_summary() -> pd.DataFrame:
-    representatives = read_tsv(
+    # Aggregate transcript-level structure and domain mappings to one row per gene.
+    all_representatives = read_tsv(
         "analyses/gene_structure/tables/gene_structure_representative_5species.tsv"
     )
+    representatives, excluded = orthology_supported_structure_rows(
+        all_representatives
+    )
+    excluded_out = (
+        ROOT
+        / "analyses/gene_structure/tables/gene_structure_orthology_exclusions.tsv"
+    )
+    excluded.to_csv(excluded_out, sep="\t", index=False)
+    write_orthology_supported_structure_audit(representatives, excluded)
     # Use the extended exon table because it is regenerated with the current
     # panel (including DCN).  The older compact CDS-block table predates the
     # DCN promotion and is retained only as historical output.
@@ -61,6 +179,12 @@ def build_gene_structure_summary() -> pd.DataFrame:
     blocks["query_gene"] = blocks["gene"]
     blocks["cds_block_index"] = blocks["cds_index"]
     blocks["coding_exon_length_bp"] = blocks["length_bp"]
+    excluded_keys = set(
+        zip(excluded["query_gene"], excluded["species_or_file"], strict=False)
+    )
+    if excluded_keys:
+        block_keys = list(zip(blocks["gene"], blocks["species"], strict=False))
+        blocks = blocks.loc[[key not in excluded_keys for key in block_keys]].copy()
     exon_cv = (
         blocks.groupby(["query_gene", "cds_block_index"])["coding_exon_length_bp"]
         .agg(lambda x: float(x.std(ddof=0) / x.mean()) if x.mean() else np.nan)
@@ -111,9 +235,11 @@ def build_gene_structure_summary() -> pd.DataFrame:
 
 
 def plot_gene_structure() -> None:
-    reps = read_tsv(
+    # Compare gene spans, coding-exon counts and protein lengths across species.
+    all_reps = read_tsv(
         "analyses/gene_structure/tables/gene_structure_representative_5species.tsv"
     )
+    reps, excluded = orthology_supported_structure_rows(all_reps)
     gene_order = [g for g in GENES + ["OMD"] if g in set(reps["query_gene"])]
     species_order = ["human", "mouse", "cow", "chicken", "zebrafish"]
 
@@ -122,17 +248,19 @@ def plot_gene_structure() -> None:
     )
     exon = reps.pivot(
         index="query_gene", columns="species_or_file", values="cds_exon_count"
-    ).loc[gene_order, species_order]
+    ).reindex(index=gene_order, columns=species_order)
     exon_values = exon.to_numpy(dtype=float)
     exon_cmap = LinearSegmentedColormap.from_list("exons", ["#F3F7FB", "#4C78A8"])
-    axes[0].imshow(exon_values, cmap=exon_cmap, aspect="auto")
+    exon_cmap.set_bad("#D9D9D9")
+    axes[0].imshow(np.ma.masked_invalid(exon_values), cmap=exon_cmap, aspect="auto")
     axes[0].set_xticks(
         range(len(species_order)), species_order, rotation=35, ha="right"
     )
     axes[0].set_yticks(range(len(gene_order)), gene_order)
     for i in range(exon_values.shape[0]):
         for j in range(exon_values.shape[1]):
-            axes[0].text(j, i, f"{exon_values[i, j]:.0f}", ha="center", va="center")
+            label = "excluded" if np.isnan(exon_values[i, j]) else f"{exon_values[i, j]:.0f}"
+            axes[0].text(j, i, label, ha="center", va="center", fontsize=8)
     axes[0].set_title("A  Coding-exon count")
     axes[0].set_xlabel("")
     axes[0].set_ylabel("")
@@ -141,7 +269,7 @@ def plot_gene_structure() -> None:
         sub = (
             reps[reps["query_gene"].eq(gene)]
             .set_index("species_or_file")
-            .loc[species_order]
+            .reindex(species_order)
         )
         axes[1].plot(
             species_order,
@@ -169,14 +297,14 @@ def plot_gene_structure() -> None:
         ax.grid(axis="y", alpha=0.25)
     axes[2].legend(ncol=2, fontsize=8, frameon=False)
     fig.suptitle(
-        "Gene structure is conserved in coding-exon number, while intron-driven locus span varies",
+        "Orthology-supported gene structures conserve coding-exon number while locus span varies",
         fontsize=15,
         y=1.02,
     )
     fig.text(
         0.5,
         -0.02,
-        "Representative protein-coding transcript per species; five reference annotations only",
+        "Representative protein-coding transcripts; chicken BGN excluded because its translated product is ASPN-like",
         ha="center",
         fontsize=9,
     )
@@ -187,6 +315,8 @@ def plot_gene_structure() -> None:
 
 
 def plot_protein_overview() -> None:
+    # Summarize identity, domains, signal peptides and sequence-QC status without
+    # combining them into a single confidence score.
     summary = (
         read_tsv(
             "analyses/protein_analysis/tables/protein_conservation_domain_msa_signalp_gene_summary.tsv"
@@ -310,6 +440,7 @@ def plot_protein_overview() -> None:
 
 
 def plot_expression_details() -> None:
+    # Keep local TPM values and independent growth-plate ranks in separate panels.
     age = read_tsv(
         "analyses/expression/gse114919/tables/gse114919_slrp_tibia_age_contrasts.tsv"
     )
@@ -410,6 +541,7 @@ def plot_expression_details() -> None:
 
 
 def plot_synteny() -> None:
+    # Display SynVoy call classes and candidate counts from finalized review tables.
     evidence = read_tsv("analyses/synteny/tables/synvoy_gene_species_evidence.tsv")
     updated_fmod_calls = {
         "catshark": "NONE",
@@ -506,7 +638,7 @@ def plot_synteny() -> None:
     fig.text(
         0.5,
         -0.01,
-        "H/M/– = automated SynVoy result; A = accepted, T = tentative, ? = ambiguous, R = rejected. Completed opossum rows are excluded; a matched replacement pair passed input validation but was not rerun to completion.",
+        "H/M/– = automated SynVoy result; A = accepted, T = tentative, ? = ambiguous, R = rejected. Opossum uses the reviewed matched-assembly reruns; BGN remains ambiguous because its expected interval is mostly assembly gap.",
         ha="center",
         fontsize=9,
     )
@@ -517,6 +649,7 @@ def plot_synteny() -> None:
 
 
 def count_newick_tips(path: Path) -> int:
+    # Count terminal labels in a Newick tree without reconstructing the tree.
     if not path.exists():
         return 0
     text = path.read_text(encoding="utf-8")
@@ -524,6 +657,7 @@ def count_newick_tips(path: Path) -> int:
 
 
 def parse_model(path: Path) -> str:
+    # Extract the selected substitution model from an IQ-TREE report.
     if not path.exists():
         return "not run"
     text = path.read_text(encoding="utf-8", errors="ignore")
@@ -532,8 +666,9 @@ def parse_model(path: Path) -> str:
 
 
 def build_phylogeny_inventory() -> pd.DataFrame:
+    # Record the retained compact and combined trees and their basic metadata.
     review = read_tsv(
-        "analyses/phylogenetics/combined_trees/six_gene_tree/compact_tree_gene_clade_review.tsv"
+        "analyses/phylogenetics/combined_trees/seven_gene_tree/compact_tree_gene_clade_review.tsv"
     ).set_index("gene")
     rows = []
     for gene in GENES:
@@ -541,28 +676,6 @@ def build_phylogeny_inventory() -> pd.DataFrame:
             ROOT / f"analyses/phylogenetics/compact_panel/trees/{gene}/{gene}.treefile"
         )
         small_report = small_tree.with_suffix(".iqtree")
-        large_tree = ROOT / (
-            f"analyses/phylogenetics/per_gene_trees/{gene}/final_tree/{gene}_large_final.treefile"
-        )
-        large_report = large_tree.with_suffix(".iqtree")
-        filter_report_path = ROOT / (
-            f"analyses/phylogenetics/per_gene_trees/{gene}/candidates/"
-            f"{gene}_large_filter_report.tsv"
-        )
-        filter_report = (
-            pd.read_csv(filter_report_path, sep="\t")
-            if filter_report_path.exists()
-            else pd.DataFrame(columns=["status"])
-        )
-        corrected_filter_path = ROOT / (
-            f"analyses/phylogenetics/per_gene_trees/{gene}/candidates/"
-            f"{gene}_large_locus_filter_report.tsv"
-        )
-        corrected_filter = (
-            pd.read_csv(corrected_filter_path, sep="\t")
-            if corrected_filter_path.exists()
-            else pd.DataFrame(columns=["status"])
-        )
         rows.append(
             {
                 "gene": gene,
@@ -578,20 +691,6 @@ def build_phylogeny_inventory() -> pd.DataFrame:
                 "combined_tree_outside_tip": review.loc[
                     gene, "tips_outside_largest_pure_gene_split"
                 ],
-                "large_download_record_count": len(filter_report),
-                "large_legacy_retained_count": int(
-                    filter_report["status"].eq("kept").sum()
-                ),
-                "large_corrected_candidate_count": int(
-                    corrected_filter["status"].eq("kept").sum()
-                ),
-                "large_tree_tip_count": count_newick_tips(large_tree),
-                "large_model": parse_model(large_report),
-                "large_tree_status": (
-                    "legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending"
-                    if large_tree.exists()
-                    else "large tree not run; compact curated tree is the thesis-grade result"
-                ),
             }
         )
     result = pd.DataFrame(rows)
@@ -604,9 +703,10 @@ def build_phylogeny_inventory() -> pd.DataFrame:
 
 
 def plot_phylogeny_overview(inventory: pd.DataFrame) -> None:
+    # Visualize tree coverage and selected models from the inventory table.
     review = (
         read_tsv(
-            "analyses/phylogenetics/combined_trees/six_gene_tree/compact_tree_gene_clade_review.tsv"
+            "analyses/phylogenetics/combined_trees/seven_gene_tree/compact_tree_gene_clade_review.tsv"
         )
         .set_index("gene")
         .loc[GENES]
@@ -641,40 +741,30 @@ def plot_phylogeny_overview(inventory: pd.DataFrame) -> None:
             rotation=90,
         )
 
-    x = np.arange(len(GENES))
-    width = 0.26
     axes[1].bar(
-        x - width,
-        inventory["large_download_record_count"],
-        width,
-        label="Downloaded records",
-        color="#BAB0AC",
+        GENES,
+        inventory["compact_tip_count"],
+        color=[COLORS[g] for g in GENES],
     )
-    axes[1].bar(
-        x,
-        inventory["large_legacy_retained_count"],
-        width,
-        label="Legacy retained tips",
-        color="#4C78A8",
-    )
-    axes[1].bar(
-        x + width,
-        inventory["large_corrected_candidate_count"],
-        width,
-        label="Corrected candidates (tree pending)",
-        color="#F58518",
-    )
-    axes[1].set_xticks(x, GENES)
-    axes[1].set_ylabel("Protein records")
-    axes[1].set_title("B  Large NCBI trees: corrected candidate sets are ready")
-    axes[1].legend(frameon=False)
+    axes[1].set_ylabel("Proteins in compact tree")
+    axes[1].set_title("B  Curated proteins retained in each per-gene tree")
+    for i, row in inventory.iterrows():
+        axes[1].text(
+            i,
+            row["compact_tip_count"] + 0.2,
+            row["compact_model"],
+            ha="center",
+            va="bottom",
+            fontsize=8,
+            rotation=35,
+        )
     for ax in axes:
         ax.grid(axis="y", alpha=0.25)
     fig.suptitle("Phylogenetic result status", fontsize=16)
     fig.text(
         0.5,
         -0.02,
-        "All displayed trees are unrooted. Legacy large trees are exploratory; corrected per-locus candidate sets are ready, but IQ-TREE reruns are pending.",
+        "All displayed trees are unrooted. The compact trees use the curated candidate panel; model labels are taken from the IQ-TREE reports.",
         ha="center",
         fontsize=9,
     )
@@ -685,8 +775,10 @@ def plot_phylogeny_overview(inventory: pd.DataFrame) -> None:
 
 
 def plot_integrated_dashboard() -> pd.DataFrame:
+    # Normalize columns only to control colour intensity; printed cell labels stay
+    # on their original scales and no overall ranking is calculated.
     integrated = (
-        read_tsv("analyses/overview/six_gene_integrated_summary.tsv")
+        read_tsv("analyses/overview/seven_gene_integrated_summary.tsv")
         .set_index("gene")
         .loc[GENES]
     )
@@ -785,9 +877,9 @@ def plot_integrated_dashboard() -> pd.DataFrame:
         fontsize=9,
     )
     fig.tight_layout()
-    save_figure(fig, ROOT / "analyses/overview/figures/six_gene_evidence_dashboard")
+    save_figure(fig, ROOT / "analyses/overview/figures/seven_gene_evidence_dashboard")
     matrix.to_csv(
-        ROOT / "analyses/overview/tables/six_gene_evidence_dashboard_values.tsv",
+        ROOT / "analyses/overview/tables/seven_gene_evidence_dashboard_values.tsv",
         sep="\t",
         index_label="gene",
     )
@@ -795,6 +887,7 @@ def plot_integrated_dashboard() -> pd.DataFrame:
 
 
 def plot_workflow() -> None:
+    # Draw a static overview of how independent evidence streams feed synthesis.
     fig, ax = plt.subplots(figsize=(16, 9))
     ax.set_xlim(0, 16)
     ax.set_ylim(0, 9)
@@ -839,7 +932,7 @@ def plot_workflow() -> None:
             3.2,
             1.4,
             "5  Phylogenetics",
-            "Compact per-gene + 103-tip tree\nlarge trees exploratory/pending",
+            "Compact per-gene trees +\ncombined 103-tip tree",
         ),
         (
             6.4,
@@ -917,6 +1010,8 @@ def plot_workflow() -> None:
 
 
 def build_scope_inventory() -> None:
+    # Record the unit and species scope of every analysis to prevent accidental
+    # claims that all methods used an identical panel.
     rows = [
         {
             "analysis": "Local expression",
@@ -950,22 +1045,15 @@ def build_scope_inventory() -> None:
             "analysis": "Compact phylogeny",
             "scope": "seven per-gene trees and one combined 103-tip tree",
             "status": "complete; OGN amphioxus removed from confident ortholog panel on 2026-08-25",
-            "source_of_truth": "analyses/phylogenetics/combined_trees/six_gene_tree/compact_tree_gene_clade_review.tsv",
+            "source_of_truth": "analyses/phylogenetics/combined_trees/seven_gene_tree/compact_tree_gene_clade_review.tsv",
             "main_caveat": "unrooted; no direction of evolution without justified outgroup",
         },
         {
-            "analysis": "Large NCBI phylogeny",
-            "scope": "521-781 legacy retained tips per gene",
-            "status": "legacy trees excluded; corrected one-per-locus inputs available, new large-tree inference optional",
-            "source_of_truth": "analyses/overview/tables/phylogeny_result_inventory.tsv",
-            "main_caveat": "legacy filter misread NCBI organism/GeneID/isoform header fields",
-        },
-        {
             "analysis": "Gene structure",
-            "scope": "8 genes (7 panel genes plus OMD); human, mouse, cow, chicken, zebrafish",
+            "scope": "39 orthology-supported representatives for 8 genes (7 panel genes plus OMD); human, mouse, cow, chicken, zebrafish",
             "status": "complete including full transcript, splice phase, isoform sensitivity, and domain-exon mapping",
             "source_of_truth": "analyses/gene_structure/extended/tables/extended_gene_structure_gene_summary.tsv",
-            "main_caveat": "five reference species; UTR and isoform results are annotation/transcript-choice dependent",
+            "main_caveat": "five reference species; chicken BGN is retained only as excluded annotation-conflict provenance; UTR and isoform results are annotation/transcript-choice dependent",
         },
         {
             "analysis": "Pairwise coding constraint",
@@ -979,7 +1067,7 @@ def build_scope_inventory() -> None:
             "scope": "7 completed genes x 14 target genomes = 98 gene-genome rows",
             "status": "seven automated runs and all 98 P1/P2/P3 locus reviews complete",
             "source_of_truth": "analyses/synteny/tables/synvoy_gene_species_evidence.tsv",
-            "main_caveat": "completed opossum rows are excluded; the replacement pair passed input validation but gene-level reruns are incomplete",
+            "main_caveat": "matched-assembly opossum reruns were integrated after row-level review; opossum BGN remains unresolved because its expected interval is mostly ambiguous sequence",
         },
     ]
     pd.DataFrame(rows).to_csv(
@@ -990,6 +1078,7 @@ def build_scope_inventory() -> None:
 
 
 def main() -> None:
+    # Regenerate all overview tables and figures from their primary result files.
     plt.style.use("seaborn-v0_8-whitegrid")
     (ROOT / "analyses/overview/tables").mkdir(parents=True, exist_ok=True)
     build_gene_structure_summary()

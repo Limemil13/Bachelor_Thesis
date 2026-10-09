@@ -14,6 +14,7 @@ COMPLEMENT = str.maketrans("ACGTNacgtn", "TGCANtgcan")
 
 
 def parse_attributes(raw: str) -> dict[str, str]:
+    # Parse and URL-decode GFF3 attributes used to identify CDS features.
     attributes: dict[str, str] = {}
     for item in raw.rstrip().split(";"):
         if "=" in item:
@@ -23,6 +24,7 @@ def parse_attributes(raw: str) -> dict[str, str]:
 
 
 class IndexedFasta:
+    # Fetch assembly intervals through a .fai index without loading whole contigs.
     def __init__(self, fasta: Path, needed_seqids: set[str]):
         self.handle = fasta.open("rb")
         self.index: dict[str, tuple[int, int, int, int]] = {}
@@ -85,10 +87,13 @@ class IndexedFasta:
 
 
 def wrap(sequence: str, width: int = 80) -> str:
+    # Format reconstructed nucleotide/protein sequences as readable FASTA.
     return "\n".join(sequence[i : i + width] for i in range(0, len(sequence), width))
 
 
 def main() -> None:
+    # Locate CDS rows for one protein, fetch them in transcript order, account for
+    # strand/phase, translate the CDS and write sequence plus coordinate provenance.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--gff", required=True, type=Path)
     parser.add_argument("--fasta", required=True, type=Path)

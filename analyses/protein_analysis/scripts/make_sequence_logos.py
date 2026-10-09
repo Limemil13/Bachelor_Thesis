@@ -47,6 +47,7 @@ LETTER_PATHS = {aa: TextPath((0, 0), aa, size=1, prop=FONT) for aa in AA}
 
 
 def read_fasta(path: Path) -> list[str]:
+    # Return aligned sequences only; headers are not needed for the logo stacks.
     sequences: list[str] = []
     chunks: list[str] = []
     with path.open(encoding="utf-8") as handle:
@@ -68,6 +69,8 @@ def read_fasta(path: Path) -> list[str]:
 
 
 def letter_heights(column: list[str], n_sequences: int) -> list[tuple[str, float]]:
+    # Convert residue frequencies to information-content heights and scale the
+    # whole column by non-gap occupancy.
     observed = [residue for residue in column if residue in AA_SET]
     n = len(observed)
     if n == 0:
@@ -85,6 +88,7 @@ def letter_heights(column: list[str], n_sequences: int) -> list[tuple[str, float
 
 
 def draw_letter(ax, aa: str, x: float, y: float, height: float) -> None:
+    # Draw one amino-acid glyph scaled to the requested stack height.
     if height < 0.012:
         return
     path = LETTER_PATHS[aa]
@@ -101,6 +105,7 @@ def draw_letter(ax, aa: str, x: float, y: float, height: float) -> None:
 
 
 def make_logo(gene: str) -> None:
+    # Build consecutive logo panels for one gene's complete canonical alignment.
     sequences = read_fasta(ALIGNMENTS / f"{gene}_canonical_aligned.faa")
     length = len(sequences[0])
     n_rows = (length + WINDOW - 1) // WINDOW
@@ -157,6 +162,7 @@ def make_logo(gene: str) -> None:
 
 
 def main() -> None:
+    # Generate one sequence-logo figure for every focal gene alignment.
     for gene in GENES:
         make_logo(gene)
     print(f"Wrote sequence logos to {OUT}")

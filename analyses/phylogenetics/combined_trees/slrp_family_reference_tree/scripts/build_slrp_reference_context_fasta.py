@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+"""Assemble the reduced human SLRP reference/context FASTA."""
+
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[5]
@@ -11,8 +13,7 @@ LOCAL_QUERIES = ROOT / "data/queries"
 OUT_FASTA = OUTDIR / "SLRP_reference_context.faa"
 OUT_REPORT = OUTDIR / "SLRP_reference_context_selected.tsv"
 
-# Reduced SLRP family context.
-# Thesis genes are included, plus close SLRP family members and one LINGO outgroup.
+# Reduced SLRP family context: focal genes, close paralogs and one LINGO outgroup.
 GENES = {
     # Class I / Clade 2 context
     "ASPN": {"class": "Class_I", "preferred": ["NP_060150.4", "NP_001180264.1"]},
@@ -45,6 +46,7 @@ GENES = {
 
 
 def read_fasta(path):
+    # Preserve full headers so source accessions and descriptions remain auditable.
     records = []
     header = None
     seq = []
@@ -72,6 +74,7 @@ def read_fasta(path):
 
 
 def write_fasta(records, path):
+    # Write the selected human reference sequences under normalized tree-tip names.
     with path.open("w") as out:
         for header, seq in records:
             out.write(f">{header}\n")
@@ -80,10 +83,12 @@ def write_fasta(records, path):
 
 
 def accession(header):
+    # Recover the accession from common NCBI header formats.
     return header.split()[0]
 
 
 def is_plausible_slrp_length(seq, gene):
+    # Apply a broad length screen while allowing the longer outgroup proteins.
     # LINGO is larger than SLRPs, so allow it separately.
     if gene == "LINGO1":
         return 400 <= len(seq) <= 900
@@ -91,6 +96,7 @@ def is_plausible_slrp_length(seq, gene):
 
 
 def candidate_files_for_gene(gene):
+    # Search pinned downloads first and local query FASTAs as a fallback.
     files = []
 
     local = LOCAL_QUERIES / f"{gene}.faa"
@@ -105,6 +111,7 @@ def candidate_files_for_gene(gene):
 
 
 def choose_record(gene, records, preferred):
+    # Prefer listed reference accessions, otherwise choose a plausible complete model.
     if not records:
         return None
 
@@ -132,6 +139,8 @@ def choose_record(gene, records, preferred):
 
 
 def main():
+    # Select one human sequence per reference gene and record exactly which source
+    # file and accession contributed to the combined context FASTA.
     selected = []
     report = [
         "gene\tclass\taccession\tlength\tselection_reason\told_header\tnew_header"

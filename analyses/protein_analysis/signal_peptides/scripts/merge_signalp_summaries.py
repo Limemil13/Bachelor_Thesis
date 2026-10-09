@@ -25,6 +25,7 @@ def write_tsv(path: Path, rows: list[dict[str, str]], fields: list[str]) -> None
 
 
 def main() -> None:
+    # Merge separate jobs, using the current canonical manifest as the filter.
     parser = argparse.ArgumentParser()
     parser.add_argument("--existing", required=True, type=Path)
     parser.add_argument("--lum", required=True, type=Path)
@@ -54,6 +55,7 @@ def main() -> None:
     if len(lum) != 16 or {row["gene"] for row in lum} != {"LUM"}:
         raise ValueError("LUM SignalP summary must contain exactly 16 LUM rows")
 
+    # Use gene/species/accession triples to keep replacement sequences distinct.
     canonical = read_tsv(args.manifest)
     canonical_keys = {
         (row["gene"], row["species"], row["accession"]) for row in canonical
@@ -64,6 +66,7 @@ def main() -> None:
         for row in read_tsv(supplemental_path)
     ]
     historical = existing + lum + supplemental
+    # Exclude historical predictions for proteins no longer in the panel.
     rows = [
         row
         for row in historical
@@ -75,6 +78,7 @@ def main() -> None:
     if not set(keys).issubset(canonical_keys):
         raise ValueError("Merged SignalP summary contains noncanonical proteins")
 
+    # Write the full table plus filtered check/watch views.
     args.out_dir.mkdir(parents=True, exist_ok=True)
     fields = list(rows[0])
     write_tsv(args.out_dir / "signalp_summary_clean.tsv", rows, fields)

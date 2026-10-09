@@ -19,6 +19,7 @@ def read_tsv(path: Path) -> list[dict[str, str]]:
 
 
 def parse_cs(cs_text: str) -> tuple[str, str]:
+    # Extract the optional cleavage position and probability from SignalP text.
     pos_match = re.search(r"CS pos:\s*([0-9]+-[0-9]+)", cs_text)
     prob_match = re.search(r"Pr:\s*([0-9.]+)", cs_text)
     return (
@@ -30,6 +31,7 @@ def parse_cs(cs_text: str) -> tuple[str, str]:
 def quality(
     prediction: str, sp_score: float, cleavage_probability: str
 ) -> tuple[str, str, str, str]:
+    # Add check/watch labels without changing SignalP's SP/no-SP prediction.
     notes: list[str] = []
     strict_check = "no"
     watch = "no"
@@ -75,6 +77,7 @@ def write_tsv(path: Path, rows: list[dict[str, str]], fields: list[str]) -> None
 
 
 def main() -> None:
+    # Require exact agreement between returned IDs and the submitted ID map.
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--mapping", type=Path, default=DEFAULT_MAPPING)
@@ -95,6 +98,7 @@ def main() -> None:
     if not mapping_rows or len(mapping) != len(mapping_rows):
         raise ValueError("SignalP mapping must contain at least one row and unique IDs")
 
+    # Ignore format comments but reject malformed or duplicate result rows.
     predictions: dict[str, list[str]] = {}
     with args.input.open(encoding="utf-8", errors="strict") as handle:
         for raw_line in handle:
@@ -118,6 +122,7 @@ def main() -> None:
     source = (
         f"SignalP-6.0 canonical {args.model_mode} ({args.run_date}; job {args.job_id})"
     )
+    # Preserve raw scores beside the derived check/watch labels.
     rows: list[dict[str, str]] = []
     for mapped in mapping_rows:
         seq_id = mapped["signalp_id"]

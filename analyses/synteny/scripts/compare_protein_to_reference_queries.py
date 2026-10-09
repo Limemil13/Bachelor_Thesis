@@ -14,6 +14,7 @@ OUTFMT = (
 
 
 def parse_subject(value: str) -> tuple[str, Path]:
+    # Accept readable NAME=FASTA arguments for multiple reference panels.
     if "=" not in value:
         raise argparse.ArgumentTypeError("Use NAME=PATH for --subject")
     name, path = value.split("=", 1)
@@ -21,6 +22,8 @@ def parse_subject(value: str) -> tuple[str, Path]:
 
 
 def main() -> None:
+    # Run the candidate against every named reference FASTA and keep all tabular
+    # BLASTP fields needed to compare identity, coverage and score.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--query", required=True, type=Path)
     parser.add_argument("--subject", required=True, action="append", type=parse_subject)

@@ -1,10 +1,6 @@
 #!/usr/bin/env python3
-"""Build representative transcript models and splice-phase summaries.
-
-The analysis extracts exon, CDS, and derived UTR structure from the selected
-NCBI GFF3/genome pairs. It also reconstructs CDS/protein sequences, checks
-splice-frame continuity, summarizes coding isoforms, and renders the associated
-figures.
+"""Build representative transcript models and splice-phase summaries
+extracting exon, cds, utr and reconstructs sequences
 """
 
 from __future__ import annotations
@@ -59,7 +55,6 @@ def parse_attrs(text: str) -> dict[str, str]:
 
 
 class IndexedFasta:
-    """Small read-only FASTA accessor using a samtools .fai file."""
 
     def __init__(self, fasta: Path):
         self.fasta = fasta
@@ -108,7 +103,6 @@ def revcomp(sequence: str) -> str:
 def oriented_interval(
     start: int, end: int, transcript_start: int, transcript_end: int, strand: str
 ) -> tuple[int, int]:
-    """Return 0-based half-open transcript-oriented genomic coordinates."""
     if strand == "+":
         return start - transcript_start, end - transcript_start + 1
     return transcript_end - end, transcript_end - start + 1
@@ -840,6 +834,7 @@ def main() -> None:
         splice_summary_fields,
     )
 
+    # Quantify how alternative coding isoforms differ from the selected model.
     isoform_rows = build_isoform_sensitivity(
         read_tsv(args.all_transcripts), representatives
     )

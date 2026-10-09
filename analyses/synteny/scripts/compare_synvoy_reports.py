@@ -11,6 +11,7 @@ from build_synvoy_review import candidate_is_goi, candidate_sort_key
 
 
 def candidate_rows(path: Path) -> dict[str, list[dict]]:
+    # Load only final GOI candidates and group them by target genome.
     report = json.loads(path.read_text(encoding="utf-8"))
     grouped = defaultdict(list)
     for record in report["goi_dedup"]["records"]:
@@ -22,6 +23,7 @@ def candidate_rows(path: Path) -> dict[str, list[dict]]:
 
 
 def describe(records: list[dict]) -> dict[str, str]:
+    # Reduce a candidate list to the best call and key comparison fields.
     best = records[0] if records else {}
     return {
         "candidate_count": str(len(records)),
@@ -36,6 +38,7 @@ def describe(records: list[dict]) -> dict[str, str]:
 
 
 def main() -> None:
+    # Compare two SynVoy reports target by target and write changed candidate calls.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("old_report", type=Path)
     parser.add_argument("new_report", type=Path)

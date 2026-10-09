@@ -10,6 +10,7 @@ from urllib.parse import unquote
 
 
 def parse_attributes(text: str) -> dict[str, str]:
+    # Parse and URL-decode the GFF3 attribute column.
     attributes: dict[str, str] = {}
     for item in text.rstrip(";").split(";"):
         if "=" not in item:
@@ -20,6 +21,7 @@ def parse_attributes(text: str) -> dict[str, str]:
 
 
 def symbol(attributes: dict[str, str]) -> str:
+    # Choose the best available human-readable gene or feature label.
     value = (
         attributes.get("gene")
         or attributes.get("Name")
@@ -30,10 +32,13 @@ def symbol(attributes: dict[str, str]) -> str:
 
 
 def overlaps(start: int, end: int, query_start: int, query_end: int) -> bool:
+    # Test inclusive genomic-interval overlap.
     return start <= query_end and end >= query_start
 
 
 def main() -> None:
+    # List features overlapping the query interval and the nearest annotated genes
+    # on the same sequence record for manual locus interpretation.
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("gff", type=Path)
     parser.add_argument("seqid")

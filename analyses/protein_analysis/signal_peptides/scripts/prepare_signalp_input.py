@@ -1,3 +1,5 @@
+"""Normalize canonical protein identifiers and prepare SignalP FASTA input."""
+
 import csv
 import re
 from pathlib import Path
@@ -28,6 +30,7 @@ files = {
 
 
 def read_fasta(path):
+    # Read each gene-specific canonical FASTA while preserving original headers.
     records = []
     header = None
     seq = []
@@ -49,12 +52,14 @@ def read_fasta(path):
 
 
 def clean_text(x):
+    # Convert a detailed project identifier to the restricted SignalP ID format.
     x = x.replace("|", "_")
     x = re.sub(r"[^A-Za-z0-9_.-]+", "_", x)
     x = re.sub(r"_+", "_", x)
     return x.strip("_")
 
 
+# Build one combined SignalP FASTA and a mapping back to gene/species/accession.
 rows = []
 seen_ids = set()
 expected_counts = {
@@ -88,7 +93,7 @@ with OUT_FASTA.open("w") as fasta_out:
 
             simple_id = clean_text(f"{gene}__{species}__{accession}")
 
-            # Avoid duplicate IDs if any exist
+            # Add a suffix only if normalization produces the same ID twice.
             original_simple_id = simple_id
             counter = 2
             while simple_id in seen_ids:
@@ -112,6 +117,7 @@ with OUT_FASTA.open("w") as fasta_out:
                 }
             )
 
+# Validate the complete panel before making focused subsets.
 if observed_counts != expected_counts:
     raise ValueError(f"Unexpected per-gene SignalP counts: {observed_counts}")
 expected_total = sum(expected_counts.values())
@@ -137,6 +143,7 @@ with OUT_MAP.open("w", newline="") as f:
     writer.writeheader()
     writer.writerows(rows)
 
+# Focused subsets allow new or corrected genes to be submitted separately.
 lum_rows = [row for row in rows if row["gene"] == "LUM"]
 lum_ids = {row["signalp_id"] for row in lum_rows}
 with OUT_LUM_FASTA.open("w") as fasta_out:
@@ -195,6 +202,7 @@ with OUT_DCN_MAP.open("w", newline="") as f:
 if len(dcn_rows) != 15:
     raise ValueError(f"Expected 15 DCN SignalP proteins, found {len(dcn_rows)}")
 
+# The pending set combines all DCN proteins with two replaced BGN proteins.
 pending_bgn_accessions = {"XP_038638277.1", "XP_048475905.1"}
 pending_rows = [
     row

@@ -12,6 +12,7 @@ from pathlib import Path
 
 
 def fasta_accessions(path: Path) -> set[str]:
+    # Collect all assembly sequence accessions present in the genome FASTA.
     accessions: set[str] = set()
     with path.open(encoding="utf-8") as handle:
         for line in handle:
@@ -23,6 +24,7 @@ def fasta_accessions(path: Path) -> set[str]:
 
 
 def annotated_gff_seqids(path: Path) -> set[str]:
+    # Collect sequence IDs from actual GFF features, not only header directives.
     seqids: set[str] = set()
     with path.open(encoding="utf-8", errors="replace") as handle:
         for line in handle:
@@ -35,6 +37,7 @@ def annotated_gff_seqids(path: Path) -> set[str]:
 
 
 def main() -> None:
+    # Validate each named FASTA/GFF pair before launching an expensive SynVoy run.
     parser = argparse.ArgumentParser()
     parser.add_argument("--fna-dir", required=True, type=Path)
     parser.add_argument("--gff-dir", required=True, type=Path)

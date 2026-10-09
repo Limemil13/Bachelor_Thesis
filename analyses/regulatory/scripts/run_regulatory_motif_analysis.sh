@@ -5,6 +5,12 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO="$(cd "${SCRIPT_DIR}/../../.." && pwd)"
 SYNVOY_ROOT="${SYNVOY_ROOT:?Set SYNVOY_ROOT to the SynVoy checkout}"
 PYTHON_BIN="${PYTHON_BIN:-python3}"
+if [[ -x "$REPO/.venv/Scripts/python.exe" ]]; then
+  DEFAULT_SUMMARY_PYTHON="$REPO/.venv/Scripts/python.exe"
+else
+  DEFAULT_SUMMARY_PYTHON="$PYTHON_BIN"
+fi
+SUMMARY_PYTHON_BIN="${SUMMARY_PYTHON_BIN:-$DEFAULT_SUMMARY_PYTHON}"
 SAMTOOLS_BIN="${SAMTOOLS_BIN:-samtools}"
 FASTA_SHUFFLE_BIN="${FASTA_SHUFFLE_BIN:-fasta-shuffle-letters}"
 STREME_BIN="${STREME_BIN:-streme}"
@@ -13,7 +19,7 @@ AME_BIN="${AME_BIN:-ame}"
 FIMO_BIN="${FIMO_BIN:-fimo}"
 BASE="$REPO/analyses/regulatory"
 INPUTS="$BASE/inputs"
-RAW="$BASE/raw_outputs_7gene_dcn_20260902"
+RAW="${RAW_DIR:-$BASE/raw_outputs_7gene_chicken_bgn_excluded_20261008}"
 DB="$BASE/databases"
 JASPAR="$DB/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt"
 TARGETED="$DB/JASPAR2026_cartilage_growth_plate_targeted.meme"
@@ -21,6 +27,7 @@ SEED=20260826
 
 mkdir -p "$INPUTS" "$RAW" "$DB"
 
+# Extract strand-aware promoter windows from the five matched annotations.
 "$PYTHON_BIN" "$BASE/scripts/extract_promoters.py" \
   --representatives "$REPO/analyses/gene_structure/tables/gene_structure_representative_5species.tsv" \
   --genome-dir "$SYNVOY_ROOT/pro_panel/genomes/fna" \
@@ -28,6 +35,7 @@ mkdir -p "$INPUTS" "$RAW" "$DB"
   --output-dir "$INPUTS"
 
 if [[ ! -s "$JASPAR" ]]; then
+  # Download the pinned JASPAR release only when it is not already present.
   curl -L --fail --retry 4 \
     'https://jaspar.elixir.no/download/data/2026/CORE/JASPAR2026_CORE_vertebrates_non-redundant_pfms_meme.txt' \
     -o "$JASPAR"
@@ -35,6 +43,7 @@ fi
 
 "$PYTHON_BIN" "$BASE/scripts/subset_meme_database.py" --input "$JASPAR" --output "$TARGETED"
 
+# Create a dinucleotide-preserving negative set for global de novo discovery.
 PROMOTERS="$INPUTS/slrp_proximal_promoters_5species.fna"
 SHUFFLED="$INPUTS/slrp_proximal_promoters_dinucleotide_shuffled.fna"
 "$FASTA_SHUFFLE_BIN" -dna -kmer 2 -seed "$SEED" "$PROMOTERS" "$SHUFFLED"
@@ -46,6 +55,7 @@ SHUFFLED="$INPUTS/slrp_proximal_promoters_dinucleotide_shuffled.fna"
   "$RAW/streme_all_vs_shuffled/streme.txt" "$JASPAR"
 
 for gene in BGN DCN FMOD PRELP EPYC LUM OGN; do
+  # Contrast each gene's promoters with the other six genes and annotate matches.
   "$STREME_BIN" --dna \
     --p "$INPUTS/per_gene/proximal/${gene}_positive.fna" \
     --n "$INPUTS/per_gene/proximal/${gene}_other_genes_control.fna" \
@@ -75,5 +85,9 @@ mkdir -p "$RAW/ame_targeted_vs_shuffled"
 # recurrence summaries. It must not be described as statistically significant.
 "$FIMO_BIN" --thresh 1e-4 --oc "$RAW/fimo_targeted_p1e4_exploratory" \
   "$TARGETED" "$PROMOTERS"
+
+"$SUMMARY_PYTHON_BIN" "$BASE/scripts/summarize_regulatory_motifs.py" \
+  --base "$BASE" \
+  --raw-dir "$RAW"
 
 echo "Regulatory motif analysis complete: $BASE"

@@ -59,6 +59,7 @@ DISPLAY_SPECIES = {
 
 
 def tip_parts(name: str) -> tuple[str, str, str]:
+    # Decode normalized canonical tree-tip identifiers.
     parts = name.split("|")
     if len(parts) >= 3:
         return parts[0], parts[1], parts[2]
@@ -66,6 +67,7 @@ def tip_parts(name: str) -> tuple[str, str, str]:
 
 
 def tip_label(clade) -> str | None:
+    # Show concise species/accession labels at terminal nodes only.
     if not clade.is_terminal():
         return None
     species, _gene, accession = tip_parts(clade.name)
@@ -75,6 +77,7 @@ def tip_label(clade) -> str | None:
 
 
 def support_label(clade) -> str | None:
+    # Display branch support values while suppressing missing/internal names.
     if clade.is_terminal():
         return None
     value = clade.name
@@ -86,12 +89,14 @@ def support_label(clade) -> str | None:
 
 
 def model_from_report(path: Path) -> str:
+    # Read the selected substitution model from an IQ-TREE report.
     text = path.read_text(encoding="utf-8", errors="ignore")
     match = re.search(r"Best-fit model according to BIC:\s*(\S+)", text)
     return match.group(1) if match else "model not parsed"
 
 
 def save(fig: plt.Figure, base: Path) -> None:
+    # Save each rendering as high-resolution PNG and scalable SVG.
     base.parent.mkdir(parents=True, exist_ok=True)
     fig.savefig(
         base.with_suffix(".png"), dpi=300, bbox_inches="tight", facecolor="white"
@@ -101,6 +106,8 @@ def save(fig: plt.Figure, base: Path) -> None:
 
 
 def plot_compact_trees() -> None:
+    # Render one unrooted topology per gene using an arbitrary display root and
+    # consistent taxon colouring.
     fig, axes = plt.subplots(4, 2, figsize=(22, 30))
     for gene, ax in zip(GENES, axes.flat, strict=False):
         tree_path = (
@@ -160,6 +167,7 @@ def plot_compact_trees() -> None:
 
 
 def combined_label(clade) -> str | None:
+    # Include gene, species and accession in labels for the combined family tree.
     if not clade.is_terminal():
         return None
     parts = clade.name.split("|")
@@ -170,9 +178,10 @@ def combined_label(clade) -> str | None:
 
 
 def plot_combined_tree() -> None:
+    # Render the combined seven-gene topology with gene-specific tip colours.
     tree_path = (
         ROOT
-        / "analyses/phylogenetics/combined_trees/six_gene_tree/SLRP_selected_working_genes.treefile"
+        / "analyses/phylogenetics/combined_trees/seven_gene_tree/SLRP_selected_working_genes.treefile"
     )
     report_path = tree_path.with_suffix(".iqtree")
     tree = Phylo.read(tree_path, "newick")
@@ -210,10 +219,11 @@ def plot_combined_tree() -> None:
         ha="center",
         fontsize=10,
     )
-    save(fig, ROOT / "analyses/phylogenetics/figures/six_gene_combined_tree")
+    save(fig, ROOT / "analyses/phylogenetics/figures/seven_gene_combined_tree")
 
 
 def main() -> None:
+    # Generate all per-gene and combined static tree figures.
     plt.style.use("seaborn-v0_8-whitegrid")
     plot_compact_trees()
     plot_combined_tree()

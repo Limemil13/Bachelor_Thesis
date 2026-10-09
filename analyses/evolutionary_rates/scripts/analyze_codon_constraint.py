@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Estimate pairwise coding-sequence constraint for representative SLRP genes.
+"""Estimate pairwise coding-sequence constraint
 
 Protein sequences are aligned with MAFFT, CDSs are back-translated to codon
 alignments, and human-versus-target dN/dS is estimated with the Nei--Gojobori

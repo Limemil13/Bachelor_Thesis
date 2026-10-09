@@ -20,6 +20,7 @@ OUT_ANNOTATIONS = OUT_DIR / "slrp_annotations_canonical_with_controls.csv"
 
 
 def read_fasta(path: Path) -> dict[str, str]:
+    # Index canonical and control sequences by their first FASTA identifier.
     records: dict[str, str] = {}
     header: str | None = None
     chunks: list[str] = []
@@ -47,11 +48,14 @@ def read_fasta(path: Path) -> dict[str, str]:
 
 
 def read_rows(path: Path, delimiter: str) -> list[dict[str, str]]:
+    # Read the previous annotation table used to preserve stable ProtSpace IDs.
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter=delimiter))
 
 
 def main() -> None:
+    # Replace all older SLRP sequences with canonical records, retain only the
+    # four intended controls, and write synchronized FASTA/annotation inputs.
     parser = argparse.ArgumentParser()
     parser.add_argument("--previous-fasta", required=True, type=Path)
     parser.add_argument("--previous-annotations", required=True, type=Path)

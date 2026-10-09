@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
-"""Extract strand-aware promoter windows for representative SLRP transcripts.
-
-The representative-transcript table is the same source used by the local gene-
-structure analysis.  Promoters are therefore transcript-choice dependent and
-must not be interpreted as experimentally validated regulatory elements.
+"""Takes the already selected transcript for each gene and species, identifies its annotated
+transcription start site, and extracts two surrounding DNA regions from the genome for motif analysis
 """
 
 from __future__ import annotations
@@ -16,6 +13,16 @@ from pathlib import Path
 
 GENES = ("BGN", "DCN", "FMOD", "PRELP", "EPYC", "LUM", "OGN")
 SPECIES = ("human", "mouse", "cow", "chicken", "zebrafish")
+EXCLUDED_LOCI = {
+    ("BGN", "chicken"): {
+        "expected_transcript_id": "rna-XM_414298.8",
+        "reason": (
+            "excluded from BGN promoter analysis because the translated product "
+            "XP_414298.2 is ASPN-like and does not provide independent BGN "
+            "orthology support"
+        ),
+    }
+}
 WINDOWS = {
     "core": (500, 100),
     "proximal": (2000, 200),
@@ -36,6 +43,14 @@ def wrap(sequence: str, width: int = 80) -> str:
 
 def reverse_complement(sequence: str) -> str:
     return sequence.translate(COMPLEMENT)[::-1]
+
+
+def portable_source(path: Path) -> str:
+    """Keep an analysis-relative path instead of a local user directory."""
+    parts = path.parts
+    if "analyses" in parts:
+        return Path(*parts[parts.index("analyses") :]).as_posix()
+    return path.name
 
 
 def ensure_fai(samtools: str, fasta: Path) -> dict[str, int]:
@@ -67,17 +82,77 @@ def main() -> None:
     parser.add_argument("--output-dir", required=True, type=Path)
     args = parser.parse_args()
 
-    rows = [
+    selected_rows = [
         row
         for row in read_tsv(args.representatives)
         if row["query_gene"] in GENES and row["species_or_file"] in SPECIES
     ]
-    if len(rows) != len(GENES) * len(SPECIES):
+    expected_all = {(gene, species) for gene in GENES for species in SPECIES}
+    selected_keys = [
+        (row["query_gene"], row["species_or_file"]) for row in selected_rows
+    ]
+    if len(selected_keys) != len(set(selected_keys)):
+        raise SystemExit("Representative table contains duplicate gene/species rows")
+    if set(selected_keys) != expected_all:
+        missing = sorted(expected_all - set(selected_keys))
+        unexpected = sorted(set(selected_keys) - expected_all)
         raise SystemExit(
-            f"Expected {len(GENES) * len(SPECIES)} representative rows, found {len(rows)}"
+            "Representative table does not contain the expected 35-row panel; "
+            f"missing={missing}, unexpected={unexpected}"
         )
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
+    excluded_rows: list[dict[str, str]] = []
+    rows: list[dict[str, str]] = []
+    for row in selected_rows:
+        key = (row["query_gene"], row["species_or_file"])
+        exclusion = EXCLUDED_LOCI.get(key)
+        if exclusion is None:
+            rows.append(row)
+            continue
+        if row["transcript_id"] != exclusion["expected_transcript_id"]:
+            raise SystemExit(
+                f"Refusing to exclude unexpected transcript for {key}: "
+                f"found {row['transcript_id']}, expected "
+                f"{exclusion['expected_transcript_id']}"
+            )
+        excluded_rows.append(
+            {
+                "gene": row["query_gene"],
+                "species": row["species_or_file"],
+                "transcript_id": row["transcript_id"],
+                "seqid": row["seqid"],
+                "representative_note": row.get("note", ""),
+                "exclusion_reason": exclusion["reason"],
+                "representative_source": portable_source(args.representatives),
+            }
+        )
+
+    expected_retained = expected_all - set(EXCLUDED_LOCI)
+    retained_keys = {(row["query_gene"], row["species_or_file"]) for row in rows}
+    if retained_keys != expected_retained:
+        raise SystemExit(
+            "Promoter exclusion produced an unexpected retained panel; "
+            f"missing={sorted(expected_retained - retained_keys)}, "
+            f"unexpected={sorted(retained_keys - expected_retained)}"
+        )
+
+    exclusion_fields = [
+        "gene",
+        "species",
+        "transcript_id",
+        "seqid",
+        "representative_note",
+        "exclusion_reason",
+        "representative_source",
+    ]
+    with (args.output_dir / "promoter_excluded_loci.tsv").open(
+        "w", encoding="utf-8", newline=""
+    ) as handle:
+        writer = csv.DictWriter(handle, fieldnames=exclusion_fields, delimiter="\t")
+        writer.writeheader()
+        writer.writerows(excluded_rows)
+
     sequence_sets: dict[str, dict[str, str]] = defaultdict(dict)
     metadata: list[dict[str, str | int | float]] = []
     fai_by_species: dict[str, dict[str, int]] = {}
@@ -147,8 +222,8 @@ def main() -> None:
                     ),
                     "ambiguous_percent": round(100 * ambiguous / len(sequence), 3),
                     "header": header,
-                    "source_fasta": str(fasta),
-                    "representative_source": str(args.representatives),
+                    "source_fasta": f"<genome-dir>/{fasta.name}",
+                    "representative_source": portable_source(args.representatives),
                 }
             )
 
@@ -183,7 +258,8 @@ def main() -> None:
         writer.writerows(metadata)
 
     print(
-        f"Extracted {len(metadata)} promoter windows from {len(rows)} representative transcripts"
+        f"Extracted {len(metadata)} promoter windows from {len(rows)} retained "
+        f"representative transcripts; documented {len(excluded_rows)} exclusion"
     )
 
 

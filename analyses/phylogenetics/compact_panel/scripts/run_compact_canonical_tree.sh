@@ -18,19 +18,19 @@ esac
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "${SCRIPT_DIR}/../../../.." && pwd)"
 IQTREE_BIN="${IQTREE_BIN:-iqtree2}"
-PYTHON_BIN="${PYTHON_BIN:-python3}"
 
 ALIGNMENT="${PROJECT_ROOT}/analyses/protein_analysis/alignments/canonical/${GENE}_canonical_aligned.faa"
 TREE_DIR="${PROJECT_ROOT}/analyses/phylogenetics/compact_panel/trees/${GENE}"
 TREE_PREFIX="${TREE_DIR}/${GENE}"
-ITOL_PREFIX="${PROJECT_ROOT}/analyses/phylogenetics/compact_panel/itol/${GENE}_itol"
 
 if [[ ! -s "${ALIGNMENT}" ]]; then
+  # Compact trees reuse the validated canonical MSA for the selected gene.
   printf 'Missing canonical alignment: %s\n' "${ALIGNMENT}" >&2
   exit 1
 fi
 
 mkdir -p "${TREE_DIR}"
+# IQ-TREE chooses the model and calculates ultrafast-bootstrap/aLRT support.
 "${IQTREE_BIN}" \
   -s "${ALIGNMENT}" \
   -m MFP \
@@ -39,11 +39,5 @@ mkdir -p "${TREE_DIR}"
   -T AUTO \
   -redo \
   --prefix "${TREE_PREFIX}"
-
-cp "${TREE_PREFIX}.treefile" "${ITOL_PREFIX}.tree"
-"${PYTHON_BIN}" \
-  "${SCRIPT_DIR}/make_itol_annotations.py" \
-  "${TREE_PREFIX}.treefile" \
-  "${ITOL_PREFIX}"
 
 printf 'Compact canonical tree complete: %s\n' "${TREE_PREFIX}.treefile"

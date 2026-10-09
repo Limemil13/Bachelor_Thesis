@@ -1,3 +1,5 @@
+"""Write a diagnostic OGN FASTA with the dog start-site correction."""
+
 from pathlib import Path
 
 inp = Path("analyses/protein_analysis/candidates/OGN_domain_input.faa")
@@ -10,6 +12,7 @@ records = []
 header = None
 seq = []
 
+# Parse all original OGN records; the source FASTA remains unchanged.
 with inp.open() as f:
     for line in f:
         line = line.strip()
@@ -26,6 +29,7 @@ with inp.open() as f:
 if header is not None:
     records.append((header, "".join(seq)))
 
+# Apply the documented dog start-site correction and report the exact trimming.
 with out.open("w") as fasta_out, report.open("w") as rep:
     rep.write("species\taccession\toriginal_length\tcorrected_length\tcorrection\n")
 

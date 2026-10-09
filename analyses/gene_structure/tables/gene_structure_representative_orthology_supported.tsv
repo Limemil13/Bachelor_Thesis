@@ -1,0 +1,40 @@
+query_gene	species_or_file	matched_gene_name	transcript_id	seqid	strand	gene_start	gene_end	gene_span_bp	cds_start	cds_end	cds_span_bp	exon_count	cds_exon_count	cds_length_bp	protein_length_est_aa	intron_count_between_cds	median_cds_intron_length_bp	gene_modal_cds_exon_count	cds_exon_count_deviation	structural_flag_clean	note	gff_file
+BGN	cow	BGN	rna-NM_178318.4	NC_037357.1	+	36728478	36742281	13804	36736953	36741346	4394	8	7	1110	370	6	500	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+BGN	human	BGN	rna-NM_001711.6	NC_000023.11	+	153494980	153509546	14567	153504632	153508445	3814	8	7	1107	369	6	452	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+BGN	mouse	Bgn	rna-NM_007542.5	NC_000086.8	+	72527207	72539542	12336	72534396	72538402	4007	8	7	1110	370	6	517	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+BGN	zebrafish	bgna	rna-NM_001002227.2	NC_133183.1	-	15865309	15890178	24870	15865714	15882426	16713	8	7	1110	370	6	1495	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/zebrafish.gff
+DCN	chicken	DCN	rna-NM_001030747.3	NC_052532.1	-	44073171	44112514	39344	44074516	44108131	33616	8	7	1074	358	6	3204	7	0			pro_panel/genomes/gff/chicken.gff
+DCN	cow	DCN	rna-NM_173906.4	NC_037332.1	-	21014373	21053400	39028	21015210	21049383	34174	8	7	1083	361	6	5682	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+DCN	human	DCN	rna-NM_001920.5	NC_000012.12	-	91140484	91182817	42334	91146058	91178552	32495	8	7	1080	360	6	5401	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+DCN	mouse	Dcn	rna-NM_001190451.2	NC_000076.7	+	97315362	97354025	38664	97319225	97353517	34293	8	7	1065	355	6	3723	7	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+DCN	zebrafish	dcn	rna-NM_131697.1	NC_133179.1	-	16955805	16993841	38037	16956969	16981291	24323	8	7	1122	374	6	3718	7	0			pro_panel/genomes/gff/zebrafish.gff
+EPYC	chicken	EPYC	rna-NM_001004382.3	NC_052532.1	-	43979377	44001958	22582	43980061	43999902	19842	7	6	951	317	5	1469	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/chicken.gff
+EPYC	cow	EPYC	rna-NM_174307.2	NC_037332.1	-	20843166	20885191	42026	20843562	20882627	39066	7	6	966	322	5	2656	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+EPYC	human	EPYC	rna-NM_004950.5	NC_000012.12	-	90963682	91004972	41291	90964156	91002565	38410	7	6	969	323	5	5107	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+EPYC	mouse	Epyc	rna-NM_001379456.1	NC_000076.7	+	97479930	97517770	37841	97485562	97517132	31571	7	6	969	323	5	4004	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+EPYC	zebrafish	epyc	rna-NM_001348483.1	NC_133179.1	-	16906814	16920982	14169	16907753	16917286	9534	7	6	966	322	5	904	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/zebrafish.gff
+FMOD	chicken	FMOD	rna-NM_204967.2	NC_052557.1	-	5174637	5181340	6704	5175925	5178979	3055	3	2	1143	381	1	1912	2	0			pro_panel/genomes/gff/chicken.gff
+FMOD	cow	FMOD	rna-NM_174058.3	NC_037343.1	-	1122157	1132183	10027	1123625	1129400	5776	3	2	1131	377	1	4645	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+FMOD	human	FMOD	rna-NM_002023.5	NC_000001.11	-	203340628	203351122	10495	203342343	203348270	5928	3	2	1131	377	1	4797	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+FMOD	mouse	Fmod	rna-NM_021355.4	NC_000067.7	+	133964992	133976018	11027	133967962	133974363	6402	3	2	1131	377	1	5271	2	0			pro_panel/genomes/gff/mouse.gff
+FMOD	zebrafish	fmodb	rna-XM_005167241.6	NC_133183.1	+	44347184	44361445	14262	44354178	44360469	6292	4	2	1089	363	1	5203	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/zebrafish.gff
+LUM	chicken	LUM	rna-NM_001276357.2	NC_052532.1	-	44041583	44053528	11946	44042456	44050455	8000	3	2	1032	344	1	6968	2	0			pro_panel/genomes/gff/chicken.gff
+LUM	cow	LUM	rna-NM_173934.1	NC_037332.1	-	20971292	20981075	9784	20971992	20976020	4029	3	2	1029	343	1	3000	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+LUM	human	LUM	rna-NM_002345.4	NC_000012.12	-	91102629	91111494	8866	91104165	91108979	4815	3	2	1017	339	1	3798	2	0			pro_panel/genomes/gff/human.gff
+LUM	mouse	Lum	rna-NM_008524.2	NC_000076.7	+	97401363	97408565	7203	97404107	97407913	3807	3	2	1017	339	1	2790	2	0			pro_panel/genomes/gff/mouse.gff
+LUM	zebrafish	lum	rna-NM_001002059.1	NC_133179.1	-	16938429	16941309	2881	16939337	16940453	1117	3	2	1035	345	1	82	2	0			pro_panel/genomes/gff/zebrafish.gff
+OGN	chicken	OGN	rna-NM_204209.2	NC_052543.1	+	3616876	3628603	11728	3617799	3626072	8274	7	6	885	295	5	583	6	0			pro_panel/genomes/gff/chicken.gff
+OGN	cow	OGN	rna-NM_173946.2	NC_037335.1	-	84019267	84034853	15587	84020104	84033697	13594	7	6	900	300	5	1720	6	0			pro_panel/genomes/gff/cow.gff
+OGN	human	OGN	rna-NM_014057.5	NC_000009.12	-	92383268	92404699	21432	92385620	92403407	17788	7	6	897	299	5	3029	6	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+OGN	mouse	Ogn	rna-NM_008760.5	NC_000079.7	+	49761491	49777977	16487	49762660	49776459	13800	7	6	897	299	5	2379	6	0			pro_panel/genomes/gff/mouse.gff
+OGN	zebrafish	ogna	rna-NM_001013570.2	NC_133197.1	-	10102902	10108774	5873	10103446	10108679	5234	6	6	879	293	5	180	6	0			pro_panel/genomes/gff/zebrafish.gff
+OMD	chicken	OMD	rna-XM_004944504.5	NC_052543.1	+	3601680	3608401	6722	3606335	3608380	2046	3	2	1260	420	1	786	2	0			pro_panel/genomes/gff/chicken.gff
+OMD	cow	OMD	rna-NM_173947.2	NC_037335.1	-	84037691	84052727	15037	84044974	84047250	2277	4	2	1269	423	1	1008	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+OMD	human	OMD	rna-NM_005014.3	NC_000009.12	-	92412380	92424471	12092	92415152	92417558	2407	3	2	1266	422	1	1141	2	0			pro_panel/genomes/gff/human.gff
+OMD	mouse	Omd	rna-NM_001360708.1	NC_000079.7	+	49735938	49746088	10151	49742952	49745863	2912	3	2	1272	424	1	1640	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+OMD	zebrafish	omd	rna-XM_017353401.4	NC_133197.1	-	10112764	10119520	6757	10113062	10116829	3768	3	2	1206	402	1	2562	2	0			pro_panel/genomes/gff/zebrafish.gff
+PRELP	chicken	PRELP	rna-XM_418054.8	NC_052557.1	+	5193998	5215993	21996	5211670	5214111	2442	3	2	1125	375	1	1317	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/chicken.gff
+PRELP	cow	PRELP	rna-NM_174434.3	NC_037343.1	+	1238715	1252743	14029	1246248	1250331	4084	2	2	1146	382	1	2938	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/cow.gff
+PRELP	human	PRELP	rna-NM_002725.4	NC_000001.11	+	203475806	203491352	15547	203483185	203486881	3697	3	2	1149	383	1	2548	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/human.gff
+PRELP	mouse	Prelp	rna-NM_054077.4	NC_000067.7	-	133838042	133857820	19779	133840344	133843143	2800	3	2	1137	379	1	1663	2	0		multiple_transcripts_for_gene	pro_panel/genomes/gff/mouse.gff
+PRELP	zebrafish	prelp	rna-XM_001923555.9	NC_133186.1	+	23181387	23192171	10785	23189296	23190511	1216	3	2	1137	379	1	79	2	0			pro_panel/genomes/gff/zebrafish.gff

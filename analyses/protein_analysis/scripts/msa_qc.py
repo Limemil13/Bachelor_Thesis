@@ -1,3 +1,8 @@
+"""reading every msa -> measuring seq len, gaps, comparable positions, pairwise identity and flags unusual stuff and thats tuff
+dependent on annotation quality but should be fine as for now it has always been, stay positive
+
+"""
+
 import csv
 from itertools import combinations
 from pathlib import Path
@@ -26,6 +31,8 @@ EXPECTED_COUNTS = {
 
 
 def read_fasta(path: Path):
+    # Alignment gaps are measurements in this QC step, so they must be retained.
+    # Complete headers are also kept to verify gene/species/accession identity.
     records = []
     header = None
     seq_chunks = []
@@ -51,12 +58,6 @@ def read_fasta(path: Path):
 
 
 def parse_header(header: str):
-    """
-    Expected header example:
-    human|BGN|XP_016885213.1 forward_pident=100.00 ...
-    or cleaned:
-    human_BGN_XP_016885213.1
-    """
     first = header.split()[0]
 
     if "|" in first:
@@ -65,7 +66,7 @@ def parse_header(header: str):
             return parts[1], parts[0], parts[2]
 
     if "_" in first:
-        # fallback, not perfect but useful
+        # useful fallback
         parts = first.split("_")
         return "UNKNOWN", first, ""
 
@@ -73,6 +74,7 @@ def parse_header(header: str):
 
 
 def pairwise_identity(seq_a: str, seq_b: str) -> tuple[float, int]:
+    #comparing the residues only when both have aa, gaps are not counted as mismatch
     comparable = [
         (a, b) for a, b in zip(seq_a, seq_b, strict=False) if a != "-" and b != "-"
     ]
@@ -83,6 +85,7 @@ def pairwise_identity(seq_a: str, seq_b: str) -> tuple[float, int]:
 
 
 def main():
+    # Validate panel membership and rectangular alignment shape before calculating qc
     rows = []
     seen_keys = set()
 
@@ -136,7 +139,6 @@ def main():
             mean_comparable_sites = round(
                 sum(comparable_counts) / len(comparable_counts), 1
             )
-
             if gap_percent > 40:
                 msa_status = "check_high_gap"
             elif gap_percent > 25:

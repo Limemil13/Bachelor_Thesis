@@ -1,0 +1,3 @@
+species	separate_BGN_found	strongest_non_BGN_hits	expected_locus_status	final_interpretation
+opossum	no	ASPN on NC_077232.2; DCN on NC_077234.2	ATP2B3-HAUS7 interval is 87.25% N bases	unresolved because the expected BGN locus lies mostly in an assembly gap; do not claim absence
+elephant_shark	no	DCN on NW_024704746.1; annotated ASPN on NW_024704753.1	expected BGN syntenic deletion interval not cleanly resolved	no separate BGN candidate found in the available assembly; do not claim confirmed absence

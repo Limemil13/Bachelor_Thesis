@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""Curate the compact 16-species LUM panel from reciprocal BLASTP evidence."""
+"""needed to review 3 species protein that looked sus, cow amphioxus and lamprey
+used another cleaner RefSeq protein for cow, lamprey is still just sus, and amphioxus can get out of there and carry his long 654 aas fake sequence
+"""
 
 from __future__ import annotations
 
@@ -80,10 +82,6 @@ def main() -> None:
         review_flag = ""
 
         if species == "bos_taurus":
-            # The top BLAST hit is an X1 model with a 43-aa noncanonical
-            # N-terminal extension.  The curated RefSeq precursor is identical
-            # across the complete query-aligned region and is the cleaner
-            # representative protein.
             chosen_accession = "NP_776359.1"
             rationale = "curated_RefSeq_precursor_preferred_over_43aa_extended_X1_model"
         elif species == "lamprey":

@@ -10,6 +10,10 @@ import xml.etree.ElementTree as ET
 from collections import defaultdict
 from pathlib import Path
 
+import matplotlib
+
+# The workflow is commonly run in WSL or on a server without a display.
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -34,12 +38,14 @@ FAMILY_ORDER = (
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
+    # Read promoter metadata and motif-tool outputs with named columns.
     with path.open(encoding="utf-8", newline="") as handle:
         lines = (line for line in handle if line.strip() and not line.startswith("#"))
         return list(csv.DictReader(lines, delimiter="\t"))
 
 
 def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    # Shared writer for QC, motif and scan-summary tables.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
@@ -49,7 +55,19 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
         writer.writerows(rows)
 
 
+def portable_ame_rows(rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    """Remove machine-specific directories from AME's motif database field."""
+    portable: list[dict[str, str]] = []
+    for row in rows:
+        updated = dict(row)
+        if updated.get("motif_DB"):
+            updated["motif_DB"] = Path(updated["motif_DB"]).name
+        portable.append(updated)
+    return portable
+
+
 def family_for(name: str) -> str:
+    # Collapse individual transcription-factor motifs into biological families.
     upper = name.upper()
     if "SOX5" in upper or "SOX6" in upper or "SOX9" in upper:
         return "SOX5/6/9"
@@ -74,6 +92,7 @@ def family_for(name: str) -> str:
 
 
 def promoter_qc(metadata: list[dict[str, str]]) -> list[dict[str, object]]:
+    # Summarize extraction length, clipping and base composition by window/species.
     return [
         {
             "gene": row["gene"],
@@ -94,6 +113,7 @@ def promoter_qc(metadata: list[dict[str, str]]) -> list[dict[str, object]]:
 def parse_streme(
     path: Path, scope: str, tomtom_path: Path, jaspar_names: dict[str, str]
 ) -> list[dict[str, object]]:
+    # Read de novo STREME motifs and attach Tomtom matches when available.
     root = ET.parse(path).getroot()
     matches: dict[str, list[dict[str, str]]] = defaultdict(list)
     if tomtom_path.exists():
@@ -132,6 +152,7 @@ def parse_streme(
 
 
 def parse_jaspar_names(path: Path) -> dict[str, str]:
+    # Map JASPAR motif accessions to human-readable TF names.
     names: dict[str, str] = {}
     with path.open(encoding="utf-8") as handle:
         for line in handle:
@@ -144,6 +165,7 @@ def parse_jaspar_names(path: Path) -> dict[str, str]:
 def fimo_summary(
     fimo_rows: list[dict[str, str]], jaspar_names: dict[str, str]
 ) -> tuple[list[dict[str, object]], np.ndarray]:
+    # Count exploratory FIMO hits per promoter and aggregate them by TF family/gene.
     hits: dict[tuple[str, str], list[dict[str, str]]] = defaultdict(list)
     for row in fimo_rows:
         gene, species = row["sequence_name"].split("|", 2)[:2]
@@ -189,7 +211,8 @@ def fimo_summary(
 
 
 def plot_gc(metadata: list[dict[str, str]], output: Path) -> None:
-    matrix = np.zeros((len(GENES), len(SPECIES)))
+    # Compare promoter GC content across species and extraction windows.
+    matrix = np.full((len(GENES), len(SPECIES)), np.nan)
     by_key = {
         (row["gene"], row["species"]): float(row["gc_percent"])
         for row in metadata
@@ -197,14 +220,20 @@ def plot_gc(metadata: list[dict[str, str]], output: Path) -> None:
     }
     for i, gene in enumerate(GENES):
         for j, species in enumerate(SPECIES):
-            matrix[i, j] = by_key[(gene, species)]
+            if (gene, species) in by_key:
+                matrix[i, j] = by_key[(gene, species)]
     fig, ax = plt.subplots(figsize=(8.5, 5))
-    image = ax.imshow(matrix, cmap="YlGnBu", aspect="auto", vmin=25, vmax=75)
+    cmap = plt.get_cmap("YlGnBu").copy()
+    cmap.set_bad(color="#d9d9d9")
+    image = ax.imshow(
+        np.ma.masked_invalid(matrix), cmap=cmap, aspect="auto", vmin=25, vmax=75
+    )
     ax.set_xticks(range(len(SPECIES)), labels=SPECIES, rotation=25, ha="right")
     ax.set_yticks(range(len(GENES)), labels=GENES)
     for i in range(matrix.shape[0]):
         for j in range(matrix.shape[1]):
-            ax.text(j, i, f"{matrix[i, j]:.1f}", ha="center", va="center", fontsize=9)
+            label = "excluded" if np.isnan(matrix[i, j]) else f"{matrix[i, j]:.1f}"
+            ax.text(j, i, label, ha="center", va="center", fontsize=8)
     ax.set_title("GC content of 2 kb/+200 bp promoter windows")
     fig.colorbar(image, ax=ax, label="GC (%)")
     fig.tight_layout()
@@ -214,6 +243,7 @@ def plot_gc(metadata: list[dict[str, str]], output: Path) -> None:
 
 
 def plot_fimo(matrix: np.ndarray, output: Path) -> None:
+    # Visualize targeted motif-family counts without treating counts as activity.
     fig, ax = plt.subplots(figsize=(12.5, 5))
     image = ax.imshow(matrix, cmap="YlOrRd", aspect="auto", vmin=0, vmax=5)
     ax.set_xticks(
@@ -223,7 +253,7 @@ def plot_fimo(matrix: np.ndarray, output: Path) -> None:
     for i in range(matrix.shape[0]):
         for j in range(matrix.shape[1]):
             ax.text(j, i, str(matrix[i, j]), ha="center", va="center", fontsize=9)
-    ax.set_title("Exploratory recurrence of targeted TF motifs across five species")
+    ax.set_title("Exploratory recurrence of targeted TF motifs across up to five species")
     ax.set_xlabel("Motif family (FIMO p≤1e-4; uncorrected, not binding evidence)")
     fig.colorbar(image, ax=ax, label="Species with ≥1 motif hit")
     fig.tight_layout()
@@ -233,6 +263,7 @@ def plot_fimo(matrix: np.ndarray, output: Path) -> None:
 
 
 def plot_ame(rows: list[dict[str, str]], output: Path) -> None:
+    # Plot AME enrichment statistics for the predefined focal motif set.
     ordered = sorted(rows, key=lambda row: float(row["E-value"]))[:15]
     labels = [row["motif_alt_ID"] for row in ordered][::-1]
     values = [-math.log10(max(float(row["E-value"]), 1e-300)) for row in ordered][::-1]
@@ -249,6 +280,8 @@ def plot_ame(rows: list[dict[str, str]], output: Path) -> None:
 
 
 def main() -> None:
+    # Integrate promoter QC, de novo motifs, targeted enrichment and motif scans;
+    # all outputs remain descriptive predictions rather than functional validation.
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", required=True, type=Path)
     parser.add_argument("--raw-dir", type=Path)
@@ -289,7 +322,9 @@ def main() -> None:
         )
     write_tsv(tables / "promoter_denovo_motif_summary.tsv", denovo, list(denovo[0]))
 
-    all_ame = read_tsv(raw / "ame_all_jaspar_vs_shuffled" / "ame.tsv")
+    all_ame = portable_ame_rows(
+        read_tsv(raw / "ame_all_jaspar_vs_shuffled" / "ame.tsv")
+    )
     significant = [
         dict(row, significance="E-value < 0.05")
         for row in all_ame
@@ -308,7 +343,9 @@ def main() -> None:
             list(all_ame[0]) + ["significance"],
         )
 
-    targeted_ame = read_tsv(raw / "ame_targeted_vs_shuffled" / "ame.tsv")
+    targeted_ame = portable_ame_rows(
+        read_tsv(raw / "ame_targeted_vs_shuffled" / "ame.tsv")
+    )
     targeted_rows: list[dict[str, object]] = []
     for row in targeted_ame:
         targeted_rows.append(

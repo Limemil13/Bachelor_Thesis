@@ -15,6 +15,7 @@ TARGET = "XP_414298.2"
 
 
 def read_fasta(path: Path) -> list[tuple[str, str]]:
+    # Read the original BGN panel without changing headers or sequences.
     records = []
     header = None
     chunks = []
@@ -34,6 +35,8 @@ def read_fasta(path: Path) -> list[tuple[str, str]]:
 
 
 def main() -> None:
+    # Remove only the ASPN-like accession and write an audit row explaining why
+    # it is excluded from the protein-level BGN panel.
     records = read_fasta(SOURCE)
     excluded = [record for record in records if TARGET in record[0]]
     retained = [record for record in records if TARGET not in record[0]]

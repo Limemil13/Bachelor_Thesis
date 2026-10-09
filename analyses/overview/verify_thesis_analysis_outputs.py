@@ -13,6 +13,9 @@ ROOT = Path(__file__).resolve().parents[2]
 
 
 def read_tsv(relative: str, *, allow_empty: bool = False) -> list[dict[str, str]]:
+    # These checks validate the frozen thesis snapshot, not arbitrary future panels.
+    # Existence, non-empty content, and rectangular rows are tested before biological
+    # count assertions so a damaged TSV produces a clear failure near its source.
     path = ROOT / relative
     assert path.is_file(), f"Missing: {path}"
     with path.open(encoding="utf-8", newline="") as handle:
@@ -26,6 +29,10 @@ def read_tsv(relative: str, *, allow_empty: bool = False) -> list[dict[str, str]
 
 
 def main() -> None:
+    # Fixed counts act as integration tests across many scripts. If curation changes
+    # intentionally, both the regenerated outputs and these documented expectations
+    # must be reviewed together rather than automatically accepting the new count.
+    # Protein-panel and SignalP invariants.
     signalp = read_tsv(
         "analyses/protein_analysis/signal_peptides/tables/signalp_summary_clean.tsv"
     )
@@ -89,6 +96,7 @@ def main() -> None:
         "Needs inspection": 17,
     }
 
+    # Expression tables retain fixed panel sizes and known study-specific scope.
     bgee_mapping = read_tsv("analyses/expression/tables/bgee_slrp_gene_mapping.tsv")
     bgee_summary = read_tsv(
         "analyses/expression/tables/bgee_slrp_relevant_expression_summary.tsv"
@@ -110,6 +118,80 @@ def main() -> None:
     assert len(gse_conditions) == 108
     assert len(gse_tibia) == 18
 
+    # The later sensitivity checks test whether the seven-gene panel omitted an
+    # obvious SLRP signal and whether the deposited PZ/HZ labels behave as expected.
+    full_slrp_availability = read_tsv(
+        "analyses/expression/gse114919/tables/"
+        "gse114919_full_slrp_family_source_availability.tsv"
+    )
+    full_slrp_overall = read_tsv(
+        "analyses/expression/gse114919/tables/"
+        "gse114919_full_slrp_family_overall_summary.tsv"
+    )
+    assert len(full_slrp_availability) == 36
+    assert Counter(
+        (x["species"], x["available_in_source_matrix"])
+        for x in full_slrp_availability
+    ) == {
+        ("mouse", "yes"): 18,
+        ("rat", "yes"): 14,
+        ("rat", "no"): 4,
+    }
+    assert len(full_slrp_overall) == 18
+    full_slrp_by_gene = {x["gene"]: x for x in full_slrp_overall}
+    assert full_slrp_by_gene["BGN"]["mouse_mean_rank"] == "2.250000"
+    assert full_slrp_by_gene["FMOD"]["rat_mean_rank"] == "1.5"
+    assert full_slrp_by_gene["PRELP"]["rat_mean_rank"] == "3.0"
+    assert full_slrp_by_gene["CHAD"]["panel_role"] == "not_preselected"
+
+    marker_availability = read_tsv(
+        "analyses/expression/gse114919/tables/"
+        "gse114919_zone_marker_availability.tsv"
+    )
+    marker_long = read_tsv(
+        "analyses/expression/gse114919/tables/gse114919_zone_marker_long.tsv"
+    )
+    marker_conditions = read_tsv(
+        "analyses/expression/gse114919/tables/"
+        "gse114919_zone_marker_condition_summary.tsv"
+    )
+    marker_overall = read_tsv(
+        "analyses/expression/gse114919/tables/"
+        "gse114919_zone_marker_overall_summary.tsv"
+    )
+    assert len(marker_availability) == 10
+    assert len(marker_long) == 265
+    assert len(marker_conditions) == 27
+    assert len(marker_overall) == 10
+    marker_by_species_gene = {
+        (x["species"], x["gene"]): x for x in marker_overall
+    }
+    assert marker_by_species_gene[("mouse", "COL10A1")][
+        "conditions_matching_expected_direction"
+    ] == "3"
+    assert marker_by_species_gene[("mouse", "MMP13")][
+        "conditions_matching_expected_direction"
+    ] == "3"
+    assert marker_by_species_gene[("rat", "MMP13")][
+        "conditions_matching_expected_direction"
+    ] == "3"
+    assert marker_by_species_gene[("rat", "COL10A1")][
+        "available_in_source_matrix"
+    ] == "no"
+
+    # A focused genome-level search was used only to distinguish "not found" from
+    # "demonstrably absent" for difficult BGN cases. Both assemblies remain
+    # unresolved, so the wording must remain cautious.
+    targeted_bgn = read_tsv(
+        "analyses/protein_analysis/targeted_bgn_genome_search/results/"
+        "final_interpretation.tsv"
+    )
+    assert len(targeted_bgn) == 2
+    assert {x["species"] for x in targeted_bgn} == {"opossum", "elephant_shark"}
+    assert {x["separate_BGN_found"] for x in targeted_bgn} == {"no"}
+    assert all("do not claim" in x["final_interpretation"] for x in targeted_bgn)
+
+    # SynVoy checks cover the full evidence table and each manual-review tier.
     synvoy_all = read_tsv("analyses/synteny/tables/synvoy_gene_species_evidence.tsv")
     synvoy_p1 = read_tsv(
         "analyses/synteny/tables/synvoy_manual_review_queue.tsv", allow_empty=True
@@ -134,38 +216,38 @@ def main() -> None:
     synvoy_priorities = Counter(x["review_priority"] for x in synvoy_all)
     assert not synvoy_p1 and not synvoy_p2 and not synvoy_p3
     assert len(synvoy_p1_done) == synvoy_priorities["P1"] == 26
-    assert len(synvoy_p2_done) == synvoy_priorities["P2"] == 68
-    assert len(synvoy_p3_done) == synvoy_priorities["P3"] == 4
+    assert len(synvoy_p2_done) == synvoy_priorities["P2"] == 67
+    assert len(synvoy_p3_done) == synvoy_priorities["P3"] == 5
     assert all(x["review_status"] for x in synvoy_all)
     assert Counter(x["review_status"] for x in synvoy_all) == {
-        "accepted": 62,
+        "accepted": 68,
         "tentative": 20,
-        "ambiguous": 12,
+        "ambiguous": 6,
         "rejected": 4,
     }
-    assert Counter(x["input_pair_qc"] for x in synvoy_all) == {
-        "PASS": 91,
-        "FAIL": 7,
+    assert Counter(x["input_pair_qc"] for x in synvoy_all) == {"PASS": 98}
+    opossum_rows = [x for x in synvoy_all if x["species"] == "opossum"]
+    assert len(opossum_rows) == 7
+    assert Counter(x["review_status"] for x in opossum_rows) == {
+        "accepted": 6,
+        "ambiguous": 1,
     }
-    assert all(
-        x["input_pair_qc"] == "FAIL" and x["review_status"] == "ambiguous"
-        for x in synvoy_all
-        if x["species"] == "opossum"
-    )
+    assert all("opossum_matched_GCF_027887165.2" in x["run"] for x in opossum_rows)
     synvoy_runs = {
         x["gene"]: x for x in read_tsv("analyses/synteny/tables/synvoy_run_summary.tsv")
     }
     assert set(synvoy_runs) == synvoy_genes
     assert synvoy_runs["LUM"]["genomes_qc_pass"] == "14"
     assert synvoy_runs["LUM"]["final_high_goi"] == "10"
-    assert synvoy_runs["LUM"]["final_medium_goi"] == "39"
+    assert synvoy_runs["LUM"]["final_medium_goi"] == "38"
     assert synvoy_runs["DCN"]["genomes_qc_pass"] == "14"
     assert synvoy_runs["DCN"]["final_high_goi"] == "10"
-    assert synvoy_runs["DCN"]["final_medium_goi"] == "1"
+    assert synvoy_runs["DCN"]["final_medium_goi"] == "2"
     assert synvoy_runs["BGN"]["run"] == "bgn_human_15species_dev_20260905"
     assert synvoy_runs["BGN"]["final_high_goi"] == "10"
     assert synvoy_runs["BGN"]["final_medium_goi"] == "1"
 
+    # Cross-analysis summaries must contain the same seven focal genes.
     candidates = read_tsv("analyses/overview/candidate_gene_evidence.tsv")
     assert len(candidates) == 9
     assert {x["gene"] for x in candidates} == {
@@ -180,7 +262,7 @@ def main() -> None:
         "ASPN",
     }
 
-    seven_gene = read_tsv("analyses/overview/six_gene_integrated_summary.tsv")
+    seven_gene = read_tsv("analyses/overview/seven_gene_integrated_summary.tsv")
     assert len(seven_gene) == 7
     assert {x["gene"] for x in seven_gene} == {
         "BGN",
@@ -192,8 +274,9 @@ def main() -> None:
         "LUM",
     }
 
+    # Tree-review checks protect curated exclusions and tentative assignments.
     tree_review = read_tsv(
-        "analyses/phylogenetics/combined_trees/six_gene_tree/compact_tree_gene_clade_review.tsv"
+        "analyses/phylogenetics/combined_trees/seven_gene_tree/compact_tree_gene_clade_review.tsv"
     )
     assert len(tree_review) == 7
     assert Counter(x["unrooted_monophyletic"] for x in tree_review) == {
@@ -202,7 +285,7 @@ def main() -> None:
     }
 
     combined_tree = ROOT / (
-        "analyses/phylogenetics/combined_trees/six_gene_tree/"
+        "analyses/phylogenetics/combined_trees/seven_gene_tree/"
         "SLRP_selected_working_genes.treefile"
     )
     combined_text = combined_tree.read_text(encoding="utf-8")
@@ -228,6 +311,35 @@ def main() -> None:
     assert len(bgn_small_tips) == 13
     assert "XP_414298.2" not in bgn_small_tree.read_text(encoding="utf-8")
 
+    bgn_sensitivity = read_tsv(
+        "analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/"
+        "results/bgn_tree_comparison.tsv"
+    )
+    assert len(bgn_sensitivity) == 2
+    bgn_sensitivity_by_analysis = {x["analysis"]: x for x in bgn_sensitivity}
+    assert set(bgn_sensitivity_by_analysis) == {
+        "canonical_103",
+        "partial_BGN_excluded_101",
+    }
+    assert {x["unrooted_monophyletic"] for x in bgn_sensitivity} == {"no"}
+    assert bgn_sensitivity_by_analysis["canonical_103"][
+        "largest_pure_gene_split_tip_count"
+    ] == "6"
+    assert bgn_sensitivity_by_analysis["partial_BGN_excluded_101"][
+        "largest_pure_gene_split_tip_count"
+    ] == "7"
+    assert bgn_sensitivity_by_analysis["partial_BGN_excluded_101"][
+        "largest_pure_gene_split_label"
+    ] == "7.7/34"
+    bgn_sensitivity_exclusions = read_tsv(
+        "analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/"
+        "results/excluded_partial_BGN_records.tsv"
+    )
+    assert {x["accession"] for x in bgn_sensitivity_exclusions} == {
+        "XP_038638277.1",
+        "XP_048475905.1",
+    }
+
     fmod_small_tree = (
         ROOT / "analyses/phylogenetics/compact_panel/trees/FMOD/FMOD.treefile"
     )
@@ -244,6 +356,7 @@ def main() -> None:
     assert len(ogn_small_tips) == 14
     assert "XP_066265713.1" not in ogn_small_text
 
+    # Representative and extended gene-structure tables must agree on panel scope.
     structure = read_tsv(
         "analyses/gene_structure/tables/gene_structure_representative_5species.tsv"
     )
@@ -297,12 +410,56 @@ def main() -> None:
     assert all(
         x["all_splice_phases_consistent_with_gff"] == "yes" for x in full_structure_qc
     )
+    retained_structure = read_tsv(
+        "analyses/gene_structure/tables/"
+        "gene_structure_representative_orthology_supported.tsv"
+    )
+    assert len(retained_structure) == 39
+    assert Counter(x["query_gene"] for x in retained_structure) == {
+        "BGN": 4,
+        "DCN": 5,
+        "EPYC": 5,
+        "FMOD": 5,
+        "LUM": 5,
+        "OGN": 5,
+        "OMD": 5,
+        "PRELP": 5,
+    }
+    assert not any(
+        x["query_gene"] == "BGN" and x["species_or_file"] == "chicken"
+        for x in retained_structure
+    )
+    structure_exclusions = read_tsv(
+        "analyses/gene_structure/tables/gene_structure_orthology_exclusions.tsv"
+    )
+    assert len(structure_exclusions) == 1
+    assert (
+        structure_exclusions[0]["query_gene"],
+        structure_exclusions[0]["species_or_file"],
+        structure_exclusions[0]["transcript_id"],
+    ) == ("BGN", "chicken", "rna-XM_414298.8")
+    retained_structure_qc = read_tsv(
+        "analyses/gene_structure/extended/tables/"
+        "full_gene_structure_qc_orthology_supported.tsv"
+    )
+    assert len(retained_structure_qc) == 39
     splice_junctions = read_tsv(
         "analyses/gene_structure/extended/tables/splice_junction_conservation_summary.tsv"
     )
     assert len(splice_junctions) == 26
     assert all(x["phase_conserved_across_species"] == "yes" for x in splice_junctions)
     assert all(x["all_gff_phase_checks_pass"] == "yes" for x in splice_junctions)
+    retained_splice_junctions = read_tsv(
+        "analyses/gene_structure/extended/tables/"
+        "splice_junction_conservation_orthology_supported.tsv"
+    )
+    assert len(retained_splice_junctions) == 26
+    assert all(
+        x["phase_conserved_across_species"] == "yes"
+        for x in retained_splice_junctions
+    )
+    assert {x["species_count"] for x in retained_splice_junctions if x["gene"] == "BGN"} == {"4"}
+    assert {x["species_count"] for x in retained_splice_junctions if x["gene"] != "BGN"} == {"5"}
     isoform_sensitivity = read_tsv(
         "analyses/gene_structure/extended/tables/isoform_sensitivity_5species.tsv"
     )
@@ -311,6 +468,14 @@ def main() -> None:
         "no": 29,
         "yes": 11,
     }
+    retained_isoform_sensitivity = read_tsv(
+        "analyses/gene_structure/extended/tables/"
+        "isoform_sensitivity_orthology_supported.tsv"
+    )
+    assert len(retained_isoform_sensitivity) == 39
+    assert Counter(
+        x["alternative_coding_structure"] for x in retained_isoform_sensitivity
+    ) == {"no": 28, "yes": 11}
     representative_domain_hits = read_tsv(
         "analyses/gene_structure/extended/tables/representative_pfam_domain_hits.tsv"
     )
@@ -323,7 +488,13 @@ def main() -> None:
         x["all_species_have_lrr_support"] == "yes"
         for x in representative_domain_summary
     )
+    retained_domain_hits = read_tsv(
+        "analyses/gene_structure/extended/tables/"
+        "representative_pfam_domain_hits_orthology_supported.tsv"
+    )
+    assert len(retained_domain_hits) == 287
 
+    # Evolutionary-rate checks confirm the number and status of pairwise estimates.
     pairwise_dn_ds = read_tsv(
         "analyses/evolutionary_rates/tables/pairwise_dn_ds_human_reference.tsv"
     )
@@ -341,40 +512,7 @@ def main() -> None:
     assert len(finite_omega) == 25 and all(value < 1 for value in finite_omega)
     assert all(x["all_interpretable_omega_below_one"] == "yes" for x in codon_summary)
 
-    corrected_large_counts = {
-        "BGN": 639,
-        "EPYC": 632,
-        "FMOD": 546,
-        "LUM": 838,
-        "OGN": 855,
-        "PRELP": 848,
-    }
-    for gene, expected in corrected_large_counts.items():
-        report = read_tsv(
-            f"analyses/phylogenetics/per_gene_trees/{gene}/candidates/"
-            f"{gene}_large_locus_filter_report.tsv"
-        )
-        assert Counter(x["status"] for x in report)["kept"] == expected
-
-    structure_queue = read_tsv(
-        "analyses/overview/gene_structure_manual_review_queue.tsv"
-    )
-    assert len(structure_queue) == 35
-    assert Counter(x["priority"] for x in structure_queue) == {
-        "P1": 1,
-        "P2": 5,
-        "P3": 29,
-    }
-    predicted_transcripts = read_tsv(
-        "analyses/overview/gene_structure_predicted_transcript_ncbi_review.tsv"
-    )
-    assert len(predicted_transcripts) == 6
-    assert Counter(x["review_status"] for x in predicted_transcripts) == {
-        "database review complete; retain predicted model": 4,
-        "database review complete; retain with teleost-paralog wording": 1,
-        "unresolved annotation conflict": 1,
-    }
-
+    # Manual-review records are checked separately from automatically derived tables.
     manual_review = read_tsv(
         "analyses/protein_analysis/manual_review/manual_sequence_review_5.tsv"
     )
@@ -435,6 +573,7 @@ def main() -> None:
         "P2": 4,
     }
 
+    # Motif, promoter and phenotype outputs have their own expected row counts.
     protein_motif_assignments = read_tsv(
         "analyses/protein_analysis/motifs/tables/"
         "protein_candidate_motif_model_assignments.tsv"
@@ -450,8 +589,20 @@ def main() -> None:
     assert Counter(x["scope"] for x in protein_meme)["all_seven_genes"] == 37
 
     promoter_qc = read_tsv("analyses/regulatory/tables/promoter_sequence_qc.tsv")
-    assert len(promoter_qc) == 70
-    assert Counter(x["window"] for x in promoter_qc) == {"core": 35, "proximal": 35}
+    assert len(promoter_qc) == 68
+    assert Counter(x["window"] for x in promoter_qc) == {"core": 34, "proximal": 34}
+    assert not any(
+        x["gene"] == "BGN" and x["species"] == "chicken" for x in promoter_qc
+    )
+    promoter_exclusions = read_tsv(
+        "analyses/regulatory/inputs/promoter_excluded_loci.tsv"
+    )
+    assert len(promoter_exclusions) == 1
+    assert (
+        promoter_exclusions[0]["gene"],
+        promoter_exclusions[0]["species"],
+        promoter_exclusions[0]["transcript_id"],
+    ) == ("BGN", "chicken", "rna-XM_414298.8")
     assert {x["clipped_at_contig_edge"] for x in promoter_qc} == {"no"}
     assert all(float(x["ambiguous_percent"]) == 0 for x in promoter_qc)
     promoter_denovo = read_tsv(
@@ -462,12 +613,20 @@ def main() -> None:
         "analyses/regulatory/tables/promoter_targeted_tf_strict_scan_summary.tsv"
     )
     assert len(promoter_strict) == 1
+    assert promoter_strict[0]["promoters_tested"] == "34"
     assert promoter_strict[0]["reported_hits"] == "0"
     promoter_ame = read_tsv(
         "analyses/regulatory/tables/promoter_ame_targeted_tf_summary.tsv"
     )
     assert len(promoter_ame) == 40
     assert {x["panel_significant"] for x in promoter_ame} == {"no"}
+    promoter_ame_by_rank = {x["rank"]: x for x in promoter_ame}
+    assert promoter_ame_by_rank["1"]["motif_alt_ID"] == "ARNT::HIF1A"
+    assert promoter_ame_by_rank["1"]["E-value"] == "8.95e-1"
+    promoter_all_jaspar = read_tsv(
+        "analyses/regulatory/tables/promoter_ame_all_jaspar_significant.tsv"
+    )
+    assert len(promoter_all_jaspar) == 11
 
     mgi = read_tsv("analyses/phenotypes/tables/mgi_phenotype_evidence_summary.tsv")
     hpo = read_tsv(
@@ -486,6 +645,8 @@ def main() -> None:
     assert sum(int(x["single_gene_unique_mp_terms"]) for x in mgi) == 105
     assert {x["gene"] for x in hpo if int(x["unique_hpo_terms"]) > 0} == {"BGN", "DCN"}
 
+    # Final thesis-facing evidence tables must preserve both retained and excluded
+    # provenance records and their review wording.
     final_gene = read_tsv("analyses/overview/tables/final_gene_level_evidence.tsv")
     assert len(final_gene) == 8
     assert {x["Gene"] for x in final_gene} == {
@@ -512,8 +673,9 @@ def main() -> None:
     )
     assert elephant_fmod["protein length"].startswith("684")
     assert "compound" in elephant_fmod["protein length"]
-    assert "exclude the compound protein model" in elephant_fmod["final decision"]
+    assert "compound protein model excluded" in elephant_fmod["final decision"]
 
+    # Focused elephant-shark diagnostics protect the compound FMOD interpretation.
     elephant_qc = read_tsv(
         "analyses/synteny/diagnostics/priority_locus_reviews/"
         "FMOD_elephant_shark/XP_007897806.2_qc.tsv"
@@ -532,6 +694,8 @@ def main() -> None:
     assert "54-76" in elephant_diagnostic[0]["pfam_architecture"]
     assert "383-412" in elephant_diagnostic[0]["pfam_architecture"]
 
+    # The lineage summary is an evidence inventory, so its fixed labels and panel
+    # counts are verified before use in figures or prose.
     species_summary = read_tsv(
         "analyses/overview/tables/species_lineage_evidence_summary.tsv"
     )
@@ -540,41 +704,24 @@ def main() -> None:
     assert species_by_name["Sea lamprey"]["canonical_proteins"] == "3"
     assert species_by_name["Spotted gar"]["synteny_accepted"] == "6"
     assert species_by_name["Coelacanth"]["synteny_accepted"] == "6"
-    assert species_by_name["Opossum†"]["synvoy_input_qc"] == "FAIL"
+    assert species_by_name["Opossum"]["synvoy_input_qc"] == "PASS"
+    assert species_by_name["Opossum"]["synteny_accepted"] == "6"
+    assert species_by_name["Opossum"]["synteny_ambiguous"] == "1"
     assert species_by_name["Amphioxus‡"]["canonical_proteins"] == "0"
 
-    for document in (
-        "analyses/README.md",
-        "analyses/overview/AUTHORITATIVE_RESULT_LOCATIONS.md",
-        "analyses/overview/WORKFLOW_OVERVIEW.md",
-        "analyses/overview/METHODS_ALGORITHM_NOTES.md",
-        "analyses/overview/THESIS_REPRODUCIBILITY_STATUS.md",
-        "analyses/literature/README.md",
-        "analyses/synteny/SYNTENY_ANALYSIS_STATUS.md",
-        "analyses/synteny/diagnostics/priority_locus_reviews/"
-        "FMOD_elephant_shark/README.md",
-        "analyses/gene_structure/README.md",
-        "analyses/evolutionary_rates/README.md",
-        "analyses/regulatory/README.md",
-        "analyses/protein_analysis/motifs/README.md",
-        "analyses/phenotypes/README.md",
-    ):
+    for document in ("README.md", "analyses/overview/README.md"):
         assert (ROOT / document).is_file(), f"Missing: {document}"
     assert (
-        ROOT / "analyses/expression/figures/six_gene_expression_evidence.png"
-    ).is_file()
-    assert (
-        ROOT / "analyses/expression/figures/six_gene_expression_evidence.svg"
+        ROOT / "analyses/expression/figures/seven_gene_expression_evidence.png"
     ).is_file()
     for gene in ("BGN", "DCN", "EPYC", "FMOD", "LUM", "OGN", "PRELP"):
-        for suffix in ("png", "svg"):
-            assert (
-                ROOT
-                / f"analyses/protein_analysis/figures/sequence_logos/{gene}_sequence_logo.{suffix}"
-            ).is_file()
+        assert (
+            ROOT
+            / f"analyses/protein_analysis/figures/sequence_logos/{gene}_sequence_logo.png"
+        ).is_file()
 
     overview_figures = (
-        "analyses/overview/figures/six_gene_evidence_dashboard",
+        "analyses/overview/figures/seven_gene_evidence_dashboard",
         "analyses/overview/figures/thesis_workflow_overview",
         "analyses/overview/figures/species_lineage_evidence_summary",
         "analyses/protein_analysis/figures/protein_conservation_overview",
@@ -582,7 +729,7 @@ def main() -> None:
         "analyses/synteny/figures/synvoy_species_confidence_heatmap",
         "analyses/phylogenetics/figures/phylogenetic_result_overview",
         "analyses/phylogenetics/figures/compact_per_gene_trees",
-        "analyses/phylogenetics/figures/six_gene_combined_tree",
+        "analyses/phylogenetics/figures/seven_gene_combined_tree",
         "analyses/gene_structure/figures/gene_structure_conservation_overview",
         "analyses/gene_structure/extended/figures/full_gene_structure_5species",
         "analyses/gene_structure/extended/figures/coding_exon_splice_phase_map",
@@ -590,8 +737,7 @@ def main() -> None:
         "analyses/evolutionary_rates/figures/pairwise_dn_ds_human_reference",
     )
     for stem in overview_figures:
-        for suffix in ("png", "svg"):
-            assert (ROOT / f"{stem}.{suffix}").is_file(), f"Missing {stem}.{suffix}"
+        assert (ROOT / f"{stem}.png").is_file(), f"Missing {stem}.png"
 
     supplementary_figures = (
         "analyses/protein_analysis/motifs/figures/protein_gene_motif_model_matrix.png",
@@ -604,45 +750,19 @@ def main() -> None:
     for relative in supplementary_figures:
         assert (ROOT / relative).is_file(), f"Missing {relative}"
 
-    lum_large_tree = (
-        ROOT
-        / "analyses/phylogenetics/per_gene_trees/LUM/final_tree/LUM_large_final.treefile"
-    )
-    lum_large_report = (
-        ROOT
-        / "analyses/phylogenetics/per_gene_trees/LUM/final_tree/LUM_large_final.iqtree"
-    )
-    # IQ-TREE can write a temporary unique-sequence treefile during a live run;
-    # the .iqtree report appears only when the expanded final result is complete.
-    if lum_large_report.exists():
-        assert lum_large_tree.is_file()
-        text = lum_large_tree.read_text(encoding="utf-8")
-        tips = re.findall(r"(?<=[(,])([^(),:;]+):", text)
-        assert len(tips) == 781
-        assert len(set(tips)) == 781
-        lum_itol_base = ROOT / "analyses/phylogenetics/per_gene_trees/itol"
-        for suffix in ("tree", "labels.txt", "taxgroups.txt", "taxonomy_mapping.tsv"):
-            assert (lum_itol_base / f"LUM_large_final_itol.{suffix}").is_file()
-        lum_taxonomy = read_tsv(
-            "analyses/phylogenetics/per_gene_trees/itol/"
-            "LUM_large_final_itol.taxonomy_mapping.tsv"
-        )
-        assert len(lum_taxonomy) == 781
-        assert Counter(x["group"] for x in lum_taxonomy).get("Unknown", 0) == 0
-
     scripts = [
         "analyses/protein_analysis/signal_peptides/scripts/parse_signalp_table.py",
         "analyses/protein_analysis/protspace/scripts/analyze_protspace_canonical.py",
         "analyses/expression/fetch_bgee_slrp_expression.py",
         "analyses/expression/summarize_bgee_slrp_expression.py",
         "analyses/expression/gse114919/summarize_gse114919_growth_plate.py",
-        "analyses/expression/plot_six_gene_expression_evidence.py",
+        "analyses/expression/gse114919/summarize_gse114919_full_slrp_family.py",
+        "analyses/expression/gse114919/plot_gse114919_full_slrp_family.py",
+        "analyses/expression/gse114919/summarize_gse114919_zone_markers.py",
+        "analyses/expression/plot_seven_gene_expression_evidence.py",
         "analyses/synteny/scripts/build_synvoy_review.py",
         "analyses/overview/build_candidate_gene_evidence.py",
-        "analyses/protein_analysis/scripts/build_manual_sequence_review_packet.py",
         "analyses/protein_analysis/scripts/make_sequence_logos.py",
-        "analyses/phylogenetics/per_gene_trees/scripts/make_large_taxgroup_annotations.py",
-        "analyses/phylogenetics/per_gene_trees/scripts/filter_large_slrp_fasta.py",
         "analyses/phylogenetics/compact_panel/scripts/plot_compact_phylogenies.py",
         "analyses/overview/scripts/build_results_synthesis.py",
         "analyses/overview/scripts/build_final_evidence_tables.py",
@@ -670,6 +790,10 @@ def main() -> None:
     if thesis_main.is_file():
         thesis_tex_files = [thesis_main]
         thesis_tex_files.extend(sorted((ROOT / "thesis/chapters").glob("*.tex")))
+        # Chapter files can include standalone table fragments. Scan those files
+        # as well so labels defined inside an \input{tables/...} file resolve
+        # during the same static cross-reference check.
+        thesis_tex_files.extend(sorted((ROOT / "thesis/tables").glob("*.tex")))
     include_pattern = re.compile(
         r"\\includegraphics(?:\[[^\]]*\])?\s*\{([^}]+)\}", re.MULTILINE
     )
@@ -685,6 +809,12 @@ def main() -> None:
         relative_figures.extend(supplement_pattern.findall(tex))
         figure_paths.extend(ROOT / "thesis" / relative for relative in relative_figures)
         labels.extend(re.findall(r"\\label\{([^}]+)\}", tex))
+        # ``\thesissuppfigure`` receives its label as the third argument rather
+        # than containing a literal ``\label`` in every call. Those arguments
+        # occupy their own lines in appendix.tex.
+        labels.extend(
+            re.findall(r"^\{(fig:supp-[^}]+)\}\s*$", tex, re.MULTILINE)
+        )
         references.extend(re.findall(r"\\(?:ref|pageref)\{([^}]+)\}", tex))
         assert tex.count(r"\begin{figure}") == tex.count(r"\end{figure}"), (
             f"Unbalanced figure environment: {tex_path}"
@@ -706,33 +836,40 @@ def main() -> None:
     print("PASS: Bgee 27 mappings / 54 summaries")
     print("PASS: GSE114919 531 long rows / 108 conditions / 18 tibia summaries")
     print(
+        "PASS: GSE114919 full-family sensitivity 18 SLRPs and zone-marker QC "
+        "265 measurements / 27 comparisons"
+    )
+    print("PASS: targeted opossum/elephant-shark BGN searches remain cautiously unresolved")
+    print(
         f"PASS: SynVoy {len(synvoy_all)} rows across {len(synvoy_genes)} genes -> "
         + " / ".join(f"{synvoy_priorities[p]} {p}" for p in ("P1", "P2", "P3"))
     )
     print(
-        "PASS: all SynVoy reviews complete; seven opossum input-pair failures quarantined"
+        "PASS: all SynVoy reviews complete; seven matched-input opossum rows integrated"
     )
     print("PASS: candidate evidence 9 genes")
     print(
         "PASS: integrated seven-gene evidence, 103-tip review, and canonical compact trees"
     )
-    if lum_large_report.exists():
-        print("PASS: 781-tip large LUM tree and complete iTOL taxonomy bundle")
-    print("PASS: local gene structure 40 rows / 8 summaries / no structural outliers")
+    print("PASS: BGN fragment-exclusion sensitivity remains non-monophyletic")
     print(
-        "PASS: extended structure 40 complete CDSs / 26 conserved splice phases / Pfam support in all 40"
+        "PASS: local gene structure 40 raw rows / 39 orthology-supported rows / "
+        "one documented exclusion"
+    )
+    print(
+        "PASS: extended structure 39 retained CDSs / 26 conserved splice phases / "
+        "287 retained Pfam hits"
     )
     print(
         "PASS: coding constraint 25 finite NG86 estimates, all below one; deep comparisons explicitly limited"
     )
-    print("PASS: corrected large-tree locus-filter reports and overview figures")
-    print(
-        "PASS: gene-structure queue 35 / predicted-transcript audit 6 / five-protein manual packet and explicit decisions"
-    )
+    print("PASS: compact phylogenetic outputs and overview figures")
+    print("PASS: five-protein manual packet and explicit candidate decisions")
     print("PASS: final 8-row gene evidence table and 107-row candidate audit")
     print("PASS: protein motifs 116 motifs / 103 own-gene-best assignments")
     print(
-        "PASS: promoter motifs 70 QC windows / 40 de-novo motifs / no corrected targeted hit"
+        "PASS: promoter motifs 68 QC windows / documented chicken BGN exclusion / "
+        "40 de-novo motifs / no corrected targeted hit"
     )
     print("PASS: curated MGI/HPO summaries for all seven comparative genes")
     print("PASS: analysis scripts parse successfully")

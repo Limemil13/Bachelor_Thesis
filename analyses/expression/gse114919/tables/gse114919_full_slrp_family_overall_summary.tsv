@@ -1,0 +1,19 @@
+gene	slrp_class	panel_role	mouse_available_in_source_matrix	mouse_mean_rank	mouse_rank_denominator	mouse_mean_rank_percentile	rat_available_in_source_matrix	rat_mean_rank	rat_rank_denominator	rat_mean_rank_percentile	mean_rank_percentile_available_species
+BGN	I	final_panel	yes	2.250000	18	0.073529	yes	1.5	14	0.038462	0.055995
+FMOD	II	final_panel	yes	2.250000	18	0.073529	yes	1.5	14	0.038462	0.055995
+PRELP	II	final_panel	yes	2.250000	18	0.073529	yes	3.0	14	0.153846	0.113688
+CHAD	IV	not_preselected	yes	3.750000	18	0.161765	yes	5.25	14	0.326923	0.244344
+LUM	II	final_panel	yes	5.250000	18	0.250000	yes	4.75	14	0.288462	0.269231
+EPYC	III	final_panel	yes	5.750000	18	0.279412	yes	5.5	14	0.346154	0.312783
+CHADL	IV	not_preselected	yes	8.000000	18	0.411765	no				0.411765
+DCN	I	final_panel	yes	7.000000	18	0.352941	yes	8.0	14	0.538462	0.445701
+TSKU	IV	not_preselected	yes	10.250000	18	0.544118	yes	7.0	14	0.461538	0.502828
+PODNL1	V	not_preselected	yes	10.500000	18	0.558824	no				0.558824
+ECM2	I	not_preselected	yes	11.000000	18	0.588235	no				0.588235
+OGN	III	final_panel	yes	11.250000	18	0.602941	yes	10.75	14	0.75	0.676471
+OPTC	III	not_preselected	yes	15.750000	18	0.867647	yes	8.5	14	0.576923	0.722285
+OMD	II	context	yes	11.750000	18	0.632353	yes	12.5	14	0.884615	0.758484
+ASPN	I	background	yes	13.750000	18	0.750000	yes	12.5	14	0.884615	0.817308
+NYX	IV	not_preselected	yes	17.000000	18	0.941176	yes	10.75	14	0.75	0.845588
+PODN	V	not_preselected	yes	15.750000	18	0.867647	no				0.867647
+KERA	II	not_preselected	yes	17.500000	18	0.970588	yes	11.5	14	0.807692	0.889140

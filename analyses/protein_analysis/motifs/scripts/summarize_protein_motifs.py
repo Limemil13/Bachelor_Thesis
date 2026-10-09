@@ -26,6 +26,7 @@ HIGHLIGHTS = {
 
 
 def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    # Write parsed motif models and candidate scores with a stable schema.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
@@ -36,6 +37,7 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
 
 
 def meme_motifs(path: Path, scope: str) -> list[dict[str, object]]:
+    # Parse global MEME motif definitions from XML.
     root = ET.parse(path).getroot()
     container = root.find("motifs")
     if container is None:
@@ -58,6 +60,7 @@ def meme_motifs(path: Path, scope: str) -> list[dict[str, object]]:
 
 
 def streme_motifs(path: Path, gene: str) -> list[dict[str, object]]:
+    # Parse per-gene STREME motifs and record whether holdout data exist.
     root = ET.parse(path).getroot()
     rows: list[dict[str, object]] = []
     for motif in root.findall(".//motifs/motif"):
@@ -81,6 +84,7 @@ def streme_motifs(path: Path, gene: str) -> list[dict[str, object]]:
 
 
 def safe_neg_log10(value: str, cap: float = 300.0) -> float:
+    # Cap transformed values so zero/very small E-values remain plottable.
     number = float(value)
     if number <= 0:
         return cap
@@ -88,6 +92,7 @@ def safe_neg_log10(value: str, cap: float = 300.0) -> float:
 
 
 def mast_scores(path: Path, model_gene: str) -> list[dict[str, object]]:
+    # Read sequence-level MAST scores and individual motif hits.
     root = ET.parse(path).getroot()
     rows: list[dict[str, object]] = []
     for sequence in root.findall(".//sequences/sequence"):
@@ -116,6 +121,7 @@ def mast_scores(path: Path, model_gene: str) -> list[dict[str, object]]:
 
 
 def candidate_assignments(scores: list[dict[str, object]]) -> list[dict[str, object]]:
+    # Compare each protein with all seven models and retain its assignment margin.
     grouped: dict[tuple[str, str, str], list[dict[str, object]]] = defaultdict(list)
     for row in scores:
         grouped[
@@ -162,6 +168,7 @@ def candidate_assignments(scores: list[dict[str, object]]) -> list[dict[str, obj
 
 
 def global_motif_coverage(mast_path: Path) -> list[dict[str, object]]:
+    # Report both sequence coverage and total motif-hit count.
     root = ET.parse(mast_path).getroot()
     motif_names = {
         str(i): motif.attrib.get("alt", motif.attrib["id"])
@@ -190,6 +197,7 @@ def global_motif_coverage(mast_path: Path) -> list[dict[str, object]]:
 
 
 def plot_model_matrix(scores: list[dict[str, object]], output: Path) -> None:
+    # Plot median score for each curated-gene/model-gene combination.
     matrix = np.zeros((len(GENES), len(GENES)))
     for i, true_gene in enumerate(GENES):
         for j, model_gene in enumerate(GENES):
@@ -228,6 +236,7 @@ def plot_model_matrix(scores: list[dict[str, object]], output: Path) -> None:
 
 
 def plot_candidate_margins(assignments: list[dict[str, object]], output: Path) -> None:
+    # Plot model margins and label the predefined difficult candidates.
     fig, ax = plt.subplots(figsize=(11, 5.5))
     positions: list[float] = []
     labels: list[str] = []
@@ -277,6 +286,8 @@ def plot_candidate_margins(assignments: list[dict[str, object]], output: Path) -
 
 
 def main() -> None:
+    # Parse discovery outputs and cross-scans, write audit tables and generate
+    # motif-model summary figures.
     parser = argparse.ArgumentParser()
     parser.add_argument("--base", required=True, type=Path)
     parser.add_argument("--raw-dir", type=Path)

@@ -1,8 +1,8 @@
-gene	compact_tip_count	compact_model	combined_tree_gene_tip_count	combined_tree_largest_pure_split	combined_tree_unrooted_monophyletic	combined_tree_outside_tip	large_download_record_count	large_legacy_retained_count	large_corrected_candidate_count	large_tree_tip_count	large_model	large_tree_status
-BGN	13	JTT+G4	13	6	no	BGN|frog|NP_001072552.1,BGN|lamprey|XP_075929720.1,BGN|latimeria_chalumnae|XP_064415290.1,BGN|lepisosteus_oculatus|XP_069037386.1,BGN|scyliorhinus_canicula|XP_038638277.1,BGN|whale_shark|XP_048475905.1,BGN|zebrafish|NP_001001825.2	936	599	639	599	JTT+R6	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
-DCN	15	JTT+G4	15	15	yes		1398	839	0	0	not run	large tree not run; compact curated tree is the thesis-grade result
-FMOD	14	JTT+I+G4	14	14	yes		660	521	546	521	JTT+I+G4	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
-PRELP	16	JTT+G4	16	16	yes		1263	748	848	748	JTT+R7	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
-EPYC	15	JTT+G4	15	15	yes		1121	555	632	555	JTT+R5	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
-LUM	16	LG+I+G4	16	15	no	LUM|lamprey|XP_075930353.1	1053	781	838	781	JTT+R8	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
-OGN	14	JTTDCMut+G4	14	14	yes		1149	757	855	757	JTT+R7	legacy tree exploratory; corrected locus-filtered candidates ready; tree rerun pending
+gene	compact_tip_count	compact_model	combined_tree_gene_tip_count	combined_tree_largest_pure_split	combined_tree_unrooted_monophyletic	combined_tree_outside_tip
+BGN	13	JTT+G4	13	6	no	BGN|frog|NP_001072552.1,BGN|lamprey|XP_075929720.1,BGN|latimeria_chalumnae|XP_064415290.1,BGN|lepisosteus_oculatus|XP_069037386.1,BGN|scyliorhinus_canicula|XP_038638277.1,BGN|whale_shark|XP_048475905.1,BGN|zebrafish|NP_001001825.2
+DCN	15	JTT+G4	15	15	yes	
+FMOD	14	JTT+I+G4	14	14	yes	
+PRELP	16	JTT+G4	16	16	yes	
+EPYC	15	JTT+G4	15	15	yes	
+LUM	16	LG+I+G4	16	15	no	LUM|lamprey|XP_075930353.1
+OGN	14	JTTDCMut+G4	14	14	yes	

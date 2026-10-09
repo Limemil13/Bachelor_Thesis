@@ -32,6 +32,7 @@ SPECIES_TO_CANONICAL = {
 
 
 def canonical_records() -> dict[tuple[str, str], object]:
+    # Collect curated protein records under a common (gene, species) key.
     records: dict[tuple[str, str], object] = {}
     for path in sorted(CANONICAL_DIR.glob("*_canonical.faa")):
         for record in SeqIO.parse(path, "fasta"):
@@ -42,6 +43,7 @@ def canonical_records() -> dict[tuple[str, str], object]:
 
 
 def structure_symbols() -> dict[tuple[str, str], str]:
+    # Preserve the gene symbol attached to each selected structure transcript.
     with STRUCTURE_TABLE.open(encoding="utf-8", newline="") as handle:
         return {
             (row["query_gene"], row["species_or_file"]): row["matched_gene_name"]
@@ -50,6 +52,7 @@ def structure_symbols() -> dict[tuple[str, str], str]:
 
 
 def alignment_metrics(sequence_a: str, sequence_b: str) -> tuple[float, float, float]:
+    # Global alignment tests full-length agreement rather than a short shared domain.
     aligner = PairwiseAligner(mode="global")
     aligner.match_score = 2.0
     aligner.mismatch_score = -1.0
@@ -74,8 +77,11 @@ def alignment_metrics(sequence_a: str, sequence_b: str) -> tuple[float, float, f
 
 
 def main() -> None:
+    # Match every structure-derived translation to the curated protein for the
+    # same gene and species, then report accession and sequence agreement.
     canonical = canonical_records()
     symbols = structure_symbols()
+    # One row is written for every representative protein in the structure panel.
     rows: list[dict[str, object]] = []
 
     for record in SeqIO.parse(STRUCTURE_FASTA, "fasta"):
@@ -150,6 +156,7 @@ def main() -> None:
             }
         )
 
+    # The crosswalk makes missing or discordant pairs visible for manual review.
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     fields = list(rows[0])
     with OUTPUT.open("w", encoding="utf-8", newline="") as handle:

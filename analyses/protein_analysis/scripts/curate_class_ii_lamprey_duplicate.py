@@ -20,6 +20,7 @@ ACCESSION = "XP_075930353.1"
 
 
 def read_fasta(path: Path) -> list[tuple[str, str]]:
+    # Read the historical FMOD panel while preserving its original headers.
     records: list[tuple[str, str]] = []
     header: str | None = None
     chunks: list[str] = []
@@ -40,6 +41,8 @@ def read_fasta(path: Path) -> list[tuple[str, str]]:
 
 
 def main() -> None:
+    # Remove the accession already assigned to LUM and record the reason without
+    # modifying the original FASTA.
     records = read_fasta(SOURCE)
     removed = [(header, seq) for header, seq in records if ACCESSION in header]
     kept = [(header, seq) for header, seq in records if ACCESSION not in header]

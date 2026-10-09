@@ -1,0 +1,2 @@
+gene	species	transcript_id	seqid	representative_note	exclusion_reason	representative_source
+BGN	chicken	rna-XM_414298.8	NC_052543.1	locus_structure_only; translated product XP_414298.2 is ASPN-like and is not independent BGN orthology support	excluded from BGN promoter analysis because the translated product XP_414298.2 is ASPN-like and does not provide independent BGN orthology support	analyses/gene_structure/tables/gene_structure_representative_5species.tsv

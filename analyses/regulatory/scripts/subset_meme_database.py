@@ -39,6 +39,8 @@ DEFAULT_TFS = (
 
 
 def main() -> None:
+    # Parse motif blocks from a MEME database and retain names matching the
+    # requested cartilage/growth-plate transcription factors.
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--output", required=True, type=Path)

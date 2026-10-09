@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Build a reproducible reciprocal-BLASTP candidate panel from local proteomes.
-
-This is a dependency-free equivalent of the project's ``blastp-ortholog`` and
-``extract-blastp-candidates`` commands.  It is used for LUM because the current
-Typer environment is not installed in the WSL analysis environments.
+"""homo sapiens as query -> against all proteomes to find best sequence, and reverse blasting
 """
 
 from __future__ import annotations
@@ -75,6 +71,7 @@ def find_record(path: Path, accession: str) -> tuple[str, str] | None:
 
 
 def ensure_blast_db(proteome: Path, prefix: Path) -> None:
+    #keep search local for faster reruns
     if any(prefix.parent.glob(prefix.name + ".*")):
         return
     prefix.parent.mkdir(parents=True, exist_ok=True)
@@ -225,6 +222,7 @@ def main() -> None:
             f"forward_qcovs={float(forward['qcovs']):.1f} "
             f"reverse_hit={reverse_accession}"
         )
+        #keeping failed candidates incase of paralog
         candidate_records.append((candidate_header, target_sequence))
 
     output_dir.mkdir(parents=True, exist_ok=True)

@@ -12,11 +12,13 @@ GENES = ("BGN", "DCN", "FMOD", "PRELP", "EPYC", "LUM", "OGN")
 
 
 def read_tsv(path: Path) -> list[dict[str, str]]:
+    # Read the pinned HPO gene-phenotype and gene-disease tables.
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle, delimiter="\t"))
 
 
 def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> None:
+    # Shared writer for filtered records and per-gene summaries.
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(
@@ -27,6 +29,8 @@ def write_tsv(path: Path, rows: list[dict[str, object]], fields: list[str]) -> N
 
 
 def main() -> None:
+    # Retain the seven focal genes, count their terms/diseases and preserve
+    # detailed source records for manual interpretation.
     parser = argparse.ArgumentParser()
     parser.add_argument("--gene-phenotype", required=True, type=Path)
     parser.add_argument("--gene-disease", required=True, type=Path)

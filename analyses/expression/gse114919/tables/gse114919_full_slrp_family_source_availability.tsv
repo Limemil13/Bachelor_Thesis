@@ -1,0 +1,37 @@
+species	gene	slrp_class	panel_role	available_in_source_matrix	source_identifier	ncbi_gene_id	source_row	note
+mouse	ASPN	I	background	yes	ASPN	66695	2460	one exact gene-symbol row in the deposited matrix
+mouse	BGN	I	final_panel	yes	BGN	12111	2961	one exact gene-symbol row in the deposited matrix
+mouse	DCN	I	final_panel	yes	DCN	13179	5095	one exact gene-symbol row in the deposited matrix
+mouse	ECM2	I	not_preselected	yes	ECM2	407800	5731	one exact gene-symbol row in the deposited matrix
+mouse	FMOD	II	final_panel	yes	FMOD	14264	6765	one exact gene-symbol row in the deposited matrix
+mouse	KERA	II	not_preselected	yes	KERA	16545	9579	one exact gene-symbol row in the deposited matrix
+mouse	LUM	II	final_panel	yes	LUM	17022	10340	one exact gene-symbol row in the deposited matrix
+mouse	OMD	II	context	yes	OMD	27047	13042	one exact gene-symbol row in the deposited matrix
+mouse	PRELP	II	final_panel	yes	PRELP	116847	14284	one exact gene-symbol row in the deposited matrix
+mouse	EPYC	III	final_panel	yes	EPYC	13516	6053	one exact gene-symbol row in the deposited matrix
+mouse	OGN	III	final_panel	yes	OGN	18295	12853	one exact gene-symbol row in the deposited matrix
+mouse	OPTC	III	not_preselected	yes	OPTC	116846	13064	one exact gene-symbol row in the deposited matrix
+mouse	CHAD	IV	not_preselected	yes	CHAD	12643	4045	one exact gene-symbol row in the deposited matrix
+mouse	CHADL	IV	not_preselected	yes	CHADL	214685	4046	one exact gene-symbol row in the deposited matrix
+mouse	NYX	IV	not_preselected	yes	NYX	18116	12802	one exact gene-symbol row in the deposited matrix
+mouse	TSKU	IV	not_preselected	yes	TSKU	244152	18645	one exact gene-symbol row in the deposited matrix
+mouse	PODN	V	not_preselected	yes	PODN	242608	14004	one exact gene-symbol row in the deposited matrix
+mouse	PODNL1	V	not_preselected	yes	PODNL1	244550	14005	one exact gene-symbol row in the deposited matrix
+rat	ASPN	I	background	yes	NM_001014008		13912	one exact gene-symbol row in the deposited matrix
+rat	BGN	I	final_panel	yes	NM_017087		9637	one exact gene-symbol row in the deposited matrix
+rat	DCN	I	final_panel	yes	NM_024129		7192	one exact gene-symbol row in the deposited matrix
+rat	ECM2	I	not_preselected	no				no matching gene-symbol row; unavailable, not treated as zero
+rat	FMOD	II	final_panel	yes	NM_080698		12058	one exact gene-symbol row in the deposited matrix
+rat	KERA	II	not_preselected	yes	NM_001108087		7194	one exact gene-symbol row in the deposited matrix
+rat	LUM	II	final_panel	yes	NM_031050		7193	one exact gene-symbol row in the deposited matrix
+rat	OMD	II	context	yes	NM_031817		13910	one exact gene-symbol row in the deposited matrix
+rat	PRELP	II	final_panel	yes	NM_053385		12056	one exact gene-symbol row in the deposited matrix
+rat	EPYC	III	final_panel	yes	NM_001108088		6800	one exact gene-symbol row in the deposited matrix
+rat	OGN	III	final_panel	yes	NM_001106103		13739	one exact gene-symbol row in the deposited matrix
+rat	OPTC	III	not_preselected	yes	NM_001107176		12055	one exact gene-symbol row in the deposited matrix
+rat	CHAD	IV	not_preselected	yes	NM_019164		10578	one exact gene-symbol row in the deposited matrix
+rat	CHADL	IV	not_preselected	no				no matching gene-symbol row; unavailable, not treated as zero
+rat	NYX	IV	not_preselected	yes	NM_001100967		9311	one exact gene-symbol row in the deposited matrix
+rat	TSKU	IV	not_preselected	yes	NM_001009965		1185	one exact gene-symbol row in the deposited matrix
+rat	PODN	V	not_preselected	no				no matching gene-symbol row; unavailable, not treated as zero
+rat	PODNL1	V	not_preselected	no				no matching gene-symbol row; unavailable, not treated as zero
