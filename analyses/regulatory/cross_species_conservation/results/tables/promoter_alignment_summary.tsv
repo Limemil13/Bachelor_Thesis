@@ -1,0 +1,15 @@
+gene	window	sequence_count	species	alignment_length_bp	shortest_promoter_bp	fully_covered_columns	fully_identical_columns	recurrent_columns	longest_recurrent_run_bp	fully_identical_percent_of_shortest	recurrent_percent_of_shortest	pairwise_comparisons	median_pairwise_identity_percent	minimum_pairwise_identity_percent	maximum_pairwise_identity_percent	median_pairwise_coverage_percent
+BGN	core	4	cow;human;mouse;zebrafish	746	601	437	105	105	7	17.47	17.47	6	53.67	34.17	75.55	85.86
+DCN	core	5	chicken;cow;human;mouse;zebrafish	1041	601	173	63	256	35	10.48	42.6	10	63.54	45.85	86.58	78.37
+FMOD	core	5	chicken;cow;human;mouse;zebrafish	980	601	247	44	144	12	7.32	23.96	10	46.95	38.01	82.92	64.23
+PRELP	core	5	chicken;cow;human;mouse;zebrafish	865	601	315	37	121	6	6.16	20.13	10	40.71	35.18	81.13	73.96
+EPYC	core	5	chicken;cow;human;mouse;zebrafish	734	601	369	45	172	4	7.49	28.62	10	41.23	35.39	82.96	86.52
+LUM	core	5	chicken;cow;human;mouse;zebrafish	1041	601	158	18	89	5	3.0	14.81	10	44.0	40.71	67.4	60.4
+OGN	core	5	chicken;cow;human;mouse;zebrafish	888	601	330	53	184	11	8.82	30.62	10	47.7	41.08	62.25	76.04
+BGN	proximal	4	cow;human;mouse;zebrafish	3379	2201	1167	271	271	5	12.31	12.31	6	48.65	38.53	64.66	71.92
+DCN	proximal	5	chicken;cow;human;mouse;zebrafish	3160	2201	1242	238	801	35	10.81	36.39	10	49.45	37.72	70.17	79.4
+FMOD	proximal	5	chicken;cow;human;mouse;zebrafish	3486	2201	954	103	443	7	4.68	20.13	10	41.75	32.52	63.97	63.2
+PRELP	proximal	5	chicken;cow;human;mouse;zebrafish	2946	2201	1223	89	446	6	4.04	20.26	10	38.91	34.35	60.26	79.21
+EPYC	proximal	5	chicken;cow;human;mouse;zebrafish	2798	2201	1481	145	528	6	6.59	23.99	10	38.33	34.74	67.16	83.42
+LUM	proximal	5	chicken;cow;human;mouse;zebrafish	2913	2201	1381	82	523	6	3.73	23.76	10	37.48	33.19	55.23	83.78
+OGN	proximal	5	chicken;cow;human;mouse;zebrafish	3199	2201	1221	146	602	9	6.63	27.35	10	42.36	37.14	76.28	80.69

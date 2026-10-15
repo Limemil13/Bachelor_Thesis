@@ -6,6 +6,7 @@ from __future__ import annotations
 import ast
 import csv
 import re
+import sys
 from collections import Counter
 from pathlib import Path
 
@@ -28,7 +29,7 @@ def read_tsv(relative: str, *, allow_empty: bool = False) -> list[dict[str, str]
     return rows
 
 
-def main() -> None:
+def main(*, check_manuscript: bool = False) -> None:
     # Fixed counts act as integration tests across many scripts. If curation changes
     # intentionally, both the regenerated outputs and these documented expectations
     # must be reviewed together rather than automatically accepting the new count.
@@ -300,7 +301,6 @@ def main() -> None:
         r"(?<=[(,])([^(),:;]+):", lum_small_tree.read_text(encoding="utf-8")
     )
     assert len(lum_small_tips) == 16
-    assert (ROOT / "analyses/phylogenetics/compact_panel/itol/LUM_itol.tree").is_file()
 
     bgn_small_tree = (
         ROOT / "analyses/phylogenetics/compact_panel/trees/BGN/BGN.treefile"
@@ -355,6 +355,58 @@ def main() -> None:
     ogn_small_tips = re.findall(r"(?<=[(,])([^(),:;]+):", ogn_small_text)
     assert len(ogn_small_tips) == 14
     assert "XP_066265713.1" not in ogn_small_text
+
+    # The expanded family trees are retained as compact, reproducible packages.
+    # These checks use the final summaries rather than temporary IQ-TREE restart
+    # files or local iTOL exports, which are intentionally excluded from Git.
+    class1_groups = read_tsv(
+        "analyses/phylogenetics/targeted_extensions/results/class1/group_summary.tsv"
+    )
+    class1_by_group = {x["group"]: x for x in class1_groups}
+    assert len(class1_groups) == 10
+    assert class1_by_group["DCN"]["tips"] == "15"
+    assert class1_by_group["DCN2"]["tips"] == "4"
+    assert class1_by_group["DCN2"]["monophyletic"] == "yes"
+    assert class1_by_group["SLRP3"]["tips"] == "2"
+    class1_neighbours = read_tsv(
+        "analyses/phylogenetics/targeted_extensions/results/class1/"
+        "focus_nearest_neighbours.tsv"
+    )
+    assert any(
+        x["focus_tip"] == "BGN|lamprey|XP_075929720.1"
+        and x["rank"] == "1"
+        and x["neighbour_group"] == "SLRP3"
+        for x in class1_neighbours
+    )
+
+    class2_groups = read_tsv(
+        "analyses/phylogenetics/targeted_extensions/results/class2/group_summary.tsv"
+    )
+    class2_by_group = {x["group"]: x for x in class2_groups}
+    assert len(class2_groups) == 11
+    assert class2_by_group["FMODA"]["monophyletic"] == "yes"
+    assert class2_by_group["FMODB"]["monophyletic"] == "yes"
+    assert class2_by_group["LUM"]["tips"] == "21"
+    assert class2_by_group["SLRP6"]["tips"] == "2"
+    class2_exact_matches = read_tsv(
+        "analyses/phylogenetics/targeted_extensions/inputs/"
+        "class2_exact_sequence_matches.tsv"
+    )
+    assert any(
+        x["thesis_accession"] == "XP_075930353.1"
+        and x["published_group"] == "SLRP6"
+        and x["overlap_identity_percent"] == "100.00"
+        for x in class2_exact_matches
+    )
+    for relative in (
+        "analyses/phylogenetics/targeted_extensions/results/class1/rooted.treefile",
+        "analyses/phylogenetics/targeted_extensions/results/class1/class1_targeted.iqtree",
+        "analyses/phylogenetics/targeted_extensions/results/class1/class1_targeted_tree.pdf",
+        "analyses/phylogenetics/targeted_extensions/results/class2/rooted.treefile",
+        "analyses/phylogenetics/targeted_extensions/results/class2/class2_targeted.iqtree",
+        "analyses/phylogenetics/targeted_extensions/results/class2/class2_targeted_tree.pdf",
+    ):
+        assert (ROOT / relative).is_file(), f"Missing: {ROOT / relative}"
 
     # Representative and extended gene-structure tables must agree on panel scope.
     structure = read_tsv(
@@ -493,6 +545,20 @@ def main() -> None:
         "representative_pfam_domain_hits_orthology_supported.tsv"
     )
     assert len(retained_domain_hits) == 287
+    structure_crosswalk = read_tsv(
+        "analyses/gene_structure/extended/tables/structure_protein_crosswalk.tsv"
+    )
+    assert len(structure_crosswalk) == 40
+    assert Counter(x["gene"] for x in structure_crosswalk) == {
+        "BGN": 5,
+        "DCN": 5,
+        "EPYC": 5,
+        "FMOD": 5,
+        "LUM": 5,
+        "OGN": 5,
+        "OMD": 5,
+        "PRELP": 5,
+    }
 
     # Evolutionary-rate checks confirm the number and status of pairwise estimates.
     pairwise_dn_ds = read_tsv(
@@ -588,6 +654,38 @@ def main() -> None:
     assert len(protein_meme) == 116
     assert Counter(x["scope"] for x in protein_meme)["all_seven_genes"] == 37
 
+    loso_summary = {
+        x["metric"]: x["value"]
+        for x in read_tsv(
+            "analyses/protein_analysis/motifs/validation/results/tables/"
+            "loso_summary.tsv"
+        )
+    }
+    assert loso_summary["tested_proteins"] == "101"
+    assert loso_summary["correct_predictions"] == "101"
+    assert loso_summary["proteins_without_exact_training_duplicate"] == "101"
+    assert loso_summary["correct_without_exact_training_duplicate"] == "101"
+    loso_predictions = read_tsv(
+        "analyses/protein_analysis/motifs/validation/results/tables/"
+        "loso_predictions.tsv"
+    )
+    assert len(loso_predictions) == 101
+    assert {x["correct"] for x in loso_predictions} == {"yes"}
+    assert {x["exact_sequence_present_in_training"] for x in loso_predictions} == {
+        "no"
+    }
+    challenge_controls = read_tsv(
+        "analyses/protein_analysis/motifs/validation/results/tables/"
+        "challenge_control_nearest_models.tsv"
+    )
+    assert {
+        (x["accession"], x["revised_reference_tree_label"])
+        for x in challenge_controls
+    } == {
+        ("XP_075929720.1", "SLRP3-like"),
+        ("XP_075930353.1", "SLRP6-like"),
+    }
+
     promoter_qc = read_tsv("analyses/regulatory/tables/promoter_sequence_qc.tsv")
     assert len(promoter_qc) == 68
     assert Counter(x["window"] for x in promoter_qc) == {"core": 34, "proximal": 34}
@@ -627,6 +725,29 @@ def main() -> None:
         "analyses/regulatory/tables/promoter_ame_all_jaspar_significant.tsv"
     )
     assert len(promoter_all_jaspar) == 11
+    promoter_alignment = read_tsv(
+        "analyses/regulatory/cross_species_conservation/results/tables/"
+        "promoter_alignment_summary.tsv"
+    )
+    promoter_pairwise = read_tsv(
+        "analyses/regulatory/cross_species_conservation/results/tables/"
+        "promoter_pairwise_similarity.tsv"
+    )
+    assert len(promoter_alignment) == 14
+    assert Counter(x["window"] for x in promoter_alignment) == {
+        "core": 7,
+        "proximal": 7,
+    }
+    assert {x["gene"] for x in promoter_alignment} == {
+        "BGN",
+        "DCN",
+        "EPYC",
+        "FMOD",
+        "LUM",
+        "OGN",
+        "PRELP",
+    }
+    assert len(promoter_pairwise) == 132
 
     mgi = read_tsv("analyses/phenotypes/tables/mgi_phenotype_evidence_summary.tsv")
     hpo = read_tsv(
@@ -787,7 +908,7 @@ def main() -> None:
 
     thesis_main = ROOT / "thesis/main.tex"
     thesis_tex_files: list[Path] = []
-    if thesis_main.is_file():
+    if check_manuscript and thesis_main.is_file():
         thesis_tex_files = [thesis_main]
         thesis_tex_files.extend(sorted((ROOT / "thesis/chapters").glob("*.tex")))
         # Chapter files can include standalone table fragments. Scan those files
@@ -804,7 +925,9 @@ def main() -> None:
     for tex_path in thesis_tex_files:
         tex = tex_path.read_text(encoding="utf-8")
         relative_figures = [
-            relative for relative in include_pattern.findall(tex) if "#" not in relative
+            relative
+            for relative in include_pattern.findall(tex)
+            if "#" not in relative and not relative.lstrip().startswith("\\")
         ]
         relative_figures.extend(supplement_pattern.findall(tex))
         figure_paths.extend(ROOT / "thesis" / relative for relative in relative_figures)
@@ -853,12 +976,15 @@ def main() -> None:
     )
     print("PASS: BGN fragment-exclusion sensitivity remains non-monophyletic")
     print(
+        "PASS: expanded class-I and class-II trees, including SLRP3/SLRP6 lamprey checks"
+    )
+    print(
         "PASS: local gene structure 40 raw rows / 39 orthology-supported rows / "
         "one documented exclusion"
     )
     print(
         "PASS: extended structure 39 retained CDSs / 26 conserved splice phases / "
-        "287 retained Pfam hits"
+        "287 retained Pfam hits / 40-row protein crosswalk"
     )
     print(
         "PASS: coding constraint 25 finite NG86 estimates, all below one; deep comparisons explicitly limited"
@@ -867,10 +993,12 @@ def main() -> None:
     print("PASS: five-protein manual packet and explicit candidate decisions")
     print("PASS: final 8-row gene evidence table and 107-row candidate audit")
     print("PASS: protein motifs 116 motifs / 103 own-gene-best assignments")
+    print("PASS: leave-one-species-out validation 101/101 without exact duplicates")
     print(
         "PASS: promoter motifs 68 QC windows / documented chicken BGN exclusion / "
         "40 de-novo motifs / no corrected targeted hit"
     )
+    print("PASS: cross-species promoter comparison 14 summaries / 132 pairwise rows")
     print("PASS: curated MGI/HPO summaries for all seven comparative genes")
     print("PASS: analysis scripts parse successfully")
     if thesis_tex_files:
@@ -879,8 +1007,13 @@ def main() -> None:
             f"{len(references)} cross-references resolve; labels are unique"
         )
     else:
-        print("PASS: manuscript checks skipped (local manuscript not present)")
+        print("PASS: manuscript checks skipped (use --check-manuscript to enable)")
 
 
 if __name__ == "__main__":
-    main()
+    unexpected_arguments = set(sys.argv[1:]) - {"--check-manuscript"}
+    if unexpected_arguments:
+        raise SystemExit(
+            "Usage: verify_thesis_analysis_outputs.py [--check-manuscript]"
+        )
+    main(check_manuscript="--check-manuscript" in sys.argv[1:])

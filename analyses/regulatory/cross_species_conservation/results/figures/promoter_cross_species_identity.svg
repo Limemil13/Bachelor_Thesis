@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="508" viewBox="0 0 420 508">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.label{font-size:14px}.title{font-size:18px;font-weight:bold}.value{font-size:15px;font-weight:bold}</style>
+<text class="title" x="210.0" y="28" text-anchor="middle">Cross-species promoter sequence identity</text>
+<text class="label" x="165.0" y="58" text-anchor="middle">core</text>
+<text class="label" x="315.0" y="58" text-anchor="middle">proximal</text>
+<text class="label" x="78" y="104.0" text-anchor="end">BGN</text>
+<rect x="90" y="72" width="150" height="54" fill="rgb(124,187,230)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="104.0" text-anchor="middle" style="fill:#111">53.7%</text>
+<rect x="240" y="72" width="150" height="54" fill="rgb(159,206,237)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="104.0" text-anchor="middle" style="fill:#111">48.6%</text>
+<text class="label" x="78" y="158.0" text-anchor="end">DCN</text>
+<rect x="90" y="126" width="150" height="54" fill="rgb(54,152,215)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="158.0" text-anchor="middle" style="fill:white">63.5%</text>
+<rect x="240" y="126" width="150" height="54" fill="rgb(154,203,236)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="158.0" text-anchor="middle" style="fill:#111">49.5%</text>
+<text class="label" x="78" y="212.0" text-anchor="end">FMOD</text>
+<rect x="90" y="180" width="150" height="54" fill="rgb(171,212,240)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="212.0" text-anchor="middle" style="fill:#111">47.0%</text>
+<rect x="240" y="180" width="150" height="54" fill="rgb(208,231,248)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="212.0" text-anchor="middle" style="fill:#111">41.8%</text>
+<text class="label" x="78" y="266.0" text-anchor="end">PRELP</text>
+<rect x="90" y="234" width="150" height="54" fill="rgb(216,235,250)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="266.0" text-anchor="middle" style="fill:#111">40.7%</text>
+<rect x="240" y="234" width="150" height="54" fill="rgb(228,241,252)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="266.0" text-anchor="middle" style="fill:#111">38.9%</text>
+<text class="label" x="78" y="320.0" text-anchor="end">EPYC</text>
+<rect x="90" y="288" width="150" height="54" fill="rgb(212,233,249)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="320.0" text-anchor="middle" style="fill:#111">41.2%</text>
+<rect x="240" y="288" width="150" height="54" fill="rgb(232,243,253)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="320.0" text-anchor="middle" style="fill:#111">38.3%</text>
+<text class="label" x="78" y="374.0" text-anchor="end">LUM</text>
+<rect x="90" y="342" width="150" height="54" fill="rgb(192,223,244)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="374.0" text-anchor="middle" style="fill:#111">44.0%</text>
+<rect x="240" y="342" width="150" height="54" fill="rgb(239,247,255)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="374.0" text-anchor="middle" style="fill:#111">37.5%</text>
+<text class="label" x="78" y="428.0" text-anchor="end">OGN</text>
+<rect x="90" y="396" width="150" height="54" fill="rgb(166,209,239)" stroke="#d9d9d9"/>
+<text class="value" x="165.0" y="428.0" text-anchor="middle" style="fill:#111">47.7%</text>
+<rect x="240" y="396" width="150" height="54" fill="rgb(204,229,247)" stroke="#d9d9d9"/>
+<text class="value" x="315.0" y="428.0" text-anchor="middle" style="fill:#111">42.4%</text>
+<text class="label" x="210.0" y="496" text-anchor="middle">Median identity across all species pairs</text>
+</svg>

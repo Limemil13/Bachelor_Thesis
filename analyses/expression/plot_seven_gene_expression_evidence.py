@@ -108,11 +108,6 @@ def main() -> None:
         ha="center",
     )
 
-    fig.suptitle(
-        "Expression evidence for the seven-gene SLRP panel",
-        fontsize=13,
-        y=1.01,
-    )
     fig.tight_layout()
     # Save vector and raster versions for manuscript use and quick viewing.
     FIGURES.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,77 @@
+analysis	role	group	species	accession	length_aa	source	note
+class2	ingroup	FMOD	Amblyraja radiata	XP_032898830.1	355	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin like
+class2	ingroup	LUM	Amblyraja radiata	XP_032893920.1	341	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMODA	Anguilla anguilla	XP_035243873.1	353	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin a
+class2	ingroup	FMOD	Anguilla anguilla	XP_035238988.1	349	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin like
+class2	ingroup	LUM	Anguilla anguilla	XP_035281031.1	345	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUM	Anguilla anguilla	XP_035257928.1	345	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	LUML	Anguilla anguilla	XP_035243872.1	353	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Callorhinchus milii	XP_007897805.1	355	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED fibromodulin
+class2	outgroup	KERA	Callorhinchus milii	XP_007893501.1	343	Gil et al. 2025 Supplementary File 1/Table 1	keratocan
+class2	ingroup	LUM	Callorhinchus milii	XP_007893500.1	340	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Callorhinchus milii	XP_007897807.1	359	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED lumican like
+class2	outgroup	OMD	Callorhinchus milii	NP_001279178.1	361	Gil et al. 2025 Supplementary File 1/Table 1	osteomodulin
+class2	outgroup	PRELP	Callorhinchus milii	XP_007897684.1	376	Gil et al. 2025 Supplementary File 1/Table 1	prolargin
+class2	ingroup	FMOD	Chelonia mydas	XP_007065191.1	376	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Chelonia mydas	XP_007059262.1	348	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMODB	Danio rerio	XP_001338027.1	352	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	FMODA	Danio rerio	NP_001025243.1	342	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin a
+class2	outgroup	KERA	Danio rerio	NP_001020719.1	344	Gil et al. 2025 Supplementary File 1/Table 1	keratocan
+class2	ingroup	LUM	Danio rerio	NP_001002059.1	344	Gil et al. 2025 Supplementary File 1/Table 1	lumican precursor
+class2	ingroup	LUML	Danio rerio	NP_001018560.1	337	Gil et al. 2025 Supplementary File 1/Table 1	uncharacterized protein LOC553753
+class2	outgroup	OMD	Danio rerio	XP_017208890.1	376	Gil et al. 2025 Supplementary File 1/Table 1	osteomodulin
+class2	outgroup	PRELP	Danio rerio	XP_001923590.1	374	Gil et al. 2025 Supplementary File 1/Table 1	prolargin
+class2	ingroup	FMODB	Dicentrarchus labrax	XP_051280808.1	346	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	FMODA	Dicentrarchus labrax	XP_051271947.1	345	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin a
+class2	ingroup	LUM	Dicentrarchus labrax	XP_051248424.1	343	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Dicentrarchus labrax	XP_051271994.1	363	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Erpetoichthys calabaricus	XP_028652501.1	353	Gil et al. 2025 Supplementary File 1/Table 1	LOW QUALITY PROTEIN fibromodulin
+class2	ingroup	LUM	Erpetoichthys calabaricus	XP_028673251.1	342	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Erpetoichthys calabaricus	XP_028652502.1	357	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	FMODB	Gadus morhua	XP_030225694.1	349	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin b
+class2	ingroup	FMODA	Gadus morhua	XP_030231853.1	346	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin a
+class2	ingroup	LUM	Gadus morhua	XP_030197212.1	343	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Gadus morhua	XP_030229515.1	359	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	FMOD	Gallus gallus	NP_990298.1	374	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin precursor
+class2	outgroup	KERA	Gallus gallus	NP_989507.1	353	Gil et al. 2025 Supplementary File 1/Table 1	keratocan
+class2	ingroup	LUM	Gallus gallus	NP_001263286.1	343	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	outgroup	OMD	Gallus gallus	XP_004944561.1	397	Gil et al. 2025 Supplementary File 1/Table 1	osteomodulin
+class2	outgroup	PRELP	Gallus gallus	XP_418054.2	374	Gil et al. 2025 Supplementary File 1/Table 1	prolargin
+class2	ingroup	FMOD	Latimeria chalumnae	XP_006002318.1	351	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin a
+class2	ingroup	LUM	Latimeria chalumnae	XP_006009488.1	345	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Latimeria chalumnae	XP_006002319.1	355	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	FMOD	Lepisosteus oculatus	XP_006628521.1	353	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED fibromodulin
+class2	outgroup	KERA	Lepisosteus oculatus	XP_006633622.2	344	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED keratocan
+class2	ingroup	LUM	Lepisosteus oculatus	XP_015208177.1	343	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED lumican
+class2	ingroup	LUML	Lepisosteus oculatus	XP_006628625.1	357	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED lumican like
+class2	outgroup	OMD	Lepisosteus oculatus	XP_006631164.1	396	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED osteomodulin
+class2	outgroup	PRELP	Lepisosteus oculatus	XP_006628522.1	367	Gil et al. 2025 Supplementary File 1/Table 1	PREDICTED prolargin
+class2	ingroup	SLRP6	Lethenteron reissneri	XP_061428831.1	358	Gil et al. 2025 Supplementary File 1/Table 1	lumican-like
+class2	ingroup	SLRP7	Lethenteron reissneri	XP_061419132.1	359	Gil et al. 2025 Supplementary File 1/Table 1	lumican-like
+class2	ingroup	SLRP8	Lethenteron reissneri	XP_061430347.1	353	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin-like
+class2	ingroup	FMOD	Microcaecilia unicolor	XP_030077695.1	353	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Microcaecilia unicolor	XP_030071080.1	350	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Mus musculus	NP_067330.1	373	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	outgroup	KERA	Mus musculus	NP_032464.1	351	Gil et al. 2025 Supplementary File 1/Table 1	keratocan
+class2	ingroup	LUM	Mus musculus	NP_032550.2	337	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	outgroup	OMD	Mus musculus	NP_001347637.1	397	Gil et al. 2025 Supplementary File 1/Table 1	osteomodulin
+class2	outgroup	PRELP	Mus musculus	AAF72994.2	375	Gil et al. 2025 Supplementary File 1/Table 1	prolargin
+class2	ingroup	SLRP6	Petromyzon marinus	XP_032827494.1	358	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	SLRP7	Petromyzon marinus	XP_032810296.1	359	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	SLRP8	Petromyzon marinus	XP_032828298.1	351	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin like
+class2	ingroup	FMOD	Podarcis muralis	XP_028590011.1	376	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Podarcis muralis	XP_028603658.1	349	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Rhincodon typus	XP_020392147.1	355	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Rhincodon typus	XP_020376149.1	343	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Scyliorhinus canicula	XP_038675392.1	360	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin-like
+class2	ingroup	LUM	Scyliorhinus canicula	XP_038636707.1	339	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMODA	Sparus aurata	XP_030274373.1	349	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin like
+class2	ingroup	FMODB	Sparus aurata	XP_030279158.1	346	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin like
+class2	ingroup	LUM	Sparus aurata	XP_030296608.1	340	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	LUML	Sparus aurata	XP_030274586.1	357	Gil et al. 2025 Supplementary File 1/Table 1	lumican like
+class2	ingroup	FMOD	Tinamus guttatus	XP_010219510.1	374	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Tinamus guttatus	XP_010222555.1	343	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Vombatus ursinus	XP_027727139.1	371	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Vombatus ursinus	XP_027698314.1	340	Gil et al. 2025 Supplementary File 1/Table 1	lumican
+class2	ingroup	FMOD	Xenopus tropicalis	XP_017947022.1	357	Gil et al. 2025 Supplementary File 1/Table 1	fibromodulin
+class2	ingroup	LUM	Xenopus tropicalis	NP_001011006.1	351	Gil et al. 2025 Supplementary File 1/Table 1	lumican

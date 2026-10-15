@@ -1,0 +1,8 @@
+true_gene	tested	correct	accuracy_percent	tested_without_exact_training_duplicate	correct_without_exact_training_duplicate	accuracy_without_exact_training_duplicate_percent
+BGN	12	12	100.0	12	12	100.0
+DCN	15	15	100.0	15	15	100.0
+FMOD	14	14	100.0	14	14	100.0
+PRELP	16	16	100.0	16	16	100.0
+EPYC	15	15	100.0	15	15	100.0
+LUM	15	15	100.0	15	15	100.0
+OGN	14	14	100.0	14	14	100.0

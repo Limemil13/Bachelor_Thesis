@@ -1,0 +1,17 @@
+species	tested	correct	accuracy_percent	tested_without_exact_training_duplicate	correct_without_exact_training_duplicate	accuracy_without_exact_training_duplicate_percent
+anolis_carolinensis	7	7	100.0	7	7	100.0
+bos_taurus	7	7	100.0	7	7	100.0
+callorhinchus_milii	5	5	100.0	5	5	100.0
+canis_lupus_familiaris	7	7	100.0	7	7	100.0
+chicken	6	6	100.0	6	6	100.0
+frog	7	7	100.0	7	7	100.0
+human	7	7	100.0	7	7	100.0
+lamprey	1	1	100.0	1	1	100.0
+latimeria_chalumnae	7	7	100.0	7	7	100.0
+lepisosteus_oculatus	7	7	100.0	7	7	100.0
+monodelphis_domestica	6	6	100.0	6	6	100.0
+mouse	7	7	100.0	7	7	100.0
+rattus_norvegicus	6	6	100.0	6	6	100.0
+scyliorhinus_canicula	7	7	100.0	7	7	100.0
+whale_shark	7	7	100.0	7	7	100.0
+zebrafish	7	7	100.0	7	7	100.0

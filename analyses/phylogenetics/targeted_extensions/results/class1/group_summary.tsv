@@ -1,0 +1,11 @@
+group	tips	mrca_descendants	purity	monophyletic	support_raw	sh_alrt	ufboot	unexpected_groups
+ASPN	15	15	1.000	yes	99.6/100	99.6	100	
+BGN	13	33	0.394	no	97.5/100	97.5	100	ASPN,SLRP2,SLRP3
+DCN	15	15	1.000	yes	69.6/93	69.6	93	
+DCN2	4	4	1.000	yes	100/100	100	100	
+FMOD	14	14	1.000	yes	97.7/91	97.7	91	
+PRELP	16	16	1.000	yes	96.4/100	96.4	100	
+SLRP1	3	3	1.000	yes	93.1/91	93.1	91	
+SLRP2	3	6	0.500	no	98.8/100	98.8	100	BGN,SLRP3
+SLRP3	2	2	1.000	yes	40.1/81	40.1	81	
+SLRP4	3	3	1.000	yes	7.9/40	7.9	40	

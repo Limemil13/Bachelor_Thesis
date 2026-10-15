@@ -1,0 +1,3 @@
+thesis_gene	thesis_species	thesis_accession	published_group	published_species	published_accession	thesis_length_aa	published_length_aa	shared_residues	overlap_identity_percent	length_difference_aa	tree_record	interpretation
+FMOD	zebrafish	XP_073767056.1	FMODB	Danio rerio	XP_001338027.1	362	352	352	100.00	10	FMODB|danio_rerio|XP_001338027.1|Gil2025	same protein core with only inserted residues; one copy retained in tree
+LUM	lamprey	XP_075930353.1	SLRP6	Petromyzon marinus	XP_032827494.1	359	358	358	100.00	1	SLRP6|petromyzon_marinus|XP_032827494.1|Gil2025	same protein core with only inserted residues; one copy retained in tree

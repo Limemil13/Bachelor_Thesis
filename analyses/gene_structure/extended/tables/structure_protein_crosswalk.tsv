@@ -1,0 +1,41 @@
+gene	species	structure_gene_symbol	structure_accession	canonical_accession	accession_relation	aligned_identity_percent	structure_sequence_coverage_percent	canonical_sequence_coverage_percent	orthology_use
+BGN	human	BGN	NP_001702.1	XP_016885213.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+DCN	human	DCN	NP_001911.1	NP_001911.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+EPYC	human	EPYC	NP_004941.2	NP_004941.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+FMOD	human	FMOD	NP_002014.2	XP_047272260.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+LUM	human	LUM	NP_002336.1	NP_002336.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OGN	human	OGN	NP_054776.1	NP_148935.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+OMD	human	OMD	NP_005005.1		context_only_not_in_canonical_panel				structure context only
+PRELP	human	PRELP	NP_002716.1	NP_958505.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+BGN	mouse	Bgn	NP_031568.2	NP_031568.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+DCN	mouse	Dcn	NP_001177380.1	NP_031859.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+EPYC	mouse	Epyc	NP_001366385.1	NP_031910.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+FMOD	mouse	Fmod	NP_067330.1	NP_067330.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+LUM	mouse	Lum	NP_032550.2	NP_032550.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OGN	mouse	Ogn	NP_032786.1	NP_032786.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OMD	mouse	Omd	NP_001347637.1		context_only_not_in_canonical_panel				structure context only
+PRELP	mouse	Prelp	NP_473418.3	XP_006529147.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+BGN	cow	BGN	NP_847888.2	XP_005227715.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+DCN	cow	DCN	NP_776331.2	NP_776331.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+EPYC	cow	EPYC	NP_776732.1	XP_010803061.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+FMOD	cow	FMOD	NP_776483.2	XP_059731202.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+LUM	cow	LUM	NP_776359.1	NP_776359.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OGN	cow	OGN	NP_776371.1	NP_776371.1	exact_accession	99.67	100.00	100.00	compatible with canonical protein panel
+OMD	cow	OMD	NP_776372.1		context_only_not_in_canonical_panel				structure context only
+PRELP	cow	PRELP	NP_776859.1	XP_005216708.2	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+BGN	chicken	BGN	XP_414298.2		excluded_ASPN_like_product				not orthology support
+DCN	chicken	DCN	NP_001025918.2	NP_001025918.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+EPYC	chicken	EPYC	NP_001004382.1	XP_025003921.1	different_accession_same_annotated_gene	100.00	100.00	95.18	compatible with canonical protein panel
+FMOD	chicken	FMOD	NP_990298.2	NP_990298.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+LUM	chicken	LUM	NP_001263286.1	NP_001263286.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OGN	chicken	OGN	NP_989540.1	NP_989540.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OMD	chicken	OMD	XP_004944561.2		context_only_not_in_canonical_panel				structure context only
+PRELP	chicken	PRELP	XP_418054.2	XP_046760117.1	different_accession_same_annotated_gene	100.00	100.00	94.44	compatible with canonical protein panel
+BGN	zebrafish	bgna	NP_001002227.1	NP_001001825.2	different_teleost_coortholog	67.39	99.73	98.40	BGNa structural representative; canonical panel uses BGNb
+DCN	zebrafish	dcn	NP_571772.1	NP_571772.1	exact_accession	99.73	100.00	100.00	compatible with canonical protein panel
+EPYC	zebrafish	epyc	NP_001335412.1	XP_021330689.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+FMOD	zebrafish	fmodb	XP_005167298.1	XP_073767056.1	different_accession_same_annotated_gene	100.00	100.00	100.00	compatible with canonical protein panel
+LUM	zebrafish	lum	NP_001002059.1	NP_001002059.1	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel
+OGN	zebrafish	ogna	NP_001013588.1	NP_001013588.1	exact_accession	99.32	100.00	100.00	compatible with canonical protein panel
+OMD	zebrafish	omd	XP_017208890.1		context_only_not_in_canonical_panel				structure context only
+PRELP	zebrafish	prelp	XP_001923590.2	XP_001923590.2	exact_accession	100.00	100.00	100.00	compatible with canonical protein panel

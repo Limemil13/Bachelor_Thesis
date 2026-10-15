@@ -1,0 +1,8 @@
+metric	value
+tested_proteins	101
+correct_predictions	101
+overall_accuracy_percent	100.0
+proteins_without_exact_training_duplicate	101
+correct_without_exact_training_duplicate	101
+accuracy_without_exact_training_duplicate_percent	100.0
+mast_and_hit_score_predictions_agree	101

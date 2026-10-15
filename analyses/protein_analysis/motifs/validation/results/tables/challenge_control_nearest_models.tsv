@@ -1,0 +1,3 @@
+species	accession	original_target_label	revised_reference_tree_label	nearest_forced_target_model	second_target_model	mast_score_margin	hit_score_nearest_model	scoring_rules_agree	interpretation
+lamprey	XP_075929720.1	BGN	SLRP3-like	BGN	DCN	7.736758565225415	BGN	yes	nearest target model only; control is outside the seven target labels
+lamprey	XP_075930353.1	LUM	SLRP6-like	LUM	FMOD	16.214843848047693	LUM	yes	nearest target model only; control is outside the seven target labels

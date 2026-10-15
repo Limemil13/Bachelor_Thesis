@@ -1,0 +1,4 @@
+subset	groups	selected_tips	mrca_descendants	monophyletic	support_raw	sh_alrt	ufboot	unexpected_groups
+FMOD_ALL	FMOD,FMODA,FMODB,FMODB_CHECK	25	25	yes	99.8/100	99.8	100	
+LUM_ALL	LUM,LUM_CHECK	21	21	yes	99.5/100	99.5	100	
+CLASS2A_TARGET	FMOD,FMODA,FMODB,FMODB_CHECK,LUM,LUML,LUM_CHECK,SLRP6,SLRP7,SLRP8	61	61	yes	26.7/51	26.7	51	

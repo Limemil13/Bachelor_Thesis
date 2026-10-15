@@ -28,6 +28,7 @@ archive/
 data/
 runs/
 results/
+/output/
 
 # Local manuscript, writing notes, and private literature inventory
 thesis/
@@ -136,6 +137,7 @@ analyses/phylogenetics/combined_trees/bgn_fragment_sensitivity/results/*
 !analyses/protein_analysis/targeted_bgn_genome_search/results/
 analyses/protein_analysis/targeted_bgn_genome_search/results/*
 !analyses/protein_analysis/targeted_bgn_genome_search/results/final_interpretation.tsv
+!analyses/protein_analysis/targeted_bgn_genome_search/results/alternative_assembly_database_checks.tsv
 !analyses/protein_analysis/targeted_bgn_genome_search/results/*.candidate_windows.tsv
 !analyses/protein_analysis/targeted_bgn_genome_search/results/*.tblastn.tsv
 !analyses/protein_analysis/targeted_bgn_genome_search/results/*.miniprot.gff

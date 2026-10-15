@@ -1,0 +1,4 @@
+subset	groups	selected_tips	mrca_descendants	monophyletic	support_raw	sh_alrt	ufboot	unexpected_groups
+BGN_ASPN	ASPN,BGN	28	33	no	97.5/100	97.5	100	SLRP2,SLRP3
+DCN1_DCN2	DCN,DCN2	19	19	yes	94/98	94	98	
+CLASS1_TARGET	ASPN,BGN,DCN,DCN2,SLRP1,SLRP2,SLRP3,SLRP4	58	58	yes	59.8/65	59.8	65	

@@ -1,0 +1,554 @@
+IQ-TREE 2.0.7 built Apr  1 2024
+
+Input file name: /mnt/c/Users/emil2/PycharmProjects/Synteny/analyses/phylogenetics/targeted_extensions/results/class2/aligned_trimmed.faa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 76 sequences with 341 amino-acid sites
+Number of constant sites: 19 (= 5.57185% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 19 (= 5.57185% of all sites)
+Number of parsimony informative sites: 311
+Number of distinct site patterns: 328
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: LG+I+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+LG+I+G4          -28431.604   57165.207 - 4.11e-05   57408.085 +    0.989   57743.821 +    0.909
+LG+R5            -28416.831   57147.662 +    0.265   57418.766 -  0.00474   57749.267 +   0.0597
+LG+R4            -28423.443   57156.885 -  0.00264   57418.291 -  0.00602   57750.827 -   0.0274
+LG+R6            -28413.816   57145.633 +    0.732   57426.738 - 8.81e-05   57754.902 -  0.00357
+JTT+R5           -28442.835   57199.669 - 1.35e-12   57470.773 - 2.41e-14   57801.275 - 3.04e-13
+LG+G4            -28466.077   57232.153 - 1.19e-19   57470.574 - 2.67e-14   57806.936 - 1.79e-14
+JTT+I+G4         -28463.497   57228.995 - 5.79e-19   57471.873 - 1.39e-14   57807.609 - 1.28e-14
+JTTDCMut+R5      -28447.390   57208.779 - 1.42e-14   57479.883 - 2.54e-16   57810.385 -  3.2e-15
+JTT+R4           -28454.494   57218.988 - 8.62e-17   57480.393 - 1.97e-16   57812.929 - 8.96e-16
+JTTDCMut+I+G4    -28468.966   57239.932 - 2.44e-21   57482.810 - 5.88e-17   57818.546 -  5.4e-17
+JTTDCMut+R4      -28459.983   57229.966 - 3.56e-19   57491.371 - 8.13e-19   57823.908 -  3.7e-18
+LG+R3            -28512.125   57330.249 - 5.96e-41   57582.249 -  1.5e-38   57916.527 - 2.86e-38
+WAG+R5           -28543.194   57400.387 - 3.51e-56   57671.491 - 6.27e-58   58001.993 -  7.9e-57
+WAG+R4           -28551.216   57412.433 -  8.5e-59   57673.838 - 1.94e-58   58006.375 - 8.83e-58
+WAG+I+G4         -28564.333   57430.665 - 9.34e-63   57673.543 - 2.25e-58   58009.279 - 2.07e-58
+LG+F+I+G4        -28596.155   57532.309 - 7.92e-85   57874.309 - 5.7e-102   58183.729 - 2.72e-96
+LG+F+R5          -28583.260   57518.521 - 7.81e-82   57898.423 - 3.31e-107   58192.932 - 2.73e-98
+LG+F+R4          -28590.787   57529.574 - 3.11e-84   57896.441 - 8.92e-107   58196.321 - 5.01e-99
+VT+I+G4          -28666.441   57634.881 - 4.22e-107   57877.760 - 1.02e-102   58213.496 - 9.34e-103
+VT+R5            -28649.493   57612.987 - 2.4e-102   57884.090 - 4.29e-104   58214.592 - 5.4e-103
+VT+R4            -28657.058   57624.117 - 9.18e-105   57885.522 - 2.1e-104   58218.058 - 9.54e-104
+LG+R2            -28670.233   57642.465 - 9.52e-109   57885.343 - 2.29e-104   58221.079 - 2.11e-104
+JTT+F+I+G4       -28644.438   57628.876 - 8.5e-106   57970.876 - 6.12e-123   58280.296 - 2.92e-117
+JTT+F+R5         -28630.120   57612.240 - 3.48e-102   57992.142 - 1.48e-127   58286.651 - 1.22e-118
+JTT+F+R4         -28636.355   57620.711 - 5.04e-104   57987.578 - 1.45e-126   58287.458 - 8.12e-119
+JTTDCMut+F+I+G4  -28656.042   57652.084 - 7.76e-111   57994.084 - 5.59e-128   58303.504 - 2.66e-122
+JTTDCMut+F+R5    -28641.800   57635.600 - 2.95e-107   58015.502 - 1.25e-132   58310.011 - 1.03e-123
+JTTDCMut+F+R4    -28648.064   57644.128 - 4.15e-109   58010.995 - 1.19e-131   58310.875 - 6.68e-124
+Dayhoff+R5       -28747.404   57808.807 - 7.21e-145   58079.911 - 1.29e-146   58410.413 - 1.62e-145
+Dayhoff+I+G4     -28766.502   57835.005 - 1.48e-150   58077.883 - 3.55e-146   58413.619 - 3.27e-146
+Dayhoff+R4       -28756.257   57822.514 - 7.61e-148   58083.920 - 1.74e-147   58416.456 - 7.91e-147
+DCMut+R5         -28750.568   57815.137 - 3.04e-146   58086.241 - 5.44e-148   58416.742 - 6.85e-147
+DCMut+I+G4       -28769.618   57841.235 - 6.55e-152   58084.113 - 1.58e-147   58419.849 - 1.45e-147
+DCMut+R4         -28759.386   57828.772 - 3.33e-149   58090.177 - 7.6e-149   58422.713 - 3.46e-148
+cpREV+R5         -28755.347   57824.695 - 2.56e-148   58095.798 - 4.57e-150   58426.300 - 5.76e-149
+cpREV+R4         -28772.568   57855.137 - 6.27e-155   58116.542 - 1.43e-154   58449.079 - 6.52e-154
+cpREV+I+G4       -28785.150   57872.300 - 1.18e-158   58115.179 - 2.83e-154   58450.915 - 2.6e-154
+rtREV+R5         -28773.628   57861.257 - 2.94e-156   58132.361 - 5.26e-158   58462.862 - 6.62e-157
+rtREV+I+G4       -28794.213   57890.427 - 1.36e-162   58133.305 - 3.28e-158   58469.041 - 3.01e-158
+rtREV+R4         -28784.916   57879.833 - 2.72e-160   58141.238 - 6.21e-160   58473.774 - 2.83e-159
+WAG+F+R5         -28744.044   57840.088 - 1.16e-151   58219.990 - 4.92e-177   58514.499 - 4.06e-168
+WAG+F+I+G4       -28768.725   57877.450 - 8.96e-160   58219.450 - 6.45e-177   58528.870 - 3.07e-171
+WAG+F+R4         -28760.082   57868.163 - 9.31e-158   58235.031 - 2.67e-180   58534.911 - 1.5e-172
+mtInv+F+R5       -28768.462   57888.924 - 2.89e-162   58268.827 - 1.22e-187   58563.336 - 1.01e-178
+mtInv+F+I+G4     -28795.341   57930.683 - 2.47e-171   58272.683 - 1.78e-188   58582.103 - 8.48e-183
+mtInv+F+R4       -28786.935   57921.870 - 2.03e-169   58288.738 - 5.81e-192   58588.618 - 3.26e-184
+rtREV+F+I+G4     -28839.230   58018.461 - 2.15e-190   58360.461 - 1.55e-207   58669.881 - 7.37e-202
+rtREV+F+R5       -28828.450   58008.901 - 2.56e-188   58388.803 - 1.08e-213   58683.312 - 8.93e-205
+rtREV+F+R4       -28834.559   58017.117 - 4.21e-190   58383.985 - 1.21e-212   58683.865 - 6.77e-205
+FLU+R5           -28891.040   58096.081 -   3e-207   58367.185 - 5.36e-209   58697.686 - 6.75e-208
+VT+F+I+G4        -28862.882   58065.763 - 1.15e-200   58407.763 - 8.28e-218   58717.183 - 3.94e-212
+VT+F+R5          -28846.700   58045.401 - 3.04e-196   58425.303 - 1.29e-221   58719.812 - 1.06e-212
+VT+F+R4          -28853.438   58054.876 - 2.66e-198   58421.743 - 7.62e-221   58721.624 - 4.28e-213
+FLU+I+G4         -28924.013   58150.026 - 5.8e-219   58392.904 - 1.4e-214   58728.640 - 1.28e-214
+Dayhoff+F+R5     -28853.639   58059.278 - 2.94e-199   58439.181 - 1.25e-224   58733.690 - 1.03e-215
+FLU+R4           -28916.871   58143.742 - 1.34e-217   58405.147 - 3.06e-217   58737.684 - 1.39e-216
+DCMut+F+R5       -28857.346   58066.691 - 7.23e-201   58446.594 - 3.06e-226   58741.103 - 2.52e-217
+Dayhoff+F+I+G4   -28875.426   58090.851 - 4.1e-206   58432.851 - 2.95e-223   58742.271 - 1.41e-217
+Dayhoff+F+R4     -28865.100   58078.201 - 2.29e-203   58445.068 - 6.57e-226   58744.949 - 3.69e-218
+DCMut+F+I+G4     -28878.644   58097.289 - 1.64e-207   58439.289 - 1.18e-224   58748.709 - 5.63e-219
+DCMut+F+R4       -28868.398   58084.796 - 8.47e-205   58451.663 - 2.43e-227   58751.543 - 1.36e-219
+mtMet+F+R5       -28866.766   58085.532 - 5.86e-205   58465.434 - 2.48e-230   58759.943 - 2.04e-221
+mtMet+F+I+G4     -28890.154   58120.308 - 1.65e-212   58462.308 - 1.19e-229   58771.728 - 5.64e-224
+mtMet+F+R4       -28884.773   58117.545 - 6.55e-212   58484.413 - 1.88e-234   58784.293 - 1.05e-226
+FLU+F+R5         -28915.334   58182.668 - 4.73e-226   58562.570 -   2e-251   58857.079 - 1.65e-242
+FLU+F+I+G4       -28937.747   58215.493 - 3.53e-233   58557.493 - 2.54e-250   58866.913 - 1.21e-244
+Blosum62+R4      -28988.961   58287.922 - 6.6e-249   58549.327 - 1.51e-248   58881.864 - 6.85e-248
+Blosum62+R5      -28984.232   58282.464 - 1.01e-247   58553.568 - 1.81e-249   58884.069 - 2.28e-248
+Blosum62+I+G4    -29001.763   58305.527 - 9.92e-253   58548.405 - 2.39e-248   58884.141 - 2.19e-248
+FLU+F+R4         -28939.212   58226.423 - 1.49e-235   58593.291 - 4.28e-258   58893.171 - 2.4e-250
+PMB+R5           -28990.247   58294.495 - 2.47e-250   58565.599 - 4.41e-252   58896.101 - 5.55e-251
+PMB+R4           -28996.133   58302.267 - 5.07e-252   58563.672 - 1.16e-251   58896.208 - 5.26e-251
+PMB+I+G4         -29009.682   58321.363 - 3.61e-256   58564.242 - 8.69e-252   58899.978 - 7.99e-252
+HIVb+R5          -29000.920   58315.841 - 5.71e-255   58586.945 - 1.02e-256   58917.446 - 1.29e-255
+HIVb+I+G4        -29030.484   58362.968 - 3.34e-265   58605.846 - 8.03e-261   58941.582 - 7.38e-261
+HIVb+R4          -29024.044   58358.087 - 3.83e-264   58619.493 - 8.74e-264   58952.029 - 3.98e-263
+mtZOA+F+R5       -29015.182   58382.365 - 2.05e-269   58762.267 - 8.68e-295   59056.776 - 7.15e-286
+mtZOA+F+I+G4     -29044.569   58429.137 - 1.43e-279   58771.137 - 1.03e-296   59080.557 - 4.9e-291
+mtZOA+F+R4       -29038.601   58425.203 - 1.02e-278   58792.070 - 2.93e-301   59091.951 - 1.65e-293
+Blosum62+F+I+G4  -29113.713   58567.425 - 1.34e-309   58909.425 -        0   59218.845 - 4.58e-321
+Blosum62+F+R4    -29103.614   58555.228 - 5.95e-307   58922.096 -        0   59221.976 - 9.58e-322
+Blosum62+F+R5    -29098.671   58549.342 - 1.13e-305   58929.244 -        0   59223.753 - 3.95e-322
+cpREV+F+R5       -29133.860   58619.720 - 5.89e-321   58999.622 -        0   59294.131 -        0
+cpREV+F+R4       -29151.154   58650.308 -        0   59017.175 -        0   59317.055 -        0
+cpREV+F+I+G4     -29164.016   58668.033 -        0   59010.033 -        0   59319.453 -        0
+HIVb+F+R5        -29177.222   58706.444 -        0   59086.347 -        0   59380.855 -        0
+HIVb+F+I+G4      -29195.459   58730.917 -        0   59072.917 -        0   59382.337 -        0
+PMB+F+I+G4       -29211.599   58763.198 -        0   59105.198 -        0   59414.618 -        0
+PMB+F+R5         -29194.343   58740.686 -        0   59120.588 -        0   59415.097 -        0
+PMB+F+R4         -29200.524   58749.047 -        0   59115.915 -        0   59415.795 -        0
+HIVb+F+R4        -29201.219   58750.438 -        0   59117.305 -        0   59417.186 -        0
+mtZOA+R5         -29255.639   58825.278 -        0   59096.381 -        0   59426.883 -        0
+mtZOA+I+G4       -29287.168   58876.336 -        0   59119.215 -        0   59454.951 -        0
+mtVer+F+R5       -29218.691   58789.383 -        0   59169.285 -        0   59463.794 -        0
+mtVer+F+I+G4     -29240.541   58821.083 -        0   59163.083 -        0   59472.503 -        0
+mtVer+F+R4       -29235.190   58818.380 -        0   59185.248 -        0   59485.128 -        0
+mtZOA+R4         -29297.203   58904.405 -        0   59165.811 -        0   59498.347 -        0
+mtREV+F+R5       -29358.239   59068.478 -        0   59448.381 -        0   59742.890 -        0
+mtREV+F+I+G4     -29379.371   59098.742 -        0   59440.742 -        0   59750.162 -        0
+mtREV+F+R4       -29374.850   59097.700 -        0   59464.568 -        0   59764.448 -        0
+LG+I             -29506.865   59313.730 -        0   59552.151 -        0   59888.512 -        0
+mtMet+R5         -29498.661   59311.323 -        0   59582.427 -        0   59912.928 -        0
+mtMet+I+G4       -29529.865   59361.731 -        0   59604.609 -        0   59940.345 -        0
+mtMet+R4         -29530.311   59370.622 -        0   59632.028 -        0   59964.564 -        0
+mtART+F+R5       -29493.971   59339.942 -        0   59719.844 -        0   60014.353 -        0
+mtART+F+I+G4     -29519.567   59379.134 -        0   59721.134 -        0   60030.554 -        0
+mtART+F+R4       -29523.413   59394.826 -        0   59761.694 -        0   60061.574 -        0
+mtVer+R5         -29605.158   59524.315 -        0   59795.419 -        0   60125.921 -        0
+mtVer+I+G4       -29629.389   59560.779 -        0   59803.657 -        0   60139.393 -        0
+mtVer+R4         -29636.742   59583.483 -        0   59844.889 -        0   60177.425 -        0
+mtMAM+F+I+G4     -29630.695   59601.390 -        0   59943.390 -        0   60252.810 -        0
+mtMAM+F+R5       -29616.448   59584.897 -        0   59964.799 -        0   60259.308 -        0
+mtMAM+F+R4       -29634.590   59617.179 -        0   59984.047 -        0   60283.927 -        0
+mtREV+R5         -29694.381   59702.762 -        0   59973.866 -        0   60304.368 -        0
+mtREV+I+G4       -29720.197   59742.395 -        0   59985.273 -        0   60321.009 -        0
+mtREV+R4         -29715.403   59740.806 -        0   60002.212 -        0   60334.748 -        0
+mtInv+R5         -29716.990   59747.980 -        0   60019.084 -        0   60349.586 -        0
+mtInv+I+G4       -29752.113   59806.227 -        0   60049.105 -        0   60384.841 -        0
+mtInv+R4         -29747.608   59805.216 -        0   60066.622 -        0   60399.158 -        0
+LG               -29850.606   59999.212 -        0   60233.243 -        0   60570.162 -        0
+HIVw+F+R5        -29864.790   60081.579 -        0   60461.482 -        0   60755.991 -        0
+HIVw+F+I+G4      -29882.637   60105.274 -        0   60447.274 -        0   60756.694 -        0
+HIVw+F+R4        -29876.330   60100.660 -        0   60467.527 -        0   60767.408 -        0
+mtART+R5         -29997.907   60309.814 -        0   60580.918 -        0   60911.420 -        0
+mtART+I+G4       -30032.473   60366.946 -        0   60609.824 -        0   60945.560 -        0
+mtART+R4         -30047.469   60404.938 -        0   60666.344 -        0   60998.880 -        0
+HIVw+R5          -30061.609   60437.218 -        0   60708.321 -        0   61038.823 -        0
+mtMAM+R5         -30071.279   60456.557 -        0   60727.661 -        0   61058.163 -        0
+HIVw+I+G4        -30089.420   60480.839 -        0   60723.718 -        0   61059.454 -        0
+HIVw+R4          -30082.761   60475.521 -        0   60736.927 -        0   61069.463 -        0
+mtMAM+I+G4       -30106.566   60515.132 -        0   60758.011 -        0   61093.747 -        0
+mtMAM+R4         -30108.895   60527.790 -        0   60789.196 -        0   61121.732 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+I+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.0523
+Gamma shape alpha: 1.3601
+
+ Category  Relative_rate  Proportion
+  0         0              0.0523
+  1         0.2141         0.2369
+  2         0.5946         0.2369
+  3         1.0985         0.2369
+  4         2.3136         0.2369
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -28429.3947 (s.e. 882.7462)
+Unconstrained log-likelihood (without tree): -1959.8995
+Number of free parameters (#branches + #model parameters): 151
+Akaike information criterion (AIC) score: 57160.7894
+Corrected Akaike information criterion (AICc) score: 57403.6677
+Bayesian information criterion (BIC) score: 57739.4036
+
+Total tree length (sum of branch lengths): 24.3591
+Sum of internal branch lengths: 10.5574 (43.3408% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'FMOD|amblyraja_radiata|XP_032898830.1|Gil2025' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-----------FMOD|amblyraja_radiata|XP_032898830.1|Gil2025
+|
+|                    +-----LUM|amblyraja_radiata|XP_032893920.1|Gil2025
+|                 +--| (98.4/100)
+|                 |  |  +----LUM|rhincodon_typus|XP_020376149.1|Gil2025
+|                 |  +--| (2.8/54)
+|                 |     +--LUM|scyliorhinus_canicula|XP_038636707.1|Gil2025
+|              +--| (99.4/100)
+|              |  +-----LUM|callorhinchus_milii|XP_007893500.1|Gil2025
+|          +---| (99.5/100)
+|          |   |                +-------LUM|anguilla_anguilla|XP_035281031.1|Gil2025
+|          |   |             +--| (85.5/97)
+|          |   |             |  +----LUM|anguilla_anguilla|XP_035257928.1|Gil2025
+|          |   |        +----| (99.9/100)
+|          |   |        |    |  +-------LUM|danio_rerio|NP_001002059.1|Gil2025
+|          |   |        |    +--| (96.9/100)
+|          |   |        |       |     +--LUM|dicentrarchus_labrax|XP_051248424.1|Gil2025
+|          |   |        |       |  +--| (34.2/93)
+|          |   |        |       |  |  +--LUM|sparus_aurata|XP_030296608.1|Gil2025
+|          |   |        |       +--| (99.6/100)
+|          |   |        |          +----LUM|gadus_morhua|XP_030197212.1|Gil2025
+|          |   |     +--| (69.7/90)
+|          |   |     |  +--LUM|lepisosteus_oculatus|XP_015208177.1|Gil2025
+|          |   |  +--| (97.2/100)
+|          |   |  |  +---LUM|erpetoichthys_calabaricus|XP_028673251.1|Gil2025
+|          |   +--| (98.3/100)
+|          |      |                 +--LUM|chelonia_mydas|XP_007059262.1|Gil2025
+|          |      |              +--| (93.9/98)
+|          |      |              |  |  +--LUM|gallus_gallus|NP_001263286.1|Gil2025
+|          |      |              |  +--| (97.1/100)
+|          |      |              |     +--LUM|tinamus_guttatus|XP_010222555.1|Gil2025
+|          |      |           +--| (27.6/78)
+|          |      |           |  +---LUM|podarcis_muralis|XP_028603658.1|Gil2025
+|          |      |        +--| (91.4/96)
+|          |      |        |  |    +---LUM|mus_musculus|NP_032550.2|Gil2025
+|          |      |        |  +----| (99.9/100)
+|          |      |        |       +--LUM|vombatus_ursinus|XP_027698314.1|Gil2025
+|          |      |  +-----| (100/100)
+|          |      |  |     |  +-----LUM|microcaecilia_unicolor|XP_030071080.1|Gil2025
+|          |      |  |     +--| (18.2/69)
+|          |      |  |        +----LUM|xenopus_tropicalis|NP_001011006.1|Gil2025
+|          |      +--| (89.5/98)
+|          |         +----LUM|latimeria_chalumnae|XP_006009488.1|Gil2025
+|      +---| (99.3/100)
+|      |   |                             +-------LUML|anguilla_anguilla|XP_035243872.1|Gil2025
+|      |   |                         +---| (99.1/100)
+|      |   |                         |   |  +------LUML|danio_rerio|NP_001018560.1|Gil2025
+|      |   |                         |   +--| (60.3/96)
+|      |   |                         |      |       +--LUML|dicentrarchus_labrax|XP_051271994.1|Gil2025
+|      |   |                         |      |    +--| (82.7/99)
+|      |   |                         |      |    |  +--LUML|sparus_aurata|XP_030274586.1|Gil2025
+|      |   |                         |      +----| (99.9/100)
+|      |   |                         |           +-----------LUML|gadus_morhua|XP_030229515.1|Gil2025
+|      |   |                      +--| (40.5/76)
+|      |   |                      |  +-----LUML|lepisosteus_oculatus|XP_006628625.1|Gil2025
+|      |   |                   +--| (90.6/97)
+|      |   |                   |  +--------LUML|erpetoichthys_calabaricus|XP_028652502.1|Gil2025
+|      |   |                +--| (92/98)
+|      |   |                |  +-----------LUML|latimeria_chalumnae|XP_006002319.1|Gil2025
+|      |   |          +-----| (97.9/99)
+|      |   |          |     +-------------LUML|callorhinchus_milii|XP_007897807.1|Gil2025
+|      |   |     +----| (98.4/99)
+|      |   |     |    |                   +--SLRP7|lethenteron_reissneri|XP_061419132.1|Gil2025
+|      |   |     |    +-------------------| (100/100)
+|      |   |     |                        +--SLRP7|petromyzon_marinus|XP_032810296.1|Gil2025
+|      |   |  +--| (26.7/51)
+|      |   |  |  |                   +------KERA|callorhinchus_milii|XP_007893501.1|Gil2025
+|      |   |  |  |                +--| (96/99)
+|      |   |  |  |                |  |         +---------KERA|danio_rerio|NP_001020719.1|Gil2025
+|      |   |  |  |                |  |  +------| (100/100)
+|      |   |  |  |                |  |  |      +---KERA|lepisosteus_oculatus|XP_006633622.2|Gil2025
+|      |   |  |  |                |  +--| (88.5/97)
+|      |   |  |  |                |     |   +---KERA|gallus_gallus|NP_989507.1|Gil2025
+|      |   |  |  |                |     +---| (98.2/100)
+|      |   |  |  |                |         +--------KERA|mus_musculus|NP_032464.1|Gil2025
+|      |   |  |  |         +------| (99.5/100)
+|      |   |  |  |         |      |      +------PRELP|callorhinchus_milii|XP_007897684.1|Gil2025
+|      |   |  |  |         |      +------| (99.9/100)
+|      |   |  |  |         |             |     +------PRELP|danio_rerio|XP_001923590.1|Gil2025
+|      |   |  |  |         |             |  +--| (98.9/100)
+|      |   |  |  |         |             |  |  +--PRELP|lepisosteus_oculatus|XP_006628522.1|Gil2025
+|      |   |  |  |         |             +--| (96.3/100)
+|      |   |  |  |         |                |  +--PRELP|gallus_gallus|XP_418054.2|Gil2025
+|      |   |  |  |         |                +--| (98.4/100)
+|      |   |  |  |         |                   +-----PRELP|mus_musculus|AAF72994.2|Gil2025
+|      |   |  |  +---------| (99.6/100)
+|      |   |  |            |                +---------OMD|callorhinchus_milii|NP_001279178.1|Gil2025
+|      |   |  |            |             +--| (89.5/99)
+|      |   |  |            |             |  |   +--------OMD|danio_rerio|XP_017208890.1|Gil2025
+|      |   |  |            |             |  +---| (98.6/100)
+|      |   |  |            |             |      +---OMD|lepisosteus_oculatus|XP_006631164.1|Gil2025
+|      |   |  |            +-------------| (100/100)
+|      |   |  |                          |  +------OMD|gallus_gallus|XP_004944561.1|Gil2025
+|      |   |  |                          +--| (88.2/92)
+|      |   |  |                             +-------OMD|mus_musculus|NP_001347637.1|Gil2025
+|      |   +--| (89.4/86)
+|      |      |              +--SLRP6|lethenteron_reissneri|XP_061428831.1|Gil2025
+|      |      |  +-----------| (100/100)
+|      |      |  |           +**SLRP6|petromyzon_marinus|XP_032827494.1|Gil2025
+|      |      +--| (74.8/73)
+|      |         |                            +--SLRP8|lethenteron_reissneri|XP_061430347.1|Gil2025
+|      |         +----------------------------| (100/100)
+|      |                                      +--SLRP8|petromyzon_marinus|XP_032828298.1|Gil2025
+|  +---| (99.8/100)
+|  |   |                    +-----FMODA|anguilla_anguilla|XP_035243873.1|Gil2025
+|  |   |                 +--| (32.7/80)
+|  |   |                 |  +----FMODA|danio_rerio|NP_001025243.1|Gil2025
+|  |   |              +--| (91.9/96)
+|  |   |              |  |       +--FMODA|dicentrarchus_labrax|XP_051271947.1|Gil2025
+|  |   |              |  |    +--| (99.2/100)
+|  |   |              |  |    |  +--FMODA|sparus_aurata|XP_030274373.1|Gil2025
+|  |   |              |  +----| (100/100)
+|  |   |              |       +----FMODA|gadus_morhua|XP_030231853.1|Gil2025
+|  |   |           +--| (85.2/95)
+|  |   |           |  +--------FMOD|anguilla_anguilla|XP_035238988.1|Gil2025
+|  |   |        +--| (97.8/100)
+|  |   |        |  |  +----------FMODB|danio_rerio|XP_001338027.1|Gil2025
+|  |   |        |  +--| (98.2/100)
+|  |   |        |     |      +--FMODB|dicentrarchus_labrax|XP_051280808.1|Gil2025
+|  |   |        |     |   +--| (99.4/100)
+|  |   |        |     |   |  +--FMODB|sparus_aurata|XP_030279158.1|Gil2025
+|  |   |        |     +---| (99.3/100)
+|  |   |        |         +-----FMODB|gadus_morhua|XP_030225694.1|Gil2025
+|  |   |     +--| (93.9/99)
+|  |   |     |  +------FMOD|lepisosteus_oculatus|XP_006628521.1|Gil2025
+|  |   |  +--| (97.8/100)
+|  |   |  |  +-----FMOD|erpetoichthys_calabaricus|XP_028652501.1|Gil2025
+|  |   +--| (99.4/99)
+|  |      |            +--FMOD|chelonia_mydas|XP_007065191.1|Gil2025
+|  |      |         +--| (99.9/100)
+|  |      |         |  |     +--FMOD|gallus_gallus|NP_990298.1|Gil2025
+|  |      |         |  |  +--| (99.7/100)
+|  |      |         |  |  |  +--FMOD|tinamus_guttatus|XP_010219510.1|Gil2025
+|  |      |         |  +--| (66.7/95)
+|  |      |         |     +--FMOD|podarcis_muralis|XP_028590011.1|Gil2025
+|  |      |      +--| (98.8/100)
+|  |      |      |  |  +--FMOD|mus_musculus|NP_067330.1|Gil2025
+|  |      |      |  +--| (99.8/100)
+|  |      |      |     +--FMOD|vombatus_ursinus|XP_027727139.1|Gil2025
+|  |      |  +---| (99.9/100)
+|  |      |  |   |  +------FMOD|microcaecilia_unicolor|XP_030077695.1|Gil2025
+|  |      |  |   +--| (85.5/98)
+|  |      |  |      +--------FMOD|xenopus_tropicalis|XP_017947022.1|Gil2025
+|  |      +--| (87.1/96)
+|  |         +----FMOD|latimeria_chalumnae|XP_006002318.1|Gil2025
++--| (84.7/95)
+|  +-----FMOD|callorhinchus_milii|XP_007897805.1|Gil2025
+|
+|  +--FMOD|rhincodon_typus|XP_020392147.1|Gil2025
++--| (95.6/100)
+   +--FMOD|scyliorhinus_canicula|XP_038675392.1|Gil2025
+
+Tree in newick format:
+
+(FMOD|amblyraja_radiata|XP_032898830.1|Gil2025:0.4174521123,((((((LUM|amblyraja_radiata|XP_032893920.1|Gil2025:0.2314646939,(LUM|rhincodon_typus|XP_020376149.1|Gil2025:0.2020151420,LUM|scyliorhinus_canicula|XP_038636707.1|Gil2025:0.1357029289)2.8/54:0.0715142903)98.4/100:0.1129081151,LUM|callorhinchus_milii|XP_007893500.1|Gil2025:0.2126298819)99.4/100:0.1243171242,(((((LUM|anguilla_anguilla|XP_035281031.1|Gil2025:0.2887386367,LUM|anguilla_anguilla|XP_035257928.1|Gil2025:0.1836368884)85.5/97:0.0534021250,(LUM|danio_rerio|NP_001002059.1|Gil2025:0.2885681890,((LUM|dicentrarchus_labrax|XP_051248424.1|Gil2025:0.0294596544,LUM|sparus_aurata|XP_030296608.1|Gil2025:0.0894005794)34.2/93:0.0438760001,LUM|gadus_morhua|XP_030197212.1|Gil2025:0.1739858242)99.6/100:0.1238352388)96.9/100:0.0861839015)99.9/100:0.1746915345,LUM|lepisosteus_oculatus|XP_015208177.1|Gil2025:0.1101813495)69.7/90:0.0679931522,LUM|erpetoichthys_calabaricus|XP_028673251.1|Gil2025:0.1695568213)97.2/100:0.0744304493,(((((LUM|chelonia_mydas|XP_007059262.1|Gil2025:0.0971624954,(LUM|gallus_gallus|NP_001263286.1|Gil2025:0.0104159765,LUM|tinamus_guttatus|XP_010222555.1|Gil2025:0.0292064672)97.1/100:0.0387712403)93.9/98:0.0430608043,LUM|podarcis_muralis|XP_028603658.1|Gil2025:0.1444555532)27.6/78:0.0388599428,(LUM|mus_musculus|NP_032550.2|Gil2025:0.1657523951,LUM|vombatus_ursinus|XP_027698314.1|Gil2025:0.1356861798)99.9/100:0.1967648695)91.4/96:0.0699849247,(LUM|microcaecilia_unicolor|XP_030071080.1|Gil2025:0.2299721324,LUM|xenopus_tropicalis|NP_001011006.1|Gil2025:0.2037072000)18.2/69:0.0686922228)100/100:0.2152071768,LUM|latimeria_chalumnae|XP_006009488.1|Gil2025:0.1950794936)89.5/98:0.0561868878)98.3/100:0.0972597769)99.5/100:0.1686357817,((((((((LUML|anguilla_anguilla|XP_035243872.1|Gil2025:0.2937040328,(LUML|danio_rerio|NP_001018560.1|Gil2025:0.2560262174,((LUML|dicentrarchus_labrax|XP_051271994.1|Gil2025:0.0782422988,LUML|sparus_aurata|XP_030274586.1|Gil2025:0.0615149278)82.7/99:0.1175405384,LUML|gadus_morhua|XP_030229515.1|Gil2025:0.4414080017)99.9/100:0.1895779058)60.3/96:0.0491683912)99.1/100:0.1688181326,LUML|lepisosteus_oculatus|XP_006628625.1|Gil2025:0.2371575111)40.5/76:0.0563925001,LUML|erpetoichthys_calabaricus|XP_028652502.1|Gil2025:0.3420937931)90.6/97:0.1002168457,LUML|latimeria_chalumnae|XP_006002319.1|Gil2025:0.4144412878)92/98:0.1033162658,LUML|callorhinchus_milii|XP_007897807.1|Gil2025:0.4847671222)97.9/99:0.2212091200,(SLRP7|lethenteron_reissneri|XP_061419132.1|Gil2025:0.0422720533,SLRP7|petromyzon_marinus|XP_032810296.1|Gil2025:0.0260700786)100/100:0.6921429475)98.4/99:0.1850483743,(((KERA|callorhinchus_milii|XP_007893501.1|Gil2025:0.2407698449,((KERA|danio_rerio|NP_001020719.1|Gil2025:0.3594669961,KERA|lepisosteus_oculatus|XP_006633622.2|Gil2025:0.1410033099)100/100:0.2733403043,(KERA|gallus_gallus|NP_989507.1|Gil2025:0.1594281537,KERA|mus_musculus|NP_032464.1|Gil2025:0.3195864391)98.2/100:0.1413350833)88.5/97:0.0580545544)96/99:0.1226044369,(PRELP|callorhinchus_milii|XP_007897684.1|Gil2025:0.2580104394,((PRELP|danio_rerio|XP_001923590.1|Gil2025:0.2544923791,PRELP|lepisosteus_oculatus|XP_006628522.1|Gil2025:0.1173660016)98.9/100:0.1245377327,(PRELP|gallus_gallus|XP_418054.2|Gil2025:0.0681978394,PRELP|mus_musculus|AAF72994.2|Gil2025:0.2124437527)98.4/100:0.1248618932)96.3/100:0.1307250407)99.9/100:0.2410743437)99.5/100:0.2482050020,((OMD|callorhinchus_milii|NP_001279178.1|Gil2025:0.3590072962,(OMD|danio_rerio|XP_017208890.1|Gil2025:0.3399679163,OMD|lepisosteus_oculatus|XP_006631164.1|Gil2025:0.1623956549)98.6/100:0.1486731493)89.5/99:0.0997969566,(OMD|gallus_gallus|XP_004944561.1|Gil2025:0.2454121970,OMD|mus_musculus|NP_001347637.1|Gil2025:0.2760041014)88.2/92:0.1201352877)100/100:0.5073532428)99.6/100:0.3669771372)26.7/51:0.0589395629,((SLRP6|lethenteron_reissneri|XP_061428831.1|Gil2025:0.0292197837,SLRP6|petromyzon_marinus|XP_032827494.1|Gil2025:0.0000022263)100/100:0.4308716107,(SLRP8|lethenteron_reissneri|XP_061430347.1|Gil2025:0.0343243833,SLRP8|petromyzon_marinus|XP_032828298.1|Gil2025:0.0078253120)100/100:1.0065514550)74.8/73:0.1361768119)89.4/86:0.1009480995)99.3/100:0.1546955919,(((((((FMODA|anguilla_anguilla|XP_035243873.1|Gil2025:0.2239411008,FMODA|danio_rerio|NP_001025243.1|Gil2025:0.2026322612)32.7/80:0.0265158234,((FMODA|dicentrarchus_labrax|XP_051271947.1|Gil2025:0.0469471892,FMODA|sparus_aurata|XP_030274373.1|Gil2025:0.0957531670)99.2/100:0.0912335659,FMODA|gadus_morhua|XP_030231853.1|Gil2025:0.1763785817)100/100:0.1990003458)91.9/96:0.0733578816,FMOD|anguilla_anguilla|XP_035238988.1|Gil2025:0.3402092559)85.2/95:0.0575385259,(FMODB|danio_rerio|XP_001338027.1|Gil2025:0.3904355481,((FMODB|dicentrarchus_labrax|XP_051280808.1|Gil2025:0.0674594200,FMODB|sparus_aurata|XP_030279158.1|Gil2025:0.0713888992)99.4/100:0.1033365269,FMODB|gadus_morhua|XP_030225694.1|Gil2025:0.2300953687)99.3/100:0.1393301077)98.2/100:0.1131764657)97.8/100:0.1071127751,FMOD|lepisosteus_oculatus|XP_006628521.1|Gil2025:0.2437124099)93.9/99:0.0811181594,FMOD|erpetoichthys_calabaricus|XP_028652501.1|Gil2025:0.2207776713)97.8/100:0.0878155095,((((FMOD|chelonia_mydas|XP_007065191.1|Gil2025:0.0606205574,((FMOD|gallus_gallus|NP_990298.1|Gil2025:0.0428716988,FMOD|tinamus_guttatus|XP_010219510.1|Gil2025:0.0255987922)99.7/100:0.0738615161,FMOD|podarcis_muralis|XP_028590011.1|Gil2025:0.1153504056)66.7/95:0.0333321696)99.9/100:0.1203187242,(FMOD|mus_musculus|NP_067330.1|Gil2025:0.0234317157,FMOD|vombatus_ursinus|XP_027727139.1|Gil2025:0.0592984750)99.8/100:0.1247426084)98.8/100:0.0872656561,(FMOD|microcaecilia_unicolor|XP_030077695.1|Gil2025:0.2465918928,FMOD|xenopus_tropicalis|XP_017947022.1|Gil2025:0.3370223945)85.5/98:0.0383972276)99.9/100:0.1421754826,FMOD|latimeria_chalumnae|XP_006002318.1|Gil2025:0.1941930026)87.1/96:0.0368389374)99.4/99:0.1220061411)99.8/100:0.1613863321,FMOD|callorhinchus_milii|XP_007897805.1|Gil2025:0.2053923358)84.7/95:0.0623404926,(FMOD|rhincodon_typus|XP_020392147.1|Gil2025:0.0901834787,FMOD|scyliorhinus_canicula|XP_038675392.1|Gil2025:0.0845323286)95.6/100:0.0693765526);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -28429.394247
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-----------FMOD|amblyraja_radiata|XP_032898830.1|Gil2025
+|
+|                    +-----LUM|amblyraja_radiata|XP_032893920.1|Gil2025
+|                 +--| (100)
+|                 |  |  +----LUM|rhincodon_typus|XP_020376149.1|Gil2025
+|                 |  +--| (54)
+|                 |     +--LUM|scyliorhinus_canicula|XP_038636707.1|Gil2025
+|              +--| (100)
+|              |  +-----LUM|callorhinchus_milii|XP_007893500.1|Gil2025
+|          +---| (100)
+|          |   |                +-------LUM|anguilla_anguilla|XP_035281031.1|Gil2025
+|          |   |             +--| (97)
+|          |   |             |  +----LUM|anguilla_anguilla|XP_035257928.1|Gil2025
+|          |   |        +----| (100)
+|          |   |        |    |  +-------LUM|danio_rerio|NP_001002059.1|Gil2025
+|          |   |        |    +--| (100)
+|          |   |        |       |     +--LUM|dicentrarchus_labrax|XP_051248424.1|Gil2025
+|          |   |        |       |  +--| (93)
+|          |   |        |       |  |  +--LUM|sparus_aurata|XP_030296608.1|Gil2025
+|          |   |        |       +--| (100)
+|          |   |        |          +----LUM|gadus_morhua|XP_030197212.1|Gil2025
+|          |   |     +--| (90)
+|          |   |     |  +--LUM|lepisosteus_oculatus|XP_015208177.1|Gil2025
+|          |   |  +--| (100)
+|          |   |  |  +---LUM|erpetoichthys_calabaricus|XP_028673251.1|Gil2025
+|          |   +--| (100)
+|          |      |                 +--LUM|chelonia_mydas|XP_007059262.1|Gil2025
+|          |      |              +--| (98)
+|          |      |              |  |  +--LUM|gallus_gallus|NP_001263286.1|Gil2025
+|          |      |              |  +--| (100)
+|          |      |              |     +--LUM|tinamus_guttatus|XP_010222555.1|Gil2025
+|          |      |           +--| (78)
+|          |      |           |  +---LUM|podarcis_muralis|XP_028603658.1|Gil2025
+|          |      |        +--| (96)
+|          |      |        |  |    +---LUM|mus_musculus|NP_032550.2|Gil2025
+|          |      |        |  +----| (100)
+|          |      |        |       +--LUM|vombatus_ursinus|XP_027698314.1|Gil2025
+|          |      |  +-----| (100)
+|          |      |  |     |  +-----LUM|microcaecilia_unicolor|XP_030071080.1|Gil2025
+|          |      |  |     +--| (69)
+|          |      |  |        +----LUM|xenopus_tropicalis|NP_001011006.1|Gil2025
+|          |      +--| (98)
+|          |         +----LUM|latimeria_chalumnae|XP_006009488.1|Gil2025
+|      +---| (100)
+|      |   |                             +-------LUML|anguilla_anguilla|XP_035243872.1|Gil2025
+|      |   |                         +---| (100)
+|      |   |                         |   |  +------LUML|danio_rerio|NP_001018560.1|Gil2025
+|      |   |                         |   +--| (96)
+|      |   |                         |      |       +--LUML|dicentrarchus_labrax|XP_051271994.1|Gil2025
+|      |   |                         |      |    +--| (99)
+|      |   |                         |      |    |  +--LUML|sparus_aurata|XP_030274586.1|Gil2025
+|      |   |                         |      +----| (100)
+|      |   |                         |           +-----------LUML|gadus_morhua|XP_030229515.1|Gil2025
+|      |   |                      +--| (76)
+|      |   |                      |  +-----LUML|lepisosteus_oculatus|XP_006628625.1|Gil2025
+|      |   |                   +--| (97)
+|      |   |                   |  +--------LUML|erpetoichthys_calabaricus|XP_028652502.1|Gil2025
+|      |   |                +--| (98)
+|      |   |                |  +-----------LUML|latimeria_chalumnae|XP_006002319.1|Gil2025
+|      |   |          +-----| (99)
+|      |   |          |     +-------------LUML|callorhinchus_milii|XP_007897807.1|Gil2025
+|      |   |     +----| (99)
+|      |   |     |    |                   +--SLRP7|lethenteron_reissneri|XP_061419132.1|Gil2025
+|      |   |     |    +-------------------| (100)
+|      |   |     |                        +--SLRP7|petromyzon_marinus|XP_032810296.1|Gil2025
+|      |   |  +--| (51)
+|      |   |  |  |                   +------KERA|callorhinchus_milii|XP_007893501.1|Gil2025
+|      |   |  |  |                +--| (99)
+|      |   |  |  |                |  |         +---------KERA|danio_rerio|NP_001020719.1|Gil2025
+|      |   |  |  |                |  |  +------| (100)
+|      |   |  |  |                |  |  |      +---KERA|lepisosteus_oculatus|XP_006633622.2|Gil2025
+|      |   |  |  |                |  +--| (97)
+|      |   |  |  |                |     |   +---KERA|gallus_gallus|NP_989507.1|Gil2025
+|      |   |  |  |                |     +---| (100)
+|      |   |  |  |                |         +--------KERA|mus_musculus|NP_032464.1|Gil2025
+|      |   |  |  |         +------| (100)
+|      |   |  |  |         |      |      +------PRELP|callorhinchus_milii|XP_007897684.1|Gil2025
+|      |   |  |  |         |      +------| (100)
+|      |   |  |  |         |             |     +------PRELP|danio_rerio|XP_001923590.1|Gil2025
+|      |   |  |  |         |             |  +--| (100)
+|      |   |  |  |         |             |  |  +--PRELP|lepisosteus_oculatus|XP_006628522.1|Gil2025
+|      |   |  |  |         |             +--| (100)
+|      |   |  |  |         |                |  +--PRELP|gallus_gallus|XP_418054.2|Gil2025
+|      |   |  |  |         |                +--| (100)
+|      |   |  |  |         |                   +-----PRELP|mus_musculus|AAF72994.2|Gil2025
+|      |   |  |  +---------| (100)
+|      |   |  |            |                +---------OMD|callorhinchus_milii|NP_001279178.1|Gil2025
+|      |   |  |            |             +--| (99)
+|      |   |  |            |             |  |   +--------OMD|danio_rerio|XP_017208890.1|Gil2025
+|      |   |  |            |             |  +---| (100)
+|      |   |  |            |             |      +---OMD|lepisosteus_oculatus|XP_006631164.1|Gil2025
+|      |   |  |            +-------------| (100)
+|      |   |  |                          |  +------OMD|gallus_gallus|XP_004944561.1|Gil2025
+|      |   |  |                          +--| (92)
+|      |   |  |                             +-------OMD|mus_musculus|NP_001347637.1|Gil2025
+|      |   +--| (86)
+|      |      |              +--SLRP6|lethenteron_reissneri|XP_061428831.1|Gil2025
+|      |      |  +-----------| (100)
+|      |      |  |           +--SLRP6|petromyzon_marinus|XP_032827494.1|Gil2025
+|      |      +--| (73)
+|      |         |                            +--SLRP8|lethenteron_reissneri|XP_061430347.1|Gil2025
+|      |         +----------------------------| (100)
+|      |                                      +--SLRP8|petromyzon_marinus|XP_032828298.1|Gil2025
+|  +---| (100)
+|  |   |                    +-----FMODA|anguilla_anguilla|XP_035243873.1|Gil2025
+|  |   |                 +--| (80)
+|  |   |                 |  +----FMODA|danio_rerio|NP_001025243.1|Gil2025
+|  |   |              +--| (96)
+|  |   |              |  |       +--FMODA|dicentrarchus_labrax|XP_051271947.1|Gil2025
+|  |   |              |  |    +--| (100)
+|  |   |              |  |    |  +--FMODA|sparus_aurata|XP_030274373.1|Gil2025
+|  |   |              |  +----| (100)
+|  |   |              |       +----FMODA|gadus_morhua|XP_030231853.1|Gil2025
+|  |   |           +--| (95)
+|  |   |           |  +--------FMOD|anguilla_anguilla|XP_035238988.1|Gil2025
+|  |   |        +--| (100)
+|  |   |        |  |  +----------FMODB|danio_rerio|XP_001338027.1|Gil2025
+|  |   |        |  +--| (100)
+|  |   |        |     |      +--FMODB|dicentrarchus_labrax|XP_051280808.1|Gil2025
+|  |   |        |     |   +--| (100)
+|  |   |        |     |   |  +--FMODB|sparus_aurata|XP_030279158.1|Gil2025
+|  |   |        |     +---| (100)
+|  |   |        |         +-----FMODB|gadus_morhua|XP_030225694.1|Gil2025
+|  |   |     +--| (99)
+|  |   |     |  +------FMOD|lepisosteus_oculatus|XP_006628521.1|Gil2025
+|  |   |  +--| (100)
+|  |   |  |  +-----FMOD|erpetoichthys_calabaricus|XP_028652501.1|Gil2025
+|  |   +--| (99)
+|  |      |            +--FMOD|chelonia_mydas|XP_007065191.1|Gil2025
+|  |      |         +--| (100)
+|  |      |         |  |     +--FMOD|gallus_gallus|NP_990298.1|Gil2025
+|  |      |         |  |  +--| (100)
+|  |      |         |  |  |  +--FMOD|tinamus_guttatus|XP_010219510.1|Gil2025
+|  |      |         |  +--| (95)
+|  |      |         |     +--FMOD|podarcis_muralis|XP_028590011.1|Gil2025
+|  |      |      +--| (100)
+|  |      |      |  |  +--FMOD|mus_musculus|NP_067330.1|Gil2025
+|  |      |      |  +--| (100)
+|  |      |      |     +--FMOD|vombatus_ursinus|XP_027727139.1|Gil2025
+|  |      |  +---| (100)
+|  |      |  |   |  +------FMOD|microcaecilia_unicolor|XP_030077695.1|Gil2025
+|  |      |  |   +--| (98)
+|  |      |  |      +--------FMOD|xenopus_tropicalis|XP_017947022.1|Gil2025
+|  |      +--| (96)
+|  |         +----FMOD|latimeria_chalumnae|XP_006002318.1|Gil2025
++--| (95)
+|  +-----FMOD|callorhinchus_milii|XP_007897805.1|Gil2025
+|
+|  +--FMOD|rhincodon_typus|XP_020392147.1|Gil2025
++--| (100)
+   +--FMOD|scyliorhinus_canicula|XP_038675392.1|Gil2025
+
+
+Consensus tree in newick format: 
+
+(FMOD|amblyraja_radiata|XP_032898830.1|Gil2025:0.4177744551,((((((LUM|amblyraja_radiata|XP_032893920.1|Gil2025:0.2316734380,(LUM|rhincodon_typus|XP_020376149.1|Gil2025:0.2021581273,LUM|scyliorhinus_canicula|XP_038636707.1|Gil2025:0.1358279188)54:0.0715580546)100:0.1129727105,LUM|callorhinchus_milii|XP_007893500.1|Gil2025:0.2128082248)100:0.1244165599,(((((LUM|anguilla_anguilla|XP_035281031.1|Gil2025:0.2889721992,LUM|anguilla_anguilla|XP_035257928.1|Gil2025:0.1837981184)97:0.0534135717,(LUM|danio_rerio|NP_001002059.1|Gil2025:0.2888068096,((LUM|dicentrarchus_labrax|XP_051248424.1|Gil2025:0.0294685294,LUM|sparus_aurata|XP_030296608.1|Gil2025:0.0894737049)93:0.0439078819,LUM|gadus_morhua|XP_030197212.1|Gil2025:0.1741070290)100:0.1239484795)100:0.0862189063)100:0.1748412374,LUM|lepisosteus_oculatus|XP_015208177.1|Gil2025:0.1102645504)90:0.0680288705,LUM|erpetoichthys_calabaricus|XP_028673251.1|Gil2025:0.1697086483)100:0.0744597394,(((((LUM|chelonia_mydas|XP_007059262.1|Gil2025:0.0972315591,(LUM|gallus_gallus|NP_001263286.1|Gil2025:0.0104208911,LUM|tinamus_guttatus|XP_010222555.1|Gil2025:0.0292282776)100:0.0387958627)98:0.0430917915,LUM|podarcis_muralis|XP_028603658.1|Gil2025:0.1445488012)78:0.0388918738,(LUM|mus_musculus|NP_032550.2|Gil2025:0.1658505316,LUM|vombatus_ursinus|XP_027698314.1|Gil2025:0.1357996167)100:0.1968784326)96:0.0700311932,(LUM|microcaecilia_unicolor|XP_030071080.1|Gil2025:0.2301283770,LUM|xenopus_tropicalis|NP_001011006.1|Gil2025:0.2038614557)69:0.0687171353)100:0.2153678153,LUM|latimeria_chalumnae|XP_006009488.1|Gil2025:0.1952322995)98:0.0562126661)100:0.0973414337)100:0.1687748964,((((((((LUML|anguilla_anguilla|XP_035243872.1|Gil2025:0.2940512511,(LUML|danio_rerio|NP_001018560.1|Gil2025:0.2563097948,((LUML|dicentrarchus_labrax|XP_051271994.1|Gil2025:0.0782741675,LUML|sparus_aurata|XP_030274586.1|Gil2025:0.0616084259)99:0.1175509277,LUML|gadus_morhua|XP_030229515.1|Gil2025:0.4419450344)100:0.1898326837)96:0.0491945507)100:0.1689747159,LUML|lepisosteus_oculatus|XP_006628625.1|Gil2025:0.2374368754)76:0.0563914419,LUML|erpetoichthys_calabaricus|XP_028652502.1|Gil2025:0.3424985924)97:0.1003042495,LUML|latimeria_chalumnae|XP_006002319.1|Gil2025:0.4149375983)98:0.1034162615,LUML|callorhinchus_milii|XP_007897807.1|Gil2025:0.4852758408)99:0.2213778564,(SLRP7|lethenteron_reissneri|XP_061419132.1|Gil2025:0.0422913591,SLRP7|petromyzon_marinus|XP_032810296.1|Gil2025:0.0261069390)100:0.6929770991)99:0.1852759260,(((KERA|callorhinchus_milii|XP_007893501.1|Gil2025:0.2409923904,((KERA|danio_rerio|NP_001020719.1|Gil2025:0.3597607105,KERA|lepisosteus_oculatus|XP_006633622.2|Gil2025:0.1411546642)100:0.2735532886,(KERA|gallus_gallus|NP_989507.1|Gil2025:0.1595311245,KERA|mus_musculus|NP_032464.1|Gil2025:0.3199027013)100:0.1414598636)97:0.0580861187)99:0.1226723364,(PRELP|callorhinchus_milii|XP_007897684.1|Gil2025:0.2582046379,((PRELP|danio_rerio|XP_001923590.1|Gil2025:0.2547088722,PRELP|lepisosteus_oculatus|XP_006628522.1|Gil2025:0.1174697995)100:0.1246230837,(PRELP|gallus_gallus|XP_418054.2|Gil2025:0.0682244004,PRELP|mus_musculus|AAF72994.2|Gil2025:0.2126503864)100:0.1250003080)100:0.1308506430)100:0.2412960418)100:0.2484856009,((OMD|callorhinchus_milii|NP_001279178.1|Gil2025:0.3593429592,(OMD|danio_rerio|XP_017208890.1|Gil2025:0.3402636632,OMD|lepisosteus_oculatus|XP_006631164.1|Gil2025:0.1625870798)100:0.1487851120)99:0.0999378374,(OMD|gallus_gallus|XP_004944561.1|Gil2025:0.2456141915,OMD|mus_musculus|NP_001347637.1|Gil2025:0.2762910570)92:0.1201418487)100:0.5078878944)100:0.3672858398)51:0.0590102923,((SLRP6|lethenteron_reissneri|XP_061428831.1|Gil2025:0.0292437071,SLRP6|petromyzon_marinus|XP_032827494.1|Gil2025:0.0000020737)100:0.4313618714,(SLRP8|lethenteron_reissneri|XP_061430347.1|Gil2025:0.0344841014,SLRP8|petromyzon_marinus|XP_032828298.1|Gil2025:0.0077307759)100:1.0075600890)73:0.1361051828)86:0.1010125023)100:0.1547930797,(((((((FMODA|anguilla_anguilla|XP_035243873.1|Gil2025:0.2240595585,FMODA|danio_rerio|NP_001025243.1|Gil2025:0.2027548429)80:0.0265250117,((FMODA|dicentrarchus_labrax|XP_051271947.1|Gil2025:0.0469666598,FMODA|sparus_aurata|XP_030274373.1|Gil2025:0.0958077320)100:0.0912891590,FMODA|gadus_morhua|XP_030231853.1|Gil2025:0.1764684490)100:0.1991107225)96:0.0734026995,FMOD|anguilla_anguilla|XP_035238988.1|Gil2025:0.3404198559)95:0.0575594618,(FMODB|danio_rerio|XP_001338027.1|Gil2025:0.3906893624,((FMODB|dicentrarchus_labrax|XP_051280808.1|Gil2025:0.0674862897,FMODB|sparus_aurata|XP_030279158.1|Gil2025:0.0714388007)100:0.1034012736,FMODB|gadus_morhua|XP_030225694.1|Gil2025:0.2302275439)100:0.1394168288)100:0.1132246869)100:0.1071685674,FMOD|lepisosteus_oculatus|XP_006628521.1|Gil2025:0.2438730919)99:0.0811418352,FMOD|erpetoichthys_calabaricus|XP_028652501.1|Gil2025:0.2209153266)100:0.0878738951,((((FMOD|chelonia_mydas|XP_007065191.1|Gil2025:0.0606615365,((FMOD|gallus_gallus|NP_990298.1|Gil2025:0.0428959727,FMOD|tinamus_guttatus|XP_010219510.1|Gil2025:0.0256140817)100:0.0739095705,FMOD|podarcis_muralis|XP_028590011.1|Gil2025:0.1154243271)95:0.0333427656)100:0.1203958886,(FMOD|mus_musculus|NP_067330.1|Gil2025:0.0234270690,FMOD|vombatus_ursinus|XP_027727139.1|Gil2025:0.0593484768)100:0.1248210999)100:0.0873186343,(FMOD|microcaecilia_unicolor|XP_030077695.1|Gil2025:0.2467708336,FMOD|xenopus_tropicalis|XP_017947022.1|Gil2025:0.3372546017)98:0.0383788187)100:0.1422603502,FMOD|latimeria_chalumnae|XP_006002318.1|Gil2025:0.1943204766)96:0.0368460562)99:0.1220991450)100:0.1614742398,FMOD|callorhinchus_milii|XP_007897805.1|Gil2025:0.2055387774)95:0.0623821859,(FMOD|rhincodon_typus|XP_020392147.1|Gil2025:0.0902381135,FMOD|scyliorhinus_canicula|XP_038675392.1|Gil2025:0.0845878004)100:0.0694077055);
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct 14 02:03:22 2026
+Total CPU time used: 213.957528 seconds (0h:3m:33s)
+Total wall-clock time used: 55.74677232 seconds (0h:0m:55s)
+

@@ -1,0 +1,92 @@
+analysis	role	group	species	accession	database_annotation	clade
+class1	ingroup_extension	Dcn2	Amblyraja radiata	XP_032898829.1	decorin like	2
+class2	ingroup	Fmod	Amblyraja radiata	XP_032898830.1	fibromodulin like	3
+class2	ingroup	Lum	Amblyraja radiata	XP_032893920.1	lumican	3
+class2	ingroup	Fmoda	Anguilla anguilla	XP_035243873.1	fibromodulin a	3
+class2	ingroup	Fmod	Anguilla anguilla	XP_035238988.1	fibromodulin like	3
+class2	ingroup	Lum	Anguilla anguilla	XP_035281031.1	lumican	3
+class2	ingroup	Lum	Anguilla anguilla	XP_035257928.1	lumican like	3
+class2	ingroup	LumL	Anguilla anguilla	XP_035243872.1	lumican	3
+class1	ingroup_extension	Dcn2	Callorhinchus milii	XP_007897806.1	PREDICTED decorin like	2
+class2	ingroup	Fmod	Callorhinchus milii	XP_007897805.1	PREDICTED fibromodulin	3
+class2	outgroup	Kera	Callorhinchus milii	XP_007893501.1	keratocan	3
+class2	ingroup	Lum	Callorhinchus milii	XP_007893500.1	lumican	3
+class2	ingroup	LumL	Callorhinchus milii	XP_007897807.1	PREDICTED lumican like	3
+class2	outgroup	Omd	Callorhinchus milii	NP_001279178.1	osteomodulin	3
+class2	outgroup	Prelp	Callorhinchus milii	XP_007897684.1	prolargin	3
+class2	ingroup	Fmod	Chelonia mydas	XP_007065191.1	fibromodulin	3
+class2	ingroup	Lum	Chelonia mydas	XP_007059262.1	lumican	3
+class2	ingroup	Fmodb	Danio rerio	XP_001338027.1	fibromodulin	3
+class2	ingroup	Fmoda	Danio rerio	NP_001025243.1	fibromodulin a	3
+class2	outgroup	Kera	Danio rerio	NP_001020719.1	keratocan	3
+class2	ingroup	Lum	Danio rerio	NP_001002059.1	lumican precursor	3
+class2	ingroup	LumL	Danio rerio	NP_001018560.1	uncharacterized protein LOC553753	3
+class2	outgroup	Omd	Danio rerio	XP_017208890.1	osteomodulin	3
+class2	outgroup	Prelp	Danio rerio	XP_001923590.1	prolargin	3
+class2	ingroup	Fmodb	Dicentrarchus labrax	XP_051280808.1	fibromodulin	3
+class2	ingroup	Fmoda	Dicentrarchus labrax	XP_051271947.1	fibromodulin a	3
+class2	ingroup	Lum	Dicentrarchus labrax	XP_051248424.1	lumican	3
+class2	ingroup	LumL	Dicentrarchus labrax	XP_051271994.1	lumican	3
+class2	ingroup	Fmod	Erpetoichthys calabaricus	XP_028652501.1	LOW QUALITY PROTEIN fibromodulin	3
+class2	ingroup	Lum	Erpetoichthys calabaricus	XP_028673251.1	lumican	3
+class2	ingroup	LumL	Erpetoichthys calabaricus	XP_028652502.1	lumican like	3
+class2	ingroup	Fmodb	Gadus morhua	XP_030225694.1	fibromodulin b	3
+class2	ingroup	Fmoda	Gadus morhua	XP_030231853.1	fibromodulin a	3
+class2	ingroup	Lum	Gadus morhua	XP_030197212.1	lumican	3
+class2	ingroup	LumL	Gadus morhua	XP_030229515.1	lumican like	3
+class2	ingroup	Fmod	Gallus gallus	NP_990298.1	fibromodulin precursor	3
+class2	outgroup	Kera	Gallus gallus	NP_989507.1	keratocan	3
+class2	ingroup	Lum	Gallus gallus	NP_001263286.1	lumican	3
+class2	outgroup	Omd	Gallus gallus	XP_004944561.1	osteomodulin	3
+class2	outgroup	Prelp	Gallus gallus	XP_418054.2	prolargin	3
+class2	ingroup	Fmod	Latimeria chalumnae	XP_006002318.1	fibromodulin a	3
+class2	ingroup	Lum	Latimeria chalumnae	XP_006009488.1	lumican	3
+class2	ingroup	LumL	Latimeria chalumnae	XP_006002319.1	fibromodulin	3
+class2	ingroup	Fmod	Lepisosteus oculatus	XP_006628521.1	PREDICTED fibromodulin	3
+class2	outgroup	Kera	Lepisosteus oculatus	XP_006633622.2	PREDICTED keratocan	3
+class2	ingroup	Lum	Lepisosteus oculatus	XP_015208177.1	PREDICTED lumican	3
+class2	ingroup	LumL	Lepisosteus oculatus	XP_006628625.1	PREDICTED lumican like	3
+class2	outgroup	Omd	Lepisosteus oculatus	XP_006631164.1	PREDICTED osteomodulin	3
+class2	outgroup	Prelp	Lepisosteus oculatus	XP_006628522.1	PREDICTED prolargin	3
+class1	ingroup_extension	LrSLRP1	Lethenteron reissneri	XP_061430361.1	decorin-like	2
+class1	ingroup_extension	LrSLRP2	Lethenteron reissneri	XP_061408061.1	biglycan-like	2
+class1	ingroup_extension	LrSLRP3	Lethenteron reissneri	XP_061430080.1	biglycan-like	2
+class1	ingroup_extension	LrSLRP4	Lethenteron reissneri	XP_061423313.1	decorin-like	2
+class2	ingroup	LrSLRP6	Lethenteron reissneri	XP_061428831.1	lumican-like	3
+class2	ingroup	LrSLRP7	Lethenteron reissneri	XP_061419132.1	lumican-like	3
+class2	ingroup	LrSLRP8	Lethenteron reissneri	XP_061430347.1	fibromodulin-like	3
+class2	ingroup	Fmod	Microcaecilia unicolor	XP_030077695.1	fibromodulin	3
+class2	ingroup	Lum	Microcaecilia unicolor	XP_030071080.1	lumican	3
+class2	ingroup	Fmod	Mus musculus	NP_067330.1	fibromodulin	3
+class2	outgroup	Kera	Mus musculus	NP_032464.1	keratocan	3
+class2	ingroup	Lum	Mus musculus	NP_032550.2	lumican	3
+class2	outgroup	Omd	Mus musculus	NP_001347637.1	osteomodulin	3
+class2	outgroup	Prelp	Mus musculus	AAF72994.2	prolargin	3
+class1	ingroup_extension	MgSLRP1	Myxine glutinosa	XP_067969034.1	decorin-like	2
+class1	ingroup_extension	MgSLRP2/3	Myxine glutinosa	XP_067970261.1	biglycan-like	2
+class1	ingroup_extension	MgSLRP4	Myxine glutinosa	XP_067992239.1	decorin	2
+class1	ingroup_extension	PmSLRP1	Petromyzon marinus	XP_032835975.1	decorin like	2
+class1	ingroup_extension	PmSLRP2	Petromyzon marinus	XP_032822259.1	biglycan	2
+class1	ingroup_extension	PmSLRP3	Petromyzon marinus	XP_032825676.1	biglycan	2
+class1	ingroup_extension	PmSLRP4	Petromyzon marinus	XP_032819472.1	decorin like	2
+class2	ingroup	PmSLRP6	Petromyzon marinus	XP_032827494.1	lumican like	3
+class2	ingroup	PmSLRP7	Petromyzon marinus	XP_032810296.1	lumican like	3
+class2	ingroup	PmSLRP8	Petromyzon marinus	XP_032828298.1	fibromodulin like	3
+class2	ingroup	Fmod	Podarcis muralis	XP_028590011.1	fibromodulin	3
+class2	ingroup	Lum	Podarcis muralis	XP_028603658.1	lumican	3
+class1	ingroup_extension	Dcn2	Rhincodon typus	XP_020391537.1	decorin like	2
+class2	ingroup	Fmod	Rhincodon typus	XP_020392147.1	fibromodulin	3
+class2	ingroup	Lum	Rhincodon typus	XP_020376149.1	lumican	3
+class1	ingroup_extension	Dcn2	Scyliorhinus canicula	XP_038675395.1	decorin-like	2
+class2	ingroup	Fmod	Scyliorhinus canicula	XP_038675392.1	fibromodulin-like	3
+class2	ingroup	Lum	Scyliorhinus canicula	XP_038636707.1	lumican	3
+class2	ingroup	Fmoda	Sparus aurata	XP_030274373.1	fibromodulin like	3
+class2	ingroup	Fmodb	Sparus aurata	XP_030279158.1	fibromodulin like	3
+class2	ingroup	Lum	Sparus aurata	XP_030296608.1	lumican	3
+class2	ingroup	LumL	Sparus aurata	XP_030274586.1	lumican like	3
+class2	ingroup	Fmod	Tinamus guttatus	XP_010219510.1	fibromodulin	3
+class2	ingroup	Lum	Tinamus guttatus	XP_010222555.1	lumican	3
+class2	ingroup	Fmod	Vombatus ursinus	XP_027727139.1	fibromodulin	3
+class2	ingroup	Lum	Vombatus ursinus	XP_027698314.1	lumican	3
+class2	ingroup	Fmod	Xenopus tropicalis	XP_017947022.1	fibromodulin	3
+class2	ingroup	Lum	Xenopus tropicalis	NP_001011006.1	lumican	3

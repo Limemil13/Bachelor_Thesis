@@ -15,7 +15,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.colors import LinearSegmentedColormap, ListedColormap
-from matplotlib.patches import FancyBboxPatch
+from matplotlib.lines import Line2D
+from matplotlib.patches import FancyBboxPatch, Rectangle
 
 ROOT = Path(__file__).resolve().parents[3]
 GENES = ["BGN", "DCN", "FMOD", "PRELP", "EPYC", "LUM", "OGN"]
@@ -236,78 +237,130 @@ def build_gene_structure_summary() -> pd.DataFrame:
 
 def plot_gene_structure() -> None:
     # Compare gene spans, coding-exon counts and protein lengths across species.
+    # Species are categorical, so points are not connected by lines.
     all_reps = read_tsv(
         "analyses/gene_structure/tables/gene_structure_representative_5species.tsv"
     )
     reps, excluded = orthology_supported_structure_rows(all_reps)
     gene_order = [g for g in GENES + ["OMD"] if g in set(reps["query_gene"])]
     species_order = ["human", "mouse", "cow", "chicken", "zebrafish"]
+    species_labels = [
+        r"$H.\ sapiens$",
+        r"$M.\ musculus$",
+        r"$B.\ taurus$",
+        r"$G.\ gallus$",
+        r"$D.\ rerio$",
+    ]
 
     fig, axes = plt.subplots(
-        1, 3, figsize=(16, 6), gridspec_kw={"width_ratios": [1.1, 1, 1]}
+        1, 3, figsize=(16, 6.2), gridspec_kw={"width_ratios": [1.15, 1, 1]}
     )
     exon = reps.pivot(
         index="query_gene", columns="species_or_file", values="cds_exon_count"
     ).reindex(index=gene_order, columns=species_order)
-    exon_values = exon.to_numpy(dtype=float)
-    exon_cmap = LinearSegmentedColormap.from_list("exons", ["#F3F7FB", "#4C78A8"])
-    exon_cmap.set_bad("#D9D9D9")
-    axes[0].imshow(np.ma.masked_invalid(exon_values), cmap=exon_cmap, aspect="auto")
+    for row, gene in enumerate(gene_order):
+        for column, species in enumerate(species_order):
+            value = exon.loc[gene, species]
+            excluded_bgn = gene == "BGN" and species == "chicken"
+            face = (
+                "#E3E3E3"
+                if excluded_bgn
+                else ("#FAFAFA" if row % 2 == 0 else "#F2F2F2")
+            )
+            axes[0].add_patch(
+                Rectangle(
+                    (column - 0.5, row - 0.5),
+                    1,
+                    1,
+                    facecolor=face,
+                    edgecolor="white",
+                    linewidth=1.5,
+                )
+            )
+            label = (
+                "ASPN-like"
+                if excluded_bgn
+                else ("--" if pd.isna(value) else str(int(value)))
+            )
+            axes[0].text(column, row, label, ha="center", va="center", fontsize=11)
+    axes[0].set_xlim(-0.5, len(species_order) - 0.5)
+    axes[0].set_ylim(len(gene_order) - 0.5, -0.5)
     axes[0].set_xticks(
-        range(len(species_order)), species_order, rotation=35, ha="right"
+        range(len(species_order)), species_labels, rotation=30, ha="right"
     )
     axes[0].set_yticks(range(len(gene_order)), gene_order)
-    for i in range(exon_values.shape[0]):
-        for j in range(exon_values.shape[1]):
-            label = "excluded" if np.isnan(exon_values[i, j]) else f"{exon_values[i, j]:.0f}"
-            axes[0].text(j, i, label, ha="center", va="center", fontsize=8)
-    axes[0].set_title("A  Coding-exon count")
-    axes[0].set_xlabel("")
-    axes[0].set_ylabel("")
+    axes[0].set_title("A  Coding-exon number", fontsize=13)
+    axes[0].tick_params(axis="both", labelsize=11)
+    axes[0].tick_params(length=0)
+    for spine in axes[0].spines.values():
+        spine.set_visible(False)
 
-    for gene in gene_order:
+    x = np.arange(len(species_order), dtype=float)
+    offsets = np.linspace(-0.24, 0.24, len(gene_order))
+    for gene_index, gene in enumerate(gene_order):
         sub = (
             reps[reps["query_gene"].eq(gene)]
             .set_index("species_or_file")
             .reindex(species_order)
         )
-        axes[1].plot(
-            species_order,
+        point_x = x + offsets[gene_index]
+        axes[1].scatter(
+            point_x,
             sub["protein_length_est_aa"],
-            marker="o",
-            linewidth=2,
-            label=gene,
+            s=52,
             color=COLORS[gene],
+            edgecolor="white",
+            linewidth=0.6,
+            zorder=3,
         )
-        axes[2].plot(
-            species_order,
+        axes[2].scatter(
+            point_x,
             sub["gene_span_bp"],
-            marker="o",
-            linewidth=2,
-            label=gene,
+            s=52,
             color=COLORS[gene],
+            edgecolor="white",
+            linewidth=0.6,
+            zorder=3,
         )
-    axes[1].set_title("B  Estimated protein length")
-    axes[1].set_ylabel("Amino acids")
-    axes[2].set_title("C  Genomic gene span")
-    axes[2].set_ylabel("Base pairs (log scale)")
+    axes[1].set_title("B  Protein length", fontsize=13)
+    axes[1].set_ylabel("Amino acids", fontsize=11)
+    axes[2].set_title("C  Gene span", fontsize=13)
+    axes[2].set_ylabel("Base pairs (log scale)", fontsize=11)
     axes[2].set_yscale("log")
     for ax in axes[1:]:
-        ax.tick_params(axis="x", rotation=35)
+        ax.set_xticks(x, species_labels, rotation=30, ha="right")
+        ax.tick_params(axis="both", labelsize=11)
         ax.grid(axis="y", alpha=0.25)
-    axes[2].legend(ncol=2, fontsize=8, frameon=False)
-    fig.suptitle(
-        "Orthology-supported gene structures conserve coding-exon number while locus span varies",
-        fontsize=15,
-        y=1.02,
+        ax.set_axisbelow(True)
+
+    handles = [
+        Line2D(
+            [0],
+            [0],
+            marker="o",
+            linestyle="none",
+            markersize=7,
+            markerfacecolor=COLORS[gene],
+            markeredgecolor="white",
+            label=gene,
+        )
+        for gene in gene_order
+    ]
+    fig.legend(
+        handles=handles,
+        loc="lower center",
+        bbox_to_anchor=(0.5, 0.025),
+        ncol=len(gene_order),
+        frameon=False,
     )
     fig.text(
         0.5,
-        -0.02,
-        "Representative protein-coding transcripts; chicken BGN excluded because its translated product is ASPN-like",
+        0.005,
+        "Selected protein-coding transcripts; OMD is shown for context and the chicken BGN-labelled model is ASPN-like.",
         ha="center",
-        fontsize=9,
+        fontsize=10,
     )
+    fig.tight_layout(rect=(0, 0.10, 1, 0.99))
     save_figure(
         fig,
         ROOT / "analyses/gene_structure/figures/gene_structure_conservation_overview",
@@ -347,53 +400,91 @@ def plot_protein_overview() -> None:
 
     fig, axes = plt.subplots(2, 2, figsize=(14, 10))
     colors = [COLORS[g] for g in GENES]
-    axes[0, 0].bar(
+    identity_bars = axes[0, 0].bar(
         GENES, summary["Mean within-gene pairwise identity percent"], color=colors
     )
+    axes[0, 0].bar_label(identity_bars, fmt="%.1f", padding=3, fontsize=8)
     axes[0, 0].set_ylim(0, 80)
     axes[0, 0].set_ylabel("Mean pairwise identity (%)")
-    axes[0, 0].set_title("A  Cross-species MSA identity")
+    axes[0, 0].set_title("A  Mean pairwise sequence identity")
 
     x = np.arange(len(GENES))
     width = 0.36
-    axes[0, 1].bar(
+    occupancy_bars = axes[0, 1].bar(
         x - width / 2,
         msa["mean_alignment_column_occupancy_percent"],
         width,
-        label="Column occupancy",
+        label="Mean column occupancy",
         color="#72B7B2",
     )
-    axes[0, 1].bar(
+    conservation_bars = axes[0, 1].bar(
         x + width / 2,
         msa["mean_modal_conservation_high_occupancy_percent"],
         width,
-        label="Modal conservation",
+        label="Modal residue conservation",
         color="#4C78A8",
     )
+    axes[0, 1].bar_label(occupancy_bars, fmt="%.1f", padding=3, fontsize=8)
+    axes[0, 1].bar_label(conservation_bars, fmt="%.1f", padding=3, fontsize=8)
     axes[0, 1].set_xticks(x, GENES)
     axes[0, 1].set_ylim(0, 100)
     axes[0, 1].set_ylabel("Percent")
-    axes[0, 1].set_title("B  Alignment occupancy and conservation")
-    axes[0, 1].legend(frameon=False)
+    axes[0, 1].set_title("B  Alignment completeness and conserved residues")
+    axes[0, 1].legend(
+        frameon=True, facecolor="white", framealpha=0.9, loc="lower left"
+    )
 
-    bottom = np.zeros(len(GENES))
+    left = np.zeros(len(GENES))
     status_colors = {
-        "Supported": "#59A14F",
+        "Supported": "#4C78A8",
         "Watch": "#F2CF5B",
         "Needs inspection": "#E15759",
     }
+    status_labels = {
+        "Supported": "No QC flag",
+        "Watch": "Minor QC flag",
+        "Needs inspection": "Major QC flag",
+    }
+    y = np.arange(len(GENES))
     for status in qc_statuses:
         if not qc[status].sum():
             continue
         values = qc[status].to_numpy()
-        axes[1, 0].bar(
-            GENES, values, bottom=bottom, color=status_colors[status], label=status
+        bars = axes[1, 0].barh(
+            y,
+            values,
+            left=left,
+            color=status_colors[status],
+            label=status_labels[status],
         )
-        bottom += values
-    axes[1, 0].set_ylabel("Proteins")
-    axes[1, 0].set_title("C  Integrated protein-QC calls")
-    axes[1, 0].set_ylim(0, max(bottom) * 1.25)
-    axes[1, 0].legend(frameon=False, fontsize=9)
+        for bar, value in zip(bars, values, strict=True):
+            if value:
+                axes[1, 0].text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_y() + bar.get_height() / 2,
+                    str(int(value)),
+                    ha="center",
+                    va="center",
+                    fontsize=9,
+                    fontweight="bold",
+                    color="white" if status != "Watch" else "#333333",
+                )
+        left += values
+    max_gene_count = int(left.max())
+    axes[1, 0].set_yticks(y, GENES)
+    axes[1, 0].invert_yaxis()
+    axes[1, 0].set_ylim(len(GENES) + 1.2, -0.5)
+    axes[1, 0].set_xlim(0, max_gene_count + 1)
+    axes[1, 0].set_xticks(np.arange(0, max_gene_count + 1, 2))
+    axes[1, 0].set_xlabel("Number of proteins")
+    axes[1, 0].set_title("C  Sequence-quality flags by gene")
+    axes[1, 0].legend(
+        frameon=False,
+        fontsize=9,
+        loc="lower center",
+        bbox_to_anchor=(0.5, 0.01),
+        ncol=3,
+    )
 
     domain_pct = percent(summary["SLRP-like domain count"], summary["Protein count"])
     signal_pct = percent(summary["SignalP-positive count"], summary["Protein count"])
@@ -406,33 +497,60 @@ def plot_protein_overview() -> None:
     if pending_counts.sum():
         raise ValueError("The final protein figure requires complete SignalP coverage")
     small_width = 0.32
-    axes[1, 1].bar(
+    domain_bars = axes[1, 1].bar(
         x - small_width / 2,
         domain_pct,
         small_width,
-        label="SLRP-like Pfam",
+        label="SLRP/LRR-family profile",
         color="#B279A2",
     )
-    axes[1, 1].bar(
+    signal_bars = axes[1, 1].bar(
         x + small_width / 2,
         signal_pct,
         small_width,
-        label="SignalP positive",
+        label="Signal peptide",
         color="#54A24B",
     )
+    for bars, numerators in (
+        (domain_bars, summary["SLRP-like domain count"]),
+        (signal_bars, summary["SignalP-positive count"]),
+    ):
+        for bar, numerator, denominator, gene in zip(
+            bars, numerators, summary["Protein count"], GENES, strict=True
+        ):
+            if int(numerator) != int(denominator) and gene != "OGN":
+                axes[1, 1].text(
+                    bar.get_x() + bar.get_width() / 2,
+                    bar.get_height() + 1.2,
+                    f"{int(numerator)}/{int(denominator)}",
+                    ha="center",
+                    va="bottom",
+                    fontsize=8,
+                    fontweight="bold",
+                )
+    ogn_index = GENES.index("OGN")
+    axes[1, 1].text(
+        x[ogn_index],
+        max(domain_pct.iloc[ogn_index], signal_pct.iloc[ogn_index]) + 1.2,
+        "both 13/14",
+        ha="center",
+        va="bottom",
+        fontsize=8,
+        fontweight="bold",
+    )
     axes[1, 1].set_xticks(x, GENES)
-    axes[1, 1].set_ylim(0, 120)
-    axes[1, 1].set_ylabel("Proteins positive (%)")
-    axes[1, 1].set_title("D  Family architecture and secretion")
-    axes[1, 1].legend(frameon=False)
+    axes[1, 1].set_ylim(0, 104)
+    axes[1, 1].set_yticks(np.arange(0, 101, 20))
+    axes[1, 1].set_ylabel("Proteins with feature (%)")
+    axes[1, 1].set_title("D  Family-domain and signal-peptide support")
+    axes[1, 1].legend(
+        frameon=True, facecolor="white", framealpha=0.9, loc="lower left"
+    )
 
     for ax in axes.flat:
         ax.grid(axis="y", alpha=0.25)
-    protein_count = int(summary["Protein count"].sum())
-    fig.suptitle(
-        f"Protein conservation and quality-control overview ({protein_count} canonical proteins)",
-        fontsize=16,
-    )
+    axes[1, 0].grid(axis="x", alpha=0.25)
+    axes[1, 0].grid(axis="y", visible=False)
     fig.tight_layout()
     save_figure(
         fig, ROOT / "analyses/protein_analysis/figures/protein_conservation_overview"
@@ -630,11 +748,6 @@ def plot_synteny() -> None:
     axes[1].set_title("B  Completed integrated locus-review decision")
     axes[1].set_xlabel("")
     axes[1].set_ylabel("")
-    fig.suptitle(
-        "SynVoy overview: seven completed genes across 14 non-human genomes",
-        fontsize=16,
-        y=1.02,
-    )
     fig.text(
         0.5,
         -0.01,

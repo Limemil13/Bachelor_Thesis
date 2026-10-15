@@ -1,0 +1,12 @@
+group	tips	mrca_descendants	purity	monophyletic	support_raw	sh_alrt	ufboot	unexpected_groups
+FMOD	16	25	0.640	no	99.8/100	99.8	100	FMODA,FMODB
+FMODA	5	5	1.000	yes	91.9/96	91.9	96	
+FMODB	4	4	1.000	yes	98.2/100	98.2	100	
+KERA	5	5	1.000	yes	96/99	96	99	
+LUM	21	21	1.000	yes	99.5/100	99.5	100	
+LUML	9	9	1.000	yes	97.9/99	97.9	99	
+OMD	5	5	1.000	yes	100/100	100	100	
+PRELP	5	5	1.000	yes	99.9/100	99.9	100	
+SLRP6	2	2	1.000	yes	100/100	100	100	
+SLRP7	2	2	1.000	yes	100/100	100	100	
+SLRP8	2	2	1.000	yes	100/100	100	100	
