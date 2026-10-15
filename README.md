@@ -60,3 +60,10 @@ The final focused analyses recorded MAFFT 7.505, IQ-TREE 2.0.7 and MEME Suite
 scripts were checked with Python 3.13, Biopython 1.87, pandas 3.0.1, NumPy
 2.4.2 and Matplotlib 3.10.8. Analysis-specific parameters are kept in the
 corresponding scripts and IQ-TREE reports.
+
+## AI use
+
+AI was used in several steps throughout this thesis, tools such as Chat.gpt, Perplexity, Copilot were used.
+AI was used to help assist programming steps, such as writing, debugging and improving scripts.
+AI was used to help translate language, correct language and assist with text structure.
+AI was used to help understand methods, literature and their biological meaning.
